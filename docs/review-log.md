@@ -1,0 +1,460 @@
+# Review-Log (Reviews A und B vom 18.10.2026)
+
+Quellen: `99 Arbeitsdateien/Website/R_SiteReviewA.md` (A, F-1 … F-22) und `R_SiteReviewB.md` (B, F1 … F23). Jeder Eigentümer führt einen eigenen Abschnitt. Status: **FIXED** = umgesetzt · **PARTLY** = teilweise umgesetzt, Grund angegeben · **REJECTED** = nicht umgesetzt, Grund angegeben · **FORWARDED** = gehört einem anderen Eigentümer · **OWNER** = Entscheidung des Eigentümers.
+
+## Content (content/*.md, de.json, rules.json, letters.json, Abschnitt Content in sources.md)
+
+Funde, die beide Reviewer genannt haben, wurden nach Vorgabe von Main umgesetzt. Funde, die nur ein Reviewer genannt hat, wurden erst nach eigenem Öffnen der Quelle umgesetzt (Nachweis in `docs/sources.md`, Abschnitt „Content – Nachträge nach den Reviews“).
+
+| Fund | Thema | Status | Was / Grund |
+|---|---|---|---|
+| A F-1 / B F2 | Geltungsbereich (Sozialwohnung, § 549, einseitige Erhöhungen, Mietspiegel-Ausnahmen) | FIXED | Neuer Abschnitt „Gilt diese Seite für Ihren Brief?“ in mieterhoehung.md. Kurzbox oben in pruefen.md, brief.md und rechner.md (Mietspiegel-Ausnahmen nach Nr. 3). Hinweis in _index.md. Neue Schlüssel `rules.scope` und `rules.json` `scope`. Erster Satz „darf die Miete nicht einfach selbst erhöhen“ auf § 558 beschränkt. Ablehnungs-Risiko in letters.json eingeschränkt („Das gilt nicht bei Modernisierung …“). Quellen: § 558 Abs. 2 S. 2, § 549 Abs. 2 und 3 BGB, MS 2026 Nr. 3. Die Ja/Nein-Abfrage im Prüfer ist UI (Frontend). |
+| A F-2 / B F4 | Zahltermin im Brief früher als vom Vermieter verlangt | FIXED | Neue Ausgabe `pay_from` (Frontend). In rules.json: Regel `pay_from` und Tests t22, t23, t24, t25. Hilfetext `letters.fields.effective_help` neu. Zustimmungstext nennt das Datum ausdrücklich. |
+| A F-3 / B F11 | Kappungsgrenze aus heutiger Miete; Feldtext „Erhöhungstermin“ | FIXED | Text für Feld und Hilfe neu, mit {date3y}. Neue Befunde `need_rent_3y` und `no_last_change` mit Text. `within_limits` umbenannt in „Nach Ihren Angaben keine Grenze überschritten“, mit Hinweis „keine Garantie“. Neue Regel `base_date` und Test t24/t25. Die Logik liegt bei Frontend. |
+| A F-4 | 11 % in drei Jahren für landeseigene Unternehmen (LWU) | FIXED (bestätigt) | Bündnis-Vereinbarung vom 15.07.2025 (S. 5) und Pressemitteilung selbst geöffnet: Die LWU senken die Kappungsgrenze von 15 % auf 11 %, für die Laufzeit der Kooperationsvereinbarung. mieterhoehung.md, `rules.lwu`, rules.json `lwu.cap_rate_3y` = 0,11 mit Quelle. Alte Notiz „Bündnistext 2022 …“ entfernt. Neuer Befund `over_lwu` mit Text. Tests t26 und t27. SGB-II/XII-Satz ergänzt. |
+| A F-5 / B F18 | Zustimmungsbrief ohne Zahlen; Freitext als Gegenangebot | FIXED | `zustimmung` verlangt jetzt current_rent, new_rent und effective. Text: „Ich stimme der Erhöhung der monatlichen Nettokaltmiete von {current_rent} auf {new_rent} zu … Weitere Änderungen des Mietvertrags sind mit dieser Zustimmung nicht verbunden.“ Derselbe Satz steht in `teilzustimmung`. Die Hilfe zu own_text warnt vor Bedingungen und Gegenangebot. Warnung zum Vermieter-Formular steht in brief.md und mieterhoehung.md. Hinweis auf Brutto- und Inklusivmiete im Erklärtext. Die Prüfung der Beträge macht Frontend. B wollte „Miete“ statt „Nettokaltmiete“: abgelehnt. Begründung: Die Website rechnet durchgehend mit der Nettokaltmiete. Stattdessen der Hinweis, sich bei Bruttomiete beraten zu lassen. |
+| A F-6 / B F6 | Warnungen vor Zustimmung bei kritischen Befunden | FIXED (Text) / FORWARDED (UI) | brief.md: „Hat die Prüfung ein Problem gezeigt … stimmen Sie nicht zu, bevor Sie sich beraten lassen haben.“ Dasselbe in den `risks` beider Zustimmungsbriefe. Die Gefahren-Box aus den Befunden zeigt Frontend. |
+| B F5 | Nach Zustimmung keine Mietpreisbremse gegen die neue Miete (BGH VIII ZR 300/21) | FIXED (bestätigt) | Volltext des amtlichen PDFs gelesen (Leitsätze, Rn. 13 und 32). Steht in mieterhoehung.md, mietpreisbremse.md (Punkt 4), brief.md, `rules.consent_binding`, `rules.mietpreisbremse_after_consent` und den Risiken von zustimmung und teilzustimmung. Wortlaut „grundsätzlich“ wie in Rn. 32. |
+| A F-7 | Parkplatz: Leitsatz LG Berlin 67 S 150/18 | FIXED | umfeld-p03.check neu: Plätze gegen Entgelt zählen, aber nur bei Anmietung oder vorherigem Angebot zum Zeitpunkt des Zugangs. Hinweis „andere Gerichte …“. Der Volltext war am 17.10. gelesen worden (Rn. 9); Reviewer A zitiert den Leitsatz. |
+| A F-8 / B F9 | Beweislast: Meinung einer Kammer als feste Regel | FIXED | Alle 85 Texte unter `proof`: Plus „in der Regel … So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen“. Minus „am besten selbst belegen … Das Landgericht Berlin verlangt das im Streitfall von Ihnen; andere Gerichte …“. mieterhoehung.md und `rules.burden_of_proof` nennen „Landgericht Berlin (heute Landgericht Berlin II)“. Die Rn. 6–9 bleiben. Sie wurden am 17.10. im Volltext auf gesetze.berlin.de gelesen; A hat Rn. 6 und 7 ebenfalls bestätigt. B konnte den Volltext nicht öffnen. |
+| A F-9 | Satz „eigene Einbauten“ passt nicht zu Lage- und Gebäudemerkmalen | FIXED | Bei umfeld-* und gebaeude-p03, p04, p06, p07 gestrichen. |
+| A F-10 | „+20 %“ wird als „20 % mehr Miete“ verstanden | FIXED | Fünf Gruppen-Einleitungen, rechner.md und `rules.netting` neu formuliert („ein Fünftel des Abstands … Das sind nicht 20 % mehr Miete.“). |
+| A F-11 / B F12 | Liste der Merkmale ist nicht abschließend (Nr. 10.1) | FIXED | rechner.md ergänzt. |
+| A F-12 | Wohnfläche: tatsächliche Fläche zählt (BGH VIII ZR 266/14) | FIXED (bestätigt) | Leitsatz a im amtlichen PDF gelesen. Geändert: rechner.md, mieterhoehung.md, `checker.area_help`, `rules.landlord_equipment`. Den UI-Hinweis `calc_area_hint` muss Frontend ändern. |
+| A F-13 | Rn.-Zitat zum Widerruf | FIXED (bestätigt) | VIII ZR 62/18 Rn. 22 und VIII ZR 94/17 (Leitsatz) gelesen. Zitat jetzt „VIII ZR 94/17; bestätigt in VIII ZR 62/18, Rn. 21 und 22“. |
+| A F-14 / B F8 | „bleibt es dabei“ zu absolut | PARTLY | „In der Regel“ eingefügt. Anfechtung bei Täuschung ergänzt (§ 123 BGB geöffnet). Den Teil zu § 313 BGB und Wohnfläche (VIII ZR 234/18) nicht übernommen: Reviewer A hat dazu nur Zusammenfassungen gesehen, kein Volltext gelesen. |
+| A F-15 | Lastschrift | FIXED | mieterhoehung.md: dem Vermieter schreiben „nicht zugestimmt, Zahlung unter Vorbehalt“, die Bank fragen, beraten lassen. Kein Rechtsanspruch auf Rückgabe behauptet. |
+| A F-16 | Mietpreisbremse: § 549, Art. 229 § 35 und § 51 EGBGB, langer Satz | FIXED (bestätigt) | Normen live geöffnet. Neue Punkte unter „Ausnahmen“. Die 30-Monats-Regel ist in kurze Sätze geteilt. Altverträge vor dem 01.04.2020: nur „ältere Fassung, beraten lassen“. Die alte Fassung von § 556g wurde nicht geöffnet, deshalb kein Inhalt dazu. |
+| A F-17 | gebaeude-p08 „vor diesem Zeitpunkt“; wohnung-m08 „an allen Fenstern“ | FIXED | Erklärtext zu gebaeude-p08 nennt beide Lesarten. Prüftext zu wohnung-m08: sicher nur, wenn kein Fenster geschützt ist. Datenseite (Ausschluss für gebaeude-p08 entfernt, `note_de`): siehe Abschnitt Data, „A F-17 (Daten)“. |
+| A F-18 | „WBS 220“ steht nicht in der Kooperationsvereinbarung | FIXED | Text: „Welche Grenze genau, nennt die Vereinbarung nicht. Das Berliner Gesetz … nennt für Härtefälle 220 %.“ (WUAusrStärkG BE § 3 Abs. 3, am 17.10. geöffnet). rules.json angepasst. |
+| A F-19 | RDG: Ergebnisse als Bewertung formuliert | PARTLY / OWNER | Texte zu den Befunden neu („Nach der festen Rechenregel und Ihren Angaben …“), `checker.intro`, pruefen.md und ueber.md („Rechenergebnisse … keine rechtliche Bewertung“). ueber.md sagt jetzt wahrheitsgemäß, dass noch keine Anwältin und kein Anwalt die Texte geprüft hat. Ob vor der Veröffentlichung eine Prüfung durch einen Volljuristen erfolgt (§ 6 Abs. 2 RDG), entscheidet der Eigentümer. „Höchstbetrag“ und die Vorauswahl der Teilzustimmung im UI liegen bei Frontend. |
+| A F-20 / B F23 | Fachwörter und lange Sätze | FIXED | Erklärt oder ersetzt: Rn., §, Gesetz- und Verordnungsblatt statt „GVBl.“, Soll-Regel, außerordentlich kündigen (mit Beispiel), rechtskräftig, Zustimmungsklage (in allen Plus-Texten ersetzt), Prozesskostenversicherung, Potentialausgleich, verdichtete Bebauung, Nettokaltmiete beim ersten Vorkommen, Rügen. Fundstellen stehen jetzt in einer eigenen Zeile „Quelle:“ unter den Abschnitten von mieterhoehung.md. Der LWU-Absatz ist eine Liste. Der Ablehnungs-Erklärtext ist in kurze Sätze geteilt. |
+| A F-21 | Kündigung: alle Mieter unterschreiben | PARTLY | Text: „unterschreiben am sichersten alle die Kündigung“. Ohne geöffnete Norm nicht als Pflicht formuliert. |
+| A F-22 / B F21 | Lokale Pfade; Testdatum 01.12.2026 | FIXED / FORWARDED | t22 jetzt: Zugang 16.11.2026, verlangt ab 01.01.2027. Alle Vektoren nachgerechnet. Die Pfade in README.md und sources.md Z. 144–145 (Abschnitt Frontend) wurden an Frontend gegeben. |
+| B F1 | Welcher Mietspiegel bei Zugang 01.09.2025 – 27.05.2026 | FIXED (bestätigt) | LG Berlin 65 S 527/13 im Volltext gelesen (Kopie auf nicht amtlicher Website, so in sources.md vermerkt). BGH VIII ZR 295/15 Leitsatz im amtlichen PDF gelesen. Keine feste Regel mehr: „Meist … Ein Gericht kann … auch den Mietspiegel 2026 nehmen oder einen Zuschlag rechnen. Rechnen Sie mit beiden.“ rules.json `mietspiegel_choice.contested_window` gibt Frontend den Zeitraum für den Hinweis. |
+| B F3 | Feld Betriebskosten erhöht die Kappungsgrenze zu Unrecht | FIXED | Bestätigt aus § 558 Abs. 3 BGB und dem Rechnen mit der Nettokaltmiete. Bezeichnung und Hilfe von `checker.increases_559_560` neu (nur Modernisierung; Pauschale ausdrücklich ausgenommen). mieterhoehung.md und `rules.kappung` angepasst. |
+| B F7 | Impressum | OWNER | Keine Impressumsarbeit (Vorgabe von Main/Eigentümer). |
+| B F10 | „15 %“ fest im Text | FIXED | `over_cap` verwendet {rate} und {cap_rent}. |
+| B F13, F14, F15 | Teilausschlüsse nach Baualter, Denkmalschutz-Hinweis, Warmwasser-Text 2024 | FORWARDED | Daten: siehe Abschnitt Data (B F13, `note_de` mit Denkmalschutz-Satz bei gebaeude-m08…m11). Rechner-UI und Warmwasser-Text 2024: Frontend. Die Erklärtexte zu den Merkmalen nennen die Regeln schon. |
+| B F16 | Rundung bei mehreren Gruppen | PARTLY | Hinweis in `rules.netting` und rules.json `netting.formula_de` (1 Cent möglich). Die Rundungsart wählt Frontend. |
+| B F17 | Nach Teilzustimmung nur den zugestimmten Betrag zahlen | FIXED | Steht in mieterhoehung.md, im Risiko-Text von teilzustimmung und in `rules.partial_consent`. |
+| B F19 | Tabelle der Mietpreisbremse: Abschluss statt Beginn | FIXED (bestätigt) | Art. 229 § 35 EGBGB geöffnet. Neue Spaltenüberschrift „abgeschlossen“ und der Satz „Die Höhe wird zum Beginn des Mietverhältnisses gemessen.“ |
+| B F20 | „Mehrere Unternehmen beschreiben es … je Mieterhöhung“ | FIXED | Satz gestrichen (Vorgabe: nur Belegtes). |
+| B F22 | Formvorschriften: § 558a Abs. 3; „an alle Mieter gerichtet“ | PARTLY | § 558a Abs. 3 übernommen (Norm am 17.10. geöffnet). „An alle Mieter gerichtet“ nicht übernommen: Dazu wurde keine Norm und keine Entscheidung geöffnet. |
+| Main 3 | Mitgliedsbeiträge der Vereine | FIXED | hilfe.md enthält nur noch Links, keine Beiträge. |
+| Main 3 | Freitext-Felder | FIXED | Bleiben erhalten. Warnung in brief.md und in `letters.fields.own_text_help`. |
+| Main 3 | Ombudsstelle | FIXED | Nicht als kostenlos bezeichnet. Steht jetzt in einem eigenen Abschnitt in hilfe.md, nicht mehr unter „Kostenlos“. |
+| Main 4 | Test t22 und alle Vektoren | FIXED | 33 Tests (27 Prüfer + 6 Saldierung). Alle Prüfer-Vektoren mit einer unabhängigen Python-Referenz nachgerechnet, 0 Abweichungen. Neue Ausgabeschlüssel: `pay_from`, `base_date`, `lwu_cap_rent` (mit Eingabe `lwu: true`). |
+
+## Data (static/data/ms2026.json, ms2024.json, tools/extract_data.py, tools/verify_data.py, Abschnitt Data in sources.md)
+
+Regel (Vorgabe Main): Ein harter Ausschluss `baualter_excluded` steht nur, wo der amtliche Wortlaut ganze Baualtersklassen eindeutig nennt. Ist die Regel mehrdeutig oder betrifft sie nur einen Teil eines Merkmals, gibt es keinen Ausschluss. Stattdessen steht in `note_de` der amtliche Wortlaut der Einschränkung, damit die Oberfläche nachfragen oder warnen kann. Neues Feld: `note_de` (optional, String). `verify_data.py` prüft, dass es wörtlich im Merkmalstext oder in den `notes_de` der Gruppe steht und nie zusammen mit `baualter_excluded` vorkommt. Lauf am 18.10.2026: 4214 Prüfungen bestanden, 0 fehlgeschlagen.
+
+| Fund | Thema | Status | Was / Grund |
+|---|---|---|---|
+| A F-17 (Daten) | gebaeude-p08 „vor diesem Zeitpunkt“ | FIXED | Ausschluss für 2010+ in beiden Jahren entfernt. Grund: „diesem Zeitpunkt“ kann 2009 oder den Einbautermin meinen. `note_de` = „Einbau/Installation einer modernen Heizanlage ab 2009 (wenn Bezugsfertigkeit des Gebäudes/der Wohnung vor diesem Zeitpunkt)“. |
+| A F-17 (Daten) | wohnung-m08 „an allen Fenstern“ (nur 2026) | FIXED | Kein Ausschluss vorhanden. `note_de` = „Kein Einbruchs- und/oder Sichtschutzsystem an allen Fenstern der Wohnung“, damit die Oberfläche auf die zwei möglichen Lesarten hinweisen kann. |
+| B F13 | bad-p08 (wandhängendes WC ab 2002 ausgeschlossen, Stand-WC immer) | FIXED | Es gab keinen harten Ausschluss; dabei bleibt es, weil nur ein Teil betroffen ist. `note_de` = „(gilt nicht für die Baualtersklassen ab 2002)“. Teil-Kästchen (B schlägt bad-p08a/b vor) nicht als eigene Merkmale angelegt: Der PDF hat ein Kästchen; das entscheidet Frontend in der Oberfläche. |
+| B F13 | bad-p09 (Handtuchwärmer bis 2001, elektrisch alle Baujahre) | FIXED | Kein harter Ausschluss. `note_de` = Wortlaut „(gilt für … bis einschließlich 2001); sofern zusätzlich/falls elektrisch betreibbar: alle Baujahre“. |
+| B F13 | umfeld-p02 (Kinderspielplatz nur bei Bezugsfertigkeit vor 2003 bzw. 2024: vor 2002) | FIXED | Kein harter Ausschluss (betrifft nur ein Beispiel des Merkmals). `note_de` = „Kinderspielplatz – bei Bezugsfertigkeit des Gebäudes vor 2003“ (2024: „vor 2002“). |
+| B F13 | gebaeude-p08 und Klasse 2002_2009 | FIXED | Durch Wegfall des Ausschlusses erledigt (siehe A F-17). |
+| B F14 | Denkmalschutz-Regel bei den Energie-Minusmerkmalen | FIXED (Daten) / FORWARDED (UI) | gebaeude-m08 bis m11 tragen jetzt den amtlichen Denkmalschutz-Satz als `note_de` (wie in `groups[gebaeude].notes_de`). Den Hinweis neben den automatischen Energie-Kästchen zeigt Frontend. |
+| B F15 | Warmwasser-Regel 2024 anders als 2026 | NO CHANGE (Daten) / FORWARDED (UI) | Beide Fassungen stehen schon wörtlich in `groups[gebaeude].notes_de` des jeweiligen Jahres. Die jahresabhängige Beschriftung macht Frontend. |
+
+## Frontend (templates, static/js, static/css, ui/*.json, tests/run.mjs, README.md, Frontend section in sources.md)
+
+Rule applied: findings raised by both reviewers were fixed. Findings raised by one reviewer were reproduced in code or checked in the source first (sources in `docs/sources.md`, Frontend section). Regression tests are in `tests/run.mjs`, section "review regressions".
+
+| Finding | Topic | Status | What / reason |
+|---|---|---|---|
+| A F-1 / B F2 | Scope gate | FIXED | New `static/js/app/scope.js`. **Checker:** step 1 asks "Does the letter ask you to consent?" (yes / no / not sure) plus a checklist: social housing/Kostenmiete, § 559, § 560, index/graduated rent, § 549 cases, 1–2-family/terraced house, new build after the Mietspiegel period, WC outside. If the answer is "no" or a non-§ 558 case is ticked, no result is shown. Instead a danger box says "do not simply stop paying, get advice" and links to Hilfe. If the question is unanswered, no result is shown either. "Not sure" shows a warning above the result. **Calculator:** Mietspiegel-scope checklist (Nr. 3) in step 2; if anything is ticked, row, result and comparison are hidden, and no OVM is passed on to the checker. The calculator also tells the user which build year the chosen edition stops covering. **Letter page:** shows the scope warning before any letter. |
+| A F-2 / B F4 | Payment date in the letter | FIXED | `check()` returns `pay_from` = max(legal date, landlord's requested date) and `base_date`. The letter prefill uses `pay_from`. New pure helpers `prefill()` / `letterValues()` in `lib/letter.js`: a field the user emptied or edited is never refilled; built-in placeholders never override a template field of the same id. Tests: rules.json t22–t25 (Content) plus the unit tests "cleared date field is not refilled" and "consent letter with emptied date contains no automatic date". Browser reproduction of A's case (received 15.10.2026, requested 01.02.2027): letter says "ab dem 01.02.2027"; after clearing the field and reloading, no date is filled in. |
+| A F-3 / B F11 | Cap computed from today's rent | FIXED (logic) / PARTLY | Reproduced (last_change 01.10.2024, rent_3y_ago empty → green "within limits"). New findings `need_rent_3y` (rent changed within 3 years, or date unknown, and field empty) and `no_last_change`. `within_limits` is now issued only if `last_change` and the OVM are present and no warning exists. The field hint shows the concrete date ("Ihre Nettokaltmiete am …"). Not done: setting `cap_rent = null` as A proposed – rules.json tests t13–t16 require the cap from the current rent when nothing else is known. It is still shown, with the note "your current rent was assumed as the rent on …". Not done either: A's "warn instead of ok" colour for `within_limits` – after the gating it only appears with complete inputs. The title says "nach Ihren Angaben". |
+| A F-4 | LWU limits not checked | FIXED (verified) | Press release of 15.07.2025 and the Ombudsstelle FAQ opened live (quotes in sources.md). New checker option "Mein Vermieter ist ein landeseigenes Wohnungsunternehmen". The cap is min(base × (1 + `lwu.cap_rate_3y`) + § 559, current + euro cap by area); it only applies within the `lwu` validity period. New finding `over_lwu`. Tests t26/t27 (Content) and a unit test pass. |
+| A F-5 / B F18 | Amounts in consent letters | FIXED | `amountProblems()`: partial consent requires current < agreed < demanded; consent requires current < new ≤ demanded. The error is shown in the form and above the letter. Template fields are Content's (now required). |
+| A F-6 / B F6 | Checker warnings not shown before consent | FIXED | The letter page shows a danger box before consent or partial consent if the check found any of: sperrfrist_fail, requested_too_early, wartefrist_postponed, over_cap, over_ovm, over_lwu, need_rent_3y. If no check was done, a warning links to the checker. |
+| B F5 | Consent loses Mietpreisbremse objections | FIXED | Fixed danger box "Eine Zustimmung legt die neue Miete fest" for consent and partial consent: binding agreement, no withdrawal as a rule, Mietpreisbremse lost (BGH VIII ZR 300/21), no conditions, don't sign the landlord's form. Includes a link to the Mietpreisbremse page. |
+| B F17 | Partial consent: pay only agreed amount | FIXED | Added to UI warning `letter_warn_partial`. Content texts were changed as well. |
+| A F-10 | "+20 %" read as rent +20 % | FIXED (verified in UI) | The calculator's group badges said "+20 %" / "−20 %". Now they say Plus / Minus / zählt nicht. The sum row shows the signed number of groups. The delta line reads "Summe × ein Fünftel (20 %) des Abstands". |
+| A F-11 / B F12 | Feature list not closed | FIXED | `calc_oh_note` under every result: the list is not complete (Nr. 10.1), so the result is an estimate. |
+| A F-12 | Actual floor area | FIXED (verified) | BGH VIII ZR 266/14 Leitsatz a opened. `calc_area_hint` changed. |
+| A F-17 | gebaeude-p08 hard exclusion | FORWARDED → Data FIXED | Data removed the exclusion and added `note_de`. The calculator and the catalogue show `note_de` as a warning ("check this condition yourself"). |
+| A F-19 | Verdict wording; partial consent steered | PARTLY | UI fallback for sperrfrist_fail: "Nach der festen Rechenregel und Ihren Angaben …". "Höchstens zulässig" renamed to "Rechnerische Obergrenze nach Ihren Angaben". The checker's callout no longer points to partial consent: it says get advice, read the letter notes, consent is binding. The letter page never pre-selects a template. A lawyer review (§ 6 RDG) is an owner decision. |
+| A F-22 / B F21 | Local paths | FIXED | README and the Frontend section of sources.md now use `nix shell --inputs-from ../vps …`. The reference to the internal file E1_… was replaced by Frontend's own live check of the Wohnlage URL (18.10.2026). t22 date: Content. |
+| B F1 | Newer Mietspiegel for receipts after its Stichtag | FIXED (verified) | LG Berlin 65 S 527/13 PDF opened (Leitsatz 1). `contestedYear()` reads `rules.mietspiegel_choice.contested_window`. The calculator shows "Ein Gericht kann deshalb auch den Mietspiegel 2026 nehmen …" after the date of receipt is entered; the checker shows the same next to the Mietspiegel year. Browser test: date 01.03.2026 → hint shown, year 2024, official 2024 example 7,53 € reproduced. |
+| B F3 | "Betriebskosten" field raises the cap | FIXED (verified in code) | `cap_rent = base × (1 + rate) + increases`, so an advance-payment change typed there raised the net cap. UI label and hint now say: only § 559 modernisation increases of the cold rent; no advance payments. Content changed its overriding label the same way. |
+| B F10 | "15 %" hard-coded | FIXED | Finding texts get `{rate}` (and `{cap_rent}`, `{ovm_rent}`, `{lwu_cap}`, `{base_date}`, `{pay_from}`). |
+| B F13 | Partial (OR) Baualter exclusions not enforced | FIXED (warning) | One official checkbox with OR alternatives cannot be split without inventing data. Data's `note_de` (bad-p08, bad-p09, umfeld-p02, gebaeude-p08, wohnung-m08) is shown next to the checkbox as "Bitte prüfen Sie diese Bedingung selbst". |
+| B F14 | Denkmalschutz not applied by the energy helper | FIXED | The official Denkmal sentence is shown under the energy helper and at gebaeude-m08…m11 (`note_de`). |
+| B F15 | Hot-water rule differs in 2024 | FIXED (verified) | ms2024.txt: "Für dezentrale Warmwasserversorgung sind … aufzuschlagen"; 2026: "Für Kennwerte ohne Berücksichtigung der dezentralen Warmwasserversorgung …". The checkbox now shows the official sentence of the selected year (taken from the data) under a neutral label. |
+| B F16 | Rounding with ≥ 2 net groups | PARTLY | Kept one rounding of net × 20 % × span: that is the literal formula of Nr. 10.3, and the official examples pass. A note is shown under the calculation when \|net\| ≥ 2 (difference of a few cents possible). |
+| B F7 | Impressum | OWNER | Skipped as instructed by Main. |
+| — | Own bug found during the fixes | FIXED | `rechner.js save()` crashed when no table row matched (`r.row` null). Now guarded. |
+
+## Master fixes after translation (Content, 18.10.2026)
+
+| Datei | alt | neu |
+|---|---|---|
+| content/ueber.md (Abschnitt „Was diese Seite ist“) | „Mit der Taste „Daten löschen“ entfernen Sie sie wieder.“ | „Mit der Taste „Meine Eingaben löschen“ entfernen Sie sie wieder.“ (= UI-Schlüssel `clear_data`) |
+| content/ueber.md (Abschnitt „Sprachen“) | „Die Seite gibt es auf Deutsch in einfacher Sprache. Weitere Sprachen folgen. Briefe an den Vermieter sind immer auf Deutsch.“ | „Die Seite gibt es in diesen Sprachen: Deutsch (einfache Sprache), English, Türkçe, العربية, Українська, Русский und Polski. Alle Übersetzungen sind inoffiziell. Verbindlich ist nur der amtliche deutsche Text des Mietspiegels und der Gesetze. Briefe an den Vermieter sind immer auf Deutsch.“ |
+| content/hilfe.md (Abschnitt „Rechtsanwältinnen und Rechtsanwälte“) | „Für einen Prozess oder eine verbindliche Prüfung können Sie sich …“ | „Für einen Prozess oder eine Prüfung Ihres Einzelfalls können Sie sich …“ |
+| content/rechner.md (Baualter) | unverändert: „Eine modernisierte Wohnung bleibt in der Regel im ursprünglichen Baujahr des Hauses.“ | – (entspricht Mietspiegel 2026 Nr. 6.4: „grundsätzlich in das ursprüngliche Jahr der Bezugsfertigkeit“). Der UI-Schlüssel `calc_baualter_hint` („bleibt im alten Baujahr“) gehört Frontend; Frontend hat ihn in ui/de.json („… bleibt in der Regel im alten Baujahr.“) und ui/en.json („as a rule keeps the original year“) angeglichen. Laut Frontend (Prüfung aller 7 ui/<lang>.json) tragen alle Sprachen den Zusatz: tr „kural olarak“, ar „في العادة“, uk „як правило“, ru „как правило“, pl „z reguły“. Erledigt. |
+
+### Master fixes after translation – Runde 2 (Content, 18.10.2026; Hinweise von T_ar über Main)
+
+Prüfung zu 1: § 558 Abs. 3 S. 1 BGB: „darf sich die Miete innerhalb von drei Jahren, von Erhöhungen nach den §§ 559 bis 560 abgesehen, nicht um mehr als 20 vom Hundert erhöhen“ (am 17.10.2026 live geöffnet). Rechenweg in rules.json: cap_rent = rent_3y_ago × (1 + Satz) + increases_559_560. Die neue Formulierung beschreibt genau diese Rechnung. Den Vorschlag „die Grenze wird ohne sie berechnet“ habe ich nicht allein übernommen. Er lässt offen, ob die Modernisierungserhöhung zusätzlich erlaubt ist, deshalb steht jetzt ein Beispiel dabei.
+
+| Datei / Schlüssel | alt | neu |
+|---|---|---|
+| content/mieterhoehung.md (Grenzen, Punkt 2) | „Erhöhungen nach einer Modernisierung (§ 559 BGB) werden zu dieser Grenze dazugerechnet. Änderungen Ihrer Vorauszahlung für Nebenkosten haben mit der Nettokaltmiete nichts zu tun.“ | „Erhöhungen nach einer Modernisierung (§ 559 BGB) zählen bei den 15 % nicht mit. Das heißt: Die 15 % werden ohne sie berechnet, und eine solche Erhöhung darf zusätzlich zu den 15 % dazukommen. Beispiel: Vor drei Jahren betrug die Nettokaltmiete 600 €. Seitdem stieg sie wegen einer Modernisierung um 40 €. Dann liegt die Grenze bei 600 € + 15 % = 690 €, plus 40 € = 730 €. Änderungen Ihrer Vorauszahlung für Nebenkosten haben mit der Nettokaltmiete nichts zu tun.“ |
+| de.json `rules.kappung.text` | „Erhöhungen der Kaltmiete nach einer Modernisierung (§ 559 BGB) werden zur Grenze hinzugerechnet.“ | „Erhöhungen der Kaltmiete nach einer Modernisierung (§ 559 BGB) zählen bei den 15 % nicht mit: Die 15 % werden ohne sie berechnet, und eine solche Erhöhung darf zusätzlich dazukommen.“ |
+| content/mieterhoehung.md (Formulare des Vermieters) und content/brief.md (Liste „Bitte beachten Sie“) | „Unsere Briefe enthalten nur die Mieterhöhung.“ | „Unsere Briefvorlagen betreffen nur die Mieterhöhung und nichts anderes in Ihrem Mietvertrag.“ |
+| content/mieterhoehung.md (Landeseigene Vermieter, Leistbarkeitsversprechen) | „Das Berliner Gesetz zu den landeseigenen Unternehmen nennt für Härtefälle 220 % der Grenzen des Bundes.“ | „Das Berliner Gesetz zu den landeseigenen Unternehmen nennt für Härtefälle 220 % der Einkommensgrenzen aus dem Wohnraumförderungsgesetz des Bundes (§ 9 Abs. 2 WoFG).“ (Quelle: § 3 Abs. 3 WUAusrStärkG BE, am 17.10.2026 geprüft: „220 Prozent der Einkommensgrenzen nach § 9 Absatz 2 des Wohnraumförderungsgesetzes“) |
+
+### Master fixes after QA – Runde 3 (Content, 18.10.2026; aus QA_en.md „Issues in the German master“ und QA_ar.md)
+
+| Datei / Schlüssel | alt | neu |
+|---|---|---|
+| de.json `features.<id>.proof`, erster Satz, in 40 Minus-Merkmalen (bad-m01, bad-m02, bad-m03, bad-m04, bad-m05, bad-m06, bad-m07, bad-m08, bad-m09, bad-m10, gebaeude-m01, gebaeude-m02, gebaeude-m03, gebaeude-m04, gebaeude-m05, gebaeude-m06, gebaeude-m07, gebaeude-m08, gebaeude-m09, gebaeude-m10, gebaeude-m11, kueche-m01, kueche-m02, kueche-m03, kueche-m04, kueche-m05, kueche-m06, kueche-m07, umfeld-m01, umfeld-m02, umfeld-m03, umfeld-m04, wohnung-m01, wohnung-m02, wohnung-m03, wohnung-m04, wohnung-m05, wohnung-m06, wohnung-m07, wohnung-m08) | „Belegen Sie ein Minus-Merkmal, auf das Sie sich berufen, am besten selbst. Das Landgericht Berlin verlangt das im Streitfall von Ihnen; andere Gerichte können das anders sehen.“ | „Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen.“ (Rest des Textes, „Hilfreich: …“, unverändert) |
+| de.json `rules.scope.text` | „Dann müssen Sie die höhere Miete oft auch ohne Zustimmung zahlen.“ | „Dann müssen Sie die höhere Miete meist auch ohne Zustimmung zahlen.“ (wie brief.md, pruefen.md, mieterhoehung.md) |
+| ui/de.json `letter_binding_text` (Eigentümer Frontend) | „Hat Ihr Mietvertrag nach dem 01.06.2015 begonnen? …“ / „… können Sie sich nicht mehr auf die Mietpreisbremse berufen …“ | ERLEDIGT durch Frontend (de + en, Übersetzer informiert): „Hat Ihr Mietvertrag ab dem 01.06.2015 begonnen? …“ und „… können Sie sich grundsätzlich nicht mehr auf die Mietpreisbremse berufen …“. Quellen: Art. 229 § 35 Abs. 1 EGBGB (Verordnung vom 28.04.2015 gilt ab 01.06.2015), BGH VIII ZR 300/21 Rn. 32 („grundsätzlich“). |
+
+### Frontend – QA round (QA_ar, QA_uk): Minderausstattung wording
+
+| Finding | Topic | Status | What / reason |
+|---|---|---|---|
+| QA_ar | `calc_minder_label` unclear: "kein Bad" could be read as "WC outside the flat" | FIXED | de/en now say: no Sammelheizung, no Bad, or neither; "Das WC ist aber in der Wohnung"; and "Ist das WC außerhalb der Wohnung, gilt der Mietspiegel nicht" (the scope gate covers that case). `abschlag_intro` changed the same way. |
+| QA_uk | "Sammelheizung" read as "central heating" | FIXED (verified) | Official definition checked in both brochures (tools/src/ms2026.layout.txt l. 411–416, ms2024.layout.txt l. 446–451, Nr. 6.3, identical): „alle Heizungsarten …, bei denen die Wärme- und Energieerzeugung von einer zentralen Stelle aus geschieht. Eine Etagenheizung oder Wohnungsheizung (Gas-, Öl-, Elektroheizung), die sämtliche Wohnräume angemessen erwärmt, ist einer Sammelheizung gleichzusetzen.“ The Bad definition (same place) is paraphrased too. The en text keeps the German terms Sammelheizung/Bad instead of "central heating". Translators (Fix_*) must update `calc_minder_label` and `abschlag_intro` in their ui/<lang>.json. |
+
+## Translation QA – en
+
+Quelle: `99 Arbeitsdateien/Website/QA_en.md` (QA_en, 18.10.2026). Keine CRITICAL- und keine MAJOR-Funde. Jeder Fund wurde mit dem deutschen Master verglichen.
+
+| Fund | Datei / Schlüssel | Status | Was / Grund |
+|---|---|---|---|
+| M1 | en.json `features.*-m*.proof` (40 Minus-Merkmale) | FIXED | Mit dem Master-Sync Runde 3 erledigt: Die ersten zwei Sätze lauten jetzt „If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently.“ Die Mehrdeutigkeit von „yourself“ ist damit weg. „Helpful: …“ unverändert. |
+| M2 | en.json `groups.wohnung.intro`, `bad-p07.check`, `gebaeude-p03.check`, `wohnung-m01.check` | FIXED | „By the meaning of the word,“ → „Taken literally,“. |
+| M3 | mieterhoehung.en.md (11 %-Absatz) | FIXED | „the rent in an agreement“ → „the rent under one tenancy agreement“ (Master: „in einem Vertrag“). |
+| M4 | mieterhoehung.en.md (Mietpreisbremse-Hinweis) | FIXED | „Tenancy agreement from June 2015?“ → „Tenancy started in June 2015 or later?“ (Master: „ab Juni 2015“). |
+| M5 | rechner.en.md; en.json `rules.netting.text` | FIXED | „set off against each other“ → „weighed / weigh the groups against each other: one plus group and one minus group cancel each other out“. Der Zusatz erklärt nur „aufrechnen“, ohne neuen Inhalt. |
+| M6 | en.json `rules.termination_declare_by.title`; ui `chk_out_termination_declare_by` | FIXED | „deadline (common interpretation)“ / „until (common interpretation)“. |
+| M7 | ui `calc_disp_other` | FIXED | „There are also {n} more differences … fewer plus features).“ |
+| M8 | ui `calc_self_text` | FIXED | „If a tenant installed something themselves and the landlord did not pay back the costs, it does not count …“ (Master: „Ausstattung … Kosten nicht erstattet“). |
+| M9 | en.json `checker.result.over_cap.text` | FIXED | „Based on this limit, the maximum works out at {cap_rent}.“ |
+| M10 | ui `letter_binding_text` (Absatz 3) | FIXED | „(„nur wenn …“, “only if …”)“, wie in brief.en.md und `letters.fields.own_text_help`. |
+| M11 | ueber.en.md (Keine Rechtsberatung) | FIXED | Zitiert jetzt das englische UI-Label “Above the cap (Kappungsgrenze)” (= `checker.result.over_cap.title`). |
+| M12a | rechner.en.md (Baualter) | FIXED | „usually keeps the original building year“. |
+| M12b | ueber.en.md (Stand) | FIXED | „on 17 and 18 October 2026“. |
+| M12c | mietpreisbremse.en.md Punkt 2 | FIXED | „**Complain (Rüge):** Tell the landlord that the rent is too high. …“ (Rest unverändert). |
+| M12d | en.json `wohnung-p11.explain` / `.check` | FIXED | „security bar(s)“ → „door guard(s) (Sperrbügel)“. |
+| M12e | en.json `rules.termination_ends.text` | FIXED | „at the end of the second month after the month in which your notice arrives“. Das vorgeschlagene Beispiel wurde nicht ergänzt, weil es im Master an dieser Stelle nicht steht (es steht in mieterhoehung.en.md). |
+
+Sync mit dem Master (Runde 3):
+- en.json `features.<id>.proof` in allen 40 Minus-Merkmalen: neue erste zwei Sätze (siehe M1).
+- en.json `rules.scope.text`: „often“ → „usually“ (Master „meist“).
+- ui/en.json `letter_binding_text`: von Frontend schon angeglichen, geprüft: „on or after 01.06.2015“ und „as a rule, you can no longer rely on the rent brake“ entsprechen dem Master. Nur Absatz 3 geändert (M10).
+
+Funde im deutschen Master (aus QA_en, nicht geändert): Alle drei sind in Runde 3 schon erledigt („ab dem 01.06.2015“, „grundsätzlich“ in `letter_binding_text`; „meist“ in `rules.scope.text`). Keine offenen Master-Funde.
+
+## Translation QA – pl (Fix_pl, 18.10.2026)
+
+Quelle: `99 Arbeitsdateien/Website/QA_pl.md` (QA_pl). Keine CRITICAL- und keine MAJOR-Befunde. Alle 13 MINOR-Befunde mit dem deutschen Master verglichen.
+
+| Fund | Status | Was / Grund |
+|---|---|---|
+| M1 | FIXED | „w zwierciadle czynszów“ (Lokativ) in `features.kueche-m04/gebaeude-p03/umfeld-m01.explain`. |
+| M2 | FIXED | mieterhoehung.pl.md: „Jeśli coś zostało zamontowane przez ciebie i opłacone z twoich własnych pieniędzy …“. |
+| M3 | FIXED | `checker.result.wartefrist_postponed.text` und `rules.effective.text`: „nie minie jeszcze 15 miesięcy od ostatniej zmiany (twojego) czynszu“; BGH-Satz entschachtelt („Nie znaleźliśmy orzeczenia …, które wyjaśniałoby …“). |
+| M4 | FIXED | Ankreuz-Kästchen = „kratki“: `groups.gebaeude.intro`, `gebaeude-m09/m10/m11/p09/p10/p11.explain`, ui `calc_energy_intro/apply/done`. „pole“ bleibt nur für das Mietspiegel-Feld. |
+| M5 | FIXED (eigene Formulierung) | rechner.pl.md, ui `calc_scope_intro`, `scope_notms_text`: „czynsz nie jest ustalany na podstawie dotacji publicznych (nicht preisgebunden)“. QA schlug „urzędowo ograniczony“ vor; abgelehnt, weil Leser das mit der Mietpreisbremse (auch eine gesetzliche Begrenzung) verwechseln könnten. In `scope_notms_text` Bezug auf die Häuser klargestellt („w domach ukończonych …“). |
+| M6 | FIXED | „kraj związkowy Berlin“ statt „Land(u) Berlin“: ui `footer_no_advice`, `opens_new_tab`, `calc_wohnlage_help`; hilfe.pl.md. |
+| M7 | FIXED | ui `optional` = „opcjonalnie“. |
+| M8 | FIXED | `letters.teilzustimmung.explain`: „(niewyczerpująca)“. |
+| M9 | FIXED | ui `letter_warn_partial` („kwotę objętą twoją zgodą“), `letter_binding_text` Abs. 1 („Gdy wyrazisz zgodę, nowy czynsz zostaje uzgodniony.“) und Abs. 2 („Wobec czynszu objętego twoją zgodą co do zasady …“, „co do zasady“ behalten). |
+| M10 | FIXED | „remis“ ersetzt: „Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy.“ in fünf `groups.*.intro`, rechner.pl.md, ui `calc_features_intro`; `rules.netting.text`: „Tyle samo plusów i minusów: 0.“ |
+| M11 | FIXED | `features.bad-m09.check`: „nie pryskała po całym pomieszczeniu“. |
+| M12 | FIXED | mieterhoehung.pl.md: „Wohnungsbindungsgesetz“ (ustawa o mieszkaniach dotowanych ze stałym czynszem). |
+| M13 | FIXED | mietpreisbremse.pl.md: „Mietpreisprüfstelle (urząd sprawdzający wysokość czynszu)“ wie in hilfe.pl.md. |
+
+Sync mit Master (Runde 3):
+- `features.<id>.proof`, 40 Minus-Merkmale: erster Satz jetzt „Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej.“ (Rest unverändert).
+- `rules.scope.text`: „często“ → „zwykle“ (meist).
+- ui `letter_binding_text`: „01.06.2015 albo później“ und „co do zasady“ waren schon durch T_pl übernommen; geprüft, nicht doppelt geändert.
+
+Master-Änderung ui (Hinweis von Main): `calc_minder_label` und `abschlag_intro` aus dem aktuellen ui/de.json neu übersetzt (Definition Sammelheizung/Bad nach Nr. 6.3, WC muss in der Wohnung sein; en.json als Vergleich). Ein QA_pl-Befund zu diesen Schlüsseln lag nicht vor.
+
+Hinweise zum deutschen Master (nicht geändert):
+- QA-Hinweis 1 (`letter_binding_text` „nach dem“) und 2 (`rules.scope.text` „oft“) sind durch Runde 3 erledigt.
+- QA-Hinweis 3 offen: ui `calc_self_text` sagt „Haken Sie dann „selbst eingebaut“ an“, das Kästchen `calc_self_installed` heißt aber „selbst eingebaut und bezahlt (zählt nicht)“.
+- Neu: ui `scope_intro` sagt noch „Dann müssen Sie die höhere Miete **oft** zahlen“, die anderen Texte nach Runde 3 „meist“. PL folgt dem Master („często“).
+
+### Translation QA – uk (Fix_uk, 18.10.2026; Quelle: `99 Arbeitsdateien/Website/QA_uk.md`)
+
+| Fund | Status | Was / Grund |
+|---|---|---|
+| M1 Sammelheizung | FIXED / ersetzt | `calc_minder_label` und `abschlag_intro` nach Vorgabe von Main aus dem neuen ui/de.json (amtliche Definition Nr. 6.3, WC in der Wohnung) neu übersetzt; damit ist der QA-Vorschlag für diese Schlüssel überholt. rechner.uk.md Z. 19: „опалення всіх кімнат від одного джерела тепла (Sammelheizung – наприклад, центральне або поквартирне опалення)“. |
+| M2 Stockwerkszählung | FIXED | gebaeude-m06 title/explain/check nach QA-Vorschlag („5-й поверх над першим (5. Obergeschoss)“, ukrainische Zählung erklärt, „цокольний“ entfernt). gebaeude-p06 explain/check angeglichen („поверхів над першим (Obergeschosse)“). |
+| M3 „напевно“ | FIXED | mieterhoehung.uk.md: „Ви точно встигнете …“. |
+| m1 | FIXED | „Інша справа, якщо …“ (statt QA „Інакше буває“, idiomatischer) in mieterhoehung.uk.md und `rules.landlord_equipment.text`. |
+| m2 | FIXED | „має значення“ / „вирішальним є“ an allen fünf Stellen. |
+| m3 | FIXED | „вперше треба було сплатити“; „строк сплати якої настав“. |
+| m4 | FIXED | „уточнене в межах діапазону за допомогою Orientierungshilfe“. |
+| m5 | FIXED | „листа в довільній формі“. |
+| m6 | FIXED | „щонайпізніше із закінченням дня 31.12.2029“. |
+| m7 | FIXED | „Mietpreisprüfstelle (служба перевірки орендної плати)“ in mietpreisbremse.uk.md. |
+| m8 | FIXED | „Центр підтримки новоприбулих (Willkommenszentrum)“. |
+| m9 | FIXED | „Якщо ви заселилися в цей день або пізніше …“. |
+| m10 | FIXED | Satz neu nach QA-Vorschlag. |
+| m11 | FIXED | „за Mietspiegel {year} і за Mietspiegel {newer}“, „за Mietspiegel {need}“. |
+| m12 | FIXED | „Кількість інших відмінностей, вигідних для вас: {n} …“ (grammatisch vollständig; Platzhalter unverändert). |
+| m13 | FIXED | „вишукане (складне)“ / „вишукано (з більшими витратами)“ in wohnung-p04 und umfeld-p02. |
+| m14 | FIXED | „точно може сказати лише електрик“. |
+| m15 | FIXED | „комунальні витрати“ einheitlich in `rules.kappung`, `rules.scope`, `checker.increases_559_560_help`, ui `chk_in_increases_559_560_hint`, `calc_row_per_sqm_note`. |
+
+Sync mit dem Master (Runde 3): 40 Minus-`proof`-Sätze neu („Якщо ви посилаєтеся на цю ознаку «мінус», як правило, довести її маєте саме ви. Так вирішив Земельний суд Берліна (Landgericht Berlin); інші суди можуть вважати інакше.“; Rest unverändert). `rules.scope.text`: „часто“ → „зазвичай“ (wie brief.uk.md, pruefen.uk.md). ui `letter_binding_text` war bereits synchron („почався 01.06.2015 або пізніше“, „як правило“), nicht doppelt geändert.
+
+Hinweis zum Master (aus QA_uk, nicht geändert): `letter_binding_text` „nach dem 01.06.2015“ – inzwischen im Master auf „ab dem“ korrigiert (Runde 3); uk folgt.
+
+## Translation QA – ar (Fix_ar, 18.10.2026; Quelle: `99 Arbeitsdateien/Website/QA_ar.md`)
+
+| Fund | Status | Umsetzung |
+|---|---|---|
+| M1 | FIXED (ersetzt) | ui `calc_minder_label` nicht nach QA-Vorschlag, sondern nach Vorgabe Main aus dem neuen Master neu übersetzt: Bedingung „لكن المرحاض موجود داخل الشقة“ als eigener Satz, Definition Sammelheizung/Bad (Nr. 6.3), Satz „WC außerhalb → Mietspiegel gilt nicht“. Ebenso ui `abschlag_intro` neu übersetzt (bisher nur ein Satz ohne WC-Bedingung). Die Mehrdeutigkeit aus M1 ist damit beseitigt. |
+| m1 | FIXED | „محكمة الولاية في برلين“ → „المحكمة الإقليمية في برلين“ überall (87 Stellen in content/ar.json, `mieterhoehung.ar.md`). Bei `features.umfeld-p03.proof` fehlte zudem „(Landgericht Berlin)“, ergänzt. |
+| m2 | FIXED | `mieterhoehung.ar.md`: „خصائص الزائد / خصائص الناقص“. Dazu in 15 Plus-`proof`-Texten „خصائص زائد“ → „خصائص الزائد“ vereinheitlicht. |
+| m3 | FIXED | `mieterhoehung.ar.md`: „غير صالح“ → „غير نافذ (unwirksam)“, wie in rules/checker/ui. |
+| m4 | FIXED | „الإيجار البارد“ → „الإيجار الأساسي (Kaltmiete)“ in `rules.kappung.text`, `checker.increases_559_560_help`, ui `chk_in_increases_559_560_hint` (dort deutscher Begriff ergänzt). |
+| m5 | FIXED | `checker.received_help`: „صندوق البريد عند بيتك (Briefkasten) أو … صندوقك في مكتب البريد (Postfach)“. |
+| m6 | FIXED | `mietpreisbremse.ar.md` Vormiete: „إذا كان المستأجر الذي سكن قبلك يدفع إيجاراً أعلى أصلاً …“. |
+| m7 | FIXED | „في الغالب“ für „überwiegend/meist“ ersetzt durch „معظم / الجزء الأكبر / في معظمها“: `groups.wohnung.intro`, `gebaeude-m01.explain`, `wohnung-m03.title/.explain`, `wohnung-m04.title/.explain`, `wohnung-p03.explain`, `wohnung-p05.title/.explain`, `wohnung-p10.explain`; zusätzlich `wohnung-m01.check` („Überwiegend“ (في معظمها)). `rules.mietspiegel_choice` („Meist nimmt man …“ = Häufigkeit) bleibt „في الغالب“, dort korrekt. |
+| m8 | FIXED | „فيجب“ → „فينبغي“ in `brief.ar.md` und `letters.fields.tenant_name_help`. |
+| m9 | FIXED | ui `calc_energy_bedarf`: „احتياج الطاقة“. |
+| m10 | FIXED | ui `letter_binding_text`: „(„nur wenn …“ أي „فقط إذا …“)“, wie in `brief.ar.md`. |
+| m11 | FIXED | `mieterhoehung.ar.md`: „أسماء الشاهدات والشهود“. |
+
+Sync mit dem Master (Runde 3):
+- 40 Minus-`proof`-Texte: erster Satz neu „إذا استندت إلى خاصية الناقص هذه، فعليك أنت في العادة أن تُثبتها. هكذا قررت المحكمة الإقليمية في برلين (Landgericht Berlin)؛ وقد ترى محاكم أخرى ذلك بشكل مختلف.“ (Rest unverändert).
+- `rules.scope.text` „meist“: AR hatte schon „غالباً“ (= meist), gleich wie `brief.ar.md`/`pruefen.ar.md`; keine Änderung nötig.
+- ui `letter_binding_text` Absatz 2 („ab dem 01.06.2015“, „grundsätzlich“): war bereits als „في 01.06.2015 أو بعده“ / „من حيث المبدأ“ übersetzt; geprüft, nicht doppelt geändert.
+- ui `calc_minder_label`, `abschlag_intro`: neu aus dem geänderten Master übersetzt (siehe M1).
+
+Hinweise zum Master (aus QA_ar, nicht geändert): (1) `letter_binding_text` „nach dem 01.06.2015“ – im Master inzwischen auf „ab dem“ korrigiert. (2) `calc_minder_label` Klammer „(das WC ist in der Wohnung)“ zu knapp – im Master inzwischen als eigener Satz „Das WC ist aber in der Wohnung.“ umformuliert.
+
+## Translation QA – tr (Fix_tr, 18.10.2026; Quelle: `99 Arbeitsdateien/Website/QA_tr.md`)
+
+| Fund | Schlüssel / Datei | Status | Was / Grund |
+|---|---|---|---|
+| M1 | `features.wohnung-p08.title`, `.explain` | FIXED | „az engelli“ (= leicht behindert) ersetzt durch „az bariyerli (kolay erişilebilir)“ bzw. „az bariyerli (barrierearm), yani kolay erişilebilir“; Bad-Zitat-Glosse „az bariyerli banyo düzeni“. |
+| m1 | `_index.tr.md` Z. 13, `rechner.tr.md` description + Z. 21, `rules.ovm.text` | FIXED | „alan“ (Fläche) für das Mietspiegel-Feld ersetzt durch „satır (Feld)“, passend zu UI `calc_step_row`/`calc_row_found`. |
+| m2 | `mieterhoehung.tr.md` Z. 141 | FIXED | „… fesih bildiriminin ulaştığı aydan sonraki ikinci ayın sonunda sona erer“, wie `rules.termination_ends`. |
+| m3 | `mieterhoehung.tr.md` Z. 82 | FIXED | Pleonasmus „geri iade“ ersetzt: „otomatik ödemeyi (Lastschrift) iade ettirip ettiremeyeceğinizi“. |
+| m4 | `_index.tr.md` Z. 17 | FIXED | „endeksli kirada (Indexmiete)“ mit Lokativ. |
+| m5 | `checker.increases_559_560_help`, `rules.kappung.text`, ui `chk_in_increases_559_560_hint` | FIXED | „soğuk kira“ bleibt (Kaltmiete ist hier gemeint, nicht Nettokaltmiete), mit Glosse „(Kaltmiete: ısıtma giderleri hariç kira)“. |
+| m6 | `rules.pay_from.title` | FIXED | „Onay verirseniz ne zamandan itibaren ödersiniz“ (Konditional wie „würden“). |
+| m7 | `letters.zustimmung.when` | FIXED | „bekleme sürelerine uyulmuş“ (= eingehalten). |
+| m8 | `features.gebaeude-p04.proof`, `gebaeude-m03.proof`, `gebaeude-m04.proof` | FIXED | „ayıp (kusur) bildirimleri“ → „kusur bildirimleri (Mängelmeldung)“. |
+| m9 | `features.gebaeude-p06.explain` | FIXED | „zemin kat hariç beşten az katı (Obergeschoss)“. |
+| m10 | `checker.rent_3y_ago_help`, ui `chk_in_rent_3y_ago_hint` | FIXED | „alanı“ → „burayı“ (keine Verwechslung mit Wohnfläche). |
+| m11 | `mieterhoehung.tr.md` Z. 119, `rules.sperrfrist_earliest_received.text`, ui `chk_in_last_change_hint` | FIXED | „(§§ 559 bis 560 BGB)“ → „(§§ 559–560 BGB)“ im Fließtext; `*Kaynak:*`-Zeilen unverändert. |
+| m12 | `hilfe.tr.md` Z. 19 | FIXED | Satzfragment zu vollständigem Satz: „… nedeniyle: Berlin eyaleti, Berlin'deki tüm kiracı hanelerine ücretsiz ilk danışmanlık verir.“ |
+| m13 | `features.bad-m01/-m07/-p01/-p07.explain`, `gebaeude-m03/-p02.explain` | FIXED | Glosse hinter die Jahreszahl („Mietspiegel 2026'da (Berlin kira tablosu)“). Wo die Angabe schon in Klammern steht (bad-p01, gebaeude-m03), ohne verschachtelte Klammer: „(Mietspiegel 2026'da, yani Berlin kira tablosunda: …)“. |
+
+Sync mit dem Master (Runde 3) und Main:
+- 40 Minus-`proof`-Texte: erster Satz neu „Bu eksi özelliğe dayanırsanız, kural olarak onu sizin kanıtlamanız gerekir. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir.“ (wie die Plus-Texte; Rest unverändert).
+- `rules.scope.text` „meist“: TR hatte schon „çoğu zaman“ (= meist), gleich wie `brief.tr.md`/`pruefen.tr.md`; keine Änderung nötig.
+- ui `letter_binding_text` Absatz 2: war bereits „01.06.2015'te veya daha sonra“ (= ab dem) und „ilke olarak“ (= grundsätzlich); geprüft, nicht doppelt geändert.
+- ui `calc_minder_label`, `abschlag_intro`: neu aus dem geänderten Master übersetzt (Sammelheizung nach Nr. 6.3 inkl. Etagen-/Wohnungsheizung, Bad-Definition, WC muss in der Wohnung sein; Label zusätzlich „Tuvalet dairenin dışındaysa Mietspiegel geçerli değildir“).
+
+Hinweise zum Master: QA_tr nennt keine Fehler im deutschen Master.
+
+## Translation QA – ru (Fix_ru, 18.10.2026; Quelle: `99 Arbeitsdateien/Website/QA_ru.md`)
+
+Keine CRITICAL-Funde. Alle Funde mit dem deutschen Master verglichen.
+
+| Fund | Datei / Schlüssel | Status | Was / Grund |
+|---|---|---|---|
+| 1 (MAJOR) | `features.gebaeude-m06` title/explain/check | FIXED | Nach QA-Vorschlag: „С 6-го этажа (5. Obergeschoss) без лифта“; explain nennt „5-м этаже над первым (5. Obergeschoss) … по русскому счёту на 6-м этаже“; check erklärt die deutsche Zählung (1. Obergeschoss = 2-й этаж). |
+| 2 (MAJOR) | `features.wohnung-m01.title` | FIXED | „В основном окна только с одним стеклом“ (= meist). |
+| 3 | _index.ru.md Z. 13 | FIXED | „Найти свою квартиру в Mietspiegel:“. |
+| 4 | _index, pruefen, brief, mieterhoehung Z. 14, `rules.scope.text`, ui `scope_intro` | FIXED | „действует“ → „подходит“ für Seite/Hilfe. Für den Mietspiegel selbst und für Rechtsregeln („Mietspiegel gilt“, „andere Regeln gelten“) bleibt „действует“, dort richtig. |
+| 5 | pruefen/brief Z. 10, `rules.scope.text`, ui `scope_item_s549` | FIXED | „квартиры, которая сдаётся только на короткое время“ (wie mieterhoehung.ru.md). |
+| 6 | mieterhoehung.ru.md Z. 10 | FIXED | „всё проверить в первоисточнике“. |
+| 7 | mieterhoehung.ru.md Z. 102; zusätzlich brief.ru.md Z. 20 (gleicher Satz) | FIXED | „если вы не понимаете всё, что в ней написано“. |
+| 8 | mieterhoehung.ru.md Z. 125, `rules.landlord_equipment.text` | FIXED | „Иначе обстоит дело, если …“. QA-Zusatz „тогда оснащение считается“ nicht übernommen (steht nicht im Master). |
+| 9 | mieterhoehung.ru.md Z. 141 | FIXED | „в конце месяца, следующего за следующим (übernächster Monat)“. |
+| 10 | rechner.ru.md Z. 10; ui `scope_notms_text`, `calc_scope_intro` | FIXED (eigene Formulierung) | „арендная плата которых не связана условиями господдержки (nicht preisgebunden)“. QA-Vorschlag „государственное регулирование арендной платы“ abgelehnt: Leser könnten das mit der Mietpreisbremse (auch staatliche Regulierung) verwechseln und den Mietspiegel fälschlich für unanwendbar halten. |
+| 11 | rechner.ru.md Z. 17; zusätzlich ui `calc_baualter_hint` | FIXED | „по-прежнему относится к первоначальному/старому году постройки“. |
+| 12 | rechner.ru.md Z. 21, `rules.netting.text` | FIXED (eigene Formulierung) | „сопоставляются/сопоставляете группы: из числа групп с плюсом вычитается число групп с минусом“. QA-Vorschlag „вычтите минусы групп из плюсов“ zu ungenau (es werden Gruppen gezählt, nicht Merkmale). |
+| 13 | `rules.effective.text` | FIXED | Nach QA-Vorschlag („с последнего изменения … прошло меньше 15 месяцев“). |
+| 14 | `rules.lwu.text` | FIXED | „и рост не больше чем на 50 € … в месяц“. |
+| 15 | `checker.rent_3y_ago_help` | FIXED | „Если вы въехали в этот день или позже …“. |
+| 16 | `checker.result.wartefrist_postponed.text` | FIXED | Nach QA-Vorschlag. |
+| 17 | `checker.result.over_lwu.text` | FIXED | „и рост не больше чем на 50, 75 или 100 € в месяц“. |
+| 18 | `features.bad-m07.check` | FIXED | „на стены за раковиной, ванной и душем и рядом с ними“. |
+| 19 | `features.bad-m08.check` | FIXED | „окно наружу (на улицу или во двор)“. |
+| 20 | `features.bad-p07` explain/check | FIXED | „более новых домов“, „более поздних годов постройки“. |
+| 21 | `features.gebaeude-m08.check` | FIXED | „Спросите, какого года отопительная установка; год выпуска часто указан на заводской табличке.“ |
+| 22 | `features.gebaeude-p01.explain` | FIXED | „Они должны быть достаточно большими.“ |
+| 23 | `features.gebaeude-p04.explain` | FIXED | „Плюс, если здание или часть здания, где находится квартира, содержится в состоянии выше среднего …“ („выше среднего“ behalten, weil check es zitiert). |
+| 24 | `features.wohnung-m04.explain` | FIXED | „проложены открыто поверх штукатурки“. |
+| 25 | `features.wohnung-p06.explain` | FIXED | „при установленной снаружи защите от солнца“ (Bezug für das Zitat in check). |
+| 26 | mieterhoehung.ru.md Z. 135, brief.ru.md Z. 22, `letters.send.text`, ui `letter_send_text` | FIXED | Generisches Maskulinum „свидетель/свидетелей“. |
+| 27 | ui `chk_find_no_last_change` | FIXED | „Запретный срок (Sperrfrist) и срок ожидания (Wartefrist) не проверены“. |
+| 28 | ui `notfound_text` | FIXED | „Такой страницы нет или её больше нет.“ |
+| 29 | ui `abschlag_heading`, `calc_line_abschlag`, `calc_abschlag_note`, `abschlag_intro`, `calc_minder_label` | FIXED | „Скидка“ → „Вычет“. `abschlag_intro` und `calc_minder_label` nach Vorgabe Main aus dem neuen ui/de.json komplett neu übersetzt (Sammelheizung nach Nr. 6.3 inkl. Etagen-/Wohnungsheizung, Bad-Definition, WC muss in der Wohnung sein, WC außerhalb → Mietspiegel gilt nicht). |
+| 30 | `rules.termination_safe_by.text`, ui `chk_out_termination_safe_by` | FIXED | „не позднее этого дня“ / „надёжно не позднее“. |
+| 31 | `letters.teilzustimmung.explain` | FIXED | „(не исчерпывающий)“. |
+| 32 | `letters.nachfrage.explain` | FIXED | „Этим письмом вы не соглашаетесь и не отказываетесь.“ |
+| 33 | `features.gebaeude-p06` explain/check | FIXED | „меньше пяти этажей над первым (Obergeschosse), то есть не больше 5 этажей по русскому счёту“; check entsprechend. |
+| 34 | `features.wohnung-m06.explain` | FIXED | „«запроходная» комната“. |
+
+Sync mit dem Master (Runde 3) und Main:
+- 40 Minus-`proof`-Texte: erster Satz neu „Если вы ссылаетесь на этот минус-признак, как правило, доказать его должны вы. Так решил Земельный суд Берлина (Landgericht Berlin); другие суды могут считать иначе.“ (wie die Plus-Texte; Rest unverändert).
+- `rules.scope.text`: „часто“ → „обычно“ (meist), wie brief.ru.md/pruefen.ru.md.
+- ui `letter_binding_text` Absatz 2: war bereits „01.06.2015 или позже“ und „в принципе (grundsätzlich)“; geprüft, nicht doppelt geändert.
+- ui `calc_minder_label`, `abschlag_intro`: neu aus dem geänderten Master übersetzt (siehe 29).
+
+Hinweise zum Master: QA_ru nennt keine Fehler im deutschen Master. Wie bei pl: ui `scope_intro` sagt im Master noch „oft“, die anderen Texte nach Runde 3 „meist“; RU folgt dem Master („часто“).
+
+## UI consistency (Main)
+
+`scope_intro`: „oft“ → „meist“ wie `rules.scope.text`; `calc_self_text`: zitierter Checkbox-Name = `calc_self_installed` ohne Klammerzusatz.
+
+| Sprache | Key | alt | neu |
+|---|---|---|---|
+| de | `scope_intro` | „oft“ | „meist“ |
+| de | `calc_self_text` | „selbst eingebaut“ | „selbst eingebaut und bezahlt“ |
+| en | `scope_intro` | “often” | “usually” |
+| en | `calc_self_text` | – | unverändert (passt bereits: “installed and paid for by me”) |
+| tr | `scope_intro` | – | unverändert („çoğu zaman“ = content `rules.scope.text`) |
+| tr | `calc_self_text` | „kendim yaptırdım“ | „kendim yaptırdım ve ödedim“ |
+| ar | `scope_intro` | – | unverändert („غالباً“ = content `rules.scope.text`) |
+| ar | `calc_self_text` | „ركّبته بنفسي“ | „ركّبته ودفعت ثمنه بنفسي“ |
+| uk | `scope_intro` | „часто“ | „зазвичай“ |
+| uk | `calc_self_text` | «встановлено самостійно» | «встановлено самостійно й оплачено» |
+| ru | `scope_intro` | „часто“ | „обычно“ |
+| ru | `calc_self_text` | «установлено самостоятельно» | «установлено и оплачено самостоятельно» |
+| pl | `scope_intro` | „często“ | „zwykle“ |
+| pl | `calc_self_text` | „zamontowane samodzielnie” | „zamontowane i opłacone samodzielnie” |
+
+### Main – Fristende an Samstag, Sonntag, Feiertag (§ 193 BGB), Content, 18.10.2026
+
+Auslöser: Smoke-Test, Zugang 28.09.2026 → Klagefrist am Sonntag, 28.02.2027. Quellen: siehe sources.md, Abschnitt „Content – § 193 BGB / Feiertage“.
+
+| Datei / Schlüssel | alt | neu |
+|---|---|---|
+| rules.json `dates.sue_deadline` | from consent_deadline, +3 Monate, end_of_month | from `consent_deadline_193`, +3 Monate, snap `period_from_next_day`, `shift_193: apply` (Ausgabe `sue_deadline` = nächster Werktag, `sue_deadline_unshifted` = Tag davor) |
+| rules.json `dates.consent_deadline_193` | – | neu: nächster Werktag ab consent_deadline (nur Information) |
+| rules.json `holidays_berlin`, `shift_193`, `snaps.period_from_next_day` | – | neu (Feiertage nach § 1 FeiertG BE in allen Fassungen) |
+| rules.json `dates.effective`, `termination_*`, Sperr-/Wartefrist | – | `shift_193: none` (keine Verschiebung) |
+| rules.json Tests | t05 sue_deadline 2027-05-31 | t05 sue_deadline 2027-06-01 (Zustimmungsfrist endet So 28.02.2027 → Mo 01.03.2027) und consent_deadline_193; neu t28–t33 (Sonntag, Samstag, Zustimmungsfrist am Samstag, Feiertag 1. Mai zweimal, normaler Werktag) und w01–w07 (`kind: workday`, u. a. Frauentag 08.03.2027, 08.03.2018 kein Feiertag, Karfreitag/Ostermontag, 08.05.2025 einmalig, 24.12. kein Feiertag). Alle 33 check()-Vektoren und 7 Werktag-Vektoren mit unabhängiger Python-Referenz nachgerechnet: 0 Abweichungen. |
+| de.json `rules.consent_deadline.text` | „Sie haben Zeit bis zum Ende des zweiten Kalendermonats nach dem Monat, in dem das Schreiben ankam (§ 558b Abs. 2 BGB). Fällt das Ende auf einen Samstag, Sonntag oder Feiertag, kann es sich auf den nächsten Werktag verschieben (§ 193 BGB). Verlassen Sie sich nicht darauf.“ | „Sie haben Zeit bis zum Ende des zweiten Kalendermonats nach dem Monat, in dem das Schreiben ankam (§ 558b Abs. 2 BGB). Ihre Antwort sollte bis zu diesem Tag beim Vermieter ankommen. Fällt der Tag auf einen Samstag, Sonntag oder Feiertag in Berlin, verschiebt sich das Ende nach dem Wortlaut von § 193 BGB auf den nächsten Werktag. Eine Gerichtsentscheidung genau dazu haben wir nicht gefunden. Verlassen Sie sich deshalb nicht darauf.“ |
+| de.json `rules.sue_deadline.text` | „Stimmen Sie nicht oder nur teilweise zu, kann der Vermieter auf Zustimmung klagen. Die Klage muss innerhalb von drei Monaten nach dem Ende Ihrer Frist erhoben werden (§ 558b Abs. 2 BGB). Danach kann er diese Erhöhung nicht mehr einklagen; ein neues Verlangen bleibt möglich.“ | „Stimmen Sie nicht oder nur teilweise zu, kann der Vermieter auf Zustimmung klagen. Die Klage muss innerhalb von drei Monaten nach dem Ende Ihrer Frist erhoben werden (§ 558b Abs. 2 BGB). Fällt das Ende auf einen Samstag, Sonntag oder Feiertag in Berlin, hat der Vermieter bis zum nächsten Werktag Zeit, zum Beispiel bis Montag (§ 193 BGB). Es reicht, wenn die Klage bis dahin beim Gericht eingeht und bald danach zugestellt wird (§ 167 ZPO). Wir zeigen hier deshalb das spätere Datum. Danach kann der Vermieter diese Erhöhung nicht mehr einklagen; ein neues Verlangen bleibt möglich.“ |
+| de.json `rules.termination_safe_by.text` | „Kommt Ihre Kündigung bis zu diesem Tag beim Vermieter an (zwei Monate ab Zugang), sind Sie auf der sicheren Seite (§ 561 BGB). Die Kündigung muss schriftlich auf Papier mit Unterschrift sein (§ 568 Abs. 1 BGB). Die Mieterhöhung gilt dann nicht.“ | „Kommt Ihre Kündigung bis zu diesem Tag beim Vermieter an (zwei Monate ab Zugang), sind Sie auf der sicheren Seite (§ 561 BGB). Das gilt auch, wenn der Tag ein Samstag, Sonntag oder Feiertag ist: Ob sich die Frist dann verschiebt, ist nicht geklärt. Rechnen Sie nicht damit. Die Kündigung muss schriftlich auf Papier mit Unterschrift sein (§ 568 Abs. 1 BGB). Die Mieterhöhung gilt dann nicht.“ |
+| de.json `rules.termination_declare_by.text` | (Satz ergänzt) | + „Auch hier verschieben wir das Datum nicht auf einen Werktag.“ |
+| de.json `rules.consent_deadline_193` | – | neu (title, text) |
+| de.json `checker.disclaimer` | „Die Daten sind Kalenderdaten. Fällt ein Fristende auf einen Samstag, Sonntag oder Feiertag, kann es sich verschieben (§ 193 BGB). Planen Sie mit dem früheren Datum.“ | „Die Daten sind Kalenderdaten. Nur bei der Klagefrist des Vermieters zeigen wir den nächsten Werktag, wenn das Ende auf einen Samstag, Sonntag oder Feiertag in Berlin fällt (§ 193 BGB). Für Ihre eigenen Fristen planen Sie mit dem Kalenderdatum und antworten lieber einige Tage früher.“ |
+| content/mieterhoehung.md (Die Fristen) | „Fällt das Ende einer Frist auf einen Samstag, Sonntag oder Feiertag, kann es sich auf den nächsten Werktag verschieben. Planen Sie trotzdem so, dass Ihre Antwort vorher ankommt.“ | neuer Absatz „Samstag, Sonntag, Feiertag“ mit drei Punkten (eigene Frist: nicht darauf verlassen; Frist des Vermieters: „Dann hat der Vermieter bis Montag, 01.03.2027, Zeit.“; Sonderkündigung: nicht geklärt) und Quellenzeile |
+| content/pruefen.md | „Die Rechnung zeigt Kalenderdaten. Fällt ein Fristende auf einen Samstag, Sonntag oder Feiertag, kann es sich auf den nächsten Werktag verschieben (§ 193 BGB). Verlassen Sie sich nicht darauf: Antworten Sie lieber einige Tage früher.“ | „Für Ihre eigenen Fristen zeigt die Rechnung Kalenderdaten. Ob sich Ihre Frist bei einem Samstag, Sonntag oder Feiertag verschiebt, ist nicht sicher. Antworten Sie lieber einige Tage früher. Bei der Klagefrist des Vermieters zeigen wir den nächsten Werktag, weil er dann bis zu diesem Tag Zeit hat (§ 193 BGB).“ |
+
+Bewertung: Für die Mieterin werden eigene Fristen nicht verlängert (Vorsicht). Für die Klagefrist des Vermieters zeigt die Seite das spätere Datum und sagt offen, dass der Vermieter dann mehr Zeit hat. Implementierung in lib/dates.js / check558.js: Frontend.
+
+Nachtrag 18.10.2026: Frontend hat die § 193-Regel umgesetzt; alle 46 Vektoren in rules.json laufen nach Frontends Meldung durch (t05, t28–t33, w01–w07). Frauentag über `fixed_since` (von w01 aufgedeckt). Anzeige: consent_deadline_193 nur als Hinweis unter dem Kalenderdatum; sue_deadline mit verschobenem Datum, das unverschobene in einer Anmerkung. Erledigt.
+
+### § 193 sync – en
+
+- static/i18n/content/en.json: `rules.consent_deadline.text`, `rules.sue_deadline.text`, `rules.termination_safe_by.text`, `rules.termination_declare_by.text` (Satz ergänzt), `rules.consent_deadline_193` (neu, title + text), `checker.disclaimer` nach aktuellem Deutsch übersetzt.
+- static/i18n/ui/en.json: `chk_consent_193`, `chk_shifted_193` waren schon vorhanden und stimmen inhaltlich mit ui/de.json überein; unverändert.
+- content/mieterhoehung.en.md (The deadlines): neuer Absatz „Saturday, Sunday, public holiday“ mit Feiertagsliste, drei Punkten (eigene Frist: bis zum Kalenderdatum; Frist des Vermieters: Sonntag, 28.02.2027 → Montag, 01.03.2027, § 167 ZPO; Sonderkündigung: nicht geklärt) und vollständiger Quellenzeile wie im Deutschen.
+- content/pruefen.en.md: Hinweis zu Kalenderdaten / Klagefrist des Vermieters ersetzt.
+- Prüfung: Schlüsselmenge content/en.json = content/de.json, ui/en.json = ui/de.json (jq-Vergleich, JSON gültig). Warnungen nicht abgeschwächt: eigene Frist nach Kalenderdatum, verschobenes Zustimmungsdatum nur Information, Verschiebung der Klagefrist begünstigt den Vermieter.
+
+### § 193 sync – ar
+
+Arabische Übersetzung an den deutschen Stand „Fristende an Samstag, Sonntag, Feiertag (§ 193 BGB)“ angeglichen, 18.10.2026.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/content/ar.json | `rules.consent_deadline.text` | neu übersetzt: Antwort soll bis zum Tag ankommen; Verschiebung nach dem Wortlaut von § 193 BGB, keine Gerichtsentscheidung gefunden, „لا تعتمد على ذلك“ |
+| static/i18n/content/ar.json | `rules.sue_deadline.text` | + Verschiebung zugunsten des Vermieters bis zum nächsten Werktag (z. B. Montag), § 167 ZPO, „wir zeigen das spätere Datum“ |
+| static/i18n/content/ar.json | `rules.termination_safe_by.text` | + „gilt auch bei Samstag/Sonntag/Feiertag; nicht geklärt; nicht damit rechnen“ |
+| static/i18n/content/ar.json | `rules.termination_declare_by.text` | + „وهنا أيضاً لا ننقل التاريخ إلى يوم عمل.“ |
+| static/i18n/content/ar.json | `rules.consent_deadline_193` | neu (title, text inkl. Berliner Feiertage) |
+| static/i18n/content/ar.json | `checker.disclaimer` | neu übersetzt: nur Klagefrist des Vermieters verschoben; eigene Fristen nach Kalenderdatum, lieber früher antworten |
+| static/i18n/ui/ar.json | `chk_consent_193`, `chk_shifted_193` | neu (`{date}` erhalten) |
+| content/mieterhoehung.ar.md | Die Fristen | alter Satz ersetzt durch Absatz „السبت، الأحد، العطل الرسمية“ mit drei Punkten (Beispiel So 28.02.2027 → Mo 01.03.2027) und neuer Quellenzeile (wie de) |
+| content/pruefen.ar.md | Hinweis | neu übersetzt (eigene Fristen Kalenderdatum; Klagefrist nächster Werktag) |
+
+Warnungen nicht abgeschwächt: eigene Frist nach Kalenderdatum, verschobene Zustimmungsfrist nur Information, Verschiebung der Klagefrist ausdrücklich zugunsten des Vermieters.
+
+### § 193 sync – tr
+
+Türkische Übersetzung an den deutschen Stand „Fristende an Samstag, Sonntag, Feiertag (§ 193 BGB)“ angeglichen, 18.10.2026.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/content/tr.json | `rules.consent_deadline.text` | neu übersetzt: Antwort soll bis zum Tag ankommen; Verschiebung nach dem Wortlaut von § 193 BGB, keine Gerichtsentscheidung gefunden, „Bu yüzden buna güvenmeyin.“ |
+| static/i18n/content/tr.json | `rules.sue_deadline.text` | + Verschiebung zugunsten des Vermieters bis zum nächsten Werktag (z. B. Montag), § 167 ZPO, „wir zeigen das spätere Datum“ |
+| static/i18n/content/tr.json | `rules.termination_safe_by.text` | + „gilt auch bei Samstag/Sonntag/Feiertag; nicht geklärt; nicht damit rechnen“ |
+| static/i18n/content/tr.json | `rules.termination_declare_by.text` | + „Burada da tarihi bir iş gününe kaydırmıyoruz.“ |
+| static/i18n/content/tr.json | `rules.consent_deadline_193` | neu (title, text inkl. Berliner Feiertage, deutsche Namen in Klammern) |
+| static/i18n/content/tr.json | `checker.disclaimer` | neu übersetzt: nur Klagefrist des Vermieters verschoben; eigene Fristen nach Kalenderdatum, lieber früher antworten |
+| static/i18n/ui/tr.json | `chk_consent_193`, `chk_shifted_193` | neu (`{date}` erhalten, als „{date} tarihine/tarihinde“ ohne Suffix am Platzhalter) |
+| content/mieterhoehung.tr.md | Süreler | alter Satz ersetzt durch Absatz „Cumartesi, pazar, resmî tatil“ mit drei Punkten (Beispiel So 28.02.2027 → Mo 01.03.2027) und neuer Quellenzeile (wie de) |
+| content/pruefen.tr.md | Hinweis | neu übersetzt (eigene Fristen Kalenderdatum; Klagefrist nächster Werktag) |
+
+Warnungen nicht abgeschwächt: eigene Frist nach Kalenderdatum, verschobene Zustimmungsfrist nur Information, Verschiebung der Klagefrist ausdrücklich zugunsten des Vermieters.
+
+### § 193 sync – uk
+
+Ukrainische Übersetzung an den deutschen Stand „Fristende an Samstag, Sonntag, Feiertag (§ 193 BGB)“ angeglichen, 18.10.2026. Glossar beibehalten: Werktag = „робочий день“, Feiertag = „святковий день“, Sonderkündigung = „позачергове розірвання“; „nach dem Wortlaut“ = „за буквою“.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/content/uk.json | `rules.consent_deadline.text` | neu übersetzt: Antwort muss bis zu diesem Tag ankommen; Verschiebung nach dem Wortlaut von § 193 BGB, keine Gerichtsentscheidung gefunden, „не покладайтеся на це“ |
+| static/i18n/content/uk.json | `rules.sue_deadline.text` | + Verschiebung zugunsten des Vermieters bis zum nächsten Werktag (z. B. Montag), § 167 ZPO, „тут ми показуємо пізнішу дату“ |
+| static/i18n/content/uk.json | `rules.termination_safe_by.text` | + gilt auch bei Samstag/Sonntag/Feiertag; nicht geklärt; „не розраховуйте на це“ |
+| static/i18n/content/uk.json | `rules.termination_declare_by.text` | + „І тут ми не переносимо дату на робочий день.“ |
+| static/i18n/content/uk.json | `rules.consent_deadline_193` | neu (title, text inkl. Berliner Feiertage) |
+| static/i18n/content/uk.json | `checker.disclaimer` | neu übersetzt: nur Klagefrist des Vermieters verschoben; eigene Fristen nach Kalenderdatum, lieber früher antworten |
+| static/i18n/ui/uk.json | `chk_consent_193`, `chk_shifted_193` | neu (`{date}` erhalten) |
+| content/mieterhoehung.uk.md | Строки | alter Satz ersetzt durch Absatz „Субота, неділя, святковий день“ mit Feiertagsliste, drei Punkten (Beispiel So 28.02.2027 → Mo 01.03.2027) und neuer Quellenzeile (wie de, Klammerzusätze übersetzt) |
+| content/pruefen.uk.md | Hinweis | neu übersetzt (eigene Fristen Kalenderdatum; Klagefrist nächster Werktag) |
+
+Warnungen nicht abgeschwächt: eigene Frist nach Kalenderdatum, verschobene Zustimmungsfrist nur Information, Verschiebung der Klagefrist ausdrücklich zugunsten des Vermieters.
+
+### § 193 sync – pl
+
+Polnische Übersetzung an den deutschen Stand „Fristende an Samstag, Sonntag, Feiertag (§ 193 BGB)“ angeglichen, 18.10.2026.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/content/pl.json | `rules.consent_deadline.text` | neu übersetzt: Antwort soll bis zum Tag ankommen; Verschiebung nach dem Wortlaut von § 193 BGB, keine Gerichtsentscheidung gefunden, „Dlatego nie polegaj na tym.“ |
+| static/i18n/content/pl.json | `rules.sue_deadline.text` | + Verschiebung zugunsten des Vermieters bis zum nächsten Werktag (z. B. Montag), § 167 ZPO, „wir zeigen das spätere Datum“ |
+| static/i18n/content/pl.json | `rules.termination_safe_by.text` | + „gilt auch bei Samstag/Sonntag/Feiertag; nicht geklärt; nicht damit rechnen“ |
+| static/i18n/content/pl.json | `rules.termination_declare_by.text` | + „Także tutaj nie przesuwamy daty na dzień roboczy.“ |
+| static/i18n/content/pl.json | `rules.consent_deadline_193` | neu (title, text inkl. Berliner Feiertage) |
+| static/i18n/content/pl.json | `checker.disclaimer` | neu übersetzt: nur Klagefrist des Vermieters verschoben; eigene Fristen nach Kalenderdatum, lieber früher antworten |
+| static/i18n/ui/pl.json | `chk_consent_193`, `chk_shifted_193` | neu (`{date}` erhalten, als „tutaj na dzień {date}“ / „dnia {date}“) |
+| content/mieterhoehung.pl.md | Terminy | alter Satz ersetzt durch Absatz „Sobota, niedziela, święto“ mit drei Punkten (Beispiel So 28.02.2027 → Mo 01.03.2027) und neuer Quellenzeile (wie de) |
+| content/pruefen.pl.md | Hinweis | neu übersetzt (eigene Fristen Kalenderdatum; Klagefrist nächster Werktag) |
+
+Warnungen nicht abgeschwächt: eigene Frist nach Kalenderdatum, verschobene Zustimmungsfrist nur Information, Verschiebung der Klagefrist ausdrücklich zugunsten des Vermieters. JSON mit jq geprüft (gültig).
+
+### § 193 sync – ru
+
+Russische Übersetzung an den deutschen Stand „Fristende an Samstag, Sonntag, Feiertag (§ 193 BGB)“ angeglichen, 18.10.2026.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/content/ru.json | `rules.consent_deadline.text` | neu übersetzt: Antwort muss bis zu diesem Tag ankommen; Verschiebung „по буквальному тексту § 193 BGB“, keine Gerichtsentscheidung gefunden, „Поэтому не полагайтесь на это.“ |
+| static/i18n/content/ru.json | `rules.sue_deadline.text` | + Verschiebung zugunsten des Vermieters bis zum nächsten Werktag (z. B. Montag), § 167 ZPO, „Поэтому здесь мы показываем более позднюю дату.“ |
+| static/i18n/content/ru.json | `rules.termination_safe_by.text` | + gilt auch bei Samstag/Sonntag/Feiertag; nicht geklärt; „Не рассчитывайте на это.“ |
+| static/i18n/content/ru.json | `rules.termination_declare_by.text` | + „Здесь мы тоже не сдвигаем дату на рабочий день.“ |
+| static/i18n/content/ru.json | `rules.consent_deadline_193` | neu (title, text inkl. Berliner Feiertage; deutsche Namen in Klammern bei Karfreitag, Ostermontag, Himmelfahrt, Pfingstmontag) |
+| static/i18n/content/ru.json | `checker.disclaimer` | neu übersetzt: nur Klagefrist des Vermieters verschoben; eigene Fristen nach Kalenderdatum, lieber einige Tage früher antworten |
+| static/i18n/ui/ru.json | `chk_consent_193`, `chk_shifted_193` | neu (`{date}` erhalten, als „здесь – на {date}“ / „заканчивается {date}“) |
+| content/mieterhoehung.ru.md | Сроки | alter Satz ersetzt durch Absatz „Суббота, воскресенье, праздник“ mit drei Punkten (Beispiel So 28.02.2027 → Mo 01.03.2027) und neuer Quellenzeile (wie de; Versäumnisurteil als „заочное решение (Versäumnisurteil)“) |
+| content/pruefen.ru.md | Hinweis | neu übersetzt (eigene Fristen Kalenderdatum, Verschiebung nicht sicher; Klagefrist nächster Werktag) |
+
+Warnungen nicht abgeschwächt: eigene Frist nach Kalenderdatum, verschobene Zustimmungsfrist nur Information, Verschiebung der Klagefrist ausdrücklich zugunsten des Vermieters.

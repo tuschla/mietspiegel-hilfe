@@ -1,0 +1,45 @@
+{#- Shared body of the JS tool pages (rechner, pruefen, brief). Expects `tool` to be set. -#}
+{%- set cde_exists = load_data(path="static/i18n/content/de.json", required=false) %}
+{%- set cx_exists = load_data(path="static/i18n/content/" ~ lang ~ ".json", required=false) %}
+{%- set rules_exists = load_data(path="static/data/rules.json", required=false) %}
+{%- set letters_exists = load_data(path="static/data/letters.json", required=false) %}
+<div class="prose">
+  <h1>{{ page.title }}</h1>
+  {%- if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+  {{ page.content | safe }}
+</div>
+<noscript>
+  <div class="callout callout--warn">
+    <p>{{ ui.noscript_tool }}</p>
+    {%- set u = m::href(slug="merkmale", lang=lang) %}{% if u %}<p><a href="{{ u }}">{{ ui.nav_merkmale }}</a></p>{% endif %}
+  </div>
+</noscript>
+<div id="app" class="tool" data-tool="{{ tool }}" aria-live="off">
+  <p class="status" data-loading>{{ ui.loading }}</p>
+</div>
+<script type="application/json" id="app-config">{
+  "lang": {{ lang | json_encode | safe }},
+  "dir": {{ dir | json_encode | safe }},
+  "ui": {{ ui | json_encode | replace(from="</", to="<\/") | safe }},
+  "ui_de": {{ ui_de | json_encode | replace(from="</", to="<\/") | safe }},
+  "wohnlage_lookup_url": {{ config.extra.wohnlage_lookup_url | json_encode | safe }},
+  "urls": {
+    "ms2026": {{ get_url(path="data/ms2026.json") | json_encode | safe }},
+    "ms2024": {{ get_url(path="data/ms2024.json") | json_encode | safe }},
+    "rules": {% if rules_exists %}{{ get_url(path="data/rules.json") | json_encode | safe }}{% else %}null{% endif %},
+    "letters": {% if letters_exists %}{{ get_url(path="data/letters.json") | json_encode | safe }}{% else %}null{% endif %},
+    "content_de": {% if cde_exists %}{{ get_url(path="i18n/content/de.json") | json_encode | safe }}{% else %}null{% endif %},
+    "content": {% if cx_exists and lang != "de" %}{{ get_url(path="i18n/content/" ~ lang ~ ".json") | json_encode | safe }}{% else %}null{% endif %}
+  },
+  "pages": {
+    "rechner": {{ m::href(slug="rechner", lang=lang) | json_encode | safe }},
+    "pruefen": {{ m::href(slug="pruefen", lang=lang) | json_encode | safe }},
+    "brief": {{ m::href(slug="brief", lang=lang) | json_encode | safe }},
+    "merkmale": {{ m::href(slug="merkmale", lang=lang) | json_encode | safe }},
+    "merkmale2024": {{ m::href(slug="merkmale-2024", lang=lang) | json_encode | safe }},
+    "mieterhoehung": {{ m::href(slug="mieterhoehung", lang=lang) | json_encode | safe }},
+    "hilfe": {{ m::href(slug="hilfe", lang=lang) | json_encode | safe }},
+    "mietpreisbremse": {{ m::href(slug="mietpreisbremse", lang=lang) | json_encode | safe }}
+  }
+}</script>
+<script type="module" src="{{ get_url(path='js/app/' ~ tool ~ '.js', cachebust=true) }}"></script>

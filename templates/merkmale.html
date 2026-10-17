@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{#- Feature catalogue, rendered server-side from static/data/ms<year>.json + static/i18n/content/<lang>.json.
+    Front matter: [extra] year = 2026 | 2024 -#}
+{% block main %}
+{%- set year = page.extra.year | default(value=2026) %}
+{%- set ms = load_data(path="static/data/ms" ~ year ~ ".json", required=false) %}
+{%- set empty = load_data(literal="{}", format="json") %}
+{%- set cde = load_data(path="static/i18n/content/de.json", required=false) %}
+{%- if not cde %}{% set cde = empty %}{% endif %}
+{%- set cx = load_data(path="static/i18n/content/" ~ lang ~ ".json", required=false) %}
+{%- if cx %}{% set cl = "" %}{% else %}{% set cx = cde %}{% set cl = ' lang="de"' %}{% endif %}
+
+<div class="prose">
+  <h1>{{ page.title }}</h1>
+  {%- if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+</div>
+
+{#- year toggle: links to the merkmale pages that exist -#}
+{%- set u26 = m::href(slug="merkmale", lang=lang) %}
+{%- set u24 = m::href(slug="merkmale-2024", lang=lang) %}
+{%- if u26 and u24 %}
+<nav class="year-toggle" aria-label="{{ ui.merkmale_year_label }}">
+  <a href="{{ u26 }}"{% if year == 2026 %} aria-current="page"{% endif %}>2026</a>
+  <a href="{{ u24 }}"{% if year == 2024 %} aria-current="page"{% endif %}>2024</a>
+</nav>
+{%- endif %}
+
+<div class="prose">
+{{ page.content | safe }}
+</div>
+
+{%- if not ms %}
+<p class="callout callout--danger">{{ ui.data_missing }}</p>
+{%- else %}
+<p class="small">
+  {{ ui.merkmale_source }} <a href="{{ ms.source_url }}" lang="de">{{ ms.title_de }}</a>
+  · {{ ui.valid_from }} <bdi>{{ ms.valid_from | date(format="%d.%m.%Y") }}</bdi>
+  · {{ ui.stichtag }} <bdi>{{ ms.stichtag | date(format="%d.%m.%Y") }}</bdi>
+</p>
+{%- set u_calc = m::href(slug="rechner", lang=lang) %}
+{%- if u_calc %}<p><a class="btn btn--secondary" href="{{ u_calc }}">{{ ui.merkmale_to_calc }}</a></p>{% endif %}
+
+<details class="callout">
+  <summary>{{ ui.merkmale_rules_summary }}</summary>
+  <div lang="de" dir="ltr">{{ m::paras(text=ms.rules_de, class="official") }}</div>
+</details>
+
+<nav aria-label="{{ ui.merkmale_toc_label }}">
+  <ul class="toc">
+  {%- for g in ms.groups %}
+    {%- set gt = cx.groups[g.id].title | default(value=cde.groups[g.id].title | default(value=g.label_de)) %}
+    <li><a href="#g-{{ g.id }}"{{ cl | safe }}>{{ gt }}</a></li>
+  {%- endfor %}
+  </ul>
+</nav>
+
+{%- for g in ms.groups %}
+{%- set gt = cx.groups[g.id].title | default(value=cde.groups[g.id].title | default(value="")) %}
+{%- set gi = cx.groups[g.id].intro | default(value=cde.groups[g.id].intro | default(value="")) %}
+<section class="group" id="g-{{ g.id }}" aria-labelledby="h-{{ g.id }}">
+  <div class="group__head">
+    {%- if gt %}
+    <h2 id="h-{{ g.id }}"{{ cl | safe }}>{{ gt }}</h2>
+    <p class="group__official" lang="de" dir="ltr">{{ g.label_de }}</p>
+    {%- else %}
+    <h2 id="h-{{ g.id }}" lang="de">{{ g.label_de }}</h2>
+    {%- endif %}
+    {%- if gi %}<div class="prose"{{ cl | safe }}>{{ m::paras(text=gi) }}</div>{% endif %}
+  </div>
+  <div class="group__cols">
+  {%- for sign in [-1, 1] %}
+    <div class="group__col">
+      <h3>
+        {%- if sign > 0 %}<span class="badge badge--plus" aria-hidden="true">+</span> {{ ui.plus_heading }}
+        {%- else %}<span class="badge badge--minus" aria-hidden="true">−</span> {{ ui.minus_heading }}{% endif -%}
+      </h3>
+      <ul class="feature-list">
+      {%- for f in g.features %}{% if f.sign == sign %}
+        {%- set ft = cx.features[f.id].title | default(value=cde.features[f.id].title | default(value="")) %}
+        {%- set fe = cx.features[f.id].explain | default(value=cde.features[f.id].explain | default(value="")) %}
+        {%- set fc = cx.features[f.id].check | default(value=cde.features[f.id].check | default(value="")) %}
+        {%- set fp = cx.features[f.id].proof | default(value=cde.features[f.id].proof | default(value="")) %}
+        <li class="feature" id="{{ f.id }}">
+          {%- if sign > 0 %}<span class="badge badge--plus"><span aria-hidden="true">+</span><span class="visually-hidden">{{ ui.plus_short }}</span></span>
+          {%- else %}<span class="badge badge--minus"><span aria-hidden="true">−</span><span class="visually-hidden">{{ ui.minus_short }}</span></span>{% endif %}
+          {%- if ft %}
+          <h4{{ cl | safe }}>{{ ft }}</h4>
+          <p class="official" lang="de" dir="ltr"><span class="official__label" lang="{{ lang }}" dir="{{ dir }}">{{ ui.official_wording }}</span>{{ f.text_de }}</p>
+          {%- else %}
+          <h4 lang="de" dir="ltr">{{ f.text_de }}</h4>
+          {%- endif %}
+          {%- if f.footnote_de %}<p class="feature__cond" lang="de" dir="ltr">{{ f.footnote_de }}</p>{% endif %}
+          {%- if f.note_de %}<p class="callout callout--warn check-item__note"><span class="official__label">{{ ui.feature_note }}</span><span lang="de" dir="ltr">{{ f.note_de }}</span></p>{% endif %}
+          {%- if f.excl %}<p class="feature__cond">{{ ui.feature_exclusive_note }}</p>{% endif %}
+          {%- if fe or fc or fp %}
+          <details class="feature__more">
+            <summary>{{ ui.feature_more }}</summary>
+            <dl>
+              {%- if fe %}<dt>{{ ui.feature_explain }}</dt><dd{{ cl | safe }}>{{ m::paras(text=fe) }}</dd>{% endif %}
+              {%- if fc %}<dt>{{ ui.feature_check }}</dt><dd{{ cl | safe }}>{{ m::paras(text=fc) }}</dd>{% endif %}
+              {%- if fp %}<dt>{{ ui.feature_proof }}</dt><dd{{ cl | safe }}>{{ m::paras(text=fp) }}</dd>{% endif %}
+            </dl>
+          </details>
+          {%- endif %}
+        </li>
+      {%- endif %}{% endfor %}
+      </ul>
+    </div>
+  {%- endfor %}
+  </div>
+  {%- if g.notes_de %}
+  <div class="callout">
+    <p class="callout__title">{{ ui.official_notes }}</p>
+    <ul class="official" lang="de" dir="ltr">{% for n in g.notes_de %}<li>{{ n }}</li>{% endfor %}</ul>
+  </div>
+  {%- endif %}
+</section>
+{%- endfor %}
+
+{%- if ms.abschlag %}
+<section class="group" aria-labelledby="h-abschlag">
+  <div class="group__head"><h2 id="h-abschlag">{{ ui.abschlag_heading }}</h2></div>
+  <p>{{ ui.abschlag_intro }}</p>
+  <div lang="de" dir="ltr">{{ m::paras(text=ms.abschlag.text_de, class="official") }}</div>
+</section>
+{%- endif %}
+
+{%- if ms.notes_de %}
+<details class="callout">
+  <summary>{{ ui.official_footnotes }}</summary>
+  <ul class="official" lang="de" dir="ltr">{% for n in ms.notes_de %}<li>{{ n }}</li>{% endfor %}</ul>
+</details>
+{%- endif %}
+{%- endif %}
+{% endblock main %}

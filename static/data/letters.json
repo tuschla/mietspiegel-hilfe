@@ -1,0 +1,303 @@
+{
+ "as_of": "2026-10-17",
+ "language": "de",
+ "templates": [
+  {
+   "id": "zustimmung",
+   "kind": "consent",
+   "risk": "high",
+   "fields": [
+    {
+     "id": "tenant_name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "tenant_address",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "id": "landlord_name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "landlord_address",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "id": "contract_number",
+     "type": "text",
+     "required": false
+    },
+    {
+     "id": "place",
+     "type": "text",
+     "required": true,
+     "default": "Berlin"
+    },
+    {
+     "id": "demand_date",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "received",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "current_rent",
+     "type": "money",
+     "required": true
+    },
+    {
+     "id": "new_rent",
+     "type": "money",
+     "required": true
+    },
+    {
+     "id": "effective",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "own_text",
+     "type": "textarea",
+     "required": false
+    }
+   ],
+   "body_de": "{tenant_name}\n{tenant_address}\n\n{landlord_name}\n{landlord_address}\n\n{place}, {today}\n\nIhr Mieterhöhungsverlangen vom {demand_date}{?contract_number} – Mietvertrag Nr. {contract_number}{/contract_number}\n\nSehr geehrte Damen und Herren,\n\nIhr Schreiben vom {demand_date}, mit dem Sie meine Zustimmung zu einer Mieterhöhung nach § 558 BGB verlangen, habe ich am {received} erhalten.\n\nIch stimme der Erhöhung der monatlichen Nettokaltmiete von {current_rent} auf {new_rent} zu. Die erhöhte Miete zahle ich ab dem {effective}. Weitere Änderungen des Mietvertrags sind mit dieser Zustimmung nicht verbunden.\n\n{?own_text}\n{own_text}\n{/own_text}\nMit freundlichen Grüßen\n\n\n\n{tenant_name}\n",
+   "sources": [
+    "bgb_558b"
+   ],
+   "title_de": "Zustimmung",
+   "when_de": "Wenn Sie die Erhöhung geprüft haben und sie in voller Höhe für richtig halten. Zum Beispiel: Die neue Miete liegt nicht über der ortsüblichen Vergleichsmiete und nicht über der Kappungsgrenze, und die Wartezeiten sind eingehalten.",
+   "risks_de": "Ihre Zustimmung ist endgültig. Sie können sie nicht zurücknehmen, sobald sie beim Vermieter angekommen ist. Die neue Miete gilt dann als vereinbart, in der Regel auch wenn sie zu hoch war. Nur in Ausnahmefällen, zum Beispiel bei bewusster Täuschung, kann man eine Zustimmung anfechten. Hat Ihr Mietvertrag ab Juni 2015 begonnen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Hat die Prüfung ein Problem gezeigt, stimmen Sie nicht zu, bevor Sie sich beraten lassen haben."
+  },
+  {
+   "id": "teilzustimmung",
+   "kind": "partial",
+   "risk": "high",
+   "fields": [
+    {
+     "id": "tenant_name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "tenant_address",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "id": "landlord_name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "landlord_address",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "id": "contract_number",
+     "type": "text",
+     "required": false
+    },
+    {
+     "id": "place",
+     "type": "text",
+     "required": true,
+     "default": "Berlin"
+    },
+    {
+     "id": "demand_date",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "received",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "current_rent",
+     "type": "money",
+     "required": true
+    },
+    {
+     "id": "agreed_rent",
+     "type": "money",
+     "required": true
+    },
+    {
+     "id": "effective",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "disputed_plus",
+     "type": "features_plus",
+     "required": false
+    },
+    {
+     "id": "missing_minus",
+     "type": "features_minus",
+     "required": false
+    },
+    {
+     "id": "own_text",
+     "type": "textarea",
+     "required": false
+    }
+   ],
+   "body_de": "{tenant_name}\n{tenant_address}\n\n{landlord_name}\n{landlord_address}\n\n{place}, {today}\n\nIhr Mieterhöhungsverlangen vom {demand_date}{?contract_number} – Mietvertrag Nr. {contract_number}{/contract_number}\n\nSehr geehrte Damen und Herren,\n\nIhr Schreiben vom {demand_date}, mit dem Sie meine Zustimmung zu einer Mieterhöhung nach § 558 BGB verlangen, habe ich am {received} erhalten.\n\nIch stimme der verlangten Mieterhöhung nur teilweise zu, und zwar einer Erhöhung der monatlichen Nettokaltmiete von bisher {current_rent} auf {agreed_rent} ab dem {effective}. Der darüber hinausgehenden Erhöhung stimme ich nicht zu. Weitere Änderungen des Mietvertrags sind mit dieser Zustimmung nicht verbunden.\n{?disputed_plus}\nFolgende wohnwerterhöhende Merkmale, die Sie bei der Einordnung meiner Wohnung angesetzt haben, erkenne ich nicht an (Aufzählung nicht abschließend):\n{disputed_plus}\n{/disputed_plus}{?missing_minus}\nFolgende wohnwertmindernde Merkmale der Orientierungshilfe haben Sie nach meiner Auffassung nicht berücksichtigt (Aufzählung nicht abschließend):\n{missing_minus}\n{/missing_minus}\n{?own_text}\n{own_text}\n{/own_text}\nMit freundlichen Grüßen\n\n\n\n{tenant_name}\n",
+   "sources": [
+    "bgb_558b",
+    "bgh_viii_zr_141_09",
+    "bgh_viii_zr_62_18"
+   ],
+   "title_de": "Teilweise Zustimmung",
+   "when_de": "Wenn Sie meinen, dass ein Teil der Erhöhung berechtigt ist, aber nicht der ganze Betrag. Zum Beispiel: Die Vergleichsmiete nach Ihrer Rechnung liegt zwischen Ihrer jetzigen und der verlangten Miete.",
+   "risks_de": "Auch eine teilweise Zustimmung ist endgültig. Die Miete, der Sie zustimmen, gilt als vereinbart. Für den Rest kann der Vermieter trotzdem vor Gericht klagen. Stimmen Sie deshalb nur dem Betrag zu, den Sie sicher für richtig halten. Zahlen Sie danach nur diesen Betrag, nicht den vollen verlangten Betrag; prüfen Sie eine Lastschrift. Hat Ihr Mietvertrag ab Juni 2015 begonnen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Rechnen Sie den Betrag vorher genau aus und lassen Sie sich beraten."
+  },
+  {
+   "id": "ablehnung",
+   "kind": "refusal",
+   "risk": "low",
+   "fields": [
+    {
+     "id": "tenant_name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "tenant_address",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "id": "landlord_name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "landlord_address",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "id": "contract_number",
+     "type": "text",
+     "required": false
+    },
+    {
+     "id": "place",
+     "type": "text",
+     "required": true,
+     "default": "Berlin"
+    },
+    {
+     "id": "demand_date",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "received",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "disputed_plus",
+     "type": "features_plus",
+     "required": false
+    },
+    {
+     "id": "missing_minus",
+     "type": "features_minus",
+     "required": false
+    },
+    {
+     "id": "own_text",
+     "type": "textarea",
+     "required": false
+    }
+   ],
+   "body_de": "{tenant_name}\n{tenant_address}\n\n{landlord_name}\n{landlord_address}\n\n{place}, {today}\n\nIhr Mieterhöhungsverlangen vom {demand_date}{?contract_number} – Mietvertrag Nr. {contract_number}{/contract_number}\n\nSehr geehrte Damen und Herren,\n\nIhr Schreiben vom {demand_date}, mit dem Sie meine Zustimmung zu einer Mieterhöhung nach § 558 BGB verlangen, habe ich am {received} erhalten.\n\nIch stimme der verlangten Mieterhöhung nicht zu.\n{?disputed_plus}\nFolgende wohnwerterhöhende Merkmale, die Sie bei der Einordnung meiner Wohnung angesetzt haben, erkenne ich nicht an (Aufzählung nicht abschließend):\n{disputed_plus}\n{/disputed_plus}{?missing_minus}\nFolgende wohnwertmindernde Merkmale der Orientierungshilfe haben Sie nach meiner Auffassung nicht berücksichtigt (Aufzählung nicht abschließend):\n{missing_minus}\n{/missing_minus}\n{?own_text}\n{own_text}\n{/own_text}\nMit freundlichen Grüßen\n\n\n\n{tenant_name}\n",
+   "sources": [
+    "bgb_558b"
+   ],
+   "title_de": "Ablehnung",
+   "when_de": "Wenn Sie der Erhöhung nicht zustimmen wollen, zum Beispiel weil Sie meinen, dass sie zu hoch ist oder dass das Schreiben fehlerhaft ist.",
+   "risks_de": "Eine Ablehnung beendet die Sache nicht. Der Vermieter kann innerhalb von drei Monaten nach dem Ende Ihrer Frist auf Zustimmung klagen. Wer einen Prozess verliert, muss die Kosten tragen (§ 91 ZPO). Gibt das Gericht dem Vermieter recht, gilt Ihre Zustimmung als erteilt, sobald man gegen das Urteil nichts mehr tun kann (Rechtskraft, § 894 ZPO). Sie schulden die höhere Miete dann ab dem Erhöhungstermin, also auch für die Monate während des Prozesses (§ 558b Abs. 1 BGB). Legen Sie das Geld dafür am besten zur Seite. Bei einer Mieterhöhung nach § 558 BGB zahlen Sie bis zur Entscheidung weiter die bisherige Miete und nicht die höhere. Das gilt nicht bei Modernisierung, Betriebskosten, Index- oder Staffelmiete oder in einer Sozialwohnung. Prüfen Sie eine Lastschrift."
+  },
+  {
+   "id": "nachfrage",
+   "kind": "request",
+   "risk": "low",
+   "fields": [
+    {
+     "id": "tenant_name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "tenant_address",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "id": "landlord_name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "landlord_address",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "id": "contract_number",
+     "type": "text",
+     "required": false
+    },
+    {
+     "id": "place",
+     "type": "text",
+     "required": true,
+     "default": "Berlin"
+    },
+    {
+     "id": "demand_date",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "received",
+     "type": "date",
+     "required": true
+    },
+    {
+     "id": "questions",
+     "type": "textarea",
+     "required": false
+    },
+    {
+     "id": "own_text",
+     "type": "textarea",
+     "required": false
+    }
+   ],
+   "body_de": "{tenant_name}\n{tenant_address}\n\n{landlord_name}\n{landlord_address}\n\n{place}, {today}\n\nIhr Mieterhöhungsverlangen vom {demand_date}{?contract_number} – Mietvertrag Nr. {contract_number}{/contract_number}\n\nSehr geehrte Damen und Herren,\n\nIhr Schreiben vom {demand_date}, mit dem Sie meine Zustimmung zu einer Mieterhöhung nach § 558 BGB verlangen, habe ich am {received} erhalten.\n\nBevor ich mich entscheide, bitte ich Sie um folgende Angaben:\n\n– Welche Merkmale der Orientierungshilfe zum Berliner Mietspiegel haben Sie bei der Einordnung meiner Wohnung als wohnwerterhöhend und welche als wohnwertmindernd angesetzt?\n– Von welcher Wohnfläche, welcher Wohnlage und welchem Baualter sind Sie ausgegangen?{?questions}\n– {questions}{/questions}\n\nBitte senden Sie mir die Angaben schriftlich.\n\n{?own_text}\n{own_text}\n{/own_text}\nMit freundlichen Grüßen\n\n\n\n{tenant_name}\n",
+   "sources": [
+    "bgb_558b"
+   ],
+   "title_de": "Nachfrage zu den Merkmalen",
+   "when_de": "Wenn im Schreiben des Vermieters nicht steht, welche Merkmale er angesetzt hat, oder wenn Sie Angaben wie Wohnfläche, Wohnlage oder Baualter prüfen wollen.",
+   "risks_de": "Die Nachfrage hält Ihre Frist nicht an. Die Frist zum Zustimmen läuft weiter bis zum Ende des zweiten Kalendermonats nach dem Zugang. Der Vermieter muss nicht antworten. Warten Sie nicht zu lange auf eine Antwort."
+  }
+ ]
+}

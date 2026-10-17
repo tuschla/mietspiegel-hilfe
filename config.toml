@@ -1,0 +1,67 @@
+# base_url is overridden at build time: zola build --base-url "https://<domain>"
+base_url = "http://127.0.0.1:1111"
+title = "Mietspiegel-Hilfe Berlin"
+description = "Berliner Mietspiegel und Mieterhöhung verstehen – in einfacher Sprache und mehreren Sprachen."
+
+default_language = "de"
+compile_sass = false
+minify_html = false
+build_search_index = false
+generate_feeds = false
+generate_sitemap = true
+generate_robots_txt = true
+
+[markdown]
+smart_punctuation = true
+external_links_no_follow = true
+external_links_no_referrer = true
+
+# One block per language. Translations (content/*.<lang>.md, static/i18n/**/<lang>.json)
+# are added later; until then pages fall back to German.
+[languages.en]
+title = "Berlin rent index help"
+generate_feeds = false
+build_search_index = false
+
+[languages.tr]
+title = "Berlin kira aynası yardımı"
+generate_feeds = false
+build_search_index = false
+
+[languages.ar]
+title = "مساعدة مرآة الإيجارات في برلين"
+generate_feeds = false
+build_search_index = false
+
+[languages.uk]
+title = "Довідка щодо дзеркала орендної плати Берліна"
+generate_feeds = false
+build_search_index = false
+
+[languages.ru]
+title = "Помощь по зеркалу арендной платы Берлина"
+generate_feeds = false
+build_search_index = false
+
+[languages.pl]
+title = "Pomoc do berlińskiego zwierciadła czynszów"
+generate_feeds = false
+build_search_index = false
+
+[extra]
+brand = "Mietspiegel-Hilfe Berlin"
+# Display order of the language switcher. "native" is the name in that language,
+# "dir" the writing direction. Add new languages here and in [languages.*].
+languages = [
+  { code = "de", native = "Deutsch", dir = "ltr" },
+  { code = "en", native = "English", dir = "ltr" },
+  { code = "tr", native = "Türkçe", dir = "ltr" },
+  { code = "ar", native = "العربية", dir = "rtl" },
+  { code = "uk", native = "Українська", dir = "ltr" },
+  { code = "ru", native = "Русский", dir = "ltr" },
+  { code = "pl", native = "Polski", dir = "ltr" },
+]
+# Official Wohnlage lookup (address → Wohnlage) of the Senate. Opened links only, never loaded.
+wohnlage_lookup_url = "https://mietspiegel.berlin.de/berliner-mietspiegel/mietspiegelabfrage/"
+# Main navigation: page slugs (content/<slug>.md). Missing pages are skipped; labels come from ui "nav_<slug>".
+nav = ["mieterhoehung", "pruefen", "rechner", "merkmale", "brief", "mietpreisbremse", "hilfe", "ueber"]

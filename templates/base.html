@@ -1,0 +1,87 @@
+{%- import "macros.html" as m -%}
+{#- UI strings: current language, else German (tests/run.mjs enforces identical key sets) -#}
+{%- set ui_de = load_data(path="static/i18n/ui/de.json") -%}
+{%- set ui = load_data(path="static/i18n/ui/" ~ lang ~ ".json", required=false) -%}
+{%- if not ui -%}{%- set ui = ui_de -%}{%- endif -%}
+{%- set_global dir = "ltr" -%}
+{%- for l in config.extra.languages -%}{%- if l.code == lang -%}{%- set_global dir = l.dir -%}{%- endif -%}{%- endfor -%}
+{%- if page -%}{%- set cur = page -%}{%- elif section -%}{%- set cur = section -%}{%- endif -%}
+<!doctype html>
+<html lang="{{ lang }}" dir="{{ dir }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<title>{% block title %}{% if cur and cur.title and cur.title != ui.brand %}{{ cur.title }} · {% endif %}{{ ui.brand }}{% endblock title %}</title>
+{%- if cur and cur.description %}
+<meta name="description" content="{{ cur.description }}">
+{%- endif %}
+{%- if cur and cur.translations %}
+{%- for t in cur.translations %}{% if t.title %}
+<link rel="alternate" hreflang="{{ t.lang }}" href="{{ t.permalink }}">
+{%- endif %}{% endfor %}
+{%- endif %}
+<link rel="stylesheet" href="{{ get_url(path='css/site.css', cachebust=true) }}">
+<script type="module" src="{{ get_url(path='js/app/common.js', cachebust=true) }}"></script>
+{%- block head %}{% endblock head %}
+</head>
+<body class="{% block body_class %}{% endblock body_class %}">
+<a class="skip-link" href="#main">{{ ui.skip_to_content }}</a>
+<header class="site-header">
+  <div class="wrap">
+    <div class="site-header__bar">
+      <a class="brand" href="{{ m::home(lang=lang) }}">{{ ui.brand }}<span class="brand__tag">{{ ui.brand_tag }}</span></a>
+      {%- if cur and cur.translations %}
+      {%- set_global langs = [] -%}
+      {%- for l in config.extra.languages -%}
+        {%- for t in cur.translations -%}
+          {%- if t.lang == l.code and t.title -%}{%- set_global langs = langs | concat(with=[l.code ~ "|" ~ t.permalink ~ "|" ~ l.native]) -%}{%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      {%- if langs | length > 1 %}
+      <nav class="lang-switch" aria-label="{{ ui.lang_switch_label }}">
+        <ul>
+          {%- for entry in langs %}{% set parts = entry | split(pat="|") %}
+          <li><a href="{{ parts[1] }}" hreflang="{{ parts[0] }}" lang="{{ parts[0] }}"{% if parts[0] == lang %} aria-current="true"{% endif %}>{{ parts[2] }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+      {%- endif %}
+      {%- endif %}
+    </div>
+    <nav class="main-nav" aria-label="{{ ui.nav_label }}">
+      <ul>
+        {%- for slug in config.extra.nav %}
+        {%- set url = m::href(slug=slug, lang=lang) %}{% set nav_key = "nav_" ~ slug %}
+        {%- if url %}
+        <li><a href="{{ url }}"{% if cur and cur.permalink == url %} aria-current="page"{% endif %}>{{ ui[nav_key] }}</a></li>
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+  <div class="wrap">
+{% block main %}{% endblock main %}
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div>
+      <p><strong>{{ ui.brand }}</strong> – {{ ui.footer_what }}</p>
+      <p>{{ ui.footer_no_advice }}</p>
+      {%- set help = m::href(slug="hilfe", lang=lang) %}{% set about = m::href(slug="ueber", lang=lang) %}
+      <p>{% if help %}<a href="{{ help }}">{{ ui.nav_hilfe }}</a>{% endif %}{% if help and about %} · {% endif %}{% if about %}<a href="{{ about }}">{{ ui.nav_ueber }}</a>{% endif %}</p>
+    </div>
+    <div>
+      <p>{{ ui.footer_privacy }}</p>
+      <p class="no-print"><button type="button" class="btn btn--secondary" data-clear-storage data-done="{{ ui.clear_data_done }}" hidden>{{ ui.clear_data }}</button></p>
+      <p class="status" data-clear-status role="status" aria-live="polite"></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

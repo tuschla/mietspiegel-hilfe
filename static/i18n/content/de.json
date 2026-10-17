@@ -1,0 +1,762 @@
+{
+ "_meta": {
+  "lang": "de",
+  "as_of": "2026-10-18",
+  "note": "Einfache Sprache. Inoffizielle Erklärungen; verbindlich ist nur der amtliche Mietspiegel."
+ },
+ "groups": {
+  "bad": {
+   "title": "Bad und WC",
+   "intro": "In dieser Gruppe geht es um Bad, WC und Gäste-WC. Bei vielen Merkmalen steht im Mietspiegel „bezieht sich nicht auf Gäste-WCs“: Dann zählt nur das Hauptbad.\n\nZählen Sie die Plus- und die Minus-Merkmale. Gibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+  },
+  "kueche": {
+   "title": "Küche",
+   "intro": "In dieser Gruppe geht es um die Küche. Es zählt nur, was der Vermieter gestellt hat. Eine Küche oder Geräte, die Sie selbst bezahlt haben, zählen nicht.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+  },
+  "wohnung": {
+   "title": "Wohnung",
+   "intro": "In dieser Gruppe geht es um die Wohnung selbst: Fenster, Leitungen, Grundriss, Balkon, Böden und Heizung. Viele Merkmale sagen „überwiegend“. Das heißt nach dem Wortsinn: bei mehr als der Hälfte, zum Beispiel der Fenster oder Räume.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+  },
+  "gebaeude": {
+   "title": "Gebäude",
+   "intro": "In dieser Gruppe geht es um das Haus: Treppenhaus, Keller, Eingang, Aufzug, Zustand und Energie. Beim Energieverbrauch gilt eine Sonderregel: Sie kreuzen entweder das Merkmal zur Wärmedämmung oder Heizanlage an oder die Merkmale zum Energiekennwert aus dem Energieausweis, nicht beides. Beim Kennwert können bis zu drei Kästchen zählen.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+  },
+  "umfeld": {
+   "title": "Wohnumfeld",
+   "intro": "In dieser Gruppe geht es um die Umgebung: Lärm, Geruch, Fahrräder, Grundstück, Parkplätze und Garten. Die Wohnlage (einfach, mittel, gut) ist schon in der Tabelle berücksichtigt. Hier geht es um Besonderheiten Ihrer Wohnung.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+  }
+ },
+ "features": {
+  "bad-m01": {
+   "title": "Kein oder nur kleines Waschbecken",
+   "explain": "Minus, wenn es im Bad oder WC kein Handwaschbecken gibt. Minus auch, wenn im Bad nur ein kleines Becken hängt: im Mietspiegel 2026 außen 50 cm breit oder weniger, im Mietspiegel 2024 außen 50 x 25 cm oder kleiner. Gäste-WCs zählen hier nicht.",
+   "check": "Messen Sie das Waschbecken im Bad außen an der breitesten Stelle, von Kante zu Kante. Für den Mietspiegel 2024 messen Sie auch die Tiefe. Notieren Sie die Zentimeter.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: ein Foto mit angelegtem Zollstock, auf dem man die Zahl lesen kann, mit Datum."
+  },
+  "bad-m02": {
+   "title": "WC-Raum ohne jede Lüftung",
+   "explain": "Minus, wenn der Raum mit dem WC weder ein Fenster noch eine Entlüftung hat. Der Mietspiegel sagt: ohne Lüftungsmöglichkeit und Entlüftung. Gäste-WCs zählen hier nicht.",
+   "check": "Gibt es im Raum mit dem WC ein Fenster, das man öffnen kann? Gibt es einen Lüfter oder einen Lüftungsschacht mit Gitter? Wenn beides fehlt, trifft das Merkmal zu.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos von allen Wänden und der Decke des Raums."
+  },
+  "bad-m03": {
+   "title": "Holzdielen im Bad, nicht für Nässe",
+   "explain": "Minus, wenn im Bad ein Fußboden aus Holzdielen liegt, der nicht für Nassräume geeignet ist (nicht feuchtraumgeeignet). Gäste-WCs zählen hier nicht.",
+   "check": "Schauen Sie auf den Boden im Bad: Sind es Holzdielen ohne Fliesen oder wasserfesten Belag darüber? Ob Dielen „feuchtraumgeeignet“ sind, sagt der Mietspiegel nicht genauer. Im Zweifel fragen Sie eine Beratungsstelle.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos vom Boden, auch von Fugen und Schäden durch Nässe."
+  },
+  "bad-m04": {
+   "title": "Bad ohne richtige Heizung",
+   "explain": "Minus, wenn man das Bad nicht heizen kann. Minus auch, wenn es nur mit Holz oder Kohle oder mit einem elektrischen Heizstrahler geheizt wird. Gäste-WCs zählen hier nicht.",
+   "check": "Gibt es im Bad einen Heizkörper, der an die Heizung angeschlossen ist? Oder nur einen Ofen für Holz/Kohle oder einen elektrischen Strahler? Oder gar nichts?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos vom Bad, auf denen man sieht, dass kein Heizkörper da ist oder welches Gerät da ist."
+  },
+  "bad-m05": {
+   "title": "Zu wenig warmes Wasser im Bad",
+   "explain": "Minus, wenn es im Bad keine ausreichende Warmwasserversorgung gibt. Beispiele im Mietspiegel: keine zentrale Warmwasserversorgung, kein Durchlauferhitzer, kein Boiler mit mehr als 60 Litern. Gäste-WCs zählen hier nicht.",
+   "check": "Woher kommt das warme Wasser im Bad? Aus der zentralen Anlage des Hauses, aus einem Durchlauferhitzer oder aus einem Boiler (Speicher)? Bei einem Boiler steht die Liter-Zahl meist auf dem Typenschild.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Foto vom Typenschild des Boilers mit der Liter-Angabe."
+  },
+  "bad-m06": {
+   "title": "Freistehende Wanne ohne eigene Dusche",
+   "explain": "Minus, wenn im Bad eine freistehende Badewanne steht (mit oder ohne Verkleidung) und es keine eigene Dusche gibt. Das gilt nur in einem Bad, das nicht modernisiert ist.",
+   "check": "Steht die Wanne frei im Raum, zum Beispiel auf Füßen, oder ist sie nur vorne verkleidet? Gibt es zusätzlich eine eigene Dusche? Wurde das Bad modernisiert? Was „nicht modernisiert“ genau heißt, sagt der Mietspiegel nicht.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos von der Wanne und vom ganzen Bad."
+  },
+  "bad-m07": {
+   "title": "Wände am Wasser nicht gefliest",
+   "explain": "Minus, wenn die Wände an Waschbecken, Badewanne oder Dusche dort nicht genug gefliest oder geschützt sind, wo Wasser hinspritzt (Spritzwasserbereich). Gäste-WCs zählen hier nicht. Im Mietspiegel 2024 steht nur „gefliest“, im Mietspiegel 2026 „gefliest/geschützt“.",
+   "check": "Schauen Sie sich die Wand hinter und neben Waschbecken, Wanne und Dusche an. Gibt es dort Fliesen oder einen anderen wasserfesten Schutz? Wie hoch und wie breit?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos der Wände mit Zollstock, damit man die Höhe der Fliesen sieht."
+  },
+  "bad-m08": {
+   "title": "Bad mit WC ohne Fenster",
+   "explain": "Minus, wenn das Bad mit WC kein Fenster hat. Das gilt nicht für Wohnungen der Baualtersklasse 1973 bis 1990 Ost.",
+   "check": "Hat das Bad, in dem das WC ist, ein Fenster nach draußen? Prüfen Sie auch die Baualtersklasse Ihrer Wohnung im Rechner.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos aller Wände des Bades."
+  },
+  "bad-m09": {
+   "title": "Man kann nicht richtig duschen",
+   "explain": "Minus, wenn es keine Duschmöglichkeit gibt. Beispiele im Mietspiegel: kein Schutz gegen Spritzwasser (zum Beispiel kein Duschvorhang oder keine Duschwand), keine Halterung für den Duschkopf. Im Mietspiegel 2024 steht als Beispiel zusätzlich: sehr kleine Standfläche.",
+   "check": "Können Sie im Bad duschen, ohne dass Wasser in den Raum spritzt? Gibt es eine Stange oder Halterung für den Duschkopf an der Wand? Der Mietspiegel nennt Beispiele, aber keine feste Regel.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos von Wanne oder Dusche, Halterung und Wänden."
+  },
+  "bad-m10": {
+   "title": "Kleines Bad unter 4 m²",
+   "explain": "Minus, wenn das Bad eine Grundfläche von weniger als 4 m² hat. Das gilt nicht für Wohnungen der Baualtersklasse 1973 bis 1990 Ost.",
+   "check": "Messen Sie Länge und Breite des Bades am Boden und rechnen Sie Länge mal Breite. Bei schrägen oder verwinkelten Räumen messen Sie in Teilen. Vergleichen Sie mit der Fläche im Mietvertrag oder in einer Flächenberechnung, falls vorhanden.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: eine Skizze mit Maßen und Fotos mit Zollstock."
+  },
+  "bad-p01": {
+   "title": "Sehr großes oder doppeltes Waschbecken",
+   "explain": "Plus, wenn das Waschbecken außen mindestens 80 cm breit ist. Plus auch bei einem Doppelwaschbecken oder zwei getrennten Waschbecken (im Mietspiegel 2026: nebeneinander). Gäste-WCs zählen hier nicht.",
+   "check": "Messen Sie das Waschbecken außen an der breitesten Stelle. Gibt es zwei Becken?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: ein Foto mit Zollstock, wenn das Becken kleiner als 80 cm ist."
+  },
+  "bad-p02": {
+   "title": "Besonders hochwertige Bad-Ausstattung",
+   "explain": "Plus bei besonderer und hochwertiger Ausstattung. Beispiele im Mietspiegel: hochwertige Sanitärausstattung, hochwertige Badmöbel, Eckwanne, Rundwanne; im Mietspiegel 2026 auch Echtglastrennwand und Regendusche. Gäste-WCs zählen hier nicht. Was genau „hochwertig“ ist, sagt der Mietspiegel nicht.",
+   "check": "Gibt es im Bad etwas aus der Beispiel-Liste? Wer hat es eingebaut und bezahlt: der Vermieter oder Sie selbst? Normale, einfache Ausstattung ist nicht gemeint.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos der Ausstattung und Belege, falls Sie etwas selbst eingebaut haben."
+  },
+  "bad-p03": {
+   "title": "Innenbad mit moderner Lüftung",
+   "explain": "Plus, wenn das Bad innen liegt (ohne Fenster) und eine moderne, gesteuerte Entlüftung hat, zum Beispiel mit einem Feuchtigkeitssensor. Gäste-WCs zählen hier nicht.",
+   "check": "Hat das Bad kein Fenster? Springt der Lüfter von selbst an, zum Beispiel bei Feuchtigkeit oder mit dem Licht und läuft nach? Ein einfacher Lüftungsschacht ist nicht „modern gesteuert“.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Foto vom Lüfter; notieren Sie, wann er läuft."
+  },
+  "bad-p04": {
+   "title": "Zweites WC oder WC getrennt vom Bad",
+   "explain": "Plus, wenn es in der Wohnung ein zweites WC gibt. Plus auch, wenn Bad und WC in getrennten Räumen sind.",
+   "check": "Wie viele WCs hat die Wohnung? Ist das WC in einem eigenen Raum, getrennt vom Bad?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "bad-p05": {
+   "title": "Großes Bad über 8 m²",
+   "explain": "Plus, wenn mindestens ein Bad mehr als 8 m² Grundfläche hat. Gäste-WCs zählen hier nicht.",
+   "check": "Messen Sie Länge und Breite des Bades am Boden und rechnen Sie Länge mal Breite.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: eine Skizze mit Maßen, wenn das Bad kleiner ist."
+  },
+  "bad-p06": {
+   "title": "Fußbodenheizung im Bad",
+   "explain": "Plus, wenn das Bad eine Fußbodenheizung hat. Gäste-WCs zählen hier nicht.",
+   "check": "Wird der Boden im Bad warm, wenn die Heizung läuft? Gibt es einen eigenen Regler dafür? Wer hat sie eingebaut?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "bad-p07": {
+   "title": "Hochwertige Fliesen oder Wandverkleidung im Bad",
+   "explain": "Plus, wenn Wandverkleidung und Bodenbelag im Bad hochwertig sind. Gilt nicht für neuere Häuser: im Mietspiegel 2026 nicht für die Baualtersklassen ab 2010, im Mietspiegel 2024 nicht für die Baualtersklasse 2016 bis 2022. Gäste-WCs zählen hier nicht. Was „hochwertig“ ist, sagt der Mietspiegel nicht genau.",
+   "check": "Sind Wände und Boden im Bad mit besonders guten Materialien belegt, zum Beispiel Naturstein? Einfache Standardfliesen sind nach dem Wortsinn nicht „hochwertig“. Beachten Sie die Ausnahme für neuere Baujahre.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos von Wänden und Boden, auch von Schäden."
+  },
+  "bad-p08": {
+   "title": "Wand-WC mit verstecktem Spülkasten",
+   "explain": "Plus bei einem an der Wand hängenden WC, dessen Spülkasten in der Wand steckt. Das gilt nicht für die Baualtersklassen ab 2002. Plus auch bei einem hochwertigen Stand-WC. Gäste-WCs zählen hier nicht.",
+   "check": "Hängt das WC an der Wand, ohne Fuß am Boden, und ist der Spülkasten nicht zu sehen? Beachten Sie die Ausnahme ab Baujahr 2002. Was ein „hochwertiges“ Stand-WC ist, sagt der Mietspiegel nicht.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "bad-p09": {
+   "title": "Handtuch-Heizkörper im Bad",
+   "explain": "Plus bei einem Heizkörper, der auch als Handtuchhalter dient (Strukturheizkörper). Das gilt für die Baualtersklassen bis einschließlich 2001. Kann er zusätzlich elektrisch betrieben werden, gilt es für alle Baujahre. Gäste-WCs zählen hier nicht.",
+   "check": "Hat das Bad einen Heizkörper mit Rohren oder Sprossen, über die man Handtücher hängen kann? Hat er ein Kabel oder einen Heizstab für Strom?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "bad-p10": {
+   "title": "Dusche zusätzlich zur Badewanne",
+   "explain": "Plus, wenn es neben der Badewanne eine getrennte, zusätzliche Duschtasse oder Duschkabine gibt.",
+   "check": "Gibt es eine Badewanne und daneben eine eigene Dusche? Eine Dusche in der Wanne zählt hier nicht.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "bad-p11": {
+   "title": "Bodengleiche Dusche",
+   "explain": "Plus bei einer Dusche ohne Stufe, auf gleicher Höhe wie der Boden. Eine flache Duschtasse, die bis zu 3 cm tief ist, zählt auch.",
+   "check": "Können Sie ohne Stufe in die Dusche gehen? Messen Sie bei einer Duschtasse die Höhe vom Boden bis zur Oberkante.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Foto mit Zollstock an der Kante der Duschtasse."
+  },
+  "gebaeude-m01": {
+   "title": "Treppenhaus und Eingang in schlechtem Zustand",
+   "explain": "Minus, wenn Treppenhaus und Eingangsbereich überwiegend in schlechtem Zustand sind.",
+   "check": "Schauen Sie sich Hauseingang und Treppenhaus an: Gibt es große Schäden an Wänden, Treppen, Geländer, Briefkästen oder Beleuchtung? Was „schlecht“ ist, sagt der Mietspiegel nicht genau.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos mit Datum; Schreiben, mit denen Sie Schäden gemeldet haben."
+  },
+  "gebaeude-m02": {
+   "title": "Kein Keller oder Abstellraum außerhalb",
+   "explain": "Minus, wenn es außerhalb der Wohnung keinen Abstellraum gibt, den nur Sie nutzen und der nichts extra kostet, zum Beispiel keinen abschließbaren Keller.",
+   "check": "Gehört zu Ihrer Wohnung ein Kellerraum oder Bodenraum? Steht er im Mietvertrag? Kostet er extra? Können Sie ihn abschließen?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Mietvertrag, Fotos."
+  },
+  "gebaeude-m03": {
+   "title": "Haustür immer offen für alle",
+   "explain": "Minus, wenn der Hauseingang jederzeit von außen frei zugänglich ist (im Mietspiegel 2026: Hauseingang/Treppenhaus). Gemeint ist: Jeder kann jederzeit ins Haus, ohne Schlüssel und ohne Klingel.",
+   "check": "Probieren Sie es zu verschiedenen Zeiten aus: Lässt sich die Haustür von außen ohne Schlüssel öffnen, zum Beispiel weil das Schloss kaputt ist oder fehlt? Steht sie regelmäßig offen?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos und Video der Tür mit Datum; Mängelmeldungen."
+  },
+  "gebaeude-m04": {
+   "title": "Haus in schlechtem baulichen Zustand",
+   "explain": "Minus bei schlechtem Instandhaltungszustand des Hauses. Beispiele im Mietspiegel: dauernd feuchte Mauern (auch im Keller), große Putzschäden, erhebliche Schäden am Dach.",
+   "check": "Gibt es feuchte Wände im Keller oder Haus, Putz, der abfällt, oder Schäden am Dach? Seit wann?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos mit Datum, Mängelmeldungen an den Vermieter und seine Antworten."
+  },
+  "gebaeude-m05": {
+   "title": "Wohnung im Seitenflügel oder Hinterhaus",
+   "explain": "Minus, wenn die Wohnung im Seitenflügel oder im Quergebäude (Hinterhaus) liegt und die Häuser dort sehr dicht beieinander stehen (verdichtete Bebauung).",
+   "check": "Liegt Ihre Wohnung nicht im Vorderhaus an der Straße, sondern in einem Seitenflügel oder Hinterhaus? Ist der Hof eng? Was „verdichtet“ ist, sagt der Mietspiegel nicht genau.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos vom Hof, Lageplan oder Kartenausschnitt."
+  },
+  "gebaeude-m06": {
+   "title": "Ab 5. Stock ohne Aufzug",
+   "explain": "Minus, wenn die Wohnung im fünften Obergeschoss oder höher liegt und es keinen Personenaufzug gibt. Das gilt nicht für die Baualtersklassen bis 1949.",
+   "check": "In welchem Stock liegt Ihre Wohnung? Das Erdgeschoss zählt nicht als Obergeschoss. Gibt es einen Aufzug? Beachten Sie die Ausnahme für Altbauten.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen."
+  },
+  "gebaeude-m07": {
+   "title": "Keine Gegensprechanlage mit Türöffner",
+   "explain": "Minus, wenn es keine Gegensprechanlage (oder Wechselsprechanlage) mit elektrischem Türöffner gibt.",
+   "check": "Können Sie von Ihrer Wohnung aus mit Besuch an der Haustür sprechen und die Haustür per Knopf öffnen?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen."
+  },
+  "gebaeude-m08": {
+   "title": "Schlechte Dämmung oder alte Heizanlage",
+   "explain": "Minus bei unzureichender Wärmedämmung oder bei einer Heizanlage mit ungünstigem Wirkungsgrad, die vor 1995 eingebaut wurde. Wichtig: Sie wählen entweder das Merkmal zur Wärmedämmung/Heizanlage oder die Merkmale zum Energiekennwert, nicht beides.",
+   "check": "Fragen Sie nach dem Baujahr der Heizanlage, es steht oft auf dem Typenschild. Ob die Dämmung „unzureichend“ ist, sagt der Mietspiegel nicht genau. Wenn es einen Energieausweis gibt, ist der Kennwert meist klarer.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Foto vom Typenschild der Heizung, Energieausweis."
+  },
+  "gebaeude-m09": {
+   "title": "Hoher Energieverbrauch: über 145 kWh",
+   "explain": "Minus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser größer als 145 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr hohem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: über 145, über 195, über 235. Wichtig: Sie wählen entweder das Merkmal zur Wärmedämmung/Heizanlage oder die Merkmale zum Energiekennwert, nicht beides. Bei denkmalgeschützten Häusern zählen diese Minus-Merkmale nicht, wenn eine energetische Sanierung gegen den Denkmalschutz verstoßen würde oder dadurch unverhältnismäßig teuer wäre.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: eine Kopie des Energieausweises."
+  },
+  "gebaeude-m10": {
+   "title": "Hoher Energieverbrauch: über 195 kWh",
+   "explain": "Minus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser größer als 195 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr hohem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: über 145, über 195, über 235. Wichtig: Sie wählen entweder das Merkmal zur Wärmedämmung/Heizanlage oder die Merkmale zum Energiekennwert, nicht beides. Bei denkmalgeschützten Häusern zählen diese Minus-Merkmale nicht, wenn eine energetische Sanierung gegen den Denkmalschutz verstoßen würde oder dadurch unverhältnismäßig teuer wäre.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: eine Kopie des Energieausweises."
+  },
+  "gebaeude-m11": {
+   "title": "Hoher Energieverbrauch: über 235 kWh",
+   "explain": "Minus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser größer als 235 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr hohem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: über 145, über 195, über 235. Wichtig: Sie wählen entweder das Merkmal zur Wärmedämmung/Heizanlage oder die Merkmale zum Energiekennwert, nicht beides. Bei denkmalgeschützten Häusern zählen diese Minus-Merkmale nicht, wenn eine energetische Sanierung gegen den Denkmalschutz verstoßen würde oder dadurch unverhältnismäßig teuer wäre.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: eine Kopie des Energieausweises."
+  },
+  "gebaeude-p01": {
+   "title": "Abschließbarer Fahrradraum oder Fahrradbügel",
+   "explain": "Plus bei einem abschließbaren, leicht zugänglichen Raum für Fahrräder im Haus. Plus auch bei Fahrradplätzen auf dem Grundstück draußen, an denen man das Rad anschließen kann. Sie müssen ausreichend groß sein.",
+   "check": "Gibt es einen Fahrradkeller oder -raum, den man abschließen kann und ohne viele Stufen erreicht? Oder Bügel auf dem Hof? Reicht der Platz für die Räder der Bewohner? Was „ausreichend“ ist, sagt der Mietspiegel nicht genau.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos, zum Beispiel wenn der Raum immer voll ist oder Stufen hat."
+  },
+  "gebaeude-p02": {
+   "title": "Gemeinschaftsraum, Gästewohnung oder Trockenraum",
+   "explain": "Plus bei zusätzlichen Räumen außerhalb der Wohnung, die man in angemessenem Umfang nutzen kann und die zu Fuß erreichbar sind. Beispiel im Mietspiegel 2024: Gemeinschaftsraum. Im Mietspiegel 2026 auch: Gästewohnung, Trockenraum.",
+   "check": "Gibt es solche Räume? Dürfen Sie sie nutzen? Sind sie offen oder bekommen Sie einen Schlüssel?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "gebaeude-p03": {
+   "title": "Schicker Eingang und schickes Treppenhaus",
+   "explain": "Plus bei einem repräsentativen oder hochwertig sanierten Eingangsbereich und Treppenhaus. Beispiele im Mietspiegel: Spiegel, Marmor, besondere Beleuchtung, hochwertiger Anstrich oder Wandbelag, Läufer im ganzen Flur- und Treppenbereich.",
+   "check": "Vergleichen Sie Eingang und Treppenhaus mit der Beispiel-Liste. Ein normaler, sauberer Anstrich ist nach dem Wortsinn nicht „repräsentativ“.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Für Sie hilfreich: Fotos von Eingang und Treppenhaus."
+  },
+  "gebaeude-p04": {
+   "title": "Haus in besonders gutem Zustand",
+   "explain": "Plus bei überdurchschnittlich gutem Instandhaltungszustand des Gebäudes oder Gebäudeteils, in dem die Wohnung liegt, zum Beispiel erneuerte Fassade oder erneuertes Dach. Das gilt für die Baualtersklassen bis einschließlich 2015.",
+   "check": "Wurden Fassade oder Dach in den letzten Jahren erneuert? Gibt es sichtbare Schäden? Was „überdurchschnittlich“ ist, sagt der Mietspiegel nicht genau.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Für Sie hilfreich: Fotos von Schäden mit Datum, Mängelmeldungen."
+  },
+  "gebaeude-p05": {
+   "title": "Gegensprechanlage mit Video",
+   "explain": "Plus bei einer Gegensprechanlage (oder Wechselsprechanlage) mit Videobild und elektrischem Türöffner.",
+   "check": "Sehen Sie auf einem Bildschirm in der Wohnung, wer an der Haustür klingelt?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "gebaeude-p06": {
+   "title": "Aufzug auch bei niedrigem Haus",
+   "explain": "Plus, wenn es einen Personenaufzug gibt, obwohl das Haus weniger als fünf Obergeschosse hat. Das gilt nicht für die Baualtersklassen ab 2010.",
+   "check": "Gibt es einen Aufzug? Wie viele Obergeschosse hat das Haus (ohne Erdgeschoss)?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen."
+  },
+  "gebaeude-p07": {
+   "title": "Zugang zum Haus fast ohne Stufen",
+   "explain": "Plus bei einem Zugang zum Gebäude mit höchstens einer Stufe und einem Zugang zur Wohnung, einschließlich Treppenhaus, mit höchstens einer Stufe.",
+   "check": "Zählen Sie die Stufen von der Straße bis zur Haustür und von der Haustür bis zu Ihrer Wohnungstür. Ob ein Aufzug die Stufen im Treppenhaus ausgleicht, sagt der Mietspiegel nicht.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Für Sie hilfreich: Fotos der Stufen."
+  },
+  "gebaeude-p08": {
+   "title": "Zusätzliche Dämmung oder neue Heizanlage",
+   "explain": "Plus bei Wärmedämmung zusätzlich zur ursprünglichen Bausubstanz oder bei einer modernen Heizanlage, die ab 2009 eingebaut wurde. Das Haus oder die Wohnung muss „vor diesem Zeitpunkt“ fertig gewesen sein. Ob damit „vor 2009“ oder „vor dem Einbau“ gemeint ist, sagt der Mietspiegel nicht eindeutig. Wichtig: Sie wählen entweder das Merkmal zur Wärmedämmung/Heizanlage oder die Merkmale zum Energiekennwert, nicht beides.",
+   "check": "Wurde das Haus nachträglich gedämmt, zum Beispiel die Fassade? Wann wurde die Heizanlage eingebaut? Das steht oft auf dem Typenschild.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Energieausweis, Foto vom Typenschild der Heizung."
+  },
+  "gebaeude-p09": {
+   "title": "Niedriger Energieverbrauch: unter 120 kWh",
+   "explain": "Plus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser kleiner als 120 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr niedrigem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: unter 120, unter 100, unter 80. Wichtig: Sie wählen entweder das Merkmal zur Wärmedämmung/Heizanlage oder die Merkmale zum Energiekennwert, nicht beides.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: eine Kopie des Energieausweises."
+  },
+  "gebaeude-p10": {
+   "title": "Niedriger Energieverbrauch: unter 100 kWh",
+   "explain": "Plus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser kleiner als 100 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr niedrigem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: unter 120, unter 100, unter 80. Wichtig: Sie wählen entweder das Merkmal zur Wärmedämmung/Heizanlage oder die Merkmale zum Energiekennwert, nicht beides.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: eine Kopie des Energieausweises."
+  },
+  "gebaeude-p11": {
+   "title": "Niedriger Energieverbrauch: unter 80 kWh",
+   "explain": "Plus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser kleiner als 80 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr niedrigem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: unter 120, unter 100, unter 80. Wichtig: Sie wählen entweder das Merkmal zur Wärmedämmung/Heizanlage oder die Merkmale zum Energiekennwert, nicht beides.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: eine Kopie des Energieausweises."
+  },
+  "kueche-m01": {
+   "title": "Küche ohne Fenster und ohne Lüftung",
+   "explain": "Minus, wenn die Küche kein Fenster und keine ausreichende Entlüftung hat.",
+   "check": "Hat die Küche ein Fenster nach draußen? Wenn nicht: Gibt es einen Lüfter oder einen Schacht, der die Luft nach draußen bringt? Was „ausreichend“ ist, sagt der Mietspiegel nicht genau.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos aller Wände und der Decke der Küche."
+  },
+  "kueche-m02": {
+   "title": "Kein Herd oder Herd ohne Backofen",
+   "explain": "Minus, wenn es keine Kochmöglichkeit gibt oder nur einen Gas- oder Elektroherd ohne Backofen.",
+   "check": "Hat der Vermieter einen Herd gestellt? Hat dieser Herd einen Backofen? Ein Herd, den Sie selbst gekauft haben, zählt nicht als Ausstattung des Vermieters.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Übergabeprotokoll oder Mietvertrag, in dem steht, was in der Küche war, und Fotos vom Einzug."
+  },
+  "kueche-m03": {
+   "title": "Keine Spüle in der Küche",
+   "explain": "Minus, wenn es in der Küche keine Spüle gibt.",
+   "check": "Hat der Vermieter eine Spüle gestellt? Eine Spüle, die Sie selbst eingebaut und bezahlt haben, zählt nicht als Ausstattung des Vermieters.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Übergabeprotokoll, Fotos vom Einzug, Rechnung für eine selbst gekaufte Spüle, Zeugen."
+  },
+  "kueche-m04": {
+   "title": "Zu wenig warmes Wasser in der Küche",
+   "explain": "Minus, wenn es in der Küche keine ausreichende Warmwasserversorgung gibt. Beispiele im Mietspiegel: keine zentrale Warmwasserversorgung, kein Durchlauferhitzer, kein Boiler.",
+   "check": "Kommt an der Spüle warmes Wasser? Woher: zentral, aus einem Durchlauferhitzer oder aus einem Boiler?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos der Spüle und des Geräts unter oder über der Spüle."
+  },
+  "kueche-m05": {
+   "title": "Küche ohne richtige Heizung",
+   "explain": "Minus, wenn man die Küche nicht heizen kann oder nur mit Holz oder Kohle.",
+   "check": "Gibt es in der Küche einen Heizkörper, der an die Heizung angeschlossen ist?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos der Küche, auf denen man sieht, dass kein Heizkörper da ist."
+  },
+  "kueche-m06": {
+   "title": "Kein Platz oder Anschluss für Geschirrspüler",
+   "explain": "Minus, wenn man in der Küche keinen Geschirrspüler aufstellen oder anschließen kann.",
+   "check": "Gibt es in der Küche Platz für einen Geschirrspüler? Gibt es einen Wasseranschluss und einen Abfluss dafür, zum Beispiel ein Ventil mit Anschluss unter der Spüle?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos unter der Spüle und von der Stelle, wo das Gerät stehen müsste, mit Maßen."
+  },
+  "kueche-m07": {
+   "title": "Keine Fliesen an der Arbeitswand",
+   "explain": "Minus, wenn an der Wand im Arbeitsbereich der Küche keine Fliesen sind und auch kein vergleichbarer Schutz (zum Beispiel eine Glas- oder Kunststoffplatte).",
+   "check": "Schauen Sie die Wand hinter Herd, Spüle und Arbeitsfläche an: Gibt es Fliesen oder eine abwaschbare Platte?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos der Wand im Arbeitsbereich."
+  },
+  "kueche-p01": {
+   "title": "Hochwertiger Küchenboden",
+   "explain": "Plus bei hochwertigen Fliesen, hochwertigem Linoleum, hochwertigem Feuchtraumlaminat, Parkett oder Terrazzo als Boden in der Küche, jeweils in gutem Zustand. Das gilt für die Baualtersklassen bis einschließlich 2009. Was „hochwertig“ ist, sagt der Mietspiegel nicht genau.",
+   "check": "Welcher Boden liegt in der Küche? Ist er in gutem Zustand, ohne Risse, Löcher oder starke Abnutzung? Beachten Sie die Grenze beim Baujahr.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos von Schäden am Boden mit Datum."
+  },
+  "kueche-p02": {
+   "title": "Große separate Küche ab 14 m²",
+   "explain": "Plus bei einer eigenen, abgetrennten Küche mit mindestens 14 m² Grundfläche.",
+   "check": "Ist die Küche ein eigener Raum? Messen Sie Länge und Breite und rechnen Sie Länge mal Breite.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: eine Skizze mit Maßen, wenn die Küche kleiner ist."
+  },
+  "kueche-p03": {
+   "title": "Einbauküche mit Schränken, Herd und Spüle",
+   "explain": "Plus bei einer Einbauküche mit Oberschränken und Unterschränken sowie Herd und Spüle.",
+   "check": "Hat der Vermieter eine Einbauküche gestellt? Hat sie oben und unten Schränke, einen Herd und eine Spüle? Eine Küche, die Sie selbst bezahlt haben, zählt nicht (wenn der Vermieter die Kosten nicht erstattet hat). Haben Sie die Küche vom Vormieter übernommen, lassen Sie sich beraten.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Übergabeprotokoll, Mietvertrag, Rechnungen und Fotos vom Einzug."
+  },
+  "kueche-p04": {
+   "title": "Ceran- oder Induktions-Kochfeld",
+   "explain": "Plus bei einem Ceran-Kochfeld oder Induktions-Kochfeld. Das gilt für die Baualtersklassen bis einschließlich 2001.",
+   "check": "Hat der Herd eine glatte Glasfläche statt Kochplatten aus Metall? Hat der Vermieter ihn gestellt? Beachten Sie die Grenze beim Baujahr.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "kueche-p05": {
+   "title": "Dunstabzug in der Küche",
+   "explain": "Plus, wenn die Küche einen Dunstabzug (Dunstabzugshaube) hat.",
+   "check": "Gibt es über dem Herd eine Haube, die Dunst absaugt? Hat der Vermieter sie gestellt?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "kueche-p06": {
+   "title": "Kühlschrank, Gefrierschrank oder Geschirrspüler",
+   "explain": "Plus, wenn der Vermieter einen Kühlschrank, einen Tiefkühlschrank oder eine Tiefkühltruhe oder einen Geschirrspüler stellt.",
+   "check": "Gehört eines dieser Geräte dem Vermieter? Steht es im Mietvertrag oder im Übergabeprotokoll? Eigene Geräte zählen nicht.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Rechnungen für Geräte, die Sie selbst gekauft haben."
+  },
+  "kueche-p07": {
+   "title": "Freistehender Küchenblock (Kochinsel)",
+   "explain": "Plus bei einem frei im Raum stehenden Küchenblock mit Arbeitsfläche und Kochmöglichkeit oder Spüle.",
+   "check": "Gibt es in der Küche einen Block, um den man herumgehen kann, mit Herd oder Spüle darin?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "umfeld-m01": {
+   "title": "Besonders laute Lage",
+   "explain": "Minus, wenn die Wohnung besonders laut liegt. Beispiele im Mietspiegel: an einer Hauptverkehrsstraße oder direkt bei einem Flughafen, mit unangenehmem Lärm und Staub. Auch große Fabriken und Industrieanlagen, Gewerbe-, Restaurant- oder Partylärm können die Ursache sein.",
+   "check": "Der Mietspiegel verweist auf die Strategischen Lärmkarten der Senatsverwaltung für Umwelt. Dort sehen Sie den Lärm an der Fassade Ihres Hauses: www.berlin.de/sen/uvk/umwelt/laerm/laermminderungsplanung-berlin/laermkarten/. Notieren Sie auch, woher der Lärm kommt und wann.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Ausdruck der Lärmkarte für Ihre Adresse, ein Lärmprotokoll mit Datum und Uhrzeit, Fotos oder Videos."
+  },
+  "umfeld-m02": {
+   "title": "Besonders starker Geruch in der Umgebung",
+   "explain": "Minus, wenn die Lage besonders durch Gerüche belastet ist. Der Mietspiegel nennt keine Beispiele und keine Grenzwerte.",
+   "check": "Gibt es in der Nähe etwas, das regelmäßig stark riecht, zum Beispiel einen Betrieb? Wie oft und wie stark?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: ein Geruchsprotokoll mit Datum und Uhrzeit, Fotos der Quelle, Beschwerden."
+  },
+  "umfeld-m03": {
+   "title": "Kein Platz für Fahrräder auf dem Grundstück",
+   "explain": "Minus, wenn es auf dem Grundstück keine Möglichkeit gibt, Fahrräder abzustellen.",
+   "check": "Gibt es auf dem Hof oder im Haus einen Platz für Fahrräder? Dürfen die Bewohner ihn nutzen?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos vom Hof und Hausordnung, falls Fahrräder dort verboten sind."
+  },
+  "umfeld-m04": {
+   "title": "Sehr vernachlässigte Umgebung",
+   "explain": "Nur im Mietspiegel 2024. Minus bei einer Lage in stark vernachlässigter Umgebung. Der Mietspiegel 2024 nennt keine Beispiele.",
+   "check": "Wie sieht die Umgebung aus: verlassene Gebäude, viel Müll, kaputte Wege? Was „stark vernachlässigt“ ist, sagt der Mietspiegel nicht genau.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos der Umgebung mit Datum."
+  },
+  "umfeld-p01": {
+   "title": "Besonders ruhige Lage",
+   "explain": "Plus, wenn die Wohnung besonders ruhig liegt. Beispiele im Mietspiegel: an einer verkehrsberuhigten Straße, an einer parkähnlichen Anlage oder bei baulichen Einschränkungen für die Straße, wie Poller, eine verengte Fahrbahn oder Bepflanzung.",
+   "check": "Wie ist der Lärm an Ihren Fenstern, am Tag und in der Nacht? Die Strategischen Lärmkarten des Senats zeigen den Verkehrslärm an der Fassade. Was „besonders ruhig“ ist, sagt der Mietspiegel nicht genau.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Für Sie hilfreich: Ausdruck der Lärmkarte, ein Lärmprotokoll mit Datum und Uhrzeit."
+  },
+  "umfeld-p02": {
+   "title": "Schön gestaltetes Grundstück",
+   "explain": "Plus bei aufwändig gestaltetem Wohnumfeld auf dem Grundstück. Beispiele im Mietspiegel: Kinderspielplatz (nur wenn das Haus vor 2003 fertig war, im Mietspiegel 2024: vor 2002), Sitzbänke oder Ruhezonen, gut befestigte Wege mit Grünflächen und Beleuchtung.",
+   "check": "Was gibt es auf dem Grundstück, nicht im öffentlichen Park nebenan? In welchem Zustand ist es? Was „aufwändig“ ist, sagt der Mietspiegel nicht genau.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Für Sie hilfreich: Fotos vom Hof."
+  },
+  "umfeld-p03": {
+   "title": "Parkplatz vom Vermieter in der Nähe",
+   "explain": "Plus, wenn der Vermieter Parkplätze für Autos in der Nähe zur Verfügung stellt, in ausreichender Zahl.",
+   "check": "Bietet Ihr Vermieter Parkplätze an, zum Beispiel auf dem Hof oder in einer Garage? Das Landgericht Berlin hat zum Mietspiegel 2017 entschieden: Auch Plätze, die extra kosten, können zählen. Aber nur, wenn Sie beim Zugang des Mieterhöhungsverlangens wirklich einen Platz vom Vermieter gemietet hatten oder der Vermieter Ihnen vorher einen angeboten hatte (Urteil vom 16.10.2018 – 67 S 150/18). Andere Gerichte können das anders sehen.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Für Sie hilfreich: Schreiben oder Angebote des Vermieters zu Parkplätzen."
+  },
+  "umfeld-p04": {
+   "title": "Eigener Garten oder Mietergarten",
+   "explain": "Plus bei einem Garten nur für Sie oder einem Mietergarten ohne Entgelt. Plus auch bei einem Garten, der zur Wohnung gehört und direkt von der Wohnung aus erreichbar ist.",
+   "check": "Gehört ein Garten zur Wohnung? Steht er im Mietvertrag? Müssen Sie extra dafür zahlen? Teilen Sie ihn mit anderen?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen."
+  },
+  "umfeld-p05": {
+   "title": "Bevorzugte Lage in der City",
+   "explain": "Nur im Mietspiegel 2024. Plus bei einer bevorzugten Citylage: nahe an bekannten Orten zum Einkaufen, für Dienstleistungen und zum Wohnen, die über die Region hinaus wichtig sind.",
+   "check": "Liegt die Wohnung direkt an einem bekannten, großen Einkaufs- oder Geschäftsstandort der Stadt? Was genau zählt, sagt der Mietspiegel 2024 nicht.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen."
+  },
+  "wohnung-m01": {
+   "title": "Meist Fenster mit nur einer Scheibe",
+   "explain": "Minus, wenn die meisten Fenster nur eine einfache Glasscheibe haben (Einfachverglasung). Doppel-Kastenfenster sind nicht gemeint: Das sind zwei Fenster hintereinander mit Abstand.",
+   "check": "Zählen Sie alle Fenster der Wohnung. Wie viele haben nur eine Scheibe in einem Rahmen? „Überwiegend“ heißt nach dem Wortsinn: mehr als die Hälfte. Ein Kastenfenster erkennen Sie daran, dass Sie zwei Fensterflügel hintereinander öffnen.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: eine Liste aller Fenster pro Raum und Fotos."
+  },
+  "wohnung-m02": {
+   "title": "Elektrik nicht ausreichend oder veraltet",
+   "explain": "Minus bei unzureichender Elektroinstallation. Beispiele im Mietspiegel: keine ausreichende Elektrosteigleitung (die Hauptleitung im Haus zur Wohnung) und/oder keine Installation nach VDE-Regeln, zum Beispiel kein FI-Schalter (Fehlerstrom-Schutzschalter) oder kein Potentialausgleich (die Verbindung von Metallteilen wie Rohren mit der Erdung).",
+   "check": "Schauen Sie in den Sicherungskasten der Wohnung: Gibt es einen FI-Schalter? Er hat meist eine Prüftaste mit „T“. Fliegen Sicherungen heraus, wenn mehrere Geräte gleichzeitig laufen, etwa Wasserkocher und Waschmaschine? Ob die Anlage den VDE-Regeln entspricht, kann sicher nur eine Elektrofachkraft sagen.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Foto vom Sicherungskasten, Notizen mit Datum zu ausgelösten Sicherungen, Schreiben an den Vermieter zu Problemen."
+  },
+  "wohnung-m03": {
+   "title": "Stromleitungen meist sichtbar auf der Wand",
+   "explain": "Minus, wenn die Stromleitungen überwiegend sichtbar auf dem Putz verlaufen, also nicht in der Wand.",
+   "check": "Gehen Sie durch alle Räume: Laufen Kabel oder Kabelkanäle offen an Wänden oder Decken? In mehr als der Hälfte der Wohnung?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos aus jedem Raum."
+  },
+  "wohnung-m04": {
+   "title": "Wasserrohre meist sichtbar auf der Wand",
+   "explain": "Minus, wenn Zuleitungen und Abwasserrohre (Sanitärleitungen) überwiegend sichtbar auf dem Putz liegen. Heizungsrohre sind hier nicht gemeint.",
+   "check": "Schauen Sie in Bad und Küche: Laufen Wasserrohre und Abflussrohre offen an der Wand?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos der Rohre in Bad und Küche."
+  },
+  "wohnung-m05": {
+   "title": "Kein Platz für die Waschmaschine",
+   "explain": "Minus, wenn man die Waschmaschine weder im Bad noch in der Küche aufstellen oder anschließen kann.",
+   "check": "Gibt es in Bad oder Küche einen Platz mit Wasserhahn für die Maschine und einen Abfluss? Passt eine normale Waschmaschine dorthin?",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos und Maße von Bad und Küche, Foto der Anschlüsse oder der Stelle, wo sie fehlen."
+  },
+  "wohnung-m06": {
+   "title": "Schlechter Schnitt der Wohnung",
+   "explain": "Minus bei einem schlechten Grundriss (Schnitt). Beispiele im Mietspiegel: ein gefangenes Zimmer (man erreicht es nur durch ein anderes Zimmer) und/oder ein Durchgangszimmer (man muss hindurch, um in ein anderes Zimmer zu kommen).",
+   "check": "Zeichnen Sie einen einfachen Plan der Wohnung. Müssen Sie durch ein Zimmer gehen, um in ein anderes zu kommen? Der Mietspiegel nennt nur Beispiele; ob andere Grundrisse auch „schlecht“ sind, entscheidet im Streit das Gericht.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: ein Grundriss (zum Beispiel aus den Mietunterlagen) oder eine eigene Skizze mit Türen."
+  },
+  "wohnung-m07": {
+   "title": "Kein Balkon, keine Terrasse, keine Loggia",
+   "explain": "Minus, wenn die Wohnung keinen Balkon, keine (Dach-)Terrasse, keine Loggia und keinen Winter- oder Dachgarten hat. Das gilt nicht, wenn ein Balkon aus baulichen und/oder rechtlichen Gründen nicht möglich oder nicht erlaubt ist.",
+   "check": "Hat die Wohnung einen der genannten Freisitze? Wenn nein: Ob ein Balkon baulich oder rechtlich unmöglich wäre (zum Beispiel wegen Denkmalschutz), können Sie meist nicht selbst prüfen. Der Mietspiegel sagt nicht, wer das im Streit beweisen muss. Lassen Sie sich dazu beraten.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos der Fassade. Ob die Ausnahme greift, muss im Streit geklärt werden."
+  },
+  "wohnung-m08": {
+   "title": "Erdgeschoss ohne Einbruch- oder Sichtschutz",
+   "explain": "Nur im Mietspiegel 2026. Minus bei einer Wohnung im Erdgeschoss, wenn nicht alle Fenster einen Schutz gegen Einbruch und/oder gegen Blicke von außen haben. Beispiele im Mietspiegel: Gitter, Rollläden, Fensteralarm.",
+   "check": "Liegt Ihre Wohnung im Erdgeschoss? Gehen Sie an jedes Fenster: Gibt es Gitter, Rollläden oder einen Alarm? Sicher trifft das Merkmal zu, wenn kein Fenster geschützt ist. Fehlt der Schutz nur an einem Teil der Fenster, ist unklar, ob das Merkmal zutrifft.",
+   "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: Fotos jedes Fensters von innen und außen."
+  },
+  "wohnung-p01": {
+   "title": "Abstellraum oder Einbauschrank in der Wohnung",
+   "explain": "Plus bei einem Abstellraum in der Wohnung oder einem Einbauschrank. Im Mietspiegel 2026 muss der Abstellraum mindestens 1 m² Grundfläche haben.",
+   "check": "Gibt es eine Kammer oder einen fest eingebauten Schrank, den der Vermieter gestellt hat? Messen Sie die Fläche einer Kammer.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Maße der Kammer; Belege, falls Sie den Schrank selbst eingebaut haben."
+  },
+  "wohnung-p02": {
+   "title": "Großer Balkon, Terrasse oder Loggia",
+   "explain": "Plus bei einem großen, geräumigen Balkon, einer (Dach-)Terrasse, einer Loggia oder einem Winter- oder Dachgarten ab 4 m² (im Mietspiegel 2026: ab 4 m² Grundfläche).",
+   "check": "Messen Sie die Fläche des Balkons am Boden: Länge mal Tiefe. Sind es mindestens 4 m²?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Maße und Foto mit Zollstock, wenn er kleiner ist."
+  },
+  "wohnung-p03": {
+   "title": "Fußbodenheizung in den meisten Räumen",
+   "explain": "Plus, wenn die Wohnung überwiegend eine Fußbodenheizung hat.",
+   "check": "In wie vielen Räumen wird der Boden durch die Heizung warm? In mehr als der Hälfte der Räume?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "wohnung-p04": {
+   "title": "Stuck oder Täfelung in gutem Zustand",
+   "explain": "Plus bei aufwändiger Verkleidung an Decken und/oder Wänden, zum Beispiel Stuck oder Holztäfelung. Sie muss in gutem Zustand sein, und zwar in der überwiegenden Anzahl der Wohnräume.",
+   "check": "Zählen Sie Ihre Wohnräume. In wie vielen gibt es Stuck oder Täfelung? Ist sie gut erhalten oder beschädigt, übermalt oder nur ein schmaler Rand? Was als „aufwändig“ gilt, sagt der Mietspiegel nicht genau.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos der Decken in jedem Raum, auch von Schäden."
+  },
+  "wohnung-p05": {
+   "title": "Heizungsrohre meist nicht sichtbar",
+   "explain": "Plus, wenn die Heizungsrohre überwiegend nicht sichtbar sind (im Mietspiegel 2026: nicht sichtbar auf Putz). Das gilt für die Baualtersklassen bis einschließlich 1990.",
+   "check": "Sehen Sie Rohre, die zu den Heizkörpern führen? In wie vielen Räumen laufen sie offen an der Wand?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos der Rohre in jedem Raum."
+  },
+  "wohnung-p06": {
+   "title": "Rollläden oder Außen-Sonnenschutz",
+   "explain": "Im Mietspiegel 2026: Plus bei außen angebrachtem Schutz gegen Sonne (Verschattung) an der überwiegenden Zahl der Fenster in den Wohnräumen, zum Beispiel Rollläden. Im Mietspiegel 2024 steht nur: Rollläden.",
+   "check": "Zählen Sie die Fenster der Wohnräume. Wie viele haben außen Rollläden, Markisen oder Außenjalousien? Innen angebrachte Rollos sind nicht „außen angebracht“.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Liste der Fenster und Fotos von außen."
+  },
+  "wohnung-p07": {
+   "title": "Ein Zimmer größer als 40 m²",
+   "explain": "Plus, wenn ein Wohnraum mehr als 40 m² groß ist.",
+   "check": "Messen Sie Ihr größtes Zimmer: Länge mal Breite.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung."
+  },
+  "wohnung-p08": {
+   "title": "Wohnung mit wenigen Barrieren",
+   "explain": "Plus bei barrierearmer Gestaltung: keine Schwellen in der Wohnung, ein Übergang mit kaum Schwelle zu Balkon oder Terrasse und genug Platz zum Bewegen in der Wohnung. Im Mietspiegel 2024 steht zusätzlich: „und/oder barrierearme Badgestaltung“. Wie hoch eine Schwelle sein darf, sagt der Mietspiegel nicht.",
+   "check": "Gibt es Türschwellen zwischen den Räumen? Wie hoch ist die Stufe zum Balkon? Kommt man mit Rollator oder Rollstuhl durch Türen und Flur?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos der Schwellen mit Zollstock."
+  },
+  "wohnung-p09": {
+   "title": "Hochwertiger Boden in den meisten Wohnräumen",
+   "explain": "Plus bei hochwertigem Parkett, Natur- oder Kunststein, Fliesen oder einem gleichwertigen Boden in der überwiegenden Zahl der Wohnräume. Im Mietspiegel 2026 zählt der Flur mit, Küche und Bad nicht. Was „hochwertig“ und „gleichwertig“ ist, sagt der Mietspiegel nicht genau.",
+   "check": "Welcher Boden liegt in welchem Raum? Wer hat ihn verlegt: der Vermieter oder Sie? Ist er in gutem Zustand?",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos der Böden, Übergabeprotokoll, Belege für selbst verlegte Böden."
+  },
+  "wohnung-p10": {
+   "title": "Neue Wärme- oder Schallschutzfenster",
+   "explain": "Für Häuser oder Wohnungen, die vor 2002 fertig waren: Plus, wenn überwiegend Wärmeschutzverglasung oder Schallschutzfenster eingebaut sind. Im Mietspiegel 2026 jeweils mit Einbau ab 2002; im Mietspiegel 2024 steht „Einbau ab 2002“ nur bei der Wärmeschutzverglasung.",
+   "check": "Wann wurden die Fenster eingebaut? Oft steht im Zwischenraum der Scheiben ein Aufdruck mit Jahr oder Hersteller. Zählen Sie, wie viele Fenster neu sind.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos der Aufdrucke im Scheibenzwischenraum."
+  },
+  "wohnung-p11": {
+   "title": "Wohnungstür mit extra Einbruchschutz",
+   "explain": "Plus bei zusätzlicher Einbruchsicherung an der Wohnungstür, zum Beispiel hochwertige Sperrbügel und/oder Schlösser mit Mehrfachverriegelung, und zwar bei verstärkten Türen.",
+   "check": "Hat Ihre Wohnungstür einen Sperrbügel oder ein Schloss, das an mehreren Stellen verriegelt? Ist die Tür selbst verstärkt? Beides wird verlangt.",
+   "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: Fotos der Tür und des Schlosses."
+  }
+ },
+ "checker": {
+  "intro": "Geben Sie die Daten aus dem Schreiben des Vermieters ein. Wir rechnen Fristen und Grenzen nach festen Regeln aus. Das Ergebnis beruht nur auf Ihren Angaben. Es ist keine rechtliche Prüfung Ihres Falls.",
+  "received": "Tag, an dem das Schreiben bei Ihnen ankam",
+  "received_help": "Nicht das Datum auf dem Brief, sondern der Tag, an dem er in Ihrem Briefkasten oder Postfach war.",
+  "last_change": "Seit wann gilt Ihre jetzige Miete?",
+  "last_change_help": "Der Tag, an dem die letzte Erhöhung wirksam wurde, also ab dem Sie die höhere Miete zahlen mussten. Gab es noch keine, der Beginn des Mietvertrags. Erhöhungen wegen Modernisierung oder Betriebskosten zählen nicht.",
+  "current_rent": "Ihre jetzige Nettokaltmiete pro Monat",
+  "current_rent_help": "Miete ohne Betriebskosten und ohne Heizkosten.",
+  "rent_3y_ago": "Nettokaltmiete drei Jahre vor dem Tag, ab dem die neue Miete gelten soll",
+  "rent_3y_ago_help": "Das ist Ihre Nettokaltmiete am {date3y}. Wohnen Sie dort erst seit diesem Tag oder kürzer, tragen Sie die Miete bei Einzug ein. Lassen Sie das Feld nur leer, wenn Ihre Miete seit diesem Tag gleich geblieben ist.",
+  "increases_559_560": "Erhöhungen der Nettokaltmiete wegen Modernisierung (§ 559 BGB) in diesen drei Jahren (€ pro Monat)",
+  "demanded_rent": "Neue Nettokaltmiete, die der Vermieter verlangt",
+  "area": "Wohnfläche in m²",
+  "ovm_per_sqm": "Ortsübliche Vergleichsmiete in € pro m² (aus dem Rechner)",
+  "requested_effective": "Ab wann will der Vermieter die neue Miete?",
+  "disclaimer": "Die Daten sind Kalenderdaten. Nur bei der Klagefrist des Vermieters zeigen wir den nächsten Werktag, wenn das Ende auf einen Samstag, Sonntag oder Feiertag in Berlin fällt (§ 193 BGB). Für Ihre eigenen Fristen planen Sie mit dem Kalenderdatum und antworten lieber einige Tage früher.",
+  "result": {
+   "sperrfrist_fail": {
+    "title": "Das Verlangen kam vielleicht zu früh",
+    "text": "Nach der festen Rechenregel und Ihren Angaben kam das Schreiben weniger als ein Jahr nach der letzten Mieterhöhung an. Nach der Rechtsprechung des Bundesgerichtshofs ist ein solches Verlangen unwirksam (§ 558 Abs. 1 Satz 2 BGB; BGH, VIII ZR 178/03). Prüfen Sie die Daten genau. Stimmen Sie nicht zu, bevor Sie sich beraten lassen haben."
+   },
+   "wartefrist_postponed": {
+    "title": "Die neue Miete kann erst später gelten",
+    "text": "Nach Ihren Angaben ist Ihre Miete zum Erhöhungstermin noch keine 15 Monate unverändert. Die Erhöhung kann dann frühestens ab dem {effective} gelten (§ 558 Abs. 1 Satz 1 BGB). Was ein zu früh genannter Termin für das Verlangen bedeutet, haben wir in keiner Entscheidung des Bundesgerichtshofs geklärt gefunden. Lassen Sie sich beraten."
+   },
+   "over_cap": {
+    "title": "Über der Kappungsgrenze",
+    "text": "Nach Ihren Angaben ist die verlangte Miete höher als die Kappungsgrenze von {rate} in drei Jahren (§ 558 Abs. 3 BGB). Nach dieser Grenze ergibt sich rechnerisch höchstens {cap_rent}."
+   },
+   "over_ovm": {
+    "title": "Über der Vergleichsmiete",
+    "text": "Die verlangte Miete ist höher als die Vergleichsmiete aus Ihrer Rechnung mit dem Mietspiegel ({ovm_rent}). Ihre Rechnung beruht auf Ihren eigenen Angaben zu den Merkmalen. Der Vermieter kann Merkmale anders sehen. Im Streit entscheidet das Gericht."
+   },
+   "within_limits": {
+    "title": "Nach Ihren Angaben keine Grenze überschritten",
+    "text": "Nach Ihren Angaben liegt die verlangte Miete nicht über der Kappungsgrenze und nicht über der Vergleichsmiete aus Ihrer Rechnung. Das ist keine Garantie. Prüfen Sie Ihre Angaben noch einmal, besonders die Merkmale, die Wohnfläche und die Miete von vor drei Jahren."
+   },
+   "no_ovm": {
+    "title": "Vergleichsmiete fehlt",
+    "text": "Sie haben keine Vergleichsmiete eingegeben. Wir prüfen deshalb nur die Kappungsgrenze und die Fristen. Nutzen Sie den Rechner, um die Vergleichsmiete zu schätzen."
+   },
+   "requested_too_early": {
+    "title": "Der genannte Termin ist zu früh",
+    "text": "Der Vermieter nennt einen früheren Termin, als das Gesetz erlaubt. Die höhere Miete kann frühestens ab dem {effective} gelten (§ 558b Abs. 1 BGB, § 558 Abs. 1 Satz 1 BGB). Ob das Verlangen trotzdem wirksam ist, hängt vom Einzelfall ab. Lassen Sie sich beraten."
+   },
+   "need_rent_3y": {
+    "title": "Miete von vor drei Jahren fehlt",
+    "text": "Ihre Miete hat sich in den letzten drei Jahren vielleicht geändert, oder wir kennen den Tag der letzten Änderung nicht. Ohne die Miete am {base_date} können wir die Kappungsgrenze nicht sicher ausrechnen. Tragen Sie die Miete von damals ein. Wohnen Sie dort noch keine drei Jahre, tragen Sie die Miete bei Einzug ein."
+   },
+   "no_last_change": {
+    "title": "Tag der letzten Mieterhöhung fehlt",
+    "text": "Sie haben nicht eingetragen, seit wann Ihre jetzige Miete gilt. Deshalb können wir die Sperrfrist von einem Jahr und die Wartefrist von 15 Monaten nicht prüfen. Tragen Sie den Tag der letzten Erhöhung ein, oder den Beginn des Mietvertrags, wenn es noch keine Erhöhung gab."
+   },
+   "over_lwu": {
+    "title": "Über den Zusagen der landeseigenen Unternehmen",
+    "text": "Nach Ihren Angaben ist die verlangte Miete höher als die Zusagen der landeseigenen Wohnungsunternehmen: höchstens 11 % in drei Jahren und höchstens 50, 75 oder 100 € mehr, je nach Wohnfläche. Rechnerisch ergibt sich höchstens {lwu_cap}. Diese Zusagen sind freiwillig. Ob man sie vor Gericht durchsetzen kann, ist unklar. Wenden Sie sich an die Ombudsstelle (www.ombud-lwu.de) oder eine Beratungsstelle."
+   }
+  },
+  "increases_559_560_help": "Nur Erhöhungen der Kaltmiete nach einer Modernisierung. Änderungen Ihrer Vorauszahlung für Betriebs- oder Heizkosten tragen Sie hier nicht ein. Nur wenn Ihre Miete eine Pauschale für Betriebskosten enthält (Bruttomiete), zählen auch Erhöhungen dieser Pauschale. Sind Sie unsicher, lassen Sie sich beraten.",
+  "requested_effective_help": "Steht im Schreiben ein Termin, ab dem die neue Miete gelten soll? Dann tragen Sie ihn hier ein.",
+  "area_help": "Es zählt die tatsächliche Wohnfläche, nicht die Zahl im Mietvertrag."
+ },
+ "letters": {
+  "zustimmung": {
+   "title": "Zustimmung",
+   "when": "Wenn Sie die Erhöhung geprüft haben und sie in voller Höhe für richtig halten. Zum Beispiel: Die neue Miete liegt nicht über der ortsüblichen Vergleichsmiete und nicht über der Kappungsgrenze, und die Wartezeiten sind eingehalten.",
+   "risks": "Ihre Zustimmung ist endgültig. Sie können sie nicht zurücknehmen, sobald sie beim Vermieter angekommen ist. Die neue Miete gilt dann als vereinbart, in der Regel auch wenn sie zu hoch war. Nur in Ausnahmefällen, zum Beispiel bei bewusster Täuschung, kann man eine Zustimmung anfechten. Hat Ihr Mietvertrag ab Juni 2015 begonnen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Hat die Prüfung ein Problem gezeigt, stimmen Sie nicht zu, bevor Sie sich beraten lassen haben.",
+   "explain": "Mit diesem Brief stimmen Sie der Mieterhöhung zu. Tragen Sie Ihre jetzige Nettokaltmiete, die neue Miete und das Datum ein, ab dem Sie zahlen. Die Zahlen sollten genau dem Schreiben des Vermieters entsprechen. Der Brief sagt ausdrücklich, dass sonst nichts am Mietvertrag geändert wird. Unterschreiben Sie nicht stattdessen ein Formular des Vermieters, wenn Sie nicht alles darauf verstehen. Steht in Ihrem Vertrag eine Brutto- oder Inklusivmiete statt einer Nettokaltmiete, lassen Sie sich vorher beraten."
+  },
+  "teilzustimmung": {
+   "title": "Teilweise Zustimmung",
+   "when": "Wenn Sie meinen, dass ein Teil der Erhöhung berechtigt ist, aber nicht der ganze Betrag. Zum Beispiel: Die Vergleichsmiete nach Ihrer Rechnung liegt zwischen Ihrer jetzigen und der verlangten Miete.",
+   "risks": "Auch eine teilweise Zustimmung ist endgültig. Die Miete, der Sie zustimmen, gilt als vereinbart. Für den Rest kann der Vermieter trotzdem vor Gericht klagen. Stimmen Sie deshalb nur dem Betrag zu, den Sie sicher für richtig halten. Zahlen Sie danach nur diesen Betrag, nicht den vollen verlangten Betrag; prüfen Sie eine Lastschrift. Hat Ihr Mietvertrag ab Juni 2015 begonnen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Rechnen Sie den Betrag vorher genau aus und lassen Sie sich beraten.",
+   "explain": "Mit diesem Brief stimmen Sie einer kleineren Erhöhung zu, als der Vermieter verlangt. Tragen Sie Ihre jetzige Nettokaltmiete, die Miete, der Sie zustimmen, und das Datum ein. Sie können Merkmale nennen, die Sie anders sehen als der Vermieter. Das müssen Sie aber nicht. Die Aufzählung ist ausdrücklich „nicht abschließend“: Sie können später weitere Punkte nennen. Der Brief sagt ausdrücklich, dass sonst nichts am Mietvertrag geändert wird."
+  },
+  "ablehnung": {
+   "title": "Ablehnung",
+   "when": "Wenn Sie der Erhöhung nicht zustimmen wollen, zum Beispiel weil Sie meinen, dass sie zu hoch ist oder dass das Schreiben fehlerhaft ist.",
+   "risks": "Eine Ablehnung beendet die Sache nicht. Der Vermieter kann innerhalb von drei Monaten nach dem Ende Ihrer Frist auf Zustimmung klagen. Wer einen Prozess verliert, muss die Kosten tragen (§ 91 ZPO). Gibt das Gericht dem Vermieter recht, gilt Ihre Zustimmung als erteilt, sobald man gegen das Urteil nichts mehr tun kann (Rechtskraft, § 894 ZPO). Sie schulden die höhere Miete dann ab dem Erhöhungstermin, also auch für die Monate während des Prozesses (§ 558b Abs. 1 BGB). Legen Sie das Geld dafür am besten zur Seite. Bei einer Mieterhöhung nach § 558 BGB zahlen Sie bis zur Entscheidung weiter die bisherige Miete und nicht die höhere. Das gilt nicht bei Modernisierung, Betriebskosten, Index- oder Staffelmiete oder in einer Sozialwohnung. Prüfen Sie eine Lastschrift.",
+   "explain": "Mit diesem Brief lehnen Sie die Mieterhöhung ab. Eine Begründung verlangt das Gesetz nicht. Sie können aber Merkmale aus der Orientierungshilfe nennen, die Sie anders sehen. Das sind Plus-Merkmale, die der Vermieter angesetzt hat und die Sie nicht anerkennen. Und Minus-Merkmale, die er nicht berücksichtigt hat. Wählen Sie nur Merkmale aus, die Sie selbst geprüft haben. Sie müssen keine Ablehnung schicken: Wenn Sie nichts tun, haben Sie auch nicht zugestimmt. Ein Brief macht Ihre Haltung aber klar."
+  },
+  "nachfrage": {
+   "title": "Nachfrage zu den Merkmalen",
+   "when": "Wenn im Schreiben des Vermieters nicht steht, welche Merkmale er angesetzt hat, oder wenn Sie Angaben wie Wohnfläche, Wohnlage oder Baualter prüfen wollen.",
+   "risks": "Die Nachfrage hält Ihre Frist nicht an. Die Frist zum Zustimmen läuft weiter bis zum Ende des zweiten Kalendermonats nach dem Zugang. Der Vermieter muss nicht antworten. Warten Sie nicht zu lange auf eine Antwort.",
+   "explain": "Mit diesem Brief fragen Sie nach, wie der Vermieter Ihre Wohnung eingeordnet hat. Sie stimmen damit weder zu noch lehnen Sie ab. Unter „weitere Fragen“ können Sie eigene Fragen ergänzen, zum Beispiel nach einer Kopie des Energieausweises."
+  },
+  "fields": {
+   "tenant_name": "Ihr Name (bei mehreren Mietern alle Namen)",
+   "tenant_address": "Ihre Adresse",
+   "landlord_name": "Name des Vermieters oder der Hausverwaltung",
+   "landlord_address": "Adresse des Vermieters",
+   "contract_number": "Mietvertrags- oder Kundennummer (falls vorhanden)",
+   "place": "Ort",
+   "demand_date": "Datum des Schreibens vom Vermieter",
+   "received": "Tag, an dem das Schreiben bei Ihnen ankam",
+   "new_rent": "Neue Nettokaltmiete laut Vermieter (pro Monat)",
+   "effective": "Ab wann zahlen Sie die neue Miete?",
+   "current_rent": "Ihre jetzige Nettokaltmiete (pro Monat)",
+   "agreed_rent": "Nettokaltmiete, der Sie zustimmen (pro Monat)",
+   "disputed_plus": "Plus-Merkmale des Vermieters, die Sie nicht anerkennen",
+   "missing_minus": "Minus-Merkmale, die der Vermieter nicht berücksichtigt hat",
+   "questions": "Weitere Fragen (optional)",
+   "own_text": "Eigener Zusatz (optional)",
+   "tenant_name_help": "So, wie es im Mietvertrag steht. Haben mehrere Personen den Vertrag unterschrieben, sollten alle unterschreiben.",
+   "received_help": "Das ist wichtig für alle Fristen. Notieren Sie das Datum und heben Sie den Umschlag auf.",
+   "contract_number_help": "Steht oft oben im Schreiben des Vermieters.",
+   "agreed_rent_help": "Nur einen Betrag eintragen, den Sie sicher für richtig halten. Daran sind Sie gebunden.",
+   "effective_help": "Tragen Sie den Termin aus dem Schreiben des Vermieters ein. Ist dieser Termin früher als der Beginn des dritten Kalendermonats nach dem Zugang, gilt der spätere Tag. Der Rechner füllt das Feld mit dem späteren der beiden Tage aus. Prüfen Sie es.",
+   "disputed_plus_help": "Wählen Sie nur Merkmale aus, die Sie selbst geprüft haben.",
+   "missing_minus_help": "Wählen Sie nur Merkmale aus, die Sie in Ihrer Wohnung geprüft haben und belegen können.",
+   "own_text_help": "Diesen Text prüfen wir nicht. Er kommt unverändert in den Brief. Schreiben Sie nur Tatsachen, die stimmen. Schreiben Sie in eine Zustimmung keine Bedingungen und kein Gegenangebot („nur wenn …“). Dann kann die Zustimmung als Ablehnung gelten.",
+   "current_rent_help": "Ohne Betriebskosten und Heizkosten."
+  },
+  "intro": {
+   "title": "Brief an den Vermieter",
+   "text": "Der Brief ist auf Deutsch, weil Ihr Vermieter ihn verstehen muss. Die Erklärungen hier sind in Ihrer Sprache. Lesen Sie den Brief vor dem Abschicken genau. Wir prüfen Ihren Fall nicht."
+  },
+  "send": {
+   "title": "So schicken Sie den Brief",
+   "text": "Unterschreiben Sie den Brief. Schicken Sie ihn so, dass Sie später zeigen können, dass er angekommen ist: zum Beispiel per Einwurf-Einschreiben oder Sie geben ihn mit einer Zeugin oder einem Zeugen ab. Behalten Sie eine Kopie. Der Brief muss vor Ablauf Ihrer Frist ankommen."
+  }
+ },
+ "rules": {
+  "mietspiegel_choice": {
+   "title": "Welcher Mietspiegel gilt?",
+   "text": "Es zählt der Tag, an dem das Mieterhöhungsverlangen bei Ihnen ankommt (Zugang). Für diesen Tag wird die ortsübliche Vergleichsmiete ermittelt (BGH, VIII ZR 22/20, Rn. 29). Meist nimmt man den Mietspiegel, der an diesem Tag gilt: ab dem 28.05.2026 den Mietspiegel 2026, vom 30.05.2024 bis 27.05.2026 den Mietspiegel 2024. Achtung: Kam das Schreiben zwischen dem 01.09.2025 und dem 27.05.2026 an, kann ein Gericht auch den Mietspiegel 2026 nehmen oder einen Zuschlag rechnen (LG Berlin, 65 S 527/13; BGH, VIII ZR 295/15). Rechnen Sie dann mit beiden. Bei der Mietpreisbremse kommt es dagegen auf den Beginn des Mietverhältnisses an."
+  },
+  "ovm": {
+   "title": "Ortsübliche Vergleichsmiete",
+   "text": "Das ist die Miete, die in Berlin für ähnliche Wohnungen üblich ist (§ 558 Abs. 2 BGB). Der Rechner nimmt dafür den Wert aus Ihrem Mietspiegel-Feld und ordnet ihn mit der Orientierungshilfe ein. Das Ergebnis ist eine Schätzung auf Grundlage Ihrer Angaben. Die neue Miete darf diesen Wert nicht übersteigen."
+  },
+  "netting": {
+   "title": "So wird die Spanne eingeordnet",
+   "text": "In jeder der fünf Gruppen zählen Sie Plus- und Minus-Merkmale. Mehr Plus: die Gruppe zählt als Plus. Mehr Minus: als Minus. Gleichstand: 0. Dann rechnen Sie die Gruppen gegeneinander auf. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben, jedes Minus um ein Fünftel des Abstands zum unteren Wert nach unten (Mietspiegel Nr. 10.3). Der Mietspiegel sagt nicht, ob dabei je Gruppe oder einmal gerundet wird. Abweichungen um einen Cent sind möglich."
+  },
+  "consent_deadline": {
+   "title": "Ihre Frist zum Zustimmen",
+   "text": "Sie haben Zeit bis zum Ende des zweiten Kalendermonats nach dem Monat, in dem das Schreiben ankam (§ 558b Abs. 2 BGB). Ihre Antwort sollte bis zu diesem Tag beim Vermieter ankommen. Fällt der Tag auf einen Samstag, Sonntag oder Feiertag in Berlin, verschiebt sich das Ende nach dem Wortlaut von § 193 BGB auf den nächsten Werktag. Eine Gerichtsentscheidung genau dazu haben wir nicht gefunden. Verlassen Sie sich deshalb nicht darauf."
+  },
+  "effective": {
+   "title": "Ab wann die neue Miete gilt",
+   "text": "Stimmen Sie zu, zahlen Sie die höhere Miete ab Beginn des dritten Kalendermonats nach dem Zugang (§ 558b Abs. 1 BGB). Nennt der Vermieter einen späteren Termin, gilt der spätere Termin. Ist die Miete zum Termin noch keine 15 Monate unverändert, kann die Erhöhung frühestens gelten, wenn die 15 Monate um sind (§ 558 Abs. 1 Satz 1 BGB)."
+  },
+  "sue_deadline": {
+   "title": "Frist für eine Klage des Vermieters",
+   "text": "Stimmen Sie nicht oder nur teilweise zu, kann der Vermieter auf Zustimmung klagen. Die Klage muss innerhalb von drei Monaten nach dem Ende Ihrer Frist erhoben werden (§ 558b Abs. 2 BGB). Fällt das Ende auf einen Samstag, Sonntag oder Feiertag in Berlin, hat der Vermieter bis zum nächsten Werktag Zeit, zum Beispiel bis Montag (§ 193 BGB). Es reicht, wenn die Klage bis dahin beim Gericht eingeht und bald danach zugestellt wird (§ 167 ZPO). Wir zeigen hier deshalb das spätere Datum. Danach kann der Vermieter diese Erhöhung nicht mehr einklagen; ein neues Verlangen bleibt möglich."
+  },
+  "termination_declare_by": {
+   "title": "Sonderkündigung: Frist nach verbreiteter Lesart",
+   "text": "Nach einem Mieterhöhungsverlangen können Sie außerordentlich kündigen, bis zum Ablauf des zweiten Monats nach dem Zugang (§ 561 BGB). Das hier gezeigte Datum ist das Ende des zweiten Kalendermonats. Diese Lesart haben wir nicht in einer amtlichen Quelle bestätigt gefunden. Nutzen Sie lieber das sichere Datum. Auch hier verschieben wir das Datum nicht auf einen Werktag."
+  },
+  "termination_safe_by": {
+   "title": "Sonderkündigung: sicheres Datum",
+   "text": "Kommt Ihre Kündigung bis zu diesem Tag beim Vermieter an (zwei Monate ab Zugang), sind Sie auf der sicheren Seite (§ 561 BGB). Das gilt auch, wenn der Tag ein Samstag, Sonntag oder Feiertag ist: Ob sich die Frist dann verschiebt, ist nicht geklärt. Rechnen Sie nicht damit. Die Kündigung muss schriftlich auf Papier mit Unterschrift sein (§ 568 Abs. 1 BGB). Die Mieterhöhung gilt dann nicht."
+  },
+  "termination_ends": {
+   "title": "Ende des Mietverhältnisses nach Sonderkündigung",
+   "text": "Das Mietverhältnis endet zum Ablauf des übernächsten Monats nach dem Monat, in dem Ihre Kündigung ankommt (§ 561 Abs. 1 BGB). Das gezeigte Datum gilt, wenn die Kündigung am letzten möglichen Tag ankommt. Kündigen Sie früher, endet es früher."
+  },
+  "sperrfrist_earliest_received": {
+   "title": "Sperrfrist von einem Jahr",
+   "text": "Ein Mieterhöhungsverlangen darf frühestens ein Jahr nach der letzten Mieterhöhung bei Ihnen ankommen (§ 558 Abs. 1 Satz 2 BGB). Das Jahr zählt ab dem Tag, an dem die letzte Erhöhung wirksam wurde (BGH, VIII ZR 141/09, Rn. 18). Kommt es früher an, ist es unwirksam (BGH, VIII ZR 178/03). Erhöhungen nach einer Modernisierung oder bei den Betriebskosten (§§ 559 bis 560 BGB) zählen nicht mit."
+  },
+  "wartefrist_earliest_effective": {
+   "title": "Wartefrist von 15 Monaten",
+   "text": "Die neue Miete darf erst gelten, wenn die Miete seit 15 Monaten unverändert ist (§ 558 Abs. 1 Satz 1 BGB). Die 15 Monate zählen ab der ersten Fälligkeit der letzten Erhöhung (BGH, VIII ZR 178/03). Erhöhungen wegen Modernisierung oder Betriebskosten zählen nicht mit."
+  },
+  "kappung": {
+   "title": "Kappungsgrenze 15 %",
+   "text": "In Berlin darf die Miete durch Erhöhungen nach § 558 BGB innerhalb von drei Jahren um höchstens 15 % steigen (§ 558 Abs. 3 BGB, Berliner Kappungsgrenzenverordnung vom 14.03.2023, gültig bis 10.05.2028). Ausgangspunkt ist die Miete drei Jahre vor dem Tag, ab dem die neue Miete gelten soll (BGH, VIII ZR 177/03). Erhöhungen der Kaltmiete nach einer Modernisierung (§ 559 BGB) zählen bei den 15 % nicht mit: Die 15 % werden ohne sie berechnet, und eine solche Erhöhung darf zusätzlich dazukommen. Änderungen der Vorauszahlungen für Betriebskosten gehören nicht dazu."
+  },
+  "silence": {
+   "title": "Schweigen ist keine Zustimmung",
+   "text": "Wenn Sie nichts tun, haben Sie nicht zugestimmt. Der Vermieter kann dann klagen (§ 558b Abs. 2 BGB)."
+  },
+  "payment_consent": {
+   "title": "Zahlen kann Zustimmung sein",
+   "text": "Eine Zustimmung braucht keine Form. Wer die höhere Miete mehrmals ohne Vorbehalt zahlt, kann damit zustimmen (BGH, VIII ZB 74/16, Rn. 13, 21)."
+  },
+  "consent_binding": {
+   "title": "Zustimmung ist endgültig",
+   "text": "Eine Zustimmung, auch eine teilweise, können Sie nicht mehr zurücknehmen, sobald sie beim Vermieter angekommen ist (§ 130 Abs. 1 BGB). Auch ein Widerruf wie bei einem Online-Kauf geht nicht (BGH, VIII ZR 94/17; VIII ZR 62/18, Rn. 21 f.). Die Miete gilt dann als vereinbart. Nur in Ausnahmefällen, zum Beispiel bei bewusster Täuschung, kann man anfechten (§ 123 BGB). Gegen die neue Miete können Sie sich grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21)."
+  },
+  "partial_consent": {
+   "title": "Teilweise Zustimmung",
+   "text": "Sie können auch nur einem Teil der Erhöhung zustimmen (§ 558b Abs. 1 BGB: „soweit“). Daran sind Sie gebunden. Für den Rest kann der Vermieter klagen (BGH, VIII ZR 141/09, Rn. 19). Zahlen Sie danach nur den Betrag, dem Sie zugestimmt haben."
+  },
+  "landlord_equipment": {
+   "title": "Nur Ausstattung des Vermieters zählt",
+   "text": "Was Sie selbst eingebaut und bezahlt haben, zählt nicht (Mietspiegel 2026 Nr. 6.3), und zwar auf Dauer (BGH, VIII ZR 52/18). Anders ist es, wenn der Vermieter die Kosten erstattet hat. Für die Fläche zählt die tatsächliche Wohnfläche, nicht die Zahl im Mietvertrag (BGH, VIII ZR 266/14)."
+  },
+  "burden_of_proof": {
+   "title": "Wer muss was beweisen?",
+   "text": "Im Prozess muss der Vermieter die ortsübliche Vergleichsmiete beweisen (BGH, VIII ZR 123/20, Rn. 27). Bei den einzelnen Merkmalen hat das Landgericht Berlin (heute Landgericht Berlin II) entschieden: Plus-Merkmale muss der Vermieter beweisen, Minus-Merkmale, auf die Sie sich berufen, müssen Sie beweisen (LG Berlin, 67 S 150/18, Rn. 6–9). Andere Gerichte können das anders sehen."
+  },
+  "staffel_index": {
+   "title": "Staffelmiete und Indexmiete",
+   "text": "Haben Sie eine Staffelmiete oder Indexmiete vereinbart, ist eine Erhöhung nach § 558 BGB während dieser Zeit ausgeschlossen (§ 557a Abs. 2, § 557b Abs. 2 BGB)."
+  },
+  "lwu": {
+   "title": "Landeseigene Wohnungsunternehmen",
+   "text": "Bei degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND und WBM gelten zusätzliche freiwillige Zusagen, solange die Kooperationsvereinbarung läuft (bis 31.12.2027): höchstens 11 % mehr in drei Jahren (Bündnis-Vereinbarung vom 15.07.2025) und höchstens 50 € (bis 65 m²), 75 € (bis 100 m²) oder 100 € (bis 125 m²) mehr pro Monat (Kooperationsvereinbarung II.8). Außerdem gibt es das Leistbarkeitsversprechen: auf Antrag höchstens 27 % des Haushaltseinkommens als Nettokaltmiete, wenn die Einkommens- und Flächengrenzen eingehalten sind."
+  },
+  "pay_from": {
+   "title": "Ab wann Sie zahlen würden",
+   "text": "Das ist der spätere der beiden Tage: der früheste Tag nach dem Gesetz oder der Termin, den der Vermieter nennt. Dieses Datum setzen wir in den Brief ein."
+  },
+  "scope": {
+   "title": "Gilt das für Sie?",
+   "text": "Diese Hilfe gilt nur, wenn Ihr Vermieter Sie bittet, einer höheren Miete zuzustimmen (§ 558 BGB). Sie gilt nicht bei einer Erhöhung nach Modernisierung (§ 559 BGB), bei neuen Vorauszahlungen für Betriebskosten (§ 560 BGB), bei Index- oder Staffelmiete, in einer Sozialwohnung oder anderen geförderten Wohnung mit fester Miete (§ 558 Abs. 2 Satz 2 BGB), für ein Zimmer in der Wohnung des Vermieters, eine Wohnung nur für kurze Zeit oder ein Wohnheim (§ 549 BGB). Dann müssen Sie die höhere Miete meist auch ohne Zustimmung zahlen. Hören Sie nicht einfach auf zu zahlen. Lassen Sie sich beraten."
+  },
+  "mietpreisbremse_after_consent": {
+   "title": "Mietpreisbremse vor einer Zustimmung prüfen",
+   "text": "Hat Ihr Mietvertrag ab Juni 2015 begonnen und war die Miete zu Beginn vielleicht zu hoch? Prüfen Sie das vor Ihrer Antwort. Wenn Sie einer Erhöhung zustimmen, gilt die neue Miete als vereinbart. Gegen diese neue Miete können Sie sich dann grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21)."
+  },
+  "consent_deadline_193": {
+   "title": "Zustimmungsfrist: nächster Werktag",
+   "text": "Fällt das Ende Ihrer Frist auf einen Samstag, Sonntag oder Feiertag in Berlin, tritt nach dem Wortlaut von § 193 BGB der nächste Werktag an seine Stelle. Das zeigt dieses Datum. Planen Sie trotzdem mit dem früheren Datum. Feiertage in Berlin sind zum Beispiel Neujahr, der Frauentag (8. März), Karfreitag, Ostermontag, der 1. Mai, Himmelfahrt, Pfingstmontag, der 3. Oktober und die beiden Weihnachtstage."
+  }
+ }
+}

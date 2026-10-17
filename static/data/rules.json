@@ -1,0 +1,1599 @@
+{
+ "as_of": "2026-10-18",
+ "note_de": "Rechenregeln für die Website. Allgemeine Information, keine Rechtsberatung. Datumsangaben ISO. Fristenden ohne Verschiebung nach § 193 BGB (Wochenende/Feiertag) – die Oberfläche weist darauf hin.",
+ "sources": {
+  "bgb_558": {
+   "label": "§ 558 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__558.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_558a": {
+   "label": "§ 558a BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__558a.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_558b": {
+   "label": "§ 558b BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__558b.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_558d": {
+   "label": "§ 558d BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__558d.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_561": {
+   "label": "§ 561 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__561.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_568": {
+   "label": "§ 568 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__568.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_557": {
+   "label": "§ 557 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__557.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_557a": {
+   "label": "§ 557a BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__557a.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_557b": {
+   "label": "§ 557b BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__557b.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_559": {
+   "label": "§ 559 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__559.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_130": {
+   "label": "§ 130 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__130.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_187": {
+   "label": "§ 187 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__187.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_188": {
+   "label": "§ 188 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__188.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_192": {
+   "label": "§ 192 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__192.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_193": {
+   "label": "§ 193 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__193.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_556d": {
+   "label": "§ 556d BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__556d.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_556e": {
+   "label": "§ 556e BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__556e.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_556f": {
+   "label": "§ 556f BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__556f.html",
+   "checked": "2026-10-17"
+  },
+  "bgb_556g": {
+   "label": "§ 556g BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__556g.html",
+   "checked": "2026-10-17"
+  },
+  "zpo_91": {
+   "label": "§ 91 ZPO",
+   "url": "https://www.gesetze-im-internet.de/zpo/__91.html",
+   "checked": "2026-10-17"
+  },
+  "zpo_894": {
+   "label": "§ 894 ZPO",
+   "url": "https://www.gesetze-im-internet.de/zpo/__894.html",
+   "checked": "2026-10-17"
+  },
+  "kappgrv_2013": {
+   "label": "Berliner Kappungsgrenzenverordnung vom 07.05.2013, GVBl. 2013 S. 128",
+   "url": "https://gesetze.berlin.de/perma?d=jlr-NNLBE00004C7F",
+   "checked": "2026-10-17"
+  },
+  "kappgrv_2018": {
+   "label": "Berliner Kappungsgrenzenverordnung vom 10.04.2018, GVBl. 2018 S. 370",
+   "url": "https://gesetze.berlin.de/perma?d=jlr-NNLBE00004BB6",
+   "checked": "2026-10-17"
+  },
+  "kappgrv_2023": {
+   "label": "Berliner Kappungsgrenzenverordnung vom 14.03.2023, GVBl. 2023 S. 112",
+   "url": "https://gesetze.berlin.de/perma?d=jlr-NNLBE00004DC8",
+   "checked": "2026-10-17"
+  },
+  "mietbegrv_2015": {
+   "label": "Berliner Mietenbegrenzungsverordnung vom 28.04.2015, GVBl. 2015 S. 101",
+   "url": "https://pardok.parlament-berlin.de/starweb/adis/citat/VT/17/gvbl/g15090101.pdf",
+   "checked": "2026-10-17"
+  },
+  "mietbegrv_2020": {
+   "label": "Berliner Mietenbegrenzungsverordnung vom 19.05.2020, GVBl. 2020 S. 343",
+   "url": "https://gesetze.berlin.de/perma?d=jlr-NNLBE00004C5E",
+   "checked": "2026-10-17"
+  },
+  "mietbegrv_2025": {
+   "label": "Berliner Mietenbegrenzungsverordnung vom 15.04.2025, GVBl. 2025 S. 228",
+   "url": "https://gesetze.berlin.de/perma?d=jlr-NNLBE0000488B",
+   "checked": "2026-10-17"
+  },
+  "mietbegrv_2026": {
+   "label": "Berliner Mietenbegrenzungsverordnung vom 11.11.2025, GVBl. 2025 S. 577",
+   "url": "https://gesetze.berlin.de/perma?d=jlr-NNLBE0000488C",
+   "checked": "2026-10-17"
+  },
+  "ms2026": {
+   "label": "Berliner Mietspiegel 2026 (Amtsblatt für Berlin Nr. 22 vom 28.05.2026)",
+   "url": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf",
+   "checked": "2026-10-17"
+  },
+  "ms2026_pm": {
+   "label": "Pressemitteilung der Senatsverwaltung vom 28.05.2026 (Inkrafttreten Mietspiegel 2026)",
+   "url": "https://www.berlin.de/sen/stadt/presse/pressemeldungen/pressemitteilung.1674998.php",
+   "checked": "2026-10-17"
+  },
+  "ms2024": {
+   "label": "Berliner Mietspiegel 2024 (Amtsblatt vom 30.05.2024)",
+   "url": "https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf",
+   "checked": "2026-10-17"
+  },
+  "ms_archiv": {
+   "label": "Mietspiegel-Archiv der Senatsverwaltung",
+   "url": "https://mietspiegel.berlin.de/berliner-mietspiegel/archiv/",
+   "checked": "2026-10-17"
+  },
+  "senat_mietratgeber": {
+   "label": "Berliner Mietratgeber: Zulässige Miethöhe (Senatsverwaltung)",
+   "url": "https://www.berlin.de/sen/wohnen/wissen-fuer-mieter/berliner-mietratgeber/miete/",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_22_20": {
+   "label": "BGH, Urteil vom 28.04.2021 – VIII ZR 22/20, Rn. 29",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2020/VIII_ZR__22-20.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zb_74_16": {
+   "label": "BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13, 21",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2016/VIII_ZB__74-16.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_62_18": {
+   "label": "BGH, Urteil vom 24.04.2019 – VIII ZR 62/18, Rn. 20–22",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2018/VIII_ZR__62-18.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_141_09": {
+   "label": "BGH, Urteil vom 20.01.2010 – VIII ZR 141/09, Rn. 18–19",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2009/VIII_ZR_141-09.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_177_03": {
+   "label": "BGH, Urteil vom 28.04.2004 – VIII ZR 177/03, II 3",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2003/VIII_ZR_177-03.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_178_03": {
+   "label": "BGH, Urteil vom 28.04.2004 – VIII ZR 178/03, II 1 a, II 1 c",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2003/VIII_ZR_178-03.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_287_06": {
+   "label": "BGH, Urteil vom 09.04.2008 – VIII ZR 287/06",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2006/VIII_ZR_287-06.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_217_14": {
+   "label": "BGH, Urteil vom 04.11.2015 – VIII ZR 217/14 (Berliner Kappungsgrenzenverordnung 2013 wirksam)",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2014/VIII_ZR_217-14.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_52_18": {
+   "label": "BGH, Urteil vom 24.10.2018 – VIII ZR 52/18",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2018/VIII_ZR__52-18.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_123_20": {
+   "label": "BGH, Urteil vom 18.11.2020 – VIII ZR 123/20, Rn. 27",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2020/VIII_ZR_123-20.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgh_viii_zr_181_16": {
+   "label": "BGH, Urteil vom 31.05.2017 – VIII ZR 181/16, Rn. 13",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2016/VIII_ZR_181-16.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "lg_berlin_67_s_150_18": {
+   "label": "LG Berlin, Urteil vom 16.10.2018 – 67 S 150/18, Rn. 6–9",
+   "url": "https://gesetze.berlin.de/bsbe/document/NJRE001362987",
+   "checked": "2026-10-17"
+  },
+  "koopv_2024": {
+   "label": "Kooperationsvereinbarung „Leistbare Mieten, Wohnungsneubau und Soziale Wohnraumversorgung“ 2024 (Land Berlin und landeseigene Wohnungsunternehmen)",
+   "url": "https://www.berlin.de/sen/bauen/_assets/neubau/koopv-2024.pdf",
+   "checked": "2026-10-17"
+  },
+  "senat_lwu": {
+   "label": "Senatsverwaltung: Städtische Wohnungsbaugesellschaften",
+   "url": "https://www.berlin.de/sen/bauen/neubau/wohnungsbaugesellschaften/",
+   "checked": "2026-10-17"
+  },
+  "wuausrstaerkg_2": {
+   "label": "§ 2 Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen (Art. 2 WoVG Bln)",
+   "url": "https://gesetze.berlin.de/perma?j=WUAusrSt%C3%A4rkG_BE_!_2",
+   "checked": "2026-10-17"
+  },
+  "wuausrstaerkg_3": {
+   "label": "§ 3 Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen (Art. 2 WoVG Bln)",
+   "url": "https://gesetze.berlin.de/perma?j=WUAusrSt%C3%A4rkG_BE_!_3",
+   "checked": "2026-10-17"
+  },
+  "ombud_lwu_faq": {
+   "label": "Ombudsstelle LWU – FAQ",
+   "url": "https://www.ombud-lwu.de/infos/faq/",
+   "checked": "2026-10-17"
+  },
+  "bgh_i_zr_113_20": {
+   "label": "BGH, Urteil vom 09.09.2021 – I ZR 113/20 (Vertragsdokumentengenerator)",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2020/I_ZR_113-20.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-17"
+  },
+  "bgb_549": {
+   "label": "§ 549 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__549.html",
+   "checked": "2026-10-18"
+  },
+  "bgb_123": {
+   "label": "§ 123 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__123.html",
+   "checked": "2026-10-18"
+  },
+  "egbgb_229_35": {
+   "label": "Art. 229 § 35 EGBGB",
+   "url": "https://www.gesetze-im-internet.de/bgbeg/art_229__35.html",
+   "checked": "2026-10-18"
+  },
+  "egbgb_229_51": {
+   "label": "Art. 229 § 51 EGBGB",
+   "url": "https://www.gesetze-im-internet.de/bgbeg/art_229__51.html",
+   "checked": "2026-10-18"
+  },
+  "bgh_viii_zr_300_21": {
+   "label": "BGH, Urteil vom 28.09.2022 – VIII ZR 300/21, Leitsätze, Rn. 13, 32",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2021/VIII_ZR_300-21.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-18"
+  },
+  "bgh_viii_zr_94_17": {
+   "label": "BGH, Urteil vom 17.10.2018 – VIII ZR 94/17 (kein Widerruf der Zustimmung)",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2017/VIII_ZR__94-17.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-18"
+  },
+  "bgh_viii_zr_266_14": {
+   "label": "BGH, Urteil vom 18.11.2015 – VIII ZR 266/14, Leitsatz a (tatsächliche Wohnfläche)",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2014/VIII_ZR_266-14.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-18"
+  },
+  "bgh_viii_zr_295_15": {
+   "label": "BGH, Urteil vom 15.03.2017 – VIII ZR 295/15, Leitsatz (Stichtagszuschlag)",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2015/VIII_ZR_295-15.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-18"
+  },
+  "lg_berlin_65_s_527_13": {
+   "label": "LG Berlin, Urteil vom 07.11.2014 – 65 S 527/13 (neuerer Mietspiegel bei Zugang nach dessen Stichtag) – Volltext-Wiedergabe, nicht amtliche Quelle",
+   "url": "https://www.enwipo.de/wp-content/uploads/2015/08/65_S_527-13.pdf",
+   "checked": "2026-10-18"
+  },
+  "buendnis_2025": {
+   "label": "Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025, S. 5 (LWU: Kappungsgrenze 11 % für die Laufzeit der Kooperationsvereinbarung)",
+   "url": "https://www.berlin.de/rbmskzl/_assets/aktuelles/2025-07-15-vereinbarung-buendnis-wohnungsneubau-und-bezahlbares-wohnen.pdf",
+   "checked": "2026-10-18"
+  },
+  "buendnis_2025_pm": {
+   "label": "Pressemitteilung der Senatskanzlei vom 15.07.2025 (Bündnis)",
+   "url": "https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2025/pressemitteilung.1580615.php",
+   "checked": "2026-10-18"
+  },
+  "bgb_186": {
+   "label": "§ 186 BGB",
+   "url": "https://www.gesetze-im-internet.de/bgb/__186.html",
+   "checked": "2026-10-18"
+  },
+  "zpo_222": {
+   "label": "§ 222 ZPO",
+   "url": "https://www.gesetze-im-internet.de/zpo/__222.html",
+   "checked": "2026-10-18"
+  },
+  "zpo_167": {
+   "label": "§ 167 ZPO",
+   "url": "https://www.gesetze-im-internet.de/zpo/__167.html",
+   "checked": "2026-10-18"
+  },
+  "feiertg_be": {
+   "label": "Berliner Gesetz über die Sonn- und Feiertage (FeiertG BE), § 1 mit allen Fassungen seit 1995",
+   "url": "https://gesetze.berlin.de/perma?j=FeiertG_BE_!_1",
+   "checked": "2026-10-18"
+  },
+  "bgh_viii_zr_355_18": {
+   "label": "BGH, Urteil vom 29.04.2020 – VIII ZR 355/18, Leitsatz a, Rn. 21, 24–26 (Klagefrist § 558b Abs. 2 = materiell-rechtliche Ausschlussfrist; Klagefrist beginnt mit Ablauf der Überlegungsfrist)",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2018/VIII_ZR_355-18.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-18"
+  },
+  "bgh_iii_zr_146_07": {
+   "label": "BGH, Versäumnisurteil vom 06.12.2007 – III ZR 146/07, Leitsatz b, Rn. 13–14 (§ 193 BGB entsprechend für Klageeinreichung am Montag nach Fristende am Samstag)",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2007/III_ZR_146-07.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-18"
+  },
+  "bgh_iii_zr_172_04": {
+   "label": "BGH, Urteil vom 17.02.2005 – III ZR 172/04 (§ 193 BGB nicht auf Kündigungsfristen anwendbar)",
+   "url": "https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/III_ZS/2004/III_ZR_172-04.pdf?__blob=publicationFile&v=1",
+   "checked": "2026-10-18"
+  }
+ },
+ "mietspiegel": [
+  {
+   "year": 2026,
+   "data": "ms2026.json",
+   "valid_from": "2026-05-28",
+   "valid_to": null,
+   "stichtag": "2025-09-01",
+   "source": "ms2026_pm"
+  },
+  {
+   "year": 2024,
+   "data": "ms2024.json",
+   "valid_from": "2024-05-30",
+   "valid_to": "2026-05-27",
+   "stichtag": "2023-09-01",
+   "source": "ms_archiv"
+  }
+ ],
+ "mietspiegel_choice": {
+  "by": "received",
+  "source": "bgh_viii_zr_22_20",
+  "formula_de": "Maßgeblich ist der Mietspiegel, der am Tag des Zugangs des Erhöhungsverlangens gilt: der jüngste Eintrag mit valid_from ≤ received. Für die Mietpreisbremse: der Mietspiegel, der bei Beginn des Mietverhältnisses galt (Anhaltspunkt; § 556d Abs. 1 BGB stellt auf den Beginn ab). Anhaltspunkt, keine feste Regel: Ein neuerer Mietspiegel, dessen Stichtag vor dem Zugang liegt, kann vom Gericht herangezogen werden (LG Berlin 65 S 527/13), ebenso ein Stichtagszuschlag (BGH VIII ZR 295/15). Für Zugang 2025-09-01 … 2026-05-27 weist die Oberfläche darauf hin.",
+  "mietpreisbremse_by": "lease_start",
+  "mietpreisbremse_source": "bgb_556d",
+  "contested_window": {
+   "from": "2025-09-01",
+   "to": "2026-05-27",
+   "also_year": 2026,
+   "sources": [
+    "lg_berlin_65_s_527_13",
+    "bgh_viii_zr_295_15"
+   ]
+  }
+ },
+ "kappung": {
+  "lookback_years": 3,
+  "by": "received",
+  "by_note_de": "Ob für den Satz der Zugang oder der Erhöhungstermin maßgeblich ist, ist nicht höchstrichterlich geklärt (nicht verifiziert). In Berlin gilt seit 19.05.2013 lückenlos 15 %, daher praktisch ohne Bedeutung bis zum 10.05.2028.",
+  "base_note_de": "Ausgangsmiete = Nettokaltmiete drei Jahre vor dem Tag, ab dem die neue Miete gelten soll (pay_from; BGH VIII ZR 177/03: „drei Jahre vor Wirksamwerden des Erhöhungsverlangens“). Erhöhungen der Nettokaltmiete nach § 559 BGB in diesem Zeitraum werden zur Grenze addiert (§ 558 Abs. 3 S. 1 BGB); Änderungen von Betriebskosten-Vorauszahlungen (§ 560 Abs. 4) gehören bei einer Nettokaltmiete nicht dazu, nur Erhöhungen einer Pauschale (§ 560 Abs. 1).",
+  "rates": [
+   {
+    "rate": 0.15,
+    "valid_from": "2013-05-19",
+    "valid_to": "2018-05-10",
+    "source": "kappgrv_2013"
+   },
+   {
+    "rate": 0.15,
+    "valid_from": "2018-05-11",
+    "valid_to": "2023-05-10",
+    "source": "kappgrv_2018"
+   },
+   {
+    "rate": 0.15,
+    "valid_from": "2023-05-11",
+    "valid_to": "2028-05-10",
+    "source": "kappgrv_2023"
+   }
+  ],
+  "default_rate": 0.2,
+  "default_source": "bgb_558"
+ },
+ "dates": {
+  "effective": {
+   "from": "received",
+   "add_months": 2,
+   "snap": "start_next_month",
+   "source": "bgb_558b",
+   "shift_193": "none"
+  },
+  "consent_deadline": {
+   "from": "received",
+   "add_months": 2,
+   "snap": "end_of_month",
+   "source": "bgb_558b",
+   "note_de": "Kalenderdatum (Ende des 2. Kalendermonats). Dieses Datum zeigt die Seite als Tag, bis zu dem die Antwort ankommen soll."
+  },
+  "sue_deadline": {
+   "from": "consent_deadline_193",
+   "add_months": 3,
+   "snap": "period_from_next_day",
+   "shift_193": "apply",
+   "source": "bgb_558b",
+   "sources": [
+    "bgb_558b",
+    "bgh_viii_zr_355_18",
+    "bgh_iii_zr_146_07",
+    "zpo_167",
+    "bgb_193"
+   ],
+   "note_de": "Späteste mögliche Klagefrist des Vermieters. Die Klagefrist ist eine materiell-rechtliche Ausschlussfrist (BGH VIII ZR 355/18) und beginnt mit Ablauf der Überlegungsfrist (Rn. 26). Endet sie an einem Samstag, Sonntag oder Feiertag, genügt nach BGH III ZR 146/07 (zur Verjährung, § 193 BGB entsprechend) die Einreichung am nächsten Werktag; die Zustellung muss demnächst folgen (§ 167 ZPO). Eine Entscheidung genau zu § 558b Abs. 2 wurde nicht gefunden – deshalb wird zugunsten der Vorsicht das spätere Datum angezeigt."
+  },
+  "termination_declare_by": {
+   "from": "received",
+   "add_months": 2,
+   "snap": "end_of_month",
+   "source": "bgb_561",
+   "note_de": "Verbreitete Lesart (Ende des zweiten Kalendermonats); nicht in einer Primärquelle bestätigt.",
+   "shift_193": "none"
+  },
+  "termination_safe_by": {
+   "from": "received",
+   "add_months": 2,
+   "snap": "none",
+   "source": "bgb_561",
+   "note_de": "Sichere Lesart: zwei Monate ab Zugang (§§ 187 Abs. 1, 188 Abs. 2 und 3 BGB). Keine Verschiebung nach § 193 BGB: Ob § 193 hier gilt, ist nicht geklärt (nicht verifiziert); für Kündigungsfristen gilt § 193 nach BGH III ZR 172/04 nicht.",
+   "shift_193": "none"
+  },
+  "termination_ends": {
+   "from": "termination_declare_by",
+   "add_months": 2,
+   "snap": "end_of_month",
+   "source": "bgb_561",
+   "note_de": "Ende bei Zugang der Kündigung am letzten möglichen Tag.",
+   "shift_193": "none"
+  },
+  "sperrfrist_earliest_received": {
+   "from": "last_change",
+   "add_months": 12,
+   "snap": "after_period",
+   "source": "bgh_viii_zr_141_09",
+   "note_de": "Ab Wirksamwerden der letzten Erhöhung; Verlangen, das früher zugeht, ist unwirksam (BGH VIII ZR 178/03).",
+   "shift_193": "none"
+  },
+  "wartefrist_earliest_effective": {
+   "from": "last_change",
+   "add_months": 15,
+   "snap": "after_period",
+   "source": "bgh_viii_zr_178_03",
+   "note_de": "Ab erster Fälligkeit der letzten Erhöhung; verschiebt den frühesten Erhöhungstermin.",
+   "shift_193": "none"
+  },
+  "consent_deadline_193": {
+   "from": "consent_deadline",
+   "add_months": 0,
+   "snap": "none",
+   "shift_193": "apply",
+   "source": "bgb_193",
+   "note_de": "Die Zustimmung ist eine Willenserklärung innerhalb einer Frist; nach dem Wortlaut von § 193 BGB verschiebt sich das Ende auf den nächsten Werktag. Keine Gerichtsentscheidung dazu im Volltext gefunden (nicht verifiziert). Nur als Information anzeigen, nicht als Frist empfehlen; Ausgangspunkt der Klagefrist."
+  }
+ },
+ "snaps": {
+  "none": "Datum + N Monate, gleiche Tageszahl; fehlt der Tag im Zielmonat: letzter Tag des Monats (§ 188 Abs. 3 BGB).",
+  "end_of_month": "letzter Tag des Monats (Datum + N Monate).",
+  "start_next_month": "erster Tag des Monats nach (Datum + N Monate).",
+  "after_period": "erster Tag nach Ablauf einer Frist, die mit Beginn des Ausgangstags beginnt (§§ 187 Abs. 2, 188 Abs. 2 und 3 BGB): gleiche Tageszahl N Monate später; fehlt dieser Tag, der 1. des Folgemonats.",
+  "period_from_next_day": "Frist von N Monaten, die am Tag nach dem Ausgangstag beginnt (§§ 187 Abs. 2, 188 Abs. 2 und 3 BGB): (Ausgangstag + 1 Tag, dann N Monate wie after_period) − 1 Tag. Ist der Ausgangstag ein Monatsletzter, ergibt das den Monatsletzten nach N Monaten (= end_of_month)."
+ },
+ "netting": {
+  "source": "ms2026",
+  "group_share": 0.2,
+  "groups": [
+   "bad",
+   "kueche",
+   "wohnung",
+   "gebaeude",
+   "umfeld"
+  ],
+  "formula_de": "Je Gruppe: mehr Plus- als Minus-Merkmale → +1, mehr Minus → −1, Gleichstand → 0 (einfache Überzahl). net = Summe. net > 0: OVM = Mittelwert + net × 0,20 × (Oberwert − Mittelwert); net < 0: OVM = Mittelwert + net × 0,20 × (Mittelwert − Unterwert). Ergebnis kaufmännisch auf Cent gerundet (Beispiel Mietspiegel 2024 Nr. 10.4). Energie: entweder gebaeude-m08 oder gebaeude-m09…m11; entweder gebaeude-p08 oder gebaeude-p09…p11. Rundung: einmal auf das Gesamtergebnis (wie Beispiel Mietspiegel 2024 bei net = +1). Für |net| ≥ 2 sagt der Mietspiegel nicht, ob je Gruppe oder einmal gerundet wird; Abweichung bis 1 Cent möglich."
+ },
+ "lwu": {
+  "source": "koopv_2024",
+  "valid_from": "2024-01-01",
+  "valid_to": "2027-12-31",
+  "companies": [
+   "degewo",
+   "GESOBAU",
+   "Gewobag",
+   "HOWOGE",
+   "STADT UND LAND",
+   "WBM",
+   "berlinovo (nur „Klassisches Wohnen“)"
+  ],
+  "eur_caps": [
+   {
+    "max_area": 65,
+    "max_increase_eur": 50
+   },
+   {
+    "max_area": 100,
+    "max_increase_eur": 75
+   },
+   {
+    "max_area": 125,
+    "max_increase_eur": 100
+   }
+  ],
+  "eur_caps_note_de": "KoopV II.8: „beträgt eine Erhöhung der monatlichen Miete insgesamt maximal …“; über 125 m² kein Betrag; ob je Erhöhung oder insgesamt, sagt der Text nicht ausdrücklich. Flächengrenzen „bis zu“ → inklusive.",
+  "portfolio_cap_pct_per_year": 2.9,
+  "portfolio_cap_note_de": "KoopV II.7: Durchschnitt über den Bestand eines Unternehmens, keine Grenze je Vertrag.",
+  "statute_cap": {
+   "rate": 0.15,
+   "years": 4,
+   "kind": "soll",
+   "source": "wuausrstaerkg_2"
+  },
+  "leistbarkeit": {
+   "max_share_net_cold": 0.27,
+   "on_application": true,
+   "income_limit": "Für einen WBS maßgebliche Einkommensgrenzen (KoopV II.4, ohne Prozentangabe); das Gesetz (WUAusrStärkG BE § 3 Abs. 3) nennt für Härtefälle 220 % der Grenzen nach § 9 Abs. 2 WoFG.",
+   "area_limits_sqm": {
+    "1": 45,
+    "2": 60,
+    "3": 75,
+    "4": 85,
+    "each_additional": 12
+   },
+   "sources": [
+    "koopv_2024",
+    "wuausrstaerkg_3",
+    "ombud_lwu_faq"
+   ],
+   "sgb_note_de": "KoopV II.4: „Für besondere Bedarfsgruppen sowie Empfängerinnen und Empfänger von Leistungen nach SGB II und XII wird die Tragbarkeit der Miethöhe gewährleistet.“"
+  },
+  "cap_rate_3y": 0.11,
+  "cap_rate_3y_note_de": "Bündnis-Vereinbarung vom 15.07.2025, S. 5: „Bei den LWU gelten weiterhin die Regelungen der Kooperationsvereinbarung 2024 … durch die Fortführung der Absenkung der mietrechtlichen Kappungsgrenze für Mieterhöhungen nach § 558 BGB von 15 % auf 11 % … für die Laufzeit der Kooperationsvereinbarung“. Freiwillige Zusage; Durchsetzbarkeit offen.",
+  "cap_rate_3y_sources": [
+   "buendnis_2025",
+   "buendnis_2025_pm",
+   "senat_lwu"
+  ],
+  "lwu_cap_formula_de": "lwu_cap_rent = min(rent_3y_ago × 1,11 + increases_559_560, current_rent + eur_cap(area)); eur_cap: Fläche ≤ 65 m² → 50 €, ≤ 100 m² → 75 €, ≤ 125 m² → 100 €, darüber keine Euro-Grenze. Gilt, wenn received zwischen valid_from und valid_to liegt. Eingabe: lwu = true."
+ },
+ "rules": [
+  {
+   "id": "mietspiegel_choice",
+   "source": "bgh_viii_zr_22_20",
+   "formula_de": "Mietspiegel mit valid_from ≤ received (jüngster)."
+  },
+  {
+   "id": "ovm",
+   "source": "bgb_558",
+   "formula_de": "ovm_rent = ovm_per_sqm × area (auf Cent gerundet)."
+  },
+  {
+   "id": "netting",
+   "source": "ms2026",
+   "formula_de": "siehe netting.formula_de"
+  },
+  {
+   "id": "kappung",
+   "source": "kappgrv_2023",
+   "formula_de": "cap_rent = rent_3y_ago × (1 + kappung_rate) + increases_559_560 (auf Cent gerundet); rent_3y_ago fehlt → current_rent, dann Hinweis need_rent_3y, falls die letzte Änderung weniger als drei Jahre vor pay_from liegt oder unbekannt ist."
+  },
+  {
+   "id": "max_rent",
+   "source": "bgb_558",
+   "formula_de": "max_rent = min(cap_rent, ovm_rent falls vorhanden); demanded_over_max = max(0, demanded_rent − max_rent); increase_pct = demanded_rent / current_rent − 1 (4 Nachkommastellen)."
+  },
+  {
+   "id": "consent_deadline",
+   "source": "bgb_558b",
+   "formula_de": "Ende des 2. Kalendermonats nach dem Zugangsmonat."
+  },
+  {
+   "id": "effective",
+   "source": "bgb_558b",
+   "formula_de": "max(1. Tag des 3. Kalendermonats nach Zugang, wartefrist_earliest_effective)."
+  },
+  {
+   "id": "termination_safe_by",
+   "source": "bgb_561",
+   "formula_de": "received + 2 Monate (gleiche Tageszahl, sonst Monatsletzter)."
+  },
+  {
+   "id": "termination_declare_by",
+   "source": "bgb_561",
+   "formula_de": "Ende des 2. Kalendermonats nach dem Zugangsmonat (verbreitete Lesart)."
+  },
+  {
+   "id": "termination_ends",
+   "source": "bgb_561",
+   "formula_de": "Ende des übernächsten Monats nach Zugang der Kündigung; berechnet für Zugang am termination_declare_by."
+  },
+  {
+   "id": "sperrfrist_earliest_received",
+   "source": "bgh_viii_zr_178_03",
+   "formula_de": "sperrfrist_ok = received ≥ last_change + 12 Monate (after_period)."
+  },
+  {
+   "id": "wartefrist_earliest_effective",
+   "source": "bgh_viii_zr_178_03",
+   "formula_de": "wartefrist_ok = (1. Tag 3. Kalendermonat nach Zugang) ≥ last_change + 15 Monate (after_period)."
+  },
+  {
+   "id": "requested_too_early",
+   "source": "bgb_558b",
+   "formula_de": "requested_too_early = requested_effective < effective."
+  },
+  {
+   "id": "pay_from",
+   "source": "bgb_558b",
+   "formula_de": "pay_from = max(effective, requested_effective) – Datum für den Brief."
+  },
+  {
+   "id": "base_date",
+   "source": "bgh_viii_zr_177_03",
+   "formula_de": "base_date = pay_from − 3 Jahre (Stichtag der Ausgangsmiete für die Kappungsgrenze)."
+  },
+  {
+   "id": "lwu_cap",
+   "source": "buendnis_2025",
+   "formula_de": "siehe lwu.lwu_cap_formula_de"
+  },
+  {
+   "id": "consent_deadline_193",
+   "source": "bgb_193",
+   "formula_de": "consent_deadline_193 = nächster Werktag ab consent_deadline (Samstag, Sonntag, Berliner Feiertag übersprungen)."
+  },
+  {
+   "id": "sue_deadline",
+   "source": "bgb_558b",
+   "formula_de": "sue_deadline_unshifted = period_from_next_day(consent_deadline_193, 3); sue_deadline = nächster Werktag ab sue_deadline_unshifted."
+  },
+  {
+   "id": "shift_193",
+   "source": "bgb_193",
+   "formula_de": "workday(d): solange d Samstag, Sonntag oder Feiertag nach holidays_berlin ist, d + 1 Tag. Nicht angewandt auf effective, termination_*, Sperrfrist und Wartefrist."
+  }
+ ],
+ "tests": [
+  {
+   "id": "t01",
+   "note_de": "Grundfall Mitte Oktober: Zustimmung bis Ende Dezember, neue Miete ab 1. Januar, Klage bis Ende März.",
+   "input": {
+    "received": "2026-10-15",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "mietspiegel_year": 2026,
+    "consent_deadline": "2026-12-31",
+    "effective": "2027-01-01",
+    "sue_deadline": "2027-03-31",
+    "termination_declare_by": "2026-12-31",
+    "termination_safe_by": "2026-12-15",
+    "termination_ends": "2027-02-28"
+   }
+  },
+  {
+   "id": "t02",
+   "note_de": "Beispiel aus dem Berliner Mietratgeber: Zugang 13.02. → Zustimmung bis Ende April, neue Miete ab 01.05.",
+   "input": {
+    "received": "2027-02-13",
+    "current_rent": 500,
+    "demanded_rent": 540,
+    "area": 50
+   },
+   "expected": {
+    "consent_deadline": "2027-04-30",
+    "effective": "2027-05-01"
+   }
+  },
+  {
+   "id": "t03",
+   "note_de": "Zugang am Monatsletzten (31.10.): Fristen laufen nach Kalendermonaten; sichere Kündigungsfrist 31.12.",
+   "input": {
+    "received": "2026-10-31",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline": "2026-12-31",
+    "effective": "2027-01-01",
+    "sue_deadline": "2027-03-31",
+    "termination_declare_by": "2026-12-31",
+    "termination_safe_by": "2026-12-31",
+    "termination_ends": "2027-02-28"
+   }
+  },
+  {
+   "id": "t04",
+   "note_de": "Zugang am 31.12.2027: Zustimmung bis 29.02.2028 (Schaltjahr), Klagefrist bis 31.05.2028, sichere § 561-Frist 29.02.2028.",
+   "input": {
+    "received": "2027-12-31",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline": "2028-02-29",
+    "effective": "2028-03-01",
+    "sue_deadline": "2028-05-31",
+    "termination_declare_by": "2028-02-29",
+    "termination_safe_by": "2028-02-29",
+    "termination_ends": "2028-04-30"
+   }
+  },
+  {
+   "id": "t05",
+   "note_de": "Zugang am 30.12.2026: Zustimmung bis 28.02.2027 (Sonntag; nach dem Wortlaut von § 193 BGB verschiebt sich das Ende auf Montag, 01.03.2027), sichere § 561-Frist 28.02.2027 (der 30.02. fehlt). Die Klagefrist des Vermieters endet dann spätestens am 01.06.2027.",
+   "input": {
+    "received": "2026-12-30",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline": "2027-02-28",
+    "termination_safe_by": "2027-02-28",
+    "effective": "2027-03-01",
+    "sue_deadline": "2027-06-01",
+    "consent_deadline_193": "2027-03-01"
+   }
+  },
+  {
+   "id": "t06",
+   "note_de": "Klagefrist bei Zustimmungsende 30.11.: endet am letzten Februartag (Schaltjahr 2028).",
+   "input": {
+    "received": "2027-09-10",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline": "2027-11-30",
+    "sue_deadline": "2028-02-29",
+    "effective": "2027-12-01"
+   }
+  },
+  {
+   "id": "t07",
+   "note_de": "Mietspiegel-Wahl: Zugang am 27.05.2026 → Mietspiegel 2024.",
+   "input": {
+    "received": "2026-05-27",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "mietspiegel_year": 2024
+   }
+  },
+  {
+   "id": "t08",
+   "note_de": "Mietspiegel-Wahl: Zugang am 28.05.2026 (Tag des Inkrafttretens) → Mietspiegel 2026.",
+   "input": {
+    "received": "2026-05-28",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "mietspiegel_year": 2026
+   }
+  },
+  {
+   "id": "t09",
+   "note_de": "Mietspiegel-Wahl: Zugang am 29.05.2024 → vor dem Mietspiegel 2024; keine Daten (null).",
+   "input": {
+    "received": "2024-05-29",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "mietspiegel_year": null
+   }
+  },
+  {
+   "id": "t10",
+   "note_de": "Kappungsgrenze 15 %: Miete vor drei Jahren 600 € → höchstens 690 €. Vergleichsmiete 11,00 €/m² × 60 m² = 660 €. Verlangt 690 € → 30 € zu viel.",
+   "input": {
+    "received": "2026-10-15",
+    "current_rent": 600,
+    "rent_3y_ago": 600,
+    "demanded_rent": 690,
+    "area": 60,
+    "ovm_per_sqm": 11.0
+   },
+   "expected": {
+    "kappung_rate": 0.15,
+    "cap_rent": 690.0,
+    "ovm_rent": 660.0,
+    "max_rent": 660.0,
+    "demanded_over_max": 30.0,
+    "increase_pct": 0.15
+   }
+  },
+  {
+   "id": "t11",
+   "note_de": "Kappungsgrenze: Modernisierungs-Erhöhung (§ 559) von 40 € wird zur Grenze hinzugerechnet: 500 × 1,15 + 40 = 615 €.",
+   "input": {
+    "received": "2026-10-15",
+    "current_rent": 560,
+    "rent_3y_ago": 500,
+    "increases_559_560": 40,
+    "demanded_rent": 640,
+    "area": 70,
+    "ovm_per_sqm": 9.5
+   },
+   "expected": {
+    "cap_rent": 615.0,
+    "ovm_rent": 665.0,
+    "max_rent": 615.0,
+    "demanded_over_max": 25.0,
+    "increase_pct": 0.1429
+   }
+  },
+  {
+   "id": "t12",
+   "note_de": "Innerhalb der Grenzen: Kappungsgrenze 630 × 1,15 = 724,50 €; Vergleichsmiete 8,12 €/m² × 62,5 m² = 507,50 €; verlangt 500 € → 0 € zu viel.",
+   "input": {
+    "received": "2026-11-02",
+    "current_rent": 450,
+    "rent_3y_ago": 630,
+    "demanded_rent": 500,
+    "area": 62.5,
+    "ovm_per_sqm": 8.12
+   },
+   "expected": {
+    "cap_rent": 724.5,
+    "ovm_rent": 507.5,
+    "max_rent": 507.5,
+    "demanded_over_max": 0.0,
+    "increase_pct": 0.1111
+   }
+  },
+  {
+   "id": "t13",
+   "note_de": "Ohne Vergleichsmiete: Höchstbetrag ist nur die Kappungsgrenze (ohne rent_3y_ago gilt die jetzige Miete).",
+   "input": {
+    "received": "2026-10-15",
+    "current_rent": 523.4,
+    "demanded_rent": 620,
+    "area": 55
+   },
+   "expected": {
+    "cap_rent": 601.91,
+    "max_rent": 601.91,
+    "demanded_over_max": 18.09,
+    "increase_pct": 0.1846
+   }
+  },
+  {
+   "id": "t14",
+   "note_de": "Kappungsgrenze vor dem 19.05.2013: 20 % (keine Berliner Verordnung).",
+   "input": {
+    "received": "2013-05-18",
+    "current_rent": 400,
+    "demanded_rent": 480,
+    "area": 50
+   },
+   "expected": {
+    "kappung_rate": 0.2,
+    "cap_rent": 480.0
+   }
+  },
+  {
+   "id": "t15",
+   "note_de": "Kappungsgrenze am 19.05.2013 (erste Berliner Verordnung in Kraft): 15 %.",
+   "input": {
+    "received": "2013-05-19",
+    "current_rent": 400,
+    "demanded_rent": 480,
+    "area": 50
+   },
+   "expected": {
+    "kappung_rate": 0.15,
+    "cap_rent": 460.0
+   }
+  },
+  {
+   "id": "t16",
+   "note_de": "Nach dem 10.05.2028 gilt nach heutigem Stand (17.10.2026) wieder 20 %, falls keine neue Verordnung kommt.",
+   "input": {
+    "received": "2028-05-11",
+    "current_rent": 400,
+    "demanded_rent": 480,
+    "area": 50
+   },
+   "expected": {
+    "kappung_rate": 0.2,
+    "cap_rent": 480.0
+   }
+  },
+  {
+   "id": "t17",
+   "note_de": "Sperrfrist eingehalten: letzte Erhöhung wirksam ab 01.10.2025, Verlangen geht am 01.10.2026 zu.",
+   "input": {
+    "received": "2026-10-01",
+    "last_change": "2025-10-01",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "sperrfrist_ok": true,
+    "wartefrist_ok": true,
+    "effective": "2027-01-01"
+   }
+  },
+  {
+   "id": "t18",
+   "note_de": "Sperrfrist nicht eingehalten: letzte Erhöhung wirksam ab 01.10.2025, Verlangen geht am 30.09.2026 zu.",
+   "input": {
+    "received": "2026-09-30",
+    "last_change": "2025-10-01",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "sperrfrist_ok": false
+   }
+  },
+  {
+   "id": "t19",
+   "note_de": "Schaltjahr: letzte Änderung am 29.02.2024 → Sperrfrist endet mit dem 28.02.2025; Zugang am 28.02.2025 ist zu früh, am 01.03.2025 nicht.",
+   "input": {
+    "received": "2025-02-28",
+    "last_change": "2024-02-29",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "sperrfrist_ok": false
+   }
+  },
+  {
+   "id": "t20",
+   "note_de": "Schaltjahr (Gegenprobe): Zugang am 01.03.2025 nach Änderung am 29.02.2024 ist erlaubt.",
+   "input": {
+    "received": "2025-03-01",
+    "last_change": "2024-02-29",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "sperrfrist_ok": true
+   }
+  },
+  {
+   "id": "t21",
+   "note_de": "Wartefrist verschiebt: Mietbeginn 31.01.2025, Zugang 31.01.2026. Nach § 558b wäre es der 01.04.2026, aber 15 Monate sind erst mit dem 30.04.2026 voll → neue Miete frühestens ab 01.05.2026.",
+   "input": {
+    "received": "2026-01-31",
+    "last_change": "2025-01-31",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60,
+    "requested_effective": "2026-04-01"
+   },
+   "expected": {
+    "sperrfrist_ok": true,
+    "wartefrist_ok": false,
+    "effective": "2026-05-01",
+    "requested_too_early": true
+   }
+  },
+  {
+   "id": "t22",
+   "note_de": "Vermieter nennt einen zu frühen Termin: Zugang 16.11.2026, verlangt ab 01.01.2027 → frühestens 01.02.2027; im Brief steht der 01.02.2027.",
+   "input": {
+    "received": "2026-11-16",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60,
+    "requested_effective": "2027-01-01"
+   },
+   "expected": {
+    "effective": "2027-02-01",
+    "requested_too_early": true,
+    "pay_from": "2027-02-01"
+   }
+  },
+  {
+   "id": "t23",
+   "note_de": "Vermieter nennt einen späteren Termin: verlangt ab 01.02.2027 → nicht zu früh; im Brief steht der 01.02.2027, nicht der 01.01.2027.",
+   "input": {
+    "received": "2026-10-15",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60,
+    "requested_effective": "2027-02-01"
+   },
+   "expected": {
+    "effective": "2027-01-01",
+    "requested_too_early": false,
+    "pay_from": "2027-02-01"
+   }
+  },
+  {
+   "id": "t24",
+   "note_de": "Ohne Termin des Vermieters: Zahltag im Brief = gesetzlicher Termin; Ausgangstag der Kappungsgrenze drei Jahre davor.",
+   "input": {
+    "received": "2026-10-15",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "effective": "2027-01-01",
+    "pay_from": "2027-01-01",
+    "base_date": "2024-01-01"
+   }
+  },
+  {
+   "id": "t25",
+   "note_de": "Späterer Termin verschiebt auch den Ausgangstag der Kappungsgrenze: verlangt ab 01.03.2027 → Ausgangstag 01.03.2024.",
+   "input": {
+    "received": "2026-10-15",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60,
+    "requested_effective": "2027-03-01"
+   },
+   "expected": {
+    "pay_from": "2027-03-01",
+    "base_date": "2024-03-01"
+   }
+  },
+  {
+   "id": "t26",
+   "note_de": "Landeseigener Vermieter, 60 m²: 11 % von 560 € = 621,60 €; Euro-Grenze 600 € + 50 € = 650 € → Zusage höchstens 621,60 €.",
+   "input": {
+    "received": "2026-10-15",
+    "current_rent": 600,
+    "rent_3y_ago": 560,
+    "demanded_rent": 680,
+    "area": 60,
+    "lwu": true
+   },
+   "expected": {
+    "cap_rent": 644.0,
+    "lwu_cap_rent": 621.6
+   }
+  },
+  {
+   "id": "t27",
+   "note_de": "Landeseigener Vermieter, 90 m²: 11 % von 700 € = 777 €; Euro-Grenze 700 € + 75 € = 775 € → Zusage höchstens 775 €.",
+   "input": {
+    "received": "2026-10-15",
+    "current_rent": 700,
+    "rent_3y_ago": 700,
+    "demanded_rent": 790,
+    "area": 90,
+    "lwu": true
+   },
+   "expected": {
+    "cap_rent": 805.0,
+    "lwu_cap_rent": 775.0
+   }
+  },
+  {
+   "note_de": "§ 193 BGB, Sonntag: Zugang 28.09.2026 → Klagefrist rechnerisch bis Sonntag, 28.02.2027 → der Vermieter hat bis Montag, 01.03.2027.",
+   "input": {
+    "received": "2026-09-28",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline": "2026-11-30",
+    "consent_deadline_193": "2026-11-30",
+    "sue_deadline_unshifted": "2027-02-28",
+    "sue_deadline": "2027-03-01"
+   },
+   "id": "t28"
+  },
+  {
+   "note_de": "§ 193 BGB, Samstag: Zugang 01.05.2026 → Klagefrist rechnerisch bis Samstag, 31.10.2026 → der Vermieter hat bis Montag, 02.11.2026.",
+   "input": {
+    "received": "2026-05-01",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline": "2026-07-31",
+    "sue_deadline_unshifted": "2026-10-31",
+    "sue_deadline": "2026-11-02"
+   },
+   "id": "t29"
+  },
+  {
+   "note_de": "§ 193 BGB bei der Zustimmungsfrist: Zugang 01.08.2026 → Frist bis Samstag, 31.10.2026; nach dem Wortlaut von § 193 bis Montag, 02.11.2026. Klagefrist läuft dann bis 02.02.2027. Zahlungsbeginn (01.11.2026) und sichere Kündigungsfrist verschieben sich nicht.",
+   "input": {
+    "received": "2026-08-01",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline": "2026-10-31",
+    "consent_deadline_193": "2026-11-02",
+    "sue_deadline_unshifted": "2027-02-02",
+    "sue_deadline": "2027-02-02",
+    "effective": "2026-11-01",
+    "termination_safe_by": "2026-10-01",
+    "termination_declare_by": "2026-10-31"
+   },
+   "id": "t30"
+  },
+  {
+   "note_de": "Feiertag in Berlin: Zugang 01.02.2028 → Zustimmungsfrist bis Sonntag, 30.04.2028; Montag, 01.05.2028 ist Feiertag → Dienstag, 02.05.2028. Klagefrist dann bis 02.08.2028.",
+   "input": {
+    "received": "2028-02-01",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline": "2028-04-30",
+    "consent_deadline_193": "2028-05-02",
+    "sue_deadline": "2028-08-02"
+   },
+   "id": "t31"
+  },
+  {
+   "note_de": "Feiertag 1. Mai am Ende der Klagefrist: Zugang 01.11.2026 → Zustimmung bis Sonntag, 31.01.2027 → Montag, 01.02.2027; Klagefrist rechnerisch bis Samstag, 01.05.2027 (zugleich Feiertag) → Montag, 03.05.2027.",
+   "input": {
+    "received": "2026-11-01",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline_193": "2027-02-01",
+    "sue_deadline_unshifted": "2027-05-01",
+    "sue_deadline": "2027-05-03"
+   },
+   "id": "t32"
+  },
+  {
+   "note_de": "Normaler Werktag: Zugang 01.01.2026 → Zustimmung bis Dienstag, 31.03.2026, Klagefrist bis Dienstag, 30.06.2026; keine Verschiebung.",
+   "input": {
+    "received": "2026-01-01",
+    "current_rent": 600,
+    "demanded_rent": 650,
+    "area": 60
+   },
+   "expected": {
+    "consent_deadline": "2026-03-31",
+    "consent_deadline_193": "2026-03-31",
+    "sue_deadline_unshifted": "2026-06-30",
+    "sue_deadline": "2026-06-30"
+   },
+   "id": "t33"
+  },
+  {
+   "id": "w01",
+   "kind": "workday",
+   "note_de": "Frauentag 08.03.2027 (Montag) ist in Berlin Feiertag → nächster Werktag Dienstag, 09.03.2027.",
+   "input": {
+    "date": "2027-03-08"
+   },
+   "expected": {
+    "workday": "2027-03-09"
+   }
+  },
+  {
+   "id": "w02",
+   "kind": "workday",
+   "note_de": "08.03.2018 war in Berlin noch kein Feiertag (Frauentag erst seit 2019) → keine Verschiebung.",
+   "input": {
+    "date": "2018-03-08"
+   },
+   "expected": {
+    "workday": "2018-03-08"
+   }
+  },
+  {
+   "id": "w03",
+   "kind": "workday",
+   "note_de": "Karfreitag 26.03.2027 → Samstag, Sonntag, Ostermontag 29.03. → Dienstag, 30.03.2027.",
+   "input": {
+    "date": "2027-03-26"
+   },
+   "expected": {
+    "workday": "2027-03-30"
+   }
+  },
+  {
+   "id": "w04",
+   "kind": "workday",
+   "note_de": "8. Mai 2025 war in Berlin einmalig Feiertag → Freitag, 09.05.2025.",
+   "input": {
+    "date": "2025-05-08"
+   },
+   "expected": {
+    "workday": "2025-05-09"
+   }
+  },
+  {
+   "id": "w05",
+   "kind": "workday",
+   "note_de": "8. Mai 2026 ist kein Feiertag (nur Gedenktag) → keine Verschiebung.",
+   "input": {
+    "date": "2026-05-08"
+   },
+   "expected": {
+    "workday": "2026-05-08"
+   }
+  },
+  {
+   "id": "w06",
+   "kind": "workday",
+   "note_de": "Heiligabend 24.12.2026 (Donnerstag) ist kein gesetzlicher Feiertag → keine Verschiebung.",
+   "input": {
+    "date": "2026-12-24"
+   },
+   "expected": {
+    "workday": "2026-12-24"
+   }
+  },
+  {
+   "id": "w07",
+   "kind": "workday",
+   "note_de": "Samstag 31.10.2026 → Montag, 02.11.2026.",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "expected": {
+    "workday": "2026-11-02"
+   }
+  },
+  {
+   "id": "n01",
+   "kind": "netting",
+   "note_de": "Amtliches Beispiel Mietspiegel 2026 (Nr. 10.4 B, Zeile 81): +3 Gruppen, −2 Gruppen → +20 % von 2,25 € = 0,45 € → 7,75 €/m².",
+   "input": {
+    "lower": 5.9,
+    "mean": 7.3,
+    "upper": 9.55,
+    "counts": {
+     "bad": {
+      "plus": 2,
+      "minus": 1
+     },
+     "kueche": {
+      "plus": 1,
+      "minus": 0
+     },
+     "wohnung": {
+      "plus": 3,
+      "minus": 1
+     },
+     "gebaeude": {
+      "plus": 0,
+      "minus": 2
+     },
+     "umfeld": {
+      "plus": 0,
+      "minus": 1
+     }
+    }
+   },
+   "expected": {
+    "groups": {
+     "bad": 1,
+     "kueche": 1,
+     "wohnung": 1,
+     "gebaeude": -1,
+     "umfeld": -1
+    },
+    "net_groups": 1,
+    "ovm_per_sqm": 7.75
+   }
+  },
+  {
+   "id": "n02",
+   "kind": "netting",
+   "note_de": "Amtliches Beispiel Mietspiegel 2024 (Nr. 10.4 B, Zeile 63): +20 % von 2,07 € = 0,414 €, kaufmännisch gerundet 0,41 € → 7,53 €/m².",
+   "input": {
+    "lower": 6.02,
+    "mean": 7.12,
+    "upper": 9.19,
+    "counts": {
+     "bad": {
+      "plus": 1,
+      "minus": 0
+     },
+     "kueche": {
+      "plus": 1,
+      "minus": 0
+     },
+     "wohnung": {
+      "plus": 1,
+      "minus": 0
+     },
+     "gebaeude": {
+      "plus": 0,
+      "minus": 1
+     },
+     "umfeld": {
+      "plus": 0,
+      "minus": 1
+     }
+    }
+   },
+   "expected": {
+    "groups": {
+     "bad": 1,
+     "kueche": 1,
+     "wohnung": 1,
+     "gebaeude": -1,
+     "umfeld": -1
+    },
+    "net_groups": 1,
+    "ovm_per_sqm": 7.53
+   }
+  },
+  {
+   "id": "n03",
+   "kind": "netting",
+   "note_de": "Gleichstand in einer Gruppe zählt nicht (einfache Überzahl): alle Gruppen 1:1 → Mittelwert.",
+   "input": {
+    "lower": 5.9,
+    "mean": 7.3,
+    "upper": 9.55,
+    "counts": {
+     "bad": {
+      "plus": 1,
+      "minus": 1
+     },
+     "kueche": {
+      "plus": 2,
+      "minus": 2
+     },
+     "wohnung": {
+      "plus": 1,
+      "minus": 1
+     },
+     "gebaeude": {
+      "plus": 0,
+      "minus": 0
+     },
+     "umfeld": {
+      "plus": 1,
+      "minus": 1
+     }
+    }
+   },
+   "expected": {
+    "groups": {
+     "bad": 0,
+     "kueche": 0,
+     "wohnung": 0,
+     "gebaeude": 0,
+     "umfeld": 0
+    },
+    "net_groups": 0,
+    "ovm_per_sqm": 7.3
+   }
+  },
+  {
+   "id": "n04",
+   "kind": "netting",
+   "note_de": "Zwei Minus-Gruppen netto: −40 % von 1,40 € = 0,56 € → 6,74 €/m².",
+   "input": {
+    "lower": 5.9,
+    "mean": 7.3,
+    "upper": 9.55,
+    "counts": {
+     "bad": {
+      "plus": 0,
+      "minus": 2
+     },
+     "kueche": {
+      "plus": 0,
+      "minus": 1
+     },
+     "wohnung": {
+      "plus": 1,
+      "minus": 1
+     },
+     "gebaeude": {
+      "plus": 0,
+      "minus": 0
+     },
+     "umfeld": {
+      "plus": 0,
+      "minus": 0
+     }
+    }
+   },
+   "expected": {
+    "groups": {
+     "bad": -1,
+     "kueche": -1,
+     "wohnung": 0,
+     "gebaeude": 0,
+     "umfeld": 0
+    },
+    "net_groups": -2,
+    "ovm_per_sqm": 6.74
+   }
+  },
+  {
+   "id": "n05",
+   "kind": "netting",
+   "note_de": "Alle fünf Gruppen Plus → oberer Spannenwert.",
+   "input": {
+    "lower": 5.9,
+    "mean": 7.3,
+    "upper": 9.55,
+    "counts": {
+     "bad": {
+      "plus": 1,
+      "minus": 0
+     },
+     "kueche": {
+      "plus": 1,
+      "minus": 0
+     },
+     "wohnung": {
+      "plus": 1,
+      "minus": 0
+     },
+     "gebaeude": {
+      "plus": 1,
+      "minus": 0
+     },
+     "umfeld": {
+      "plus": 1,
+      "minus": 0
+     }
+    }
+   },
+   "expected": {
+    "groups": {
+     "bad": 1,
+     "kueche": 1,
+     "wohnung": 1,
+     "gebaeude": 1,
+     "umfeld": 1
+    },
+    "net_groups": 5,
+    "ovm_per_sqm": 9.55
+   }
+  },
+  {
+   "id": "n06",
+   "kind": "netting",
+   "note_de": "Alle fünf Gruppen Minus → unterer Spannenwert.",
+   "input": {
+    "lower": 5.9,
+    "mean": 7.3,
+    "upper": 9.55,
+    "counts": {
+     "bad": {
+      "plus": 0,
+      "minus": 1
+     },
+     "kueche": {
+      "plus": 0,
+      "minus": 1
+     },
+     "wohnung": {
+      "plus": 0,
+      "minus": 1
+     },
+     "gebaeude": {
+      "plus": 0,
+      "minus": 1
+     },
+     "umfeld": {
+      "plus": 0,
+      "minus": 1
+     }
+    }
+   },
+   "expected": {
+    "groups": {
+     "bad": -1,
+     "kueche": -1,
+     "wohnung": -1,
+     "gebaeude": -1,
+     "umfeld": -1
+    },
+    "net_groups": -5,
+    "ovm_per_sqm": 5.9
+   }
+  }
+ ],
+ "scope": {
+  "applies_only_to": "Zustimmungsverlangen nach § 558 BGB",
+  "not_for": [
+   "§ 559 Modernisierung",
+   "§ 560 Betriebskosten",
+   "§ 557a Staffelmiete",
+   "§ 557b Indexmiete",
+   "preisgebundener/geförderter Wohnraum (§ 558 Abs. 2 S. 2 BGB)",
+   "§ 549 Abs. 2 Nr. 1 vorübergehender Gebrauch",
+   "§ 549 Abs. 2 Nr. 2 Teil der vom Vermieter bewohnten Wohnung",
+   "§ 549 Abs. 3 Studenten-/Jugendwohnheim"
+  ],
+  "mietspiegel_not_for": [
+   "selbstgenutztes Wohneigentum",
+   "Ein-/Zweifamilienhäuser, Reihenhäuser",
+   "Neubau bezugsfertig ab 01.01.2025 (MS 2026) bzw. ab 01.01.2023 (MS 2024)",
+   "WC außerhalb der Wohnung",
+   "preisgebundene Wohnungen"
+  ],
+  "sources": [
+   "bgb_558",
+   "bgb_549",
+   "ms2026",
+   "ms2024"
+  ]
+ },
+ "holidays_berlin": {
+  "fixed": [
+   "01-01",
+   "05-01",
+   "10-03",
+   "12-25",
+   "12-26"
+  ],
+  "fixed_since": {
+   "03-08": "2019-02-07"
+  },
+  "easter_offsets": [
+   -2,
+   1,
+   39,
+   50
+  ],
+  "easter_offsets_note_de": "Karfreitag (−2), Ostermontag (+1), Himmelfahrt (+39), Pfingstmontag (+50), gerechnet vom Ostersonntag (gregorianisch).",
+  "one_off": [
+   "2017-10-31",
+   "2020-05-08",
+   "2025-05-08",
+   "2028-06-17"
+  ],
+  "not_holidays_note_de": "Kein allgemeiner Feiertag in Berlin: 24.12., 31.12., 8. Mai (außer 2020 und 2025), 17. Juni (außer 2028), Buß- und Bettag, Reformationstag (außer 2017).",
+  "source": "feiertg_be",
+  "valid_note_de": "Liste nach § 1 FeiertG BE in den Fassungen ab 01.01.1995; Frauentag gilt seit Inkrafttreten der Fassung vom 30.01.2019 am 07.02.2019. Neue Gesetzesänderungen nach dem 18.10.2026 sind nicht erfasst."
+ },
+ "shift_193": {
+  "workday_rule_de": "Fällt der letzte Tag auf einen Samstag, Sonntag oder einen allgemeinen Feiertag in Berlin (holidays_berlin), tritt der nächste Werktag an seine Stelle (§ 193 BGB; für Fristen im Prozess gleich § 222 Abs. 2 ZPO).",
+  "modes": {
+   "apply": "Ausgabe <key> = verschobener Tag, <key>_unshifted = Tag vor der Verschiebung.",
+   "none": "keine Verschiebung"
+  },
+  "sources": [
+   "bgb_193",
+   "bgb_186",
+   "zpo_222",
+   "feiertg_be"
+  ]
+ },
+ "tests_note_de": "kind fehlt = check(); kind 'workday' = workday(input.date) → expected.workday; kind 'netting' = Saldierung."
+}

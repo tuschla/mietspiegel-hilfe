@@ -1,0 +1,4325 @@
+{
+ "year": 2026,
+ "title_de": "Berliner Mietspiegel 2026",
+ "valid_from": "2026-05-28",
+ "stichtag": "2025-09-01",
+ "source_url": "https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf",
+ "source_sha256": "ff6f45de31a48067f931829b80d457b7ef62dfe414fe67f145e53242997d2556",
+ "source_pages_de": "Tabellen Nr. 9.1–9.3: PDF-Seiten 17–21 (Druckseiten 15–19); Nr. 10: PDF-Seiten 22–23; Orientierungshilfe Nr. 11: PDF-Seiten 24–26 (Druckseiten 22–24)",
+ "dims": {
+  "baualter": [
+   {
+    "id": "bis1918",
+    "label_de": "bis 1918"
+   },
+   {
+    "id": "1919_1949",
+    "label_de": "1919 bis 1949"
+   },
+   {
+    "id": "1950_1964",
+    "label_de": "1950 bis 1964"
+   },
+   {
+    "id": "1965_1972",
+    "label_de": "1965 bis 1972"
+   },
+   {
+    "id": "1973_1985w",
+    "label_de": "1973 bis 1985 West",
+    "region": "west"
+   },
+   {
+    "id": "1986_1990w",
+    "label_de": "1986 bis 1990 West",
+    "region": "west"
+   },
+   {
+    "id": "1973_1990o",
+    "label_de": "1973 bis 1990 Ost",
+    "region": "ost",
+    "footnote_de": "Mit Wendewohnungen. Die Zuordnung West-Staakens basiert auf dem Gebietsstand 02.10.1990. Die Zuordnung der Bezirke basiert auf dem Gebietsstand 31.12.2000 vor der Gebietsreform (siehe Erläuterung unter Nr. 3)."
+   },
+   {
+    "id": "1991_2001",
+    "label_de": "1991 bis 2001",
+    "footnote_de": "Ohne Wendewohnungen"
+   },
+   {
+    "id": "2002_2009",
+    "label_de": "2002 bis 2009"
+   },
+   {
+    "id": "2010_2015",
+    "label_de": "2010 bis 2015"
+   },
+   {
+    "id": "2016_2019",
+    "label_de": "2016 bis 2019"
+   },
+   {
+    "id": "2020_2024",
+    "label_de": "2020 bis 2024"
+   }
+  ],
+  "ausstattung": [
+   {
+    "id": "voll",
+    "label_de": "voll ausgestattet: mit Sammelheizung und Bad und WC in der Wohnung (IWC)"
+   }
+  ],
+  "flaeche": [
+   {
+    "id": "bis35",
+    "min": 0,
+    "max": 35,
+    "label_de": "bis unter 35 m²"
+   },
+   {
+    "id": "bis40",
+    "min": 0,
+    "max": 40,
+    "label_de": "bis unter 40 m²"
+   },
+   {
+    "id": "bis50",
+    "min": 0,
+    "max": 50,
+    "label_de": "bis unter 50 m²"
+   },
+   {
+    "id": "bis55",
+    "min": 0,
+    "max": 55,
+    "label_de": "bis unter 55 m²"
+   },
+   {
+    "id": "bis60",
+    "min": 0,
+    "max": 60,
+    "label_de": "bis unter 60 m²"
+   },
+   {
+    "id": "bis70",
+    "min": 0,
+    "max": 70,
+    "label_de": "bis unter 70 m²"
+   },
+   {
+    "id": "bis75",
+    "min": 0,
+    "max": 75,
+    "label_de": "bis unter 75 m²"
+   },
+   {
+    "id": "alle",
+    "min": 0,
+    "max": null,
+    "label_de": "alle Wohnflächen"
+   },
+   {
+    "id": "35_40",
+    "min": 35,
+    "max": 40,
+    "label_de": "35 bis unter 40 m²"
+   },
+   {
+    "id": "40_45",
+    "min": 40,
+    "max": 45,
+    "label_de": "40 bis unter 45 m²"
+   },
+   {
+    "id": "40_50",
+    "min": 40,
+    "max": 50,
+    "label_de": "40 bis unter 50 m²"
+   },
+   {
+    "id": "40_55",
+    "min": 40,
+    "max": 55,
+    "label_de": "40 bis unter 55 m²"
+   },
+   {
+    "id": "40_60",
+    "min": 40,
+    "max": 60,
+    "label_de": "40 bis unter 60 m²"
+   },
+   {
+    "id": "40_65",
+    "min": 40,
+    "max": 65,
+    "label_de": "40 bis unter 65 m²"
+   },
+   {
+    "id": "45_50",
+    "min": 45,
+    "max": 50,
+    "label_de": "45 bis unter 50 m²"
+   },
+   {
+    "id": "45_60",
+    "min": 45,
+    "max": 60,
+    "label_de": "45 bis unter 60 m²"
+   },
+   {
+    "id": "45_65",
+    "min": 45,
+    "max": 65,
+    "label_de": "45 bis unter 65 m²"
+   },
+   {
+    "id": "45_70",
+    "min": 45,
+    "max": 70,
+    "label_de": "45 bis unter 70 m²"
+   },
+   {
+    "id": "45_90",
+    "min": 45,
+    "max": 90,
+    "label_de": "45 bis unter 90 m²"
+   },
+   {
+    "id": "ab45",
+    "min": 45,
+    "max": null,
+    "label_de": "ab 45 m²"
+   },
+   {
+    "id": "50_55",
+    "min": 50,
+    "max": 55,
+    "label_de": "50 bis unter 55 m²"
+   },
+   {
+    "id": "50_60",
+    "min": 50,
+    "max": 60,
+    "label_de": "50 bis unter 60 m²"
+   },
+   {
+    "id": "50_65",
+    "min": 50,
+    "max": 65,
+    "label_de": "50 bis unter 65 m²"
+   },
+   {
+    "id": "50_85",
+    "min": 50,
+    "max": 85,
+    "label_de": "50 bis unter 85 m²"
+   },
+   {
+    "id": "55_60",
+    "min": 55,
+    "max": 60,
+    "label_de": "55 bis unter 60 m²"
+   },
+   {
+    "id": "60_65",
+    "min": 60,
+    "max": 65,
+    "label_de": "60 bis unter 65 m²"
+   },
+   {
+    "id": "60_70",
+    "min": 60,
+    "max": 70,
+    "label_de": "60 bis unter 70 m²"
+   },
+   {
+    "id": "60_80",
+    "min": 60,
+    "max": 80,
+    "label_de": "60 bis unter 80 m²"
+   },
+   {
+    "id": "60_85",
+    "min": 60,
+    "max": 85,
+    "label_de": "60 bis unter 85 m²"
+   },
+   {
+    "id": "60_100",
+    "min": 60,
+    "max": 100,
+    "label_de": "60 bis unter 100 m²"
+   },
+   {
+    "id": "ab60",
+    "min": 60,
+    "max": null,
+    "label_de": "ab 60 m²"
+   },
+   {
+    "id": "65_70",
+    "min": 65,
+    "max": 70,
+    "label_de": "65 bis unter 70 m²"
+   },
+   {
+    "id": "65_75",
+    "min": 65,
+    "max": 75,
+    "label_de": "65 bis unter 75 m²"
+   },
+   {
+    "id": "65_95",
+    "min": 65,
+    "max": 95,
+    "label_de": "65 bis unter 95 m²"
+   },
+   {
+    "id": "ab65",
+    "min": 65,
+    "max": null,
+    "label_de": "ab 65 m²"
+   },
+   {
+    "id": "70_75",
+    "min": 70,
+    "max": 75,
+    "label_de": "70 bis unter 75 m²"
+   },
+   {
+    "id": "70_80",
+    "min": 70,
+    "max": 80,
+    "label_de": "70 bis unter 80 m²"
+   },
+   {
+    "id": "70_85",
+    "min": 70,
+    "max": 85,
+    "label_de": "70 bis unter 85 m²"
+   },
+   {
+    "id": "70_90",
+    "min": 70,
+    "max": 90,
+    "label_de": "70 bis unter 90 m²"
+   },
+   {
+    "id": "70_95",
+    "min": 70,
+    "max": 95,
+    "label_de": "70 bis unter 95 m²"
+   },
+   {
+    "id": "70_105",
+    "min": 70,
+    "max": 105,
+    "label_de": "70 bis unter 105 m²"
+   },
+   {
+    "id": "ab70",
+    "min": 70,
+    "max": null,
+    "label_de": "ab 70 m²"
+   },
+   {
+    "id": "75_85",
+    "min": 75,
+    "max": 85,
+    "label_de": "75 bis unter 85 m²"
+   },
+   {
+    "id": "75_105",
+    "min": 75,
+    "max": 105,
+    "label_de": "75 bis unter 105 m²"
+   },
+   {
+    "id": "80_90",
+    "min": 80,
+    "max": 90,
+    "label_de": "80 bis unter 90 m²"
+   },
+   {
+    "id": "ab80",
+    "min": 80,
+    "max": null,
+    "label_de": "ab 80 m²"
+   },
+   {
+    "id": "85_95",
+    "min": 85,
+    "max": 95,
+    "label_de": "85 bis unter 95 m²"
+   },
+   {
+    "id": "85_110",
+    "min": 85,
+    "max": 110,
+    "label_de": "85 bis unter 110 m²"
+   },
+   {
+    "id": "85_120",
+    "min": 85,
+    "max": 120,
+    "label_de": "85 bis unter 120 m²"
+   },
+   {
+    "id": "ab85",
+    "min": 85,
+    "max": null,
+    "label_de": "ab 85 m²"
+   },
+   {
+    "id": "90_100",
+    "min": 90,
+    "max": 100,
+    "label_de": "90 bis unter 100 m²"
+   },
+   {
+    "id": "90_110",
+    "min": 90,
+    "max": 110,
+    "label_de": "90 bis unter 110 m²"
+   },
+   {
+    "id": "ab90",
+    "min": 90,
+    "max": null,
+    "label_de": "ab 90 m²"
+   },
+   {
+    "id": "ab95",
+    "min": 95,
+    "max": null,
+    "label_de": "ab 95 m²"
+   },
+   {
+    "id": "100_105",
+    "min": 100,
+    "max": 105,
+    "label_de": "100 bis unter 105 m²"
+   },
+   {
+    "id": "ab100",
+    "min": 100,
+    "max": null,
+    "label_de": "ab 100 m²"
+   },
+   {
+    "id": "105_120",
+    "min": 105,
+    "max": 120,
+    "label_de": "105 bis unter 120 m²"
+   },
+   {
+    "id": "105_125",
+    "min": 105,
+    "max": 125,
+    "label_de": "105 bis unter 125 m²"
+   },
+   {
+    "id": "ab105",
+    "min": 105,
+    "max": null,
+    "label_de": "ab 105 m²"
+   },
+   {
+    "id": "ab110",
+    "min": 110,
+    "max": null,
+    "label_de": "ab 110 m²"
+   },
+   {
+    "id": "ab120",
+    "min": 120,
+    "max": null,
+    "label_de": "ab 120 m²"
+   },
+   {
+    "id": "ab125",
+    "min": 125,
+    "max": null,
+    "label_de": "ab 125 m²"
+   }
+  ],
+  "wohnlage": [
+   {
+    "id": "einfach",
+    "label_de": "einfache Wohnlage"
+   },
+   {
+    "id": "mittel",
+    "label_de": "mittlere Wohnlage"
+   },
+   {
+    "id": "gut",
+    "label_de": "gute Wohnlage"
+   }
+  ]
+ },
+ "table": [
+  {
+   "row": 1,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.53,
+     "mean": 9.58,
+     "upper": 13.43,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 2,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 7.06,
+     "mean": 10.04,
+     "upper": 14.21,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 3,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "40_45",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 7.01,
+     "mean": 9.27,
+     "upper": 12.25,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 4,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "45_50",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.8,
+     "mean": 8.01,
+     "upper": 10.75,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 5,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "50_55",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.13,
+     "mean": 8.01,
+     "upper": 11.33,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 6,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.45,
+     "mean": 8.42,
+     "upper": 11.93,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 7,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "60_65",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.91,
+     "mean": 8.27,
+     "upper": 11.85,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 8,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "65_70",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.91,
+     "mean": 8.14,
+     "upper": 12.21,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 9,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "70_75",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.24,
+     "mean": 8.46,
+     "upper": 11.65,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 10,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "75_85",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.91,
+     "mean": 7.56,
+     "upper": 10.76,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 11,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "85_120",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.52,
+     "mean": 7.19,
+     "upper": 10.99,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 12,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "ab120",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.38,
+     "mean": 6.48,
+     "upper": 11.24,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 13,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "bis40",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 7.25,
+     "mean": 8.58,
+     "upper": 10.43,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 14,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "40_50",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.57,
+     "mean": 7.82,
+     "upper": 10.01,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 15,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "50_60",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.29,
+     "mean": 7.6,
+     "upper": 9.63,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 16,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "ab60",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.78,
+     "mean": 6.99,
+     "upper": 9.12,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 17,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.64,
+     "mean": 8.07,
+     "upper": 10.23,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 18,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.61,
+     "mean": 7.72,
+     "upper": 9.97,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 19,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "40_55",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.23,
+     "mean": 7.32,
+     "upper": 9.53,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 20,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.01,
+     "mean": 6.99,
+     "upper": 8.89,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 21,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "ab60",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.77,
+     "mean": 6.63,
+     "upper": 8.0,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 22,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.64,
+     "mean": 8.07,
+     "upper": 10.23,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 23,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.61,
+     "mean": 7.72,
+     "upper": 9.97,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 24,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "40_55",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.23,
+     "mean": 7.32,
+     "upper": 9.53,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 25,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.01,
+     "mean": 6.99,
+     "upper": 8.89,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 26,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "60_85",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.54,
+     "mean": 6.35,
+     "upper": 7.55,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 27,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "ab85",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.45,
+     "mean": 6.05,
+     "upper": 6.97,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 28,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.64,
+     "mean": 8.07,
+     "upper": 10.23,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 29,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.61,
+     "mean": 7.72,
+     "upper": 9.97,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 30,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "40_55",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.23,
+     "mean": 7.32,
+     "upper": 9.53,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 31,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.01,
+     "mean": 6.99,
+     "upper": 8.89,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 32,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "60_70",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.19,
+     "mean": 7.03,
+     "upper": 9.3,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 33,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "70_90",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.18,
+     "mean": 7.26,
+     "upper": 8.43,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 34,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "ab90",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.72,
+     "mean": 6.86,
+     "upper": 8.76,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 35,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "bis55",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 7.05,
+     "mean": 9.07,
+     "upper": 10.93,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 36,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 7.37,
+     "mean": 9.36,
+     "upper": 11.36,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 37,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "60_65",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.69,
+     "mean": 9.16,
+     "upper": 11.94,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 38,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "65_70",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.62,
+     "mean": 8.9,
+     "upper": 10.93,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 39,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "70_75",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.59,
+     "mean": 8.92,
+     "upper": 10.19,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 40,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "75_85",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 7.1,
+     "mean": 8.63,
+     "upper": 10.04,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 41,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "85_95",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 5.72,
+     "mean": 8.47,
+     "upper": 9.86,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 42,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "ab95",
+   "page_pdf": 17,
+   "cells": {
+    "einfach": {
+     "lower": 6.6,
+     "mean": 8.75,
+     "upper": 10.81,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 43,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "bis40",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 6.82,
+     "mean": 7.78,
+     "upper": 9.01,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 44,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "40_60",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 6.07,
+     "mean": 6.67,
+     "upper": 7.6,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 45,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "60_100",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 5.2,
+     "mean": 5.77,
+     "upper": 6.36,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 46,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "ab100",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 5.11,
+     "mean": 5.6,
+     "upper": 6.0,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 47,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "bis55",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 7.05,
+     "mean": 9.07,
+     "upper": 10.93,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 48,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 7.37,
+     "mean": 9.36,
+     "upper": 11.36,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 49,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "60_65",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 6.69,
+     "mean": 9.16,
+     "upper": 11.94,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 50,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "65_70",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 5.62,
+     "mean": 8.9,
+     "upper": 10.93,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 51,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "70_75",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 6.59,
+     "mean": 8.92,
+     "upper": 10.19,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 52,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "75_85",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 7.1,
+     "mean": 8.63,
+     "upper": 10.04,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 53,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "85_95",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 5.72,
+     "mean": 8.47,
+     "upper": 9.86,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 54,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "ab95",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 6.6,
+     "mean": 8.75,
+     "upper": 10.81,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 55,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "bis55",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 7.05,
+     "mean": 9.07,
+     "upper": 10.93,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 56,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 7.37,
+     "mean": 9.36,
+     "upper": 11.36,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 57,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "60_65",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 6.69,
+     "mean": 9.16,
+     "upper": 11.94,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 58,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "65_70",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 5.62,
+     "mean": 8.9,
+     "upper": 10.93,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 59,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "70_75",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 6.59,
+     "mean": 8.92,
+     "upper": 10.19,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 60,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "75_85",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 7.1,
+     "mean": 8.63,
+     "upper": 10.04,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 61,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "85_95",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 5.72,
+     "mean": 8.47,
+     "upper": 9.86,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 62,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "ab95",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 6.6,
+     "mean": 8.75,
+     "upper": 10.81,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 63,
+   "baualter": "2010_2015",
+   "ausstattung": "voll",
+   "flaeche": "alle",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 7.5,
+     "mean": 10.38,
+     "upper": 15.91,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 64,
+   "baualter": "2016_2019",
+   "ausstattung": "voll",
+   "flaeche": "alle",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 9.79,
+     "mean": 12.77,
+     "upper": 18.19,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 65,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "bis60",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 9.99,
+     "mean": 15.25,
+     "upper": 22.7,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 66,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "60_80",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 9.37,
+     "mean": 15.17,
+     "upper": 18.39,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 67,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "ab80",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": {
+     "lower": 9.11,
+     "mean": 14.11,
+     "upper": 19.28,
+     "flags": []
+    },
+    "mittel": null,
+    "gut": null
+   }
+  },
+  {
+   "row": 68,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.07,
+     "mean": 11.05,
+     "upper": 14.35,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 69,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.44,
+     "mean": 11.06,
+     "upper": 15.13,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 70,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "40_65",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.46,
+     "mean": 8.49,
+     "upper": 12.59,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 71,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "65_70",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.45,
+     "mean": 9.0,
+     "upper": 11.7,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 72,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "70_80",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.09,
+     "mean": 7.9,
+     "upper": 11.7,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 73,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "80_90",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.66,
+     "mean": 8.27,
+     "upper": 11.73,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 74,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "90_100",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 5.95,
+     "mean": 7.65,
+     "upper": 11.52,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 75,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "100_105",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 5.95,
+     "mean": 7.87,
+     "upper": 12.63,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 76,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "105_120",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 5.48,
+     "mean": 7.29,
+     "upper": 11.43,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 77,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "ab120",
+   "page_pdf": 18,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 5.75,
+     "mean": 7.56,
+     "upper": 11.21,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 78,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "bis40",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.74,
+     "mean": 8.83,
+     "upper": 10.51,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 79,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "40_45",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.03,
+     "mean": 8.28,
+     "upper": 10.38,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 80,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "45_60",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.32,
+     "mean": 7.73,
+     "upper": 9.8,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 81,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "ab60",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 5.9,
+     "mean": 7.3,
+     "upper": 9.55,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 82,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.55,
+     "mean": 8.54,
+     "upper": 10.62,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 83,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.6,
+     "mean": 7.78,
+     "upper": 10.49,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 84,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "40_45",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.7,
+     "mean": 7.72,
+     "upper": 10.01,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 85,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "ab45",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 5.9,
+     "mean": 7.08,
+     "upper": 9.25,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 86,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.8,
+     "mean": 8.1,
+     "upper": 13.01,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 87,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.6,
+     "mean": 7.78,
+     "upper": 10.49,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 88,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "40_45",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.7,
+     "mean": 7.72,
+     "upper": 10.01,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 89,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "ab45",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 5.77,
+     "mean": 6.65,
+     "upper": 8.74,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 90,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.8,
+     "mean": 8.1,
+     "upper": 13.01,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 91,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.6,
+     "mean": 7.78,
+     "upper": 10.49,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 92,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "40_45",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.7,
+     "mean": 7.72,
+     "upper": 10.01,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 93,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "45_70",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.18,
+     "mean": 8.21,
+     "upper": 9.76,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 94,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "70_85",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.65,
+     "mean": 8.09,
+     "upper": 10.3,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 95,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "ab85",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.79,
+     "mean": 8.35,
+     "upper": 10.7,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 96,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "bis50",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.04,
+     "mean": 10.03,
+     "upper": 12.25,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 97,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "50_55",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.98,
+     "mean": 9.61,
+     "upper": 10.76,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 98,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.87,
+     "mean": 9.97,
+     "upper": 11.49,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 99,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "60_65",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.93,
+     "mean": 9.56,
+     "upper": 12.17,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 100,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "65_70",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.79,
+     "mean": 9.8,
+     "upper": 11.36,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 101,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "70_105",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.18,
+     "mean": 9.22,
+     "upper": 11.31,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 102,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "ab105",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.87,
+     "mean": 9.8,
+     "upper": 11.58,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 103,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "bis40",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.63,
+     "mean": 7.64,
+     "upper": 9.84,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 104,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "40_60",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 5.92,
+     "mean": 6.51,
+     "upper": 7.71,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 105,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "ab60",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 5.3,
+     "mean": 5.89,
+     "upper": 6.63,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 106,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "bis50",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.04,
+     "mean": 10.03,
+     "upper": 12.25,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 107,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "50_55",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.98,
+     "mean": 9.61,
+     "upper": 10.76,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 108,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.87,
+     "mean": 9.97,
+     "upper": 11.49,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 109,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "60_65",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.93,
+     "mean": 9.56,
+     "upper": 12.17,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 110,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "65_70",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.79,
+     "mean": 9.8,
+     "upper": 11.36,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 111,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "70_75",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.05,
+     "mean": 9.54,
+     "upper": 10.7,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 112,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "75_105",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.91,
+     "mean": 9.38,
+     "upper": 10.92,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 113,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "ab105",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.87,
+     "mean": 9.8,
+     "upper": 11.58,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 114,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "bis50",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.04,
+     "mean": 10.03,
+     "upper": 12.25,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 115,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "50_55",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.98,
+     "mean": 9.61,
+     "upper": 10.76,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 116,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "55_60",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.87,
+     "mean": 9.97,
+     "upper": 11.49,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 117,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "60_65",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.93,
+     "mean": 9.56,
+     "upper": 12.17,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 118,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "65_70",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 7.79,
+     "mean": 9.8,
+     "upper": 11.36,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 119,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "ab70",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 6.89,
+     "mean": 10.61,
+     "upper": 15.04,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 120,
+   "baualter": "2010_2015",
+   "ausstattung": "voll",
+   "flaeche": "bis70",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 9.19,
+     "mean": 12.6,
+     "upper": 17.6,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 121,
+   "baualter": "2010_2015",
+   "ausstattung": "voll",
+   "flaeche": "70_95",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 8.78,
+     "mean": 11.39,
+     "upper": 15.64,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 122,
+   "baualter": "2010_2015",
+   "ausstattung": "voll",
+   "flaeche": "ab95",
+   "page_pdf": 19,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 9.88,
+     "mean": 12.54,
+     "upper": 18.79,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 123,
+   "baualter": "2016_2019",
+   "ausstattung": "voll",
+   "flaeche": "bis70",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 10.08,
+     "mean": 13.48,
+     "upper": 18.64,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 124,
+   "baualter": "2016_2019",
+   "ausstattung": "voll",
+   "flaeche": "70_95",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 10.24,
+     "mean": 14.42,
+     "upper": 17.68,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 125,
+   "baualter": "2016_2019",
+   "ausstattung": "voll",
+   "flaeche": "ab95",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 9.24,
+     "mean": 13.18,
+     "upper": 20.88,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 126,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "bis50",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 12.52,
+     "mean": 19.04,
+     "upper": 26.81,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 127,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "50_65",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 10.78,
+     "mean": 19.92,
+     "upper": 24.04,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 128,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "65_95",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 12.48,
+     "mean": 17.33,
+     "upper": 22.4,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 129,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "ab95",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": {
+     "lower": 11.79,
+     "mean": 15.15,
+     "upper": 21.02,
+     "flags": []
+    },
+    "gut": null
+   }
+  },
+  {
+   "row": 130,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.62,
+     "mean": 11.75,
+     "upper": 16.43,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 131,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.57,
+     "mean": 11.67,
+     "upper": 14.92,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 132,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "40_45",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.2,
+     "mean": 9.54,
+     "upper": 14.4,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 133,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "45_50",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.7,
+     "mean": 9.64,
+     "upper": 13.32,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 134,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "50_60",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.89,
+     "mean": 9.03,
+     "upper": 13.16,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 135,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "60_70",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.09,
+     "mean": 9.46,
+     "upper": 13.54,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 136,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "70_80",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.25,
+     "mean": 8.97,
+     "upper": 13.66,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 137,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "80_90",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.75,
+     "mean": 8.8,
+     "upper": 12.17,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 138,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "90_110",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.6,
+     "mean": 8.45,
+     "upper": 12.99,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 139,
+   "baualter": "bis1918",
+   "ausstattung": "voll",
+   "flaeche": "ab110",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.3,
+     "mean": 8.84,
+     "upper": 13.24,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 140,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.19,
+     "mean": 9.47,
+     "upper": 14.79,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 141,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.4,
+     "mean": 9.07,
+     "upper": 11.42,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 142,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "40_45",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.8,
+     "mean": 8.54,
+     "upper": 11.1,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 143,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "45_65",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.84,
+     "mean": 8.82,
+     "upper": 11.74,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 144,
+   "baualter": "1919_1949",
+   "ausstattung": "voll",
+   "flaeche": "ab65",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.37,
+     "mean": 8.11,
+     "upper": 11.93,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 145,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.19,
+     "mean": 9.47,
+     "upper": 14.79,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 146,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.4,
+     "mean": 9.07,
+     "upper": 11.42,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 147,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "40_45",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.8,
+     "mean": 8.54,
+     "upper": 11.1,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 148,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "45_90",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.07,
+     "mean": 7.56,
+     "upper": 10.92,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 149,
+   "baualter": "1950_1964",
+   "ausstattung": "voll",
+   "flaeche": "ab90",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.49,
+     "mean": 10.0,
+     "upper": 12.78,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 150,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "bis35",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.19,
+     "mean": 9.47,
+     "upper": 14.79,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 151,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "35_40",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.4,
+     "mean": 9.07,
+     "upper": 11.42,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 152,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "40_45",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.8,
+     "mean": 8.54,
+     "upper": 11.1,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 153,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "45_90",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.07,
+     "mean": 7.56,
+     "upper": 10.92,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 154,
+   "baualter": "1965_1972",
+   "ausstattung": "voll",
+   "flaeche": "ab90",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.49,
+     "mean": 10.0,
+     "upper": 12.78,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 155,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "bis50",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.96,
+     "mean": 9.06,
+     "upper": 11.98,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 156,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "50_85",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.12,
+     "mean": 9.42,
+     "upper": 12.41,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 157,
+   "baualter": "1973_1985w",
+   "ausstattung": "voll",
+   "flaeche": "ab85",
+   "page_pdf": 20,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.98,
+     "mean": 10.39,
+     "upper": 13.8,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 158,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "bis50",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.33,
+     "mean": 11.13,
+     "upper": 14.96,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 159,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "50_60",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.26,
+     "mean": 10.34,
+     "upper": 14.45,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 160,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "60_65",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.74,
+     "mean": 10.57,
+     "upper": 12.75,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 161,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "65_75",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.52,
+     "mean": 11.06,
+     "upper": 13.21,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 162,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "75_105",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.4,
+     "mean": 10.63,
+     "upper": 13.96,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 163,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "105_125",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.82,
+     "mean": 12.15,
+     "upper": 16.1,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 164,
+   "baualter": "1986_1990w",
+   "ausstattung": "voll",
+   "flaeche": "ab125",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.07,
+     "mean": 12.9,
+     "upper": 16.77,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 165,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "bis40",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.03,
+     "mean": 7.79,
+     "upper": 9.2,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 166,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "40_60",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 6.3,
+     "mean": 7.07,
+     "upper": 9.28,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 167,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "60_85",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 5.51,
+     "mean": 6.18,
+     "upper": 7.23,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 168,
+   "baualter": "1973_1990o",
+   "ausstattung": "voll",
+   "flaeche": "ab85",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 5.26,
+     "mean": 6.31,
+     "upper": 9.65,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 169,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "bis50",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.33,
+     "mean": 11.13,
+     "upper": 14.96,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 170,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "50_60",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.26,
+     "mean": 10.34,
+     "upper": 14.45,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 171,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "60_65",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.74,
+     "mean": 10.57,
+     "upper": 12.75,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 172,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "65_75",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.52,
+     "mean": 11.06,
+     "upper": 13.21,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 173,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "75_105",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.4,
+     "mean": 10.63,
+     "upper": 13.96,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 174,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "105_125",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.82,
+     "mean": 12.15,
+     "upper": 16.1,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 175,
+   "baualter": "1991_2001",
+   "ausstattung": "voll",
+   "flaeche": "ab125",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.07,
+     "mean": 12.9,
+     "upper": 16.77,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 176,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "bis75",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.62,
+     "mean": 10.91,
+     "upper": 13.92,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 177,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "75_105",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 7.88,
+     "mean": 11.85,
+     "upper": 16.83,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 178,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "105_125",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.82,
+     "mean": 12.15,
+     "upper": 16.1,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 179,
+   "baualter": "2002_2009",
+   "ausstattung": "voll",
+   "flaeche": "ab125",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.07,
+     "mean": 12.9,
+     "upper": 16.77,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 180,
+   "baualter": "2010_2015",
+   "ausstattung": "voll",
+   "flaeche": "bis60",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.99,
+     "mean": 15.34,
+     "upper": 19.32,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 181,
+   "baualter": "2010_2015",
+   "ausstattung": "voll",
+   "flaeche": "60_85",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 9.99,
+     "mean": 15.37,
+     "upper": 17.65,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 182,
+   "baualter": "2010_2015",
+   "ausstattung": "voll",
+   "flaeche": "85_110",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 8.89,
+     "mean": 13.69,
+     "upper": 19.16,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 183,
+   "baualter": "2010_2015",
+   "ausstattung": "voll",
+   "flaeche": "ab110",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 11.26,
+     "mean": 15.15,
+     "upper": 17.82,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 184,
+   "baualter": "2016_2019",
+   "ausstattung": "voll",
+   "flaeche": "bis60",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 12.06,
+     "mean": 17.23,
+     "upper": 26.05,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 185,
+   "baualter": "2016_2019",
+   "ausstattung": "voll",
+   "flaeche": "60_85",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 12.45,
+     "mean": 18.94,
+     "upper": 23.43,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 186,
+   "baualter": "2016_2019",
+   "ausstattung": "voll",
+   "flaeche": "ab85",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 10.91,
+     "mean": 17.47,
+     "upper": 21.0,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 187,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "bis60",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 11.31,
+     "mean": 22.59,
+     "upper": 27.84,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 188,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "60_85",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 11.25,
+     "mean": 19.54,
+     "upper": 26.69,
+     "flags": []
+    }
+   }
+  },
+  {
+   "row": 189,
+   "baualter": "2020_2024",
+   "ausstattung": "voll",
+   "flaeche": "ab85",
+   "page_pdf": 21,
+   "cells": {
+    "einfach": null,
+    "mittel": null,
+    "gut": {
+     "lower": 10.28,
+     "mean": 18.42,
+     "upper": 23.49,
+     "flags": []
+    }
+   }
+  }
+ ],
+ "abschlag": {
+  "eur_per_sqm": 0.33,
+  "baualter": [
+   "bis1918",
+   "1919_1949"
+  ],
+  "qualified": false,
+  "text_de": "Für Wohnungen bezugsfertig bis 1949 ohne Sammelheizung und/oder ohne Bad, mit WC in der Wohnung (IWC) liegt die ortsübliche Vergleichsmiete je Quadratmeter monatlich 0,33 Euro unter den Beträgen der jeweils zutreffenden Zeile (nach Wohnlage, Bezugsfertigkeit und Wohnfläche).\n\nDiese Angabe hat wegen der geringen Zahl an Mietwerten nur bedingte Aussagekraft. Dieser Abschlag kann daher nicht dem Anwendungsbereich des qualifizierten Mietspiegels zugeordnet werden.",
+  "source_de": "Nr. 9.4, PDF-Seite 21 (Druckseite 19)"
+ },
+ "groups": [
+  {
+   "id": "bad",
+   "label_de": "Merkmalgruppe 1: Bad/WC/Gäste-WC",
+   "features": [
+    {
+     "id": "bad-m01",
+     "sign": -1,
+     "text_de": "Kein Handwaschbecken in Bad oder WC oder im Bad nur ein kleines Handwaschbecken (Außenmaß 50 cm breit oder weniger) [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-m02",
+     "sign": -1,
+     "text_de": "WC ohne Lüftungsmöglichkeit und Entlüftung [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-m03",
+     "sign": -1,
+     "text_de": "Dielenfußboden im Bad (wenn nicht feuchtraumgeeignet) [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-m04",
+     "sign": -1,
+     "text_de": "Bad nicht beheizbar oder Holz-/Kohleheizung oder Elektroheizstrahler [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-m05",
+     "sign": -1,
+     "text_de": "Keine ausreichende Warmwasserversorgung (z. B. keine zentrale Warmwasserversorgung, kein Durchlauferhitzer, kein Boiler > 60 Liter) [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-m06",
+     "sign": -1,
+     "text_de": "Freistehende Badewanne mit oder ohne Verblendung und ohne separate Dusche in nicht modernisiertem Bad",
+     "conditions_de": ""
+    },
+    {
+     "id": "bad-m07",
+     "sign": -1,
+     "text_de": "Wände nicht ausreichend im Spritzwasserbereich von Waschbecken, Badewanne und/oder Dusche gefliest/geschützt [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-m08",
+     "sign": -1,
+     "text_de": "Bad mit WC ohne Fenster; gilt nicht für die Baualtersklasse 1973 bis 1990 Ost",
+     "conditions_de": "gilt nicht für die Baualtersklasse 1973 bis 1990 Ost",
+     "baualter_excluded": [
+      "1973_1990o"
+     ]
+    },
+    {
+     "id": "bad-m09",
+     "sign": -1,
+     "text_de": "Keine Duschmöglichkeit (z. B. kein Spritzwasserschutz, keine Duschkopfhalterung)",
+     "conditions_de": ""
+    },
+    {
+     "id": "bad-m10",
+     "sign": -1,
+     "text_de": "Kleines Bad (Grundfläche kleiner als 4 m²); gilt nicht für die Baualtersklasse 1973 bis 1990 Ost",
+     "conditions_de": "gilt nicht für die Baualtersklasse 1973 bis 1990 Ost",
+     "baualter_excluded": [
+      "1973_1990o"
+     ]
+    },
+    {
+     "id": "bad-p01",
+     "sign": 1,
+     "text_de": "Sehr großes Waschbecken (Außenmaß mindestens 80 cm breit) oder Doppelhandwaschbecken oder zwei getrennte Waschbecken nebeneinander [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-p02",
+     "sign": 1,
+     "text_de": "Besondere und hochwertige Ausstattung (z. B. hochwertige Sanitärausstattung, hochwertige Badmöbel, Eckwanne, Rundwanne, Echtglastrennwand, Regendusche) [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-p03",
+     "sign": 1,
+     "text_de": "Innen liegendes Bad mit moderner, gesteuerter Entlüftung (z. B. mittels Feuchtigkeitssensor) [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-p04",
+     "sign": 1,
+     "text_de": "Zweites WC in der Wohnung oder Bad und WC getrennt",
+     "conditions_de": ""
+    },
+    {
+     "id": "bad-p05",
+     "sign": 1,
+     "text_de": "Mindestens ein Bad mit Grundfläche größer als 8 m² [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-p06",
+     "sign": 1,
+     "text_de": "Fußbodenheizung [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "[bezieht sich nicht auf Gäste-WCs]"
+    },
+    {
+     "id": "bad-p07",
+     "sign": 1,
+     "text_de": "Wandverkleidung und Bodenbelag hochwertig (gilt nicht für die Baualtersklassen ab 2010) [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "(gilt nicht für die Baualtersklassen ab 2010) · [bezieht sich nicht auf Gäste-WCs]",
+     "baualter_excluded": [
+      "2010_2015",
+      "2016_2019",
+      "2020_2024"
+     ]
+    },
+    {
+     "id": "bad-p08",
+     "sign": 1,
+     "text_de": "Wandhängendes WC mit in der Wand eingelassenem Spülkasten (gilt nicht für die Baualtersklassen ab 2002) oder Hochwertiges Stand-WC [bezieht sich beides nicht auf Gäste-WCs]",
+     "conditions_de": "(gilt nicht für die Baualtersklassen ab 2002) · [bezieht sich beides nicht auf Gäste-WCs]",
+     "note_de": "(gilt nicht für die Baualtersklassen ab 2002)"
+    },
+    {
+     "id": "bad-p09",
+     "sign": 1,
+     "text_de": "Strukturheizkörper als Handtuchwärmer im Bad (gilt für Baualtersklassen bis einschließlich 2001); sofern zusätzlich elektrisch betreibbar: alle Baujahre [bezieht sich nicht auf Gäste-WCs]",
+     "conditions_de": "(gilt für Baualtersklassen bis einschließlich 2001) · sofern zusätzlich elektrisch betreibbar: alle Baujahre · [bezieht sich nicht auf Gäste-WCs]",
+     "note_de": "(gilt für Baualtersklassen bis einschließlich 2001); sofern zusätzlich elektrisch betreibbar: alle Baujahre"
+    },
+    {
+     "id": "bad-p10",
+     "sign": 1,
+     "text_de": "Von der Badewanne getrennte zusätzliche Duschtasse oder -kabine",
+     "conditions_de": ""
+    },
+    {
+     "id": "bad-p11",
+     "sign": 1,
+     "text_de": "Bodengleiche Dusche (auch flache Duschtasse mit einer Tiefe von bis zu 3 cm)",
+     "conditions_de": ""
+    }
+   ]
+  },
+  {
+   "id": "kueche",
+   "label_de": "Merkmalgruppe 2: Küche",
+   "features": [
+    {
+     "id": "kueche-m01",
+     "sign": -1,
+     "text_de": "Küche ohne Fenster und ohne ausreichende Entlüftung",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-m02",
+     "sign": -1,
+     "text_de": "Keine Kochmöglichkeit oder Gas-/Elektroherd ohne Backofen",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-m03",
+     "sign": -1,
+     "text_de": "Keine Spüle",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-m04",
+     "sign": -1,
+     "text_de": "Keine ausreichende Warmwasserversorgung (z. B. keine zentrale Warmwasserversorgung, kein Durchlauferhitzer, kein Boiler)",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-m05",
+     "sign": -1,
+     "text_de": "Küche nicht beheizbar oder Holz-/Kohleheizung",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-m06",
+     "sign": -1,
+     "text_de": "Geschirrspüler in der Küche nicht stellbar oder anschließbar",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-m07",
+     "sign": -1,
+     "text_de": "Keine Wandfliesen oder vergleichbarer Wandschutz im Arbeitsbereich",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-p01",
+     "sign": 1,
+     "text_de": "Hochwertige Fliesen, hochwertiges Linoleum, hochwertiges Feuchtraumlaminat, Parkett, Terrazzo als Bodenbelag jeweils in gutem Zustand (gilt für Baualtersklassen bis einschließlich 2009)",
+     "conditions_de": "(gilt für Baualtersklassen bis einschließlich 2009)",
+     "baualter_excluded": [
+      "2010_2015",
+      "2016_2019",
+      "2020_2024"
+     ]
+    },
+    {
+     "id": "kueche-p02",
+     "sign": 1,
+     "text_de": "Separate Küche mit mind. 14 m² Grundfläche",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-p03",
+     "sign": 1,
+     "text_de": "Einbauküche mit Ober- und Unterschränken sowie Herd und Spüle",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-p04",
+     "sign": 1,
+     "text_de": "Ceran-Kochfeld oder Induktions-Kochfeld (gilt für Baualtersklassen bis einschließlich 2001)",
+     "conditions_de": "(gilt für Baualtersklassen bis einschließlich 2001)",
+     "baualter_excluded": [
+      "2002_2009",
+      "2010_2015",
+      "2016_2019",
+      "2020_2024"
+     ]
+    },
+    {
+     "id": "kueche-p05",
+     "sign": 1,
+     "text_de": "Dunstabzug",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-p06",
+     "sign": 1,
+     "text_de": "Kühlschrank, Tiefkühlschrank/-truhe oder Geschirrspüler",
+     "conditions_de": ""
+    },
+    {
+     "id": "kueche-p07",
+     "sign": 1,
+     "text_de": "Freistehender Küchenblock mit Arbeitsfläche und Kochmöglichkeit oder Spüle",
+     "conditions_de": ""
+    }
+   ]
+  },
+  {
+   "id": "wohnung",
+   "label_de": "Merkmalgruppe 3: Wohnung",
+   "features": [
+    {
+     "id": "wohnung-m01",
+     "sign": -1,
+     "text_de": "Überwiegend Fenster mit Einfachverglasung (Doppel-Kastenfenster sind nicht gemeint)",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-m02",
+     "sign": -1,
+     "text_de": "Unzureichende Elektroinstallation, z. B. keine ausreichende Elektrosteigleitung und/oder VDE-gerechte Elektroinstallation (z. B. kein FI-Schalter, Potentialausgleich)",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-m03",
+     "sign": -1,
+     "text_de": "Elektroleitungen überwiegend sichtbar auf Putz",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-m04",
+     "sign": -1,
+     "text_de": "Be- und Entwässerungsleitungen (Sanitärleitungen) überwiegend sichtbar auf Putz",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-m05",
+     "sign": -1,
+     "text_de": "Waschmaschine weder in Bad noch Küche stellbar oder nicht anschließbar",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-m06",
+     "sign": -1,
+     "text_de": "Schlechter Schnitt (z. B. gefangenes Zimmer und/oder Durchgangszimmer)",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-m07",
+     "sign": -1,
+     "text_de": "Kein Balkon, (Dach-)Terrasse, Loggia und Winter-/Dachgarten (gilt nicht, wenn das Merkmal aus baulichen und/oder rechtlichen Gründen nicht möglich oder nicht zulässig ist)",
+     "conditions_de": "(gilt nicht, wenn das Merkmal aus baulichen und/oder rechtlichen Gründen nicht möglich oder nicht zulässig ist)"
+    },
+    {
+     "id": "wohnung-m08",
+     "sign": -1,
+     "text_de": "Bei Erdgeschosswohnung: Kein Einbruchs- und/oder Sichtschutzsystem an allen Fenstern der Wohnung (z. B. Gitter, Rollläden, Fensteralarm)",
+     "conditions_de": "Bei Erdgeschosswohnung:",
+     "note_de": "Kein Einbruchs- und/oder Sichtschutzsystem an allen Fenstern der Wohnung"
+    },
+    {
+     "id": "wohnung-p01",
+     "sign": 1,
+     "text_de": "Abstellraum innerhalb der Wohnung (mind. 1 m² Grundfläche) oder Einbauschrank",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-p02",
+     "sign": 1,
+     "text_de": "Großer, geräumiger Balkon, (Dach-) Terrasse, Loggia oder Winter-/Dachgarten (ab 4 m² Grundfläche)",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-p03",
+     "sign": 1,
+     "text_de": "Überwiegend Fußbodenheizung",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-p04",
+     "sign": 1,
+     "text_de": "Aufwändige Decken- und/oder Wandverkleidung (z. B. Stuck, Täfelung) in gutem Zustand in der überwiegenden Anzahl der Wohnräume",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-p05",
+     "sign": 1,
+     "text_de": "Heizungsrohre überwiegend nicht sichtbar auf Putz (gilt für Baualtersklassen bis einschließlich 1990)",
+     "conditions_de": "(gilt für Baualtersklassen bis einschließlich 1990)",
+     "baualter_excluded": [
+      "1991_2001",
+      "2002_2009",
+      "2010_2015",
+      "2016_2019",
+      "2020_2024"
+     ]
+    },
+    {
+     "id": "wohnung-p06",
+     "sign": 1,
+     "text_de": "Außen angebrachte Verschattungssysteme an überwiegender Anzahl der Fenster in den Wohnräumen (z. B. Rollläden)",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-p07",
+     "sign": 1,
+     "text_de": "Ein Wohnraum größer als 40 m² Grundfläche",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-p08",
+     "sign": 1,
+     "text_de": "Barrierearme Wohnungsgestaltung (Schwellenfreiheit in der Wohnung, schwellenarmer Übergang zu Balkon/Terrasse sowie ausreichende Bewegungsfläche in der Wohnung)",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-p09",
+     "sign": 1,
+     "text_de": "Hochwertiges Parkett, Natur-/Kunststein, Fliesen oder gleichwertiger Boden/-belag in der überwiegenden Zahl der Wohnräume (inklusive Flur, ohne Küche, ohne Bad)",
+     "conditions_de": ""
+    },
+    {
+     "id": "wohnung-p10",
+     "sign": 1,
+     "text_de": "Wohngebäude/Wohnungen die vor 2002 bezugsfertig geworden sind: überwiegend Wärmeschutzverglasung oder Schallschutzfenster (jeweils Einbau ab 2002)",
+     "conditions_de": "Wohngebäude/Wohnungen die vor 2002 bezugsfertig geworden sind: · (jeweils Einbau ab 2002)",
+     "baualter_excluded": [
+      "2002_2009",
+      "2010_2015",
+      "2016_2019",
+      "2020_2024"
+     ]
+    },
+    {
+     "id": "wohnung-p11",
+     "sign": 1,
+     "text_de": "Zusätzliche Einbruchsicherung für die Wohnungstür (z. B. hochwertige Sperrbügel und/oder Türschlösser mit Mehrfachverriegelung) bei verstärkten Türen",
+     "conditions_de": ""
+    }
+   ]
+  },
+  {
+   "id": "gebaeude",
+   "label_de": "Merkmalgruppe 4: Gebäude",
+   "features": [
+    {
+     "id": "gebaeude-m01",
+     "sign": -1,
+     "text_de": "Treppenhaus und Eingangsbereich überwiegend in schlechtem Zustand",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-m02",
+     "sign": -1,
+     "text_de": "Kein Abstellraum außerhalb der Wohnung zur alleinigen Nutzung ohne Zusatzkosten (z. B. kein abschließbarer Keller)",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-m03",
+     "sign": -1,
+     "text_de": "Jederzeit von außen frei zugänglicher Hauseingang/Treppenhaus",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-m04",
+     "sign": -1,
+     "text_de": "Schlechter Instandhaltungszustand (z. B. dauernde Durchfeuchtung des Mauerwerks – auch Keller –, große Putzschäden, erhebliche Schäden an der Dacheindeckung)",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-m05",
+     "sign": -1,
+     "text_de": "Lage im Seitenflügel oder Quergebäude bei verdichteter Bebauung",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-m06",
+     "sign": -1,
+     "text_de": "Wohnung ab fünftem Obergeschoss ohne Personenaufzug (gilt nicht für die Baualtersklassen bis 1949)",
+     "conditions_de": "(gilt nicht für die Baualtersklassen bis 1949)",
+     "baualter_excluded": [
+      "bis1918",
+      "1919_1949"
+     ]
+    },
+    {
+     "id": "gebaeude-m07",
+     "sign": -1,
+     "text_de": "Keine Gegen-/Wechselsprechanlage mit elektrischem Türöffner",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-m08",
+     "sign": -1,
+     "text_de": "Unzureichende Wärmedämmung oder Heizanlage mit ungünstigem Wirkungsgrad (Einbau/Installation der Heizanlage vor 1995)",
+     "conditions_de": "(Einbau/Installation der Heizanlage vor 1995)",
+     "note_de": "Bei Wohnungen, die in denkmalgeschützten Gebäuden gelegen sind, werden die wohnwertmindernden Merkmale zur energetischen Beschaffenheit dann nicht berücksichtigt, wenn die Umsetzung von energetischen Sanierungen gegen denkmalschutzrechtliche Belange verstoßen würde oder deren Umsetzung durch denkmalschutzrechtliche Auflagen unverhältnismäßig (teuer) wäre.",
+     "excl": {
+      "set": "energie_minus",
+      "part": "daemmung"
+     }
+    },
+    {
+     "id": "gebaeude-m09",
+     "sign": -1,
+     "text_de": "(End-)Energieverbrauchskennwert größer als 145 kWh/(m²a)",
+     "conditions_de": "",
+     "note_de": "Bei Wohnungen, die in denkmalgeschützten Gebäuden gelegen sind, werden die wohnwertmindernden Merkmale zur energetischen Beschaffenheit dann nicht berücksichtigt, wenn die Umsetzung von energetischen Sanierungen gegen denkmalschutzrechtliche Belange verstoßen würde oder deren Umsetzung durch denkmalschutzrechtliche Auflagen unverhältnismäßig (teuer) wäre.",
+     "excl": {
+      "set": "energie_minus",
+      "part": "kennwert"
+     },
+     "kwh_gt": 145
+    },
+    {
+     "id": "gebaeude-m10",
+     "sign": -1,
+     "text_de": "(End-)Energieverbrauchskennwert größer als 195 kWh/(m²a)",
+     "conditions_de": "",
+     "note_de": "Bei Wohnungen, die in denkmalgeschützten Gebäuden gelegen sind, werden die wohnwertmindernden Merkmale zur energetischen Beschaffenheit dann nicht berücksichtigt, wenn die Umsetzung von energetischen Sanierungen gegen denkmalschutzrechtliche Belange verstoßen würde oder deren Umsetzung durch denkmalschutzrechtliche Auflagen unverhältnismäßig (teuer) wäre.",
+     "excl": {
+      "set": "energie_minus",
+      "part": "kennwert"
+     },
+     "kwh_gt": 195
+    },
+    {
+     "id": "gebaeude-m11",
+     "sign": -1,
+     "text_de": "(End-)Energieverbrauchskennwert größer als 235 kWh/(m²a)",
+     "conditions_de": "",
+     "note_de": "Bei Wohnungen, die in denkmalgeschützten Gebäuden gelegen sind, werden die wohnwertmindernden Merkmale zur energetischen Beschaffenheit dann nicht berücksichtigt, wenn die Umsetzung von energetischen Sanierungen gegen denkmalschutzrechtliche Belange verstoßen würde oder deren Umsetzung durch denkmalschutzrechtliche Auflagen unverhältnismäßig (teuer) wäre.",
+     "excl": {
+      "set": "energie_minus",
+      "part": "kennwert"
+     },
+     "kwh_gt": 235
+    },
+    {
+     "id": "gebaeude-p01",
+     "sign": 1,
+     "text_de": "Abschließbarer leicht zugänglicher Fahrradabstellraum innerhalb des Gebäudes oder Fahrradabstellplätze mit Anschließmöglichkeit außerhalb des Gebäudes auf dem Grundstück (ausreichend dimensioniert)",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-p02",
+     "sign": 1,
+     "text_de": "Zusätzliche und in angemessenem Umfang nutzbare Räume außerhalb der Wohnung in fußläufiger Entfernung (z. B. Gemeinschaftsraum, Gäste-Wohnung, Trockenraum)",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-p03",
+     "sign": 1,
+     "text_de": "Repräsentativer/s oder hochwertig sanierter/s Eingangsbereich und Treppenhaus (z. B. Spiegel, Marmor, exklusive Beleuchtung, hochwertiger Anstrich/Wandbelag, Läufer im gesamten Flur- und Treppenbereich)",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-p04",
+     "sign": 1,
+     "text_de": "Überdurchschnittlich guter Instandhaltungszustand des Gebäude(-teil-)s, in dem sich die Wohnung befindet (z. B. erneuerte Fassade, Dach) (gilt für Baualtersklassen bis einschließlich 2015)",
+     "conditions_de": "(gilt für Baualtersklassen bis einschließlich 2015)",
+     "baualter_excluded": [
+      "2016_2019",
+      "2020_2024"
+     ]
+    },
+    {
+     "id": "gebaeude-p05",
+     "sign": 1,
+     "text_de": "Gegen-/Wechselsprechanlage mit Videokontakt und elektrischem Türöffner",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-p06",
+     "sign": 1,
+     "text_de": "Personenaufzug bei weniger als fünf Obergeschossen; gilt nicht für die Baualtersklassen ab 2010",
+     "conditions_de": "gilt nicht für die Baualtersklassen ab 2010",
+     "baualter_excluded": [
+      "2010_2015",
+      "2016_2019",
+      "2020_2024"
+     ]
+    },
+    {
+     "id": "gebaeude-p07",
+     "sign": 1,
+     "text_de": "Schwellenarmer Zugang zum Gebäude (max. eine Stufe) und zur Wohnung einschließlich Treppenhaus (max. eine Stufe)",
+     "conditions_de": ""
+    },
+    {
+     "id": "gebaeude-p08",
+     "sign": 1,
+     "text_de": "Wärmedämmung zusätzlich zur vorhandenen Bausubstanz oder Einbau/Installation einer modernen Heizanlage ab 2009 (wenn Bezugsfertigkeit des Gebäudes/der Wohnung vor diesem Zeitpunkt)",
+     "conditions_de": "(wenn Bezugsfertigkeit des Gebäudes/der Wohnung vor diesem Zeitpunkt)",
+     "note_de": "Einbau/Installation einer modernen Heizanlage ab 2009 (wenn Bezugsfertigkeit des Gebäudes/der Wohnung vor diesem Zeitpunkt)",
+     "excl": {
+      "set": "energie_plus",
+      "part": "daemmung"
+     }
+    },
+    {
+     "id": "gebaeude-p09",
+     "sign": 1,
+     "text_de": "(End-)Energieverbrauchskennwert kleiner als 120 kWh/(m²a)",
+     "conditions_de": "",
+     "excl": {
+      "set": "energie_plus",
+      "part": "kennwert"
+     },
+     "kwh_lt": 120
+    },
+    {
+     "id": "gebaeude-p10",
+     "sign": 1,
+     "text_de": "(End-)Energieverbrauchskennwert kleiner als 100 kWh/(m²a)",
+     "conditions_de": "",
+     "excl": {
+      "set": "energie_plus",
+      "part": "kennwert"
+     },
+     "kwh_lt": 100
+    },
+    {
+     "id": "gebaeude-p11",
+     "sign": 1,
+     "text_de": "(End-)Energieverbrauchskennwert kleiner als 80 kWh/(m²a)",
+     "conditions_de": "",
+     "excl": {
+      "set": "energie_plus",
+      "part": "kennwert"
+     },
+     "kwh_lt": 80
+    }
+   ],
+   "notes_de": [
+    "Die (End-)Energieverbrauchskennwerte beziehen sich auf Energie für Heizung und Warmwasser.",
+    "Für die Einordnung eines Endenergiebedarfskennwertes sind die oben angegebenen Verbrauchsenergiekennwert-Grenzen um 20 % zu erhöhen.",
+    "Für Kennwerte ohne Berücksichtigung der dezentralen Warmwasserversorgung sind vor der Eingruppierung 20 kWh/(m²a) auf den (End-)Energiekennwert aufzuschlagen.",
+    "Bei Wohnungen, die in denkmalgeschützten Gebäuden gelegen sind, werden die wohnwertmindernden Merkmale zur energetischen Beschaffenheit dann nicht berücksichtigt, wenn die Umsetzung von energetischen Sanierungen gegen denkmalschutzrechtliche Belange verstoßen würde oder deren Umsetzung durch denkmalschutzrechtliche Auflagen unverhältnismäßig (teuer) wäre.",
+    "Beispiele zum Umgang mit den Merkmalen: siehe unter Nr. 10.4"
+   ]
+  },
+  {
+   "id": "umfeld",
+   "label_de": "Merkmalgruppe 5: Wohnumfeld",
+   "features": [
+    {
+     "id": "umfeld-m01",
+     "sign": -1,
+     "text_de": "Besonders lärmbelastete Lage der Wohnung (Die Wohnung liegt beispielsweise an einer Hauptverkehrsstraße oder im unmittelbaren Umfeld eines Flughafens und erfährt dadurch unangenehme Lärm- und Staubemissionen. Daneben können auch große Fabrik- und Industrieanlagen, aber auch Gewerbe-, Restaurant- und Partylärm Ursache für eine besonders lärmbelastete Lage sein.)*",
+     "conditions_de": "",
+     "footnote_de": "Hinweise auf bestehende Lärmbelastung von Wohngebäuden werden durch die Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt bereitgestellt. Die Strategischen Lärmkarten mit einer gebäudescharfen Darstellung der Fassadenpegel an lärmbeeinflussten Wohngebäuden sind auf der Internetseite dieser Senatsverwaltung veröffentlicht. www.berlin.de/sen/uvk/umwelt/laerm/laermminderungsplanung-berlin/laermkarten/"
+    },
+    {
+     "id": "umfeld-m02",
+     "sign": -1,
+     "text_de": "Besonders geruchsbelastete Lage",
+     "conditions_de": ""
+    },
+    {
+     "id": "umfeld-m03",
+     "sign": -1,
+     "text_de": "Keine Fahrradabstellmöglichkeit auf dem Grundstück",
+     "conditions_de": ""
+    },
+    {
+     "id": "umfeld-p01",
+     "sign": 1,
+     "text_de": "Besonders ruhige Lage der Wohnung (Die Wohnung liegt beispielsweise an einer verkehrsberuhigten Straße, oder an einer parkähnlichen Anlage oder es gibt bauliche Einschränkungen für die Straßen, wie z. B. Poller, Verengung der Fahrbahn, Bepflanzung.)",
+     "conditions_de": ""
+    },
+    {
+     "id": "umfeld-p02",
+     "sign": 1,
+     "text_de": "Aufwändig gestaltetes Wohnumfeld auf dem Grundstück (z. B. Kinderspielplatz – bei Bezugsfertigkeit des Gebäudes vor 2003, Sitzbänke oder Ruhezonen, gute Gehwegbefestigung mit Grünflächen und Beleuchtung)",
+     "conditions_de": "Kinderspielplatz – bei Bezugsfertigkeit des Gebäudes vor 2003",
+     "note_de": "Kinderspielplatz – bei Bezugsfertigkeit des Gebäudes vor 2003"
+    },
+    {
+     "id": "umfeld-p03",
+     "sign": 1,
+     "text_de": "Vom Vermieter zur Verfügung gestelltes PKW-Parkplatzangebot in der Nähe (ausreichend dimensioniert)",
+     "conditions_de": ""
+    },
+    {
+     "id": "umfeld-p04",
+     "sign": 1,
+     "text_de": "Garten zur alleinigen Nutzung/Mietergarten ohne Entgelt oder zur Wohnung gehörender Garten mit direktem Zugang",
+     "conditions_de": ""
+    }
+   ]
+  }
+ ],
+ "rules_de": "10. Zum Umgang mit den ausgewiesenen Preisspannen\n\nDie im Mietspiegel ausgewiesenen Spannen sind erforderlich, weil Wohnungen über die in der Tabelle ausgewiesenen Merkmale Baujahr, Größe, Lage und Ausstattung hinaus weitere Unterschiede aufweisen können. In der weit überwiegenden Zahl der Fälle können die besonderen Nachteile und Vorteile einer Wohnung im Rahmen der Spannen des Mietspiegels durch Merkmale der »Orientierungshilfe für die Spanneneinordnung« (siehe Nr. 11) berücksichtigt werden. Mängel bei der Standardausstattung können durch andere Ausstattungen ausgeglichen werden. Die Miethöhe kann zudem von weiteren Merkmalen abhängig sein, die in der Tabelle nicht ausgewiesen sind (siehe auch Erläuterungen zu Nr. 10.1).\n\nEs wird zur Berücksichtigung dieser Merkmale bei der Ermittlung der ortsüblichen Vergleichsmiete deshalb die nachfolgende »Orientierungshilfe für die Spanneneinordnung« als Schätzgrundlage empfohlen; sie gehört allerdings nicht zum qualifizierten Teil dieses Mietspiegels (siehe BGH, Urteil vom 20.04.2005 – VIII ZR 110/04, wiederholt etwa im Urteil vom 18.11.2020 – VIII ZR 123/20).\n\nDiese Orientierungshilfe berücksichtigt dabei bisherige Erkenntnisse, die sowohl von der Praxis für die Einigung der Vertragsparteien als auch von vielen Berliner Gerichten für ihre Entscheidungen zugrunde gelegt worden sind, aber auch neuere Entwicklungen.\n\n10.1 Merkmale der Orientierungshilfe\n\nDas Annäherungsschema (siehe Nr. 11) nennt in den fünf Merkmalgruppen »Bad/WC/Gäste-WC«, »Küche«, »Wohnung«, »Gebäude« und »Wohnumfeld« wohnwerterhöhende bzw. wohnwertmindernde Merkmale. Je nach Häufung dieser Merkmale liegt die ortsübliche Vergleichsmiete unter oder über dem Mittelwert.\n\nDie Aufzählung in der Orientierungshilfe berücksichtigt nach den Erfahrungen der Mitglieder der Arbeitsgruppe Mietspiegel die wesentlichen Merkmale. Es können aber in Einzelfällen weitere ebenfalls gewichtige Merkmale im Rahmen der Merkmalgruppen zum Tragen kommen.\n\n10.2 Energetischer Zustand der Wohngebäude\n\nDie Umgestaltung des Wohngebäudebestandes unter energetischen Gesichtspunkten wird immer wichtiger. Zudem gewinnen die Kosten von Heizungs- und Warmwasserversorgungsanlagen bei der Bewertung von Wohnraum für die Mieterinnen und Mieter zunehmend an Bedeutung.\n\nDer Berliner Mietspiegel 2026 trägt der Entwicklung der Energiekosten durch die Einbeziehung eines abgestuften Energiekennwertes Rechnung. Die Einbeziehung des energetischen Zustands in das Wertungssystem der Orientierungshilfe berücksichtigt sowohl die unterschiedlichen Energiekennwerte, die sich für ein Wohngebäude aus dezentraler oder zentraler Warmwasserversorgung ergeben, als auch Umsetzungshindernisse für energetische Sanierungsmaßnahmen, die sich aus denkmalschutzrechtlichen Vorgaben ableiten.\n\nDas gestufte Wertungssystem (je geringer der Energieverbrauch ist, umso stärker soll sich dies wohnwerterhöhend auswirken – je mehr Energieverbrauch, umso stärker soll sich dies wohnwertmindernd auswirken) bietet ein transparentes, leicht nachvollziehbares Instrument auf der Basis von objektiven Energiekennwerten.\n\n10.3 Ermittlung der ortsüblichen Vergleichsmiete und der Spanneneinordnung\n\nFolgende Spanneneinordung mittels der Orientierungshilfe wird empfohlen:\n\nDie wohnwerterhöhenden oder wohnwertmindernden Merkmale sind in der Mietspiegeltabelle nicht gesondert ausgewiesen. Sie können aber die ortsübliche Vergleichsmiete innerhalb der Spanne – ausgehend vom Mittelwert positiv oder negativ – mit jeweils 20 Prozent für folgende Merkmalgruppen beeinflussen:\n\n— Die Ausstattung des Bades/WC/Gäste-WC 20 %\n— Die Ausstattung der Küche 20 %\n— Die Ausstattung der Wohnung 20 %\n— Die Ausstattung des Gebäudes 20 %\n— Das Wohnumfeld 20 %\n100 %\n\nÜberwiegen in einer Merkmalgruppe die wohnwerterhöhenden Merkmale, ist ein Zuschlag von 20 Prozent des Unterschiedsbetrages zwischen Mittelwert und Spannenoberwert gerechtfertigt. Überwiegen die wohnwertmindernden Merkmale in einer Merkmalgruppe, ist ein Abzug von 20 Prozent des Unterschiedsbetrages zwischen Mittelwert und Spannenunterwert angemessen. In gleicher Weise ist mit jeder anderen Merkmalgruppe zu verfahren. Das Überwiegen der Merkmale innerhalb einer Merkmalgruppe ergibt sich durch einfache Überzahl.\n\nDie fünf Merkmalgruppen werden gegeneinander aufgerechnet!\n\nAuf dieser Basis ist zunächst die Differenz zwischen dem ausgewiesenen Mittelwert und dem errechneten Spannenwert nach der Orientierungshilfe zu berechnen.\n\nÜberwiegen in allen fünf Merkmalgruppen die wohnwerterhöhenden Merkmale, liegt die ortsübliche Vergleichsmiete am oberen Spannenwert. Überwiegen in allen fünf Kategorien die wohnwertmindernden Merkmale, liegt die ortsübliche Vergleichsmiete am unteren Spannenwert.\n\n10.4 Beispiele\n\nA) Umgang mit den Merkmalen zur Berücksichtigung des energetischen Zustandes von Gebäuden in der Merkmalgruppe »Gebäude«\n\nBei den wohnwertmindernden Merkmalen ist es nur möglich, entweder das Merkmal »Unzureichende Wärmedämmung oder Heizanlage mit ungünstigem Wirkungsgrad (Einbau/Installation vor 1995)« oder ein bzw. mehrere Merkmale zum »Energieverbrauchskennwert« anzukreuzen. Analog gilt dies auch bei den wohnwerterhöhenden Merkmalen: entweder das Merkmal »Wärmedämmung zusätzlich zur vorhandenen Bausubstanz oder Einbau/Installation einer modernen Heizanlage ab 2009 (wenn Bezugsfertigkeit des Gebäudes/der Wohnung vor diesem Zeitpunkt)« wird ausgewählt oder ein bzw. mehrere Merkmale zum »Energieverbrauchskennwert«. Wenn der »Energieverbrauchskennwert« ausgewählt wird, dann ist es möglich, ein, zwei oder drei Merkmale anzukreuzen – je nach der Höhe des vorliegenden Energiekennwertes. Liegt der »Energieverbrauchskennwert« z. B. bei 240 kWh/(m²a) können alle drei Kästchen als wohnwertminderndes Merkmal angekreuzt werden. Liegt er z. B. bei 90 kWh/(m²a) können die zwei oberen Kästchen als wohnwerterhöhendes Merkmal angekreuzt werden.\n\nB) Anwendung der Orientierungshilfe für die Spanneneinordnung (siehe Nr. 11)\n\nMerkmalgruppe | es überwiegen | daher +/-\n1. Bad/WC/Gäste-WC | wohnwerterhöhende Merkmale | + 20 %\n2. Küche | wohnwerterhöhende Merkmale | + 20 %\n3. Wohnung | wohnwerterhöhende Merkmale | + 20 %\n4. Gebäude | wohnwertmindernde Merkmale | - 20 %\n5. Wohnumfeld | wohnwertmindernde Merkmale | - 20 %\nErgebnis | | + 20 %\n\nHandelt es sich z. B. um eine Wohnung in mittlerer Wohnlage, zwischen 1919 und 1949 bezugsfertig geworden mit Sammelheizung, Bad und WC in der Wohnung, 60 m² groß (siehe Nr. 9.2. Mietspiegeltabelle mittlere Wohnlage, Zeile 81), dann ergeben sich folgende Werte:\n\nUnterwert: 5,90 Euro | Mittelwert: 7,30 Euro | Oberwert: 9,55 Euro\n< Spanne 1,40 Euro > | < Spanne 2,25 Euro >\n\nDas Ergebnis von 20 Prozent, bezogen auf die obere Spanne von 2,25 Euro, sind 0,45 Euro. Die Anwendung der empfohlenen Orientierungshilfe ergäbe für diese Wohnung dann eine ortsübliche Vergleichsmiete von 7,75 Euro/m² monatlich (= 7,30 Euro/m² monatlich + 0,45 Euro/m² monatlich).",
+ "notes_de": [
+  "Ortsübliche Vergleichsmieten (Stichtag 01.09.2025) Nettokaltmiete in Euro je Quadratmeter monatlich für seitens der Vermieterin oder des Vermieters voll ausgestattete Wohnungen.",
+  "* Mit Wendewohnungen. Die Zuordnung West-Staakens basiert auf dem Gebietsstand 02.10.1990. Die Zuordnung der Bezirke basiert auf dem Gebietsstand 31.12.2000 vor der Gebietsreform (siehe Erläuterung unter Nr. 3).",
+  "** Ohne Wendewohnungen",
+  "Die sogenannten „Wendewohnungen“ im Sinne dieses Mietspiegels sind die Wohnungen, die mit „DDR-Mitteln“ anfinanziert wurden und deren Baubeginn vor dem 03.10.1990 lag, die aber erst danach fertiggestellt wurden; für dies Wohnungen galten z. B. auch die Regelungen aus dem Mietenüberleitungsgesetz"
+ ]
+}

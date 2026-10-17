@@ -1,0 +1,27 @@
+{#- Permalink of the page with this slug in `lang`, falling back to the German page. Empty if the page does not exist. -#}
+{% macro href(slug, lang) -%}
+{%- set root = get_section(path="_index.md") -%}
+{%- set_global out = "" -%}
+{%- for p in root.pages -%}
+  {%- if p.slug == slug -%}
+    {%- set_global out = p.permalink -%}
+    {%- for t in p.translations -%}{%- if t.lang == lang and t.title -%}{%- set_global out = t.permalink -%}{%- endif -%}{%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{{ out }}
+{%- endmacro href %}
+
+{#- Start page of `lang` if it has content, else the German start page. -#}
+{% macro home(lang) -%}
+{%- set root = get_section(path="_index.md") -%}
+{%- set_global out = root.permalink -%}
+{%- for t in root.translations -%}{%- if t.lang == lang and t.title -%}{%- set_global out = t.permalink -%}{%- endif -%}{%- endfor -%}
+{{ out }}
+{%- endmacro home %}
+
+{#- Plain text with blank-line paragraphs → <p> elements (text is escaped). -#}
+{% macro paras(text, class="") -%}
+{%- if text -%}
+{%- for p in text | split(pat="\n\n") -%}{%- if p | trim -%}<p{% if class %} class="{{ class }}"{% endif %}>{{ p | trim | escape | linebreaksbr | safe }}</p>{%- endif -%}{%- endfor -%}
+{%- endif -%}
+{%- endmacro paras %}

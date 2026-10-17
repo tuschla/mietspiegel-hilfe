@@ -1,0 +1,762 @@
+{
+  "_meta": {
+    "lang": "pl",
+    "as_of": "2026-10-18",
+    "note": "Prosty język. Nieoficjalne wyjaśnienia; wiążące jest tylko urzędowe zwierciadło czynszów (Mietspiegel)."
+  },
+  "groups": {
+    "bad": {
+      "title": "Łazienka i WC",
+      "intro": "W tej grupie chodzi o łazienkę, WC i WC dla gości (Gäste-WC). Przy wielu cechach w zwierciadle czynszów (Mietspiegel) jest napisane „bezieht sich nicht auf Gäste-WCs” (nie dotyczy WC dla gości): wtedy liczy się tylko główna łazienka.\n\nPolicz cechy plus i cechy minus. Jeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+    },
+    "kueche": {
+      "title": "Kuchnia",
+      "intro": "W tej grupie chodzi o kuchnię. Liczy się tylko to, co zapewnił wynajmujący. Kuchnia albo urządzenia, za które zapłacono z twoich pieniędzy, się nie liczą.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+    },
+    "wohnung": {
+      "title": "Mieszkanie",
+      "intro": "W tej grupie chodzi o samo mieszkanie: okna, przewody, układ pomieszczeń, balkon, podłogi i ogrzewanie. Wiele cech mówi „überwiegend” (przeważnie). Według znaczenia słowa oznacza to: w ponad połowie, na przykład okien albo pomieszczeń.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+    },
+    "gebaeude": {
+      "title": "Budynek",
+      "intro": "W tej grupie chodzi o dom: klatkę schodową, piwnicę, wejście, windę, stan i energię. Przy zużyciu energii obowiązuje zasada szczególna: zaznaczasz albo cechę dotyczącą izolacji cieplnej lub instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego (Energiekennwert) ze świadectwa energetycznego (Energieausweis), nie jedno i drugie. Przy wskaźniku mogą się liczyć maksymalnie trzy kratki.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+    },
+    "umfeld": {
+      "title": "Otoczenie mieszkania",
+      "intro": "W tej grupie chodzi o otoczenie: hałas, zapach, rowery, działkę, miejsca parkingowe i ogród. Lokalizacja (Wohnlage: prosta, średnia, dobra) jest już uwzględniona w tabeli. Tutaj chodzi o szczególne cechy twojego mieszkania.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+    }
+  },
+  "features": {
+    "bad-m01": {
+      "title": "Brak umywalki albo tylko mała umywalka",
+      "explain": "Minus, jeśli w łazience lub w WC nie ma umywalki. Minus także wtedy, gdy w łazience wisi tylko mała umywalka: w Mietspiegel 2026 o szerokości zewnętrznej 50 cm lub mniej, w Mietspiegel 2024 o wymiarach zewnętrznych 50 x 25 cm lub mniej. Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Zmierz umywalkę w łazience od zewnątrz w najszerszym miejscu, od krawędzi do krawędzi. Dla Mietspiegel 2024 zmierz też głębokość. Zapisz wynik w centymetrach.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcie z przyłożoną miarką składaną, na którym da się odczytać liczbę, z datą."
+    },
+    "bad-m02": {
+      "title": "WC bez żadnej wentylacji",
+      "explain": "Minus, jeśli pomieszczenie z WC nie ma ani okna, ani wentylacji. Zwierciadło czynszów (Mietspiegel) mówi: „ohne Lüftungsmöglichkeit und Entlüftung” (bez możliwości wietrzenia i bez wentylacji). Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Czy w pomieszczeniu z WC jest okno, które da się otworzyć? Czy jest wentylator albo szyb wentylacyjny z kratką? Jeśli brakuje jednego i drugiego, cecha występuje.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia wszystkich ścian i sufitu pomieszczenia."
+    },
+    "bad-m03": {
+      "title": "Deski drewniane w łazience, nieodporne na wilgoć",
+      "explain": "Minus, jeśli w łazience jest podłoga z desek drewnianych, która nie nadaje się do pomieszczeń mokrych (nicht feuchtraumgeeignet). Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Popatrz na podłogę w łazience: czy to deski drewniane bez płytek lub wodoodpornej wykładziny na wierzchu? Zwierciadło czynszów (Mietspiegel) nie mówi dokładniej, kiedy deski są „feuchtraumgeeignet” (odpowiednie do pomieszczeń wilgotnych). W razie wątpliwości zapytaj w poradni.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia podłogi, także szczelin i szkód spowodowanych wilgocią."
+    },
+    "bad-m04": {
+      "title": "Łazienka bez porządnego ogrzewania",
+      "explain": "Minus, jeśli łazienki nie da się ogrzać. Minus także wtedy, gdy ogrzewa się ją tylko drewnem lub węglem albo elektrycznym promiennikiem ciepła. Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Czy w łazience jest grzejnik podłączony do ogrzewania? Czy tylko piec na drewno/węgiel albo elektryczny promiennik? Czy nie ma nic?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia łazienki, na których widać, że nie ma grzejnika, albo jakie urządzenie tam jest."
+    },
+    "bad-m05": {
+      "title": "Za mało ciepłej wody w łazience",
+      "explain": "Minus, jeśli w łazience nie ma wystarczającego zaopatrzenia w ciepłą wodę. Przykłady w zwierciadle czynszów (Mietspiegel): brak centralnego zaopatrzenia w ciepłą wodę, brak przepływowego podgrzewacza wody, brak bojlera o pojemności ponad 60 litrów. Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Skąd pochodzi ciepła woda w łazience? Z centralnej instalacji budynku, z przepływowego podgrzewacza wody czy z bojlera (zasobnika)? Przy bojlerze pojemność w litrach jest zwykle podana na tabliczce znamionowej.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcie tabliczki znamionowej bojlera z podaną pojemnością w litrach."
+    },
+    "bad-m06": {
+      "title": "Wolnostojąca wanna bez osobnego prysznica",
+      "explain": "Minus, jeśli w łazience stoi wolnostojąca wanna (z obudową lub bez) i nie ma osobnego prysznica. Dotyczy to tylko łazienki, która nie jest zmodernizowana.",
+      "check": "Czy wanna stoi swobodnie w pomieszczeniu, na przykład na nóżkach, czy jest tylko obudowana z przodu? Czy jest dodatkowo osobny prysznic? Czy łazienka była modernizowana? Zwierciadło czynszów (Mietspiegel) nie mówi, co dokładnie znaczy „nicht modernisiert” (niezmodernizowana).",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia wanny i całej łazienki."
+    },
+    "bad-m07": {
+      "title": "Ściany przy wodzie bez płytek",
+      "explain": "Minus, jeśli ściany przy umywalce, wannie lub prysznicu nie są wystarczająco wyłożone płytkami lub zabezpieczone tam, gdzie pryska woda (strefa rozbryzgów, Spritzwasserbereich). Nie liczą się tu WC dla gości (Gäste-WC). W Mietspiegel 2024 jest tylko „gefliest” (wyłożone płytkami), w Mietspiegel 2026 „gefliest/geschützt” (wyłożone płytkami/zabezpieczone).",
+      "check": "Obejrzyj ścianę za i obok umywalki, wanny i prysznica. Czy są tam płytki albo inne wodoodporne zabezpieczenie? Na jaką wysokość i szerokość?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia ścian z miarką składaną, żeby było widać wysokość płytek."
+    },
+    "bad-m08": {
+      "title": "Łazienka z WC bez okna",
+      "explain": "Minus, jeśli łazienka z WC nie ma okna. Nie dotyczy to mieszkań z klasy okresu budowy (Baualtersklasse) 1973 do 1990 Wschód (Ost).",
+      "check": "Czy łazienka, w której jest WC, ma okno na zewnątrz? Sprawdź też w kalkulatorze klasę okresu budowy twojego mieszkania.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia wszystkich ścian łazienki."
+    },
+    "bad-m09": {
+      "title": "Nie da się porządnie wziąć prysznica",
+      "explain": "Minus, jeśli nie ma możliwości wzięcia prysznica. Przykłady w zwierciadle czynszów (Mietspiegel): brak ochrony przed rozbryzgami wody (na przykład brak zasłony prysznicowej lub ścianki prysznicowej), brak uchwytu na słuchawkę prysznicową. W Mietspiegel 2024 jest dodatkowo przykład: bardzo mała powierzchnia do stania.",
+      "check": "Czy możesz wziąć prysznic w łazience tak, żeby woda nie pryskała po całym pomieszczeniu? Czy na ścianie jest drążek lub uchwyt na słuchawkę prysznicową? Zwierciadło czynszów podaje przykłady, ale nie ustala sztywnej reguły.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia wanny lub prysznica, uchwytu i ścian."
+    },
+    "bad-m10": {
+      "title": "Mała łazienka poniżej 4 m²",
+      "explain": "Minus, jeśli łazienka ma powierzchnię podłogi mniejszą niż 4 m². Nie dotyczy to mieszkań z klasy okresu budowy (Baualtersklasse) 1973 do 1990 Wschód (Ost).",
+      "check": "Zmierz długość i szerokość łazienki przy podłodze i pomnóż długość przez szerokość. W pomieszczeniach ze skosami lub o nieregularnym kształcie mierz po kawałku. Porównaj z powierzchnią w umowie najmu lub w obliczeniu powierzchni, jeśli takie istnieje.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: szkic z wymiarami i zdjęcia z miarką składaną."
+    },
+    "bad-p01": {
+      "title": "Bardzo duża albo podwójna umywalka",
+      "explain": "Plus, jeśli umywalka ma od zewnątrz co najmniej 80 cm szerokości. Plus także przy umywalce podwójnej albo dwóch osobnych umywalkach (w Mietspiegel 2026: obok siebie). Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Zmierz umywalkę od zewnątrz w najszerszym miejscu. Czy są dwie umywalki?",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów. Pomocne dla ciebie: zdjęcie z miarką składaną, jeśli umywalka jest mniejsza niż 80 cm."
+    },
+    "bad-p02": {
+      "title": "Szczególnie wysokiej jakości wyposażenie łazienki",
+      "explain": "Plus przy szczególnym i wysokiej jakości wyposażeniu. Przykłady w zwierciadle czynszów (Mietspiegel): wysokiej jakości wyposażenie sanitarne, wysokiej jakości meble łazienkowe, wanna narożna, wanna okrągła; w Mietspiegel 2026 także ścianka z prawdziwego szkła i prysznic typu deszczownica. Nie liczą się tu WC dla gości (Gäste-WC). Zwierciadło czynszów nie mówi, co dokładnie znaczy „hochwertig” (wysokiej jakości).",
+      "check": "Czy w łazience jest coś z listy przykładów? Kto to zamontował i zapłacił: wynajmujący czy ty? Nie chodzi o zwykłe, proste wyposażenie.",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia wyposażenia i dokumenty, jeśli coś zostało zamontowane przez ciebie."
+    },
+    "bad-p03": {
+      "title": "Łazienka bez okna z nowoczesną wentylacją",
+      "explain": "Plus, jeśli łazienka jest wewnętrzna (bez okna) i ma nowoczesną, sterowaną wentylację, na przykład z czujnikiem wilgotności. Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Czy łazienka nie ma okna? Czy wentylator włącza się sam, na przykład przy wilgoci albo razem ze światłem, i pracuje jeszcze chwilę po wyłączeniu? Zwykły szyb wentylacyjny nie jest „modern gesteuert” (nowocześnie sterowany).",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów. Pomocne dla ciebie: zdjęcie wentylatora; zapisuj, kiedy pracuje."
+    },
+    "bad-p04": {
+      "title": "Drugie WC albo WC oddzielone od łazienki",
+      "explain": "Plus, jeśli w mieszkaniu jest drugie WC. Plus także wtedy, gdy łazienka i WC są w osobnych pomieszczeniach.",
+      "check": "Ile WC ma mieszkanie? Czy WC jest w osobnym pomieszczeniu, oddzielnie od łazienki?",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów."
+    },
+    "bad-p05": {
+      "title": "Duża łazienka powyżej 8 m²",
+      "explain": "Plus, jeśli co najmniej jedna łazienka ma powierzchnię podłogi większą niż 8 m². Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Zmierz długość i szerokość łazienki przy podłodze i pomnóż długość przez szerokość.",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów. Pomocne dla ciebie: szkic z wymiarami, jeśli łazienka jest mniejsza."
+    },
+    "bad-p06": {
+      "title": "Ogrzewanie podłogowe w łazience",
+      "explain": "Plus, jeśli łazienka ma ogrzewanie podłogowe. Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Czy podłoga w łazience robi się ciepła, gdy działa ogrzewanie? Czy jest do niego osobny regulator? Kto je zamontował?",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów."
+    },
+    "bad-p07": {
+      "title": "Wysokiej jakości płytki lub okładziny ścian w łazience",
+      "explain": "Plus, jeśli okładziny ścian i podłoga w łazience są wysokiej jakości. Nie dotyczy nowszych budynków: w Mietspiegel 2026 nie dotyczy klasy okresu budowy (Baualtersklasse) od 2010, w Mietspiegel 2024 nie dotyczy klasy okresu budowy 2016 do 2022. Nie liczą się tu WC dla gości (Gäste-WC). Zwierciadło czynszów (Mietspiegel) nie mówi dokładnie, co znaczy „hochwertig” (wysokiej jakości).",
+      "check": "Czy ściany i podłoga w łazience są wyłożone szczególnie dobrymi materiałami, na przykład kamieniem naturalnym? Zwykłe standardowe płytki według dosłownego znaczenia słowa nie są „hochwertig” (wysokiej jakości). Pamiętaj o wyjątku dla nowszych roczników budowy.",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia ścian i podłogi, także uszkodzeń."
+    },
+    "bad-p08": {
+      "title": "WC podwieszane z ukrytą spłuczką",
+      "explain": "Plus przy WC wiszącym na ścianie, którego spłuczka jest schowana w ścianie. Nie dotyczy to klasy okresu budowy (Baualtersklasse) od 2002. Plus także przy wysokiej jakości WC stojącym. Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Czy WC wisi na ścianie, bez nogi na podłodze, a spłuczki nie widać? Pamiętaj o wyjątku od roku budowy 2002. Zwierciadło czynszów (Mietspiegel) nie mówi, kiedy WC stojące jest „hochwertig” (wysokiej jakości).",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów."
+    },
+    "bad-p09": {
+      "title": "Grzejnik na ręczniki w łazience",
+      "explain": "Plus przy grzejniku, który służy też jako wieszak na ręczniki (grzejnik drabinkowy, Strukturheizkörper). Dotyczy to klasy okresu budowy (Baualtersklasse) do 2001 włącznie. Jeśli może on dodatkowo działać na prąd, dotyczy to wszystkich roczników budowy. Nie liczą się tu WC dla gości (Gäste-WC).",
+      "check": "Czy w łazience jest grzejnik z rurkami lub szczeblami, na których można powiesić ręczniki? Czy ma kabel albo grzałkę elektryczną?",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów."
+    },
+    "bad-p10": {
+      "title": "Prysznic oprócz wanny",
+      "explain": "Plus, jeśli oprócz wanny jest osobny, dodatkowy brodzik albo kabina prysznicowa.",
+      "check": "Czy jest wanna, a obok niej osobny prysznic? Prysznic w wannie się tu nie liczy.",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów."
+    },
+    "bad-p11": {
+      "title": "Prysznic na poziomie podłogi",
+      "explain": "Plus przy prysznicu bez stopnia, na tym samym poziomie co podłoga. Liczy się też płaski brodzik o głębokości do 3 cm.",
+      "check": "Czy możesz wejść do prysznica bez stopnia? Jeśli jest brodzik, zmierz wysokość od podłogi do jego górnej krawędzi.",
+      "proof": "Jeśli wynajmujący pozwie cię do sądu, to z reguły on musi udowodnić cechy plus (Plus-Merkmale). Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie twoje własne wyposażenie zamontowane bez zwrotu kosztów. Pomocne dla ciebie: zdjęcie z miarką składaną przy krawędzi brodzika."
+    },
+    "gebaeude-m01": {
+      "title": "Klatka schodowa i wejście w złym stanie",
+      "explain": "Minus, jeśli klatka schodowa i strefa wejściowa są przeważnie (w ponad połowie) w złym stanie.",
+      "check": "Obejrzyj wejście do budynku i klatkę schodową: czy są duże uszkodzenia ścian, schodów, poręczy, skrzynek pocztowych lub oświetlenia? Zwierciadło czynszów (Mietspiegel) nie mówi dokładnie, co znaczy „schlecht” (zły).",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia z datą; twoje pisma ze zgłoszeniem uszkodzeń."
+    },
+    "gebaeude-m02": {
+      "title": "Brak piwnicy lub komórki poza mieszkaniem",
+      "explain": "Minus, jeśli poza mieszkaniem nie ma pomieszczenia do przechowywania, z którego korzystasz tylko ty i które nic dodatkowo nie kosztuje, na przykład nie ma zamykanej piwnicy.",
+      "check": "Czy do twojego mieszkania należy komórka w piwnicy lub na strychu? Czy jest wpisana w umowie najmu? Czy kosztuje dodatkowo? Czy możesz ją zamknąć na klucz?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: umowa najmu, zdjęcia."
+    },
+    "gebaeude-m03": {
+      "title": "Drzwi do budynku zawsze otwarte dla wszystkich",
+      "explain": "Minus, jeśli wejście do budynku jest z zewnątrz swobodnie dostępne o każdej porze (w Mietspiegel 2026: wejście do budynku/klatka schodowa). Chodzi o to, że każdy może w każdej chwili wejść do budynku, bez klucza i bez dzwonienia.",
+      "check": "Sprawdź to o różnych porach: czy drzwi wejściowe da się otworzyć z zewnątrz bez klucza, na przykład dlatego, że zamek jest zepsuty albo go brakuje? Czy regularnie stoją otwarte?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia i nagranie wideo drzwi z datą; zgłoszenia usterek (Mängelmeldungen)."
+    },
+    "gebaeude-m04": {
+      "title": "Budynek w złym stanie technicznym",
+      "explain": "Minus przy złym stanie utrzymania budynku. Przykłady w zwierciadle czynszów (Mietspiegel): stale wilgotne mury (także w piwnicy), duże uszkodzenia tynku, poważne uszkodzenia dachu.",
+      "check": "Czy są wilgotne ściany w piwnicy lub w budynku, odpadający tynk albo uszkodzenia dachu? Od kiedy?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia z datą, zgłoszenia usterek (Mängelmeldungen) do wynajmującego i jego odpowiedzi."
+    },
+    "gebaeude-m05": {
+      "title": "Mieszkanie w oficynie bocznej albo tylnej",
+      "explain": "Minus, jeśli mieszkanie znajduje się w oficynie bocznej (Seitenflügel) albo w oficynie poprzecznej (Quergebäude, Hinterhaus), a budynki stoją tam bardzo blisko siebie (gęsta zabudowa, verdichtete Bebauung).",
+      "check": "Czy twoje mieszkanie nie jest w budynku frontowym przy ulicy (Vorderhaus), tylko w oficynie bocznej albo tylnej? Czy podwórze jest ciasne? Zwierciadło czynszów (Mietspiegel) nie mówi dokładnie, co znaczy „verdichtet” (gęsta zabudowa).",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia podwórza, plan sytuacyjny lub wycinek mapy."
+    },
+    "gebaeude-m06": {
+      "title": "Od 5. piętra bez windy",
+      "explain": "Minus, jeśli mieszkanie jest na piątym piętrze lub wyżej i nie ma windy osobowej. Nie dotyczy to klasy okresu budowy (Baualtersklasse) do 1949.",
+      "check": "Na którym piętrze jest twoje mieszkanie? Parter nie liczy się jako piętro. Czy jest winda? Pamiętaj o wyjątku dla starych budynków (Altbau).",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej."
+    },
+    "gebaeude-m07": {
+      "title": "Brak domofonu z otwieraniem drzwi",
+      "explain": "Minus, jeśli nie ma domofonu (Gegensprechanlage albo Wechselsprechanlage) z elektrycznym otwieraniem drzwi.",
+      "check": "Czy możesz ze swojego mieszkania porozmawiać z gościem przy drzwiach wejściowych do budynku i otworzyć je przyciskiem?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej."
+    },
+    "gebaeude-m08": {
+      "title": "Słaba izolacja cieplna albo stara instalacja grzewcza",
+      "explain": "Minus przy niewystarczającej izolacji cieplnej albo przy instalacji grzewczej o niekorzystnej sprawności, zamontowanej przed 1995 rokiem. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego (Energiekennwert), nie jedno i drugie.",
+      "check": "Zapytaj o rok produkcji instalacji grzewczej, często jest podany na tabliczce znamionowej. Zwierciadło czynszów (Mietspiegel) nie mówi dokładnie, kiedy izolacja jest „unzureichend” (niewystarczająca). Jeśli istnieje świadectwo energetyczne (Energieausweis), wskaźnik daje zwykle jaśniejszą odpowiedź.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcie tabliczki znamionowej ogrzewania, świadectwo energetyczne."
+    },
+    "gebaeude-m09": {
+      "title": "Wysokie zużycie energii: powyżej 145 kWh",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest większy niż 145 kWh na m² rocznie (kWh/(m²a)). Przy bardzo wysokim zużyciu można zaznaczyć do trzech takich kratek: powyżej 145, powyżej 195, powyżej 235. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz. W budynkach objętych ochroną zabytków (Denkmalschutz) te cechy minus się nie liczą, jeśli renowacja energetyczna naruszałaby ochronę zabytków albo byłaby przez to nieproporcjonalnie droga.",
+      "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: kopia świadectwa energetycznego."
+    },
+    "gebaeude-m10": {
+      "title": "Wysokie zużycie energii: powyżej 195 kWh",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest większy niż 195 kWh na m² rocznie (kWh/(m²a)). Przy bardzo wysokim zużyciu można zaznaczyć do trzech takich kratek: powyżej 145, powyżej 195, powyżej 235. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz. W budynkach objętych ochroną zabytków (Denkmalschutz) te cechy minus się nie liczą, jeśli renowacja energetyczna naruszałaby ochronę zabytków albo byłaby przez to nieproporcjonalnie droga.",
+      "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: kopia świadectwa energetycznego."
+    },
+    "gebaeude-m11": {
+      "title": "Wysokie zużycie energii: powyżej 235 kWh",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest większy niż 235 kWh na m² rocznie (kWh/(m²a)). Przy bardzo wysokim zużyciu można zaznaczyć do trzech takich kratek: powyżej 145, powyżej 195, powyżej 235. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz. W budynkach objętych ochroną zabytków (Denkmalschutz) te cechy minus się nie liczą, jeśli renowacja energetyczna naruszałaby ochronę zabytków albo byłaby przez to nieproporcjonalnie droga.",
+      "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: kopia świadectwa energetycznego."
+    },
+    "gebaeude-p01": {
+      "title": "Zamykane pomieszczenie na rowery lub stojaki rowerowe",
+      "explain": "Cecha plus (Plus-Merkmal) przy zamykanym, łatwo dostępnym pomieszczeniu na rowery w budynku. Plus także przy miejscach na rowery na zewnątrz, na terenie posesji, do których można przypiąć rower. Muszą być wystarczająco duże.",
+      "check": "Czy jest piwnica lub pomieszczenie na rowery, które można zamknąć na klucz i do którego dojdziesz bez wielu stopni? Albo stojaki na podwórzu? Czy miejsca wystarczy na rowery mieszkańców? Co znaczy „ausreichend” (wystarczająco), zwierciadło czynszów (Mietspiegel) nie mówi dokładnie.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia, na przykład gdy pomieszczenie jest zawsze pełne albo prowadzą do niego stopnie."
+    },
+    "gebaeude-p02": {
+      "title": "Pomieszczenie wspólne, mieszkanie gościnne lub suszarnia",
+      "explain": "Cecha plus (Plus-Merkmal) przy dodatkowych pomieszczeniach poza mieszkaniem, z których można korzystać w odpowiednim zakresie i do których można dojść pieszo. Przykład w Mietspiegel 2024: pomieszczenie wspólne. W Mietspiegel 2026 także: mieszkanie gościnne, suszarnia.",
+      "check": "Czy są takie pomieszczenia? Czy możesz z nich korzystać? Są otwarte, czy dostajesz klucz?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów."
+    },
+    "gebaeude-p03": {
+      "title": "Eleganckie wejście i elegancka klatka schodowa",
+      "explain": "Cecha plus (Plus-Merkmal) przy reprezentacyjnej lub odnowionej na wysokim poziomie strefie wejścia i klatce schodowej. Przykłady w zwierciadle czynszów (Mietspiegel): lustro, marmur, specjalne oświetlenie, wysokiej jakości malowanie lub okładzina ścian, chodnik na całym korytarzu i klatce schodowej.",
+      "check": "Porównaj wejście i klatkę schodową z listą przykładów. Zwykłe, czyste malowanie zgodnie z dosłownym znaczeniem nie jest „repräsentativ” (reprezentacyjne).",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne dla ciebie: zdjęcia wejścia i klatki schodowej."
+    },
+    "gebaeude-p04": {
+      "title": "Budynek w szczególnie dobrym stanie",
+      "explain": "Cecha plus (Plus-Merkmal) przy ponadprzeciętnie dobrym stanie utrzymania budynku lub części budynku, w której jest mieszkanie, na przykład odnowiona fasada lub odnowiony dach. Dotyczy to klas okresu budowy (Baualtersklassen) do 2015 włącznie.",
+      "check": "Czy fasadę lub dach odnowiono w ostatnich latach? Czy widać uszkodzenia? Co znaczy „überdurchschnittlich” (ponadprzeciętny), zwierciadło czynszów (Mietspiegel) nie mówi dokładnie.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne dla ciebie: zdjęcia uszkodzeń z datą, zgłoszenia wad (Mängelmeldungen)."
+    },
+    "gebaeude-p05": {
+      "title": "Domofon z wideo",
+      "explain": "Cecha plus (Plus-Merkmal) przy domofonie (Gegensprechanlage lub Wechselsprechanlage) z obrazem wideo i elektrycznym otwieraniem drzwi.",
+      "check": "Czy na ekranie w mieszkaniu widzisz, kto dzwoni do drzwi wejściowych budynku?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów."
+    },
+    "gebaeude-p06": {
+      "title": "Winda także w niskim budynku",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli jest winda osobowa, chociaż budynek ma mniej niż pięć pięter (Obergeschosse). Nie dotyczy to klas okresu budowy (Baualtersklassen) od 2010.",
+      "check": "Czy jest winda? Ile pięter ma budynek (bez parteru)?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej."
+    },
+    "gebaeude-p07": {
+      "title": "Wejście do budynku prawie bez stopni",
+      "explain": "Cecha plus (Plus-Merkmal) przy wejściu do budynku z najwyżej jednym stopniem i dojściu do mieszkania, łącznie z klatką schodową, z najwyżej jednym stopniem.",
+      "check": "Policz stopnie od ulicy do drzwi wejściowych budynku i od drzwi wejściowych do drzwi twojego mieszkania. Czy winda równoważy stopnie na klatce schodowej, tego zwierciadło czynszów (Mietspiegel) nie mówi.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne dla ciebie: zdjęcia stopni."
+    },
+    "gebaeude-p08": {
+      "title": "Dodatkowa izolacja lub nowa instalacja grzewcza",
+      "explain": "Cecha plus (Plus-Merkmal) przy izolacji cieplnej dodanej do pierwotnej substancji budynku albo przy nowoczesnej instalacji grzewczej zamontowanej od 2009 roku. Budynek lub mieszkanie musiały być gotowe „vor diesem Zeitpunkt” (przed tym momentem). Czy chodzi o „przed 2009”, czy o „przed montażem”, tego zwierciadło czynszów (Mietspiegel) nie mówi jednoznacznie. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz.",
+      "check": "Czy budynek został później docieplony, na przykład fasada? Kiedy zamontowano instalację grzewczą? Często jest to napisane na tabliczce znamionowej.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: świadectwo energetyczne (Energieausweis), zdjęcie tabliczki znamionowej ogrzewania."
+    },
+    "gebaeude-p09": {
+      "title": "Niskie zużycie energii: poniżej 120 kWh",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest mniejszy niż 120 kWh na m² rocznie (kWh/(m²a)). Przy bardzo niskim zużyciu można zaznaczyć do trzech takich kratek: poniżej 120, poniżej 100, poniżej 80. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz.",
+      "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: kopia świadectwa energetycznego."
+    },
+    "gebaeude-p10": {
+      "title": "Niskie zużycie energii: poniżej 100 kWh",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest mniejszy niż 100 kWh na m² rocznie (kWh/(m²a)). Przy bardzo niskim zużyciu można zaznaczyć do trzech takich kratek: poniżej 120, poniżej 100, poniżej 80. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz.",
+      "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: kopia świadectwa energetycznego."
+    },
+    "gebaeude-p11": {
+      "title": "Niskie zużycie energii: poniżej 80 kWh",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest mniejszy niż 80 kWh na m² rocznie (kWh/(m²a)). Przy bardzo niskim zużyciu można zaznaczyć do trzech takich kratek: poniżej 120, poniżej 100, poniżej 80. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz.",
+      "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: kopia świadectwa energetycznego."
+    },
+    "kueche-m01": {
+      "title": "Kuchnia bez okna i bez wentylacji",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli kuchnia nie ma okna ani wystarczającej wentylacji.",
+      "check": "Czy kuchnia ma okno na zewnątrz? Jeśli nie: czy jest wentylator albo kanał wentylacyjny, który odprowadza powietrze na zewnątrz? Co znaczy „ausreichend” (wystarczający), zwierciadło czynszów (Mietspiegel) nie mówi dokładnie.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia wszystkich ścian i sufitu kuchni."
+    },
+    "kueche-m02": {
+      "title": "Brak kuchenki albo kuchenka bez piekarnika",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli nie ma możliwości gotowania albo jest tylko kuchenka gazowa lub elektryczna bez piekarnika.",
+      "check": "Czy wynajmujący zapewnił kuchenkę? Czy ta kuchenka ma piekarnik? Kuchenka kupiona przez ciebie nie liczy się jako wyposażenie od wynajmującego.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: protokół zdawczo-odbiorczy (Übergabeprotokoll) albo umowa najmu, w których jest zapisane, co było w kuchni, oraz zdjęcia z dnia wprowadzenia się."
+    },
+    "kueche-m03": {
+      "title": "Brak zlewu w kuchni",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli w kuchni nie ma zlewu.",
+      "check": "Czy wynajmujący zapewnił zlew? Zlew zamontowany i opłacony przez ciebie nie liczy się jako wyposażenie od wynajmującego.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: protokół zdawczo-odbiorczy (Übergabeprotokoll), zdjęcia z dnia wprowadzenia się, rachunek za zlew kupiony przez ciebie, świadkowie."
+    },
+    "kueche-m04": {
+      "title": "Za mało ciepłej wody w kuchni",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli w kuchni nie ma wystarczającego zaopatrzenia w ciepłą wodę. Przykłady w zwierciadle czynszów (Mietspiegel): brak centralnego zaopatrzenia w ciepłą wodę, brak przepływowego podgrzewacza wody, brak bojlera.",
+      "check": "Czy w zlewie leci ciepła woda? Skąd: z instalacji centralnej, z przepływowego podgrzewacza wody czy z bojlera?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia zlewu i urządzenia pod zlewem lub nad nim."
+    },
+    "kueche-m05": {
+      "title": "Kuchnia bez prawdziwego ogrzewania",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli kuchni nie da się ogrzewać albo tylko drewnem lub węglem.",
+      "check": "Czy w kuchni jest kaloryfer podłączony do ogrzewania?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia kuchni, na których widać, że nie ma kaloryfera."
+    },
+    "kueche-m06": {
+      "title": "Brak miejsca lub przyłącza do zmywarki",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli w kuchni nie można postawić lub podłączyć zmywarki.",
+      "check": "Czy w kuchni jest miejsce na zmywarkę? Czy jest do niej przyłącze wody i odpływ, na przykład zawór z przyłączem pod zlewem?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia pod zlewem i miejsca, w którym miałoby stać urządzenie, z wymiarami."
+    },
+    "kueche-m07": {
+      "title": "Brak płytek na ścianie w strefie roboczej",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli na ścianie w strefie roboczej kuchni nie ma płytek ani porównywalnej ochrony (na przykład płyty ze szkła lub tworzywa sztucznego).",
+      "check": "Obejrzyj ścianę za kuchenką, zlewem i blatem: czy są płytki albo zmywalna płyta?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia ściany w strefie roboczej."
+    },
+    "kueche-p01": {
+      "title": "Wysokiej jakości podłoga w kuchni",
+      "explain": "Cecha plus (Plus-Merkmal) przy wysokiej jakości płytkach, wysokiej jakości linoleum, wysokiej jakości panelach laminowanych do pomieszczeń wilgotnych, parkiecie lub lastryko jako podłodze w kuchni, zawsze w dobrym stanie. Dotyczy to klas okresu budowy (Baualtersklassen) do 2009 włącznie. Co znaczy „hochwertig” (wysokiej jakości), zwierciadło czynszów (Mietspiegel) nie mówi dokładnie.",
+      "check": "Jaka podłoga jest w kuchni? Czy jest w dobrym stanie, bez pęknięć, dziur lub mocnego zużycia? Zwróć uwagę na granicę dotyczącą roku budowy.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia uszkodzeń podłogi z datą."
+    },
+    "kueche-p02": {
+      "title": "Duża oddzielna kuchnia od 14 m²",
+      "explain": "Cecha plus (Plus-Merkmal) przy własnej, oddzielonej kuchni o powierzchni podłogi co najmniej 14 m².",
+      "check": "Czy kuchnia jest osobnym pomieszczeniem? Zmierz długość i szerokość i pomnóż długość przez szerokość.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: szkic z wymiarami, jeśli kuchnia jest mniejsza."
+    },
+    "kueche-p03": {
+      "title": "Kuchnia na zabudowę z szafkami, kuchenką i zlewem",
+      "explain": "Cecha plus (Plus-Merkmal) przy kuchni na zabudowę (Einbauküche) z szafkami górnymi i dolnymi oraz kuchenką i zlewem.",
+      "check": "Czy wynajmujący zapewnił kuchnię na zabudowę? Czy ma szafki na górze i na dole, kuchenkę i zlew? Kuchnia opłacona przez ciebie się nie liczy (jeśli wynajmujący nie zwrócił ci kosztów). Jeśli kuchnia została przejęta przez ciebie od poprzedniego najemcy, zasięgnij porady.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: protokół zdawczo-odbiorczy (Übergabeprotokoll), umowa najmu, rachunki i zdjęcia z dnia wprowadzenia się."
+    },
+    "kueche-p04": {
+      "title": "Płyta ceramiczna (Ceran) lub indukcyjna",
+      "explain": "Cecha plus (Plus-Merkmal) przy płycie ceramicznej (Ceran-Kochfeld) lub płycie indukcyjnej. Dotyczy to klas okresu budowy (Baualtersklassen) do 2001 włącznie.",
+      "check": "Czy kuchenka ma gładką szklaną powierzchnię zamiast metalowych płyt grzejnych? Czy zapewnił ją wynajmujący? Zwróć uwagę na granicę dotyczącą roku budowy.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów."
+    },
+    "kueche-p05": {
+      "title": "Okap w kuchni",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli kuchnia ma wyciąg oparów (okap kuchenny).",
+      "check": "Czy nad kuchenką jest okap, który wciąga opary? Czy zapewnił go wynajmujący?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów."
+    },
+    "kueche-p06": {
+      "title": "Lodówka, zamrażarka lub zmywarka",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli wynajmujący zapewnia lodówkę, zamrażarkę szafową lub skrzyniową albo zmywarkę.",
+      "check": "Czy któreś z tych urządzeń należy do wynajmującego? Czy jest wpisane w umowie najmu albo w protokole zdawczo-odbiorczym (Übergabeprotokoll)? Własne urządzenia się nie liczą.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: rachunki za urządzenia kupione przez ciebie."
+    },
+    "kueche-p07": {
+      "title": "Wolnostojący blok kuchenny (wyspa kuchenna)",
+      "explain": "Cecha plus (Plus-Merkmal) przy bloku kuchennym stojącym swobodnie w pomieszczeniu, z blatem roboczym i możliwością gotowania lub zlewem.",
+      "check": "Czy w kuchni jest blok, który można obejść dookoła, z wbudowaną kuchenką lub zlewem?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów."
+    },
+    "umfeld-m01": {
+      "title": "Szczególnie głośne położenie",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli mieszkanie jest położone w szczególnie głośnym miejscu. Przykłady w zwierciadle czynszów (Mietspiegel): przy głównej ulicy o dużym ruchu albo bezpośrednio przy lotnisku, z uciążliwym hałasem i kurzem. Przyczyną mogą być też duże fabryki i zakłady przemysłowe, hałas z firm, restauracji lub imprez.",
+      "check": "Zwierciadło czynszów odsyła do strategicznych map hałasu (Strategische Lärmkarten) Senatu ds. Środowiska (Senatsverwaltung für Umwelt). Zobaczysz tam hałas przy fasadzie twojego budynku: www.berlin.de/sen/uvk/umwelt/laerm/laermminderungsplanung-berlin/laermkarten/. Zapisz też, skąd dochodzi hałas i kiedy.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: wydruk mapy hałasu dla twojego adresu, dziennik hałasu (Lärmprotokoll) z datą i godziną, zdjęcia lub filmy."
+    },
+    "umfeld-m02": {
+      "title": "Szczególnie silny zapach w okolicy",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli lokalizacja jest szczególnie obciążona zapachami. Zwierciadło czynszów (Mietspiegel) nie podaje przykładów ani wartości granicznych.",
+      "check": "Czy w pobliżu jest coś, co regularnie wydziela silny zapach, na przykład jakiś zakład? Jak często i jak mocno?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: protokół zapachów z datą i godziną, zdjęcia źródła, skargi."
+    },
+    "umfeld-m03": {
+      "title": "Brak miejsca na rowery na posesji",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli na posesji nie ma możliwości postawienia rowerów.",
+      "check": "Czy na podwórzu lub w budynku jest miejsce na rowery? Czy mieszkańcy mogą z niego korzystać?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia podwórza i regulamin domu (Hausordnung), jeśli rowery są tam zakazane."
+    },
+    "umfeld-m04": {
+      "title": "Bardzo zaniedbana okolica",
+      "explain": "Tylko w Mietspiegel 2024. Cecha minus (Minus-Merkmal) przy lokalizacji w mocno zaniedbanej okolicy. Mietspiegel 2024 nie podaje przykładów.",
+      "check": "Jak wygląda okolica: opuszczone budynki, dużo śmieci, zniszczone chodniki? Co znaczy „stark vernachlässigt” (mocno zaniedbana), zwierciadło czynszów (Mietspiegel) nie mówi dokładnie.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia okolicy z datą."
+    },
+    "umfeld-p01": {
+      "title": "Szczególnie cicha lokalizacja",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli mieszkanie jest położone szczególnie cicho. Przykłady w zwierciadle czynszów (Mietspiegel): przy ulicy o uspokojonym ruchu, przy terenie przypominającym park albo gdy na ulicy są ograniczenia budowlane, takie jak słupki, zwężona jezdnia lub nasadzenia roślin.",
+      "check": "Jaki hałas jest przy twoich oknach, w dzień i w nocy? Strategiczne mapy hałasu (Strategische Lärmkarten) Senatu pokazują hałas drogowy przy elewacji. Co znaczy „besonders ruhig” (szczególnie cicho), zwierciadło czynszów nie mówi dokładnie.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne dla ciebie: wydruk mapy hałasu, protokół hałasu z datą i godziną."
+    },
+    "umfeld-p02": {
+      "title": "Ładnie zagospodarowana posesja",
+      "explain": "Cecha plus (Plus-Merkmal) przy otoczeniu mieszkania na posesji zagospodarowanym z dużym nakładem. Przykłady w zwierciadle czynszów (Mietspiegel): plac zabaw dla dzieci (tylko jeśli budynek był gotowy przed 2003 rokiem, w Mietspiegel 2024: przed 2002 rokiem), ławki lub strefy wypoczynku, dobrze utwardzone ścieżki z terenami zielonymi i oświetleniem.",
+      "check": "Co jest na samej posesji, a nie w publicznym parku obok? W jakim jest stanie? Co znaczy „aufwändig” (z dużym nakładem), zwierciadło czynszów nie mówi dokładnie.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne dla ciebie: zdjęcia podwórza."
+    },
+    "umfeld-p03": {
+      "title": "Parking od wynajmującego w pobliżu",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli wynajmujący udostępnia w pobliżu miejsca parkingowe dla samochodów, w wystarczającej liczbie.",
+      "check": "Czy twój wynajmujący oferuje miejsca parkingowe, na przykład na podwórzu lub w garażu? Sąd Landgericht Berlin orzekł w sprawie Mietspiegel 2017: liczyć się mogą także miejsca, za które płaci się dodatkowo. Ale tylko wtedy, gdy w chwili doręczenia (Zugang) żądania podwyżki czynszu (Mieterhöhungsverlangen) naprawdę masz wynajęte miejsce od wynajmującego albo wynajmujący wcześniej ci je zaproponował (wyrok z 16.10.2018 – 67 S 150/18). Inne sądy mogą to oceniać inaczej.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne dla ciebie: pisma lub oferty wynajmującego dotyczące miejsc parkingowych."
+    },
+    "umfeld-p04": {
+      "title": "Własny ogród lub ogród dla najemców",
+      "explain": "Cecha plus (Plus-Merkmal) przy ogrodzie tylko dla ciebie albo przy ogrodzie dla najemców (Mietergarten) bez opłaty. Cecha plus także przy ogrodzie, który należy do mieszkania i do którego można wejść bezpośrednio z mieszkania.",
+      "check": "Czy do mieszkania należy ogród? Czy jest wpisany w umowie najmu? Czy musisz za niego dodatkowo płacić? Czy dzielisz go z innymi?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej."
+    },
+    "umfeld-p05": {
+      "title": "Uprzywilejowana lokalizacja w centrum miasta",
+      "explain": "Tylko w Mietspiegel 2024. Cecha plus (Plus-Merkmal) przy uprzywilejowanej lokalizacji w centrum (Citylage): blisko znanych miejsc do robienia zakupów, korzystania z usług i mieszkania, które mają znaczenie ponadregionalne.",
+      "check": "Czy mieszkanie leży bezpośrednio przy znanym, dużym miejscu handlowym lub biznesowym w mieście? Co dokładnie się liczy, Mietspiegel 2024 nie mówi.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej."
+    },
+    "wohnung-m01": {
+      "title": "Przeważnie okna z jedną szybą",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli większość okien ma tylko jedną zwykłą szybę (Einfachverglasung). Nie chodzi o podwójne okna skrzynkowe (Doppel-Kastenfenster): to dwa okna jedno za drugim, z odstępem między nimi.",
+      "check": "Policz wszystkie okna w mieszkaniu. Ile z nich ma tylko jedną szybę w jednej ramie? „Überwiegend” (przeważnie) oznacza według znaczenia słowa: ponad połowę. Okno skrzynkowe rozpoznasz po tym, że otwierasz dwa skrzydła okna, jedno za drugim.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: lista wszystkich okien w każdym pomieszczeniu i zdjęcia."
+    },
+    "wohnung-m02": {
+      "title": "Instalacja elektryczna niewystarczająca lub przestarzała",
+      "explain": "Cecha minus (Minus-Merkmal) przy niewystarczającej instalacji elektrycznej. Przykłady w zwierciadle czynszów (Mietspiegel): brak wystarczającego pionu elektrycznego (Elektrosteigleitung – główny przewód w budynku prowadzący do mieszkania) i/lub instalacja niezgodna z przepisami VDE, na przykład brak wyłącznika różnicowoprądowego (FI-Schalter) lub brak połączeń wyrównawczych (Potentialausgleich – połączenie metalowych części, takich jak rury, z uziemieniem).",
+      "check": "Zajrzyj do skrzynki z bezpiecznikami w mieszkaniu: czy jest wyłącznik różnicowoprądowy (FI-Schalter)? Zwykle ma przycisk testowy z literą „T”. Czy bezpieczniki wyskakują, gdy kilka urządzeń działa jednocześnie, na przykład czajnik i pralka? Czy instalacja jest zgodna z przepisami VDE, na pewno może ocenić tylko wykwalifikowany elektryk.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcie skrzynki z bezpiecznikami, notatki z datą o wyskakujących bezpiecznikach, pisma do wynajmującego o problemach."
+    },
+    "wohnung-m03": {
+      "title": "Przewody elektryczne przeważnie widoczne na ścianie",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli przewody elektryczne przeważnie biegną widocznie na tynku, czyli nie w ścianie.",
+      "check": "Przejdź przez wszystkie pomieszczenia: czy kable lub listwy kablowe biegną odkryte po ścianach lub sufitach? W ponad połowie mieszkania?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia z każdego pomieszczenia."
+    },
+    "wohnung-m04": {
+      "title": "Rury wodne przeważnie widoczne na ścianie",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli rury doprowadzające wodę i rury odpływowe (instalacja sanitarna) przeważnie biegną widocznie na tynku. Nie chodzi tu o rury grzewcze.",
+      "check": "Zajrzyj do łazienki i kuchni: czy rury wodne i odpływowe biegną odkryte po ścianie?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia rur w łazience i kuchni."
+    },
+    "wohnung-m05": {
+      "title": "Brak miejsca na pralkę",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli ani w łazience, ani w kuchni nie da się postawić lub podłączyć pralki.",
+      "check": "Czy w łazience lub kuchni jest miejsce z kranem do podłączenia pralki i z odpływem? Czy zmieści się tam zwykła pralka?",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia i wymiary łazienki i kuchni, zdjęcie przyłączy albo miejsca, gdzie ich brakuje."
+    },
+    "wohnung-m06": {
+      "title": "Zły rozkład mieszkania",
+      "explain": "Cecha minus (Minus-Merkmal) przy złym rozkładzie pomieszczeń (Grundriss, Schnitt). Przykłady w zwierciadle czynszów (Mietspiegel): pokój „uwięziony” (gefangenes Zimmer – można do niego wejść tylko przez inny pokój) i/lub pokój przechodni (Durchgangszimmer – trzeba przez niego przejść, żeby dostać się do innego pokoju).",
+      "check": "Narysuj prosty plan mieszkania. Czy musisz przejść przez jeden pokój, żeby dostać się do innego? Zwierciadło czynszów podaje tylko przykłady; czy inne rozkłady też są „schlecht” (złe), w razie sporu rozstrzyga sąd.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: rzut mieszkania (na przykład z dokumentów najmu) albo własny szkic z zaznaczonymi drzwiami."
+    },
+    "wohnung-m07": {
+      "title": "Brak balkonu, tarasu i loggii",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli mieszkanie nie ma balkonu, tarasu (także na dachu), loggii ani ogrodu zimowego lub ogrodu na dachu. Nie dotyczy to sytuacji, gdy balkon z przyczyn budowlanych i/lub prawnych nie jest możliwy albo nie jest dozwolony.",
+      "check": "Czy mieszkanie ma jedno z wymienionych miejsc na zewnątrz? Jeśli nie: czy balkon byłby niemożliwy z przyczyn budowlanych lub prawnych (na przykład z powodu ochrony zabytków (Denkmalschutz)), zwykle nie możesz sprawdzić samodzielnie. Zwierciadło czynszów (Mietspiegel) nie mówi, kto w razie sporu musi to udowodnić. Zasięgnij w tej sprawie porady.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia elewacji. Czy wyjątek ma zastosowanie, trzeba wyjaśnić w razie sporu."
+    },
+    "wohnung-m08": {
+      "title": "Parter bez ochrony przed włamaniem lub spojrzeniami",
+      "explain": "Tylko w Mietspiegel 2026. Cecha minus (Minus-Merkmal) przy mieszkaniu na parterze, jeśli nie wszystkie okna mają ochronę przed włamaniem i/lub przed spojrzeniami z zewnątrz. Przykłady w zwierciadle czynszów (Mietspiegel): kraty, rolety zewnętrzne, alarm okienny.",
+      "check": "Czy twoje mieszkanie jest na parterze? Podejdź do każdego okna: czy są kraty, rolety albo alarm? Cecha na pewno ma zastosowanie, jeśli żadne okno nie jest zabezpieczone. Jeśli zabezpieczenia brakuje tylko w części okien, nie jest jasne, czy cecha ma zastosowanie.",
+      "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcia każdego okna od środka i z zewnątrz."
+    },
+    "wohnung-p01": {
+      "title": "Schowek lub szafa wnękowa w mieszkaniu",
+      "explain": "Cecha plus (Plus-Merkmal) przy schowku (Abstellraum) w mieszkaniu albo przy szafie wnękowej (Einbauschrank). W Mietspiegel 2026 schowek musi mieć co najmniej 1 m² powierzchni podłogi.",
+      "check": "Czy jest schowek lub na stałe wbudowana szafa, które zapewnił wynajmujący? Zmierz powierzchnię schowka.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: wymiary schowka; dokumenty, jeśli szafa została zamontowana przez ciebie."
+    },
+    "wohnung-p02": {
+      "title": "Duży balkon, taras lub loggia",
+      "explain": "Cecha plus (Plus-Merkmal) przy dużym, przestronnym balkonie, tarasie (także na dachu), loggii albo ogrodzie zimowym lub ogrodzie na dachu od 4 m² (w Mietspiegel 2026: od 4 m² powierzchni podłogi).",
+      "check": "Zmierz powierzchnię balkonu przy podłodze: długość razy głębokość. Czy to co najmniej 4 m²?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: wymiary i zdjęcie z miarką składaną, jeśli balkon jest mniejszy."
+    },
+    "wohnung-p03": {
+      "title": "Ogrzewanie podłogowe w większości pomieszczeń",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli mieszkanie ma przeważnie ogrzewanie podłogowe.",
+      "check": "W ilu pomieszczeniach podłoga robi się ciepła od ogrzewania? W ponad połowie pomieszczeń?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów."
+    },
+    "wohnung-p04": {
+      "title": "Sztukateria lub boazeria w dobrym stanie",
+      "explain": "Cecha plus (Plus-Merkmal) przy wykończeniu sufitów i/lub ścian wykonanym z dużym nakładem, na przykład sztukaterii lub boazerii drewnianej. Musi być w dobrym stanie, i to w przeważającej liczbie pokoi mieszkalnych.",
+      "check": "Policz swoje pokoje mieszkalne. W ilu jest sztukateria lub boazeria? Czy jest dobrze zachowana, czy uszkodzona, zamalowana albo to tylko wąski pasek? Co uznaje się za „aufwändig” (wykonane z dużym nakładem), zwierciadło czynszów (Mietspiegel) nie mówi dokładnie.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia sufitów w każdym pomieszczeniu, także uszkodzeń."
+    },
+    "wohnung-p05": {
+      "title": "Rury grzewcze przeważnie niewidoczne",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli rury grzewcze są przeważnie niewidoczne (w Mietspiegel 2026: niewidoczne na tynku). Dotyczy to klas okresu budowy (Baualtersklassen) do 1990 roku włącznie.",
+      "check": "Czy widzisz rury prowadzące do grzejników? W ilu pomieszczeniach biegną odkryte po ścianie?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia rur w każdym pomieszczeniu."
+    },
+    "wohnung-p06": {
+      "title": "Rolety lub zewnętrzna osłona przeciwsłoneczna",
+      "explain": "W Mietspiegel 2026: cecha plus (Plus-Merkmal) przy zamontowanej na zewnątrz osłonie przed słońcem (zacienienie, Verschattung) w przeważającej liczbie okien w pokojach mieszkalnych, na przykład przy roletach zewnętrznych (Rollläden). W Mietspiegel 2024 jest tylko: rolety (Rollläden).",
+      "check": "Policz okna w pokojach mieszkalnych. Ile z nich ma na zewnątrz rolety, markizy lub żaluzje zewnętrzne? Rolety zamontowane wewnątrz nie są „außen angebracht” (zamontowane na zewnątrz).",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: lista okien i zdjęcia z zewnątrz."
+    },
+    "wohnung-p07": {
+      "title": "Pokój większy niż 40 m²",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli jeden pokój mieszkalny ma ponad 40 m².",
+      "check": "Zmierz swój największy pokój: długość razy szerokość.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów."
+    },
+    "wohnung-p08": {
+      "title": "Mieszkanie z niewieloma barierami",
+      "explain": "Cecha plus (Plus-Merkmal) przy urządzeniu mieszkania z ograniczonymi barierami (barrierearm): brak progów w mieszkaniu, przejście na balkon lub taras prawie bez progu i wystarczająco dużo miejsca do poruszania się w mieszkaniu. W Mietspiegel 2024 jest dodatkowo: „und/oder barrierearme Badgestaltung” (i/lub łazienka z ograniczonymi barierami). Zwierciadło czynszów (Mietspiegel) nie mówi, jak wysoki może być próg.",
+      "check": "Czy między pokojami są progi? Jak wysoki jest stopień na balkon? Czy przez drzwi i korytarz da się przejechać z chodzikiem (rollatorem) lub wózkiem inwalidzkim?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia progów z miarką składaną."
+    },
+    "wohnung-p09": {
+      "title": "Wysokiej jakości podłoga w większości pokoi mieszkalnych",
+      "explain": "Cecha plus (Plus-Merkmal) przy wysokiej jakości parkiecie, kamieniu naturalnym lub sztucznym, płytkach albo równorzędnej podłodze w przeważającej liczbie pokoi mieszkalnych. W Mietspiegel 2026 przedpokój się liczy, a kuchnia i łazienka nie. Co jest „hochwertig” (wysokiej jakości) i „gleichwertig” (równorzędne), zwierciadło czynszów (Mietspiegel) nie mówi dokładnie.",
+      "check": "Jaka podłoga jest w którym pomieszczeniu? Kto ją położył: wynajmujący czy ty? Czy jest w dobrym stanie?",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia podłóg, protokół zdawczo-odbiorczy (Übergabeprotokoll), dokumenty dotyczące podłóg położonych przez ciebie."
+    },
+    "wohnung-p10": {
+      "title": "Nowe okna termoizolacyjne lub dźwiękochłonne",
+      "explain": "Dla budynków lub mieszkań gotowych przed 2002 rokiem: cecha plus (Plus-Merkmal), jeśli przeważnie zamontowane są szyby termoizolacyjne (Wärmeschutzverglasung) lub okna dźwiękochłonne (Schallschutzfenster). W Mietspiegel 2026 w obu przypadkach z montażem od 2002 roku; w Mietspiegel 2024 „Einbau ab 2002” (montaż od 2002) jest podane tylko przy szybach termoizolacyjnych.",
+      "check": "Kiedy zamontowano okna? Często między szybami jest nadruk z rokiem lub producentem. Policz, ile okien jest nowych.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia nadruków między szybami."
+    },
+    "wohnung-p11": {
+      "title": "Drzwi do mieszkania z dodatkowym zabezpieczeniem przed włamaniem",
+      "explain": "Cecha plus (Plus-Merkmal) przy dodatkowym zabezpieczeniu drzwi do mieszkania przed włamaniem, na przykład wysokiej jakości zaczepy blokujące (Sperrbügel) i/lub zamki z wielopunktowym ryglowaniem, i to przy drzwiach wzmocnionych.",
+      "check": "Czy twoje drzwi do mieszkania mają zaczep blokujący albo zamek, który rygluje w kilku miejscach? Czy same drzwi są wzmocnione? Wymagane jest jedno i drugie.",
+      "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: zdjęcia drzwi i zamka."
+    }
+  },
+  "checker": {
+    "intro": "Wpisz dane z pisma od wynajmującego. Terminy i limity obliczamy według stałych reguł. Wynik opiera się tylko na twoich danych. Nie jest to prawna ocena twojej sprawy.",
+    "received": "Dzień, w którym pismo do ciebie dotarło",
+    "received_help": "Nie data na liście, tylko dzień, w którym list był w twojej skrzynce pocztowej lub skrytce pocztowej (Postfach).",
+    "last_change": "Od kiedy obowiązuje twój obecny czynsz?",
+    "last_change_help": "Dzień, w którym ostatnia podwyżka weszła w życie, czyli od którego trzeba było płacić wyższy czynsz. Jeśli nie było jeszcze żadnej podwyżki – początek umowy najmu. Podwyżki z powodu modernizacji lub kosztów eksploatacyjnych (Betriebskosten) się nie liczą.",
+    "current_rent": "Twój obecny czynsz netto bez kosztów dodatkowych (Nettokaltmiete) miesięcznie",
+    "current_rent_help": "Czynsz bez kosztów eksploatacyjnych (Betriebskosten) i bez kosztów ogrzewania.",
+    "rent_3y_ago": "Czynsz netto bez kosztów dodatkowych (Nettokaltmiete) trzy lata przed dniem, od którego ma obowiązywać nowy czynsz",
+    "rent_3y_ago_help": "To twój czynsz netto bez kosztów dodatkowych w dniu {date3y}. Jeśli mieszkasz tam dopiero od tego dnia lub krócej, wpisz czynsz z dnia wprowadzenia się. Zostaw to pole puste tylko wtedy, gdy twój czynsz od tego dnia się nie zmienił.",
+    "increases_559_560": "Podwyżki czynszu netto bez kosztów dodatkowych (Nettokaltmiete) z powodu modernizacji (§ 559 BGB) w tych trzech latach (€ miesięcznie)",
+    "demanded_rent": "Nowy czynsz netto bez kosztów dodatkowych (Nettokaltmiete), którego żąda wynajmujący",
+    "area": "Powierzchnia mieszkalna w m²",
+    "ovm_per_sqm": "Lokalny czynsz porównawczy (ortsübliche Vergleichsmiete) w € za m² (z kalkulatora)",
+    "requested_effective": "Od kiedy według wynajmującego ma obowiązywać nowy czynsz?",
+    "disclaimer": "Podane daty to daty kalendarzowe. Tylko przy terminie na pozew wynajmującego pokazujemy następny dzień roboczy, jeśli koniec terminu wypada w sobotę, niedzielę lub święto w Berlinie (§ 193 BGB). Swoje własne terminy planuj według daty kalendarzowej i lepiej odpowiedz kilka dni wcześniej.",
+    "result": {
+      "sperrfrist_fail": {
+        "title": "Żądanie dotarło być może za wcześnie",
+        "text": "Według stałej reguły obliczeniowej i twoich danych pismo dotarło mniej niż rok po ostatniej podwyżce czynszu. Zgodnie z orzecznictwem Federalnego Trybunału Sprawiedliwości (BGH) takie żądanie jest bezskuteczne (unwirksam) (§ 558 Abs. 1 Satz 2 BGB; BGH, VIII ZR 178/03). Dokładnie sprawdź daty. Nie wyrażaj zgody, zanim nie skorzystasz z porady."
+      },
+      "wartefrist_postponed": {
+        "title": "Nowy czynsz może obowiązywać dopiero później",
+        "text": "Według twoich danych w dniu podwyżki nie minie jeszcze 15 miesięcy od ostatniej zmiany twojego czynszu. Podwyżka może wtedy obowiązywać najwcześniej od dnia {effective} (§ 558 Abs. 1 Satz 1 BGB). Nie znaleźliśmy orzeczenia Federalnego Trybunału Sprawiedliwości (BGH), które wyjaśniałoby, co dla żądania oznacza zbyt wczesny termin podany przez wynajmującego. Skorzystaj z porady."
+      },
+      "over_cap": {
+        "title": "Powyżej limitu podwyżki (Kappungsgrenze)",
+        "text": "Według twoich danych żądany czynsz jest wyższy niż limit podwyżki (Kappungsgrenze) wynoszący {rate} w ciągu trzech lat (§ 558 Abs. 3 BGB). Według tego limitu z obliczeń wychodzi najwyżej {cap_rent}."
+      },
+      "over_ovm": {
+        "title": "Powyżej czynszu porównawczego",
+        "text": "Żądany czynsz jest wyższy niż czynsz porównawczy z twojego obliczenia według zwierciadła czynszów (Mietspiegel) ({ovm_rent}). Twoje obliczenie opiera się na twoich własnych danych o cechach. Wynajmujący może oceniać cechy inaczej. W razie sporu decyduje sąd."
+      },
+      "within_limits": {
+        "title": "Według twoich danych żaden limit nie został przekroczony",
+        "text": "Według twoich danych żądany czynsz nie jest wyższy niż limit podwyżki (Kappungsgrenze) i nie jest wyższy niż czynsz porównawczy z twojego obliczenia. To nie jest gwarancja. Sprawdź jeszcze raz swoje dane, zwłaszcza cechy, powierzchnię mieszkalną i czynsz sprzed trzech lat."
+      },
+      "no_ovm": {
+        "title": "Brak czynszu porównawczego",
+        "text": "Nie wpisano czynszu porównawczego. Dlatego sprawdzamy tylko limit podwyżki (Kappungsgrenze) i terminy. Użyj kalkulatora, aby oszacować czynsz porównawczy."
+      },
+      "requested_too_early": {
+        "title": "Podany termin jest za wczesny",
+        "text": "Wynajmujący podaje wcześniejszy termin, niż pozwala ustawa. Wyższy czynsz może obowiązywać najwcześniej od dnia {effective} (§ 558b Abs. 1 BGB, § 558 Abs. 1 Satz 1 BGB). Czy żądanie mimo to jest skuteczne, zależy od konkretnego przypadku. Skorzystaj z porady."
+      },
+      "need_rent_3y": {
+        "title": "Brak czynszu sprzed trzech lat",
+        "text": "Twój czynsz mógł się zmienić w ciągu ostatnich trzech lat albo nie znamy dnia ostatniej zmiany. Bez czynszu z dnia {base_date} nie możemy pewnie obliczyć limitu podwyżki (Kappungsgrenze). Wpisz ówczesny czynsz. Jeśli mieszkasz tam krócej niż trzy lata, wpisz czynsz z dnia wprowadzenia się."
+      },
+      "no_last_change": {
+        "title": "Brak dnia ostatniej podwyżki czynszu",
+        "text": "Nie wpisano, od kiedy obowiązuje twój obecny czynsz. Dlatego nie możemy sprawdzić rocznego okresu karencji (Sperrfrist) ani 15-miesięcznego okresu oczekiwania (Wartefrist). Wpisz dzień ostatniej podwyżki albo początek umowy najmu, jeśli nie było jeszcze żadnej podwyżki."
+      },
+      "over_lwu": {
+        "title": "Powyżej zobowiązań spółek należących do Berlina",
+        "text": "Według twoich danych żądany czynsz jest wyższy, niż pozwalają zobowiązania spółek mieszkaniowych należących do Berlina (landeseigene Wohnungsunternehmen): najwyżej 11% w ciągu trzech lat i najwyżej 50, 75 lub 100 € więcej, zależnie od powierzchni mieszkalnej. Z obliczeń wychodzi najwyżej {lwu_cap}. Te zobowiązania są dobrowolne. Nie wiadomo, czy można je wyegzekwować w sądzie. Zwróć się do rzecznika (Ombudsstelle) (www.ombud-lwu.de) lub do poradni."
+      }
+    },
+    "increases_559_560_help": "Tylko podwyżki czynszu bez kosztów dodatkowych (Kaltmiete) po modernizacji. Zmian zaliczki na koszty eksploatacyjne lub koszty ogrzewania tutaj nie wpisuj. Tylko jeśli twój czynsz zawiera ryczałt na koszty eksploatacyjne (czynsz brutto, Bruttomiete), liczą się także podwyżki tego ryczałtu. Jeśli nie masz pewności, skorzystaj z porady.",
+    "requested_effective_help": "Czy w piśmie jest termin, od którego ma obowiązywać nowy czynsz? Wpisz go tutaj.",
+    "area_help": "Liczy się rzeczywista powierzchnia mieszkalna, a nie liczba w umowie najmu."
+  },
+  "letters": {
+    "zustimmung": {
+      "title": "Zgoda (Zustimmung)",
+      "when": "Gdy po sprawdzeniu podwyżki uważasz, że jest prawidłowa w pełnej wysokości. Na przykład: nowy czynsz nie jest wyższy niż lokalny czynsz porównawczy (ortsübliche Vergleichsmiete) i nie jest wyższy niż limit podwyżki (Kappungsgrenze), a okresy oczekiwania zostały dotrzymane.",
+      "risks": "Twoja zgoda jest ostateczna. Nie możesz jej cofnąć, gdy tylko dotrze do wynajmującego. Nowy czynsz uważa się wtedy za uzgodniony, z reguły także wtedy, gdy był za wysoki. Tylko w wyjątkowych przypadkach, na przykład przy świadomym wprowadzeniu w błąd, można podważyć zgodę (anfechten). Jeśli twoja umowa najmu zaczęła się w czerwcu 2015 lub później, najpierw sprawdź hamulec czynszowy (Mietpreisbremse): po wyrażeniu zgody co do zasady nie możesz już powoływać się na hamulec czynszowy przeciwko nowemu czynszowi (BGH, VIII ZR 300/21). Jeśli sprawdzenie wykazało problem, nie wyrażaj zgody, zanim nie skorzystasz z porady.",
+      "explain": "Tym listem wyrażasz zgodę na podwyżkę czynszu. Wpisz swój obecny czynsz netto bez kosztów dodatkowych (Nettokaltmiete), nowy czynsz i datę, od której płacisz. Kwoty powinny dokładnie odpowiadać pismu wynajmującego. List wyraźnie mówi, że poza tym nic w umowie najmu się nie zmienia. Nie podpisuj zamiast tego formularza od wynajmującego, jeśli nie rozumiesz wszystkiego, co w nim jest. Jeśli w twojej umowie jest czynsz brutto lub czynsz z wliczonymi kosztami (Brutto- oder Inklusivmiete) zamiast czynszu netto bez kosztów dodatkowych, najpierw skorzystaj z porady."
+    },
+    "teilzustimmung": {
+      "title": "Częściowa zgoda (Teilzustimmung)",
+      "when": "Gdy uważasz, że część podwyżki jest uzasadniona, ale nie cała kwota. Na przykład: czynsz porównawczy według twojego obliczenia jest pomiędzy twoim obecnym a żądanym czynszem.",
+      "risks": "Częściowa zgoda też jest ostateczna. Czynsz, na który się zgadzasz, uważa się za uzgodniony. O resztę wynajmujący może mimo to pozwać cię do sądu. Dlatego zgadzaj się tylko na kwotę, którą na pewno uważasz za prawidłową. Potem płać tylko tę kwotę, a nie pełną żądaną kwotę; sprawdź polecenie zapłaty (Lastschrift). Jeśli twoja umowa najmu zaczęła się w czerwcu 2015 lub później, najpierw sprawdź hamulec czynszowy (Mietpreisbremse): po wyrażeniu zgody co do zasady nie możesz już powoływać się na hamulec czynszowy przeciwko nowemu czynszowi (BGH, VIII ZR 300/21). Najpierw dokładnie oblicz kwotę i skorzystaj z porady.",
+      "explain": "Tym listem zgadzasz się na mniejszą podwyżkę, niż żąda wynajmujący. Wpisz swój obecny czynsz netto bez kosztów dodatkowych (Nettokaltmiete), czynsz, na który się zgadzasz, i datę. Możesz wymienić cechy, które oceniasz inaczej niż wynajmujący. Nie musisz jednak tego robić. Lista jest wyraźnie oznaczona jako „nicht abschließend” (niewyczerpująca): później możesz wskazać kolejne punkty. List wyraźnie mówi, że poza tym nic w umowie najmu się nie zmienia."
+    },
+    "ablehnung": {
+      "title": "Odmowa (Ablehnung)",
+      "when": "Gdy nie chcesz zgodzić się na podwyżkę, na przykład dlatego, że uważasz ją za zbyt wysoką albo uważasz, że pismo zawiera błędy.",
+      "risks": "Odmowa nie kończy sprawy. Wynajmujący może w ciągu trzech miesięcy po upływie twojego terminu pozwać cię o wyrażenie zgody. Kto przegra proces, ponosi jego koszty (§ 91 ZPO). Jeśli sąd przyzna rację wynajmującemu, twoją zgodę uważa się za udzieloną, gdy nie można już nic zrobić przeciwko wyrokowi (prawomocność, Rechtskraft, § 894 ZPO). Wtedy musisz zapłacić wyższy czynsz od dnia podwyżki, czyli także za miesiące w trakcie procesu (§ 558b Abs. 1 BGB). Najlepiej odkładaj na to pieniądze. Przy podwyżce czynszu na podstawie § 558 BGB do czasu rozstrzygnięcia płacisz dalej dotychczasowy czynsz, a nie wyższy. Nie dotyczy to modernizacji, kosztów eksploatacyjnych (Betriebskosten), czynszu indeksowanego lub stopniowanego (Index- oder Staffelmiete) ani mieszkania socjalnego. Sprawdź polecenie zapłaty (Lastschrift).",
+      "explain": "Tym listem odmawiasz zgody na podwyżkę czynszu. Ustawa nie wymaga uzasadnienia. Możesz jednak wymienić cechy z pomocy orientacyjnej (Orientierungshilfe), które oceniasz inaczej. Są to cechy plus, które wynajmujący uwzględnił, a których nie uznajesz. Oraz cechy minus, których nie uwzględnił. Wybieraj tylko cechy sprawdzone osobiście przez ciebie. Nie musisz wysyłać odmowy: jeśli nic nie zrobisz, to również nie wyrażasz zgody. List jasno pokazuje jednak twoje stanowisko."
+    },
+    "nachfrage": {
+      "title": "Zapytanie o cechy",
+      "when": "Gdy w piśmie wynajmującego nie ma informacji, jakie cechy uwzględnił, albo gdy chcesz sprawdzić dane, takie jak powierzchnia mieszkalna, lokalizacja (Wohnlage) lub okres budowy (Baualter).",
+      "risks": "Zapytanie nie wstrzymuje biegu twojego terminu. Termin na wyrażenie zgody biegnie dalej do końca drugiego miesiąca kalendarzowego po doręczeniu (Zugang). Wynajmujący nie musi odpowiadać. Nie czekaj zbyt długo na odpowiedź.",
+      "explain": "Tym listem pytasz, jak wynajmujący zaklasyfikował twoje mieszkanie. Nie wyrażasz przez to ani zgody, ani odmowy. W polu „Dalsze pytania” możesz dodać własne pytania, na przykład o kopię świadectwa energetycznego (Energieausweis)."
+    },
+    "fields": {
+      "tenant_name": "Twoje imię i nazwisko (przy kilku najemcach – imiona i nazwiska wszystkich)",
+      "tenant_address": "Twój adres",
+      "landlord_name": "Nazwa wynajmującego lub zarządcy budynku (Hausverwaltung)",
+      "landlord_address": "Adres wynajmującego",
+      "contract_number": "Numer umowy najmu lub numer klienta (jeśli jest)",
+      "place": "Miejscowość",
+      "demand_date": "Data pisma od wynajmującego",
+      "received": "Dzień, w którym pismo do ciebie dotarło",
+      "new_rent": "Nowy czynsz netto bez kosztów dodatkowych (Nettokaltmiete) według wynajmującego (miesięcznie)",
+      "effective": "Od kiedy płacisz nowy czynsz?",
+      "current_rent": "Twój obecny czynsz netto bez kosztów dodatkowych (Nettokaltmiete) (miesięcznie)",
+      "agreed_rent": "Czynsz netto bez kosztów dodatkowych (Nettokaltmiete), na który się zgadzasz (miesięcznie)",
+      "disputed_plus": "Cechy plus podane przez wynajmującego, których nie uznajesz",
+      "missing_minus": "Cechy minus, których wynajmujący nie uwzględnił",
+      "questions": "Dalsze pytania (opcjonalnie)",
+      "own_text": "Własny dopisek (opcjonalnie)",
+      "tenant_name_help": "Tak, jak jest w umowie najmu. Jeśli umowę podpisało kilka osób, wszystkie powinny się podpisać.",
+      "received_help": "To ważne dla wszystkich terminów. Zanotuj datę i zachowaj kopertę.",
+      "contract_number_help": "Często jest na górze pisma od wynajmującego.",
+      "agreed_rent_help": "Wpisz tylko kwotę, którą na pewno uważasz za prawidłową. Ta kwota cię wiąże.",
+      "effective_help": "Wpisz termin z pisma wynajmującego. Jeśli ten termin jest wcześniejszy niż początek trzeciego miesiąca kalendarzowego po doręczeniu (Zugang), obowiązuje późniejszy dzień. Kalkulator wpisuje w to pole późniejszy z tych dwóch dni. Sprawdź to.",
+      "disputed_plus_help": "Wybieraj tylko cechy sprawdzone osobiście przez ciebie.",
+      "missing_minus_help": "Wybieraj tylko cechy sprawdzone przez ciebie w twoim mieszkaniu, na które masz dowody.",
+      "own_text_help": "Tego tekstu nie sprawdzamy. Trafia do listu bez zmian. Pisz tylko prawdziwe fakty. W zgodzie nie wpisuj żadnych warunków ani kontrpropozycji („nur wenn …” – „tylko jeśli …”). Wtedy zgoda może zostać uznana za odmowę.",
+      "current_rent_help": "Bez kosztów eksploatacyjnych (Betriebskosten) i kosztów ogrzewania."
+    },
+    "intro": {
+      "title": "List do wynajmującego",
+      "text": "List jest po niemiecku, bo twój wynajmujący musi go zrozumieć. Wyjaśnienia tutaj są w twoim języku. Przed wysłaniem dokładnie przeczytaj list. Nie sprawdzamy twojej sprawy."
+    },
+    "send": {
+      "title": "Jak wysłać list",
+      "text": "Podpisz list. Wyślij go tak, aby później móc wykazać, że dotarł: na przykład listem poleconym z potwierdzeniem wrzucenia do skrzynki (Einwurf-Einschreiben) albo doręcz go osobiście w obecności świadka. Zachowaj kopię. List musi dotrzeć przed upływem twojego terminu."
+    }
+  },
+  "rules": {
+    "mietspiegel_choice": {
+      "title": "Które zwierciadło czynszów (Mietspiegel) obowiązuje?",
+      "text": "Liczy się dzień, w którym żądanie podwyżki czynszu (Mieterhöhungsverlangen) do ciebie dotrze (doręczenie, Zugang). Dla tego dnia ustala się lokalny czynsz porównawczy (ortsübliche Vergleichsmiete) (BGH, VIII ZR 22/20, Rn. 29). Zwykle stosuje się zwierciadło czynszów obowiązujące w tym dniu: od 28.05.2026 Mietspiegel 2026, od 30.05.2024 do 27.05.2026 Mietspiegel 2024. Uwaga: jeśli pismo dotarło między 01.09.2025 a 27.05.2026, sąd może też zastosować Mietspiegel 2026 albo doliczyć dopłatę (Zuschlag) (LG Berlin, 65 S 527/13; BGH, VIII ZR 295/15). Wtedy wykonaj obliczenia według obu. Przy hamulcu czynszowym (Mietpreisbremse) liczy się natomiast początek stosunku najmu."
+    },
+    "ovm": {
+      "title": "Lokalny czynsz porównawczy (ortsübliche Vergleichsmiete)",
+      "text": "To czynsz, który jest typowy w Berlinie dla podobnych mieszkań (§ 558 Abs. 2 BGB). Kalkulator bierze do tego wartość z twojego pola w tabeli zwierciadła czynszów (Mietspiegel) i ustala jej miejsce w przedziale za pomocą pomocy orientacyjnej (Orientierungshilfe). Wynik jest szacunkiem na podstawie twoich danych. Nowy czynsz nie może przekraczać tej wartości."
+    },
+    "netting": {
+      "title": "Jak ustala się miejsce w przedziale (Spanne)",
+      "text": "W każdej z pięciu grup policz cechy plus i cechy minus. Więcej plusów: grupa liczy się jako plus. Więcej minusów: jako minus. Tyle samo plusów i minusów: 0. Następnie rozlicz grupy między sobą. Każdy plus przesuwa wartość w górę o jedną piątą odległości od wartości średniej do wartości górnej, każdy minus w dół o jedną piątą odległości do wartości dolnej (Mietspiegel Nr. 10.3). Zwierciadło czynszów (Mietspiegel) nie mówi, czy przy tym zaokrągla się dla każdej grupy osobno, czy tylko raz. Możliwe są odchylenia o jeden cent."
+    },
+    "consent_deadline": {
+      "title": "Twój termin na wyrażenie zgody",
+      "text": "Masz czas do końca drugiego miesiąca kalendarzowego po miesiącu, w którym pismo dotarło (§ 558b Abs. 2 BGB). Twoja odpowiedź powinna dotrzeć do wynajmującego do tego dnia. Jeśli ten dzień wypada w sobotę, niedzielę lub święto w Berlinie, to zgodnie z brzmieniem § 193 BGB koniec terminu przesuwa się na następny dzień roboczy. Nie znaleźliśmy orzeczenia sądu dotyczącego dokładnie tej sytuacji. Dlatego nie polegaj na tym."
+    },
+    "effective": {
+      "title": "Od kiedy obowiązuje nowy czynsz",
+      "text": "Jeśli się zgodzisz, płacisz wyższy czynsz od początku trzeciego miesiąca kalendarzowego po doręczeniu (Zugang) (§ 558b Abs. 1 BGB). Jeśli wynajmujący podaje późniejszy termin, obowiązuje późniejszy termin. Jeśli w tym terminie od ostatniej zmiany czynszu nie minie jeszcze 15 miesięcy, podwyżka może obowiązywać najwcześniej po upływie tych 15 miesięcy (§ 558 Abs. 1 Satz 1 BGB)."
+    },
+    "sue_deadline": {
+      "title": "Termin na pozew wynajmującego",
+      "text": "Jeśli się nie zgodzisz albo zgodzisz się tylko częściowo, wynajmujący może pozwać cię o wyrażenie zgody. Pozew musi zostać wniesiony w ciągu trzech miesięcy po upływie twojego terminu (§ 558b Abs. 2 BGB). Jeśli koniec terminu na pozew wypada w sobotę, niedzielę lub święto w Berlinie, wynajmujący ma czas do następnego dnia roboczego, na przykład do poniedziałku (§ 193 BGB). Wystarczy, że pozew wpłynie do sądu do tego dnia i zostanie doręczony wkrótce potem (§ 167 ZPO). Dlatego pokazujemy tu późniejszą datę. Później wynajmujący nie może już dochodzić tej podwyżki w sądzie; nowe żądanie pozostaje możliwe."
+    },
+    "termination_declare_by": {
+      "title": "Nadzwyczajne wypowiedzenie (Sonderkündigung): termin według powszechnej interpretacji",
+      "text": "Po otrzymaniu żądania podwyżki czynszu (Mieterhöhungsverlangen) możesz wypowiedzieć umowę w trybie nadzwyczajnym do upływu drugiego miesiąca po doręczeniu (Zugang) (§ 561 BGB). Pokazana tu data to koniec drugiego miesiąca kalendarzowego. Nie znaleźliśmy potwierdzenia tej interpretacji w żadnym oficjalnym źródle. Lepiej korzystaj z bezpiecznej daty. Także tutaj nie przesuwamy daty na dzień roboczy."
+    },
+    "termination_safe_by": {
+      "title": "Nadzwyczajne wypowiedzenie (Sonderkündigung): bezpieczna data",
+      "text": "Jeśli twoje wypowiedzenie dotrze do wynajmującego do tego dnia (dwa miesiące od doręczenia), działasz bezpiecznie (§ 561 BGB). Dotyczy to także sytuacji, gdy ten dzień wypada w sobotę, niedzielę lub święto: nie jest wyjaśnione, czy termin się wtedy przesuwa. Nie licz na to. Wypowiedzenie musi być złożone na piśmie, na papierze, z podpisem (§ 568 Abs. 1 BGB). Podwyżka czynszu wtedy nie obowiązuje."
+    },
+    "termination_ends": {
+      "title": "Koniec stosunku najmu po nadzwyczajnym wypowiedzeniu",
+      "text": "Stosunek najmu kończy się z upływem drugiego miesiąca następującego po miesiącu, w którym dotrze twoje wypowiedzenie (§ 561 Abs. 1 BGB). Pokazana data obowiązuje, jeśli wypowiedzenie dotrze w ostatnim możliwym dniu. Jeśli wypowiesz wcześniej, najem skończy się wcześniej."
+    },
+    "sperrfrist_earliest_received": {
+      "title": "Roczny okres karencji (Sperrfrist)",
+      "text": "Żądanie podwyżki czynszu (Mieterhöhungsverlangen) może do ciebie dotrzeć najwcześniej rok po ostatniej podwyżce czynszu (§ 558 Abs. 1 Satz 2 BGB). Rok liczy się od dnia, w którym ostatnia podwyżka weszła w życie (BGH, VIII ZR 141/09, Rn. 18). Jeśli żądanie dotrze wcześniej, jest bezskuteczne (unwirksam) (BGH, VIII ZR 178/03). Podwyżek po modernizacji lub dotyczących kosztów eksploatacyjnych (§§ 559 bis 560 BGB) się nie wlicza."
+    },
+    "wartefrist_earliest_effective": {
+      "title": "15-miesięczny okres oczekiwania (Wartefrist)",
+      "text": "Nowy czynsz może obowiązywać dopiero wtedy, gdy czynsz jest niezmieniony od 15 miesięcy (§ 558 Abs. 1 Satz 1 BGB). 15 miesięcy liczy się od pierwszego terminu płatności ostatniej podwyżki (BGH, VIII ZR 178/03). Podwyżek z powodu modernizacji lub kosztów eksploatacyjnych się nie wlicza."
+    },
+    "kappung": {
+      "title": "Limit podwyżki (Kappungsgrenze) 15%",
+      "text": "W Berlinie czynsz może w wyniku podwyżek na podstawie § 558 BGB wzrosnąć w ciągu trzech lat najwyżej o 15% (§ 558 Abs. 3 BGB, berlińskie rozporządzenie o limicie podwyżki – Berliner Kappungsgrenzenverordnung z 14.03.2023, obowiązujące do 10.05.2028). Punktem wyjścia jest czynsz z dnia przypadającego trzy lata przed dniem, od którego ma obowiązywać nowy czynsz (BGH, VIII ZR 177/03). Podwyżki czynszu bez kosztów dodatkowych (Kaltmiete) po modernizacji (§ 559 BGB) nie liczą się do tych 15%: 15% oblicza się bez nich, a taka podwyżka może dojść dodatkowo. Zmiany zaliczek na koszty eksploatacyjne (Betriebskosten) do tego nie należą."
+    },
+    "silence": {
+      "title": "Milczenie nie jest zgodą",
+      "text": "Jeśli nic nie zrobisz, nie wyrażasz zgody. Wynajmujący może wtedy wnieść pozew (§ 558b Abs. 2 BGB)."
+    },
+    "payment_consent": {
+      "title": "Płacenie może oznaczać zgodę",
+      "text": "Zgoda nie wymaga żadnej formy. Kto kilka razy płaci wyższy czynsz bez zastrzeżenia (ohne Vorbehalt), może przez to wyrazić zgodę (BGH, VIII ZB 74/16, Rn. 13, 21)."
+    },
+    "consent_binding": {
+      "title": "Zgoda jest ostateczna",
+      "text": "Zgody, także częściowej, nie możesz już cofnąć, gdy tylko dotrze do wynajmującego (§ 130 Abs. 1 BGB). Nie można też od niej odstąpić (Widerruf) tak jak przy zakupie online (BGH, VIII ZR 94/17; VIII ZR 62/18, Rn. 21 f.). Czynsz uważa się wtedy za uzgodniony. Tylko w wyjątkowych przypadkach, na przykład przy świadomym wprowadzeniu w błąd, można zgodę podważyć (anfechten) (§ 123 BGB). Przeciwko nowemu czynszowi co do zasady nie możesz już powoływać się na hamulec czynszowy (Mietpreisbremse) (BGH, VIII ZR 300/21)."
+    },
+    "partial_consent": {
+      "title": "Częściowa zgoda (Teilzustimmung)",
+      "text": "Możesz też zgodzić się tylko na część podwyżki (§ 558b Abs. 1 BGB: „soweit” – „w zakresie, w jakim”). Ta zgoda cię wiąże. O resztę wynajmujący może wnieść pozew (BGH, VIII ZR 141/09, Rn. 19). Potem płać tylko kwotę objętą twoją zgodą."
+    },
+    "landlord_equipment": {
+      "title": "Liczy się tylko wyposażenie od wynajmującego",
+      "text": "To, co zostało zamontowane i opłacone przez ciebie, się nie liczy (Mietspiegel 2026 Nr. 6.3), i to na stałe (BGH, VIII ZR 52/18). Inaczej jest, jeśli wynajmujący zwrócił koszty. Jeśli chodzi o powierzchnię, liczy się rzeczywista powierzchnia mieszkalna, a nie liczba w umowie najmu (BGH, VIII ZR 266/14)."
+    },
+    "burden_of_proof": {
+      "title": "Kto musi co udowodnić?",
+      "text": "W procesie wynajmujący musi udowodnić lokalny czynsz porównawczy (ortsübliche Vergleichsmiete) (BGH, VIII ZR 123/20, Rn. 27). Co do poszczególnych cech sąd Landgericht Berlin (dziś Landgericht Berlin II) orzekł: cechy plus musi udowodnić wynajmujący, a cechy minus, na które się powołujesz, musisz udowodnić ty (LG Berlin, 67 S 150/18, Rn. 6–9). Inne sądy mogą to oceniać inaczej."
+    },
+    "staffel_index": {
+      "title": "Czynsz stopniowany (Staffelmiete) i czynsz indeksowany (Indexmiete)",
+      "text": "Jeśli w umowie uzgodniono czynsz stopniowany lub czynsz indeksowany, podwyżka na podstawie § 558 BGB jest w tym czasie wykluczona (§ 557a Abs. 2, § 557b Abs. 2 BGB)."
+    },
+    "lwu": {
+      "title": "Spółki mieszkaniowe należące do Berlina (landeseigene Wohnungsunternehmen)",
+      "text": "W degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND i WBM obowiązują dodatkowe dobrowolne zobowiązania, dopóki obowiązuje umowa o współpracy (Kooperationsvereinbarung) (do 31.12.2027): najwyżej 11% więcej w ciągu trzech lat (porozumienie sojuszu – Bündnis-Vereinbarung z 15.07.2025) i najwyżej 50 € (do 65 m²), 75 € (do 100 m²) lub 100 € (do 125 m²) więcej miesięcznie (Kooperationsvereinbarung II.8). Poza tym istnieje obietnica przystępności cenowej (Leistbarkeitsversprechen): na wniosek czynsz netto bez kosztów dodatkowych (Nettokaltmiete) wynosi najwyżej 27% dochodu gospodarstwa domowego, jeśli spełnione są limity dochodu i powierzchni."
+    },
+    "pay_from": {
+      "title": "Od kiedy trzeba by płacić",
+      "text": "To późniejszy z dwóch dni: najwcześniejszy dzień według ustawy albo termin podany przez wynajmującego. Tę datę wpisujemy do listu."
+    },
+    "scope": {
+      "title": "Czy to dotyczy ciebie?",
+      "text": "Ta pomoc dotyczy tylko sytuacji, gdy wynajmujący prosi cię o zgodę na wyższy czynsz (§ 558 BGB). Nie dotyczy podwyżki po modernizacji (§ 559 BGB), nowych zaliczek na koszty eksploatacyjne (§ 560 BGB), czynszu indeksowanego lub stopniowanego, mieszkania socjalnego ani innego dotowanego mieszkania ze stałym czynszem (§ 558 Abs. 2 Satz 2 BGB), pokoju w mieszkaniu wynajmującego, mieszkania wynajmowanego tylko na krótki czas ani domu zbiorowego zamieszkania (Wohnheim) (§ 549 BGB). W takich przypadkach zwykle musisz płacić wyższy czynsz także bez swojej zgody. Nie przestawaj po prostu płacić. Skorzystaj z porady."
+    },
+    "mietpreisbremse_after_consent": {
+      "title": "Sprawdź hamulec czynszowy (Mietpreisbremse) przed wyrażeniem zgody",
+      "text": "Czy twoja umowa najmu zaczęła się w czerwcu 2015 lub później, a czynsz na początku był być może za wysoki? Sprawdź to przed odpowiedzią. Jeśli zgodzisz się na podwyżkę, nowy czynsz uważa się za uzgodniony. Przeciwko temu nowemu czynszowi co do zasady nie możesz wtedy już powoływać się na hamulec czynszowy (BGH, VIII ZR 300/21)."
+    },
+    "consent_deadline_193": {
+      "title": "Termin na wyrażenie zgody: następny dzień roboczy",
+      "text": "Jeśli koniec twojego terminu wypada w sobotę, niedzielę lub święto w Berlinie, to zgodnie z brzmieniem § 193 BGB zastępuje go następny dzień roboczy. To właśnie pokazuje ta data. Mimo to planuj według wcześniejszej daty. Święta w Berlinie to na przykład Nowy Rok, Dzień Kobiet (8 marca), Wielki Piątek, Poniedziałek Wielkanocny, 1 maja, Wniebowstąpienie, Poniedziałek Zielonych Świątek, 3 października i oba dni Bożego Narodzenia."
+    }
+  }
+}

@@ -1,0 +1,762 @@
+{
+ "_meta": {
+  "lang": "en",
+  "as_of": "2026-10-18",
+  "note": "Plain English. Unofficial explanations; only the official Mietspiegel is binding."
+ },
+ "groups": {
+  "bad": {
+   "title": "Bathroom and toilet",
+   "intro": "This group is about the bathroom, the toilet and the guest toilet. For many features the Mietspiegel says „bezieht sich nicht auf Gäste-WCs“ (does not refer to guest toilets): then only the main bathroom counts.\n\nCount the plus features and the minus features. If there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+  },
+  "kueche": {
+   "title": "Kitchen",
+   "intro": "This group is about the kitchen. Only what the landlord provided counts. A kitchen or appliances that you paid for yourself do not count.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+  },
+  "wohnung": {
+   "title": "Flat",
+   "intro": "This group is about the flat itself: windows, pipes and cables, floor plan, balcony, floors and heating. Many features say „überwiegend“ (mostly). Taken literally, this means: more than half, for example of the windows or rooms.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+  },
+  "gebaeude": {
+   "title": "Building",
+   "intro": "This group is about the building: staircase, cellar, entrance, lift, condition and energy. A special rule applies to energy use: you tick either the feature on thermal insulation or the heating system, or the features on the energy value from the energy certificate (Energieausweis), not both. For the energy value, up to three boxes can count.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+  },
+  "umfeld": {
+   "title": "Surroundings",
+   "intro": "This group is about the surroundings: noise, smells, bicycles, the plot of land, parking and garden. The residential area (Wohnlage: simple, medium, good) is already included in the table. This group is about special features of your flat.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+  }
+ },
+ "features": {
+  "bad-m01": {
+   "title": "No washbasin or only a small one",
+   "explain": "Minus if there is no hand washbasin in the bathroom or toilet. Also minus if the bathroom only has a small basin: in the Mietspiegel 2026, 50 cm wide or less on the outside; in the Mietspiegel 2024, 50 x 25 cm or smaller on the outside. Guest toilets do not count here.",
+   "check": "Measure the washbasin in the bathroom on the outside at the widest point, from edge to edge. For the Mietspiegel 2024, also measure the depth. Write down the centimetres.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a dated photo with a folding ruler held against it, on which you can read the number."
+  },
+  "bad-m02": {
+   "title": "Toilet room without any ventilation",
+   "explain": "Minus if the room with the toilet has neither a window nor an extractor. The Mietspiegel says: without a way to ventilate and without an extractor. Guest toilets do not count here.",
+   "check": "Is there a window in the toilet room that can be opened? Is there a fan or a ventilation shaft with a grille? If both are missing, the feature applies.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of all walls and the ceiling of the room."
+  },
+  "bad-m03": {
+   "title": "Wooden floorboards in the bathroom, not suitable for wet rooms",
+   "explain": "Minus if the bathroom has a floor of wooden boards that is not suitable for wet rooms (nicht feuchtraumgeeignet). Guest toilets do not count here.",
+   "check": "Look at the bathroom floor: are there wooden boards without tiles or a waterproof covering on top? The Mietspiegel does not say in more detail when boards are „feuchtraumgeeignet“ (suitable for wet rooms). If in doubt, ask an advice centre.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the floor, including the gaps and any water damage."
+  },
+  "bad-m04": {
+   "title": "Bathroom without proper heating",
+   "explain": "Minus if the bathroom cannot be heated. Also minus if it is only heated with wood or coal or with an electric radiant heater. Guest toilets do not count here.",
+   "check": "Is there a radiator in the bathroom that is connected to the heating? Or only a stove for wood/coal or an electric heater? Or nothing at all?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the bathroom that show that there is no radiator, or which device there is."
+  },
+  "bad-m05": {
+   "title": "Not enough hot water in the bathroom",
+   "explain": "Minus if there is no adequate hot water supply in the bathroom. Examples in the Mietspiegel: no central hot water supply, no instantaneous water heater (Durchlauferhitzer), no boiler with more than 60 litres. Guest toilets do not count here.",
+   "check": "Where does the hot water in the bathroom come from? From the central system of the building, from an instantaneous water heater or from a boiler (storage tank)? On a boiler, the number of litres is usually on the type plate.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a photo of the type plate of the boiler showing the litres."
+  },
+  "bad-m06": {
+   "title": "Free-standing bathtub without a separate shower",
+   "explain": "Minus if the bathroom has a free-standing bathtub (with or without panelling) and there is no separate shower. This only applies in a bathroom that has not been modernised.",
+   "check": "Does the tub stand freely in the room, for example on feet, or is it only panelled at the front? Is there also a separate shower? Was the bathroom modernised? The Mietspiegel does not say exactly what „nicht modernisiert“ (not modernised) means.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the tub and of the whole bathroom."
+  },
+  "bad-m07": {
+   "title": "Walls near the water not tiled",
+   "explain": "Minus if the walls at the washbasin, bathtub or shower are not sufficiently tiled or protected where water splashes (splash area). Guest toilets do not count here. The Mietspiegel 2024 only says „gefliest“ (tiled), the Mietspiegel 2026 says „gefliest/geschützt“ (tiled/protected).",
+   "check": "Look at the wall behind and next to the washbasin, tub and shower. Are there tiles or another waterproof protection? How high and how wide?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the walls with a folding ruler, so that the height of the tiles can be seen."
+  },
+  "bad-m08": {
+   "title": "Bathroom with toilet but no window",
+   "explain": "Minus if the bathroom with the toilet has no window. This does not apply to flats in the building age class 1973 to 1990 East.",
+   "check": "Does the bathroom with the toilet have a window to the outside? Also check the building age class of your flat in the calculator.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of all walls of the bathroom."
+  },
+  "bad-m09": {
+   "title": "You cannot shower properly",
+   "explain": "Minus if there is no way to shower. Examples in the Mietspiegel: no protection against splashing water (for example no shower curtain or shower screen), no holder for the shower head. The Mietspiegel 2024 also gives this example: a very small standing area.",
+   "check": "Can you shower in the bathroom without water splashing into the room? Is there a rail or holder for the shower head on the wall? The Mietspiegel gives examples, but no fixed rule.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the tub or shower, the holder and the walls."
+  },
+  "bad-m10": {
+   "title": "Small bathroom under 4 m²",
+   "explain": "Minus if the bathroom has a floor area of less than 4 m². This does not apply to flats in the building age class 1973 to 1990 East.",
+   "check": "Measure the length and width of the bathroom at floor level and multiply length by width. For sloping or angled rooms, measure in parts. Compare with the area in the tenancy agreement or in a floor area calculation, if there is one.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a sketch with measurements and photos with a folding ruler."
+  },
+  "bad-p01": {
+   "title": "Very large or double washbasin",
+   "explain": "Plus if the washbasin is at least 80 cm wide on the outside. Also plus for a double washbasin or two separate washbasins (in the Mietspiegel 2026: next to each other). Guest toilets do not count here.",
+   "check": "Measure the washbasin on the outside at the widest point. Are there two basins?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: a photo with a folding ruler if the basin is smaller than 80 cm."
+  },
+  "bad-p02": {
+   "title": "Particularly high-quality bathroom fittings",
+   "explain": "Plus for special, high-quality fittings. Examples in the Mietspiegel: high-quality sanitary fittings, high-quality bathroom furniture, corner bath, round bath; in the Mietspiegel 2026 also a real glass partition and a rain shower. Guest toilets do not count here. The Mietspiegel does not say exactly what „hochwertig“ (high-quality) means.",
+   "check": "Is there anything from the list of examples in the bathroom? Who installed it and paid for it: the landlord or you? Normal, simple fittings are not meant.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: photos of the fittings, and receipts if you installed something yourself."
+  },
+  "bad-p03": {
+   "title": "Interior bathroom with modern ventilation",
+   "explain": "Plus if the bathroom is inside the flat (without a window) and has a modern, controlled extractor, for example with a humidity sensor. Guest toilets do not count here.",
+   "check": "Does the bathroom have no window? Does the fan start by itself, for example when it is humid or with the light, and keep running afterwards? A simple ventilation shaft is not „modern gesteuert“ (modern and controlled).",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: a photo of the fan; write down when it runs."
+  },
+  "bad-p04": {
+   "title": "Second toilet or toilet separate from the bathroom",
+   "explain": "Plus if the flat has a second toilet. Also plus if the bathroom and the toilet are in separate rooms.",
+   "check": "How many toilets does the flat have? Is the toilet in its own room, separate from the bathroom?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "bad-p05": {
+   "title": "Large bathroom over 8 m²",
+   "explain": "Plus if at least one bathroom has a floor area of more than 8 m². Guest toilets do not count here.",
+   "check": "Measure the length and width of the bathroom at floor level and multiply length by width.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: a sketch with measurements if the bathroom is smaller."
+  },
+  "bad-p06": {
+   "title": "Underfloor heating in the bathroom",
+   "explain": "Plus if the bathroom has underfloor heating. Guest toilets do not count here.",
+   "check": "Does the bathroom floor get warm when the heating is on? Is there a separate control for it? Who installed it?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "bad-p07": {
+   "title": "High-quality tiles or wall covering in the bathroom",
+   "explain": "Plus if the wall covering and the floor covering in the bathroom are high-quality. Does not apply to newer buildings: in the Mietspiegel 2026 not to the building age classes from 2010, in the Mietspiegel 2024 not to the building age class 2016 to 2022. Guest toilets do not count here. The Mietspiegel does not say exactly what „hochwertig“ (high-quality) means.",
+   "check": "Are the walls and floor in the bathroom covered with particularly good materials, for example natural stone? Taken literally, simple standard tiles are not „hochwertig“. Note the exception for newer buildings.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: photos of the walls and floor, including any damage."
+  },
+  "bad-p08": {
+   "title": "Wall-hung toilet with concealed cistern",
+   "explain": "Plus for a toilet hung on the wall whose cistern is inside the wall. This does not apply to the building age classes from 2002. Also plus for a high-quality floor-standing toilet. Guest toilets do not count here.",
+   "check": "Does the toilet hang on the wall without a foot on the floor, and is the cistern hidden? Note the exception for buildings from 2002. The Mietspiegel does not say what a „hochwertiges“ (high-quality) floor-standing toilet is.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "bad-p09": {
+   "title": "Towel radiator in the bathroom",
+   "explain": "Plus for a radiator that also serves as a towel rail (Strukturheizkörper). This applies to the building age classes up to and including 2001. If it can also run on electricity, it applies to all building years. Guest toilets do not count here.",
+   "check": "Does the bathroom have a radiator with pipes or bars over which you can hang towels? Does it have a cable or an electric heating element?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "bad-p10": {
+   "title": "Shower in addition to the bathtub",
+   "explain": "Plus if, next to the bathtub, there is a separate, additional shower tray or shower cubicle.",
+   "check": "Is there a bathtub and next to it a separate shower? A shower in the tub does not count here.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "bad-p11": {
+   "title": "Level-access shower",
+   "explain": "Plus for a shower without a step, at the same height as the floor. A flat shower tray up to 3 cm deep also counts.",
+   "check": "Can you walk into the shower without a step? For a shower tray, measure the height from the floor to the top edge.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: a photo with a folding ruler at the edge of the shower tray."
+  },
+  "gebaeude-m01": {
+   "title": "Staircase and entrance in poor condition",
+   "explain": "Minus if the staircase and the entrance area are mostly in poor condition.",
+   "check": "Look at the building entrance and the staircase: is there major damage to walls, stairs, banisters, letterboxes or lighting? The Mietspiegel does not say exactly what „schlecht“ (poor) means.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: dated photos; letters in which you reported the damage."
+  },
+  "gebaeude-m02": {
+   "title": "No cellar or storage room outside the flat",
+   "explain": "Minus if there is no storage room outside the flat that only you use and that costs nothing extra, for example no lockable cellar.",
+   "check": "Does a cellar room or attic room belong to your flat? Is it in the tenancy agreement? Does it cost extra? Can you lock it?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: tenancy agreement, photos."
+  },
+  "gebaeude-m03": {
+   "title": "Front door always open to everyone",
+   "explain": "Minus if the building entrance is freely accessible from outside at any time (in the Mietspiegel 2026: building entrance/staircase). This means: anyone can get into the building at any time, without a key and without ringing.",
+   "check": "Try it at different times: can the front door be opened from outside without a key, for example because the lock is broken or missing? Is it regularly left open?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: dated photos and videos of the door; reports of defects."
+  },
+  "gebaeude-m04": {
+   "title": "Building in poor structural condition",
+   "explain": "Minus if the building is in a poor state of repair. Examples in the Mietspiegel: walls that are permanently damp (also in the cellar), major damage to the plaster, considerable damage to the roof.",
+   "check": "Are there damp walls in the cellar or building, plaster that is falling off, or damage to the roof? Since when?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: dated photos, reports of defects to the landlord and his replies."
+  },
+  "gebaeude-m05": {
+   "title": "Flat in a side wing or rear building",
+   "explain": "Minus if the flat is in the side wing or in the cross building (rear building, Hinterhaus) and the buildings there stand very close together (dense development).",
+   "check": "Is your flat not in the front building on the street, but in a side wing or rear building? Is the courtyard narrow? The Mietspiegel does not say exactly what „verdichtet“ (dense) means.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the courtyard, a site plan or a section of a map."
+  },
+  "gebaeude-m06": {
+   "title": "5th floor or higher without a lift",
+   "explain": "Minus if the flat is on the fifth upper floor or higher and there is no passenger lift. This does not apply to the building age classes up to 1949.",
+   "check": "Which floor is your flat on? The ground floor does not count as an upper floor. Is there a lift? Note the exception for old buildings.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently."
+  },
+  "gebaeude-m07": {
+   "title": "No intercom with door opener",
+   "explain": "Minus if there is no intercom (two-way intercom) with an electric door opener.",
+   "check": "Can you talk to visitors at the front door from your flat and open the front door with a button?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently."
+  },
+  "gebaeude-m08": {
+   "title": "Poor insulation or old heating system",
+   "explain": "Minus for inadequate thermal insulation or for a heating system with poor efficiency that was installed before 1995. Important: you choose either the feature on thermal insulation/heating system or the features on the energy value, not both.",
+   "check": "Ask for the year the heating system was installed; it is often on the type plate. The Mietspiegel does not say exactly when insulation is „unzureichend“ (inadequate). If there is an energy certificate (Energieausweis), the energy value is usually clearer.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a photo of the type plate of the heating, the energy certificate."
+  },
+  "gebaeude-m09": {
+   "title": "High energy consumption: over 145 kWh",
+   "explain": "Minus if the energy value of the building for heating and hot water is greater than 145 kWh per m² per year (kWh/(m²a)). With very high consumption you can tick up to three of these boxes: over 145, over 195, over 235. Important: you choose either the feature on thermal insulation/heating system or the features on the energy value, not both. For listed buildings (Denkmalschutz), these minus features do not count if an energy-saving renovation would violate the listed-building protection or would be disproportionately expensive.",
+   "check": "You can find the value in the energy certificate (Energieausweis) of the building; ask the landlord for it if you do not have it. Pay attention: is it a consumption certificate (Verbrauchsausweis) or a demand certificate (Bedarfsausweis)? For a demand certificate, the limits are 20 % higher. If hot water is not included in the value (for example with instantaneous water heaters in the flat), 20 kWh/(m²a) are first added to the value.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a copy of the energy certificate."
+  },
+  "gebaeude-m10": {
+   "title": "High energy consumption: over 195 kWh",
+   "explain": "Minus if the energy value of the building for heating and hot water is greater than 195 kWh per m² per year (kWh/(m²a)). With very high consumption you can tick up to three of these boxes: over 145, over 195, over 235. Important: you choose either the feature on thermal insulation/heating system or the features on the energy value, not both. For listed buildings (Denkmalschutz), these minus features do not count if an energy-saving renovation would violate the listed-building protection or would be disproportionately expensive.",
+   "check": "You can find the value in the energy certificate (Energieausweis) of the building; ask the landlord for it if you do not have it. Pay attention: is it a consumption certificate (Verbrauchsausweis) or a demand certificate (Bedarfsausweis)? For a demand certificate, the limits are 20 % higher. If hot water is not included in the value (for example with instantaneous water heaters in the flat), 20 kWh/(m²a) are first added to the value.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a copy of the energy certificate."
+  },
+  "gebaeude-m11": {
+   "title": "High energy consumption: over 235 kWh",
+   "explain": "Minus if the energy value of the building for heating and hot water is greater than 235 kWh per m² per year (kWh/(m²a)). With very high consumption you can tick up to three of these boxes: over 145, over 195, over 235. Important: you choose either the feature on thermal insulation/heating system or the features on the energy value, not both. For listed buildings (Denkmalschutz), these minus features do not count if an energy-saving renovation would violate the listed-building protection or would be disproportionately expensive.",
+   "check": "You can find the value in the energy certificate (Energieausweis) of the building; ask the landlord for it if you do not have it. Pay attention: is it a consumption certificate (Verbrauchsausweis) or a demand certificate (Bedarfsausweis)? For a demand certificate, the limits are 20 % higher. If hot water is not included in the value (for example with instantaneous water heaters in the flat), 20 kWh/(m²a) are first added to the value.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a copy of the energy certificate."
+  },
+  "gebaeude-p01": {
+   "title": "Lockable bicycle room or bicycle stands",
+   "explain": "Plus for a lockable, easily accessible room for bicycles in the building. Also plus for bicycle parking spaces outside on the property where you can lock your bike. They must be large enough.",
+   "check": "Is there a bicycle cellar or room that can be locked and that you can reach without many steps? Or stands in the courtyard? Is there enough space for the residents’ bikes? The Mietspiegel does not say exactly what „ausreichend“ (enough) means.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: photos, for example if the room is always full or has steps."
+  },
+  "gebaeude-p02": {
+   "title": "Common room, guest flat or drying room",
+   "explain": "Plus for additional rooms outside the flat that you can use to a reasonable extent and that can be reached on foot. Example in the Mietspiegel 2024: common room. In the Mietspiegel 2026 also: guest flat, drying room.",
+   "check": "Are there such rooms? Are you allowed to use them? Are they open, or do you get a key?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "gebaeude-p03": {
+   "title": "Prestigious entrance and staircase",
+   "explain": "Plus for a prestigious (repräsentativ) or high-quality renovated entrance area and staircase. Examples in the Mietspiegel: mirrors, marble, special lighting, high-quality paint or wall covering, runners in the whole hall and stair area.",
+   "check": "Compare the entrance and staircase with the list of examples. Taken literally, normal, clean paintwork is not „repräsentativ“.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful for you: photos of the entrance and staircase."
+  },
+  "gebaeude-p04": {
+   "title": "Building in particularly good condition",
+   "explain": "Plus for an above-average state of repair of the building or part of the building where the flat is, for example a renewed façade or renewed roof. This applies to the building age classes up to and including 2015.",
+   "check": "Were the façade or roof renewed in recent years? Is there visible damage? The Mietspiegel does not say exactly what „überdurchschnittlich“ (above average) means.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful for you: dated photos of damage, reports of defects."
+  },
+  "gebaeude-p05": {
+   "title": "Video intercom",
+   "explain": "Plus for an intercom (two-way intercom) with a video picture and an electric door opener.",
+   "check": "Can you see on a screen in the flat who is ringing at the front door?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "gebaeude-p06": {
+   "title": "Lift even in a low building",
+   "explain": "Plus if there is a passenger lift even though the building has fewer than five upper floors. This does not apply to the building age classes from 2010.",
+   "check": "Is there a lift? How many upper floors does the building have (not counting the ground floor)?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently."
+  },
+  "gebaeude-p07": {
+   "title": "Access to the building with almost no steps",
+   "explain": "Plus for access to the building with at most one step and access to the flat, including the staircase, with at most one step.",
+   "check": "Count the steps from the street to the front door and from the front door to your flat door. The Mietspiegel does not say whether a lift makes up for the steps in the staircase.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful for you: photos of the steps."
+  },
+  "gebaeude-p08": {
+   "title": "Additional insulation or new heating system",
+   "explain": "Plus for thermal insulation in addition to the original building fabric, or for a modern heating system installed in 2009 or later. The building or flat must have been completed „vor diesem Zeitpunkt“ (before this point in time). The Mietspiegel does not say clearly whether this means „before 2009“ or „before the installation“. Important: you choose either the feature on thermal insulation/heating system or the features on the energy value, not both.",
+   "check": "Was the building insulated later, for example the façade? When was the heating system installed? This is often on the type plate.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: energy certificate, a photo of the type plate of the heating."
+  },
+  "gebaeude-p09": {
+   "title": "Low energy consumption: under 120 kWh",
+   "explain": "Plus if the energy value of the building for heating and hot water is less than 120 kWh per m² per year (kWh/(m²a)). With very low consumption you can tick up to three of these boxes: under 120, under 100, under 80. Important: you choose either the feature on thermal insulation/heating system or the features on the energy value, not both.",
+   "check": "You can find the value in the energy certificate (Energieausweis) of the building; ask the landlord for it if you do not have it. Pay attention: is it a consumption certificate (Verbrauchsausweis) or a demand certificate (Bedarfsausweis)? For a demand certificate, the limits are 20 % higher. If hot water is not included in the value (for example with instantaneous water heaters in the flat), 20 kWh/(m²a) are first added to the value.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: a copy of the energy certificate."
+  },
+  "gebaeude-p10": {
+   "title": "Low energy consumption: under 100 kWh",
+   "explain": "Plus if the energy value of the building for heating and hot water is less than 100 kWh per m² per year (kWh/(m²a)). With very low consumption you can tick up to three of these boxes: under 120, under 100, under 80. Important: you choose either the feature on thermal insulation/heating system or the features on the energy value, not both.",
+   "check": "You can find the value in the energy certificate (Energieausweis) of the building; ask the landlord for it if you do not have it. Pay attention: is it a consumption certificate (Verbrauchsausweis) or a demand certificate (Bedarfsausweis)? For a demand certificate, the limits are 20 % higher. If hot water is not included in the value (for example with instantaneous water heaters in the flat), 20 kWh/(m²a) are first added to the value.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: a copy of the energy certificate."
+  },
+  "gebaeude-p11": {
+   "title": "Low energy consumption: under 80 kWh",
+   "explain": "Plus if the energy value of the building for heating and hot water is less than 80 kWh per m² per year (kWh/(m²a)). With very low consumption you can tick up to three of these boxes: under 120, under 100, under 80. Important: you choose either the feature on thermal insulation/heating system or the features on the energy value, not both.",
+   "check": "You can find the value in the energy certificate (Energieausweis) of the building; ask the landlord for it if you do not have it. Pay attention: is it a consumption certificate (Verbrauchsausweis) or a demand certificate (Bedarfsausweis)? For a demand certificate, the limits are 20 % higher. If hot water is not included in the value (for example with instantaneous water heaters in the flat), 20 kWh/(m²a) are first added to the value.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: a copy of the energy certificate."
+  },
+  "kueche-m01": {
+   "title": "Kitchen without a window and without ventilation",
+   "explain": "Minus if the kitchen has no window and no adequate extractor.",
+   "check": "Does the kitchen have a window to the outside? If not: is there a fan or a shaft that takes the air outside? The Mietspiegel does not say exactly what „ausreichend“ (adequate) means.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of all walls and the ceiling of the kitchen."
+  },
+  "kueche-m02": {
+   "title": "No cooker, or cooker without an oven",
+   "explain": "Minus if there is no way to cook, or only a gas or electric cooker without an oven.",
+   "check": "Did the landlord provide a cooker? Does this cooker have an oven? A cooker that you bought yourself does not count as the landlord’s fittings.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: the handover report (Übergabeprotokoll) or tenancy agreement that says what was in the kitchen, and photos from when you moved in."
+  },
+  "kueche-m03": {
+   "title": "No sink in the kitchen",
+   "explain": "Minus if there is no sink in the kitchen.",
+   "check": "Did the landlord provide a sink? A sink that you installed and paid for yourself does not count as the landlord’s fittings.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: handover report, photos from when you moved in, the invoice for a sink you bought yourself, witnesses."
+  },
+  "kueche-m04": {
+   "title": "Not enough hot water in the kitchen",
+   "explain": "Minus if there is no adequate hot water supply in the kitchen. Examples in the Mietspiegel: no central hot water supply, no instantaneous water heater (Durchlauferhitzer), no boiler.",
+   "check": "Does hot water come out at the sink? From where: centrally, from an instantaneous water heater or from a boiler?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the sink and of the device under or above the sink."
+  },
+  "kueche-m05": {
+   "title": "Kitchen without proper heating",
+   "explain": "Minus if the kitchen cannot be heated, or only with wood or coal.",
+   "check": "Is there a radiator in the kitchen that is connected to the heating?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the kitchen that show that there is no radiator."
+  },
+  "kueche-m06": {
+   "title": "No space or connection for a dishwasher",
+   "explain": "Minus if a dishwasher cannot be put in or connected in the kitchen.",
+   "check": "Is there space in the kitchen for a dishwasher? Is there a water connection and a drain for it, for example a valve with a connection under the sink?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos under the sink and of the place where the machine would have to stand, with measurements."
+  },
+  "kueche-m07": {
+   "title": "No tiles on the wall behind the work area",
+   "explain": "Minus if there are no tiles on the wall in the work area of the kitchen and no comparable protection either (for example a glass or plastic panel).",
+   "check": "Look at the wall behind the cooker, sink and worktop: are there tiles or a washable panel?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the wall in the work area."
+  },
+  "kueche-p01": {
+   "title": "High-quality kitchen floor",
+   "explain": "Plus for high-quality tiles, high-quality linoleum, high-quality laminate for wet rooms, parquet or terrazzo as the kitchen floor, in each case in good condition. This applies to the building age classes up to and including 2009. The Mietspiegel does not say exactly what „hochwertig“ (high-quality) means.",
+   "check": "What floor is in the kitchen? Is it in good condition, without cracks, holes or heavy wear? Note the limit for the building year.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: dated photos of damage to the floor."
+  },
+  "kueche-p02": {
+   "title": "Large separate kitchen of 14 m² or more",
+   "explain": "Plus for a separate kitchen in its own room with a floor area of at least 14 m².",
+   "check": "Is the kitchen a separate room? Measure the length and width and multiply length by width.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: a sketch with measurements if the kitchen is smaller."
+  },
+  "kueche-p03": {
+   "title": "Fitted kitchen with cupboards, cooker and sink",
+   "explain": "Plus for a fitted kitchen (Einbauküche) with wall cupboards and base cupboards as well as a cooker and a sink.",
+   "check": "Did the landlord provide a fitted kitchen? Does it have cupboards at the top and bottom, a cooker and a sink? A kitchen that you paid for yourself does not count (if the landlord did not pay you back). If you took over the kitchen from the previous tenant, get advice.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: handover report, tenancy agreement, invoices and photos from when you moved in."
+  },
+  "kueche-p04": {
+   "title": "Ceramic glass or induction hob",
+   "explain": "Plus for a ceramic glass hob (Ceran) or an induction hob. This applies to the building age classes up to and including 2001.",
+   "check": "Does the cooker have a smooth glass surface instead of metal hotplates? Did the landlord provide it? Note the limit for the building year.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "kueche-p05": {
+   "title": "Extractor hood in the kitchen",
+   "explain": "Plus if the kitchen has an extractor (extractor hood).",
+   "check": "Is there a hood above the cooker that draws off the steam? Did the landlord provide it?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "kueche-p06": {
+   "title": "Fridge, freezer or dishwasher",
+   "explain": "Plus if the landlord provides a fridge, a freezer or chest freezer, or a dishwasher.",
+   "check": "Does one of these appliances belong to the landlord? Is it in the tenancy agreement or in the handover report? Your own appliances do not count.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: invoices for appliances you bought yourself."
+  },
+  "kueche-p07": {
+   "title": "Free-standing kitchen block (kitchen island)",
+   "explain": "Plus for a kitchen block that stands freely in the room, with a worktop and a cooker or sink.",
+   "check": "Is there a block in the kitchen that you can walk around, with a cooker or sink in it?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "umfeld-m01": {
+   "title": "Particularly noisy location",
+   "explain": "Minus if the flat is in a particularly noisy location. Examples in the Mietspiegel: on a main road or right next to an airport, with unpleasant noise and dust. Large factories and industrial plants, noise from businesses, restaurants or parties can also be the cause.",
+   "check": "The Mietspiegel refers to the strategic noise maps (Strategische Lärmkarten) of the Senate Department for the Environment. There you can see the noise at the façade of your building: www.berlin.de/sen/uvk/umwelt/laerm/laermminderungsplanung-berlin/laermkarten/. Also write down where the noise comes from and when.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a printout of the noise map for your address, a noise log with date and time, photos or videos."
+  },
+  "umfeld-m02": {
+   "title": "Particularly strong smells in the area",
+   "explain": "Minus if the location is particularly affected by smells. The Mietspiegel gives no examples and no limit values.",
+   "check": "Is there something nearby that regularly smells strongly, for example a business? How often and how strongly?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a smell log with date and time, photos of the source, complaints."
+  },
+  "umfeld-m03": {
+   "title": "No space for bicycles on the property",
+   "explain": "Minus if there is no place to park bicycles on the property.",
+   "check": "Is there a place for bicycles in the courtyard or in the building? Are the residents allowed to use it?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the courtyard, and the house rules (Hausordnung) if bicycles are not allowed there."
+  },
+  "umfeld-m04": {
+   "title": "Very neglected surroundings",
+   "explain": "Only in the Mietspiegel 2024. Minus for a location in very neglected surroundings. The Mietspiegel 2024 gives no examples.",
+   "check": "What do the surroundings look like: abandoned buildings, a lot of rubbish, broken paths? The Mietspiegel does not say exactly what „stark vernachlässigt“ (very neglected) means.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: dated photos of the surroundings."
+  },
+  "umfeld-p01": {
+   "title": "Particularly quiet location",
+   "explain": "Plus if the flat is in a particularly quiet location. Examples in the Mietspiegel: on a traffic-calmed street, next to a park-like area, or where the street has structural limits such as bollards, a narrowed road or planting.",
+   "check": "How loud is it at your windows, during the day and at night? The Senate’s strategic noise maps (Strategische Lärmkarten) show the traffic noise at the façade. The Mietspiegel does not say exactly what „besonders ruhig“ (particularly quiet) means.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful for you: a printout of the noise map, a noise log with date and time."
+  },
+  "umfeld-p02": {
+   "title": "Attractively designed property",
+   "explain": "Plus for elaborately designed surroundings on the property. Examples in the Mietspiegel: a children’s playground (only if the building was completed before 2003, in the Mietspiegel 2024: before 2002), benches or quiet areas, well-paved paths with green spaces and lighting.",
+   "check": "What is there on the property itself, not in the public park next door? What condition is it in? The Mietspiegel does not say exactly what „aufwändig“ (elaborate) means.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful for you: photos of the courtyard."
+  },
+  "umfeld-p03": {
+   "title": "Parking from the landlord nearby",
+   "explain": "Plus if the landlord provides parking spaces for cars nearby, in sufficient numbers.",
+   "check": "Does your landlord offer parking spaces, for example in the courtyard or in a garage? The Landgericht Berlin decided on the Mietspiegel 2017: spaces that cost extra can also count. But only if, when the rent increase demand (Mieterhöhungsverlangen) reached you, you really had rented a space from the landlord or the landlord had offered you one before (judgment of 16.10.2018 – 67 S 150/18). Other courts may see it differently.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful for you: letters or offers from the landlord about parking spaces."
+  },
+  "umfeld-p04": {
+   "title": "Own garden or tenants’ garden",
+   "explain": "Plus for a garden only for you or a tenants’ garden free of charge. Also plus for a garden that belongs to the flat and can be reached directly from the flat.",
+   "check": "Does a garden belong to the flat? Is it in the tenancy agreement? Do you have to pay extra for it? Do you share it with others?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently."
+  },
+  "umfeld-p05": {
+   "title": "Preferred city-centre location",
+   "explain": "Only in the Mietspiegel 2024. Plus for a preferred city location: close to well-known places for shopping, services and living that are important beyond the region.",
+   "check": "Is the flat right at a well-known, large shopping or business location of the city? The Mietspiegel 2024 does not say exactly what counts.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently."
+  },
+  "wohnung-m01": {
+   "title": "Mostly single-glazed windows",
+   "explain": "Minus if most windows have only one simple pane of glass (single glazing, Einfachverglasung). Box-type double windows (Doppel-Kastenfenster) are not meant: these are two windows one behind the other with a gap between them.",
+   "check": "Count all the windows of the flat. How many have only one pane in a frame? Taken literally, „überwiegend“ (mostly) means: more than half. You can recognise a box window by the fact that you open two window sashes one behind the other.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a list of all windows per room, and photos."
+  },
+  "wohnung-m02": {
+   "title": "Electrics inadequate or outdated",
+   "explain": "Minus for inadequate electrical installation. Examples in the Mietspiegel: no adequate electrical riser (the main cable in the building to the flat) and/or no installation according to VDE rules, for example no RCD switch (FI-Schalter, residual current device) or no equipotential bonding (Potentialausgleich: the connection of metal parts such as pipes to the earthing).",
+   "check": "Look in the fuse box of the flat: is there an RCD switch (FI-Schalter)? It usually has a test button marked „T“. Do fuses trip when several appliances run at the same time, for example a kettle and a washing machine? Only a qualified electrician can say for sure whether the installation meets the VDE rules.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a photo of the fuse box, dated notes on tripped fuses, letters to the landlord about problems."
+  },
+  "wohnung-m03": {
+   "title": "Electric cables mostly visible on the wall",
+   "explain": "Minus if the electric cables mostly run visibly on top of the plaster, that is, not inside the wall.",
+   "check": "Go through all rooms: do cables or cable ducts run openly on walls or ceilings? In more than half of the flat?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos from every room."
+  },
+  "wohnung-m04": {
+   "title": "Water pipes mostly visible on the wall",
+   "explain": "Minus if supply pipes and waste water pipes (sanitary pipes) mostly lie visibly on top of the plaster. Heating pipes are not meant here.",
+   "check": "Look in the bathroom and kitchen: do water pipes and drain pipes run openly along the wall?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the pipes in the bathroom and kitchen."
+  },
+  "wohnung-m05": {
+   "title": "No space for the washing machine",
+   "explain": "Minus if the washing machine cannot be put in or connected either in the bathroom or in the kitchen.",
+   "check": "Is there a place in the bathroom or kitchen with a tap for the machine and a drain? Does a normal washing machine fit there?",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos and measurements of the bathroom and kitchen, a photo of the connections or of the place where they are missing."
+  },
+  "wohnung-m06": {
+   "title": "Poor layout of the flat",
+   "explain": "Minus for a poor floor plan (layout). Examples in the Mietspiegel: a „trapped“ room (gefangenes Zimmer: you can only reach it through another room) and/or a walk-through room (Durchgangszimmer: you have to go through it to get to another room).",
+   "check": "Draw a simple plan of the flat. Do you have to go through one room to get to another? The Mietspiegel only gives examples; in a dispute, the court decides whether other floor plans are also „schlecht“ (poor).",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: a floor plan (for example from the rental documents) or your own sketch with doors."
+  },
+  "wohnung-m07": {
+   "title": "No balcony, no terrace, no loggia",
+   "explain": "Minus if the flat has no balcony, no (roof) terrace, no loggia and no winter garden or roof garden. This does not apply if a balcony is not possible or not allowed for structural and/or legal reasons.",
+   "check": "Does the flat have one of these outdoor spaces? If not: you usually cannot check yourself whether a balcony would be structurally or legally impossible (for example because the building is listed). The Mietspiegel does not say who has to prove this in a dispute. Get advice on this.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of the façade. Whether the exception applies has to be clarified in a dispute."
+  },
+  "wohnung-m08": {
+   "title": "Ground floor without protection against break-ins or views",
+   "explain": "Only in the Mietspiegel 2026. Minus for a flat on the ground floor if not all windows have protection against break-ins and/or against people looking in from outside. Examples in the Mietspiegel: bars, roller shutters, window alarms.",
+   "check": "Is your flat on the ground floor? Go to every window: are there bars, roller shutters or an alarm? The feature certainly applies if no window is protected. If only some of the windows lack protection, it is unclear whether the feature applies.",
+   "proof": "If you rely on this minus feature, it is usually you who has to prove it. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Helpful: photos of every window from inside and outside."
+  },
+  "wohnung-p01": {
+   "title": "Storage room or built-in wardrobe in the flat",
+   "explain": "Plus for a storage room in the flat or a built-in wardrobe. In the Mietspiegel 2026, the storage room must have a floor area of at least 1 m².",
+   "check": "Is there a box room or a fixed built-in cupboard that the landlord provided? Measure the area of a box room.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: measurements of the box room; receipts if you installed the cupboard yourself."
+  },
+  "wohnung-p02": {
+   "title": "Large balcony, terrace or loggia",
+   "explain": "Plus for a large, spacious balcony, a (roof) terrace, a loggia or a winter garden or roof garden of 4 m² or more (in the Mietspiegel 2026: 4 m² floor area or more).",
+   "check": "Measure the floor area of the balcony: length times depth. Is it at least 4 m²?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: measurements and a photo with a folding ruler if it is smaller."
+  },
+  "wohnung-p03": {
+   "title": "Underfloor heating in most rooms",
+   "explain": "Plus if the flat mostly has underfloor heating.",
+   "check": "In how many rooms does the floor get warm from the heating? In more than half of the rooms?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "wohnung-p04": {
+   "title": "Stucco or panelling in good condition",
+   "explain": "Plus for elaborate covering on ceilings and/or walls, for example stucco or wood panelling. It must be in good condition, and in most of the living rooms.",
+   "check": "Count your living rooms. In how many is there stucco or panelling? Is it well preserved, or damaged, painted over or only a narrow border? The Mietspiegel does not say exactly what counts as „aufwändig“ (elaborate).",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: photos of the ceilings in every room, including damage."
+  },
+  "wohnung-p05": {
+   "title": "Heating pipes mostly not visible",
+   "explain": "Plus if the heating pipes are mostly not visible (in the Mietspiegel 2026: not visible on top of the plaster). This applies to the building age classes up to and including 1990.",
+   "check": "Can you see pipes leading to the radiators? In how many rooms do they run openly along the wall?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: photos of the pipes in every room."
+  },
+  "wohnung-p06": {
+   "title": "Roller shutters or external sun protection",
+   "explain": "In the Mietspiegel 2026: plus for protection against the sun (shading) fitted on the outside of most of the windows in the living rooms, for example roller shutters. The Mietspiegel 2024 only says: roller shutters.",
+   "check": "Count the windows of the living rooms. How many have roller shutters, awnings or external blinds on the outside? Blinds fitted on the inside are not „außen angebracht“ (fitted on the outside).",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: a list of the windows and photos from outside."
+  },
+  "wohnung-p07": {
+   "title": "One room larger than 40 m²",
+   "explain": "Plus if one living room is larger than 40 m².",
+   "check": "Measure your largest room: length times width.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back."
+  },
+  "wohnung-p08": {
+   "title": "Flat with few barriers",
+   "explain": "Plus for a low-barrier design: no thresholds in the flat, a transition to the balcony or terrace with hardly any threshold, and enough space to move around in the flat. The Mietspiegel 2024 also says: „und/oder barrierearme Badgestaltung“ (and/or low-barrier bathroom design). The Mietspiegel does not say how high a threshold may be.",
+   "check": "Are there door thresholds between the rooms? How high is the step to the balcony? Can you get through doors and the hallway with a walking frame or wheelchair?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: photos of the thresholds with a folding ruler."
+  },
+  "wohnung-p09": {
+   "title": "High-quality floor in most living rooms",
+   "explain": "Plus for high-quality parquet, natural or artificial stone, tiles or an equivalent floor in most of the living rooms. In the Mietspiegel 2026 the hallway counts, the kitchen and bathroom do not. The Mietspiegel does not say exactly what „hochwertig“ (high-quality) and „gleichwertig“ (equivalent) mean.",
+   "check": "Which floor is in which room? Who laid it: the landlord or you? Is it in good condition?",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: photos of the floors, the handover report, receipts for floors you laid yourself."
+  },
+  "wohnung-p10": {
+   "title": "New thermal or soundproof windows",
+   "explain": "For buildings or flats completed before 2002: plus if mostly thermal insulation glazing or soundproof windows are installed. In the Mietspiegel 2026 in each case installed in 2002 or later; in the Mietspiegel 2024, „Einbau ab 2002“ (installed from 2002) is only stated for thermal insulation glazing.",
+   "check": "When were the windows installed? There is often a print with the year or manufacturer in the space between the panes. Count how many windows are new.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: photos of the prints in the space between the panes."
+  },
+  "wohnung-p11": {
+   "title": "Flat door with extra protection against break-ins",
+   "explain": "Plus for additional protection against break-ins on the flat door, for example high-quality door guards (Sperrbügel) and/or multi-point locks, on reinforced doors.",
+   "check": "Does your flat door have a door guard (Sperrbügel) or a lock that locks at several points? Is the door itself reinforced? Both are required.",
+   "proof": "If the landlord goes to court, he usually has to prove plus features. This is how the Landgericht Berlin (Berlin Regional Court) decided; other courts may see it differently. Only what the landlord provided counts, not things you installed yourself without being paid back. Helpful for you: photos of the door and the lock."
+  }
+ },
+ "checker": {
+  "intro": "Enter the details from the landlord’s letter. We calculate deadlines and limits according to fixed rules. The result is based only on your details. It is not a legal check of your case.",
+  "received": "Day the letter reached you",
+  "received_help": "Not the date on the letter, but the day it was in your letterbox or post office box.",
+  "last_change": "Since when has your current rent applied?",
+  "last_change_help": "The day the last increase took effect, that is, from which you had to pay the higher rent. If there has been no increase yet, the start of the tenancy agreement. Increases for modernisation or service charges do not count.",
+  "current_rent": "Your current net cold rent (Nettokaltmiete) per month",
+  "current_rent_help": "Rent without service charges and without heating costs.",
+  "rent_3y_ago": "Net cold rent three years before the day the new rent is to apply",
+  "rent_3y_ago_help": "This is your net cold rent on {date3y}. If you have only lived there since that day or for a shorter time, enter the rent when you moved in. Only leave the field empty if your rent has stayed the same since that day.",
+  "increases_559_560": "Increases of the net cold rent after modernisation (§ 559 BGB) in these three years (€ per month)",
+  "demanded_rent": "New net cold rent that the landlord demands",
+  "area": "Living space in m²",
+  "ovm_per_sqm": "Local comparative rent (ortsübliche Vergleichsmiete) in € per m² (from the calculator)",
+  "requested_effective": "From when does the landlord want the new rent?",
+  "disclaimer": "The dates are calendar dates. Only for the landlord’s deadline to sue do we show the next working day if the end falls on a Saturday, Sunday or public holiday in Berlin (§ 193 BGB). For your own deadlines, plan with the calendar date and preferably reply a few days earlier.",
+  "result": {
+   "sperrfrist_fail": {
+    "title": "The demand may have come too early",
+    "text": "By the fixed calculation rule and your details, the letter reached you less than one year after the last rent increase. According to the case law of the Federal Court of Justice (Bundesgerichtshof), such a demand is invalid (§ 558 Abs. 1 Satz 2 BGB; BGH, VIII ZR 178/03). Check the dates carefully. Do not consent before you have got advice."
+   },
+   "wartefrist_postponed": {
+    "title": "The new rent can only apply later",
+    "text": "Based on your details, your rent will not yet have been unchanged for 15 months on the date of the increase. The increase can then apply from {effective} at the earliest (§ 558 Abs. 1 Satz 1 BGB). We have not found any decision of the Federal Court of Justice that clarifies what a date named too early means for the demand. Get advice."
+   },
+   "over_cap": {
+    "title": "Above the cap (Kappungsgrenze)",
+    "text": "Based on your details, the rent demanded is higher than the cap of {rate} in three years (§ 558 Abs. 3 BGB). Based on this limit, the maximum works out at {cap_rent}."
+   },
+   "over_ovm": {
+    "title": "Above the comparative rent",
+    "text": "The rent demanded is higher than the comparative rent from your calculation with the Mietspiegel ({ovm_rent}). Your calculation is based on your own details about the features. The landlord may see features differently. In a dispute, the court decides."
+   },
+   "within_limits": {
+    "title": "Based on your details, no limit is exceeded",
+    "text": "Based on your details, the rent demanded is not above the cap and not above the comparative rent from your calculation. This is no guarantee. Check your details again, especially the features, the living space and the rent from three years ago."
+   },
+   "no_ovm": {
+    "title": "Comparative rent missing",
+    "text": "You have not entered a comparative rent. So we only check the cap and the deadlines. Use the calculator to estimate the comparative rent."
+   },
+   "requested_too_early": {
+    "title": "The date named is too early",
+    "text": "The landlord names an earlier date than the law allows. The higher rent can apply from {effective} at the earliest (§ 558b Abs. 1 BGB, § 558 Abs. 1 Satz 1 BGB). Whether the demand is still valid depends on the individual case. Get advice."
+   },
+   "need_rent_3y": {
+    "title": "Rent from three years ago missing",
+    "text": "Your rent may have changed in the last three years, or we do not know the day of the last change. Without the rent on {base_date} we cannot calculate the cap reliably. Enter the rent from back then. If you have lived there for less than three years, enter the rent when you moved in."
+   },
+   "no_last_change": {
+    "title": "Day of the last rent increase missing",
+    "text": "You have not entered since when your current rent has applied. So we cannot check the one-year blocking period (Sperrfrist) and the 15-month waiting period (Wartefrist). Enter the day of the last increase, or the start of the tenancy agreement if there has been no increase yet."
+   },
+   "over_lwu": {
+    "title": "Above the commitments of the state-owned companies",
+    "text": "Based on your details, the rent demanded is higher than the commitments of the state-owned housing companies (landeseigene Wohnungsunternehmen): at most 11 % in three years and at most €50, €75 or €100 more, depending on the living space. The calculated maximum is {lwu_cap}. These commitments are voluntary. Whether they can be enforced in court is unclear. Contact the ombudsman office (Ombudsstelle, www.ombud-lwu.de) or an advice centre."
+   }
+  },
+  "increases_559_560_help": "Only increases of the cold rent after a modernisation. Do not enter changes to your advance payments for service charges or heating costs here. Only if your rent includes a flat rate for service charges (gross rent, Bruttomiete) do increases of that flat rate count too. If you are unsure, get advice.",
+  "requested_effective_help": "Does the letter name a date from which the new rent is to apply? Then enter it here.",
+  "area_help": "What counts is the real living space, not the number in the tenancy agreement."
+ },
+ "letters": {
+  "zustimmung": {
+   "title": "Consent (Zustimmung)",
+   "when": "If you have checked the increase and think the full amount is correct. For example: the new rent is not above the local comparative rent and not above the cap (Kappungsgrenze), and the waiting periods have been kept.",
+   "risks": "Your consent is final. You cannot take it back once it has reached the landlord. The new rent then counts as agreed, as a rule even if it was too high. Only in exceptional cases, for example deliberate deception, can a consent be challenged (anfechten). If your tenancy agreement started in June 2015 or later, check the rent brake (Mietpreisbremse) first: after a consent you can, as a rule, no longer rely on the rent brake against the new rent (BGH, VIII ZR 300/21). If the check showed a problem, do not consent before you have got advice.",
+   "explain": "With this letter you consent to the rent increase. Enter your current net cold rent (Nettokaltmiete), the new rent and the date from which you pay. The figures should match the landlord’s letter exactly. The letter says expressly that nothing else in the tenancy agreement changes. Do not sign a form from the landlord instead if you do not understand everything on it. If your agreement has a gross or all-inclusive rent (Brutto- oder Inklusivmiete) instead of a net cold rent, get advice first."
+  },
+  "teilzustimmung": {
+   "title": "Partial consent (Teilweise Zustimmung)",
+   "when": "If you think that part of the increase is justified, but not the whole amount. For example: the comparative rent by your calculation is between your current rent and the rent demanded.",
+   "risks": "A partial consent is also final. The rent you consent to counts as agreed. The landlord can still sue in court for the rest. So only consent to the amount you are sure is correct. Afterwards, pay only this amount, not the full amount demanded; check any direct debit (Lastschrift). If your tenancy agreement started in June 2015 or later, check the rent brake (Mietpreisbremse) first: after a consent you can, as a rule, no longer rely on the rent brake against the new rent (BGH, VIII ZR 300/21). Calculate the amount carefully first and get advice.",
+   "explain": "With this letter you consent to a smaller increase than the landlord demands. Enter your current net cold rent, the rent you consent to, and the date. You can name features that you see differently from the landlord. But you do not have to. The list is expressly „nicht abschließend“ (not exhaustive): you can name further points later. The letter says expressly that nothing else in the tenancy agreement changes."
+  },
+  "ablehnung": {
+   "title": "Refusal (Ablehnung)",
+   "when": "If you do not want to consent to the increase, for example because you think it is too high or that the letter has errors.",
+   "risks": "A refusal does not end the matter. The landlord can sue for consent within three months after the end of your deadline. Whoever loses a court case has to pay the costs (§ 91 ZPO). If the court decides for the landlord, your consent counts as given as soon as nothing more can be done against the judgment (final and binding, Rechtskraft, § 894 ZPO). You then owe the higher rent from the date of the increase, that is, also for the months during the court case (§ 558b Abs. 1 BGB). It is best to put the money for this aside. With a rent increase under § 558 BGB you keep paying the previous rent until the decision, not the higher one. This does not apply to modernisation, service charges, index or graduated rent or in social housing. Check any direct debit.",
+   "explain": "With this letter you refuse the rent increase. The law does not require you to give reasons. But you can name features from the Orientierungshilfe that you see differently. These are plus features that the landlord has applied and that you do not accept. And minus features that he has not taken into account. Only choose features that you have checked yourself. You do not have to send a refusal: if you do nothing, you have not consented either. But a letter makes your position clear."
+  },
+  "nachfrage": {
+   "title": "Question about the features",
+   "when": "If the landlord’s letter does not say which features he has applied, or if you want to check details such as the living space, residential area (Wohnlage) or building age.",
+   "risks": "Asking does not stop your deadline. The deadline for consent keeps running until the end of the second calendar month after receipt (Zugang). The landlord does not have to reply. Do not wait too long for an answer.",
+   "explain": "With this letter you ask how the landlord has classified your flat. You neither consent nor refuse. Under „weitere Fragen“ (further questions) you can add your own questions, for example asking for a copy of the energy certificate (Energieausweis)."
+  },
+  "fields": {
+   "tenant_name": "Your name (if there are several tenants, all names)",
+   "tenant_address": "Your address",
+   "landlord_name": "Name of the landlord or property management",
+   "landlord_address": "Address of the landlord",
+   "contract_number": "Tenancy agreement or customer number (if there is one)",
+   "place": "Place",
+   "demand_date": "Date of the landlord’s letter",
+   "received": "Day the letter reached you",
+   "new_rent": "New net cold rent according to the landlord (per month)",
+   "effective": "From when do you pay the new rent?",
+   "current_rent": "Your current net cold rent (per month)",
+   "agreed_rent": "Net cold rent you consent to (per month)",
+   "disputed_plus": "The landlord’s plus features that you do not accept",
+   "missing_minus": "Minus features the landlord has not taken into account",
+   "questions": "Further questions (optional)",
+   "own_text": "Your own addition (optional)",
+   "tenant_name_help": "As it is written in the tenancy agreement. If several people signed the agreement, all of them should sign.",
+   "received_help": "This is important for all deadlines. Write down the date and keep the envelope.",
+   "contract_number_help": "Often at the top of the landlord’s letter.",
+   "agreed_rent_help": "Only enter an amount you are sure is correct. You are bound by it.",
+   "effective_help": "Enter the date from the landlord’s letter. If this date is earlier than the start of the third calendar month after receipt, the later day applies. The calculator fills the field with the later of the two days. Check it.",
+   "disputed_plus_help": "Only choose features that you have checked yourself.",
+   "missing_minus_help": "Only choose features that you have checked in your flat and can prove.",
+   "own_text_help": "We do not check this text. It goes into the letter unchanged. Only write facts that are true. Do not put conditions or a counter-offer („nur wenn …“, “only if …”) into a consent. Then the consent can count as a refusal.",
+   "current_rent_help": "Without service charges and heating costs."
+  },
+  "intro": {
+   "title": "Letter to the landlord",
+   "text": "The letter is in German because your landlord must understand it. The explanations here are in your language. Read the letter carefully before you send it. We do not check your case."
+  },
+  "send": {
+   "title": "How to send the letter",
+   "text": "Sign the letter. Send it in a way that lets you show later that it arrived: for example by registered mail with proof of delivery (Einwurf-Einschreiben), or hand it in together with a witness. Keep a copy. The letter must arrive before your deadline ends."
+  }
+ },
+ "rules": {
+  "mietspiegel_choice": {
+   "title": "Which Mietspiegel applies?",
+   "text": "What counts is the day the rent increase demand (Mieterhöhungsverlangen) reaches you (receipt, Zugang). The local comparative rent is determined for this day (BGH, VIII ZR 22/20, Rn. 29). Usually the Mietspiegel that applies on that day is used: from 28.05.2026 the Mietspiegel 2026, from 30.05.2024 to 27.05.2026 the Mietspiegel 2024. Note: if the letter arrived between 01.09.2025 and 27.05.2026, a court may also use the Mietspiegel 2026 or add a surcharge (LG Berlin, 65 S 527/13; BGH, VIII ZR 295/15). In that case, calculate with both. For the rent brake (Mietpreisbremse), on the other hand, what matters is the start of the tenancy."
+  },
+  "ovm": {
+   "title": "Local comparative rent (ortsübliche Vergleichsmiete)",
+   "text": "This is the rent that is usual in Berlin for similar flats (§ 558 Abs. 2 BGB). The calculator takes the value from your Mietspiegel field and places it in the range with the Orientierungshilfe. The result is an estimate based on your details. The new rent must not be higher than this value."
+  },
+  "netting": {
+   "title": "How the range is applied",
+   "text": "In each of the five groups, you count plus and minus features. More plus: the group counts as plus. More minus: as minus. Equal: 0. Then you weigh the groups against each other: one plus group and one minus group cancel each other out. Each plus moves the value up by one fifth of the distance from the average value to the upper value, each minus moves it down by one fifth of the distance to the lower value (Mietspiegel No. 10.3). The Mietspiegel does not say whether to round per group or once. Differences of one cent are possible."
+  },
+  "consent_deadline": {
+   "title": "Your deadline for consent",
+   "text": "You have time until the end of the second calendar month after the month in which the letter arrived (§ 558b Abs. 2 BGB). Your reply should reach the landlord by this day. If the day falls on a Saturday, Sunday or public holiday in Berlin, the wording of § 193 BGB moves the end to the next working day. We have not found a court decision on exactly this point. So do not rely on this."
+  },
+  "effective": {
+   "title": "From when the new rent applies",
+   "text": "If you consent, you pay the higher rent from the start of the third calendar month after receipt (§ 558b Abs. 1 BGB). If the landlord names a later date, the later date applies. If on that date the rent has not yet been unchanged for 15 months, the increase can apply at the earliest when the 15 months are over (§ 558 Abs. 1 Satz 1 BGB)."
+  },
+  "sue_deadline": {
+   "title": "Deadline for the landlord to sue",
+   "text": "If you do not consent, or only consent in part, the landlord can sue for consent. The court case must be filed within three months after the end of your deadline (§ 558b Abs. 2 BGB). If the end falls on a Saturday, Sunday or public holiday in Berlin, the landlord has until the next working day, for example until Monday (§ 193 BGB). It is enough if the claim reaches the court by then and is served soon afterwards (§ 167 ZPO). That is why we show the later date here. After that, the landlord can no longer sue for this increase; a new demand is still possible."
+  },
+  "termination_declare_by": {
+   "title": "Special termination: deadline (common interpretation)",
+   "text": "After a rent increase demand you can terminate the tenancy with extraordinary notice, until the end of the second month after receipt (§ 561 BGB). The date shown here is the end of the second calendar month. We have not found this reading confirmed in an official source. It is better to use the safe date. Here too, we do not move the date to a working day."
+  },
+  "termination_safe_by": {
+   "title": "Special termination: safe date",
+   "text": "If your notice of termination reaches the landlord by this day (two months from receipt), you are on the safe side (§ 561 BGB). This also applies if the day is a Saturday, Sunday or public holiday: it is not settled whether the deadline then moves. Do not count on it. The notice must be in writing, on paper with your signature (§ 568 Abs. 1 BGB). The rent increase then does not apply."
+  },
+  "termination_ends": {
+   "title": "End of the tenancy after special termination",
+   "text": "The tenancy ends at the end of the second month after the month in which your notice arrives (§ 561 Abs. 1 BGB). The date shown applies if the notice arrives on the last possible day. If you give notice earlier, it ends earlier."
+  },
+  "sperrfrist_earliest_received": {
+   "title": "One-year blocking period (Sperrfrist)",
+   "text": "A rent increase demand may reach you one year after the last rent increase at the earliest (§ 558 Abs. 1 Satz 2 BGB). The year counts from the day the last increase took effect (BGH, VIII ZR 141/09, Rn. 18). If it arrives earlier, it is invalid (BGH, VIII ZR 178/03). Increases after a modernisation or for service charges (§§ 559 to 560 BGB) do not count."
+  },
+  "wartefrist_earliest_effective": {
+   "title": "15-month waiting period (Wartefrist)",
+   "text": "The new rent may only apply when the rent has been unchanged for 15 months (§ 558 Abs. 1 Satz 1 BGB). The 15 months count from the date the last increase was first due (BGH, VIII ZR 178/03). Increases for modernisation or service charges do not count."
+  },
+  "kappung": {
+   "title": "Cap of 15 % (Kappungsgrenze)",
+   "text": "In Berlin, increases under § 558 BGB may raise the rent by at most 15 % within three years (§ 558 Abs. 3 BGB, Berliner Kappungsgrenzenverordnung of 14.03.2023, valid until 10.05.2028). The starting point is the rent three years before the day the new rent is to apply (BGH, VIII ZR 177/03). Increases of the cold rent after a modernisation (§ 559 BGB) do not count towards the 15 %: the 15 % is calculated without them, and such an increase may come on top. Changes to the advance payments for service charges are not part of it."
+  },
+  "silence": {
+   "title": "Silence is not consent",
+   "text": "If you do nothing, you have not consented. The landlord can then sue (§ 558b Abs. 2 BGB)."
+  },
+  "payment_consent": {
+   "title": "Paying can be consent",
+   "text": "Consent does not need any particular form. If you pay the higher rent several times without reservation, this can count as consent (BGH, VIII ZB 74/16, Rn. 13, 21)."
+  },
+  "consent_binding": {
+   "title": "Consent is final",
+   "text": "You can no longer take back a consent, including a partial one, once it has reached the landlord (§ 130 Abs. 1 BGB). A withdrawal like with an online purchase is not possible either (BGH, VIII ZR 94/17; VIII ZR 62/18, Rn. 21 f.). The rent then counts as agreed. Only in exceptional cases, for example deliberate deception, can you challenge it (anfechten, § 123 BGB). As a rule, you can no longer rely on the rent brake (Mietpreisbremse) against the new rent (BGH, VIII ZR 300/21)."
+  },
+  "partial_consent": {
+   "title": "Partial consent",
+   "text": "You can also consent to only part of the increase (§ 558b Abs. 1 BGB: „soweit“, “to the extent that”). You are bound by it. The landlord can sue for the rest (BGH, VIII ZR 141/09, Rn. 19). Afterwards, pay only the amount you consented to."
+  },
+  "landlord_equipment": {
+   "title": "Only the landlord’s fittings count",
+   "text": "What you installed and paid for yourself does not count (Mietspiegel 2026 No. 6.3), and this is permanent (BGH, VIII ZR 52/18). It is different if the landlord paid you back the costs. For the area, the real living space counts, not the number in the tenancy agreement (BGH, VIII ZR 266/14)."
+  },
+  "burden_of_proof": {
+   "title": "Who has to prove what?",
+   "text": "In a court case, the landlord has to prove the local comparative rent (BGH, VIII ZR 123/20, Rn. 27). On the individual features, the Landgericht Berlin (Berlin Regional Court, today Landgericht Berlin II) decided: the landlord has to prove plus features; you have to prove minus features you rely on (LG Berlin, 67 S 150/18, Rn. 6–9). Other courts may see it differently."
+  },
+  "staffel_index": {
+   "title": "Graduated rent and index rent",
+   "text": "If you have agreed a graduated rent (Staffelmiete) or index rent (Indexmiete), an increase under § 558 BGB is excluded during this time (§ 557a Abs. 2, § 557b Abs. 2 BGB)."
+  },
+  "lwu": {
+   "title": "State-owned housing companies",
+   "text": "At degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND and WBM, additional voluntary commitments apply as long as the cooperation agreement (Kooperationsvereinbarung) runs (until 31.12.2027): at most 11 % more in three years (alliance agreement of 15.07.2025) and at most €50 (up to 65 m²), €75 (up to 100 m²) or €100 (up to 125 m²) more per month (Kooperationsvereinbarung II.8). There is also the affordability promise (Leistbarkeitsversprechen): on application, a net cold rent of at most 27 % of household income, if the income and floor-space limits are met."
+  },
+  "pay_from": {
+   "title": "From when you would pay",
+   "text": "This is the later of the two days: the earliest day under the law or the date the landlord names. We put this date into the letter."
+  },
+  "scope": {
+   "title": "Does this apply to you?",
+   "text": "This help only applies if your landlord asks you to consent to a higher rent (§ 558 BGB). It does not apply to an increase after modernisation (§ 559 BGB), to new advance payments for service charges (§ 560 BGB), to index or graduated rent, in social housing or another subsidised flat with a fixed rent (§ 558 Abs. 2 Satz 2 BGB), to a room in the landlord’s flat, a flat rented only for a short time or a hall of residence (§ 549 BGB). In those cases you usually have to pay the higher rent even without consent. Do not simply stop paying. Get advice."
+  },
+  "mietpreisbremse_after_consent": {
+   "title": "Check the rent brake before consenting",
+   "text": "Did your tenancy agreement start in June 2015 or later, and was the rent perhaps too high at the start? Check this before you reply. If you consent to an increase, the new rent counts as agreed. As a rule, you can then no longer rely on the rent brake (Mietpreisbremse) against this new rent (BGH, VIII ZR 300/21)."
+  },
+  "consent_deadline_193": {
+   "title": "Deadline for consent: next working day",
+   "text": "If your deadline ends on a Saturday, Sunday or public holiday in Berlin, the wording of § 193 BGB puts the next working day in its place. This date shows that day. Still, plan with the earlier date. Public holidays in Berlin include, for example, New Year’s Day, Women’s Day (8 March), Good Friday, Easter Monday, 1 May, Ascension Day, Whit Monday, 3 October and the two Christmas holidays."
+  }
+ }
+}

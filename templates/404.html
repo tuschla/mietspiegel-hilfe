@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}{{ ui.notfound_title }} · {{ ui.brand }}{% endblock title %}
+{% block main %}
+<div class="prose">
+  <h1>{{ ui.notfound_title }}</h1>
+  <p>{{ ui.notfound_text }}</p>
+  <p><a class="btn" href="{{ m::home(lang=lang) }}">{{ ui.notfound_home }}</a></p>
+</div>
+{% endblock main %}
