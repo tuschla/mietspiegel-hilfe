@@ -44,10 +44,12 @@ zola build --base-url "https://example.org/path"  # writes public/
 The page template sets a CSP in a `<meta>` tag, but a meta CSP cannot set `frame-ancestors`. The server must send these headers on every response and must not merge them with a stricter parent policy (for example a `default-src 'none'` policy blocks the scripts and the tool pages stay at "Wird geladen …"):
 
 ```
-Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
 X-Content-Type-Options: nosniff
 Referrer-Policy: no-referrer
 ```
+
+If the site shares its origin with other pages, narrow `script-src` to the site's script folder, e.g. `https://example.org/path/js/`.
 
 - Serve `.js` as `text/javascript` and `.json` as `application/json`.
 - Point the 404 handler at `<prefix>/404.html`.
