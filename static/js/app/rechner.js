@@ -22,7 +22,7 @@ s.feats = s.feats || {};
 
 const ms = () => MS[s.year];
 /** Cases outside the Berlin Mietspiegel (Nr. 3), asked before any result. */
-const CALC_SCOPE = ["sozial", "efh", "neubau", "wc_out"];
+const CALC_SCOPE = ["sozial", "gefoerdert", "efh", "neubau", "wc_out"];
 const fmtEur = (x) => eur(x, lang);
 const fmtNum = (x, d = 2) => num(x, lang, d);
 const ftitle = (f) => c(`features.${f.id}.title`);

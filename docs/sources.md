@@ -190,3 +190,11 @@ The frontend does not contain its own legal statements; legal texts come from Co
 - **Ombudsstelle LWU** – https://www.ombud-lwu.de/ – „degewo, GESOBAU, Gewobag, HOWOGE, Stadt & Land, WBM sowie der „klassischen“ Mietwohnungen im Eigenbestand der berlinovo“ (hilfe.md).
 - **Kooperationsvereinbarung 2024, Präambel** – https://www.berlin.de/sen/bauen/_assets/neubau/koopv-2024.pdf (curl + pdftotext) – „[die] Senatsverwaltung für Finanzen, die Regelungen dieser Kooperationsvereinbarung wie bereits in der Vergangenheit für die im alleinigen Eigentum der berlinovo stehenden Wohnungsbestände im Bereich des „Klassischen Wohnens“ zur Anwendung zu bringen.“ (content rules.lwu.text)
 - **Datenschutzaussage (ueber.md, _index.md)** – keine externe Quelle; Code-Befund der Richter S5/S6: `static/js` sendet keine Eingaben (kein `sendBeacon`, `XMLHttpRequest`, POST oder WebSocket; einziges `fetch` ist ein GET der eigenen JSON-Dateien), der Server erhält beim Seitenaufruf wie jeder Webserver technische Daten (IP-Adresse). Speicherung nur in `sessionStorage` nach S4 F4.
+
+### Content – O4 gefoerdert (geprüft 2026-10-18)
+
+Beleg für das Kästchen `scope_item_gefoerdert` (`NOT_MS` in `static/js/app/scope.js`) und den Zusatz in `scope_notms_text`.
+
+- **Berliner Mietspiegel 2026, Nr. 3** – `tools/src/mietspiegel2026.pdf` (sha256 `ff6f45de…2556`), pdftotext, PDF-Seite 9 (Druckseite 7): „Der Mietspiegel gilt nicht für: … — Wohnungen, bei denen die Miethöhe durch Gesetz oder im Zusammenhang mit einer Förderzusage festgelegt worden ist (z. B. öffentlich geförderte Wohnungen).“
+- **Berliner Mietspiegel 2024, Nr. 3** – `tools/src/mietspiegel2024.pdf` (sha256 `a6ee91b8…1577`), pdftotext, PDF-Seite 9: gleicher Wortlaut „— Wohnungen, bei denen die Miethöhe durch Gesetz oder im Zusammenhang mit einer Förderzusage festgelegt worden ist (z.B. öffentlich geförderte Wohnungen).“
+- **§ 28 Abs. 3 WoFG** – https://www.gesetze-im-internet.de/wofg/__28.html – live geöffnet 2026-10-18: „Der Vermieter kann die Miete nach Maßgabe der allgemeinen mietrechtlichen Vorschriften erhöhen, jedoch nicht höher als bis zur höchstzulässigen Miete und unter Einhaltung sonstiger Bestimmungen der Förderzusage zur Mietbindung.“ Abs. 1 S. 1: „In der Förderzusage ist eine höchstzulässige Miete zu bestimmen“. → Zustimmung nach § 558 BGB nötig, Obergrenze Höchstmiete aus der Förderung.

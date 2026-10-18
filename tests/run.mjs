@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Test runner: `node tests/run.mjs` or `bun tests/run.mjs` (from the site root or anywhere).
-// Uses the same ES modules as the browser (static/js/lib/*.js).
+// Uses the same ES modules as the browser (static/js/lib/*.js, static/js/app/scope.js).
 //  1. all `tests` vectors from static/data/rules.json (§ 558 check + netting)
 //  2. fixed unit tests (date rules, brochure examples on the real Mietspiegel data, letters)
 //  3. consistency: UI key parity, content keys for every feature id, letter placeholders
@@ -15,6 +15,7 @@ import { check, compareExpected, chooseMietspiegel } from "../static/js/lib/chec
 import { findRow, evaluate, netting, groupSign, energyBoxes, exclusiveConflicts, disputes, expandKennwert } from "../static/js/lib/mietspiegel.js";
 import { render, placeholders, prefill, letterValues, amountProblems, consentWarnings } from "../static/js/lib/letter.js";
 import { parseNumber, round } from "../static/js/lib/money.js";
+import { scopeState } from "../static/js/app/scope.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const p = (...xs) => join(ROOT, ...xs);
@@ -271,6 +272,8 @@ if (rules) {
     eq("V S3 K1: every template keeps the signature space and nothing else", bad1, []);
   }
 }
+// O4 (S2 C2, S5 F1): newer subsidised flat – § 558 applies (consent needed), the Mietspiegel does not
+eq("O4 gefoerdert: scopeState → notMS", scopeState({ ask: "yes", items: { gefoerdert: true } }, { withAsk: true }), "notMS");
 
 /* ---------- 3. consistency ---------- */
 section("3. Consistency");

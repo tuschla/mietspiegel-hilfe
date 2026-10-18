@@ -6,7 +6,9 @@ import { store, h, paras, callout } from "./common.js";
 /** Cases where § 558 does not apply at all (the rent may be owed without consent). */
 export const NOT_558 = ["sozial", "mod559", "bk560", "index_staffel", "s549"];
 /** Cases where § 558 applies but the Berlin Mietspiegel (and so the calculator) does not. */
-export const NOT_MS = ["efh", "neubau", "wc_out"];
+export const NOT_MS = ["gefoerdert", "efh", "neubau", "wc_out"];
+/** Order of the checkboxes in the checker and the letter scope (subsidised flats next to each other). */
+export const SCOPE_ITEMS = ["sozial", "gefoerdert", "mod559", "bk560", "index_staffel", "s549", "efh", "neubau", "wc_out"];
 
 export function readScope() {
   const sc = store.get("scope");
@@ -17,7 +19,7 @@ export function readScope() {
  * State: "open" (fine), "unanswered" (consent question not answered), "not558", "notMS".
  * @param withAsk  whether the consent question is part of the gate
  */
-export function scopeState(sc, { withAsk = true, items = [...NOT_558, ...NOT_MS] } = {}) {
+export function scopeState(sc, { withAsk = true, items = SCOPE_ITEMS } = {}) {
   const on = (id) => items.includes(id) && sc.items[id];
   if (NOT_558.some(on) || (withAsk && sc.ask === "no")) return "not558";
   if (withAsk && !sc.ask) return "unanswered";
@@ -45,7 +47,7 @@ export function scopeNotice(state, { t, cfg }) {
  * Form for the gate. `onChange(sc)` is called after every change.
  * @param opts {withAsk, items}
  */
-export function scopeForm({ t, withAsk = true, items = [...NOT_558, ...NOT_MS], onChange }) {
+export function scopeForm({ t, withAsk = true, items = SCOPE_ITEMS, onChange }) {
   const sc = readScope();
   const save = () => { store.set("scope", sc); onChange(sc); };
   const nodes = [];

@@ -628,3 +628,15 @@ Arabische Übersetzung an den deutschen Stand „Wave V – adversarial review�
 | content/ueber.ar.md | Z. 14 | IP-Adresse, Speicherung nur solange der Tab offen ist |
 
 Warnungen nicht abgeschwächt: „لا تتوقف عن الدفع ببساطة“, 2-Wochen-Frist bei Post vom Gericht, Kostenrisiko auch mit Prozesskostenhilfe, Entscheidung ohne Sie „وغالباً لصالح المؤجِّر“.
+
+### O4 gefoerdert (Owner-Entscheidung O4 Option a, 18.10.2026; S5 F1 Teil `gefoerdert`, S2 C2)
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/js/app/scope.js | `NOT_MS`, neu `SCOPE_ITEMS` | `gefoerdert` in `NOT_MS` (Rechner zeigt kein Mietspiegel-Ergebnis; Prüfung zeigt § 558-Ergebnisse mit `scope_notms`-Hinweis). `SCOPE_ITEMS` = Reihenfolge der Kästchen in Prüfung und Brief, `gefoerdert` direkt nach `sozial`; Standardwert für `scopeState`/`scopeForm`. |
+| static/js/app/rechner.js | `CALC_SCOPE` | `gefoerdert` nach `sozial`. |
+| static/i18n/ui/{de,en,tr,ar,uk,ru,pl}.json | neu `scope_item_gefoerdert` (nach `scope_item_sozial`); `scope_notms_text` | Kästchen „Neuere Sozialwohnung oder andere geförderte Wohnung ohne „Kostenmiete“ (die höchste Miete steht in der Förderung)“; Hinweis ergänzt: Zustimmung trotzdem nötig, Miete höchstens Höchstmiete aus der Förderung. Übersetzungen mit den Begriffen aus mieterhoehung.*.md Z. 33. |
+| tests/run.mjs | Abschnitt 2 | Test „O4 gefoerdert: scopeState → notMS“ (`ask: "yes"`, `withAsk: true`). |
+| content/mieterhoehung*.md, content/rechner*.md | – | unverändert: mieterhoehung Z. 33 (Absatz neuere geförderte Wohnung) und rechner Z. 10 („Sozialwohnungen und andere geförderte Wohnungen mit fester Miete“) nennen den Fall bereits in allen 7 Sprachen. |
+
+Quellen: docs/sources.md, Abschnitt „Content – O4 gefoerdert“.
