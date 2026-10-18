@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 // Test runner: `node tests/run.mjs` or `bun tests/run.mjs` (from the site root or anywhere).
-// Uses the same ES modules as the browser (static/js/lib/*.js, static/js/app/scope.js).
+// Uses the same ES modules as the browser (static/js/lib/*.js, static/js/app/scope.js, static/js/app/langsuggest.js).
 //  1. all `tests` vectors from static/data/rules.json (§ 558 check + netting)
-//  2. fixed unit tests (date rules, brochure examples on the real Mietspiegel data, letters)
+//  2. fixed unit tests (date rules, brochure examples on the real Mietspiegel data, letters, language suggestion)
 //  3. consistency: UI key parity, content keys for every feature id, letter placeholders, style lint of all texts
-//  4. if public/ exists: no external resources (scripts, styles, fonts, images) in the built site
+//  4. if public/ exists: no external resources (scripts, styles, fonts, images) in the built site;
+//     every page carries the language suggestion list with links to existing translations
 
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -16,6 +17,7 @@ import { findRow, evaluate, netting, groupSign, energyBoxes, exclusiveConflicts,
 import { render, placeholders, prefill, letterValues, amountProblems, consentWarnings } from "../static/js/lib/letter.js";
 import { parseNumber, round } from "../static/js/lib/money.js";
 import { scopeState } from "../static/js/app/scope.js";
+import { pickSuggestion } from "../static/js/app/langsuggest.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const p = (...xs) => join(ROOT, ...xs);
@@ -274,6 +276,19 @@ if (rules) {
 }
 // O4 (S2 C2, S5 F1): newer subsidised flat – § 558 applies (consent needed), the Mietspiegel does not
 eq("O4 gefoerdert: scopeState → notMS", scopeState({ ask: "yes", items: { gefoerdert: true } }, { withAsk: true }), "notMS");
+// Language suggestion banner: first browser language this page exists in, unless it is the page's own
+{
+  const all = ["de", "en", "tr", "ar", "uk", "ru", "pl"];
+  eq("lang suggest: de page, [tr-TR, de] → tr", pickSuggestion(["tr-TR", "de"], "de", all), "tr");
+  eq("lang suggest: de page, [de-DE, tr] → none", pickSuggestion(["de-DE", "tr"], "de", all), null);
+  eq("lang suggest: tr page, [tr] → none", pickSuggestion(["tr"], "tr", all), null);
+  eq("lang suggest: en page, [fr, ar] → ar", pickSuggestion(["fr", "ar"], "en", all), "ar");
+  eq("lang suggest: page without uk, [uk] → none", pickSuggestion(["uk"], "de", all.filter((x) => x !== "uk")), null);
+  eq("lang suggest: page without uk, [uk-UA, ru] → ru", pickSuggestion(["uk-UA", "ru"], "de", all.filter((x) => x !== "uk")), "ru");
+  eq("lang suggest: empty browser list → none", [pickSuggestion([], "de", all), pickSuggestion(undefined, "de", all), pickSuggestion([undefined], "de", all)], [null, null, null]);
+  eq("lang suggest: case-insensitive, [PL] → pl", pickSuggestion(["PL"], "de", all), "pl");
+  eq("lang suggest: available without the page language, [de] on de page → none", pickSuggestion(["de"], "de", ["tr"]), null);
+}
 
 /* ---------- 3. consistency ---------- */
 section("3. Consistency");
@@ -447,6 +462,48 @@ if (existsSync(p("public"))) {
   };
   walkHtml(p("public"));
   busted.length ? bad("V S6 F3: no common.js?h= in public/", busted.slice(0, 10)) : ok("V S6 F3: no common.js?h= in public/");
+  // language suggestion: every page except 404.html lists its other translations (data-lang-suggest),
+  // each with a link to an existing page and the text of that language's ui file
+  {
+    const unescape = (s) => s.replace(/&#x2F;/g, "/").replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+    const attr = (tag, name) => unescape((new RegExp(`\\s${name}="([^"]*)"`).exec(tag) || [])[1] || "");
+    const uiOf = Object.fromEntries(readdirSync(uiDir).filter((x) => x.endsWith(".json")).map((x) => [x.slice(0, -5), load(`static/i18n/ui/${x}`)]));
+    const problems = [];
+    let pages = 0, links = 0;
+    const walkSuggest = (dir) => {
+      for (const n of readdirSync(dir)) {
+        const fp = join(dir, n);
+        if (statSync(fp).isDirectory()) { walkSuggest(fp); continue; }
+        if (!n.endsWith(".html") || fp === p("public/404.html")) continue;
+        const rel = fp.slice(ROOT.length);
+        const html = readFileSync(fp, "utf8");
+        const list = /<ul hidden data-lang-suggest>([\s\S]*?)<\/ul>/.exec(html);
+        if (!list) { problems.push(`${rel}: no <ul hidden data-lang-suggest>`); continue; }
+        pages++;
+        const pageLang = (/<html lang="([a-z]+)"/.exec(html) || [])[1];
+        const alternates = new Set([...html.matchAll(/<link rel="alternate" hreflang="([a-z]+)"/g)].map((m) => m[1]));
+        const seen = new Set();
+        for (const [li] of list[1].matchAll(/<li\b[^>]*>/g)) {
+          const [code, dir, href, text, close] = ["data-lang", "data-dir", "data-href", "data-text", "data-close"].map((a) => attr(li, a));
+          const ui = uiOf[code];
+          seen.add(code);
+          links++;
+          if (!ui || code === pageLang) { problems.push(`${rel}: unexpected data-lang="${code}"`); continue; }
+          if (dir !== (code === "ar" ? "rtl" : "ltr")) problems.push(`${rel}: ${code} has data-dir="${dir}"`);
+          if (text !== ui.lang_suggest_text || close !== ui.lang_suggest_close) problems.push(`${rel}: ${code} texts differ from ui/${code}.json`);
+          const path = own && href.toLowerCase().startsWith(own + "/") ? decodeURIComponent(href.slice(own.length)) : null;
+          const target = path && join(p("public"), path, path.endsWith("/") ? "index.html" : "");
+          if (!target || !existsSync(target)) problems.push(`${rel}: ${code} link ${href} does not point to a built page`);
+          else if (!new RegExp(`<html lang="${code}"`).test(readFileSync(target, "utf8"))) problems.push(`${rel}: ${code} link ${href} is not a ${code} page`);
+        }
+        const want = [...alternates].filter((x) => x !== pageLang).sort().join(",");
+        if ([...seen].sort().join(",") !== want) problems.push(`${rel}: suggests [${[...seen].sort()}], translations [${want}]`);
+      }
+    };
+    walkSuggest(p("public"));
+    problems.length ? bad("language suggestion list on every page, links to existing translations", problems.slice(0, 20))
+      : ok(`language suggestion list on all ${pages} pages, ${links} links to existing translations with their ui texts`);
+  }
 } else {
   note("public/", "not built – run zola build first to include this check");
 }

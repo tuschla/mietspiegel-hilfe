@@ -13,7 +13,7 @@ This site helps tenants in Berlin to understand the Berlin rent index (Mietspieg
 
 All calculations run only in your browser. Your entries are not sent to a server. There are no cookies, no statistics or tracking programs in your browser and no content from other websites. Your browser keeps what you enter only while this tab is open, so that you can move between the calculator, the check and the letter. The button “Delete my entries” removes it at once.
 
-Each time you open a page, your browser technically sends your IP address to the server. The server normally does not store it. It only logs which page was opened and when. It does not store an IP address, any browser data or which page you came from. It deletes these entries after 7 days. Only a daily count of page views per page and language is kept permanently. Only if there is a serious error on the server itself can an error log contain an IP address. This log is also deleted after 7 days.
+Each time you open a page, your browser technically sends your IP address to the server. The server normally does not store it. It only logs which page was opened and when. It does not store an IP address, any browser data or which page you came from. It only notes whether a page view came from an automated program, so that such page views are not counted. It deletes these entries after 7 days. Only a daily count of page views per page and language is kept permanently. Only with certain serious errors, for example when the connection is being set up or on the server itself, can an error log contain an IP address. This log is also deleted after 7 days.
 
 ## What this site is not
 

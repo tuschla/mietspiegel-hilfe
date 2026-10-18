@@ -3,6 +3,8 @@
   "brand_tag": "Beta",
   "skip_to_content": "Skip to content",
   "lang_switch_label": "Choose language",
+  "lang_suggest_text": "This page is also available in English.",
+  "lang_suggest_close": "Close",
   "nav_label": "Main menu",
   "nav_mieterhoehung": "Rent increase",
   "nav_pruefen": "Check deadlines and limits",

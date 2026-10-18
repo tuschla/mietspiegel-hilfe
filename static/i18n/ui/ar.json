@@ -3,6 +3,8 @@
   "brand_tag": "نسخة تجريبية",
   "skip_to_content": "الانتقال إلى المحتوى",
   "lang_switch_label": "اختيار اللغة",
+  "lang_suggest_text": "هذه الصفحة متوفرة أيضًا باللغة العربية.",
+  "lang_suggest_close": "إغلاق",
   "nav_label": "القائمة الرئيسية",
   "nav_mieterhoehung": "زيادة الإيجار",
   "nav_pruefen": "فحص المهل والحدود",

@@ -3,6 +3,8 @@
   "brand_tag": "Beta",
   "skip_to_content": "Перейти до змісту",
   "lang_switch_label": "Вибрати мову",
+  "lang_suggest_text": "Ця сторінка є також українською мовою.",
+  "lang_suggest_close": "Закрити",
   "nav_label": "Головне меню",
   "nav_mieterhoehung": "Підвищення орендної плати",
   "nav_pruefen": "Перевірити строки й межі",

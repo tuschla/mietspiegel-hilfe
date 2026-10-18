@@ -3,6 +3,8 @@
   "brand_tag": "Бета",
   "skip_to_content": "Перейти к содержанию",
   "lang_switch_label": "Выбрать язык",
+  "lang_suggest_text": "Эта страница есть и на русском языке.",
+  "lang_suggest_close": "Закрыть",
   "nav_label": "Главное меню",
   "nav_mieterhoehung": "Повышение арендной платы",
   "nav_pruefen": "Проверить сроки и пределы",

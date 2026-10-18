@@ -42,9 +42,9 @@ node tests/run.mjs     # or: bun tests/run.mjs
 The runner imports the same ES modules as the pages (`static/js/lib/*.js`) and checks:
 
 1. every vector in `static/data/rules.json` → `tests` (§ 558 check; `"kind": "netting"` for the Orientierungshilfe),
-2. unit tests: date rules, the brochure examples on the real Mietspiegel data (row 10, row 161, row 81 → 7,75 €/m²), energy boxes, letter rendering,
+2. unit tests: date rules, the brochure examples on the real Mietspiegel data (row 10, row 161, row 81 → 7,75 €/m²), energy boxes, letter rendering, language suggestion (`pickSuggestion`),
 3. consistency: every `static/i18n/ui/<lang>.json` has exactly the keys of `de.json`; every UI key used in templates/JS exists; `static/i18n/content/<lang>.json` covers every feature id of both Mietspiegel years; letter placeholders are known,
-4. if `public/` exists: no external scripts, styles, fonts, images or frames in the built site. Run `zola build` first to include this check.
+4. if `public/` exists: no external scripts, styles, fonts, images or frames in the built site; every page except `404.html` carries the language suggestion list, and each entry links to an existing page in that language with the texts of that language's UI file. Run `zola build` first to include this check.
 
 ## Structure and ownership
 
@@ -60,7 +60,9 @@ The runner imports the same ES modules as the pages (`static/js/lib/*.js`) and c
 
 Pages and templates: `_index.md` → `index.html`; `rechner.md` → `rechner.html`; `pruefen.md` → `pruefen.html` (§ 558 check); `brief.md` → `brief.html`; `merkmale.md` / `merkmale-2024.md` → `merkmale.html` with `[extra] year`; all other pages → `page.html`. The main navigation is `extra.nav` in `config.toml` (page slugs; labels come from UI key `nav_<slug>`).
 
-JavaScript: `static/js/lib/` holds pure, DOM-free modules (`dates.js`, `money.js`, `check558.js`, `mietspiegel.js`, `letter.js`, `i18n.js`) used by both the pages and the tests. `static/js/app/` holds the page code (`common.js` on every page, plus `rechner.js`, `pruefen.js`, `brief.js`). Templates pass UI strings and data URLs to the JS in a `<script type="application/json" id="app-config">` block.
+JavaScript: `static/js/lib/` holds pure, DOM-free modules (`dates.js`, `money.js`, `check558.js`, `mietspiegel.js`, `letter.js`, `i18n.js`) used by both the pages and the tests. `static/js/app/` holds the page code (`common.js` and `langsuggest.js` on every page, plus `rechner.js`, `pruefen.js`, `brief.js`). Templates pass UI strings and data URLs to the JS in a `<script type="application/json" id="app-config">` block.
+
+Language suggestion: `templates/base.html` writes a hidden `<ul data-lang-suggest>` with the current page in every other language that has it (link plus UI keys `lang_suggest_text` and `lang_suggest_close` of that language). `langsuggest.js` takes the first browser language (`navigator.languages`) the page exists in; if that is not the page's language, it shows one line below the header, in that language, linking to the translation. Never a redirect. Closing it, or following the link, keeps it away for the rest of the tab session (`langSuggest` in the sessionStorage store, removed by „Meine Eingaben löschen“). No banner without JavaScript, in print, or on the 404 page.
 
 Design tokens (colours, type scale, 4 px spacing scale, radii, motion) are CSS custom properties at the top of `static/css/site.css`. Use logical properties only (`margin-inline-start`, …) so that RTL works.
 

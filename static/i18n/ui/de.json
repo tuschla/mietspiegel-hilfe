@@ -3,6 +3,8 @@
   "brand_tag": "Beta",
   "skip_to_content": "Zum Inhalt springen",
   "lang_switch_label": "Sprache wählen",
+  "lang_suggest_text": "Diese Seite gibt es auch auf Deutsch.",
+  "lang_suggest_close": "Schließen",
   "nav_label": "Hauptmenü",
   "nav_mieterhoehung": "Mieterhöhung",
   "nav_pruefen": "Fristen und Grenzen prüfen",

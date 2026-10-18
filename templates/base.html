@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="{{ get_url(path='css/site.css', cachebust=true) }}">
 <link rel="icon" href="data:,">
 <script type="module" src="{{ get_url(path='js/app/common.js') }}"></script>
+<script type="module" src="{{ get_url(path='js/app/langsuggest.js') }}"></script>
 {%- block head %}{% endblock head %}
 </head>
 <body class="{% block body_class %}{% endblock body_class %}">
@@ -64,6 +65,18 @@
     </nav>
   </div>
 </header>
+{#- Language suggestion (static/js/app/langsuggest.js): this page in the other languages, each line
+    in its own language. Data only; the script shows one banner if the browser prefers one of them. -#}
+{%- if cur and cur.translations %}
+<ul hidden data-lang-suggest>
+  {%- for l in config.extra.languages %}{% if l.code != lang %}
+  {%- for t in cur.translations %}{% if t.lang == l.code and t.title %}
+  {%- set ui_l = load_data(path="static/i18n/ui/" ~ l.code ~ ".json") %}
+  <li data-lang="{{ l.code }}" data-dir="{{ l.dir }}" data-href="{{ t.permalink }}" data-text="{{ ui_l.lang_suggest_text }}" data-close="{{ ui_l.lang_suggest_close }}"></li>
+  {%- endif %}{% endfor %}
+  {%- endif %}{% endfor %}
+</ul>
+{%- endif %}
 <main id="main" tabindex="-1">
   <div class="wrap">
 {% block main %}{% endblock main %}

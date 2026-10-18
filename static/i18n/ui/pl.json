@@ -3,6 +3,8 @@
   "brand_tag": "Beta",
   "skip_to_content": "Przejdź do treści",
   "lang_switch_label": "Wybierz język",
+  "lang_suggest_text": "Ta strona jest dostępna także po polsku.",
+  "lang_suggest_close": "Zamknij",
   "nav_label": "Menu główne",
   "nav_mieterhoehung": "Podwyżka czynszu",
   "nav_pruefen": "Sprawdź terminy i limity",

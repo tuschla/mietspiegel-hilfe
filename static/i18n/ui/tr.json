@@ -3,6 +3,8 @@
   "brand_tag": "Beta",
   "skip_to_content": "İçeriğe geç",
   "lang_switch_label": "Dil seçin",
+  "lang_suggest_text": "Bu sayfa Türkçe olarak da mevcut.",
+  "lang_suggest_close": "Kapat",
   "nav_label": "Ana menü",
   "nav_mieterhoehung": "Kira artışı",
   "nav_pruefen": "Süreleri ve sınırları kontrol et",

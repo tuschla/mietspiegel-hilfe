@@ -190,6 +190,17 @@ th { font-weight: 600; }
 .lang-switch a { color: var(--c-ink-2); }
 .lang-switch [aria-current] { color: var(--c-ink); font-weight: 700; text-decoration: none; }
 
+/* language suggestion (static/js/app/langsuggest.js): one line between header and content */
+.lang-suggest { background: var(--c-mark-soft); color: var(--c-ink); border-block-end: var(--bw) solid var(--c-line-strong); font-size: var(--fs-0); }
+.lang-suggest__bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s-2) var(--s-4); padding-block: var(--s-2); }
+.lang-suggest a { color: var(--c-ink); font-weight: 600; overflow-wrap: anywhere; }
+.lang-suggest a:hover { color: var(--c-ink); }
+.lang-suggest__close {
+  font: inherit; font-weight: 600; line-height: 1.2; min-block-size: 2.75rem; padding-inline: var(--s-3);
+  background: transparent; color: var(--c-ink); border: var(--bw-strong) solid var(--c-ink-2); border-radius: var(--r-2); cursor: pointer;
+}
+.lang-suggest__close:hover { background: var(--c-surface); }
+
 .main-nav { padding-block-end: var(--s-2); }
 .main-nav ul {
   display: flex; flex-wrap: wrap; gap: 0 var(--s-4); list-style: none; margin: 0; padding: 0;
@@ -469,7 +480,7 @@ details > summary:hover { color: var(--c-link-hover); }
 @media print {
   :root { --c-paper: #fff; --c-surface: #fff; --c-ink: #000; }
   body { font-size: 11pt; background: #fff; }
-  .site-header, .site-footer, .main-nav, .lang-switch, .btn, .btn-row, .no-print, .skip-link { display: none !important; }
+  .site-header, .site-footer, .main-nav, .lang-switch, .lang-suggest, .btn, .btn-row, .no-print, .skip-link { display: none !important; }
   main { padding: 0; }
   a { color: inherit; }
   .prose a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }

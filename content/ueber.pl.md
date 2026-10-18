@@ -13,7 +13,7 @@ Ta strona pomaga najemcom w Berlinie zrozumieć berlińskie zwierciadło czynsz�
 
 Wszystkie obliczenia odbywają się tylko w twojej przeglądarce. Twoje dane nie są wysyłane na serwer. Nie ma plików cookie, programów statystycznych ani śledzących w twojej przeglądarce ani treści z innych stron internetowych. Twoja przeglądarka pamięta twoje dane tylko dopóki ta karta jest otwarta, żeby można było przechodzić między kalkulatorem, sprawdzeniem i listem. Przyciskiem „Usuń moje dane” usuniesz je od razu.
 
-Przy każdym otwarciu strony twoja przeglądarka ze względów technicznych przesyła serwerowi twój adres IP. Serwer zwykle go nie zapisuje. Zapisuje tylko, która strona została otwarta i kiedy. Nie zapisuje przy tym adresu IP, danych przeglądarki ani informacji, z jakiej strony do nas trafiasz. Te wpisy serwer usuwa po 7 dniach. Na stałe zostaje tylko dzienna liczba otwarć każdej strony w każdym języku. Tylko przy poważnym błędzie na samym serwerze dziennik błędów może zawierać adres IP. Także ten dziennik jest usuwany po 7 dniach.
+Przy każdym otwarciu strony twoja przeglądarka ze względów technicznych przesyła serwerowi twój adres IP. Serwer zwykle go nie zapisuje. Zapisuje tylko, która strona została otwarta i kiedy. Nie zapisuje przy tym adresu IP, danych przeglądarki ani informacji, z jakiej strony do nas trafiasz. Zapamiętuje tylko, czy otwarcie pochodziło od automatycznego programu, aby takich otwarć nie liczyć. Te wpisy serwer usuwa po 7 dniach. Na stałe zostaje tylko dzienna liczba otwarć każdej strony w każdym języku. Tylko przy niektórych poważnych błędach, na przykład przy nawiązywaniu połączenia albo na samym serwerze, dziennik błędów może zawierać adres IP. Także ten dziennik jest usuwany po 7 dniach.
 
 ## Czym ta strona nie jest
 
