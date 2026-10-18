@@ -119,7 +119,7 @@
   "calc_exclusive_blocked": "Nicht möglich: In dieser Energie-Gruppe ist schon ein anderes Merkmal angekreuzt. Sie können nur eines davon wählen.",
   "calc_tally": "{plus} Plus, {minus} Minus",
   "calc_energy_summary": "Energiewert aus dem Energieausweis eintragen",
-  "calc_energy_intro": "Steht im Energieausweis ein Wert in kWh/(m²·a)? Dann setzt die Seite die passenden Energie-Kästchen nach den Regeln des Mietspiegels. Nehmen Sie den Endenergie-Wert (Endenergieverbrauch oder Endenergiebedarf). Der Primärenergie-Wert auf demselben Blatt ist oft deutlich kleiner und passt hier nicht.",
+  "calc_energy_intro": "Steht im Energieausweis ein Wert in kWh/(m²·a)? Dann setzt die Seite die passenden Energie-Kästchen nach den Regeln des Mietspiegels. Nehmen Sie den Endenergie-Wert (Endenergieverbrauch oder Endenergiebedarf). Der Primärenergie-Wert auf demselben Blatt passt hier nicht. Er ist bei Gas oder Öl meist größer, bei Fernwärme oft kleiner.",
   "calc_energy_value": "Endenergie-Wert in kWh/(m²·a) (nicht Primärenergie)",
   "calc_energy_bedarf": "Der Wert ist ein Energie-Bedarf (Bedarfsausweis), kein Verbrauch. Die Grenzen werden dann um 20 % erhöht.",
   "calc_energy_water": "Das Warmwasser wird in der Wohnung erzeugt (zum Beispiel mit einem Durchlauferhitzer). Dann werden nach der amtlichen Regel 20 kWh/(m²·a) dazugerechnet. Lesen Sie die Regel für Ihr Mietspiegel-Jahr:",

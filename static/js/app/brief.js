@@ -142,6 +142,7 @@ function featureField(f) {
 }
 
 const problemBox = h("div", { "aria-live": "polite" });
+let shownProblems = null; // problemBox is only re-mounted when the problems change
 
 function renderForm(tp) {
   prefill(tp.fields, s.values, s.prefilled, known);
@@ -185,9 +186,13 @@ function renderLetter() {
   printCopy.textContent = text;
   missingNote.textContent = missing.length ? t("letter_missing", { n: missing.length }) : "";
   const problems = amountProblems(tp, values, known.demanded_rent, known.max_rent);
-  const box = () => (problems.length ? callout("danger", null, problems.map((p) => h("p", {}, t(`letter_problem_${p}`, { max: eur(known.max_rent, cfg.lang) })))) : null);
-  mount(problemBox, box());
-  mount(problemNote, box());
+  const key = problems.join(" ");
+  if (key !== shownProblems) {
+    shownProblems = key;
+    const box = () => (problems.length ? callout("danger", null, problems.map((p) => h("p", {}, t(`letter_problem_${p}`, { max: eur(known.max_rent, cfg.lang) })))) : null);
+    mount(problemBox, box());
+    mount(problemNote, box());
+  }
 }
 
 function stepLetter() {

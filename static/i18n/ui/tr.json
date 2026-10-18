@@ -119,7 +119,7 @@
   "calc_exclusive_blocked": "Mümkün değil: Bu enerji grubunda başka bir özellik zaten işaretli (ya biri ya diğeri).",
   "calc_tally": "{plus} artı, {minus} eksi",
   "calc_energy_summary": "Enerji kimlik belgesindeki değeri girin",
-  "calc_energy_intro": "Enerji kimlik belgesinde (Energieausweis) kWh/(m²·a) olarak bir değer var mı? O zaman site, Mietspiegel kurallarına göre uygun enerji kutularını işaretler. Nihai enerji değerini (Endenergie: Endenergieverbrauch veya Endenergiebedarf) kullanın. Aynı sayfadaki birincil enerji değeri (Primärenergie) çoğu zaman belirgin şekilde daha düşüktür ve buraya uymaz.",
+  "calc_energy_intro": "Enerji kimlik belgesinde (Energieausweis) kWh/(m²·a) olarak bir değer var mı? O zaman site, Mietspiegel kurallarına göre uygun enerji kutularını işaretler. Nihai enerji değerini (Endenergie: Endenergieverbrauch veya Endenergiebedarf) kullanın. Aynı sayfadaki birincil enerji değeri (Primärenergie) buraya uymaz. Doğal gaz veya kalorifer yakıtıyla ısıtmada genellikle daha yüksek, bölgesel ısıtmada (Fernwärme) ise çoğu zaman daha düşüktür.",
   "calc_energy_value": "kWh/(m²·a) olarak nihai enerji değeri (Endenergie) (birincil enerji, Primärenergie değil)",
   "calc_energy_bedarf": "Değer bir tüketim değeri değil, enerji ihtiyacı değeridir (Bedarfsausweis). Sınırlar o zaman %20 artırılır.",
   "calc_energy_water": "Sıcak su dairenin içinde üretiliyor (örneğin bir şofbenle, Durchlauferhitzer). O zaman resmî kurala göre 20 kWh/(m²·a) eklenir. Mietspiegel yılınız için kuralı okuyun:",

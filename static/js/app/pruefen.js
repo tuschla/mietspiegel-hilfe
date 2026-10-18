@@ -164,7 +164,7 @@ function update() {
     status.say("");
     return;
   }
-  if (!inp.received) { updateDynamicHints(null); mount(out, h("p", { class: "field__hint" }, t("chk_need_received"))); status.say(""); return; }
+  if (!inp.received) { updateDynamicHints(null); mount(out, h("p", { class: "field__hint" }, t("chk_need_received"))); store.set("checkResult", null); status.say(""); return; }
   const r = check(inp, rules);
   const fvars = findingVars(r, inp);
   status.say(r.findings.map((fid) => c(`checker.result.${fid}.title`, fvars) || t(`chk_find_${fid}`, fvars)).join(". "));

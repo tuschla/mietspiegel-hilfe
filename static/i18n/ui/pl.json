@@ -119,7 +119,7 @@
   "calc_exclusive_blocked": "Niemożliwe: w tej grupie energetycznej zaznaczona jest już inna cecha (albo jedno, albo drugie).",
   "calc_tally": "{plus} plus, {minus} minus",
   "calc_energy_summary": "Wpisz wartość energetyczną ze świadectwa energetycznego (Energieausweis)",
-  "calc_energy_intro": "Czy w świadectwie energetycznym jest wartość w kWh/(m²·a)? Wtedy strona zaznaczy odpowiednie kratki energetyczne według zasad zwierciadła czynszów. Weź wartość energii końcowej (Endenergie: Endenergieverbrauch albo Endenergiebedarf). Wartość energii pierwotnej (Primärenergie) na tym samym arkuszu jest często znacznie mniejsza i tu nie pasuje.",
+  "calc_energy_intro": "Czy w świadectwie energetycznym jest wartość w kWh/(m²·a)? Wtedy strona zaznaczy odpowiednie kratki energetyczne według zasad zwierciadła czynszów. Weź wartość energii końcowej (Endenergie: Endenergieverbrauch albo Endenergiebedarf). Wartość energii pierwotnej (Primärenergie) na tym samym arkuszu tu nie pasuje. Przy ogrzewaniu gazem lub olejem jest zwykle większa, przy cieple sieciowym (Fernwärme) często mniejsza.",
   "calc_energy_value": "Wartość energii końcowej (Endenergie) w kWh/(m²·a) (nie energii pierwotnej, Primärenergie)",
   "calc_energy_bedarf": "Ta wartość to zapotrzebowanie na energię (Bedarfsausweis), a nie zużycie. Wtedy granice podnosi się o 20%.",
   "calc_energy_water": "Ciepła woda jest wytwarzana w mieszkaniu (na przykład przepływowym podgrzewaczem wody). Wtedy według zasady urzędowej dolicza się 20 kWh/(m²·a). Przeczytaj zasadę dla twojego roku zwierciadła czynszów:",

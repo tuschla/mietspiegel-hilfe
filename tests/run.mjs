@@ -85,6 +85,10 @@ eq("addMonths across year", addMonths("2026-11-30", 3), "2027-02-28");
 eq("parseNumber de", parseNumber("1.234,56"), 1234.56);
 eq("parseNumber dot", parseNumber("8.49"), 8.49);
 eq("parseNumber thousands", parseNumber("1.234"), 1234);
+// the calculator takes the checker's demanded_rent and area over as typed and reads them with the same parseNumber
+eq("parseNumber checker value 1.050,00 → 1050", parseNumber("1.050,00"), 1050);
+eq("parseNumber checker value 72,5 → 72.5", parseNumber("72,5"), 72.5);
+eq("parseNumber rejects negative amounts", [parseNumber("-950"), parseNumber("-1.050,00")], [null, null]);
 eq("round half-up 0.414 → 0.41", round(0.414), 0.41);
 eq("round float noise 747.4999999 → 747.5", round(650 * 1.15), 747.5);
 eq("round half-up 0.125 → 0.13", round(0.125), 0.13);
@@ -131,25 +135,19 @@ if (ms[2024]) {
   const m = ms[2024];
   const rowsOk = m.table.every((r) => Object.values(r.cells).filter(Boolean).length === 1 && m.dims.flaeche.some((f) => f.id === r.flaeche));
   rowsOk ? ok("2024 table: one cell per row, known area classes") : bad("2024 table: one cell per row", "inconsistent rows");
-  // every (wohnlage, baualter) has a row for every area > 0 that the table covers without gaps
-  let gaps = [];
-  for (const wl of ["einfach", "mittel", "gut"]) for (const b of m.dims.baualter) {
-    const has = m.table.some((r) => r.baualter === b.id && r.cells[wl]);
-    if (!has) continue;
-    for (const a of [20, 34.99, 35, 40, 59.5, 60, 90, 130, 200]) if (!findRow(m, { wohnlage: wl, baualter: b.id, area: a })) gaps.push(`${wl}/${b.id}/${a}`);
-  }
-  gaps.length ? note("2024 rows without a value for some areas (empty table cells in the Mietspiegel?)", gaps.slice(0, 8).join(", ") + (gaps.length > 8 ? " …" : "")) : ok("2024 table covers all areas");
 } else {
   bad("ms2024.json present", "missing");
 }
-if (ms[2026]) {
-  const m = ms[2026];
-  let gaps = [];
+// every (wohnlage, baualter) has a row for every area > 0 that the table covers without gaps
+for (const year of [2024, 2026]) {
+  const m = ms[year];
+  if (!m) continue;
+  const gaps = [];
   for (const wl of ["einfach", "mittel", "gut"]) for (const b of m.dims.baualter) {
     if (!m.table.some((r) => r.baualter === b.id && r.cells[wl])) continue;
     for (const a of [20, 34.99, 35, 40, 59.5, 60, 90, 130, 200]) if (!findRow(m, { wohnlage: wl, baualter: b.id, area: a })) gaps.push(`${wl}/${b.id}/${a}`);
   }
-  gaps.length ? note("2026 rows without a value for some areas (empty table cells in the Mietspiegel?)", gaps.slice(0, 8).join(", ") + (gaps.length > 8 ? " …" : "")) : ok("2026 table covers all areas");
+  gaps.length ? bad(`${year} table covers all areas`, gaps.slice(0, 8).join(", ") + (gaps.length > 8 ? " …" : "")) : ok(`${year} table covers all areas`);
 }
 if (rules) {
   eq("Mietspiegel choice 17.10.2026 → 2026", chooseMietspiegel(rules, "2026-10-17"), 2026);

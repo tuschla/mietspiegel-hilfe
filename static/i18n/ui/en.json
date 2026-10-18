@@ -119,7 +119,7 @@
   "calc_exclusive_blocked": "Not possible: another feature in this energy group is already ticked (either/or).",
   "calc_tally": "{plus} plus, {minus} minus",
   "calc_energy_summary": "Enter the value from the energy certificate",
-  "calc_energy_intro": "Does the energy certificate (Energieausweis) show a value in kWh/(m²·a)? Then the site ticks the matching energy boxes according to the rules of the Mietspiegel. Use the final energy value (Endenergieverbrauch or Endenergiebedarf). The primary energy value (Primärenergie) on the same sheet is often much lower and does not fit here.",
+  "calc_energy_intro": "Does the energy certificate (Energieausweis) show a value in kWh/(m²·a)? Then the site ticks the matching energy boxes according to the rules of the Mietspiegel. Use the final energy value (Endenergieverbrauch or Endenergiebedarf). The primary energy value (Primärenergie) on the same sheet does not fit here. It is usually higher with gas or oil heating and often lower with district heating (Fernwärme).",
   "calc_energy_value": "Final energy value (Endenergie) in kWh/(m²·a) (not primary energy, Primärenergie)",
   "calc_energy_bedarf": "The value is an energy demand (Bedarfsausweis), not consumption. The limits are then raised by 20 %.",
   "calc_energy_water": "Hot water is produced inside the flat (for example with an instantaneous water heater). Then the official rule adds 20 kWh/(m²·a). Read the rule for your Mietspiegel year:",

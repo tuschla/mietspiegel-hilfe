@@ -34,7 +34,7 @@ export function parseNumber(s) {
   } else if (lastDot > -1 && /^\d{1,3}(\.\d{3})+$/.test(t)) {
     t = t.replace(/\./g, ""); // "1.234" thousands
   }
-  if (!/^-?\d+(\.\d+)?$/.test(t)) return null;
+  if (!/^\d+(\.\d+)?$/.test(t)) return null;
   return Number(t);
 }
 

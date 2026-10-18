@@ -71,6 +71,7 @@ function compute() {
 /* ---------------- step 1: which Mietspiegel ---------------- */
 const yearStatus = h("p", { class: "field__hint", role: "status", "aria-live": "polite" });
 const yearNewer = h("div", { "aria-live": "polite" });
+let shownNewer = null; // yearNewer is only re-mounted when its warning changes
 const yearRadios = {};
 
 /** A newer Mietspiegel a court may also use for this date of receipt (rules.json contested_window). */
@@ -79,17 +80,24 @@ function newerEdition(date, year) {
   return y && y !== year && MS[y] ? y : null;
 }
 
+/** Show the newer-edition warning; rebuilt only when it changes so the live region is not re-read. */
+function showNewer(n, y) {
+  const key = n ? `${n} ${y}` : "";
+  if (key === shownNewer) return;
+  shownNewer = key;
+  mount(yearNewer, n ? callout("warn", null, h("p", {}, t("calc_year_newer", { newer: n, stichtag: localDate(MS[n].stichtag, lang), year: y }))) : null);
+}
+
 function setYearFromDate() {
-  mount(yearNewer);
-  if (!data.rules || !isValid(s.date)) { yearStatus.textContent = ""; return; }
+  if (!data.rules || !isValid(s.date)) { showNewer(null); yearStatus.textContent = ""; return; }
   const y = chooseMietspiegel(data.rules, s.date);
   if (y && MS[y]) {
     if (s.year !== y) { switchYear(y); }
     yearRadios[y].checked = true;
     yearStatus.textContent = t("calc_year_auto", { year: y });
-    const n = newerEdition(s.date, y);
-    if (n) mount(yearNewer, callout("warn", null, h("p", {}, t("calc_year_newer", { newer: n, stichtag: localDate(MS[n].stichtag, lang), year: y }))));
+    showNewer(newerEdition(s.date, y), y);
   } else {
+    showNewer(null);
     yearStatus.textContent = t("calc_year_none");
   }
 }
@@ -216,7 +224,8 @@ function featureItem(f) {
     onchange: (e) => { st.me = e.target.checked; cascadeKennwert(f, "me", st.me); save(); refreshChecklist(); update(); } });
   const ll = h("input", { type: "checkbox", checked: st.ll, "aria-labelledby": `${llLbl} ${titleId}`, "aria-describedby": whyId,
     onchange: (e) => { st.ll = e.target.checked; cascadeKennwert(f, "ll", st.ll); save(); refreshChecklist(); update(); } });
-  const self = f.sign > 0 ? h("input", { type: "checkbox", checked: st.self, onchange: (e) => { st.self = e.target.checked; save(); update(); } }) : null;
+  const selfLbl = id("lbl");
+  const self = f.sign > 0 ? h("input", { type: "checkbox", checked: st.self, "aria-labelledby": `${selfLbl} ${titleId}`, onchange: (e) => { st.self = e.target.checked; save(); update(); } }) : null;
   const why = h("p", { class: "check-item__why", id: whyId, hidden: true });
 
   const explain = c(`features.${f.id}.explain`), chk = c(`features.${f.id}.check`), proof = c(`features.${f.id}.proof`);
@@ -237,7 +246,7 @@ function featureItem(f) {
       more, why),
     h("div", { class: "check-item__toggle" }, h("label", {}, me, h("span", { id: meLbl }, t("calc_col_me")))),
     h("div", { class: "check-item__toggle check-item__ll" }, h("label", {}, ll, h("span", { id: llLbl }, t("calc_col_ll")))),
-    self ? h("label", { class: "choice check-item__self", hidden: !st.me }, self, h("span", {}, t("calc_self_installed"))) : null);
+    self ? h("label", { class: "choice check-item__self", hidden: !st.me }, self, h("span", { id: selfLbl }, t("calc_self_installed"))) : null);
   items.set(f.id, { li, me, ll, self, why, f });
   return li;
 }
@@ -505,8 +514,8 @@ if (!years.length) {
 } else {
   // prefill from the § 558 check if the user came from there
   const chk = store.get("check");
-  if (!s.demanded && chk.demanded_rent) s.demanded = String(chk.demanded_rent).replace(".", ",");
-  if (!s.area && chk.area) s.area = String(chk.area).replace(".", ",");
+  if (!s.demanded && chk.demanded_rent) s.demanded = String(chk.demanded_rent);
+  if (!s.area && chk.area) s.area = String(chk.area);
   if (!s.date && chk.received) s.date = chk.received;
   demandIn.value = s.demanded;
   areaIn.value = s.area;

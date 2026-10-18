@@ -38,19 +38,6 @@ export function addMonths(iso, n) {
   return format({ y: t.y, m: t.m, d: Math.min(p.d, daysInMonth(t.y, t.m)) });
 }
 
-export function endOfMonth(iso) {
-  const p = parse(iso);
-  if (!p) return null;
-  return format({ y: p.y, m: p.m, d: daysInMonth(p.y, p.m) });
-}
-
-export function startOfNextMonth(iso) {
-  const p = parse(iso);
-  if (!p) return null;
-  const t = shiftMonth(p.y, p.m, 1);
-  return format({ y: t.y, m: t.m, d: 1 });
-}
-
 /**
  * Apply one date rule from rules.json:
  *   {from, add_months, snap}
