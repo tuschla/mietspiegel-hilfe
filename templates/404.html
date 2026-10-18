@@ -5,5 +5,11 @@
   <h1>{{ ui.notfound_title }}</h1>
   <p>{{ ui.notfound_text }}</p>
   <p><a class="btn" href="{{ m::home(lang=lang) }}">{{ ui.notfound_home }}</a></p>
+  <ul class="notfound-langs">
+  {%- for l in config.extra.languages %}{% if l.code != lang %}
+    {%- set ui_l = load_data(path="static/i18n/ui/" ~ l.code ~ ".json") %}
+    <li lang="{{ l.code }}" dir="{{ l.dir }}"><a href="{{ m::home(lang=l.code) }}" hreflang="{{ l.code }}">{{ ui_l.notfound_home }} ({{ l.native }})</a></li>
+  {%- endif %}{% endfor %}
+  </ul>
 </div>
 {% endblock main %}

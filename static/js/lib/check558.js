@@ -83,7 +83,9 @@ export function check(input, rules) {
   const requested = isValid(input.requested_effective) ? input.requested_effective : null;
   const pay_from = effective && requested ? max(effective, requested) : effective;
   const sperrfrist_ok = received && d.sperrfrist_earliest_received ? received >= d.sperrfrist_earliest_received : null;
-  const wartefrist_ok = d.effective && wartefristEarliest ? d.effective >= wartefristEarliest : null;
+  // § 558 Abs. 1 S. 1: the 15 months count to the date the increase is to take effect (the landlord's later date counts)
+  const wartefristTarget = d.effective && requested ? max(d.effective, requested) : d.effective;
+  const wartefrist_ok = wartefristTarget && wartefristEarliest ? wartefristTarget >= wartefristEarliest : null;
 
   const choice = rules.mietspiegel_choice || { by: "received" };
   const msDate = choice.by === "effective" ? effective : received;
@@ -93,14 +95,17 @@ export function check(input, rules) {
   const kDate = k.by === "effective" ? effective : received;
   const { rate: kappung_rate, source: kappung_source } = kappungRate(rules, kDate);
 
-  // Kappungsgrenze base: rent three years before the new rent applies (BGH VIII ZR 177/03).
-  // Without rent_3y_ago the current rent is used; that is only safe if the rent has not changed since then.
+  // Kappungsgrenze base: rent three years before the new rent applies (BGH VIII ZR 177/03),
+  // without increases under §§ 559–560 (§ 558 Abs. 3 S. 1).
+  // Without rent_3y_ago the base is the current rent minus the §§ 559–560 increases of the three years,
+  // because the current rent already contains them. That is an upper bound for the true base
+  // (§ 558 increases only add to it); it is exact only if the rent has not changed otherwise since then.
   const base_date = pay_from ? addMonths(pay_from, -12 * (k.lookback_years || 3)) : null;
   const current = numOrNull(input.current_rent);
   const given3y = numOrNull(input.rent_3y_ago);
-  const base3y = given3y ?? current;
-  const base_assumed = given3y === null && current !== null && !(lastChange && base_date && lastChange <= base_date);
   const inc = numOrNull(input.increases_559_560) ?? 0;
+  const base3y = given3y ?? (current !== null ? round(current - inc) : null);
+  const base_assumed = given3y === null && current !== null && (inc > 0 || !(lastChange && base_date && lastChange <= base_date));
   const demanded = numOrNull(input.demanded_rent);
   const area = numOrNull(input.area);
   const ovm = numOrNull(input.ovm_per_sqm);
@@ -151,6 +156,7 @@ export function check(input, rules) {
     effective_regular: d.effective ?? null,
     pay_from,
     base_date,
+    base_rent: base3y,
     base_assumed,
     wartefrist_earliest_effective: wartefristEarliest,
     sperrfrist_ok,

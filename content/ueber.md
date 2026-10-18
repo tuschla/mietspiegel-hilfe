@@ -11,7 +11,7 @@ nav = true
 
 Diese Seite hilft Mieterinnen und Mietern in Berlin, den Berliner Mietspiegel und ein Mieterhöhungsverlangen zu verstehen. Sie ist kostenlos und werbefrei. Sie ist kein Angebot einer Behörde.
 
-Alles läuft nur in Ihrem Browser. Wir speichern keine Daten auf einem Server. Es gibt keine Cookies, keine Statistik-Programme und keine Inhalte von anderen Websites. Ihre Eingaben kann Ihr Browser auf Ihrem Gerät speichern, damit Sie später weitermachen können. Mit der Taste „Meine Eingaben löschen“ entfernen Sie sie wieder.
+Alle Rechnungen laufen nur in Ihrem Browser. Ihre Eingaben werden nicht an einen Server gesendet. Wie bei jeder Website bekommt der Server beim Aufruf einer Seite technische Daten, zum Beispiel Ihre IP-Adresse. Es gibt keine Cookies, keine Statistik-Programme und keine Inhalte von anderen Websites. Ihre Eingaben merkt sich Ihr Browser nur, solange dieser Tab offen ist, damit Sie zwischen Rechner, Prüfung und Brief wechseln können. Mit der Taste „Meine Eingaben löschen“ entfernen Sie sie sofort.
 
 ## Was diese Seite nicht ist
 

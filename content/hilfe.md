@@ -16,15 +16,15 @@ Diese Website gibt nur allgemeine Informationen. Bevor Sie einer Mieterhöhung z
 
 **Servicetelefon Miete des Senats.** Fragen zum Berliner Mietspiegel und zur Miete: (030) 90173 3860. Mietrechtsfragen beantworten die Beratungen in den Bezirken.
 
-**Mietpreisprüfstelle Berlin.** Kostenlose Erstberatung des Landes Berlin für alle Berliner Mieterhaushalte, wenn Sie vermuten, dass Ihre Miete zu hoch ist, zum Beispiel wegen der Mietpreisbremse. Beratung nur mit Termin. Auch auf Englisch.
+**Mietpreisprüfstelle Berlin.** Kostenlose Erstberatung des Landes Berlin für alle Berliner Mieterhaushalte, wenn Sie vermuten, dass Ihre Miete zu hoch ist, zum Beispiel wegen der Mietpreisbremse. Beratung nur mit Termin. Informationen auch auf Englisch.
 <https://www.berlin.de/mietpreispruefstelle>
 
-**Beratung in mehreren Sprachen.** Das Willkommenszentrum der Integrationsbeauftragten des Senats hat eine Seite zu Miete und Mieterhöhung und eine Suche nach Beratungsstellen in vielen Sprachen:
-<https://willkommenszentrum.berlin.de/en/housing/rent>
+**Beratung in mehreren Sprachen.** Das Willkommenszentrum der Integrationsbeauftragten des Senats hat eine Suche nach Beratungsstellen. Sie können dort nach dem Thema „Wohnen“ und nach Ihrer Sprache suchen:
+<https://willkommenszentrum.berlin.de/beratungsstellen>
 
 ## Für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen
 
-**Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen** (degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM). Sie berät zur Kooperationsvereinbarung und zum Leistbarkeitsversprechen, auf Deutsch und Englisch. Allgemeine Mietrechtsfragen berät sie nicht.
+**Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen** (degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM und die berlinovo mit ihren „klassischen“ Mietwohnungen). Sie berät zur Kooperationsvereinbarung und zum Leistbarkeitsversprechen, auf Deutsch und Englisch. Allgemeine Mietrechtsfragen berät sie nicht.
 <https://www.ombud-lwu.de/>
 
 ## Mietervereine (mit Mitgliedsbeitrag)
@@ -39,6 +39,6 @@ Mietervereine beraten ihre Mitglieder. Dafür zahlen Sie einen Mitgliedsbeitrag.
 
 ## Rechtsanwältinnen und Rechtsanwälte
 
-Für einen Prozess oder eine Prüfung Ihres Einzelfalls können Sie sich an eine Anwältin oder einen Anwalt für Mietrecht wenden. Das kostet Geld, wenn Sie keine Rechtsschutzversicherung haben.
+Für einen Prozess oder eine Prüfung Ihres Einzelfalls können Sie sich an eine Anwältin oder einen Anwalt für Mietrecht wenden. Das kostet Geld, wenn Sie keine Rechtsschutzversicherung haben. Haben Sie wenig Geld, können Sie beim Amtsgericht Beratungshilfe für eine Beratung beantragen (Beratungshilfegesetz). Für einen Prozess gibt es Prozesskostenhilfe (§ 114 ZPO). Verlieren Sie den Prozess, müssen Sie die Kosten des Vermieters trotzdem zahlen (§ 123 ZPO).
 
 Die Verbraucherzentrale Berlin berät nach eigenen Angaben **nicht** zum Mietrecht.

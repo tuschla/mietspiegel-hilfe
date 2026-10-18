@@ -7,7 +7,7 @@ weight = 40
 nav = true
 +++
 
-**Gilt das für Sie?** Diese Seite gilt nur, wenn Ihr Vermieter Sie bittet, einer höheren Miete **zuzustimmen** (Mieterhöhung nach § 558 BGB). Sie gilt **nicht** bei einer Erhöhung nach Modernisierung, bei neuen Vorauszahlungen für Betriebskosten, bei Index- oder Staffelmiete und in einer Sozialwohnung oder anderen geförderten Wohnung mit fester Miete („Kostenmiete“). Dann müssen Sie die höhere Miete meist auch ohne Zustimmung zahlen. Sie gilt auch nicht für ein Zimmer in der Wohnung des Vermieters, eine Wohnung nur für kurze Zeit oder ein Studenten- oder Jugendwohnheim. Hören Sie in diesen Fällen **nicht** einfach auf zu zahlen. Lassen Sie sich beraten: [Hilfe und Beratung](@/hilfe.md). Mehr dazu: [Gilt diese Seite für Ihren Brief?](@/mieterhoehung.md)
+**Gilt das für Sie?** Diese Seite gilt nur, wenn Ihr Vermieter Sie bittet, einer höheren Miete **zuzustimmen** (Mieterhöhung nach § 558 BGB). Sie gilt **nicht** bei einer Erhöhung nach Modernisierung, bei neuen Vorauszahlungen für Betriebskosten, bei Index- oder Staffelmiete und in einer alten Sozialwohnung mit „Kostenmiete“. Dann müssen Sie die höhere Miete meist auch ohne Zustimmung zahlen. Sie gilt auch nicht für ein möbliertes Zimmer in der Wohnung des Vermieters, eine Wohnung nur zum vorübergehenden Gebrauch oder ein Studenten- oder Jugendwohnheim. Dort gelten die Regeln zur Mieterhöhung nicht. Hören Sie in diesen Fällen **nicht** einfach auf zu zahlen. Lassen Sie sich beraten: [Hilfe und Beratung](@/hilfe.md). Mehr dazu: [Gilt diese Seite für Ihren Brief?](@/mieterhoehung.md)
 
 Hier erstellen Sie einen Brief an Ihren Vermieter. Der Brief ist immer auf Deutsch. Die Erklärungen dazu sehen Sie in Ihrer Sprache.
 

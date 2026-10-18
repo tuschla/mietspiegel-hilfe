@@ -11,7 +11,7 @@ nav = true
 
 This site helps tenants in Berlin to understand the Berlin rent index (Mietspiegel) and a rent increase demand (Mieterhöhungsverlangen). It is free and has no advertising. It is not a service of a public authority.
 
-Everything runs only in your browser. We do not store any data on a server. There are no cookies, no statistics programs and no content from other websites. Your browser can store what you enter on your device so that you can continue later. With the button “Delete my entries” at the bottom of the page you remove it again.
+All calculations run only in your browser. Your entries are not sent to a server. As with any website, the server receives technical data when you open a page, for example your IP address. There are no cookies, no statistics programs and no content from other websites. Your browser keeps what you enter only while this tab is open, so that you can move between the calculator, the check and the letter. The button “Delete my entries” removes it at once.
 
 ## What this site is not
 

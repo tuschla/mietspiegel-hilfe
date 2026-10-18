@@ -15,7 +15,7 @@
   </div>
 </noscript>
 <div id="app" class="tool" data-tool="{{ tool }}" aria-live="off">
-  <p class="status" data-loading>{{ ui.loading }}</p>
+  <p class="status" data-loading hidden>{{ ui.loading }}</p>
 </div>
 <script type="application/json" id="app-config">{
   "lang": {{ lang | json_encode | safe }},

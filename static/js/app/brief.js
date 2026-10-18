@@ -1,7 +1,7 @@
 // Letter generator: form and explanations in the user's language, letter text always German.
-import { boot, store, h, paras, de, field, callout, step, mount, fatal, copyText, download } from "./common.js";
+import { boot, store, h, paras, de, field, callout, step, mount, fatal, copyText, download, reloadAfterClear } from "./common.js";
 import { readScope, scopeState, scopeNotice } from "./scope.js";
-import { render, prefill, letterValues, amountProblems } from "../lib/letter.js";
+import { render, prefill, letterValues, amountProblems, consentWarnings } from "../lib/letter.js";
 import { featureIndex } from "../lib/mietspiegel.js";
 import { parseNumber, eur, pct, localDate } from "../lib/money.js";
 import { todayISO } from "../lib/dates.js";
@@ -33,8 +33,6 @@ const known = {
   features_minus: calc.disputes ? calc.disputes.missingMinus : undefined,
 };
 const BUILTIN_TYPES = { today: "date", ms_title: "text", ovm_per_sqm: "money", max_rent: "money", consent_deadline: "date", effective: "date" };
-/** Checker findings that make consent risky. */
-const RISKY = ["sperrfrist_fail", "requested_too_early", "wartefrist_postponed", "over_cap", "over_ovm", "over_lwu", "need_rent_3y"];
 
 const tplById = (tid) => (letters ? letters.templates.find((x) => x.id === tid) : null);
 const tplTitle = (tp) => c(`letters.${tp.id}.title`) || tp.title_de || tp.id;
@@ -84,23 +82,32 @@ function renderExplain(tp) {
   const deadline = chk.consent_deadline ? t("letter_deadline", { date: localDate(chk.consent_deadline, cfg.lang) }) : "";
 
   // scope gate and checker findings before any consent
-  const sc = scopeState(readScope(), { withAsk: true });
+  // an unanswered scope question still shows a "Mietspiegel does not apply" notice from the calculator
+  const sc0 = scopeState(readScope(), { withAsk: true });
+  const sc = sc0 === "unanswered" ? scopeState(readScope(), { withAsk: false }) : sc0;
   const scopeBox = sc === "not558" || sc === "notMS" || sc === "unsure" ? scopeNotice(sc, { t, cfg }) : null;
-  let checkBox = null;
+  let checkBox = null, incompleteBox = null;
   if (agrees) {
-    const found = (chk.findings || []).filter((f) => RISKY.includes(f));
-    if (found.length) {
+    const w = consentWarnings(chk.findings);
+    if (w.risky.length) {
       checkBox = callout("danger", t("letter_findings_title"),
-        h("ul", {}, found.map((f) => h("li", cl, findingTitle(f)))),
+        h("ul", {}, w.risky.map((f) => h("li", cl, findingTitle(f)))),
         paras(t("letter_findings_text")));
-    } else if (!chk.findings) {
+    } else if (w.unchecked) {
       checkBox = callout("warn", t("letter_no_check_title"), h("p", {}, t("letter_no_check_text")),
+        cfg.pages.pruefen ? h("p", {}, h("a", { href: cfg.pages.pruefen }, t("letter_to_check"))) : null);
+    }
+    if (w.incomplete.length) {
+      incompleteBox = callout("warn", t("letter_incomplete_title"),
+        h("ul", {}, w.incomplete.map((f) => h("li", cl, findingTitle(f)))),
+        h("p", {}, t("letter_no_check_text")),
         cfg.pages.pruefen ? h("p", {}, h("a", { href: cfg.pages.pruefen }, t("letter_to_check"))) : null);
     }
   }
   mount(explainBox,
     scopeBox,
     checkBox,
+    incompleteBox,
     agrees ? callout("danger", t("letter_binding_title"), paras(t("letter_binding_text")),
       cfg.pages.mietpreisbremse ? h("p", {}, h("a", { href: cfg.pages.mietpreisbremse }, t("nav_mietpreisbremse"))) : null) : null,
     explain ? h("div", { class: "prose", ...cl }, paras(explain)) : null,
@@ -142,10 +149,11 @@ function renderForm(tp) {
   const nodes = (tp.fields || []).map((f) => {
     if (f.type === "features_plus" || f.type === "features_minus") return featureField(f);
     const v = s.values[f.id] ?? "";
-    const el = f.type === "textarea" ? h("textarea", { rows: 4 }, v)
+    const ac = { tenant_name: "name", tenant_address: "street-address" }[f.id] || "off";
+    const el = f.type === "textarea" ? h("textarea", { rows: 4, autocomplete: ac }, v)
       : f.type === "date" ? h("input", { type: "date", value: v })
       : f.type === "money" || f.type === "area" ? h("input", { type: "text", inputmode: "decimal", size: 10, value: v })
-      : h("input", { type: "text", value: v, autocomplete: "off" });
+      : h("input", { type: "text", value: v, autocomplete: ac });
     if (f.required) el.required = true;
     el.addEventListener("input", () => { s.values[f.id] = el.value; save(); renderLetter(); });
     const hint = c(`letters.fields.${f.id}_help`);
@@ -159,7 +167,7 @@ const sheet = h("textarea", { lang: "de", dir: "ltr", spellcheck: "false", "aria
 const printCopy = h("pre", { class: "letter-print", lang: "de", dir: "ltr", "aria-hidden": "true" });
 const status = h("p", { class: "status", role: "status", "aria-live": "polite" });
 const missingNote = h("p", { class: "field__hint" });
-const problemNote = h("div", { "aria-live": "polite" });
+const problemNote = h("div", {}); // problemBox at the form is the live one
 sheet.addEventListener("input", () => { printCopy.textContent = sheet.value; });
 
 function renderLetter() {
@@ -176,8 +184,8 @@ function renderLetter() {
   sheet.value = text;
   printCopy.textContent = text;
   missingNote.textContent = missing.length ? t("letter_missing", { n: missing.length }) : "";
-  const problems = amountProblems(tp, values, known.demanded_rent);
-  const box = () => (problems.length ? callout("danger", null, problems.map((p) => h("p", {}, t(`letter_problem_${p}`)))) : null);
+  const problems = amountProblems(tp, values, known.demanded_rent, known.max_rent);
+  const box = () => (problems.length ? callout("danger", null, problems.map((p) => h("p", {}, t(`letter_problem_${p}`, { max: eur(known.max_rent, cfg.lang) })))) : null);
   mount(problemBox, box());
   mount(problemNote, box());
 }
@@ -218,5 +226,5 @@ if (!letters || !Array.isArray(letters.templates) || !letters.templates.length) 
   s4.classList.add("letter-out");
   mount(root, stepChoose(), s2, s3, s4);
   renderChosen();
-  document.addEventListener("msh:cleared", () => location.reload());
+  document.addEventListener("msh:cleared", () => reloadAfterClear());
 }

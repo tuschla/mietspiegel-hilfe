@@ -50,8 +50,9 @@ export function render(body, values, types = {}, featureText) {
     missing.add(id);
     return BLANK;
   });
-  // collapse 3+ blank lines left over by removed blocks
-  text = text.replace(/\n{3,}/g, "\n\n").trim() + "\n";
+  // collapse 3+ blank lines left over by removed blocks, except the run right before the last
+  // line (the signature space between "Mit freundlichen Grüßen" and the name)
+  text = text.replace(/(?<!\n)\n{3,}(?!\n)(?![^\n]*\n*$)/g, "\n\n").trim() + "\n";
   return { text, missing: [...missing] };
 }
 
@@ -81,7 +82,10 @@ export function prefill(fields, values, prefilled, known) {
   for (const f of fields || []) {
     if (FEATURE_TYPES.includes(f.type)) {
       const k = known[f.type];
-      if (values[f.id] === undefined && Array.isArray(k)) { values[f.id] = [...k]; prefilled[f.id] = [...k]; }
+      // untouched = never set, or still exactly our own earlier prefill (then a new comparison replaces it)
+      const sameAsPrefill = Array.isArray(values[f.id]) && Array.isArray(prefilled[f.id])
+        && values[f.id].length === prefilled[f.id].length && values[f.id].every((x, i) => x === prefilled[f.id][i]);
+      if ((values[f.id] === undefined || sameAsPrefill) && Array.isArray(k)) { values[f.id] = [...k]; prefilled[f.id] = [...k]; }
       continue;
     }
     const k = toField(f.type, known[f.id]);
@@ -113,16 +117,29 @@ export function letterValues(fields, values, builtins, parseNum) {
 
 /**
  * Plausibility of the amounts in consent letters. Returns a list of problem ids:
- * agreed_not_between (partial: current < agreed < demanded), new_over_demanded (consent: new ≤ demanded).
+ * agreed_not_between (partial: current < agreed < demanded), agreed_over_max (partial: agreed above
+ * the computed upper limit `max`), new_over_demanded (consent: new ≤ demanded).
  */
-export function amountProblems(tp, v, demanded) {
+export function amountProblems(tp, v, demanded, max) {
   const out = [];
   const cur = v.current_rent, agreed = v.agreed_rent, neu = v.new_rent;
   if (tp.kind === "partial" && typeof agreed === "number") {
     if ((typeof cur === "number" && agreed <= cur) || (typeof demanded === "number" && agreed >= demanded)) out.push("agreed_not_between");
+    else if (typeof max === "number" && agreed > max + 0.004) out.push("agreed_over_max");
   }
   if (tp.kind === "consent" && typeof neu === "number") {
     if ((typeof demanded === "number" && neu > demanded + 0.004) || (typeof cur === "number" && neu <= cur)) out.push("new_over_demanded");
   }
   return out;
+}
+
+/** Checker findings that make consent risky. */
+export const RISKY = ["sperrfrist_fail", "requested_too_early", "wartefrist_postponed", "over_cap", "over_ovm", "over_lwu", "need_rent_3y"];
+/** Checker findings that mean the check is not complete. */
+export const INCOMPLETE = ["no_ovm", "no_last_change"];
+
+/** Warnings before a consent letter, from the checker findings (not an array = not checked). */
+export function consentWarnings(findings) {
+  if (!Array.isArray(findings)) return { unchecked: true, risky: [], incomplete: [] };
+  return { unchecked: false, risky: findings.filter((f) => RISKY.includes(f)), incomplete: findings.filter((f) => INCOMPLETE.includes(f)) };
 }

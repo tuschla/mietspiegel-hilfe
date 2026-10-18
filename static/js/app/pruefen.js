@@ -1,5 +1,5 @@
 // § 558 BGB check page: form in the user's language, result with legal basis from rules.json.
-import { boot, store, h, paras, bdi, field, callout, step, mount, fatal } from "./common.js";
+import { boot, store, h, paras, bdi, expr, field, callout, step, mount, fatal, reloadAfterClear, liveStatus, markInvalid } from "./common.js";
 import { scopeForm, scopeState, scopeNotice, scopeShowsResults, readScope } from "./scope.js";
 import { check, contestedYear } from "../lib/check558.js";
 import { parseNumber, eur, pct, localDate, num } from "../lib/money.js";
@@ -25,15 +25,28 @@ const calc = store.get("calcResult") || {};
 const fmtEur = (x) => eur(x, lang);
 const d = (iso) => localDate(iso, lang);
 
+const unreadable = new Set(); // number fields whose text parseNumber cannot read
+
 function input() {
   const out = {};
+  unreadable.clear();
   for (const f of FIELDS) {
     const v = s[f.id];
     if (v === undefined || v === "") continue;
     out[f.id] = f.type === "date" ? v : parseNumber(v);
+    if (f.type !== "date" && out[f.id] === null && String(v).trim() !== "") unreadable.add(f.id);
   }
   if (s.lwu) out.lwu = true;
   return out;
+}
+
+/** aria-invalid + error text on every number field that could not be read. */
+function markFields() {
+  for (const f of FIELDS) {
+    if (f.type === "date") continue;
+    const el = root.querySelector(`[data-field="${f.id}"]`);
+    if (el) markInvalid(el, unreadable.has(f.id), t("chk_invalid_number"));
+  }
 }
 
 /** Label/explanation for an output key: content text (rules.<key>) first, UI fallback. */
@@ -43,7 +56,7 @@ function sourceLink(srcId) {
   const src = rules.sources && rules.sources[srcId];
   if (!src) return null;
   return h("span", { class: "source" }, t("legal_basis"), " ",
-    h("a", { href: src.url, target: "_blank", rel: "noopener noreferrer", lang: "de" }, src.label),
+    h("a", { href: src.url, target: "_blank", rel: "noopener noreferrer", lang: "de", dir: "ltr" }, src.label),
     src.checked ? ` (${t("checked_on", { date: localDate(src.checked, lang) })})` : "");
 }
 
@@ -58,6 +71,7 @@ function fact(key, value, srcId, ...extra) {
 
 /* ---------------- step 1: scope ---------------- */
 const scopeBox = h("div", { "aria-live": "polite" });
+let shownState = null; // scopeBox is only re-mounted when the scope state changes
 function scope() { return scopeState(readScope(), { withAsk: true }); }
 
 /* ---------------- step 2: form ---------------- */
@@ -103,11 +117,12 @@ function updateDynamicHints(r) {
   const el = hints.rent_3y_ago;
   if (!el) return;
   const base = c("checker.rent_3y_ago_help", { date3y: r && r.base_date ? d(r.base_date) : "…" }) || t("chk_in_rent_3y_ago_hint");
-  el.textContent = r && r.base_date ? `${t("chk_rent_3y_date", { date: d(r.base_date) })} ${base}` : base;
+  el.textContent = r && r.base_date && !c("checker.rent_3y_ago_help") ? `${t("chk_rent_3y_date", { date: d(r.base_date) })} ${base}` : base;
 }
 
 /* ---------------- step 3: results ---------------- */
-const out = h("div", { "aria-live": "polite" });
+const out = h("div", {});
+const status = liveStatus(); // short findings summary for screen readers
 
 const KIND = {
   sperrfrist_fail: "danger", over_cap: "danger", over_ovm: "danger", over_lwu: "danger",
@@ -139,16 +154,20 @@ function renderFindings(r, inp) {
 
 function update() {
   const state = scope();
-  mount(scopeBox, scopeNotice(state, { t, cfg }));
+  if (state !== shownState) { shownState = state; mount(scopeBox, scopeNotice(state, { t, cfg })); }
   const inp = input();
+  markFields();
   if (!scopeShowsResults(state)) {
     updateDynamicHints(null);
     mount(out, h("p", { class: "field__hint" }, t(state === "not558" ? "scope_results_hidden" : "scope_unanswered")));
     store.set("checkResult", null);
+    status.say("");
     return;
   }
-  if (!inp.received) { updateDynamicHints(null); mount(out, h("p", { class: "field__hint" }, t("chk_need_received"))); return; }
+  if (!inp.received) { updateDynamicHints(null); mount(out, h("p", { class: "field__hint" }, t("chk_need_received"))); status.say(""); return; }
   const r = check(inp, rules);
+  const fvars = findingVars(r, inp);
+  status.say(r.findings.map((fid) => c(`checker.result.${fid}.title`, fvars) || t(`chk_find_${fid}`, fvars)).join(". "));
   updateDynamicHints(r);
   store.set("checkResult", { ...r, input: inp, scope: state });
   const ruleSrc = (key) => ((rules.rules || []).find((x) => x.id === key) || {}).source || null;
@@ -179,10 +198,10 @@ function update() {
 
   const money = h("dl", { class: "facts" },
     typeof inp.current_rent === "number" && typeof inp.demanded_rent === "number"
-      ? h("div", {}, h("dt", {}, t("chk_out_increase")), h("dd", {}, h("strong", {}, bdi(`${fmtEur(inp.current_rent)} → ${fmtEur(inp.demanded_rent)} (+${pct(r.increase_pct, lang)})`)))) : null,
+      ? h("div", {}, h("dt", {}, t("chk_out_increase")), h("dd", {}, h("strong", {}, expr(`${fmtEur(inp.current_rent)} → ${fmtEur(inp.demanded_rent)} (${r.increase_pct > 0 ? "+" : ""}${pct(r.increase_pct, lang)})`)))) : null,
     r.cap_rent !== null ? fact("kappung", fmtEur(r.cap_rent), r.kappung_source,
-      h("p", { class: "small" }, t("chk_cap_formula", { base: fmtEur(inp.rent_3y_ago ?? inp.current_rent), rate: pct(r.kappung_rate, lang, 0), inc: fmtEur(inp.increases_559_560 ?? 0) })),
-      r.base_assumed ? h("p", { class: "small" }, t("chk_cap_assumed", { date: d(r.base_date) })) : null) : null,
+      h("p", { class: "small" }, t("chk_cap_formula", { base: fmtEur(r.base_rent), rate: pct(r.kappung_rate, lang, 0), inc: fmtEur(inp.increases_559_560 ?? 0) })),
+      r.base_assumed ? h("p", { class: "small" }, t("chk_cap_assumed", { date: d(r.base_date), base: fmtEur(r.base_rent) })) : null) : null,
     r.ovm_rent !== null ? fact("ovm", fmtEur(r.ovm_rent), ruleSrc("ovm"),
       h("p", { class: "small" }, t("chk_ovm_formula", { ovm: fmtEur(inp.ovm_per_sqm), area: num(inp.area, lang, inp.area % 1 ? 2 : 0) }))) : null,
     r.lwu_cap_rent !== null ? fact("lwu", fmtEur(r.lwu_cap_rent), (rules.lwu || {}).source) : null,
@@ -223,7 +242,7 @@ if (!rules) {
       c("rules.scope.text") ? h("div", cl, paras(c("rules.scope.text"))) : paras(t("scope_intro")),
       scopeForm({ t, withAsk: true, onChange: update }), scopeBox),
     formStep(),
-    step(3, t("chk_step_result"), out));
+    step(3, t("chk_step_result"), status.el, out));
   update();
-  document.addEventListener("msh:cleared", () => location.reload());
+  document.addEventListener("msh:cleared", () => reloadAfterClear());
 }

@@ -2,7 +2,7 @@
 
 Free, neutral, multilingual help for Berlin tenants: understand the Mietspiegel *Orientierungshilfe für die Spanneneinordnung*, calculate where a flat sits in the range (Mietspiegel 2026 and 2024), check a § 558 BGB rent-increase demand, and write a German reply letter while all explanations are in the user's language.
 
-Static site built with [Zola](https://www.getzola.org/) 0.22.1. No external requests, no cookies, no analytics, no build step for JavaScript. All calculations run in the browser; entries are kept only in the browser's `localStorage` and can be deleted with the button in the footer.
+Static site built with [Zola](https://www.getzola.org/) 0.22.1. No external requests, no cookies, no analytics, no build step for JavaScript. All calculations run in the browser; entries are kept only in the browser's `sessionStorage` (this tab, until it is closed) and can be deleted with the button in the footer.
 
 ## Build and serve
 
@@ -18,6 +18,20 @@ nix shell --inputs-from ../vps nixpkgs#zola -c zola build
 # as in the VPS pipeline (absolute URLs come from get_url, nothing is hard-coded)
 zola --root /path/to/mietspiegel-hilfe build --base-url "https://<domain>"
 ```
+
+## Hosting
+
+The page template sets a CSP in a `<meta>` tag, but a meta CSP cannot set `frame-ancestors` (CSP3 ignores it there). The server must therefore send these headers on every response under the site, and they must **replace** any stricter parent policy rather than merge with it (for example `add_header_inherit off` in an nginx location). A parent policy such as the blog's `default-src 'none'` blocks the tool scripts, and the pages stay at "Wird geladen …".
+
+```
+Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+```
+
+- Serve `.js` as `text/javascript` and `.json` as `application/json`.
+- There is a single `404.html` at `<prefix>/404.html`; point `error_page 404` there.
+- Under a subpath, `robots.txt` and `sitemap.xml` are not at the host root.
 
 ## Tests
 

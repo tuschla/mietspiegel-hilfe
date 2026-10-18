@@ -11,7 +11,7 @@ nav = true
 
 Bu site, Berlin'deki kiracıların Berlin Mietspiegel'ini (kira tablosu) ve bir kira artışı talebini (Mieterhöhungsverlangen) anlamasına yardım eder. Ücretsizdir ve reklamsızdır. Bir resmî kurumun hizmeti değildir.
 
-Her şey yalnızca tarayıcınızda çalışır. Hiçbir veriyi bir sunucuda saklamıyoruz. Çerez (cookie) yok, istatistik programı yok ve başka web sitelerinden içerik yok. Daha sonra devam edebilmeniz için tarayıcınız bilgilerinizi cihazınızda saklayabilir. „Bilgilerimi sil“ düğmesiyle onları yeniden silersiniz.
+Tüm hesaplamalar yalnızca tarayıcınızda yapılır. Girdiğiniz bilgiler bir sunucuya gönderilmez. Her web sitesinde olduğu gibi, bir sayfa açıldığında sunucu teknik veriler alır, örneğin IP adresinizi. Çerez (cookie) yok, istatistik programı yok ve başka web sitelerinden içerik yok. Tarayıcınız, hesaplayıcı, kontrol ve mektup arasında geçiş yapabilmeniz için bilgilerinizi yalnızca bu sekme açık olduğu sürece hatırlar. „Bilgilerimi sil“ düğmesiyle onları hemen silersiniz.
 
 ## Bu site ne değildir
 

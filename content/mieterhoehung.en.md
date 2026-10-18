@@ -18,19 +18,23 @@ This page only applies if the letter says that you should **agree** to a higher 
 - rent increase after a modernisation (§ 559 BGB),
 - new advance payments for service charges (Betriebskosten) (§ 560 BGB),
 - index rent (Indexmiete, § 557b BGB) or graduated rent (Staffelmiete, § 557a BGB),
-- social housing or another subsidised flat with a fixed rent. The letter then often says „Kostenmiete“ or „Wohnungsbindungsgesetz“.
+- old social housing with “cost rent” (Kostenmiete). The letter then often says „Kostenmiete“, „Wirtschaftlichkeitsberechnung“ (economic viability calculation) or „Wohnungsbindungsgesetz“.
 
 The rules on this page also do **not** apply to:
 
-- a room in the flat where the landlord lives himself,
-- a flat that is only let for a short time,
+- a room in the flat where the landlord lives himself, if the landlord has furnished it (not if you live there permanently with your family or your partner),
+- a flat that is only let for temporary use (a contract with an end date is not enough for this on its own),
 - a room in a student or youth hall of residence (Studenten- oder Jugendwohnheim).
+
+In these three cases, the statutory rules on rent increases do not apply. What applies depends on your contract. But the landlord can give you notice more easily there.
 
 In addition, the Berlin rent index (Mietspiegel) does not apply to flats in one- or two-family houses and terraced houses, to flats with the toilet outside the flat, and to new buildings (Mietspiegel 2026: completed from 2025; Mietspiegel 2024: completed from 2023).
 
+**Newer social housing or another subsidised flat without “cost rent” (Kostenmiete):** Here the landlord must ask you for your consent, as described on this page. In addition, the rent must not exceed the maximum rent set by the subsidy. The Mietspiegel cannot then be applied directly. Get advice.
+
 In these cases, do **not** simply stop paying. Get advice: [Help and advice](@/hilfe.en.md).
 
-*Source: § 558 Abs. 2 Satz 2 BGB, § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
+*Source: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe“ (new social housing); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
 
 ## What is a rent increase demand?
 
@@ -81,11 +85,13 @@ If the letter has formal errors, for example no reasons, the landlord can still 
 
 If you do nothing, you have not agreed. But the landlord can then sue. A court then checks whether the increase is justified.
 
+**Post from the court:** If the landlord sues, you will get post from the local court (Amtsgericht). Go to an advice service at once. You often have only 2 weeks to reply to the court. If you do not reply in time, the court can decide without you, usually in favour of the landlord.
+
 **But be careful when paying:** Consent does not need any particular form. If you pay the higher rent several times without reservation (ohne Vorbehalt), this can count as consent. The Federal Court of Justice (Bundesgerichtshof) saw it this way for a payment made three times without reservation. So do not simply pay the higher rent if you do not want to agree yet.
 
 **Direct debit (Lastschrift):** If you have allowed the landlord to collect the rent from your account, check your account. If the higher rent is already being collected before you have agreed, write to the landlord immediately: you have not agreed, and the payment is only made under reservation (unter Vorbehalt). Ask your bank whether you can reverse the direct debit. Get advice.
 
-*Source: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13 und 21.*
+*Source: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13 und 21; § 276 Abs. 1, § 331 Abs. 3 ZPO.*
 
 ## Agree, agree in part, refuse
 
@@ -144,9 +150,9 @@ So collect evidence early: tenancy agreement, handover report (Übergabeprotokol
 
 After a rent increase demand, you may terminate the tenancy with extraordinary notice (außerordentlich kündigen). This means: with a shorter notice period than usual. The notice must reach the landlord by the end of the second month after receipt. The tenancy then ends at the end of the month after next. Example: the notice arrives in December. Then the tenancy ends at the end of February. The rent increase then does not apply.
 
-The text of the law says „Monat“ (month) here, not „Kalendermonat“ (calendar month). You are on the safe side if the notice arrives within two months from the day of receipt. A notice of termination must be in writing (schriftlich), that is, on paper with your signature. An email is not enough. If several people signed the tenancy agreement, it is safest if all of them sign the notice. Get advice first.
+The text of the law says „Monat“ (month) here, not „Kalendermonat“ (calendar month). You are on the safe side if the notice arrives within two months from the day of receipt. A notice of termination must be in writing (schriftlich), that is, on paper with your signature. An email is not enough. If several people signed the tenancy agreement, as a rule all of them must sign the notice. Get advice first.
 
-*Source: § 561 BGB, § 568 Abs. 1 BGB.*
+*Source: § 561 BGB, § 568 Abs. 1 BGB; BGH, Urteil vom 16.03.2005 – VIII ZR 14/04.*
 
 ## State-owned landlords
 

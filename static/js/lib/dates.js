@@ -8,7 +8,7 @@ export function parse(iso) {
   const m = ISO.exec(iso.trim());
   if (!m) return null;
   const y = +m[1], mo = +m[2], d = +m[3];
-  if (mo < 1 || mo > 12 || d < 1 || d > daysInMonth(y, mo)) return null;
+  if (y < 1900 || mo < 1 || mo > 12 || d < 1 || d > daysInMonth(y, mo)) return null; // y < 1900: half-typed year
   return { y, m: mo, d };
 }
 

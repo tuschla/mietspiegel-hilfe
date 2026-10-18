@@ -26,6 +26,7 @@ Die Höhe wird zum Beginn des Mietverhältnisses gemessen. Stand: 17.10.2026. Na
 
 Es kommt auf die übliche Miete **zu Beginn** Ihres Mietverhältnisses an (§ 556d Abs. 1 BGB). Als Anhaltspunkt dient deshalb nach unserem Verständnis der Mietspiegel, der zu diesem Zeitpunkt galt:
 
+- Beginn vor dem 30.05.2024: ein älterer Mietspiegel. Unser Rechner kennt ihn nicht. Ältere Mietspiegel ab 2017: <https://mietspiegel.berlin.de/berliner-mietspiegel/archiv/>
 - Beginn vom 30.05.2024 bis 27.05.2026: [Mietspiegel 2024](@/merkmale-2024.md)
 - Beginn ab 28.05.2026: [Mietspiegel 2026](@/merkmale.md)
 
@@ -42,15 +43,15 @@ Die Mietpreisbremse gilt nicht immer:
 - **Kurze Zeit, Zimmer beim Vermieter, Wohnheim:** Nicht für Wohnungen, die nur für kurze Zeit vermietet sind, für ein möbliertes Zimmer in der Wohnung, in der der Vermieter selbst wohnt, und für Studenten- oder Jugendwohnheime (§ 549 Abs. 2 und 3 BGB). Ob ein Vertrag wirklich „nur für kurze Zeit“ ist, muss man genau prüfen. Lassen Sie sich beraten.
 - **Alte Verträge:** Nicht für Verträge, die vor dem 01.06.2015 geschlossen wurden (Art. 229 § 35 EGBGB).
 
-Will sich der Vermieter auf die Vormiete, eine Modernisierung oder eine dieser Ausnahmen berufen, muss er Sie **vor** dem Vertragsschluss unaufgefordert darüber informieren. Tut er das nicht, kann er sich darauf nicht oder erst später berufen (§ 556g Abs. 1a BGB).
+Will sich der Vermieter auf die Vormiete, eine Modernisierung, einen Neubau oder die erste Vermietung nach einer umfassenden Modernisierung berufen, muss er Sie **vor** dem Vertragsschluss unaufgefordert darüber informieren. Tut er das nicht, kann er sich darauf nicht oder erst später berufen (§ 556g Abs. 1a BGB).
 
 ## Was Sie tun können
 
 1. **Auskunft verlangen:** Sie können vom Vermieter Auskunft über die Tatsachen verlangen, die für die zulässige Miete wichtig sind, soweit Sie sie nicht selbst herausfinden können (§ 556g Abs. 3 BGB).
 2. **Rügen** (sich beim Vermieter über die zu hohe Miete beschweren): Zu viel gezahlte Miete können Sie nur zurückverlangen, wenn Sie den Verstoß gerügt haben (§ 556g Abs. 2 BGB). Die Rüge muss in Textform sein, also zum Beispiel als Brief oder E-Mail (§ 556g Abs. 4 BGB). Hat der Vermieter Ihnen vor Vertragsschluss eine Auskunft gegeben, muss sich die Rüge darauf beziehen.
-3. **Achten Sie auf die 30 Monate:** Rügen Sie früh. Rügen Sie erst mehr als 30 Monate nach Beginn des Mietverhältnisses, bekommen Sie nur die Miete zurück, die nach der Rüge fällig wurde. Das gilt auch, wenn das Mietverhältnis schon beendet ist (§ 556g Abs. 2 BGB). Hat Ihr Mietverhältnis vor dem 01.04.2020 begonnen, gilt eine ältere Fassung dieser Regel (Art. 229 § 51 EGBGB). Lassen Sie sich dann beraten.
+3. **Achten Sie auf die 30 Monate:** Rügen Sie früh. Rügen Sie erst mehr als 30 Monate nach Beginn des Mietverhältnisses, bekommen Sie nur die Miete zurück, die nach der Rüge fällig wurde. Dasselbe gilt, wenn die Rüge erst nach dem Ende des Mietverhältnisses ankommt. Dann bekommen Sie meist nichts mehr zurück. Rügen Sie deshalb, solange Ihr Mietverhältnis noch läuft (§ 556g Abs. 2 BGB). Haben Sie den Vertrag vor dem 01.04.2020 geschlossen oder hat das Mietverhältnis davor begonnen, gilt vielleicht eine ältere Fassung dieser Regel (Art. 229 § 51 EGBGB). Lassen Sie sich dann beraten.
 4. **Vor einer Zustimmung zu einer Mieterhöhung prüfen:** Stimmen Sie später einer Mieterhöhung zu, gilt die neue Miete als vereinbart. Gegen diese neue Miete können Sie sich dann grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, Urteil vom 28.09.2022 – VIII ZR 300/21). Prüfen Sie die Mietpreisbremse deshalb, bevor Sie zustimmen.
 
-Unser [Rechner](@/rechner.md) zeigt Ihnen die Vergleichsmiete. Für die Mietpreisbremse rechnen Sie davon plus 10 %. Das ist nur ein erster Anhaltspunkt.
+Unser [Rechner](@/rechner.md) zeigt Ihnen die Vergleichsmiete. Für die Mietpreisbremse rechnen Sie davon plus 10 %. Das ist nur ein erster Anhaltspunkt. Hat Ihr Mietverhältnis vor dem 30.05.2024 begonnen, können Sie den Rechner dafür nicht nutzen.
 
 Die Mietpreisprüfstelle und die Mieterberatungen helfen bei der Prüfung. Adressen finden Sie unter [Hilfe und Beratung](@/hilfe.md).

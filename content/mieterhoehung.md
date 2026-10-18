@@ -18,19 +18,23 @@ Diese Seite gilt nur, wenn im Brief steht, dass Sie einer höheren Miete **zusti
 - Mieterhöhung nach einer Modernisierung (§ 559 BGB),
 - neue Vorauszahlungen für Betriebskosten (§ 560 BGB),
 - Indexmiete (§ 557b BGB) oder Staffelmiete (§ 557a BGB),
-- Sozialwohnung oder andere geförderte Wohnung mit fester Miete. Dann steht im Brief oft „Kostenmiete“ oder „Wohnungsbindungsgesetz“.
+- alte Sozialwohnung mit „Kostenmiete“. Dann steht im Brief oft „Kostenmiete“, „Wirtschaftlichkeitsberechnung“ oder „Wohnungsbindungsgesetz“.
 
 Die Regeln auf dieser Seite gelten auch **nicht** für:
 
-- ein Zimmer in der Wohnung, in der der Vermieter selbst wohnt,
-- eine Wohnung, die nur für kurze Zeit vermietet ist,
+- ein vom Vermieter möbliertes Zimmer in der Wohnung, in der er selbst wohnt (nicht, wenn Sie dort auf Dauer mit Ihrer Familie oder Partnerin oder Partner wohnen),
+- eine Wohnung, die nur zum vorübergehenden Gebrauch vermietet ist (ein Vertrag mit Enddatum allein reicht dafür nicht),
 - ein Zimmer in einem Studenten- oder Jugendwohnheim.
+
+In diesen drei Fällen gelten die gesetzlichen Regeln zur Mieterhöhung nicht. Was gilt, hängt von Ihrem Vertrag ab. Der Vermieter kann Ihnen dort aber leichter kündigen.
 
 Der Berliner Mietspiegel gilt außerdem nicht für Wohnungen in Ein- oder Zweifamilienhäusern und Reihenhäusern, für Wohnungen mit WC außerhalb der Wohnung und für neue Häuser (Mietspiegel 2026: fertig ab 2025; Mietspiegel 2024: fertig ab 2023).
 
+**Neuere Sozialwohnung oder andere geförderte Wohnung ohne „Kostenmiete“:** Hier muss der Vermieter Sie um Zustimmung bitten wie auf dieser Seite beschrieben. Zusätzlich darf die Miete die Höchstmiete aus der Förderung nicht übersteigen. Den Mietspiegel kann man dann nicht direkt anwenden. Lassen Sie sich beraten.
+
 Hören Sie in diesen Fällen **nicht** einfach auf zu zahlen. Lassen Sie sich beraten: [Hilfe und Beratung](@/hilfe.md).
 
-*Quelle: § 558 Abs. 2 Satz 2 BGB, § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
+*Quelle: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe“ (neue Sozialwohnungen); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
 
 ## Was ist ein Mieterhöhungsverlangen?
 
@@ -81,11 +85,13 @@ Ist das Schreiben formal fehlerhaft, zum Beispiel ohne Begründung, kann der Ver
 
 Wenn Sie nichts tun, haben Sie nicht zugestimmt. Der Vermieter kann dann aber klagen. Ein Gericht prüft dann, ob die Erhöhung berechtigt ist.
 
+**Post vom Gericht:** Klagt der Vermieter, bekommen Sie Post vom Amtsgericht. Gehen Sie dann sofort zur Beratung. Oft haben Sie nur 2 Wochen, um dem Gericht zu antworten. Antworten Sie nicht rechtzeitig, kann das Gericht ohne Sie entscheiden, meist zugunsten des Vermieters.
+
 **Aber Vorsicht beim Zahlen:** Eine Zustimmung braucht keine bestimmte Form. Wer die höhere Miete mehrmals ohne Vorbehalt zahlt, kann damit zustimmen. Der Bundesgerichtshof hat das bei einer dreimaligen Zahlung ohne Vorbehalt so gesehen. Zahlen Sie deshalb nicht einfach die höhere Miete, wenn Sie noch nicht zustimmen wollen.
 
 **Lastschrift:** Haben Sie dem Vermieter erlaubt, die Miete abzubuchen, prüfen Sie Ihr Konto. Wird schon die höhere Miete abgebucht, bevor Sie zugestimmt haben, schreiben Sie dem Vermieter sofort: Sie haben nicht zugestimmt, und die Zahlung erfolgt nur unter Vorbehalt. Fragen Sie Ihre Bank, ob Sie die Lastschrift zurückgeben können. Lassen Sie sich beraten.
 
-*Quelle: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13 und 21.*
+*Quelle: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13 und 21; § 276 Abs. 1, § 331 Abs. 3 ZPO.*
 
 ## Zustimmen, teilweise zustimmen, ablehnen
 
@@ -144,9 +150,9 @@ Sammeln Sie deshalb früh Beweise: Mietvertrag, Übergabeprotokoll, Fotos mit Da
 
 Nach einem Mieterhöhungsverlangen dürfen Sie außerordentlich kündigen. Das heißt: mit einer kürzeren Frist als sonst. Die Kündigung muss bis zum Ablauf des zweiten Monats nach dem Zugang beim Vermieter sein. Das Mietverhältnis endet dann zum Ablauf des übernächsten Monats. Beispiel: Die Kündigung kommt im Dezember an. Dann endet das Mietverhältnis Ende Februar. Die Mieterhöhung gilt dann nicht.
 
-Der Gesetzestext sagt hier „Monat“, nicht „Kalendermonat“. Sicher sind Sie, wenn die Kündigung innerhalb von zwei Monaten ab dem Zugangstag ankommt. Eine Kündigung muss schriftlich sein, also auf Papier mit Ihrer Unterschrift. Eine E-Mail reicht nicht. Haben mehrere Personen den Mietvertrag unterschrieben, unterschreiben am sichersten alle die Kündigung. Lassen Sie sich vorher beraten.
+Der Gesetzestext sagt hier „Monat“, nicht „Kalendermonat“. Sicher sind Sie, wenn die Kündigung innerhalb von zwei Monaten ab dem Zugangstag ankommt. Eine Kündigung muss schriftlich sein, also auf Papier mit Ihrer Unterschrift. Eine E-Mail reicht nicht. Haben mehrere Personen den Mietvertrag unterschrieben, müssen grundsätzlich alle die Kündigung unterschreiben. Lassen Sie sich vorher beraten.
 
-*Quelle: § 561 BGB, § 568 Abs. 1 BGB.*
+*Quelle: § 561 BGB, § 568 Abs. 1 BGB; BGH, Urteil vom 16.03.2005 – VIII ZR 14/04.*
 
 ## Landeseigene Vermieter
 

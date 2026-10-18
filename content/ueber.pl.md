@@ -11,7 +11,7 @@ nav = true
 
 Ta strona pomaga najemcom w Berlinie zrozumieć berlińskie zwierciadło czynszów (Mietspiegel) i żądanie podwyżki czynszu (Mieterhöhungsverlangen). Jest bezpłatna i bez reklam. Nie jest ofertą żadnego urzędu.
 
-Wszystko działa tylko w twojej przeglądarce. Nie zapisujemy żadnych danych na serwerze. Nie ma plików cookie, programów statystycznych ani treści z innych stron internetowych. Twoja przeglądarka może zapisać twoje dane na twoim urządzeniu, żeby można było kontynuować później. Przyciskiem „Usuń moje dane” znowu je usuniesz.
+Wszystkie obliczenia odbywają się tylko w twojej przeglądarce. Twoje dane nie są wysyłane na serwer. Jak przy każdej stronie internetowej, serwer przy otwarciu strony otrzymuje dane techniczne, na przykład twój adres IP. Nie ma plików cookie, programów statystycznych ani treści z innych stron internetowych. Twoja przeglądarka pamięta twoje dane tylko dopóki ta karta jest otwarta, żeby można było przechodzić między kalkulatorem, sprawdzeniem i listem. Przyciskiem „Usuń moje dane” usuniesz je od razu.
 
 ## Czym ta strona nie jest
 

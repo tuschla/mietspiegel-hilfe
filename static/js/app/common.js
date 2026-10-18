@@ -5,24 +5,24 @@ import { makeI18n, paragraphs } from "../lib/i18n.js";
 
 const STORE_KEY = "mietspiegel-hilfe:v1";
 
-/* ---------- local storage (only in this browser) ---------- */
+/* ---------- session storage (only in this browser tab, gone when the tab is closed) ---------- */
 export const store = {
   read() {
-    try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch { return {}; }
+    try { return JSON.parse(sessionStorage.getItem(STORE_KEY)) || {}; } catch { return {}; }
   },
   get(part) { return this.read()[part] || {}; },
   set(part, value) {
     try {
       const all = this.read();
       all[part] = value;
-      localStorage.setItem(STORE_KEY, JSON.stringify(all));
+      sessionStorage.setItem(STORE_KEY, JSON.stringify(all));
     } catch { /* storage disabled: tools still work, nothing is kept */ }
   },
   clear() {
-    try { localStorage.removeItem(STORE_KEY); } catch { /* ignore */ }
+    try { sessionStorage.removeItem(STORE_KEY); } catch { /* ignore */ }
   },
   has() {
-    try { return localStorage.getItem(STORE_KEY) !== null; } catch { return false; }
+    try { return sessionStorage.getItem(STORE_KEY) !== null; } catch { return false; }
   },
 };
 
@@ -95,6 +95,42 @@ export function bdi(text) {
   return h("bdi", {}, text);
 }
 
+/** Calculation shown left to right in every UI language; each operand is isolated, so the
+ *  right-to-left marks in Arabic amounts cannot move numbers across the operators. */
+export function expr(text) {
+  return h("bdi", { dir: "ltr" }, text.split(/(\s?[×=−→·]\s| \()/).map((p, i) => (i % 2 ? p : p ? bdi(p) : null)));
+}
+
+/** One short, visually hidden status line per tool. Speaks only when the text changed and the
+ *  user paused typing, instead of re-reading whole result areas on every keystroke. */
+export function liveStatus(delay = 600) {
+  const el = h("p", { class: "visually-hidden", role: "status" });
+  let last = "", timer = null;
+  return {
+    el,
+    say(text) {
+      clearTimeout(timer);
+      timer = setTimeout(() => { if (text !== last) { last = text; el.textContent = text; } }, delay);
+    },
+  };
+}
+
+/** Mark a field whose number could not be read (aria-invalid + error text linked to the field). */
+export function markInvalid(input, bad, message) {
+  const errId = `${input.id}-err`;
+  let err = document.getElementById(errId);
+  const ids = (input.getAttribute("aria-describedby") || "").split(" ").filter((x) => x && x !== errId);
+  if (bad) {
+    if (!err) { err = h("p", { class: "field__error", id: errId }, message); input.after(err); }
+    input.setAttribute("aria-invalid", "true");
+    ids.push(errId);
+  } else {
+    err?.remove();
+    input.removeAttribute("aria-invalid");
+  }
+  if (ids.length) input.setAttribute("aria-describedby", ids.join(" ")); else input.removeAttribute("aria-describedby");
+}
+
 let uid = 0;
 export function id(prefix = "f") {
   uid += 1;
@@ -157,6 +193,14 @@ export function download(filename, text) {
 }
 
 /* ---------- clear-data button in the footer ---------- */
+const CLEARED_KEY = "mietspiegel-hilfe:cleared";
+
+/** Tool pages rebuild by reloading; the flag lets the reloaded page confirm the deletion. */
+export function reloadAfterClear() {
+  try { sessionStorage.setItem(CLEARED_KEY, "1"); } catch { /* ignore */ }
+  location.reload();
+}
+
 function initClear() {
   const btn = document.querySelector("[data-clear-storage]");
   const status = document.querySelector("[data-clear-status]");
@@ -167,9 +211,16 @@ function initClear() {
     if (status) status.textContent = btn.dataset.done || "";
     document.dispatchEvent(new CustomEvent("msh:cleared"));
   });
+  let cleared = false;
+  try { cleared = sessionStorage.getItem(CLEARED_KEY) !== null; sessionStorage.removeItem(CLEARED_KEY); } catch { /* ignore */ }
+  if (cleared) {
+    btn.focus();
+    setTimeout(() => { if (status) status.textContent = btn.dataset.done || ""; }, 500);
+  }
 }
 
 if (typeof document !== "undefined") {
+  document.querySelector("[data-loading]")?.removeAttribute("hidden");
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initClear);
   else initClear();
 }

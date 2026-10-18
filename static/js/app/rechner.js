@@ -1,8 +1,8 @@
 // Calculator: Mietspiegel row + Orientierungshilfe netting, step by step.
-import { boot, store, h, paras, de, bdi, field, callout, step, mount, fatal, id } from "./common.js";
+import { boot, store, h, paras, de, bdi, expr, field, callout, step, mount, fatal, id, liveStatus, markInvalid, reloadAfterClear } from "./common.js";
 import { scopeForm, scopeState, scopeNotice, readScope } from "./scope.js";
 import {
-  findRow, evaluate, featureApplies, blockedBy, exclusiveConflicts, disputes, featureIndex, energyBoxes,
+  findRow, evaluate, featureApplies, blockedBy, exclusiveConflicts, disputes, featureIndex, energyBoxes, expandKennwert,
 } from "../lib/mietspiegel.js";
 import { chooseMietspiegel, contestedYear } from "../lib/check558.js";
 import { parseNumber, eur, num, round, localDate } from "../lib/money.js";
@@ -49,13 +49,16 @@ function selected(who) {
     if (who === "me" && f.sign > 0 && st.self) continue; // tenant-installed equipment does not count
     out.push(f.id);
   }
-  return out;
+  return expandKennwert(ms(), out); // kennwert boxes are cumulative (Nr. 10.4 A)
 }
 
 function compute() {
   const m = ms();
   const a = area();
+  if (data.rules && isValid(s.date) && !chooseMietspiegel(data.rules, s.date)) return { row: null, noEdition: true };
   if (!m || !s.wohnlage || !s.baualter || !(a > 0)) return null;
+  // Nr. 9: the tables apply only to fully equipped flats; Nr. 9.4 has an amount only for some Baualter
+  if (s.minder && !(m.abschlag && (m.abschlag.baualter || []).includes(s.baualter))) return { row: null, minderOutside: true };
   const row = findRow(m, { wohnlage: s.wohnlage, baualter: s.baualter, area: a });
   if (!row) return { row: null };
   const opts = { baualter: s.baualter, area: a, minder: s.minder };
@@ -81,7 +84,7 @@ function setYearFromDate() {
   if (!data.rules || !isValid(s.date)) { yearStatus.textContent = ""; return; }
   const y = chooseMietspiegel(data.rules, s.date);
   if (y && MS[y]) {
-    if (s.year !== y) { s.year = y; rebuildForYear(); }
+    if (s.year !== y) { switchYear(y); }
     yearRadios[y].checked = true;
     yearStatus.textContent = t("calc_year_auto", { year: y });
     const n = newerEdition(s.date, y);
@@ -96,7 +99,12 @@ function stepYear() {
   const fs = h("fieldset", {}, h("legend", {}, t("calc_year_legend")),
     h("div", { class: "choices--inline" }, years.map((y) => {
       const r = h("input", { type: "radio", name: "year", value: String(y), checked: s.year === y,
-        onchange: () => { s.year = y; yearStatus.textContent = ""; rebuildForYear(); save(); update(); } });
+        onchange: () => {
+          switchYear(y);
+          const need = data.rules && isValid(s.date) ? chooseMietspiegel(data.rules, s.date) : null;
+          yearStatus.textContent = need && need !== y && newerEdition(s.date, need) !== y ? t("chk_calc_year_mismatch", { calc: y, need }) : "";
+          save(); update();
+        } });
       yearRadios[y] = r;
       return h("label", { class: "choice" }, r, h("span", {}, MS[y].title_de, " ", h("small", {}, t("calc_year_valid_from", { date: localDate(MS[y].valid_from, lang) }))));
     })));
@@ -109,7 +117,7 @@ function stepYear() {
 }
 
 /* ---------------- step 2: the flat ---------------- */
-const baualterSel = h("select", { lang: "de", dir: "ltr" }); // official German labels
+const baualterSel = h("select", { dir: "ltr" }); // official German labels (each option has lang="de")
 const baualterNew = h("p", { class: "field__hint" });
 const minderBox = h("div", {});
 
@@ -136,8 +144,13 @@ function fillBaualter() {
 
 function renderMinder() {
   const ab = ms().abschlag;
-  if (!ab || !(ab.baualter || []).includes(s.baualter)) { minderBox.replaceChildren(); return; }
+  if (!ab || !s.baualter) { minderBox.replaceChildren(); return; }
   const box = h("input", { type: "checkbox", checked: s.minder, onchange: (e) => { s.minder = e.target.checked; save(); update(); } });
+  if (!(ab.baualter || []).includes(s.baualter)) {
+    // no Nr. 9.4 amount for this Baualter: the box leads to "no value" (calc_minder_outside)
+    mount(minderBox, h("label", { class: "choice" }, box, h("span", {}, t("calc_minder_outside_label"))));
+    return;
+  }
   mount(minderBox,
     h("label", { class: "choice" }, box, h("span", {}, t("calc_minder_label", { eur: fmtEur(ab.eur_per_sqm) }))),
     h("details", { class: "field__hint" }, h("summary", {}, t("official_wording")), paras(ab.text_de, { lang: "de", dir: "ltr", class: "official" })),
@@ -167,11 +180,14 @@ function stepFlat() {
 }
 
 /* ---------------- step 3: row ---------------- */
-const rowBox = h("div", { "aria-live": "polite" });
+const rowBox = h("div", {});
+const resultStatus = liveStatus();
 
 function renderRow(r) {
   if (calcScope() !== "open") { mount(rowBox, h("p", { class: "field__hint" }, t("scope_results_hidden"))); return; }
   if (!r) { rowBox.replaceChildren(h("p", { class: "field__hint" }, t("calc_row_incomplete"))); return; }
+  if (r.noEdition) { rowBox.replaceChildren(callout("warn", t("calc_year_none"))); return; }
+  if (r.minderOutside) { rowBox.replaceChildren(callout("warn", t("calc_minder_outside"))); return; }
   if (!r.row) { rowBox.replaceChildren(callout("warn", t("calc_row_none"), h("p", {}, t("calc_row_none_hint")))); return; }
   const { cell } = r.row;
   const b = ms().dims.baualter.find((x) => x.id === s.baualter);
@@ -195,12 +211,13 @@ function featureItem(f) {
   const titleId = id("ft");
   const title = ftitle(f);
   const meLbl = id("lbl"), llLbl = id("lbl");
-  const me = h("input", { type: "checkbox", checked: st.me, "aria-labelledby": `${meLbl} ${titleId}`,
-    onchange: (e) => { st.me = e.target.checked; save(); refreshChecklist(); update(); } });
-  const ll = h("input", { type: "checkbox", checked: st.ll, "aria-labelledby": `${llLbl} ${titleId}`,
-    onchange: (e) => { st.ll = e.target.checked; save(); refreshChecklist(); update(); } });
+  const whyId = id("why");
+  const me = h("input", { type: "checkbox", checked: st.me, "aria-labelledby": `${meLbl} ${titleId}`, "aria-describedby": whyId,
+    onchange: (e) => { st.me = e.target.checked; cascadeKennwert(f, "me", st.me); save(); refreshChecklist(); update(); } });
+  const ll = h("input", { type: "checkbox", checked: st.ll, "aria-labelledby": `${llLbl} ${titleId}`, "aria-describedby": whyId,
+    onchange: (e) => { st.ll = e.target.checked; cascadeKennwert(f, "ll", st.ll); save(); refreshChecklist(); update(); } });
   const self = f.sign > 0 ? h("input", { type: "checkbox", checked: st.self, onchange: (e) => { st.self = e.target.checked; save(); update(); } }) : null;
-  const why = h("p", { class: "check-item__why", hidden: true });
+  const why = h("p", { class: "check-item__why", id: whyId, hidden: true });
 
   const explain = c(`features.${f.id}.explain`), chk = c(`features.${f.id}.check`), proof = c(`features.${f.id}.proof`);
   const more = (explain || chk || proof) ? h("details", { class: "feature__more" }, h("summary", {}, t("feature_more")),
@@ -216,13 +233,27 @@ function featureItem(f) {
       title ? h("p", { class: "official", lang: "de", dir: "ltr" }, h("span", { class: "official__label", lang, dir: cfg.dir }, t("official_wording")), f.text_de) : null,
       f.footnote_de ? de("p", f.footnote_de, { class: "feature__cond" }) : null,
       // ambiguous or partial scope notes the calculator cannot apply by itself (data field note_de)
-      f.note_de ? h("p", { class: "callout callout--warn check-item__note" }, t(f.excl ? "calc_energy_denkmal" : "calc_condition_check"), " ", de("span", f.note_de)) : null,
+      f.note_de ? h("p", { class: "callout callout--warn check-item__note" }, t(f.excl && f.sign < 0 ? "calc_energy_denkmal" : "calc_condition_check"), " ", de("span", f.note_de)) : null,
       more, why),
     h("div", { class: "check-item__toggle" }, h("label", {}, me, h("span", { id: meLbl }, t("calc_col_me")))),
     h("div", { class: "check-item__toggle check-item__ll" }, h("label", {}, ll, h("span", { id: llLbl }, t("calc_col_ll")))),
     self ? h("label", { class: "choice check-item__self", hidden: !st.me }, self, h("span", {}, t("calc_self_installed"))) : null);
   items.set(f.id, { li, me, ll, self, why, f });
   return li;
+}
+
+/** Kennwert boxes are cumulative (Nr. 10.4 A): ticking one also ticks the weaker ones in the same
+ *  column, unticking one also unticks the stronger ones. */
+function cascadeKennwert(f, who, on) {
+  const kind = (g) => (typeof g.kwh_gt === "number" ? "gt" : typeof g.kwh_lt === "number" ? "lt" : null);
+  const k = kind(f);
+  if (!k) return;
+  const limit = (g) => (k === "gt" ? g.kwh_gt : g.kwh_lt);
+  for (const [fid, it] of items) {
+    if (fid === f.id || kind(it.f) !== k) continue;
+    const weaker = k === "gt" ? limit(it.f) < limit(f) : limit(it.f) > limit(f);
+    if (on === weaker) { feat(fid)[who] = on; it[who].checked = on; }
+  }
 }
 
 function energyHelper(group) {
@@ -238,7 +269,9 @@ function energyHelper(group) {
     for (const f of group.features) {
       if (!f.excl) continue;
       const st = feat(f.id);
-      st.me = f.excl.part === "kennwert" ? hits.has(f.id) : false;
+      // a valid Dämmung/Heizanlage box stays unless the value gives a kennwert box of the same set
+      st.me = f.excl.part === "kennwert" ? hits.has(f.id)
+        : st.me && ![...hits].some((hid) => items.get(hid)?.f.excl?.set === f.excl.set);
     }
     for (const [fid, it] of items) if (it.f.excl) it.me.checked = feat(fid).me;
     out.textContent = t("calc_energy_done", { n: hits.size });
@@ -251,7 +284,7 @@ function energyHelper(group) {
     paras(t("calc_energy_intro")),
     field({ label: t("calc_energy_value"), input: val }),
     h("label", { class: "choice" }, bedarf, h("span", {}, t("calc_energy_bedarf"))),
-    h("label", { class: "choice" }, water, h("span", {}, t("calc_energy_water"),
+    h("label", { class: "choice" }, water, h("span", {}, t(waterNote && /ohne Berücksichtigung/.test(waterNote) ? "calc_energy_water_excl" : "calc_energy_water"),
       waterNote ? [h("br"), h("small", { class: "official", lang: "de", dir: "ltr" }, waterNote)] : null)),
     h("div", { class: "btn-row" }, h("button", { type: "button", class: "btn btn--secondary", onclick: apply }, t("calc_energy_apply"))),
     out,
@@ -265,6 +298,10 @@ function buildChecklist() {
     onchange: (e) => { s.compare = e.target.checked; checklist.classList.toggle("compare-on", s.compare); save(); update(); } });
   checklist.className = s.compare ? "compare-on" : "";
   mount(checklist,
+    recheck && recheck.year === s.year
+      ? callout("warn", t("calc_year_recheck", { ms: ms().title_de }),
+        h("ul", {}, recheck.ids.map((fid) => { const f = featureIndex(ms()).get(fid); return h("li", {}, ftitle(f) || de("span", f.text_de)); })))
+      : null,
     paras(t("calc_features_intro")),
     callout("warn", t("calc_self_title"), h("p", {}, t("calc_self_text"))),
     h("label", { class: "choice" }, compareBox, h("span", {}, t("calc_compare_label"))),
@@ -305,7 +342,7 @@ function refreshChecklist() {
 }
 
 /* ---------------- step 5: result ---------------- */
-const resultBox = h("div", { "aria-live": "polite" });
+const resultBox = h("div", {});
 
 function signLabel(sign) {
   return t(sign > 0 ? "calc_group_plus" : sign < 0 ? "calc_group_minus" : "calc_group_zero");
@@ -353,9 +390,9 @@ function renderResult(r) {
   const lines = calcLines(mine, row.cell, a);
   const linesTable = h("table", { class: "calc-table" },
     h("caption", {}, t("calc_result_steps")),
-    h("tbody", {}, lines.map(([k, v]) => h("tr", {}, h("th", { scope: "row" }, k), h("td", {}, bdi(v))))),
+    h("tbody", {}, lines.map(([k, v]) => h("tr", {}, h("th", { scope: "row" }, k), h("td", {}, expr(v))))),
     h("tfoot", {}, h("tr", {}, h("td", {}, t("calc_line_ovm")), h("td", {}, bdi(fmtEur(mine.ovm)))),
-      h("tr", {}, h("td", {}, t("calc_line_monthly", { area: fmtNum(a, a % 1 ? 2 : 0) })), h("td", {}, bdi(`${fmtNum(a, a % 1 ? 2 : 0)} m² × ${fmtEur(mine.ovm)} = ${fmtEur(mine.monthly)}`)))));
+      h("tr", {}, h("td", {}, t("calc_line_monthly", { area: fmtNum(a, a % 1 ? 2 : 0) })), h("td", {}, expr(`${fmtNum(a, a % 1 ? 2 : 0)} m² × ${fmtEur(mine.ovm)} = ${fmtEur(mine.monthly)}`)))));
 
   const conflictsMine = mine.conflicts.length ? callout("danger", t("calc_conflict_mine")) : null;
   const conflictsLl = landlord && landlord.conflicts.length ? callout("warn", t("calc_conflict_landlord"), h("p", {}, t("calc_conflict_landlord_text"))) : null;
@@ -385,7 +422,7 @@ function renderResult(r) {
 }
 
 /* ---------------- step 6: compare with demanded rent ---------------- */
-const demandBox = h("div", { "aria-live": "polite" });
+const demandBox = h("div", {});
 const demandIn = h("input", { type: "text", inputmode: "decimal", autocomplete: "off", value: s.demanded, size: 10 });
 
 function renderDemand(r) {
@@ -394,6 +431,7 @@ function renderDemand(r) {
   const a = area();
   const diff = round(d - r.mine.monthly);
   const perSqm = round(d / a);
+  if (perSqm < 1) { demandBox.replaceChildren(callout("warn", t("calc_demand_implausible"))); return; }
   const over = diff > 0;
   demandBox.replaceChildren(callout(over ? "danger" : "ok",
     over ? t("calc_demand_over", { diff: fmtEur(diff) }) : t("calc_demand_within"),
@@ -420,6 +458,14 @@ function update() {
   renderRow(r);
   renderResult(r);
   renderDemand(r);
+  markInvalid(areaIn, s.area.trim() !== "" && area() === null, t("chk_invalid_number"));
+  markInvalid(demandIn, s.demanded.trim() !== "" && parseNumber(s.demanded) === null, t("chk_invalid_number"));
+  const d = parseNumber(s.demanded);
+  resultStatus.say(calcScope() === "open" && r && r.row
+    ? [`${fmtEur(r.mine.ovm)} ${t("per_sqm")}`, `${t("calc_result_monthly", { area: fmtNum(area(), area() % 1 ? 2 : 0) })} ${fmtEur(r.mine.monthly)}`,
+      d === null ? "" : round(d / area()) < 1 ? t("calc_demand_implausible")
+        : d - r.mine.monthly > 0 ? t("calc_demand_over", { diff: fmtEur(round(d - r.mine.monthly)) }) : t("calc_demand_within")].filter(Boolean).join(". ")
+    : "");
   if (ms()) for (const g of ms().groups) {
     const el = tallies.get(g.id);
     if (!el) continue;
@@ -428,6 +474,24 @@ function update() {
     const m = g.features.filter((f) => f.sign < 0 && mine.includes(f.id)).length;
     el.textContent = t("calc_tally", { plus: p, minus: m });
   }
+}
+
+/* ---------------- year switch ---------------- */
+let recheck = null; // {year, ids}: ticked features whose wording differs in the edition switched to
+const normText = (x) => (x || "").toLowerCase().replace(/\s+/g, "").replace(/[‐‑‒–—―-]/g, "-");
+
+function switchYear(y) {
+  const from = MS[s.year], to = MS[y];
+  const ids = [];
+  if (from && to && s.year !== y) {
+    const a = featureIndex(from), b = featureIndex(to);
+    for (const [fid, st] of Object.entries(s.feats)) {
+      if ((st.me || st.ll) && a.has(fid) && b.has(fid) && normText(a.get(fid).text_de) !== normText(b.get(fid).text_de)) ids.push(fid);
+    }
+  }
+  recheck = ids.length ? { year: y, ids } : null;
+  s.year = y;
+  rebuildForYear();
 }
 
 function rebuildForYear() {
@@ -453,9 +517,9 @@ if (!years.length) {
     stepFlat(),
     step(3, t("calc_step_row"), rowBox),
     step(4, t("calc_step_features"), checklist),
-    step(5, t("calc_step_result"), resultBox),
+    step(5, t("calc_step_result"), resultStatus.el, resultBox),
     stepNext());
   setYearFromDate();
   update();
-  document.addEventListener("msh:cleared", () => { s = { ...DEFAULTS, feats: {} }; location.reload(); });
+  document.addEventListener("msh:cleared", () => { s = { ...DEFAULTS, feats: {} }; reloadAfterClear(); });
 }

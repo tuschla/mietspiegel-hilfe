@@ -24,7 +24,8 @@
 {%- endif %}{% endfor %}
 {%- endif %}
 <link rel="stylesheet" href="{{ get_url(path='css/site.css', cachebust=true) }}">
-<script type="module" src="{{ get_url(path='js/app/common.js', cachebust=true) }}"></script>
+<link rel="icon" href="data:,">
+<script type="module" src="{{ get_url(path='js/app/common.js') }}"></script>
 {%- block head %}{% endblock head %}
 </head>
 <body class="{% block body_class %}{% endblock body_class %}">

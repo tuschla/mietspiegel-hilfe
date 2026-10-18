@@ -16,15 +16,15 @@ Bu site yalnızca genel bilgi verir. Bir kira artışını onaylamadan veya bir 
 
 **Senato'nun kira danışma hattı (Servicetelefon Miete).** Berlin Mietspiegel'i ve kira ile ilgili sorular için: (030) 90173 3860. Kira hukuku sorularını ilçelerdeki danışmanlıklar cevaplar.
 
-**Mietpreisprüfstelle Berlin (kira kontrol bürosu).** Kiranızın çok yüksek olduğundan şüpheleniyorsanız, örneğin kira freni (Mietpreisbremse) nedeniyle: Berlin eyaleti, Berlin'deki tüm kiracı hanelerine ücretsiz ilk danışmanlık verir. Danışmanlık yalnızca randevuyla. İngilizce de var.
+**Mietpreisprüfstelle Berlin (kira kontrol bürosu).** Kiranızın çok yüksek olduğundan şüpheleniyorsanız, örneğin kira freni (Mietpreisbremse) nedeniyle: Berlin eyaleti, Berlin'deki tüm kiracı hanelerine ücretsiz ilk danışmanlık verir. Danışmanlık yalnızca randevuyla. Bilgiler İngilizce de var.
 <https://www.berlin.de/mietpreispruefstelle>
 
-**Birçok dilde danışmanlık.** Senato'nun Uyum Sorumlusu'na (Integrationsbeauftragte) bağlı Willkommenszentrum'un (hoş geldiniz merkezi) kira ve kira artışı hakkında bir sayfası ve birçok dilde danışma merkezi arama özelliği vardır:
-<https://willkommenszentrum.berlin.de/en/housing/rent>
+**Birçok dilde danışmanlık.** Senato'nun Uyum Sorumlusu'na (Integrationsbeauftragte) bağlı Willkommenszentrum'un (hoş geldiniz merkezi) bir danışma merkezi arama özelliği vardır. Orada „Konut“ („Wohnen“) konusuna ve kendi dilinize göre arama yapabilirsiniz:
+<https://willkommenszentrum.berlin.de/tr/danisma-merkezleri>
 
 ## Eyalete ait konut şirketlerinin kiracıları için
 
-**Eyalete ait konut şirketlerinin kiracıları için Ombudsman ofisi (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen)** (degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM). İşbirliği anlaşması (Kooperationsvereinbarung) ve ödenebilirlik sözü (Leistbarkeitsversprechen) hakkında Almanca ve İngilizce danışmanlık verir. Genel kira hukuku sorularında danışmanlık vermez.
+**Eyalete ait konut şirketlerinin kiracıları için Ombudsman ofisi (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen)** (degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM ve „klasik“ kiralık daireleriyle berlinovo). İşbirliği anlaşması (Kooperationsvereinbarung) ve ödenebilirlik sözü (Leistbarkeitsversprechen) hakkında Almanca ve İngilizce danışmanlık verir. Genel kira hukuku sorularında danışmanlık vermez.
 <https://www.ombud-lwu.de/>
 
 ## Kiracı dernekleri (Mietervereine, üyelik aidatıyla)
@@ -39,6 +39,6 @@ Kiracı dernekleri üyelerine danışmanlık verir. Bunun için bir üyelik aida
 
 ## Avukatlar
 
-Bir dava veya kendi durumunuzun (Einzelfall) incelenmesi için kira hukuku alanında çalışan bir avukata başvurabilirsiniz. Hukuki koruma sigortanız (Rechtsschutzversicherung) yoksa bu paralıdır.
+Bir dava veya kendi durumunuzun (Einzelfall) incelenmesi için kira hukuku alanında çalışan bir avukata başvurabilirsiniz. Hukuki koruma sigortanız (Rechtsschutzversicherung) yoksa bu paralıdır. Geliriniz azsa, bir danışmanlık için sulh mahkemesine (Amtsgericht) danışmanlık yardımı (Beratungshilfe) başvurusu yapabilirsiniz (Beratungshilfegesetz). Bir dava için adli yardım (Prozesskostenhilfe, § 114 ZPO) vardır. Davayı kaybederseniz, ev sahibinin masraflarını yine de ödemek zorundasınız (§ 123 ZPO).
 
 Verbraucherzentrale Berlin (tüketici merkezi), kendi açıklamasına göre kira hukuku konusunda danışmanlık **vermez**.

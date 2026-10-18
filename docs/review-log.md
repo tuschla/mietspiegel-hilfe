@@ -458,3 +458,173 @@ Russische Übersetzung an den deutschen Stand „Fristende an Samstag, Sonntag, 
 | content/pruefen.ru.md | Hinweis | neu übersetzt (eigene Fristen Kalenderdatum, Verschiebung nicht sicher; Klagefrist nächster Werktag) |
 
 Warnungen nicht abgeschwächt: eigene Frist nach Kalenderdatum, verschobene Zustimmungsfrist nur Information, Verschiebung der Klagefrist ausdrücklich zugunsten des Vermieters.
+
+## Wave V – adversarial review
+
+### FixText – deutscher Master + English (18.10.2026)
+
+Quelle: `99 Arbeitsdateien/Website/WaveV_Adversarial/S1…S6_judge.md`. Nur de und en geändert; tr, ar, uk, ru, pl müssen die Übersetzer nachziehen (gleiche Schlüssel/Abschnitte wie unten). Keine Content-Schlüssel neu oder entfernt. Neue Quellen: `docs/sources.md`, Abschnitt „Content – Wave V, adversariale Prüfung“ (live geöffnet 18.10.2026).
+
+| Judge-Id | Dateien (de + en) | Änderung |
+|---|---|---|
+| S5 F1 | content `rules.scope.text`, `letters.ablehnung.risks`; mieterhoehung.md (Liste, § 549-Punkte, 2 neue Absätze, Quellenzeile), pruefen.md:10, brief.md:10, _index.md:17 | „Sozialwohnung/geförderte Wohnung mit fester Miete“ → „alte Sozialwohnung mit „Kostenmiete““; § 549-Texte nach Gesetzeswortlaut (möbliert, vorübergehender Gebrauch; Mieterhöhungsregeln gelten nicht, leichtere Kündigung); Absatz zu neueren geförderten Wohnungen (Zustimmung + Höchstmiete). UI-Schlüssel `scope_item_sozial`, `scope_item_s549`, `scope_ask_hint`, `scope_not558_text`: Wortlaut an FixCode übergeben. |
+| S5 F1 (Teil `gefoerdert`) | – | nicht angewendet: OWNER O4 (S2 C2 OWNER). |
+| S5 F2 | mieterhoehung.md (Absatz „Post vom Gericht“, Quellenzeile § 276 Abs. 1, § 331 Abs. 3 ZPO), content `letters.ablehnung.risks`, `rules.silence.text` | 2-Wochen-Frist, Entscheidung ohne Verhandlung. |
+| S5 F3 | hilfe.md:42 | Beratungshilfe, Prozesskostenhilfe, Kosten des Vermieters trotzdem (§ 123 ZPO). |
+| S5 F4 | mietpreisbremse.md (neuer Listenpunkt, Satz beim Rechner) | Beginn vor dem 30.05.2024: älterer Mietspiegel, Archiv-Link, Rechner nicht nutzbar. |
+| S5 F5 | mietpreisbremse.md:45 | § 556g Abs. 1a nur Vormiete, Modernisierung, Neubau, erste Vermietung nach umfassender Modernisierung. |
+| S5 F6 | mietpreisbremse.md:51 | Rüge nach Ende des Mietverhältnisses; Art. 229 § 51 „vielleicht“, Vertragsschluss oder Beginn. |
+| S5 F7 | mieterhoehung.md (Sonderkündigung + Quelle VIII ZR 14/04) | „müssen grundsätzlich alle … unterschreiben“. |
+| S5 F8 | hilfe.md:22–23 | Willkommenszentrum: Beratungsstellen-Suche statt /en/housing/rent (falsche § 561-Aussage); en → /en/counseling-centers. URLs für tr/ar/ru in sources.md; uk/pl nehmen die en-URL. |
+| S5 F9 | hilfe.md:19 | „Informationen auch auf Englisch.“ |
+| S5 F10 | hilfe.md:27, content `rules.lwu.text` | berlinovo („klassische“ Mietwohnungen / „Klassisches Wohnen“). |
+| S5 F11 + S6 F1 + S4 F4 | ueber.md:14, _index.md:9 | Zusammengeführt: „Alle Rechnungen laufen nur in Ihrem Browser.“ (S5) + Serversatz im Wortlaut von S6 F1 („Ihre Eingaben werden nicht an einen Server gesendet.“) statt S5s „nicht an uns oder andere geschickt“ (gleiche Aussage; S6 ersetzt genau diesen Satz) + S5s IP-Satz + S4-F4-Satz zum Speichern nur solange der Tab offen ist. _index.md:9 nur „Alles läuft“ → „Alle Rechnungen laufen“ (S5). |
+| S3 C5 | content `letters.fields.effective_help` | 15-Monats-Wartefrist; Werkzeugname = `nav_pruefen` („‚Fristen und Grenzen prüfen‘“ / „‘Check deadlines and limits’“) statt „Der Rechner“. |
+| S3 C8 | – | UI-Schlüssel `letter_text_intro` → FixCode. |
+| S3 C9 | content `letters.fields.own_text`, `questions`, `contract_number` | Klammerzusatz am Ende entfernt (nur de/en; der C9-Test schlägt für tr/ar/uk/ru/pl fehl, bis die Übersetzer nachziehen). |
+| S1 C11 | content `groups.{bad,kueche,wohnung,gebaeude,umfeld}.intro`, `rules.netting.text` | „Jedes Plus/Minus“ → „Jede Gruppe, die als Plus/Minus zählt“ (`rules.netting.text` mitgeändert, weil die Prüfung „„Jedes Plus“ nirgends in content/de.json“ verlangt). rechner.md:21 nicht geändert (nicht im Judge-Umfang; dort steht der Satz nach der Aufrechnung der Gruppen). |
+| S1 C2 (optional `features.*.check`) | – | nicht angewendet: vom Richter als optional markiert. |
+| S2 C2/C3/C7 | – | Wortlaut durch S5 F1 ersetzt (siehe oben). |
+| S2 C8 | content `checker.disclaimer` | 2. Satz: Klagefrist „rechnen wir mit dem nächsten Werktag“; eigene Frist „nur als Hinweis“. (`rules.json note_de` → FixCode.) |
+| S2 C11 (Content-Teil) | content `checker.last_change` | „Seit wann gilt Ihre Miete, ohne Erhöhungen wegen Modernisierung oder Betriebskosten?“ (UI `chk_in_last_change` → FixCode). |
+| S2 PRO C10 | content `checker.result.no_ovm.text` | „… keine Vergleichsmiete oder keine Wohnfläche eingegeben.“ |
+| S5 C-14 (NO-FIX, Empfehlung Z. 19 dieses Logs) | – | nicht angewendet (NO-FIX). |
+
+### FixCode – Code, Daten, UI-Texte de + en (18.10.2026)
+
+Quellen: `99 Arbeitsdateien/Website/WaveV_Adversarial/S1…S6_judge.md`; S4 als `S4_judge_prototype.diff` übernommen und ergänzt. Neue Testfälle: `rules.json` t34–t37, `tests/run.mjs` Abschnitt „Wave V“ und Prüfungen S3 C9, S4 F4, S6 F3. UI-Schlüssel neu oder geändert nur in `ui/de.json` und `ui/en.json`; tr/ar/uk/ru/pl ziehen die Übersetzer nach.
+
+| Judge-Id | Dateien | Änderung |
+|---|---|---|
+| S2 C1 (BLOCKER) | `check558.js`, `pruefen.js`, ui `chk_cap_assumed` | Ausgangsmiete ohne Miete vor 3 Jahren = jetzige Miete − Erhöhungen §§ 559–560; `base_assumed` auch bei Erhöhungen; neues Ausgabefeld `base_rent`, Formel und Hinweis zeigen `{base}`. t34/t35, E6 als Test. |
+| S3 C1 | `letter.js` (`RISKY`, `INCOMPLETE`, `consentWarnings`), `brief.js`, ui `letter_incomplete_title` | Kasten „Ihre Prüfung ist noch nicht vollständig“ bei `no_ovm`/`no_last_change` vor Zustimmung/Teilzustimmung. |
+| S1 C4 + S2 C4 + S3 C4 | `money.js`, `pruefen.js`, `common.js` (`markInvalid`), `site.css`, ui `chk_invalid_number` | Arabisch-indische Ziffern, `٫`/`٬`, `,-`/`,–`, „1,234,567“. „1,200“/„1,050“ ergibt null (S2 C4 „ablehnen statt raten“ geht vor dem S1-Vektor „1,200“ → 1200; das Feld wird als unlesbar markiert, kein grünes Ergebnis). |
+| S1 C4 (Plausibilität) | `rechner.js`, ui `calc_demand_implausible` | Unter 1 € pro m² → Warnung statt ok/danger. |
+| S4 F1–F15 | `site.css`, `common.js`, `rechner.js`, `pruefen.js`, `brief.js`, `scope.js`, `tool.html`, `base.html`, `README.md`, ui `footer_privacy`, `store_note` | Wie Prototyp: Reflow, `expr()` für Rechenzeilen und Pfeil, `liveStatus()` (Rechner Schritt 5 und Prüfung Schritt 3), `sessionStorage`, `markInvalid` im Rechner, `autocomplete` name/street-address, `:user-invalid`, Rahmenkontrast, Bestätigung nach Löschen, Select ohne `lang`, Druck, „Wird geladen“ ohne JS versteckt, Navigation umbrechend, Dimmen nur Badge/Titel, Favicon. |
+| S2 C5 | `pruefen.js` | Ergebnisbereich nicht mehr live; Statuszeile mit den Befund-Titeln; `scopeBox` nur bei Zustandswechsel neu. |
+| S2 C6 | `check558.js` | Wartefrist am späteren Termin des Vermieters gemessen. t36. |
+| S2 C9 | `pruefen.js` | Vorzeichen nur bei positiver Änderung. |
+| S2 C10 | `dates.js` | Jahre < 1900 sind kein Datum. t37 + Unit-Test. |
+| S2 C8 (rules.json) | `rules.json` `note_de` | Text nach Judge. |
+| S2 C11 (UI) | ui `chk_in_last_change` | Text nach Judge. |
+| S2 PRO C9 | `pruefen.js` | Datumssatz nur ohne Content-Hilfe. |
+| S2 C2/C3/C7 → S5 F1 | ui `scope_item_sozial`, `scope_item_s549`, `scope_ask_hint`, `scope_not558_text` | Wortlaut von S5 F1 (geht S2 vor). |
+| S1 C1 | ui `calc_baualter_hint` | Wendewohnungen / West-Staaken. Test Zeile 105. |
+| S1 C2 | `rechner.js`, ui `calc_energy_water_excl` | 2026-Wortlaut („ohne Berücksichtigung“) → neue Frage; 2024 unverändert. |
+| S1 C3 | ui `calc_energy_value`, `calc_energy_intro` | Endenergie statt Primärenergie. |
+| S1 C5 | `rechner.js` | Datum ohne Mietspiegel → kein Ergebnis, Hinweis `calc_year_none`; Teil (b): Hinweis `chk_calc_year_mismatch` bei Handwahl eines anderen Jahrs. |
+| S1 C6 | `rechner.js`, ui `calc_minder_outside_label`, `calc_minder_outside` | Kästchen auch außerhalb Nr. 9.4; angekreuzt → kein Wert. |
+| S1 C7 | `rechner.js` | Denkmal-Präfix nur bei Minus-Merkmalen. |
+| S1 C8 | `ms2026.json`, `tools/extract_data.py` | `wohnung-m08.note_de` = „Bei Erdgeschosswohnung“; `verify_data.py` grün. |
+| S1 C10 | `mietspiegel.js` (`expandKennwert`), `rechner.js` | Kennwert-Kästchen kumulativ (Auswahl und Häkchen-Kaskade je Spalte). Tests. |
+| S1 C12 | `rechner.js`, ui `calc_year_recheck` | Liste angekreuzter Merkmale mit anderem Wortlaut nach Jahreswechsel. |
+| S1 C13 | `rechner.js` | Kein `aria-live` auf rowBox/resultBox (Statuszeile aus S4 F3); `aria-describedby` auf den Begründungstext. |
+| S1 P-14 | `rules.json` `netting.formula_de` | „bis 2 Cent“. Test Zeile 2, net −5. |
+| S1 P-15 | `rechner.js` | Energie-Helfer entfernt m08/p08 nur bei Kennwert-Treffer im selben Satz. |
+| S3 C3 | `letter.js`, `brief.js`, ui `letter_problem_agreed_over_max` | Teilzustimmung über `max_rent` gemeldet. Test. |
+| S3 C6 | `brief.js` | Unbeantwortete Frage 1 → Scope ohne Frage (notMS-Hinweis). |
+| S3 C7 | `letter.js` | Merkmalslisten folgen dem Rechner, solange unverändert. Tests. |
+| S3 C8 | ui `letter_text_intro` | Text nach Judge. |
+| S3 C10 | `brief.js` | `problemNote` ohne `aria-live`. |
+| S3 K1 | `letter.js` | Leerzeilen vor der Unterschrift bleiben. Test über alle Vorlagen. |
+| S3 C9 (Test) | `tests/run.mjs` | Prüft alle 7 Content-Dateien; tr/ar/uk/ru/pl schlagen fehl, bis die Übersetzer nachziehen. |
+| S6 F2 | `README.md` | Abschnitt „Hosting“. |
+| S6 F3 | `base.html`, `tests/run.mjs` | `common.js` ohne Cachebust; Test „kein `common.js?h=`“. |
+| S6 F4 | `404.html` | Links zu den anderen Sprachen. |
+
+Nicht angewendet (FixCode): S1 C2 optionaler Content-Teil (`features.*.check`, Content = FixText); S1 C9, S2 C2 (WoFG) / S2 C12 (§ 558 Abs. 5), S3 C2 (Häkchen), C8 (Speichern), C11–C14, S4 O1, S5 O1–O4 (`gefoerdert`), S6 O1–O4: OWNER. S1 C5 `valid_to`, S2 C10 „15 %“/2026 ohne Ende, S2 C12 (übrige), PRO C3/C12, S3 C2 (Vorbelegung, Ausdruck), C4 (Feldnamen), C6 (Frage auf Briefseite), C7 (Skalare), S4 NO-FIX-Punkte, S6 C8/C9 (Rest)/C12: NO-FIX.
+
+### Wave V sync – uk
+
+Ukrainische Übersetzung an den deutschen Stand „Wave V – adversarial review“ (FixCode, FixText) angeglichen, 18.10.2026. Glossar beibehalten: Kostenmiete bleibt deutsch in „…“ („старе соціальне житло з „Kostenmiete““), vorübergehender Gebrauch = „тимчасове користування“, Tab = „вкладка“, Endenergie/Primärenergie = „кінцева/первинна енергія“ (deutscher Begriff in Klammern), Amtsgericht = „дільничний суд“. Quellenzeilen, §§, Daten, URLs und Platzhalter unverändert.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/ui/uk.json | `calc_energy_water_excl`, `calc_demand_implausible`, `letter_incomplete_title`, `letter_problem_agreed_over_max` (`{max}`), `chk_invalid_number`, `calc_minder_outside_label`, `calc_minder_outside`, `calc_year_recheck` (`{ms}`) | neu, Reihenfolge wie de |
+| static/i18n/ui/uk.json | `calc_baualter_hint`, `calc_energy_intro`, `calc_energy_value`, `chk_in_last_change`, `letter_text_intro`, `scope_ask_hint`, `scope_item_sozial`, `scope_item_s549`, `scope_not558_text`, `chk_cap_assumed` (`{base}`), `footer_privacy`, `store_note` | neu übersetzt nach de |
+| static/i18n/content/uk.json | `rules.scope.text`, `rules.silence.text`, `rules.lwu.text`, `rules.netting.text`, `letters.ablehnung.risks`, `letters.fields.effective_help`, `groups.*.intro`, `checker.disclaimer`, `checker.last_change`, `checker.result.no_ovm.text` | neu übersetzt nach de (Post vom Gericht, § 276/§ 331 ZPO; „jede Gruppe, die als Plus/Minus zählt“; berlinovo) |
+| static/i18n/content/uk.json | `letters.fields.own_text`, `questions`, `contract_number` | Klammerzusatz „(необов’язково)“ / „(якщо є)“ entfernt |
+| content/_index.uk.md | Z. 9, 17 | Rechnungen im Browser; alte Sozialwohnung mit „Kostenmiete“ |
+| content/pruefen.uk.md, content/brief.uk.md | Z. 10 | alte Sozialwohnung mit „Kostenmiete“; möbliertes Zimmer, vorübergehender Gebrauch; „Там правила … не діють“ |
+| content/mieterhoehung.uk.md | Geltungsbereich, Schweigen, Sonderkündigung | Liste (Kostenmiete, § 549 präzisiert), Absatz „У цих трьох випадках…“, Absatz neuere Sozialwohnung, Absatz „Лист від суду“, alle unterschreiben, Quellenzeilen wie de (WoBindG, WoFG, § 276/§ 331 ZPO, VIII ZR 14/04) |
+| content/hilfe.uk.md | Z. 19, 22–23, 27, 42 | „Інформація також англійською“; Willkommenszentrum-Suche <https://willkommenszentrum.berlin.de/en/counseling-centers> (Seite englisch); berlinovo; Beratungshilfe, Prozesskostenhilfe (§ 114 ZPO), Kosten des Vermieters (§ 123 ZPO) |
+| content/mietpreisbremse.uk.md | Liste, Z. 45, 51, 54 | Beginn vor 30.05.2024 + Archiv-URL; Neubau/umfassende Modernisierung; Rüge nach Ende des Mietverhältnisses; Rechner nicht vor 30.05.2024 |
+| content/ueber.uk.md | Z. 14 | IP-Adresse, Speicherung nur solange der Tab offen ist |
+
+Warnungen nicht abgeschwächt: „не припиняйте просто так платити“, 2-Wochen-Frist bei Post vom Gericht, Kostenrisiko auch mit Prozesskostenhilfe.
+
+### Wave V sync – ru
+
+Russische Übersetzung an den deutschen Stand „Wave V – adversarial review“ (FixCode, FixText) angeglichen, 18.10.2026. Glossar beibehalten: Kostenmiete bleibt deutsch in «…» («старое социальное жильё (Sozialwohnung) с «Kostenmiete»»), vorübergehender Gebrauch = «временное пользование», Tab = «вкладка», Endenergie/Primärenergie = «конечная/первичная энергия» (deutscher Begriff in Klammern), Amtsgericht = «участковый суд (Amtsgericht)», Sammelheizung = «центральное отопление (Sammelheizung)». Quellenzeilen, §§, Daten, URLs und Platzhalter unverändert.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/ui/ru.json | `calc_energy_water_excl`, `calc_demand_implausible`, `letter_incomplete_title`, `letter_problem_agreed_over_max` (`{max}`), `chk_invalid_number`, `calc_minder_outside_label`, `calc_minder_outside`, `calc_year_recheck` (`{ms}`) | neu, Reihenfolge wie de |
+| static/i18n/ui/ru.json | `calc_baualter_hint`, `calc_energy_intro`, `calc_energy_value`, `chk_in_last_change`, `letter_text_intro`, `scope_ask_hint`, `scope_item_sozial`, `scope_item_s549`, `scope_not558_text`, `chk_cap_assumed` (`{base}`), `footer_privacy`, `store_note` | neu übersetzt nach de (Wendewohnungen/West-Staaken, Endenergie, Tab-Speicherung, drei Fälle in `scope_not558_text`) |
+| static/i18n/content/ru.json | `rules.scope.text`, `rules.silence.text`, `rules.lwu.text`, `rules.netting.text`, `letters.ablehnung.risks`, `letters.fields.effective_help`, `groups.*.intro`, `checker.disclaimer`, `checker.last_change`, `checker.result.no_ovm.text` | neu übersetzt nach de (Post vom Gericht, § 276/§ 331 ZPO; „каждая группа, которая считается как плюс/минус“; berlinovo «Klassisches Wohnen»; 15-Monats-Wartefrist, Werkzeugname = `nav_pruefen` «Проверить сроки и пределы») |
+| static/i18n/content/ru.json | `letters.fields.own_text`, `questions`, `contract_number` | Klammerzusatz „(необязательно)“ / „(если есть)“ entfernt |
+| content/_index.ru.md | Z. 9, 17 | Rechnungen im Browser; alte Sozialwohnung mit «Kostenmiete» |
+| content/pruefen.ru.md, content/brief.ru.md | Z. 10 | alte Sozialwohnung mit «Kostenmiete»; möbliertes Zimmer, vorübergehender Gebrauch; «Там правила … не действуют» |
+| content/mieterhoehung.ru.md | Geltungsbereich, Schweigen, Sonderkündigung | Liste (Kostenmiete, Wirtschaftlichkeitsberechnung, § 549 präzisiert), Absatz «В этих трёх случаях…», Absatz neuere Sozialwohnung, Absatz «Письмо из суда», „как правило, должны подписать все“, Quellenzeilen wie de (WoBindG, WoFG, § 276/§ 331 ZPO, VIII ZR 14/04) |
+| content/hilfe.ru.md | Z. 19, 22–23, 27, 42 | «Информация также на английском языке»; Willkommenszentrum-Suche <https://willkommenszentrum.berlin.de/ru/konsultacionnye-centry>; berlinovo; Beratungshilfe, Prozesskostenhilfe (§ 114 ZPO), Kosten des Vermieters (§ 123 ZPO) |
+| content/mietpreisbremse.ru.md | Liste, Z. 45, 51, 54 | Beginn vor 30.05.2024 + Archiv-URL; Neubau/umfassende Modernisierung; Rüge nach Ende des Mietverhältnisses, Art. 229 § 51 „возможно“; Rechner nicht vor 30.05.2024 |
+| content/ueber.ru.md | Z. 14 | IP-Adresse, Speicherung nur solange der Tab offen ist |
+
+Warnungen nicht abgeschwächt: «Не прекращайте просто так платить», 2-Wochen-Frist bei Post vom Gericht, Kostenrisiko auch mit Prozesskostenhilfe, Entscheidung ohne Sie «обычно в пользу арендодателя».
+
+### Wave V sync – pl
+
+Polnische Übersetzung an den deutschen Stand „Wave V – adversarial review“ (FixCode, FixText) angeglichen, 18.10.2026. Glossar beibehalten: Kostenmiete bleibt deutsch in „…“ („stare mieszkanie socjalne z „Kostenmiete”“), vorübergehender Gebrauch = „przejściowy użytek“, Tab = „karta (przeglądarki)“, Endenergie/Primärenergie = „energia końcowa/pierwotna“ (deutscher Begriff in Klammern), Amtsgericht = „sąd rejonowy“, Beratungshilfe/Prozesskostenhilfe deutsch in Klammern. Quellenzeilen, §§, Daten, URLs und Platzhalter unverändert.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/ui/pl.json | `calc_energy_water_excl`, `calc_demand_implausible`, `letter_incomplete_title`, `letter_problem_agreed_over_max` (`{max}`), `chk_invalid_number`, `calc_minder_outside_label`, `calc_minder_outside`, `calc_year_recheck` (`{ms}`) | neu, Reihenfolge wie de |
+| static/i18n/ui/pl.json | `calc_baualter_hint`, `calc_energy_intro`, `calc_energy_value`, `chk_in_last_change`, `letter_text_intro`, `scope_ask_hint`, `scope_item_sozial`, `scope_item_s549`, `scope_not558_text`, `chk_cap_assumed` (`{base}`), `footer_privacy`, `store_note` | neu übersetzt nach de |
+| static/i18n/content/pl.json | `rules.scope.text`, `rules.silence.text`, `rules.lwu.text`, `rules.netting.text`, `letters.ablehnung.risks`, `letters.fields.effective_help`, `groups.*.intro`, `checker.disclaimer`, `checker.last_change`, `checker.result.no_ovm.text` | neu übersetzt nach de (Post vom Gericht, § 276/§ 331 ZPO; „każda grupa, która liczy się jako plus/minus“; berlinovo) |
+| static/i18n/content/pl.json | `letters.fields.own_text`, `questions`, `contract_number` | Klammerzusatz „(opcjonalnie)“ / „(jeśli jest)“ entfernt |
+| content/_index.pl.md | Z. 9, 17 | Rechnungen im Browser; alte Sozialwohnung mit „Kostenmiete“ |
+| content/pruefen.pl.md, content/brief.pl.md | Z. 10 | alte Sozialwohnung mit „Kostenmiete“; möbliertes Zimmer, vorübergehender Gebrauch; „Tam zasady … nie obowiązują“ |
+| content/mieterhoehung.pl.md | Geltungsbereich, Schweigen, Sonderkündigung | Liste (Kostenmiete, § 549 präzisiert), Absatz „W tych trzech przypadkach…“, Absatz neuere Sozialwohnung, Absatz „Pismo z sądu“, alle unterschreiben, Quellenzeilen wie de (WoBindG, WoFG, § 276/§ 331 ZPO, VIII ZR 14/04) |
+| content/hilfe.pl.md | Z. 19, 22–23, 27, 42 | „Informacje także po angielsku“; Willkommenszentrum-Suche <https://willkommenszentrum.berlin.de/en/counseling-centers> (Seite englisch); berlinovo; Beratungshilfe, Prozesskostenhilfe (§ 114 ZPO), Kosten des Vermieters (§ 123 ZPO) |
+| content/mietpreisbremse.pl.md | Liste, Z. 45, 51, 54 | Beginn vor 30.05.2024 + Archiv-URL; Neubau/umfassende Modernisierung; Rüge nach Ende des Mietverhältnisses; Rechner nicht vor 30.05.2024 |
+| content/ueber.pl.md | Z. 14 | IP-Adresse, Speicherung nur solange der Tab offen ist |
+
+Warnungen nicht abgeschwächt: „Nie przestawaj po prostu płacić“, 2-Wochen-Frist bei Post vom Gericht, Kostenrisiko auch mit Prozesskostenhilfe.
+
+### Wave V sync – tr
+
+Türkische Übersetzung an den deutschen Stand „Wave V – adversarial review“ (FixCode, FixText) angeglichen, 18.10.2026. Glossar beibehalten: Kostenmiete bleibt deutsch in „…“ mit Erklärung („„Kostenmiete“ (maliyet kirası) olan eski sosyal konut“), vorübergehender Gebrauch = „geçici kullanım“, möbliert = „eşyalı“, Tab = „sekme“, Endenergie/Primärenergie = „nihai/birincil enerji“ (deutscher Begriff in Klammern), Amtsgericht = „sulh mahkemesi (Amtsgericht)“, Beratung = „danışma merkezi“/„danışmanlık“ wie bisher. Quellenzeilen, §§, Daten, URLs und Platzhalter unverändert.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/ui/tr.json | `calc_energy_water_excl`, `calc_demand_implausible`, `letter_incomplete_title`, `letter_problem_agreed_over_max` (`{max}`), `chk_invalid_number`, `calc_minder_outside_label`, `calc_minder_outside`, `calc_year_recheck` (`{ms}`) | neu, Reihenfolge wie de |
+| static/i18n/ui/tr.json | `calc_baualter_hint`, `calc_energy_intro`, `calc_energy_value`, `chk_in_last_change`, `letter_text_intro`, `scope_ask_hint`, `scope_item_sozial`, `scope_item_s549`, `scope_not558_text`, `chk_cap_assumed` (`{base}`), `footer_privacy`, `store_note` | neu übersetzt nach de |
+| static/i18n/content/tr.json | `rules.scope.text`, `rules.silence.text`, `rules.lwu.text`, `rules.netting.text`, `letters.ablehnung.risks`, `letters.fields.effective_help`, `groups.*.intro`, `checker.disclaimer`, `checker.last_change`, `checker.result.no_ovm.text` | neu übersetzt nach de (Post vom Gericht, § 276/§ 331 ZPO; „artı/eksi sayılan her grup“; berlinovo; „Kostenmiete“ in alter Sozialwohnung) |
+| static/i18n/content/tr.json | `letters.fields.own_text`, `questions`, `contract_number` | Klammerzusatz „(isteğe bağlı)“ / „(varsa)“ entfernt |
+| content/_index.tr.md | Z. 9, 17 | Rechnungen im Browser; alte Sozialwohnung mit „Kostenmiete“ |
+| content/pruefen.tr.md, content/brief.tr.md | Z. 10 | alte Sozialwohnung mit „Kostenmiete“; eşyalı oda, geçici kullanım; „Orada kira artışıyla ilgili kurallar geçerli değildir.“ |
+| content/mieterhoehung.tr.md | Geltungsbereich, Schweigen, Sonderkündigung | Liste (Kostenmiete, § 549 präzisiert), Absatz „Bu üç durumda…“, Absatz neuere Sozialwohnung, Absatz „Mahkemeden yazı“, alle müssen unterschreiben, Quellenzeilen wie de (WoBindG, WoFG, § 276/§ 331 ZPO, VIII ZR 14/04) |
+| content/hilfe.tr.md | Z. 19, 22–23, 27, 42 | „Bilgiler İngilizce de var“; Willkommenszentrum-Suche <https://willkommenszentrum.berlin.de/tr/danisma-merkezleri>; berlinovo; Beratungshilfe, Prozesskostenhilfe (§ 114 ZPO), Kosten des Vermieters (§ 123 ZPO) |
+| content/mietpreisbremse.tr.md | Liste, Z. 45, 51, 54 | Beginn vor 30.05.2024 + Archiv-URL; Neubau/umfassende Modernisierung; Rüge nach Ende des Mietverhältnisses; Rechner nicht vor 30.05.2024 |
+| content/ueber.tr.md | Z. 14 | IP-Adresse, Speicherung nur solange der Tab offen ist |
+
+Warnungen nicht abgeschwächt: „Ödemeyi öylece durdurmayın“, 2-Wochen-Frist bei Post vom Gericht, Kostenrisiko auch mit Prozesskostenhilfe.
+
+### Wave V sync – ar
+
+Arabische Übersetzung an den deutschen Stand „Wave V – adversarial review“ (FixCode, FixText) angeglichen, 18.10.2026. Glossar beibehalten: Kostenmiete = „إيجار التكلفة“ mit deutschem Begriff („شقة اجتماعية قديمة ذات „إيجار التكلفة“ (Kostenmiete)“), vorübergehender Gebrauch = „الاستعمال المؤقت“, möbliert = „مفروشة“, Tab = „علامة التبويب“, Endenergie/Primärenergie = „الطاقة النهائية/الأولية“ (deutscher Begriff in Klammern), Amtsgericht = „المحكمة المحلية (Amtsgericht)“, Sammelheizung = „تدفئة مركزية (Sammelheizung)“, Werkzeugname = `nav_pruefen` „فحص المهل والحدود“. Quellenzeilen, §§, Daten, URLs und Platzhalter unverändert.
+
+| Datei | Schlüssel / Abschnitt | Änderung |
+|---|---|---|
+| static/i18n/ui/ar.json | `calc_energy_water_excl`, `calc_demand_implausible`, `letter_incomplete_title`, `letter_problem_agreed_over_max` (`{max}`), `chk_invalid_number`, `calc_minder_outside_label`, `calc_minder_outside`, `calc_year_recheck` (`{ms}`) | neu, Reihenfolge wie de |
+| static/i18n/ui/ar.json | `calc_baualter_hint`, `calc_energy_intro`, `calc_energy_value`, `chk_in_last_change`, `letter_text_intro`, `scope_ask_hint`, `scope_item_sozial`, `scope_item_s549`, `scope_not558_text`, `chk_cap_assumed` (`{base}`), `footer_privacy`, `store_note` | neu übersetzt nach de (Wendewohnungen/West-Staaken, Endenergie, Tab-Speicherung, drei Fälle in `scope_not558_text`) |
+| static/i18n/content/ar.json | `rules.scope.text`, `rules.silence.text`, `rules.lwu.text`, `rules.netting.text`, `letters.ablehnung.risks`, `letters.fields.effective_help`, `groups.*.intro`, `checker.disclaimer`, `checker.last_change`, `checker.result.no_ovm.text` | neu übersetzt nach de (Post vom Gericht, § 276/§ 331 ZPO; „كل مجموعة تُحسب زائداً/ناقصاً“; berlinovo „Klassisches Wohnen“; 15-Monats-Wartefrist; „Kostenmiete“ in alter Sozialwohnung) |
+| static/i18n/content/ar.json | `letters.fields.own_text`, `questions`, `contract_number` | Klammerzusatz „(اختياري)“ / „(إن وُجد)“ entfernt |
+| content/_index.ar.md | Z. 9, 17 | Rechnungen im Browser; alte Sozialwohnung mit „Kostenmiete“ |
+| content/pruefen.ar.md, content/brief.ar.md | Z. 10 | alte Sozialwohnung mit „Kostenmiete“; möblierte Zimmer, vorübergehender Gebrauch; „هناك لا تسري قواعد زيادة الإيجار“ |
+| content/mieterhoehung.ar.md | Geltungsbereich, Schweigen, Sonderkündigung | Liste (Kostenmiete, Wirtschaftlichkeitsberechnung, § 549 präzisiert), Absatz „في هذه الحالات الثلاث…“, Absatz neuere Sozialwohnung, Absatz „بريد من المحكمة“, „يجب من حيث المبدأ أن يوقّعوا جميعاً“, Quellenzeilen wie de (WoBindG, WoFG, § 276/§ 331 ZPO, VIII ZR 14/04) |
+| content/hilfe.ar.md | Z. 19, 22–23, 27, 42 | „المعلومات متوفرة أيضاً بالإنجليزية“; Willkommenszentrum-Suche <https://willkommenszentrum.berlin.de/ar/mrakz-alastshart>; berlinovo; Beratungshilfe, Prozesskostenhilfe (§ 114 ZPO), Kosten des Vermieters (§ 123 ZPO) |
+| content/mietpreisbremse.ar.md | Liste, Z. 45, 51, 54 | Beginn vor 30.05.2024 + Archiv-URL; Neubau/umfassende Modernisierung; Rüge nach Ende des Mietverhältnisses, Art. 229 § 51 „قد تسري“; Rechner nicht vor 30.05.2024 |
+| content/ueber.ar.md | Z. 14 | IP-Adresse, Speicherung nur solange der Tab offen ist |
+
+Warnungen nicht abgeschwächt: „لا تتوقف عن الدفع ببساطة“, 2-Wochen-Frist bei Post vom Gericht, Kostenrisiko auch mit Prozesskostenhilfe, Entscheidung ohne Sie „وغالباً لصالح المؤجِّر“.

@@ -3980,7 +3980,7 @@
      "sign": -1,
      "text_de": "Bei Erdgeschosswohnung: Kein Einbruchs- und/oder Sichtschutzsystem an allen Fenstern der Wohnung (z. B. Gitter, Rollläden, Fensteralarm)",
      "conditions_de": "Bei Erdgeschosswohnung:",
-     "note_de": "Kein Einbruchs- und/oder Sichtschutzsystem an allen Fenstern der Wohnung"
+     "note_de": "Bei Erdgeschosswohnung"
     },
     {
      "id": "wohnung-p01",

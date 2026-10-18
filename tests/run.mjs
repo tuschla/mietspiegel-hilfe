@@ -10,10 +10,10 @@ import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { applyRule, addMonths, nextWorkingDay } from "../static/js/lib/dates.js";
+import { applyRule, addMonths, nextWorkingDay, isValid } from "../static/js/lib/dates.js";
 import { check, compareExpected, chooseMietspiegel } from "../static/js/lib/check558.js";
-import { findRow, evaluate, netting, groupSign, energyBoxes, exclusiveConflicts, disputes } from "../static/js/lib/mietspiegel.js";
-import { render, placeholders, prefill, letterValues, amountProblems } from "../static/js/lib/letter.js";
+import { findRow, evaluate, netting, groupSign, energyBoxes, exclusiveConflicts, disputes, expandKennwert } from "../static/js/lib/mietspiegel.js";
+import { render, placeholders, prefill, letterValues, amountProblems, consentWarnings } from "../static/js/lib/letter.js";
 import { parseNumber, round } from "../static/js/lib/money.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -215,6 +215,63 @@ if (rules) {
   eq("A F-5: consent amount above demanded is flagged", amountProblems({ kind: "consent" }, { current_rent: 600, new_rent: 660 }, 650), ["new_over_demanded"]);
 }
 
+// Wave V – adversarial review (docs/review-log.md)
+{
+  // S1 C4 / S2 C4 / S3 C4: number parsing ("1,200" is refused as ambiguous, S2 C4 wins over S1 C4)
+  const nums = ["1,200", "1,234,567", "900,-", "64,5", "64,50", "1.234,56", "8.49", "12,5", "٦٥٠", "۶۵۰٫۵", "800,-", "1,050", "1,05", "850,-", "1.050,–"];
+  eq("V S1/S2/S3 C4: parseNumber vectors", nums.map(parseNumber), [null, 1234567, 900, 64.5, 64.5, 1234.56, 8.49, 12.5, 650, 650.5, 800, null, 1.05, 850, 1050]);
+  // S2 C10: half-typed years are no date
+  eq("V S2 C10: isValid(0002-03-15) is false", isValid("0002-03-15"), false);
+}
+if (ms[2026]) {
+  const m = ms[2026];
+  // S1 C1: Wendewohnungen belong to 1973–1990 Ost
+  eq("V S1 C1: mittel, 1973–1990 Ost, 60 m² → row 105", (findRow(m, { wohnlage: "mittel", baualter: "1973_1990o", area: 60 }) || {}).row, 105);
+  // S1 C10: energy boxes are cumulative
+  const r81 = findRow(m, { wohnlage: "mittel", baualter: "1919_1949", area: 60 });
+  const ev = evaluate(m, r81.cell, expandKennwert(m, ["gebaeude-m10", "gebaeude-p01"]), { baualter: "1919_1949", area: 60 });
+  eq("V S1 C10: m10 + p01 → m09 added, Gebäude −1, 7,02 €", [ev.groups.find((g) => g.id === "gebaeude").sign, ev.ovm], [-1, 7.02]);
+  eq("V S1 C10: p11 vs p09–p11 → no disputed plus",
+    disputes(m, expandKennwert(m, ["gebaeude-p11"]), expandKennwert(m, ["gebaeude-p09", "gebaeude-p10", "gebaeude-p11"])).disputedPlus, []);
+  // S1 C2: the library is unchanged, only the question changes
+  eq("V S1 C2: 130 + water → m09", energyBoxes(m, { value: 130, addWater: true }), ["gebaeude-m09"]);
+  // S1 P-14: rounding once hits the range edge at net = −5; rounding per group misses it by 2 cents
+  const row2 = m.table.find((r) => r.row === 2);
+  const cell = row2.cells.einfach;
+  const once = netting(cell, [-1, -1, -1, -1, -1]).ovmTable;
+  const perGroup = round(cell.mean - 5 * round(0.2 * round(cell.mean - cell.lower)));
+  eq("V S1 P-14: 2026 row 2 einfach, net −5: once 7,06 (= Unterwert), per group 7,04", [once, cell.lower, perGroup], [7.06, 7.06, 7.04]);
+}
+if (rules) {
+  // S2 C1: § 559 increases are not counted twice (t34/t35 in rules.json); PRO case E6
+  const e6 = check({ received: "2026-01-15", current_rent: 540, increases_559_560: 40, demanded_rent: 650, last_change: "2020-01-01" }, rules);
+  eq("V S2 C1: E6 540/40 → cap 615, over_cap", [e6.cap_rent, e6.findings.includes("over_cap")], [615, true]);
+}
+{
+  // S3 C1: incomplete check warns before consent
+  eq("V S3 C1: consentWarnings",
+    [consentWarnings(["no_ovm", "no_last_change"]), consentWarnings(undefined).unchecked, consentWarnings(["over_ovm", "no_last_change"])],
+    [{ unchecked: false, risky: [], incomplete: ["no_ovm", "no_last_change"] }, true, { unchecked: false, risky: ["over_ovm"], incomplete: ["no_last_change"] }]);
+  // S3 C3: partial consent above the computed upper limit
+  eq("V S3 C3: agreed_over_max",
+    [amountProblems({ kind: "partial" }, { current_rent: 800, agreed_rent: 900 }, 950, 840), amountProblems({ kind: "partial" }, { current_rent: 800, agreed_rent: 840 }, 950, 840)],
+    [["agreed_over_max"], []]);
+  // S3 C7: an untouched feature list follows a new comparison; an edited one stays
+  const f7 = [{ id: "disputed_plus", type: "features_plus" }];
+  eq("V S3 C7: untouched feature list follows the calculator",
+    prefill(f7, { disputed_plus: ["x"] }, { disputed_plus: ["x"] }, { features_plus: ["y"] }).values.disputed_plus, ["y"]);
+  eq("V S3 C7: edited feature list stays",
+    prefill(f7, { disputed_plus: ["x", "z"] }, { disputed_plus: ["x"] }, { features_plus: ["y"] }).values.disputed_plus, ["x", "z"]);
+  // S3 K1: room for the signature
+  if (letters) {
+    const bad1 = (letters.templates || []).filter((tp) => {
+      const txt = render(tp.body_de, { tenant_name: "Max" }, {}, (x) => x).text;
+      return !txt.endsWith("Grüßen\n\n\n\nMax\n") || /\n{3,}/.test(txt.slice(0, -"Grüßen\n\n\n\nMax\n".length));
+    }).map((tp) => tp.id);
+    eq("V S3 K1: every template keeps the signature space and nothing else", bad1, []);
+  }
+}
+
 /* ---------- 3. consistency ---------- */
 section("3. Consistency");
 const uiDir = p("static/i18n/ui");
@@ -258,6 +315,27 @@ if (existsSync(contentDir)) {
   }
 } else {
   bad("static/i18n/content/de.json present", "missing");
+}
+// S3 C9: no doubled "(optional)" – the form adds it to optional field labels
+if (existsSync(contentDir)) {
+  for (const f of readdirSync(contentDir).filter((x) => x.endsWith(".json"))) {
+    const fl = (load(`static/i18n/content/${f}`).letters || {}).fields || {};
+    const doubled = ["own_text", "questions", "contract_number"].filter((k) => typeof fl[k] === "string" && /\)\s*$/.test(fl[k]));
+    doubled.length ? bad(`V S3 C9: content/${f} optional letter labels end without "(…)"`, doubled.join(", ")) : ok(`V S3 C9: content/${f} optional letter labels end without "(…)"`);
+  }
+}
+// S4 F4: entries are kept in sessionStorage only
+{
+  const hits = [];
+  const walkJs = (dir) => {
+    for (const n of readdirSync(dir)) {
+      const fp = join(dir, n);
+      if (statSync(fp).isDirectory()) walkJs(fp);
+      else if (n.endsWith(".js") && readFileSync(fp, "utf8").includes("localStorage")) hits.push(fp.slice(ROOT.length));
+    }
+  };
+  walkJs(p("static/js"));
+  hits.length ? bad("V S4 F4: no localStorage in static/js", hits) : ok("V S4 F4: no localStorage in static/js");
 }
 // letters: placeholders are fields or built-ins
 if (letters) {
@@ -305,6 +383,17 @@ if (existsSync(p("public"))) {
   };
   walk(p("public"));
   offenders.length ? bad("no external resources in public/", offenders.slice(0, 20)) : ok("no external resources in public/ (scripts, styles, fonts, images, frames)");
+  // S6 F3: one common.js module instance per page (no cache-busted second URL)
+  const busted = [];
+  const walkHtml = (dir) => {
+    for (const n of readdirSync(dir)) {
+      const fp = join(dir, n);
+      if (statSync(fp).isDirectory()) walkHtml(fp);
+      else if (n.endsWith(".html") && readFileSync(fp, "utf8").includes("common.js?h=")) busted.push(fp.slice(ROOT.length));
+    }
+  };
+  walkHtml(p("public"));
+  busted.length ? bad("V S6 F3: no common.js?h= in public/", busted.slice(0, 10)) : ok("V S6 F3: no common.js?h= in public/");
 } else {
   note("public/", "not built – run zola build first to include this check");
 }

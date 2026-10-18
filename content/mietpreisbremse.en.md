@@ -26,6 +26,7 @@ The amount is measured at the start of the tenancy. As of: 17.10.2026. Under fed
 
 What matters is the usual rent **at the start** of your tenancy (§ 556d Abs. 1 BGB). As a guide, in our understanding, the rent index (Mietspiegel) that applied at that time is therefore used:
 
+- Start before 30.05.2024: an older Mietspiegel. Our calculator does not include it. Older Mietspiegel editions from 2017: <https://mietspiegel.berlin.de/berliner-mietspiegel/archiv/>
 - Start from 30.05.2024 to 27.05.2026: [Mietspiegel 2024](@/merkmale-2024.en.md)
 - Start from 28.05.2026: [Mietspiegel 2026](@/merkmale.en.md)
 
@@ -42,15 +43,15 @@ The rent brake does not always apply:
 - **Short time, room in the landlord’s home, hall of residence:** Not for flats that are only let for a short time, for a furnished room in the flat where the landlord lives himself, and for student or youth halls of residence (Studenten- oder Jugendwohnheime) (§ 549 Abs. 2 und 3 BGB). Whether an agreement is really „nur für kurze Zeit“ (only for a short time) has to be checked carefully. Get advice.
 - **Old agreements:** Not for agreements concluded before 01.06.2015 (Art. 229 § 35 EGBGB).
 
-If the landlord wants to rely on the previous rent, a modernisation or one of these exceptions, he must inform you about it **before** the agreement is concluded, without being asked. If he does not, he cannot rely on it, or only later (§ 556g Abs. 1a BGB).
+If the landlord wants to rely on the previous rent, a modernisation, a new building or the first letting after a comprehensive modernisation, he must inform you about it **before** the agreement is concluded, without being asked. If he does not, he cannot rely on it, or only later (§ 556g Abs. 1a BGB).
 
 ## What you can do
 
 1. **Ask for information (Auskunft):** You can ask the landlord for information about the facts that matter for the permitted rent, as far as you cannot find them out yourself (§ 556g Abs. 3 BGB).
 2. **Complain (Rüge):** Tell the landlord that the rent is too high. You can only claim back rent you paid in excess if you have complained about the breach (§ 556g Abs. 2 BGB). The complaint must be in text form (Textform), for example as a letter or email (§ 556g Abs. 4 BGB). If the landlord gave you information before the agreement was concluded, the complaint must refer to it.
-3. **Watch the 30 months:** Complain early. If you only complain more than 30 months after the start of the tenancy, you only get back the rent that became due after the complaint. This also applies if the tenancy has already ended (§ 556g Abs. 2 BGB). If your tenancy started before 01.04.2020, an older version of this rule applies (Art. 229 § 51 EGBGB). In that case, get advice.
+3. **Watch the 30 months:** Complain early. If you only complain more than 30 months after the start of the tenancy, you only get back the rent that became due after the complaint. The same applies if the complaint only arrives after the tenancy has ended. You then usually get nothing back. So complain while your tenancy is still running (§ 556g Abs. 2 BGB). If you concluded the agreement before 01.04.2020 or the tenancy started before that date, an older version of this rule may apply (Art. 229 § 51 EGBGB). In that case, get advice.
 4. **Check before agreeing to a rent increase:** If you later agree to a rent increase, the new rent counts as agreed. As a rule, you can then no longer rely on the rent brake against this new rent (BGH, judgment of 28.09.2022 – VIII ZR 300/21). So check the rent brake before you agree.
 
-Our [calculator](@/rechner.en.md) shows you the comparative rent. For the rent brake, you add 10 % to it. This is only a first guide.
+Our [calculator](@/rechner.en.md) shows you the comparative rent. For the rent brake, you add 10 % to it. This is only a first guide. If your tenancy started before 30.05.2024, you cannot use the calculator for this.
 
 The Mietpreisprüfstelle (rent check office) and the tenant advice services help with checking. You can find addresses under [Help and advice](@/hilfe.en.md).

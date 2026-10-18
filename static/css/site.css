@@ -11,7 +11,7 @@
   --c-ink: #1b222b;
   --c-ink-2: #46505c;          /* secondary text, 7.4:1 on paper */
   --c-line: #d6cfc1;
-  --c-line-strong: #a79f90;
+  --c-line-strong: #857c6c;    /* ≥ 3:1 against paper, surface, sunken and callout backgrounds (WCAG 1.4.11) */
   --c-link: #1d4f8a;           /* 7.2:1 on paper */
   --c-link-hover: #123764;
   --c-primary: #1d3a5f;        /* primary button */
@@ -79,7 +79,7 @@
     --c-ink: #ebe6db;
     --c-ink-2: #b9b2a5;
     --c-line: #353d47;
-    --c-line-strong: #58616d;
+    --c-line-strong: #7a8491;
     --c-link: #9cc3f0;
     --c-link-hover: #c4dcf7;
     --c-primary: #9cc3f0;
@@ -192,8 +192,7 @@ th { font-weight: 600; }
 
 .main-nav { padding-block-end: var(--s-2); }
 .main-nav ul {
-  display: flex; gap: var(--s-1) var(--s-4); list-style: none; margin: 0; padding: 0;
-  overflow-x: auto; scrollbar-width: thin; white-space: nowrap;
+  display: flex; flex-wrap: wrap; gap: 0 var(--s-4); list-style: none; margin: 0; padding: 0;
 }
 .main-nav li + li { margin: 0; }
 .main-nav a {
@@ -202,8 +201,10 @@ th { font-weight: 600; }
 }
 .main-nav a:hover { border-block-end-color: var(--c-line-strong); }
 .main-nav a[aria-current="page"] { border-block-end-color: var(--c-mark); font-weight: 600; }
+@media (max-width: 39.99rem) { .main-nav a { padding-block: var(--s-1); } }
 
-main { padding-block: var(--s-6) var(--s-8); }
+main { padding-block: var(--s-6) var(--s-8); overflow-wrap: anywhere; }
+main :is(h1, h2, h3, h4) { hyphens: auto; }
 .prose { max-inline-size: var(--measure); }
 .prose h2 { padding-block-start: var(--s-4); border-block-start: var(--bw) solid var(--c-line); }
 .lead { font-size: var(--fs-2); line-height: var(--lh-snug); color: var(--c-ink-2); max-inline-size: 52ch; }
@@ -246,7 +247,9 @@ input[type="text"], input[type="number"], input[type="date"], select, textarea {
 input[type="number"] { inline-size: 12ch; font-variant-numeric: tabular-nums; }
 input[type="date"] { inline-size: 17ch; }
 textarea { inline-size: 100%; min-block-size: 6rem; line-height: var(--lh-snug); }
-input:invalid:not(:placeholder-shown) { border-color: var(--c-danger-line); }
+input:user-invalid, textarea:user-invalid { border-color: var(--c-danger-line); }
+input[aria-invalid="true"] { border-color: var(--c-danger-line); }
+.field__error { color: var(--c-danger-line); font-weight: 600; margin: 0; }
 .input-unit { display: inline-flex; align-items: center; gap: var(--s-2); }
 
 fieldset { border: 0; padding: 0; margin: 0 0 var(--s-5); min-inline-size: 0; }
@@ -277,8 +280,8 @@ fieldset > legend { padding: 0; margin-block-end: var(--s-2); }
 
 .badge {
   display: inline-flex; align-items: center; justify-content: center;
-  min-inline-size: 1.6rem; block-size: 1.6rem; padding-inline: var(--s-1);
-  font-weight: 700; font-size: var(--fs-1); line-height: 1; border-radius: var(--r-1); flex: none;
+  min-inline-size: 1.6rem; min-block-size: 1.6rem; padding-inline: var(--s-1);
+  font-weight: 700; font-size: var(--fs-1); line-height: 1.15; border-radius: var(--r-1); flex: none;
 }
 .badge--plus { background: var(--c-plus-soft); color: var(--c-plus); border: var(--bw) solid var(--c-plus); }
 .badge--minus { background: var(--c-minus-soft); color: var(--c-minus); border: var(--bw) solid var(--c-minus); }
@@ -391,13 +394,13 @@ details > summary:hover { color: var(--c-link-hover); }
 }
 .compare-on .checklist-head { display: grid; grid-template-columns: minmax(0, 1fr) var(--col-check) var(--col-check); gap: var(--s-2); }
 .check-item {
-  display: grid; grid-template-columns: 1fr auto; gap: var(--s-1) var(--s-3);
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--s-1) var(--s-3);
   padding-block: var(--s-3); border-block-end: var(--bw) solid var(--c-line);
 }
 .compare-on .check-item { grid-template-columns: minmax(0, 1fr) var(--col-check) var(--col-check); gap: var(--s-1) var(--s-2); }
 .checklist-group { --col-check: 3.75rem; }
 @media (min-width: 40rem) { .checklist-group { --col-check: 6rem; } }
-.check-item__main { display: grid; grid-template-columns: auto 1fr; gap: var(--s-1) var(--s-2); align-items: start; }
+.check-item__main { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--s-1) var(--s-2); align-items: start; }
 .check-item__main > :not(.badge) { grid-column: 2; }
 .check-item__title { font-weight: 600; margin: 0; }
 .check-item__toggle { display: flex; align-items: flex-start; justify-content: center; }
@@ -406,7 +409,7 @@ details > summary:hover { color: var(--c-link-hover); }
 .check-item__ll { display: none; }
 .compare-on .check-item__ll { display: flex; }
 .check-item__self { grid-column: 1 / -1; font-size: var(--fs-0); padding-inline-start: calc(1.6rem + var(--s-2)); }
-.check-item.is-disabled .check-item__main { opacity: 0.55; }
+.check-item.is-disabled :is(.badge, .check-item__title) { opacity: 0.55; }
 .check-item__why { font-size: var(--fs-0); color: var(--c-minus); margin: 0; }
 .check-item.is-dispute { background: linear-gradient(to right, var(--c-mark-soft), transparent 70%); }
 [dir="rtl"] .check-item.is-dispute { background: linear-gradient(to left, var(--c-mark-soft), transparent 70%); }
@@ -415,7 +418,9 @@ details > summary:hover { color: var(--c-link-hover); }
 .result > h2, .result > h3 { margin-block-start: 0; }
 .result__big { font-family: var(--f-serif); font-size: var(--fs-5); line-height: 1.1; margin-block: var(--s-2) var(--s-4); }
 .result__big .mark { padding-inline: 0.15em; }
-.calc-table td:last-child, .calc-table th:last-child { text-align: end; white-space: nowrap; }
+.calc-table td:last-child, .calc-table th:last-child { text-align: end; }
+@media (min-width: 40rem) { .calc-table td:last-child, .calc-table th:last-child { white-space: nowrap; } }
+@media (max-width: 39.99rem) { .calc-table th, .calc-table td { padding-inline: var(--s-1); } }
 .calc-table tfoot td { font-weight: 700; border-block-end: 0; }
 .calc-table tfoot tr:first-child td { border-block-start: var(--bw-strong) solid var(--c-ink); }
 .calc-table caption { text-align: start; font-weight: 600; padding-block-end: var(--s-2); }
@@ -469,6 +474,10 @@ details > summary:hover { color: var(--c-link-hover); }
   a { color: inherit; }
   .prose a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; }
   details { display: block; }
+  /* A closed <details> prints only its label; hide the label so no empty "Was heißt das?" is left */
+  details:not([open]):not(.checklist-group) > summary { display: none; }
+  /* Calculator: print only the features the user ticked, so the result is not buried */
+  .check-item:not(:has(input:checked)), .checklist-group:not(:has(input:checked)), .checklist-head { display: none; }
   /* Letter page: print only the letter */
   .print-letter main .wrap > *:not(.tool),
   .print-letter .tool > *:not(.letter-out) { display: none !important; }

@@ -302,7 +302,7 @@ NOTE_PATTERNS = {
     "bad-p08": r"\(gilt nicht für die Baualtersklassen ab 2002\)",
     "bad-p09": r"\(gilt für (?:die )?Baualtersklassen bis einschließlich 2001\); "
                r"(?:sofern zusätzlich|falls) elektrisch betreibbar: alle Baujahre",
-    "wohnung-m08": r"Kein Einbruchs- und/oder Sichtschutzsystem an allen Fenstern der Wohnung",
+    "wohnung-m08": r"Bei Erdgeschosswohnung",
     "gebaeude-p08": r"Einbau/Installation einer modernen Heizanlage ab 2009 "
                     r"\(wenn Bezugsfertigkeit des Gebäudes/der Wohnung vor diesem Zeitpunkt\)",
     "umfeld-p02": r"Kinderspielplatz – bei Bezugsfertigkeit des Gebäudes vor \d{4}",

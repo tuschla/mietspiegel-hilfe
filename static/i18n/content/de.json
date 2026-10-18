@@ -7,23 +7,23 @@
  "groups": {
   "bad": {
    "title": "Bad und WC",
-   "intro": "In dieser Gruppe geht es um Bad, WC und Gäste-WC. Bei vielen Merkmalen steht im Mietspiegel „bezieht sich nicht auf Gäste-WCs“: Dann zählt nur das Hauptbad.\n\nZählen Sie die Plus- und die Minus-Merkmale. Gibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um Bad, WC und Gäste-WC. Bei vielen Merkmalen steht im Mietspiegel „bezieht sich nicht auf Gäste-WCs“: Dann zählt nur das Hauptbad.\n\nZählen Sie die Plus- und die Minus-Merkmale. Gibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
   },
   "kueche": {
    "title": "Küche",
-   "intro": "In dieser Gruppe geht es um die Küche. Es zählt nur, was der Vermieter gestellt hat. Eine Küche oder Geräte, die Sie selbst bezahlt haben, zählen nicht.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um die Küche. Es zählt nur, was der Vermieter gestellt hat. Eine Küche oder Geräte, die Sie selbst bezahlt haben, zählen nicht.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
   },
   "wohnung": {
    "title": "Wohnung",
-   "intro": "In dieser Gruppe geht es um die Wohnung selbst: Fenster, Leitungen, Grundriss, Balkon, Böden und Heizung. Viele Merkmale sagen „überwiegend“. Das heißt nach dem Wortsinn: bei mehr als der Hälfte, zum Beispiel der Fenster oder Räume.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um die Wohnung selbst: Fenster, Leitungen, Grundriss, Balkon, Böden und Heizung. Viele Merkmale sagen „überwiegend“. Das heißt nach dem Wortsinn: bei mehr als der Hälfte, zum Beispiel der Fenster oder Räume.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
   },
   "gebaeude": {
    "title": "Gebäude",
-   "intro": "In dieser Gruppe geht es um das Haus: Treppenhaus, Keller, Eingang, Aufzug, Zustand und Energie. Beim Energieverbrauch gilt eine Sonderregel: Sie kreuzen entweder das Merkmal zur Wärmedämmung oder Heizanlage an oder die Merkmale zum Energiekennwert aus dem Energieausweis, nicht beides. Beim Kennwert können bis zu drei Kästchen zählen.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um das Haus: Treppenhaus, Keller, Eingang, Aufzug, Zustand und Energie. Beim Energieverbrauch gilt eine Sonderregel: Sie kreuzen entweder das Merkmal zur Wärmedämmung oder Heizanlage an oder die Merkmale zum Energiekennwert aus dem Energieausweis, nicht beides. Beim Kennwert können bis zu drei Kästchen zählen.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
   },
   "umfeld": {
    "title": "Wohnumfeld",
-   "intro": "In dieser Gruppe geht es um die Umgebung: Lärm, Geruch, Fahrräder, Grundstück, Parkplätze und Garten. Die Wohnlage (einfach, mittel, gut) ist schon in der Tabelle berücksichtigt. Hier geht es um Besonderheiten Ihrer Wohnung.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jedes Minus schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um die Umgebung: Lärm, Geruch, Fahrräder, Grundstück, Parkplätze und Garten. Die Wohnlage (einfach, mittel, gut) ist schon in der Tabelle berücksichtigt. Hier geht es um Besonderheiten Ihrer Wohnung.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
   }
  },
  "features": {
@@ -542,7 +542,7 @@
   "intro": "Geben Sie die Daten aus dem Schreiben des Vermieters ein. Wir rechnen Fristen und Grenzen nach festen Regeln aus. Das Ergebnis beruht nur auf Ihren Angaben. Es ist keine rechtliche Prüfung Ihres Falls.",
   "received": "Tag, an dem das Schreiben bei Ihnen ankam",
   "received_help": "Nicht das Datum auf dem Brief, sondern der Tag, an dem er in Ihrem Briefkasten oder Postfach war.",
-  "last_change": "Seit wann gilt Ihre jetzige Miete?",
+  "last_change": "Seit wann gilt Ihre Miete, ohne Erhöhungen wegen Modernisierung oder Betriebskosten?",
   "last_change_help": "Der Tag, an dem die letzte Erhöhung wirksam wurde, also ab dem Sie die höhere Miete zahlen mussten. Gab es noch keine, der Beginn des Mietvertrags. Erhöhungen wegen Modernisierung oder Betriebskosten zählen nicht.",
   "current_rent": "Ihre jetzige Nettokaltmiete pro Monat",
   "current_rent_help": "Miete ohne Betriebskosten und ohne Heizkosten.",
@@ -553,7 +553,7 @@
   "area": "Wohnfläche in m²",
   "ovm_per_sqm": "Ortsübliche Vergleichsmiete in € pro m² (aus dem Rechner)",
   "requested_effective": "Ab wann will der Vermieter die neue Miete?",
-  "disclaimer": "Die Daten sind Kalenderdaten. Nur bei der Klagefrist des Vermieters zeigen wir den nächsten Werktag, wenn das Ende auf einen Samstag, Sonntag oder Feiertag in Berlin fällt (§ 193 BGB). Für Ihre eigenen Fristen planen Sie mit dem Kalenderdatum und antworten lieber einige Tage früher.",
+  "disclaimer": "Die Daten sind Kalenderdaten. Nur bei der Klagefrist des Vermieters rechnen wir mit dem nächsten Werktag, wenn das Ende auf einen Samstag, Sonntag oder Feiertag in Berlin fällt (§ 193 BGB). Bei Ihrer eigenen Frist nennen wir ihn nur als Hinweis. Für Ihre eigenen Fristen planen Sie mit dem Kalenderdatum und antworten lieber einige Tage früher.",
   "result": {
    "sperrfrist_fail": {
     "title": "Das Verlangen kam vielleicht zu früh",
@@ -577,7 +577,7 @@
    },
    "no_ovm": {
     "title": "Vergleichsmiete fehlt",
-    "text": "Sie haben keine Vergleichsmiete eingegeben. Wir prüfen deshalb nur die Kappungsgrenze und die Fristen. Nutzen Sie den Rechner, um die Vergleichsmiete zu schätzen."
+    "text": "Sie haben keine Vergleichsmiete oder keine Wohnfläche eingegeben. Wir prüfen deshalb nur die Kappungsgrenze und die Fristen. Nutzen Sie den Rechner, um die Vergleichsmiete zu schätzen."
    },
    "requested_too_early": {
     "title": "Der genannte Termin ist zu früh",
@@ -616,7 +616,7 @@
   "ablehnung": {
    "title": "Ablehnung",
    "when": "Wenn Sie der Erhöhung nicht zustimmen wollen, zum Beispiel weil Sie meinen, dass sie zu hoch ist oder dass das Schreiben fehlerhaft ist.",
-   "risks": "Eine Ablehnung beendet die Sache nicht. Der Vermieter kann innerhalb von drei Monaten nach dem Ende Ihrer Frist auf Zustimmung klagen. Wer einen Prozess verliert, muss die Kosten tragen (§ 91 ZPO). Gibt das Gericht dem Vermieter recht, gilt Ihre Zustimmung als erteilt, sobald man gegen das Urteil nichts mehr tun kann (Rechtskraft, § 894 ZPO). Sie schulden die höhere Miete dann ab dem Erhöhungstermin, also auch für die Monate während des Prozesses (§ 558b Abs. 1 BGB). Legen Sie das Geld dafür am besten zur Seite. Bei einer Mieterhöhung nach § 558 BGB zahlen Sie bis zur Entscheidung weiter die bisherige Miete und nicht die höhere. Das gilt nicht bei Modernisierung, Betriebskosten, Index- oder Staffelmiete oder in einer Sozialwohnung. Prüfen Sie eine Lastschrift.",
+   "risks": "Eine Ablehnung beendet die Sache nicht. Der Vermieter kann innerhalb von drei Monaten nach dem Ende Ihrer Frist auf Zustimmung klagen. Bekommen Sie Post vom Gericht, gehen Sie sofort zur Beratung. Oft haben Sie nur 2 Wochen für eine Antwort an das Gericht (§ 276 ZPO). Sonst kann das Gericht ohne Sie entscheiden (§ 331 ZPO). Wer einen Prozess verliert, muss die Kosten tragen (§ 91 ZPO). Gibt das Gericht dem Vermieter recht, gilt Ihre Zustimmung als erteilt, sobald man gegen das Urteil nichts mehr tun kann (Rechtskraft, § 894 ZPO). Sie schulden die höhere Miete dann ab dem Erhöhungstermin, also auch für die Monate während des Prozesses (§ 558b Abs. 1 BGB). Legen Sie das Geld dafür am besten zur Seite. Bei einer Mieterhöhung nach § 558 BGB zahlen Sie bis zur Entscheidung weiter die bisherige Miete und nicht die höhere. Das gilt nicht bei Modernisierung, Betriebskosten, Index- oder Staffelmiete oder bei „Kostenmiete“ in einer alten Sozialwohnung. Prüfen Sie eine Lastschrift.",
    "explain": "Mit diesem Brief lehnen Sie die Mieterhöhung ab. Eine Begründung verlangt das Gesetz nicht. Sie können aber Merkmale aus der Orientierungshilfe nennen, die Sie anders sehen. Das sind Plus-Merkmale, die der Vermieter angesetzt hat und die Sie nicht anerkennen. Und Minus-Merkmale, die er nicht berücksichtigt hat. Wählen Sie nur Merkmale aus, die Sie selbst geprüft haben. Sie müssen keine Ablehnung schicken: Wenn Sie nichts tun, haben Sie auch nicht zugestimmt. Ein Brief macht Ihre Haltung aber klar."
   },
   "nachfrage": {
@@ -630,7 +630,7 @@
    "tenant_address": "Ihre Adresse",
    "landlord_name": "Name des Vermieters oder der Hausverwaltung",
    "landlord_address": "Adresse des Vermieters",
-   "contract_number": "Mietvertrags- oder Kundennummer (falls vorhanden)",
+   "contract_number": "Mietvertrags- oder Kundennummer",
    "place": "Ort",
    "demand_date": "Datum des Schreibens vom Vermieter",
    "received": "Tag, an dem das Schreiben bei Ihnen ankam",
@@ -640,13 +640,13 @@
    "agreed_rent": "Nettokaltmiete, der Sie zustimmen (pro Monat)",
    "disputed_plus": "Plus-Merkmale des Vermieters, die Sie nicht anerkennen",
    "missing_minus": "Minus-Merkmale, die der Vermieter nicht berücksichtigt hat",
-   "questions": "Weitere Fragen (optional)",
-   "own_text": "Eigener Zusatz (optional)",
+   "questions": "Weitere Fragen",
+   "own_text": "Eigener Zusatz",
    "tenant_name_help": "So, wie es im Mietvertrag steht. Haben mehrere Personen den Vertrag unterschrieben, sollten alle unterschreiben.",
    "received_help": "Das ist wichtig für alle Fristen. Notieren Sie das Datum und heben Sie den Umschlag auf.",
    "contract_number_help": "Steht oft oben im Schreiben des Vermieters.",
    "agreed_rent_help": "Nur einen Betrag eintragen, den Sie sicher für richtig halten. Daran sind Sie gebunden.",
-   "effective_help": "Tragen Sie den Termin aus dem Schreiben des Vermieters ein. Ist dieser Termin früher als der Beginn des dritten Kalendermonats nach dem Zugang, gilt der spätere Tag. Der Rechner füllt das Feld mit dem späteren der beiden Tage aus. Prüfen Sie es.",
+   "effective_help": "Tragen Sie den Termin aus dem Schreiben des Vermieters ein. Die neue Miete gilt frühestens ab dem Beginn des dritten Kalendermonats nach dem Zugang. Außerdem muss die Miete an diesem Tag seit 15 Monaten unverändert sein, sonst gilt ein späterer Tag. ‚Fristen und Grenzen prüfen‘ füllt das Feld mit dem spätesten dieser Tage aus. Prüfen Sie es.",
    "disputed_plus_help": "Wählen Sie nur Merkmale aus, die Sie selbst geprüft haben.",
    "missing_minus_help": "Wählen Sie nur Merkmale aus, die Sie in Ihrer Wohnung geprüft haben und belegen können.",
    "own_text_help": "Diesen Text prüfen wir nicht. Er kommt unverändert in den Brief. Schreiben Sie nur Tatsachen, die stimmen. Schreiben Sie in eine Zustimmung keine Bedingungen und kein Gegenangebot („nur wenn …“). Dann kann die Zustimmung als Ablehnung gelten.",
@@ -672,7 +672,7 @@
   },
   "netting": {
    "title": "So wird die Spanne eingeordnet",
-   "text": "In jeder der fünf Gruppen zählen Sie Plus- und Minus-Merkmale. Mehr Plus: die Gruppe zählt als Plus. Mehr Minus: als Minus. Gleichstand: 0. Dann rechnen Sie die Gruppen gegeneinander auf. Jedes Plus schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben, jedes Minus um ein Fünftel des Abstands zum unteren Wert nach unten (Mietspiegel Nr. 10.3). Der Mietspiegel sagt nicht, ob dabei je Gruppe oder einmal gerundet wird. Abweichungen um einen Cent sind möglich."
+   "text": "In jeder der fünf Gruppen zählen Sie Plus- und Minus-Merkmale. Mehr Plus: die Gruppe zählt als Plus. Mehr Minus: als Minus. Gleichstand: 0. Dann rechnen Sie die Gruppen gegeneinander auf. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben, jede Gruppe, die als Minus zählt, um ein Fünftel des Abstands zum unteren Wert nach unten (Mietspiegel Nr. 10.3). Der Mietspiegel sagt nicht, ob dabei je Gruppe oder einmal gerundet wird. Abweichungen um einen Cent sind möglich."
   },
   "consent_deadline": {
    "title": "Ihre Frist zum Zustimmen",
@@ -712,7 +712,7 @@
   },
   "silence": {
    "title": "Schweigen ist keine Zustimmung",
-   "text": "Wenn Sie nichts tun, haben Sie nicht zugestimmt. Der Vermieter kann dann klagen (§ 558b Abs. 2 BGB)."
+   "text": "Wenn Sie nichts tun, haben Sie nicht zugestimmt. Der Vermieter kann dann klagen (§ 558b Abs. 2 BGB). Bekommen Sie Post vom Gericht, gehen Sie sofort zur Beratung. Oft haben Sie nur 2 Wochen für eine Antwort (§ 276 ZPO)."
   },
   "payment_consent": {
    "title": "Zahlen kann Zustimmung sein",
@@ -740,7 +740,7 @@
   },
   "lwu": {
    "title": "Landeseigene Wohnungsunternehmen",
-   "text": "Bei degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND und WBM gelten zusätzliche freiwillige Zusagen, solange die Kooperationsvereinbarung läuft (bis 31.12.2027): höchstens 11 % mehr in drei Jahren (Bündnis-Vereinbarung vom 15.07.2025) und höchstens 50 € (bis 65 m²), 75 € (bis 100 m²) oder 100 € (bis 125 m²) mehr pro Monat (Kooperationsvereinbarung II.8). Außerdem gibt es das Leistbarkeitsversprechen: auf Antrag höchstens 27 % des Haushaltseinkommens als Nettokaltmiete, wenn die Einkommens- und Flächengrenzen eingehalten sind."
+   "text": "Bei degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND und WBM gelten zusätzliche freiwillige Zusagen, solange die Kooperationsvereinbarung läuft (bis 31.12.2027): höchstens 11 % mehr in drei Jahren (Bündnis-Vereinbarung vom 15.07.2025) und höchstens 50 € (bis 65 m²), 75 € (bis 100 m²) oder 100 € (bis 125 m²) mehr pro Monat (Kooperationsvereinbarung II.8). Außerdem gibt es das Leistbarkeitsversprechen: auf Antrag höchstens 27 % des Haushaltseinkommens als Nettokaltmiete, wenn die Einkommens- und Flächengrenzen eingehalten sind. Die Kooperationsvereinbarung gilt auch für die berlinovo im Bereich „Klassisches Wohnen“."
   },
   "pay_from": {
    "title": "Ab wann Sie zahlen würden",
@@ -748,7 +748,7 @@
   },
   "scope": {
    "title": "Gilt das für Sie?",
-   "text": "Diese Hilfe gilt nur, wenn Ihr Vermieter Sie bittet, einer höheren Miete zuzustimmen (§ 558 BGB). Sie gilt nicht bei einer Erhöhung nach Modernisierung (§ 559 BGB), bei neuen Vorauszahlungen für Betriebskosten (§ 560 BGB), bei Index- oder Staffelmiete, in einer Sozialwohnung oder anderen geförderten Wohnung mit fester Miete (§ 558 Abs. 2 Satz 2 BGB), für ein Zimmer in der Wohnung des Vermieters, eine Wohnung nur für kurze Zeit oder ein Wohnheim (§ 549 BGB). Dann müssen Sie die höhere Miete meist auch ohne Zustimmung zahlen. Hören Sie nicht einfach auf zu zahlen. Lassen Sie sich beraten."
+   "text": "Diese Hilfe gilt nur, wenn Ihr Vermieter Sie bittet, einer höheren Miete zuzustimmen (§ 558 BGB).\n\nSie gilt nicht bei: Modernisierung (§ 559 BGB), neuen Vorauszahlungen für Betriebskosten (§ 560 BGB), Index- oder Staffelmiete und einer alten Sozialwohnung mit „Kostenmiete“ (§ 10 Wohnungsbindungsgesetz). Dann müssen Sie die höhere Miete meist auch ohne Zustimmung zahlen.\n\nSie gilt auch nicht für ein möbliertes Zimmer in der Wohnung des Vermieters, eine Wohnung nur zum vorübergehenden Gebrauch und ein Studenten- oder Jugendwohnheim (§ 549 BGB). Dort gelten die Regeln zur Mieterhöhung nicht. Was gilt, hängt von Ihrem Vertrag ab.\n\nHören Sie nicht einfach auf zu zahlen. Lassen Sie sich beraten."
   },
   "mietpreisbremse_after_consent": {
    "title": "Mietpreisbremse vor einer Zustimmung prüfen",

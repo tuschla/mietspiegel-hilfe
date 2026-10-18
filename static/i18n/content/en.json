@@ -7,23 +7,23 @@
  "groups": {
   "bad": {
    "title": "Bathroom and toilet",
-   "intro": "This group is about the bathroom, the toilet and the guest toilet. For many features the Mietspiegel says „bezieht sich nicht auf Gäste-WCs“ (does not refer to guest toilets): then only the main bathroom counts.\n\nCount the plus features and the minus features. If there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+   "intro": "This group is about the bathroom, the toilet and the guest toilet. For many features the Mietspiegel says „bezieht sich nicht auf Gäste-WCs“ (does not refer to guest toilets): then only the main bathroom counts.\n\nCount the plus features and the minus features. If there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each group that counts as plus moves the value up by one fifth of the distance from the average value to the upper value. Each group that counts as minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
   },
   "kueche": {
    "title": "Kitchen",
-   "intro": "This group is about the kitchen. Only what the landlord provided counts. A kitchen or appliances that you paid for yourself do not count.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+   "intro": "This group is about the kitchen. Only what the landlord provided counts. A kitchen or appliances that you paid for yourself do not count.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each group that counts as plus moves the value up by one fifth of the distance from the average value to the upper value. Each group that counts as minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
   },
   "wohnung": {
    "title": "Flat",
-   "intro": "This group is about the flat itself: windows, pipes and cables, floor plan, balcony, floors and heating. Many features say „überwiegend“ (mostly). Taken literally, this means: more than half, for example of the windows or rooms.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+   "intro": "This group is about the flat itself: windows, pipes and cables, floor plan, balcony, floors and heating. Many features say „überwiegend“ (mostly). Taken literally, this means: more than half, for example of the windows or rooms.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each group that counts as plus moves the value up by one fifth of the distance from the average value to the upper value. Each group that counts as minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
   },
   "gebaeude": {
    "title": "Building",
-   "intro": "This group is about the building: staircase, cellar, entrance, lift, condition and energy. A special rule applies to energy use: you tick either the feature on thermal insulation or the heating system, or the features on the energy value from the energy certificate (Energieausweis), not both. For the energy value, up to three boxes can count.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+   "intro": "This group is about the building: staircase, cellar, entrance, lift, condition and energy. A special rule applies to energy use: you tick either the feature on thermal insulation or the heating system, or the features on the energy value from the energy certificate (Energieausweis), not both. For the energy value, up to three boxes can count.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each group that counts as plus moves the value up by one fifth of the distance from the average value to the upper value. Each group that counts as minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
   },
   "umfeld": {
    "title": "Surroundings",
-   "intro": "This group is about the surroundings: noise, smells, bicycles, the plot of land, parking and garden. The residential area (Wohnlage: simple, medium, good) is already included in the table. This group is about special features of your flat.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each plus moves the value up by one fifth of the distance from the average value to the upper value. Each minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
+   "intro": "This group is about the surroundings: noise, smells, bicycles, the plot of land, parking and garden. The residential area (Wohnlage: simple, medium, good) is already included in the table. This group is about special features of your flat.\n\nIf there are more plus features, the group counts as plus. If there are more minus features, it counts as minus. If they are equal, the group does not count. Each group that counts as plus moves the value up by one fifth of the distance from the average value to the upper value. Each group that counts as minus moves it down by one fifth of the distance to the lower value. This is not 20 % more rent."
   }
  },
  "features": {
@@ -542,7 +542,7 @@
   "intro": "Enter the details from the landlord’s letter. We calculate deadlines and limits according to fixed rules. The result is based only on your details. It is not a legal check of your case.",
   "received": "Day the letter reached you",
   "received_help": "Not the date on the letter, but the day it was in your letterbox or post office box.",
-  "last_change": "Since when has your current rent applied?",
+  "last_change": "Since when has your rent applied, not counting increases for modernisation or service charges?",
   "last_change_help": "The day the last increase took effect, that is, from which you had to pay the higher rent. If there has been no increase yet, the start of the tenancy agreement. Increases for modernisation or service charges do not count.",
   "current_rent": "Your current net cold rent (Nettokaltmiete) per month",
   "current_rent_help": "Rent without service charges and without heating costs.",
@@ -553,7 +553,7 @@
   "area": "Living space in m²",
   "ovm_per_sqm": "Local comparative rent (ortsübliche Vergleichsmiete) in € per m² (from the calculator)",
   "requested_effective": "From when does the landlord want the new rent?",
-  "disclaimer": "The dates are calendar dates. Only for the landlord’s deadline to sue do we show the next working day if the end falls on a Saturday, Sunday or public holiday in Berlin (§ 193 BGB). For your own deadlines, plan with the calendar date and preferably reply a few days earlier.",
+  "disclaimer": "The dates are calendar dates. Only for the landlord’s deadline to sue do we calculate with the next working day if the end falls on a Saturday, Sunday or public holiday in Berlin (§ 193 BGB). For your own deadline we only mention it as a note. For your own deadlines, plan with the calendar date and preferably reply a few days earlier.",
   "result": {
    "sperrfrist_fail": {
     "title": "The demand may have come too early",
@@ -577,7 +577,7 @@
    },
    "no_ovm": {
     "title": "Comparative rent missing",
-    "text": "You have not entered a comparative rent. So we only check the cap and the deadlines. Use the calculator to estimate the comparative rent."
+    "text": "You have not entered a comparative rent, or you have not entered the floor area. So we only check the cap and the deadlines. Use the calculator to estimate the comparative rent."
    },
    "requested_too_early": {
     "title": "The date named is too early",
@@ -616,7 +616,7 @@
   "ablehnung": {
    "title": "Refusal (Ablehnung)",
    "when": "If you do not want to consent to the increase, for example because you think it is too high or that the letter has errors.",
-   "risks": "A refusal does not end the matter. The landlord can sue for consent within three months after the end of your deadline. Whoever loses a court case has to pay the costs (§ 91 ZPO). If the court decides for the landlord, your consent counts as given as soon as nothing more can be done against the judgment (final and binding, Rechtskraft, § 894 ZPO). You then owe the higher rent from the date of the increase, that is, also for the months during the court case (§ 558b Abs. 1 BGB). It is best to put the money for this aside. With a rent increase under § 558 BGB you keep paying the previous rent until the decision, not the higher one. This does not apply to modernisation, service charges, index or graduated rent or in social housing. Check any direct debit.",
+   "risks": "A refusal does not end the matter. The landlord can sue for consent within three months after the end of your deadline. If you get post from the court, go to an advice service at once. You often have only 2 weeks to reply to the court (§ 276 ZPO). Otherwise the court can decide without you (§ 331 ZPO). Whoever loses a court case has to pay the costs (§ 91 ZPO). If the court decides for the landlord, your consent counts as given as soon as nothing more can be done against the judgment (final and binding, Rechtskraft, § 894 ZPO). You then owe the higher rent from the date of the increase, that is, also for the months during the court case (§ 558b Abs. 1 BGB). It is best to put the money for this aside. With a rent increase under § 558 BGB you keep paying the previous rent until the decision, not the higher one. This does not apply to modernisation, service charges, index or graduated rent or “cost rent” (Kostenmiete) in old social housing. Check any direct debit.",
    "explain": "With this letter you refuse the rent increase. The law does not require you to give reasons. But you can name features from the Orientierungshilfe that you see differently. These are plus features that the landlord has applied and that you do not accept. And minus features that he has not taken into account. Only choose features that you have checked yourself. You do not have to send a refusal: if you do nothing, you have not consented either. But a letter makes your position clear."
   },
   "nachfrage": {
@@ -630,7 +630,7 @@
    "tenant_address": "Your address",
    "landlord_name": "Name of the landlord or property management",
    "landlord_address": "Address of the landlord",
-   "contract_number": "Tenancy agreement or customer number (if there is one)",
+   "contract_number": "Tenancy agreement or customer number",
    "place": "Place",
    "demand_date": "Date of the landlord’s letter",
    "received": "Day the letter reached you",
@@ -640,13 +640,13 @@
    "agreed_rent": "Net cold rent you consent to (per month)",
    "disputed_plus": "The landlord’s plus features that you do not accept",
    "missing_minus": "Minus features the landlord has not taken into account",
-   "questions": "Further questions (optional)",
-   "own_text": "Your own addition (optional)",
+   "questions": "Further questions",
+   "own_text": "Your own addition",
    "tenant_name_help": "As it is written in the tenancy agreement. If several people signed the agreement, all of them should sign.",
    "received_help": "This is important for all deadlines. Write down the date and keep the envelope.",
    "contract_number_help": "Often at the top of the landlord’s letter.",
    "agreed_rent_help": "Only enter an amount you are sure is correct. You are bound by it.",
-   "effective_help": "Enter the date from the landlord’s letter. If this date is earlier than the start of the third calendar month after receipt, the later day applies. The calculator fills the field with the later of the two days. Check it.",
+   "effective_help": "Enter the date from the landlord’s letter. The new rent applies at the earliest from the start of the third calendar month after receipt. In addition, on that day the rent must have been unchanged for 15 months; otherwise a later day applies. ‘Check deadlines and limits’ fills the field with the latest of these days. Check it.",
    "disputed_plus_help": "Only choose features that you have checked yourself.",
    "missing_minus_help": "Only choose features that you have checked in your flat and can prove.",
    "own_text_help": "We do not check this text. It goes into the letter unchanged. Only write facts that are true. Do not put conditions or a counter-offer („nur wenn …“, “only if …”) into a consent. Then the consent can count as a refusal.",
@@ -672,7 +672,7 @@
   },
   "netting": {
    "title": "How the range is applied",
-   "text": "In each of the five groups, you count plus and minus features. More plus: the group counts as plus. More minus: as minus. Equal: 0. Then you weigh the groups against each other: one plus group and one minus group cancel each other out. Each plus moves the value up by one fifth of the distance from the average value to the upper value, each minus moves it down by one fifth of the distance to the lower value (Mietspiegel No. 10.3). The Mietspiegel does not say whether to round per group or once. Differences of one cent are possible."
+   "text": "In each of the five groups, you count plus and minus features. More plus: the group counts as plus. More minus: as minus. Equal: 0. Then you weigh the groups against each other: one plus group and one minus group cancel each other out. Each group that counts as plus moves the value up by one fifth of the distance from the average value to the upper value, each group that counts as minus moves it down by one fifth of the distance to the lower value (Mietspiegel No. 10.3). The Mietspiegel does not say whether to round per group or once. Differences of one cent are possible."
   },
   "consent_deadline": {
    "title": "Your deadline for consent",
@@ -712,7 +712,7 @@
   },
   "silence": {
    "title": "Silence is not consent",
-   "text": "If you do nothing, you have not consented. The landlord can then sue (§ 558b Abs. 2 BGB)."
+   "text": "If you do nothing, you have not consented. The landlord can then sue (§ 558b Abs. 2 BGB). If you get post from the court, go to an advice service at once. You often have only 2 weeks to reply (§ 276 ZPO)."
   },
   "payment_consent": {
    "title": "Paying can be consent",
@@ -740,7 +740,7 @@
   },
   "lwu": {
    "title": "State-owned housing companies",
-   "text": "At degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND and WBM, additional voluntary commitments apply as long as the cooperation agreement (Kooperationsvereinbarung) runs (until 31.12.2027): at most 11 % more in three years (alliance agreement of 15.07.2025) and at most €50 (up to 65 m²), €75 (up to 100 m²) or €100 (up to 125 m²) more per month (Kooperationsvereinbarung II.8). There is also the affordability promise (Leistbarkeitsversprechen): on application, a net cold rent of at most 27 % of household income, if the income and floor-space limits are met."
+   "text": "At degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND and WBM, additional voluntary commitments apply as long as the cooperation agreement (Kooperationsvereinbarung) runs (until 31.12.2027): at most 11 % more in three years (alliance agreement of 15.07.2025) and at most €50 (up to 65 m²), €75 (up to 100 m²) or €100 (up to 125 m²) more per month (Kooperationsvereinbarung II.8). There is also the affordability promise (Leistbarkeitsversprechen): on application, a net cold rent of at most 27 % of household income, if the income and floor-space limits are met. The cooperation agreement also applies to berlinovo in its “Klassisches Wohnen” (classic housing) area."
   },
   "pay_from": {
    "title": "From when you would pay",
@@ -748,7 +748,7 @@
   },
   "scope": {
    "title": "Does this apply to you?",
-   "text": "This help only applies if your landlord asks you to consent to a higher rent (§ 558 BGB). It does not apply to an increase after modernisation (§ 559 BGB), to new advance payments for service charges (§ 560 BGB), to index or graduated rent, in social housing or another subsidised flat with a fixed rent (§ 558 Abs. 2 Satz 2 BGB), to a room in the landlord’s flat, a flat rented only for a short time or a hall of residence (§ 549 BGB). In those cases you usually have to pay the higher rent even without consent. Do not simply stop paying. Get advice."
+   "text": "This help only applies if your landlord asks you to consent to a higher rent (§ 558 BGB).\n\nIt does not apply to: modernisation (§ 559 BGB), new advance payments for service charges (§ 560 BGB), index or graduated rent, and an old social housing flat with “cost rent” (Kostenmiete, § 10 Wohnungsbindungsgesetz). In those cases you usually have to pay the higher rent even without consent.\n\nIt also does not apply to a furnished room in the landlord’s own flat, a flat let only for temporary use, or a student or youth hall of residence (§ 549 BGB). There the rules on rent increases do not apply. What applies depends on your contract.\n\nDo not simply stop paying. Get advice."
   },
   "mietpreisbremse_after_consent": {
    "title": "Check the rent brake before consenting",

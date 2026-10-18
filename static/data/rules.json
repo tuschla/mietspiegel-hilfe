@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-18",
- "note_de": "Rechenregeln für die Website. Allgemeine Information, keine Rechtsberatung. Datumsangaben ISO. Fristenden ohne Verschiebung nach § 193 BGB (Wochenende/Feiertag) – die Oberfläche weist darauf hin.",
+ "note_de": "Rechenregeln für die Website. Allgemeine Information, keine Rechtsberatung. Datumsangaben ISO. Nur die Klagefrist des Vermieters wird nach § 193 BGB verschoben (dates.*.shift_193); alle anderen Fristenden sind Kalenderdaten.",
  "sources": {
   "bgb_558": {
    "label": "§ 558 BGB",
@@ -506,7 +506,7 @@
    "gebaeude",
    "umfeld"
   ],
-  "formula_de": "Je Gruppe: mehr Plus- als Minus-Merkmale → +1, mehr Minus → −1, Gleichstand → 0 (einfache Überzahl). net = Summe. net > 0: OVM = Mittelwert + net × 0,20 × (Oberwert − Mittelwert); net < 0: OVM = Mittelwert + net × 0,20 × (Mittelwert − Unterwert). Ergebnis kaufmännisch auf Cent gerundet (Beispiel Mietspiegel 2024 Nr. 10.4). Energie: entweder gebaeude-m08 oder gebaeude-m09…m11; entweder gebaeude-p08 oder gebaeude-p09…p11. Rundung: einmal auf das Gesamtergebnis (wie Beispiel Mietspiegel 2024 bei net = +1). Für |net| ≥ 2 sagt der Mietspiegel nicht, ob je Gruppe oder einmal gerundet wird; Abweichung bis 1 Cent möglich."
+  "formula_de": "Je Gruppe: mehr Plus- als Minus-Merkmale → +1, mehr Minus → −1, Gleichstand → 0 (einfache Überzahl). net = Summe. net > 0: OVM = Mittelwert + net × 0,20 × (Oberwert − Mittelwert); net < 0: OVM = Mittelwert + net × 0,20 × (Mittelwert − Unterwert). Ergebnis kaufmännisch auf Cent gerundet (Beispiel Mietspiegel 2024 Nr. 10.4). Energie: entweder gebaeude-m08 oder gebaeude-m09…m11; entweder gebaeude-p08 oder gebaeude-p09…p11. Rundung: einmal auf das Gesamtergebnis (wie Beispiel Mietspiegel 2024 bei net = +1). Für |net| ≥ 2 sagt der Mietspiegel nicht, ob je Gruppe oder einmal gerundet wird; Abweichung bis 2 Cent möglich; Rundung je Gruppe würde bei net = ±5 den Spannenrand verfehlen."
  },
  "lwu": {
   "source": "koopv_2024",
@@ -590,7 +590,7 @@
   {
    "id": "kappung",
    "source": "kappgrv_2023",
-   "formula_de": "cap_rent = rent_3y_ago × (1 + kappung_rate) + increases_559_560 (auf Cent gerundet); rent_3y_ago fehlt → current_rent, dann Hinweis need_rent_3y, falls die letzte Änderung weniger als drei Jahre vor pay_from liegt oder unbekannt ist."
+   "formula_de": "cap_rent = rent_3y_ago × (1 + kappung_rate) + increases_559_560 (auf Cent gerundet); rent_3y_ago fehlt → base_rent = current_rent − increases_559_560 (die jetzige Miete enthält die Erhöhungen nach §§ 559–560 schon), dann Hinweis need_rent_3y, falls Erhöhungen nach §§ 559–560 angegeben sind oder die letzte Änderung weniger als drei Jahre vor pay_from liegt oder unbekannt ist."
   },
   {
    "id": "max_rent",
@@ -630,7 +630,7 @@
   {
    "id": "wartefrist_earliest_effective",
    "source": "bgh_viii_zr_178_03",
-   "formula_de": "wartefrist_ok = (1. Tag 3. Kalendermonat nach Zugang) ≥ last_change + 15 Monate (after_period)."
+   "formula_de": "wartefrist_ok = max(1. Tag 3. Kalendermonat nach Zugang, requested_effective) ≥ last_change + 15 Monate (after_period); maßgeblich ist der Zeitpunkt, zu dem die Erhöhung eintreten soll (§ 558 Abs. 1 S. 1 BGB)."
   },
   {
    "id": "requested_too_early",
@@ -1191,6 +1191,74 @@
     "sue_deadline": "2026-06-30"
    },
    "id": "t33"
+  },
+  {
+   "id": "t34",
+   "note_de": "Kappungsgrenze ohne Miete vor drei Jahren, mit Modernisierungserhöhung: Die jetzige Miete 700 € enthält 100 € nach § 559. Ausgangsmiete 600 € → 600 × 1,15 + 100 = 790 €; verlangt 800 € liegt darüber (§ 558 Abs. 3 S. 1 BGB).",
+   "input": {
+    "received": "2026-01-15",
+    "demanded_rent": 800,
+    "current_rent": 700,
+    "last_change": "2020-01-01",
+    "area": 70,
+    "ovm_per_sqm": 12,
+    "increases_559_560": 100
+   },
+   "expected": {
+    "cap_rent": 790,
+    "base_rent": 600,
+    "base_assumed": true,
+    "findings": ["over_cap"]
+   }
+  },
+  {
+   "id": "t35",
+   "note_de": "Wie t34, verlangt 780 € (unter 790 €): kein grünes Ergebnis, weil die Ausgangsmiete nur angenommen ist.",
+   "input": {
+    "received": "2026-01-15",
+    "demanded_rent": 780,
+    "current_rent": 700,
+    "last_change": "2020-01-01",
+    "area": 70,
+    "ovm_per_sqm": 12,
+    "increases_559_560": 100
+   },
+   "expected": {
+    "cap_rent": 790,
+    "base_rent": 600,
+    "base_assumed": true,
+    "findings": ["need_rent_3y"]
+   }
+  },
+  {
+   "id": "t36",
+   "note_de": "Wartefrist am vom Vermieter genannten späteren Termin: letzte Änderung 10.01.2025, Zugang 15.01.2026, verlangt ab 01.06.2026. Die 15 Monate enden am 10.04.2026, vor dem 01.06.2026 → Wartefrist eingehalten (§ 558 Abs. 1 S. 1 BGB).",
+   "input": {
+    "received": "2026-01-15",
+    "last_change": "2025-01-10",
+    "requested_effective": "2026-06-01",
+    "current_rent": 700,
+    "rent_3y_ago": 700,
+    "demanded_rent": 750,
+    "area": 60,
+    "ovm_per_sqm": 13
+   },
+   "expected": {
+    "wartefrist_ok": true,
+    "pay_from": "2026-06-01",
+    "findings": ["within_limits"]
+   }
+  },
+  {
+   "id": "t37",
+   "note_de": "Halb eingetippte Jahreszahl (0002-03-15) ist kein Datum → keine Fristen.",
+   "input": {
+    "received": "0002-03-15"
+   },
+   "expected": {
+    "consent_deadline": null,
+    "sue_deadline": null
+   }
   },
   {
    "id": "w01",

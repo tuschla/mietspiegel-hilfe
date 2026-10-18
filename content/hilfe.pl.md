@@ -16,15 +16,15 @@ Ta strona podaje tylko ogólne informacje. Zanim zgodzisz się na podwyżkę czy
 
 **Telefon informacyjny Senatu w sprawie czynszu (Servicetelefon Miete).** Pytania o berlińskie zwierciadło czynszów (Mietspiegel) i o czynsz: (030) 90173 3860. Na pytania z prawa najmu odpowiadają porady w dzielnicach.
 
-**Mietpreisprüfstelle Berlin (urząd sprawdzający wysokość czynszu).** Bezpłatna pierwsza porada kraju związkowego Berlin dla wszystkich berlińskich gospodarstw domowych, które wynajmują mieszkanie, jeśli podejrzewasz, że twój czynsz jest za wysoki, na przykład z powodu hamulca czynszowego (Mietpreisbremse). Porada tylko po umówieniu terminu. Także po angielsku.
+**Mietpreisprüfstelle Berlin (urząd sprawdzający wysokość czynszu).** Bezpłatna pierwsza porada kraju związkowego Berlin dla wszystkich berlińskich gospodarstw domowych, które wynajmują mieszkanie, jeśli podejrzewasz, że twój czynsz jest za wysoki, na przykład z powodu hamulca czynszowego (Mietpreisbremse). Porada tylko po umówieniu terminu. Informacje także po angielsku.
 <https://www.berlin.de/mietpreispruefstelle>
 
-**Porady w wielu językach.** Centrum Powitalne (Willkommenszentrum) pełnomocniczki Senatu ds. integracji ma stronę o czynszu i podwyżce czynszu oraz wyszukiwarkę poradni w wielu językach:
-<https://willkommenszentrum.berlin.de/en/housing/rent>
+**Porady w wielu językach.** Centrum Powitalne (Willkommenszentrum) pełnomocniczki Senatu ds. integracji ma wyszukiwarkę poradni. Możesz tam szukać według tematu „Housing” (mieszkanie) i według swojego języka (strona po angielsku):
+<https://willkommenszentrum.berlin.de/en/counseling-centers>
 
 ## Dla najemców spółek mieszkaniowych należących do Berlina
 
-**Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen** (rzecznik najemców spółek mieszkaniowych należących do Berlina: degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM). Doradza w sprawie umowy o współpracy (Kooperationsvereinbarung) i obietnicy przystępności czynszu (Leistbarkeitsversprechen), po niemiecku i po angielsku. Nie doradza w ogólnych sprawach prawa najmu.
+**Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen** (rzecznik najemców spółek mieszkaniowych należących do Berlina: degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM oraz berlinovo z jej „klasycznymi” mieszkaniami na wynajem). Doradza w sprawie umowy o współpracy (Kooperationsvereinbarung) i obietnicy przystępności czynszu (Leistbarkeitsversprechen), po niemiecku i po angielsku. Nie doradza w ogólnych sprawach prawa najmu.
 <https://www.ombud-lwu.de/>
 
 ## Stowarzyszenia lokatorów (Mietervereine, ze składką członkowską)
@@ -39,6 +39,6 @@ Stowarzyszenia lokatorów doradzają swoim członkom. Płacisz za to składkę c
 
 ## Adwokatki i adwokaci (Rechtsanwältinnen und Rechtsanwälte)
 
-W sprawie procesu sądowego albo sprawdzenia twojej konkretnej sprawy możesz zwrócić się do adwokatki lub adwokata od prawa najmu. To kosztuje, jeśli nie masz ubezpieczenia ochrony prawnej (Rechtsschutzversicherung).
+W sprawie procesu sądowego albo sprawdzenia twojej konkretnej sprawy możesz zwrócić się do adwokatki lub adwokata od prawa najmu. To kosztuje, jeśli nie masz ubezpieczenia ochrony prawnej (Rechtsschutzversicherung). Jeśli masz mało pieniędzy, możesz złożyć w sądzie rejonowym (Amtsgericht) wniosek o pomoc w uzyskaniu porady (Beratungshilfe, Beratungshilfegesetz). Na proces sądowy istnieje pomoc w pokryciu kosztów procesu (Prozesskostenhilfe, § 114 ZPO). Jeśli przegrasz proces, i tak musisz zapłacić koszty wynajmującego (§ 123 ZPO).
 
 Verbraucherzentrale Berlin (centrala konsumencka) według własnych informacji **nie** doradza w sprawach prawa najmu.

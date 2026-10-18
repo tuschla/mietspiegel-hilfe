@@ -18,19 +18,23 @@ Ta strona dotyczy tylko sytuacji, w której w liście jest napisane, że masz **
 - podwyżka czynszu po modernizacji (§ 559 BGB),
 - nowe zaliczki na koszty eksploatacyjne (Betriebskosten) (§ 560 BGB),
 - czynsz indeksowany (Indexmiete, § 557b BGB) lub czynsz stopniowany (Staffelmiete, § 557a BGB),
-- mieszkanie socjalne lub inne mieszkanie dotowane ze stałym czynszem. Wtedy w liście często jest napisane „Kostenmiete” (czynsz ustalany według kosztów) albo „Wohnungsbindungsgesetz” (ustawa o mieszkaniach dotowanych ze stałym czynszem).
+- stare mieszkanie socjalne z „Kostenmiete” (czynsz ustalany według kosztów). Wtedy w liście często jest napisane „Kostenmiete”, „Wirtschaftlichkeitsberechnung” (obliczenie opłacalności) albo „Wohnungsbindungsgesetz” (ustawa o mieszkaniach dotowanych ze stałym czynszem).
 
 Zasady z tej strony **nie** dotyczą też:
 
-- pokoju w mieszkaniu, w którym mieszka sam wynajmujący,
-- mieszkania wynajętego tylko na krótki czas,
+- pokoju umeblowanego przez wynajmującego w mieszkaniu, w którym on sam mieszka (nie, jeśli mieszkasz tam na stałe ze swoją rodziną albo z partnerką lub partnerem),
+- mieszkania wynajętego tylko do przejściowego użytku (sama umowa z datą końcową tu nie wystarczy),
 - pokoju w akademiku lub w bursie dla młodzieży.
+
+W tych trzech przypadkach ustawowe zasady dotyczące podwyżki czynszu nie obowiązują. Co obowiązuje, zależy od twojej umowy. Wynajmujący może ci tam jednak łatwiej wypowiedzieć umowę.
 
 Berlińskie zwierciadło czynszów (Mietspiegel) nie dotyczy poza tym mieszkań w domach jedno- lub dwurodzinnych i w domach szeregowych, mieszkań z WC poza mieszkaniem oraz nowych budynków (Mietspiegel 2026: gotowe od 2025; Mietspiegel 2024: gotowe od 2023).
 
+**Nowsze mieszkanie socjalne albo inne mieszkanie dotowane bez „Kostenmiete”:** Tutaj wynajmujący musi poprosić cię o zgodę, tak jak opisano na tej stronie. Dodatkowo czynsz nie może przekraczać czynszu maksymalnego wynikającego z dotacji (Förderung). Zwierciadła czynszów nie można wtedy zastosować bezpośrednio. Skorzystaj z porady.
+
 W takich przypadkach **nie** przestawaj po prostu płacić. Skorzystaj z porady: [Pomoc i porady](@/hilfe.pl.md).
 
-*Źródło: § 558 Abs. 2 Satz 2 BGB, § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
+*Źródło: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe” (neue Sozialwohnungen); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
 
 ## Czym jest żądanie podwyżki czynszu?
 
@@ -81,11 +85,13 @@ Jeśli pismo ma błędy formalne, na przykład nie ma uzasadnienia, wynajmujący
 
 Jeśli nic nie zrobisz, nie jest to zgoda. Wynajmujący może jednak wtedy wnieść pozew. Sąd sprawdzi wtedy, czy podwyżka jest uzasadniona.
 
+**Pismo z sądu:** Jeśli wynajmujący wniesie pozew, dostaniesz pismo z sądu rejonowego (Amtsgericht). Wtedy od razu idź do poradni. Często masz tylko 2 tygodnie na odpowiedź do sądu. Jeśli nie odpowiesz na czas, sąd może rozstrzygnąć bez ciebie, najczęściej na korzyść wynajmującego.
+
 **Ale uważaj przy płaceniu:** Zgoda nie wymaga żadnej określonej formy. Kto kilka razy zapłaci wyższy czynsz bez zastrzeżenia (ohne Vorbehalt), może w ten sposób wyrazić zgodę. Federalny Trybunał Sprawiedliwości (BGH) tak ocenił sytuację, w której wyższy czynsz zapłacono trzy razy bez zastrzeżenia. Dlatego nie płać po prostu wyższego czynszu, jeśli jeszcze nie chcesz się zgodzić.
 
 **Polecenie zapłaty (Lastschrift):** Jeśli wynajmujący ma twoją zgodę na pobieranie czynszu z twojego konta, sprawdź konto. Jeśli wyższy czynsz jest pobierany już przed twoją zgodą, od razu napisz do wynajmującego: nie wyrażasz zgody, a płatność następuje tylko z zastrzeżeniem (unter Vorbehalt). Zapytaj w swoim banku, czy możesz cofnąć polecenie zapłaty. Skorzystaj z porady.
 
-*Źródło: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13 und 21.*
+*Źródło: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13 und 21; § 276 Abs. 1, § 331 Abs. 3 ZPO.*
 
 ## Zgoda, częściowa zgoda, odmowa
 
@@ -144,9 +150,9 @@ Dlatego zbieraj dowody wcześnie: umowa najmu, protokół zdawczo-odbiorczy (Üb
 
 Po żądaniu podwyżki czynszu możesz wypowiedzieć umowę w trybie nadzwyczajnym (prawo do nadzwyczajnego wypowiedzenia). To znaczy: z krótszym terminem niż zwykle. Wypowiedzenie musi dotrzeć do wynajmującego do końca drugiego miesiąca po doręczeniu. Najem kończy się wtedy z końcem miesiąca po następnym. Przykład: wypowiedzenie dociera w grudniu. Wtedy najem kończy się z końcem lutego. Podwyżka czynszu wtedy nie obowiązuje.
 
-Tekst ustawy mówi tutaj „Monat” (miesiąc), a nie „Kalendermonat” (miesiąc kalendarzowy). Bezpiecznie jest, jeśli wypowiedzenie dotrze w ciągu dwóch miesięcy od dnia doręczenia. Wypowiedzenie musi mieć formę pisemną (Schriftform), czyli być na papierze z twoim podpisem. E-mail nie wystarczy. Jeśli umowę najmu podpisało kilka osób, najbezpieczniej jest, gdy wypowiedzenie podpiszą wszystkie. Wcześniej skorzystaj z porady.
+Tekst ustawy mówi tutaj „Monat” (miesiąc), a nie „Kalendermonat” (miesiąc kalendarzowy). Bezpiecznie jest, jeśli wypowiedzenie dotrze w ciągu dwóch miesięcy od dnia doręczenia. Wypowiedzenie musi mieć formę pisemną (Schriftform), czyli być na papierze z twoim podpisem. E-mail nie wystarczy. Jeśli umowę najmu podpisało kilka osób, co do zasady wszystkie muszą podpisać wypowiedzenie. Wcześniej skorzystaj z porady.
 
-*Źródło: § 561 BGB, § 568 Abs. 1 BGB.*
+*Źródło: § 561 BGB, § 568 Abs. 1 BGB; BGH, Urteil vom 16.03.2005 – VIII ZR 14/04.*
 
 ## Wynajmujący należący do Berlina
 

@@ -16,15 +16,15 @@ This website only gives general information. Before you agree to a rent increase
 
 **The Senate’s rent service telephone (Servicetelefon Miete).** Questions about the Berlin Mietspiegel and about rent: (030) 90173 3860. Questions on tenancy law are answered by the advice services in the districts.
 
-**Mietpreisprüfstelle Berlin (rent check office).** Free first consultation by the State of Berlin for all tenant households in Berlin if you suspect that your rent is too high, for example because of the rent brake (Mietpreisbremse). Advice by appointment only. Also in English.
+**Mietpreisprüfstelle Berlin (rent check office).** Free first consultation by the State of Berlin for all tenant households in Berlin if you suspect that your rent is too high, for example because of the rent brake (Mietpreisbremse). Advice by appointment only. Information also in English.
 <https://www.berlin.de/mietpreispruefstelle>
 
-**Advice in several languages.** The Welcome Centre (Willkommenszentrum) of the Senate’s Commissioner for Integration has a page on rent and rent increases and a search for advice centres in many languages:
-<https://willkommenszentrum.berlin.de/en/housing/rent>
+**Advice in several languages.** The Welcome Centre (Willkommenszentrum) of the Senate’s Commissioner for Integration has a search for advice centres. There you can search by the topic “Housing” and by your language:
+<https://willkommenszentrum.berlin.de/en/counseling-centers>
 
 ## For tenants of the state-owned housing companies
 
-**Ombudsman office for tenants of the state-owned housing companies (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen)** (degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM). It gives advice on the cooperation agreement (Kooperationsvereinbarung) and the affordability promise (Leistbarkeitsversprechen), in German and English. It does not give advice on general questions of tenancy law.
+**Ombudsman office for tenants of the state-owned housing companies (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen)** (degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM and berlinovo with its “classic” rental flats). It gives advice on the cooperation agreement (Kooperationsvereinbarung) and the affordability promise (Leistbarkeitsversprechen), in German and English. It does not give advice on general questions of tenancy law.
 <https://www.ombud-lwu.de/>
 
 ## Tenants’ associations (with a membership fee)
@@ -39,6 +39,6 @@ Tenants’ associations (Mietervereine) give advice to their members. For this y
 
 ## Lawyers
 
-For a court case or a check of your individual case, you can contact a lawyer for tenancy law (Rechtsanwältin or Rechtsanwalt für Mietrecht). This costs money if you do not have legal expenses insurance (Rechtsschutzversicherung).
+For a court case or a check of your individual case, you can contact a lawyer for tenancy law (Rechtsanwältin or Rechtsanwalt für Mietrecht). This costs money if you do not have legal expenses insurance (Rechtsschutzversicherung). If you have little money, you can apply to the local court (Amtsgericht) for advice assistance (Beratungshilfe) to pay for advice (Beratungshilfegesetz). For a court case there is legal aid (Prozesskostenhilfe, § 114 ZPO). If you lose the case, you still have to pay the landlord’s costs (§ 123 ZPO).
 
 According to its own information, the Verbraucherzentrale Berlin (consumer advice centre) does **not** give advice on tenancy law.

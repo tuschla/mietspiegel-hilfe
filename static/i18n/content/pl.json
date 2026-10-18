@@ -7,23 +7,23 @@
   "groups": {
     "bad": {
       "title": "Łazienka i WC",
-      "intro": "W tej grupie chodzi o łazienkę, WC i WC dla gości (Gäste-WC). Przy wielu cechach w zwierciadle czynszów (Mietspiegel) jest napisane „bezieht sich nicht auf Gäste-WCs” (nie dotyczy WC dla gości): wtedy liczy się tylko główna łazienka.\n\nPolicz cechy plus i cechy minus. Jeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+      "intro": "W tej grupie chodzi o łazienkę, WC i WC dla gości (Gäste-WC). Przy wielu cechach w zwierciadle czynszów (Mietspiegel) jest napisane „bezieht sich nicht auf Gäste-WCs” (nie dotyczy WC dla gości): wtedy liczy się tylko główna łazienka.\n\nPolicz cechy plus i cechy minus. Jeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każda grupa, która liczy się jako plus, przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każda grupa, która liczy się jako minus, przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
     },
     "kueche": {
       "title": "Kuchnia",
-      "intro": "W tej grupie chodzi o kuchnię. Liczy się tylko to, co zapewnił wynajmujący. Kuchnia albo urządzenia, za które zapłacono z twoich pieniędzy, się nie liczą.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+      "intro": "W tej grupie chodzi o kuchnię. Liczy się tylko to, co zapewnił wynajmujący. Kuchnia albo urządzenia, za które zapłacono z twoich pieniędzy, się nie liczą.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każda grupa, która liczy się jako plus, przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każda grupa, która liczy się jako minus, przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
     },
     "wohnung": {
       "title": "Mieszkanie",
-      "intro": "W tej grupie chodzi o samo mieszkanie: okna, przewody, układ pomieszczeń, balkon, podłogi i ogrzewanie. Wiele cech mówi „überwiegend” (przeważnie). Według znaczenia słowa oznacza to: w ponad połowie, na przykład okien albo pomieszczeń.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+      "intro": "W tej grupie chodzi o samo mieszkanie: okna, przewody, układ pomieszczeń, balkon, podłogi i ogrzewanie. Wiele cech mówi „überwiegend” (przeważnie). Według znaczenia słowa oznacza to: w ponad połowie, na przykład okien albo pomieszczeń.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każda grupa, która liczy się jako plus, przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każda grupa, która liczy się jako minus, przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
     },
     "gebaeude": {
       "title": "Budynek",
-      "intro": "W tej grupie chodzi o dom: klatkę schodową, piwnicę, wejście, windę, stan i energię. Przy zużyciu energii obowiązuje zasada szczególna: zaznaczasz albo cechę dotyczącą izolacji cieplnej lub instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego (Energiekennwert) ze świadectwa energetycznego (Energieausweis), nie jedno i drugie. Przy wskaźniku mogą się liczyć maksymalnie trzy kratki.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+      "intro": "W tej grupie chodzi o dom: klatkę schodową, piwnicę, wejście, windę, stan i energię. Przy zużyciu energii obowiązuje zasada szczególna: zaznaczasz albo cechę dotyczącą izolacji cieplnej lub instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego (Energiekennwert) ze świadectwa energetycznego (Energieausweis), nie jedno i drugie. Przy wskaźniku mogą się liczyć maksymalnie trzy kratki.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każda grupa, która liczy się jako plus, przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każda grupa, która liczy się jako minus, przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
     },
     "umfeld": {
       "title": "Otoczenie mieszkania",
-      "intro": "W tej grupie chodzi o otoczenie: hałas, zapach, rowery, działkę, miejsca parkingowe i ogród. Lokalizacja (Wohnlage: prosta, średnia, dobra) jest już uwzględniona w tabeli. Tutaj chodzi o szczególne cechy twojego mieszkania.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każdy plus przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każdy minus przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+      "intro": "W tej grupie chodzi o otoczenie: hałas, zapach, rowery, działkę, miejsca parkingowe i ogród. Lokalizacja (Wohnlage: prosta, średnia, dobra) jest już uwzględniona w tabeli. Tutaj chodzi o szczególne cechy twojego mieszkania.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każda grupa, która liczy się jako plus, przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każda grupa, która liczy się jako minus, przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
     }
   },
   "features": {
@@ -542,7 +542,7 @@
     "intro": "Wpisz dane z pisma od wynajmującego. Terminy i limity obliczamy według stałych reguł. Wynik opiera się tylko na twoich danych. Nie jest to prawna ocena twojej sprawy.",
     "received": "Dzień, w którym pismo do ciebie dotarło",
     "received_help": "Nie data na liście, tylko dzień, w którym list był w twojej skrzynce pocztowej lub skrytce pocztowej (Postfach).",
-    "last_change": "Od kiedy obowiązuje twój obecny czynsz?",
+    "last_change": "Od kiedy obowiązuje twój czynsz, nie licząc podwyżek z powodu modernizacji albo kosztów eksploatacyjnych?",
     "last_change_help": "Dzień, w którym ostatnia podwyżka weszła w życie, czyli od którego trzeba było płacić wyższy czynsz. Jeśli nie było jeszcze żadnej podwyżki – początek umowy najmu. Podwyżki z powodu modernizacji lub kosztów eksploatacyjnych (Betriebskosten) się nie liczą.",
     "current_rent": "Twój obecny czynsz netto bez kosztów dodatkowych (Nettokaltmiete) miesięcznie",
     "current_rent_help": "Czynsz bez kosztów eksploatacyjnych (Betriebskosten) i bez kosztów ogrzewania.",
@@ -553,7 +553,7 @@
     "area": "Powierzchnia mieszkalna w m²",
     "ovm_per_sqm": "Lokalny czynsz porównawczy (ortsübliche Vergleichsmiete) w € za m² (z kalkulatora)",
     "requested_effective": "Od kiedy według wynajmującego ma obowiązywać nowy czynsz?",
-    "disclaimer": "Podane daty to daty kalendarzowe. Tylko przy terminie na pozew wynajmującego pokazujemy następny dzień roboczy, jeśli koniec terminu wypada w sobotę, niedzielę lub święto w Berlinie (§ 193 BGB). Swoje własne terminy planuj według daty kalendarzowej i lepiej odpowiedz kilka dni wcześniej.",
+    "disclaimer": "Podane daty to daty kalendarzowe. Tylko przy terminie na pozew wynajmującego liczymy z następnym dniem roboczym, jeśli koniec terminu wypada w sobotę, niedzielę lub święto w Berlinie (§ 193 BGB). Przy twoim własnym terminie podajemy go tylko jako wskazówkę. Swoje własne terminy planuj według daty kalendarzowej i lepiej odpowiedz kilka dni wcześniej.",
     "result": {
       "sperrfrist_fail": {
         "title": "Żądanie dotarło być może za wcześnie",
@@ -577,7 +577,7 @@
       },
       "no_ovm": {
         "title": "Brak czynszu porównawczego",
-        "text": "Nie wpisano czynszu porównawczego. Dlatego sprawdzamy tylko limit podwyżki (Kappungsgrenze) i terminy. Użyj kalkulatora, aby oszacować czynsz porównawczy."
+        "text": "Nie wpisano czynszu porównawczego albo powierzchni mieszkalnej. Dlatego sprawdzamy tylko limit podwyżki (Kappungsgrenze) i terminy. Użyj kalkulatora, aby oszacować czynsz porównawczy."
       },
       "requested_too_early": {
         "title": "Podany termin jest za wczesny",
@@ -616,7 +616,7 @@
     "ablehnung": {
       "title": "Odmowa (Ablehnung)",
       "when": "Gdy nie chcesz zgodzić się na podwyżkę, na przykład dlatego, że uważasz ją za zbyt wysoką albo uważasz, że pismo zawiera błędy.",
-      "risks": "Odmowa nie kończy sprawy. Wynajmujący może w ciągu trzech miesięcy po upływie twojego terminu pozwać cię o wyrażenie zgody. Kto przegra proces, ponosi jego koszty (§ 91 ZPO). Jeśli sąd przyzna rację wynajmującemu, twoją zgodę uważa się za udzieloną, gdy nie można już nic zrobić przeciwko wyrokowi (prawomocność, Rechtskraft, § 894 ZPO). Wtedy musisz zapłacić wyższy czynsz od dnia podwyżki, czyli także za miesiące w trakcie procesu (§ 558b Abs. 1 BGB). Najlepiej odkładaj na to pieniądze. Przy podwyżce czynszu na podstawie § 558 BGB do czasu rozstrzygnięcia płacisz dalej dotychczasowy czynsz, a nie wyższy. Nie dotyczy to modernizacji, kosztów eksploatacyjnych (Betriebskosten), czynszu indeksowanego lub stopniowanego (Index- oder Staffelmiete) ani mieszkania socjalnego. Sprawdź polecenie zapłaty (Lastschrift).",
+      "risks": "Odmowa nie kończy sprawy. Wynajmujący może w ciągu trzech miesięcy po upływie twojego terminu pozwać cię o wyrażenie zgody. Jeśli dostaniesz pismo z sądu, od razu idź do poradni. Często masz tylko 2 tygodnie na odpowiedź do sądu (§ 276 ZPO). W przeciwnym razie sąd może rozstrzygnąć bez ciebie (§ 331 ZPO). Kto przegra proces, ponosi jego koszty (§ 91 ZPO). Jeśli sąd przyzna rację wynajmującemu, twoją zgodę uważa się za udzieloną, gdy nie można już nic zrobić przeciwko wyrokowi (prawomocność, Rechtskraft, § 894 ZPO). Wtedy musisz zapłacić wyższy czynsz od dnia podwyżki, czyli także za miesiące w trakcie procesu (§ 558b Abs. 1 BGB). Najlepiej odkładaj na to pieniądze. Przy podwyżce czynszu na podstawie § 558 BGB do czasu rozstrzygnięcia płacisz dalej dotychczasowy czynsz, a nie wyższy. Nie dotyczy to modernizacji, kosztów eksploatacyjnych (Betriebskosten), czynszu indeksowanego lub stopniowanego (Index- oder Staffelmiete) ani „Kostenmiete” w starym mieszkaniu socjalnym. Sprawdź polecenie zapłaty (Lastschrift).",
       "explain": "Tym listem odmawiasz zgody na podwyżkę czynszu. Ustawa nie wymaga uzasadnienia. Możesz jednak wymienić cechy z pomocy orientacyjnej (Orientierungshilfe), które oceniasz inaczej. Są to cechy plus, które wynajmujący uwzględnił, a których nie uznajesz. Oraz cechy minus, których nie uwzględnił. Wybieraj tylko cechy sprawdzone osobiście przez ciebie. Nie musisz wysyłać odmowy: jeśli nic nie zrobisz, to również nie wyrażasz zgody. List jasno pokazuje jednak twoje stanowisko."
     },
     "nachfrage": {
@@ -630,7 +630,7 @@
       "tenant_address": "Twój adres",
       "landlord_name": "Nazwa wynajmującego lub zarządcy budynku (Hausverwaltung)",
       "landlord_address": "Adres wynajmującego",
-      "contract_number": "Numer umowy najmu lub numer klienta (jeśli jest)",
+      "contract_number": "Numer umowy najmu lub numer klienta",
       "place": "Miejscowość",
       "demand_date": "Data pisma od wynajmującego",
       "received": "Dzień, w którym pismo do ciebie dotarło",
@@ -640,13 +640,13 @@
       "agreed_rent": "Czynsz netto bez kosztów dodatkowych (Nettokaltmiete), na który się zgadzasz (miesięcznie)",
       "disputed_plus": "Cechy plus podane przez wynajmującego, których nie uznajesz",
       "missing_minus": "Cechy minus, których wynajmujący nie uwzględnił",
-      "questions": "Dalsze pytania (opcjonalnie)",
-      "own_text": "Własny dopisek (opcjonalnie)",
+      "questions": "Dalsze pytania",
+      "own_text": "Własny dopisek",
       "tenant_name_help": "Tak, jak jest w umowie najmu. Jeśli umowę podpisało kilka osób, wszystkie powinny się podpisać.",
       "received_help": "To ważne dla wszystkich terminów. Zanotuj datę i zachowaj kopertę.",
       "contract_number_help": "Często jest na górze pisma od wynajmującego.",
       "agreed_rent_help": "Wpisz tylko kwotę, którą na pewno uważasz za prawidłową. Ta kwota cię wiąże.",
-      "effective_help": "Wpisz termin z pisma wynajmującego. Jeśli ten termin jest wcześniejszy niż początek trzeciego miesiąca kalendarzowego po doręczeniu (Zugang), obowiązuje późniejszy dzień. Kalkulator wpisuje w to pole późniejszy z tych dwóch dni. Sprawdź to.",
+      "effective_help": "Wpisz termin z pisma wynajmującego. Nowy czynsz obowiązuje najwcześniej od początku trzeciego miesiąca kalendarzowego po doręczeniu (Zugang). Poza tym w tym dniu czynsz musi być niezmieniony od 15 miesięcy, w przeciwnym razie obowiązuje późniejszy dzień. ‚Sprawdź terminy i limity’ wpisuje w to pole najpóźniejszy z tych dni. Sprawdź to.",
       "disputed_plus_help": "Wybieraj tylko cechy sprawdzone osobiście przez ciebie.",
       "missing_minus_help": "Wybieraj tylko cechy sprawdzone przez ciebie w twoim mieszkaniu, na które masz dowody.",
       "own_text_help": "Tego tekstu nie sprawdzamy. Trafia do listu bez zmian. Pisz tylko prawdziwe fakty. W zgodzie nie wpisuj żadnych warunków ani kontrpropozycji („nur wenn …” – „tylko jeśli …”). Wtedy zgoda może zostać uznana za odmowę.",
@@ -672,7 +672,7 @@
     },
     "netting": {
       "title": "Jak ustala się miejsce w przedziale (Spanne)",
-      "text": "W każdej z pięciu grup policz cechy plus i cechy minus. Więcej plusów: grupa liczy się jako plus. Więcej minusów: jako minus. Tyle samo plusów i minusów: 0. Następnie rozlicz grupy między sobą. Każdy plus przesuwa wartość w górę o jedną piątą odległości od wartości średniej do wartości górnej, każdy minus w dół o jedną piątą odległości do wartości dolnej (Mietspiegel Nr. 10.3). Zwierciadło czynszów (Mietspiegel) nie mówi, czy przy tym zaokrągla się dla każdej grupy osobno, czy tylko raz. Możliwe są odchylenia o jeden cent."
+      "text": "W każdej z pięciu grup policz cechy plus i cechy minus. Więcej plusów: grupa liczy się jako plus. Więcej minusów: jako minus. Tyle samo plusów i minusów: 0. Następnie rozlicz grupy między sobą. Każda grupa, która liczy się jako plus, przesuwa wartość w górę o jedną piątą odległości od wartości średniej do wartości górnej, każda grupa, która liczy się jako minus, w dół o jedną piątą odległości do wartości dolnej (Mietspiegel Nr. 10.3). Zwierciadło czynszów (Mietspiegel) nie mówi, czy przy tym zaokrągla się dla każdej grupy osobno, czy tylko raz. Możliwe są odchylenia o jeden cent."
     },
     "consent_deadline": {
       "title": "Twój termin na wyrażenie zgody",
@@ -712,7 +712,7 @@
     },
     "silence": {
       "title": "Milczenie nie jest zgodą",
-      "text": "Jeśli nic nie zrobisz, nie wyrażasz zgody. Wynajmujący może wtedy wnieść pozew (§ 558b Abs. 2 BGB)."
+      "text": "Jeśli nic nie zrobisz, nie wyrażasz zgody. Wynajmujący może wtedy wnieść pozew (§ 558b Abs. 2 BGB). Jeśli dostaniesz pismo z sądu, od razu idź do poradni. Często masz tylko 2 tygodnie na odpowiedź (§ 276 ZPO)."
     },
     "payment_consent": {
       "title": "Płacenie może oznaczać zgodę",
@@ -740,7 +740,7 @@
     },
     "lwu": {
       "title": "Spółki mieszkaniowe należące do Berlina (landeseigene Wohnungsunternehmen)",
-      "text": "W degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND i WBM obowiązują dodatkowe dobrowolne zobowiązania, dopóki obowiązuje umowa o współpracy (Kooperationsvereinbarung) (do 31.12.2027): najwyżej 11% więcej w ciągu trzech lat (porozumienie sojuszu – Bündnis-Vereinbarung z 15.07.2025) i najwyżej 50 € (do 65 m²), 75 € (do 100 m²) lub 100 € (do 125 m²) więcej miesięcznie (Kooperationsvereinbarung II.8). Poza tym istnieje obietnica przystępności cenowej (Leistbarkeitsversprechen): na wniosek czynsz netto bez kosztów dodatkowych (Nettokaltmiete) wynosi najwyżej 27% dochodu gospodarstwa domowego, jeśli spełnione są limity dochodu i powierzchni."
+      "text": "W degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND i WBM obowiązują dodatkowe dobrowolne zobowiązania, dopóki obowiązuje umowa o współpracy (Kooperationsvereinbarung) (do 31.12.2027): najwyżej 11% więcej w ciągu trzech lat (porozumienie sojuszu – Bündnis-Vereinbarung z 15.07.2025) i najwyżej 50 € (do 65 m²), 75 € (do 100 m²) lub 100 € (do 125 m²) więcej miesięcznie (Kooperationsvereinbarung II.8). Poza tym istnieje obietnica przystępności cenowej (Leistbarkeitsversprechen): na wniosek czynsz netto bez kosztów dodatkowych (Nettokaltmiete) wynosi najwyżej 27% dochodu gospodarstwa domowego, jeśli spełnione są limity dochodu i powierzchni. Umowa o współpracy (Kooperationsvereinbarung) dotyczy także berlinovo w obszarze „Klassisches Wohnen” (klasyczne mieszkalnictwo)."
     },
     "pay_from": {
       "title": "Od kiedy trzeba by płacić",
@@ -748,7 +748,7 @@
     },
     "scope": {
       "title": "Czy to dotyczy ciebie?",
-      "text": "Ta pomoc dotyczy tylko sytuacji, gdy wynajmujący prosi cię o zgodę na wyższy czynsz (§ 558 BGB). Nie dotyczy podwyżki po modernizacji (§ 559 BGB), nowych zaliczek na koszty eksploatacyjne (§ 560 BGB), czynszu indeksowanego lub stopniowanego, mieszkania socjalnego ani innego dotowanego mieszkania ze stałym czynszem (§ 558 Abs. 2 Satz 2 BGB), pokoju w mieszkaniu wynajmującego, mieszkania wynajmowanego tylko na krótki czas ani domu zbiorowego zamieszkania (Wohnheim) (§ 549 BGB). W takich przypadkach zwykle musisz płacić wyższy czynsz także bez swojej zgody. Nie przestawaj po prostu płacić. Skorzystaj z porady."
+      "text": "Ta pomoc dotyczy tylko sytuacji, gdy wynajmujący prosi cię o zgodę na wyższy czynsz (§ 558 BGB).\n\nNie dotyczy: modernizacji (§ 559 BGB), nowych zaliczek na koszty eksploatacyjne (§ 560 BGB), czynszu indeksowanego lub stopniowanego ani starego mieszkania socjalnego z „Kostenmiete” (czynsz według kosztów, § 10 Wohnungsbindungsgesetz). W takich przypadkach zwykle musisz płacić wyższy czynsz także bez swojej zgody.\n\nNie dotyczy też umeblowanego pokoju w mieszkaniu wynajmującego, mieszkania wynajmowanego tylko do przejściowego użytku ani akademika lub domu dla młodzieży (Studenten- oder Jugendwohnheim) (§ 549 BGB). Tam zasady dotyczące podwyżki czynszu nie obowiązują. Co obowiązuje, zależy od twojej umowy.\n\nNie przestawaj po prostu płacić. Skorzystaj z porady."
     },
     "mietpreisbremse_after_consent": {
       "title": "Sprawdź hamulec czynszowy (Mietpreisbremse) przed wyrażeniem zgody",

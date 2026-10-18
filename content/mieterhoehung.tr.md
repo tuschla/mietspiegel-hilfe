@@ -18,19 +18,23 @@ Bu sayfa yalnızca mektupta daha yüksek bir kirayı **onaylamanız** (zustimmen
 - bir modernizasyondan sonra kira artışı (§ 559 BGB),
 - yan giderler (Betriebskosten) için yeni avans ödemeleri (§ 560 BGB),
 - endeksli kira (Indexmiete, § 557b BGB) veya kademeli kira (Staffelmiete, § 557a BGB),
-- sabit kiralı sosyal konut veya başka bir destekli konut. O zaman mektupta çoğu zaman „Kostenmiete“ veya „Wohnungsbindungsgesetz“ yazar.
+- „Kostenmiete“ (maliyet kirası) olan eski sosyal konut. O zaman mektupta çoğu zaman „Kostenmiete“, „Wirtschaftlichkeitsberechnung“ veya „Wohnungsbindungsgesetz“ yazar.
 
 Bu sayfadaki kurallar şunlar için de **geçerli değildir:**
 
-- ev sahibinin kendisinin oturduğu dairedeki bir oda,
-- yalnızca kısa süreliğine kiralanan bir daire,
+- ev sahibinin kendisinin oturduğu dairede, ev sahibi tarafından eşyalı kiralanan bir oda (orada ailenizle veya partnerinizle sürekli yaşıyorsanız değil),
+- yalnızca geçici kullanım için kiralanan bir daire (yalnızca bitiş tarihi olan bir sözleşme bunun için yetmez),
 - bir öğrenci veya gençlik yurdundaki bir oda.
+
+Bu üç durumda kira artışıyla ilgili yasal kurallar geçerli değildir. Neyin geçerli olduğu sözleşmenize bağlıdır. Ancak ev sahibi orada size daha kolay fesih bildirebilir.
 
 Berlin Mietspiegel'i (kira tablosu) ayrıca şunlar için geçerli değildir: tek veya iki aileli evlerdeki ve sıra evlerdeki (Reihenhaus) daireler, tuvaleti (WC) dairenin dışında olan daireler ve yeni binalar (Mietspiegel 2026: 2025'ten itibaren tamamlananlar; Mietspiegel 2024: 2023'ten itibaren tamamlananlar).
 
+**„Kostenmiete“ olmayan daha yeni sosyal konut veya başka bir destekli konut:** Burada ev sahibi, bu sayfada anlatıldığı gibi sizden onay istemek zorundadır. Ayrıca kira, destekten (Förderung) gelen azami kirayı (Höchstmiete) aşamaz. Mietspiegel o zaman doğrudan uygulanamaz. Danışmanlık alın.
+
 Bu durumlarda ödemeyi öylece **durdurmayın**. Danışmanlık alın: [Yardım ve danışmanlık](@/hilfe.tr.md).
 
-*Kaynak: § 558 Abs. 2 Satz 2 BGB, § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
+*Kaynak: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe“ (neue Sozialwohnungen); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
 
 ## Kira artışı talebi (Mieterhöhungsverlangen) nedir?
 
@@ -81,11 +85,13 @@ Yazı şekil bakımından hatalıysa, örneğin gerekçesizse, ev sahibi bunu da
 
 Hiçbir şey yapmazsanız onay vermemiş olursunuz. Ama ev sahibi o zaman dava açabilir. Mahkeme o zaman artışın haklı olup olmadığını inceler.
 
+**Mahkemeden yazı:** Ev sahibi dava açarsa, sulh mahkemesinden (Amtsgericht) yazı alırsınız. O zaman hemen bir danışma merkezine gidin. Mahkemeye cevap vermek için çoğu zaman yalnızca 2 haftanız olur. Zamanında cevap vermezseniz mahkeme sizsiz karar verebilir; çoğu zaman ev sahibi lehine.
+
 **Ama ödemede dikkat:** Onay belli bir şekle bağlı değildir. Yüksek kirayı birkaç kez çekince (Vorbehalt) koymadan ödeyen kişi, bununla onay vermiş olabilir. Federal Yüksek Mahkeme (Bundesgerichtshof, BGH), çekincesiz üç kez ödemeyi böyle değerlendirdi. Bu nedenle henüz onay vermek istemiyorsanız, yüksek kirayı öylece ödemeyin.
 
 **Otomatik ödeme (Lastschrift):** Ev sahibine kirayı hesabınızdan çekme izni verdiyseniz, hesabınızı kontrol edin. Siz onay vermeden önce yüksek kira çekiliyorsa, ev sahibine hemen yazın: Onay vermediniz ve ödeme yalnızca çekinceyle (unter Vorbehalt) yapılıyor. Bankanıza, otomatik ödemeyi (Lastschrift) iade ettirip ettiremeyeceğinizi sorun. Danışmanlık alın.
 
-*Kaynak: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13 und 21.*
+*Kaynak: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13 und 21; § 276 Abs. 1, § 331 Abs. 3 ZPO.*
 
 ## Onay vermek, kısmen onay vermek, reddetmek
 
@@ -144,9 +150,9 @@ Bu nedenle kanıtları erken toplayın: kira sözleşmesi, teslim tutanağı (Ü
 
 Bir kira artışı talebinden sonra olağanüstü fesih yapabilirsiniz. Bu şu demektir: normalden daha kısa bir süreyle. Fesih bildirimi, yazının ulaşmasından sonraki ikinci ayın bitimine kadar ev sahibinde olmalıdır. Kira ilişkisi o zaman, fesih bildiriminin ulaştığı aydan sonraki ikinci ayın sonunda sona erer. Örnek: Fesih bildirimi Aralık'ta ulaşıyor. O zaman kira ilişkisi Şubat sonunda sona erer. Kira artışı o zaman geçerli olmaz.
 
-Yasa metni burada „Monat“ (ay) diyor, „Kalendermonat“ (takvim ayı) demiyor. Fesih bildirimi, yazının ulaştığı günden itibaren iki ay içinde ulaşırsa güvendesiniz. Fesih yazılı olmalıdır, yani kâğıt üzerinde ve sizin imzanızla. E-posta yeterli değildir. Kira sözleşmesini birden fazla kişi imzaladıysa, en güvenlisi fesih bildirimini herkesin imzalamasıdır. Önceden danışmanlık alın.
+Yasa metni burada „Monat“ (ay) diyor, „Kalendermonat“ (takvim ayı) demiyor. Fesih bildirimi, yazının ulaştığı günden itibaren iki ay içinde ulaşırsa güvendesiniz. Fesih yazılı olmalıdır, yani kâğıt üzerinde ve sizin imzanızla. E-posta yeterli değildir. Kira sözleşmesini birden fazla kişi imzaladıysa, fesih bildirimini kural olarak herkes imzalamak zorundadır. Önceden danışmanlık alın.
 
-*Kaynak: § 561 BGB, § 568 Abs. 1 BGB.*
+*Kaynak: § 561 BGB, § 568 Abs. 1 BGB; BGH, Urteil vom 16.03.2005 – VIII ZR 14/04.*
 
 ## Eyalete ait ev sahipleri
 

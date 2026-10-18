@@ -1,6 +1,6 @@
 // Scope gate shared by the checker, the calculator and the letter page.
 // Asks whether the letter is a § 558 demand for consent and whether the flat is outside § 558
-// or outside the Mietspiegel. Answers are kept in localStorage ("scope") like all other entries.
+// or outside the Mietspiegel. Answers are kept in sessionStorage ("scope") like all other entries.
 import { store, h, paras, callout } from "./common.js";
 
 /** Cases where § 558 does not apply at all (the rent may be owed without consent). */

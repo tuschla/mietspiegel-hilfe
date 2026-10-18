@@ -176,3 +176,24 @@ export function energyBoxes(ms, { value, bedarf = false, addWater = false }) {
   }
   return out;
 }
+
+/**
+ * Energy kennwert boxes are cumulative (Nr. 10.4 A: "ein, zwei oder drei … je nach der Höhe"):
+ * a value above 195 is also above 145, a value below 80 is also below 100 and 120.
+ * Adds, for every selected box with `kwh_gt`, the boxes with a smaller `kwh_gt`, and for every
+ * selected box with `kwh_lt`, the boxes with a larger `kwh_lt`. Order follows the Mietspiegel.
+ */
+export function expandKennwert(ms, ids) {
+  const set = new Set(ids);
+  const all = ms.groups.flatMap((g) => g.features);
+  const gts = all.filter((f) => set.has(f.id) && typeof f.kwh_gt === "number").map((f) => f.kwh_gt);
+  const lts = all.filter((f) => set.has(f.id) && typeof f.kwh_lt === "number").map((f) => f.kwh_lt);
+  const maxGt = gts.length ? Math.max(...gts) : null;
+  const minLt = lts.length ? Math.min(...lts) : null;
+  for (const f of all) {
+    if (maxGt !== null && typeof f.kwh_gt === "number" && f.kwh_gt <= maxGt) set.add(f.id);
+    if (minLt !== null && typeof f.kwh_lt === "number" && f.kwh_lt >= minLt) set.add(f.id);
+  }
+  const order = new Map(all.map((f, i) => [f.id, i]));
+  return [...set].sort((a, b) => (order.get(a) ?? Infinity) - (order.get(b) ?? Infinity));
+}

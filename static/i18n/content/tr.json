@@ -7,23 +7,23 @@
   "groups": {
     "bad": {
       "title": "Banyo ve tuvalet (WC)",
-      "intro": "Bu grup banyo, tuvalet ve misafir tuvaleti ile ilgilidir. Mietspiegel'de birçok özellikte „bezieht sich nicht auf Gäste-WCs“ (misafir tuvaletleri için geçerli değildir) yazar: O zaman yalnızca ana banyo sayılır.\n\nArtı ve eksi özellikleri sayın. Artı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Her artı, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Her eksi, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup banyo, tuvalet ve misafir tuvaleti ile ilgilidir. Mietspiegel'de birçok özellikte „bezieht sich nicht auf Gäste-WCs“ (misafir tuvaletleri için geçerli değildir) yazar: O zaman yalnızca ana banyo sayılır.\n\nArtı ve eksi özellikleri sayın. Artı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
     },
     "kueche": {
       "title": "Mutfak",
-      "intro": "Bu grup mutfakla ilgilidir. Yalnızca ev sahibinin sağladığı şeyler sayılır. Parasını kendiniz ödediğiniz bir mutfak ya da cihazlar sayılmaz.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Her artı, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Her eksi, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup mutfakla ilgilidir. Yalnızca ev sahibinin sağladığı şeyler sayılır. Parasını kendiniz ödediğiniz bir mutfak ya da cihazlar sayılmaz.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
     },
     "wohnung": {
       "title": "Daire",
-      "intro": "Bu grup dairenin kendisiyle ilgilidir: pencereler, tesisat hatları, oda planı, balkon, zeminler ve ısıtma. Birçok özellikte „überwiegend“ (çoğunlukla) yazar. Bu, kelime anlamına göre şu demektir: yarıdan fazlasında, örneğin pencerelerin ya da odaların yarıdan fazlasında.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Her artı, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Her eksi, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup dairenin kendisiyle ilgilidir: pencereler, tesisat hatları, oda planı, balkon, zeminler ve ısıtma. Birçok özellikte „überwiegend“ (çoğunlukla) yazar. Bu, kelime anlamına göre şu demektir: yarıdan fazlasında, örneğin pencerelerin ya da odaların yarıdan fazlasında.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
     },
     "gebaeude": {
       "title": "Bina",
-      "intro": "Bu grup binayla ilgilidir: merdiven boşluğu, bodrum, giriş, asansör, binanın durumu ve enerji. Enerji tüketiminde özel bir kural vardır: Ya ısı yalıtımı veya ısıtma sistemi ile ilgili özelliği işaretlersiniz ya da enerji kimlik belgesindeki (Energieausweis) enerji değeri (Energiekennwert) ile ilgili özellikleri; ikisini birden değil. Enerji değerinde en fazla üç kutu sayılabilir.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Her artı, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Her eksi, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup binayla ilgilidir: merdiven boşluğu, bodrum, giriş, asansör, binanın durumu ve enerji. Enerji tüketiminde özel bir kural vardır: Ya ısı yalıtımı veya ısıtma sistemi ile ilgili özelliği işaretlersiniz ya da enerji kimlik belgesindeki (Energieausweis) enerji değeri (Energiekennwert) ile ilgili özellikleri; ikisini birden değil. Enerji değerinde en fazla üç kutu sayılabilir.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
     },
     "umfeld": {
       "title": "Çevre (Wohnumfeld)",
-      "intro": "Bu grup çevreyle ilgilidir: gürültü, koku, bisikletler, arsa, park yerleri ve bahçe. Konum (Wohnlage: basit, orta, iyi) tabloda zaten hesaba katılmıştır. Burada dairenizin özel durumları söz konusudur.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Her artı, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Her eksi, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup çevreyle ilgilidir: gürültü, koku, bisikletler, arsa, park yerleri ve bahçe. Konum (Wohnlage: basit, orta, iyi) tabloda zaten hesaba katılmıştır. Burada dairenizin özel durumları söz konusudur.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
     }
   },
   "features": {
@@ -542,7 +542,7 @@
     "intro": "Ev sahibinin yazısındaki bilgileri girin. Süreleri ve sınırları sabit kurallara göre hesaplıyoruz. Sonuç yalnızca sizin bilgilerinize dayanır. Durumunuzun hukuki bir incelemesi değildir.",
     "received": "Yazının size ulaştığı gün",
     "received_help": "Mektubun üzerindeki tarih değil; mektubun posta kutunuzda veya posta kutusu adresinizde (Postfach) olduğu gün.",
-    "last_change": "Şu anki kiranız ne zamandan beri geçerli?",
+    "last_change": "Modernizasyon veya yan giderler nedeniyle yapılan artışlar hariç, kiranız ne zamandan beri geçerli?",
     "last_change_help": "Son artışın geçerli olduğu gün, yani yüksek kirayı ödemeniz gereken ilk gün. Henüz artış olmadıysa kira sözleşmesinin başlangıcı. Modernizasyon veya yan giderler (Betriebskosten) nedeniyle yapılan artışlar sayılmaz.",
     "current_rent": "Şu anki aylık net kiranız (Nettokaltmiete)",
     "current_rent_help": "Yan giderler ve ısıtma giderleri hariç kira.",
@@ -553,7 +553,7 @@
     "area": "Konut alanı (m²)",
     "ovm_per_sqm": "Yerel emsal kira (ortsübliche Vergleichsmiete), m² başına € (hesaplayıcıdan)",
     "requested_effective": "Ev sahibi yeni kirayı ne zamandan itibaren istiyor?",
-    "disclaimer": "Tarihler takvim tarihleridir. Yalnızca ev sahibinin dava açma süresinde, sürenin sonu Berlin'de cumartesi, pazar veya resmî tatile denk gelirse bir sonraki iş gününü gösteriyoruz (§ 193 BGB). Kendi süreleriniz için takvim tarihine göre plan yapın ve en iyisi birkaç gün erken cevap verin.",
+    "disclaimer": "Tarihler takvim tarihleridir. Yalnızca ev sahibinin dava açma süresinde, sürenin sonu Berlin'de cumartesi, pazar veya resmî tatile denk gelirse bir sonraki iş gününe göre hesaplıyoruz (§ 193 BGB). Sizin kendi sürenizde bu günü yalnızca bilgi olarak belirtiyoruz. Kendi süreleriniz için takvim tarihine göre plan yapın ve en iyisi birkaç gün erken cevap verin.",
     "result": {
       "sperrfrist_fail": {
         "title": "Talep belki çok erken geldi",
@@ -577,7 +577,7 @@
       },
       "no_ovm": {
         "title": "Emsal kira eksik",
-        "text": "Emsal kira girmediniz. Bu nedenle yalnızca artış sınırını ve süreleri kontrol ediyoruz. Emsal kirayı tahmin etmek için hesaplayıcıyı kullanın."
+        "text": "Emsal kira veya yaşam alanı girmediniz. Bu nedenle yalnızca artış sınırını ve süreleri kontrol ediyoruz. Emsal kirayı tahmin etmek için hesaplayıcıyı kullanın."
       },
       "requested_too_early": {
         "title": "Belirtilen tarih çok erken",
@@ -616,7 +616,7 @@
     "ablehnung": {
       "title": "Ret (Ablehnung)",
       "when": "Artışı onaylamak istemiyorsanız; örneğin artışın çok yüksek olduğunu veya yazının hatalı olduğunu düşünüyorsanız.",
-      "risks": "Ret, konuyu bitirmez. Ev sahibi, sizin sürenizin bitiminden sonraki üç ay içinde onay için dava açabilir. Davayı kaybeden, masrafları öder (§ 91 ZPO). Mahkeme ev sahibini haklı bulursa, karara karşı artık hiçbir şey yapılamadığı anda (kesinleşme, Rechtskraft, § 894 ZPO) onayınız verilmiş sayılır. Yüksek kirayı o zaman artış tarihinden itibaren borçlu olursunuz; yani dava süresindeki aylar için de (§ 558b Abs. 1 BGB). Bunun için parayı en iyisi kenara koyun. § 558 BGB'ye göre bir kira artışında karar çıkana kadar yüksek kirayı değil, eski kirayı ödemeye devam edersiniz. Bu; modernizasyon, yan giderler, endeksli veya kademeli kira ya da sosyal konut için geçerli değildir. Otomatik ödeme talimatını (Lastschrift) kontrol edin.",
+      "risks": "Ret, konuyu bitirmez. Ev sahibi, sizin sürenizin bitiminden sonraki üç ay içinde onay için dava açabilir. Mahkemeden yazı gelirse hemen bir danışma merkezine gidin. Mahkemeye cevap vermek için çoğu zaman yalnızca 2 haftanız olur (§ 276 ZPO). Yoksa mahkeme sizsiz karar verebilir (§ 331 ZPO). Davayı kaybeden, masrafları öder (§ 91 ZPO). Mahkeme ev sahibini haklı bulursa, karara karşı artık hiçbir şey yapılamadığı anda (kesinleşme, Rechtskraft, § 894 ZPO) onayınız verilmiş sayılır. Yüksek kirayı o zaman artış tarihinden itibaren borçlu olursunuz; yani dava süresindeki aylar için de (§ 558b Abs. 1 BGB). Bunun için parayı en iyisi kenara koyun. § 558 BGB'ye göre bir kira artışında karar çıkana kadar yüksek kirayı değil, eski kirayı ödemeye devam edersiniz. Bu; modernizasyon, yan giderler, endeksli veya kademeli kira ya da eski bir sosyal konuttaki „Kostenmiete“ (maliyet kirası) için geçerli değildir. Otomatik ödeme talimatını (Lastschrift) kontrol edin.",
       "explain": "Bu mektupla kira artışını reddedersiniz. Yasa bir gerekçe istemez. Ama Orientierungshilfe'deki, farklı gördüğünüz özellikleri belirtebilirsiniz. Bunlar, ev sahibinin hesaba kattığı ve sizin kabul etmediğiniz artı özellikler ile onun hesaba katmadığı eksi özelliklerdir. Yalnızca kendiniz kontrol ettiğiniz özellikleri seçin. Ret mektubu göndermek zorunda değilsiniz: Hiçbir şey yapmazsanız onay da vermemiş olursunuz. Ama bir mektup tutumunuzu açıkça gösterir."
     },
     "nachfrage": {
@@ -630,7 +630,7 @@
       "tenant_address": "Adresiniz",
       "landlord_name": "Ev sahibinin veya bina yönetiminin adı",
       "landlord_address": "Ev sahibinin adresi",
-      "contract_number": "Kira sözleşmesi veya müşteri numarası (varsa)",
+      "contract_number": "Kira sözleşmesi veya müşteri numarası",
       "place": "Yer (şehir)",
       "demand_date": "Ev sahibinin yazısının tarihi",
       "received": "Yazının size ulaştığı gün",
@@ -640,13 +640,13 @@
       "agreed_rent": "Onayladığınız net kira (aylık)",
       "disputed_plus": "Ev sahibinin, sizin kabul etmediğiniz artı özellikleri",
       "missing_minus": "Ev sahibinin hesaba katmadığı eksi özellikler",
-      "questions": "Başka sorular (isteğe bağlı)",
-      "own_text": "Kendi ekiniz (isteğe bağlı)",
+      "questions": "Başka sorular",
+      "own_text": "Kendi ekiniz",
       "tenant_name_help": "Kira sözleşmesinde yazdığı gibi. Sözleşmeyi birden fazla kişi imzaladıysa, herkes imzalamalıdır.",
       "received_help": "Bu, tüm süreler için önemlidir. Tarihi not edin ve zarfı saklayın.",
       "contract_number_help": "Çoğu zaman ev sahibinin yazısının üst kısmında yazar.",
       "agreed_rent_help": "Yalnızca doğru olduğundan emin olduğunuz bir tutar girin. Bu tutarla bağlısınız.",
-      "effective_help": "Ev sahibinin yazısındaki tarihi girin. Bu tarih, yazının size ulaşmasından sonraki üçüncü takvim ayının başından daha erkense, daha geç olan gün geçerlidir. Hesaplayıcı bu alanı iki günden daha geç olanla doldurur. Kontrol edin.",
+      "effective_help": "Ev sahibinin yazısındaki tarihi girin. Yeni kira en erken, yazının size ulaşmasından sonraki üçüncü takvim ayının başından itibaren geçerlidir. Ayrıca kira o gün 15 aydır değişmemiş olmalıdır, yoksa daha geç bir gün geçerlidir. ‚Süreleri ve sınırları kontrol et‘ bu alanı bu günlerin en geç olanıyla doldurur. Kontrol edin.",
       "disputed_plus_help": "Yalnızca kendiniz kontrol ettiğiniz özellikleri seçin.",
       "missing_minus_help": "Yalnızca dairenizde kontrol ettiğiniz ve belgeleyebileceğiniz özellikleri seçin.",
       "own_text_help": "Bu metni kontrol etmiyoruz. Mektuba değiştirilmeden girer. Yalnızca doğru olan olguları yazın. Bir onay mektubuna koşul ve karşı teklif yazmayın („nur wenn …“ = „yalnızca … ise“). Yoksa onay, ret sayılabilir.",
@@ -672,7 +672,7 @@
     },
     "netting": {
       "title": "Aralığa yerleştirme böyle yapılır",
-      "text": "Beş grubun her birinde artı ve eksi özellikleri sayın. Daha çok artı: grup artı sayılır. Daha çok eksi: eksi sayılır. Eşitlik: 0. Sonra grupları birbirine karşı hesaplayın (mahsup edin). Her artı, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter; her eksi, alt değere olan farkın beşte biri kadar aşağı iter (Mietspiegel Nr. 10.3). Mietspiegel, yuvarlamanın her grup için mi yoksa bir kez mi yapılacağını söylemez. Bir sentlik farklar olabilir."
+      "text": "Beş grubun her birinde artı ve eksi özellikleri sayın. Daha çok artı: grup artı sayılır. Daha çok eksi: eksi sayılır. Eşitlik: 0. Sonra grupları birbirine karşı hesaplayın (mahsup edin). Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter; eksi sayılan her grup, alt değere olan farkın beşte biri kadar aşağı iter (Mietspiegel Nr. 10.3). Mietspiegel, yuvarlamanın her grup için mi yoksa bir kez mi yapılacağını söylemez. Bir sentlik farklar olabilir."
     },
     "consent_deadline": {
       "title": "Onay için süreniz",
@@ -712,7 +712,7 @@
     },
     "silence": {
       "title": "Susmak onay değildir",
-      "text": "Hiçbir şey yapmazsanız onay vermemiş olursunuz. Ev sahibi o zaman dava açabilir (§ 558b Abs. 2 BGB)."
+      "text": "Hiçbir şey yapmazsanız onay vermemiş olursunuz. Ev sahibi o zaman dava açabilir (§ 558b Abs. 2 BGB). Mahkemeden yazı gelirse hemen bir danışma merkezine gidin. Cevap vermek için çoğu zaman yalnızca 2 haftanız olur (§ 276 ZPO)."
     },
     "payment_consent": {
       "title": "Ödemek onay olabilir",
@@ -740,7 +740,7 @@
     },
     "lwu": {
       "title": "Eyalete ait konut şirketleri",
-      "text": "degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND ve WBM'de, işbirliği anlaşması (Kooperationsvereinbarung) devam ettiği sürece (31.12.2027'ye kadar) ek gönüllü taahhütler geçerlidir: üç yılda en fazla %11 artış (15.07.2025 tarihli ittifak anlaşması, Bündnis-Vereinbarung) ve ayda en fazla 50 € (65 m²'ye kadar), 75 € (100 m²'ye kadar) veya 100 € (125 m²'ye kadar) artış (Kooperationsvereinbarung II.8). Ayrıca ödenebilirlik sözü (Leistbarkeitsversprechen) vardır: Gelir ve alan sınırlarına uyuluyorsa, başvuru üzerine net kira en fazla hane gelirinin %27'si olur."
+      "text": "degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND ve WBM'de, işbirliği anlaşması (Kooperationsvereinbarung) devam ettiği sürece (31.12.2027'ye kadar) ek gönüllü taahhütler geçerlidir: üç yılda en fazla %11 artış (15.07.2025 tarihli ittifak anlaşması, Bündnis-Vereinbarung) ve ayda en fazla 50 € (65 m²'ye kadar), 75 € (100 m²'ye kadar) veya 100 € (125 m²'ye kadar) artış (Kooperationsvereinbarung II.8). Ayrıca ödenebilirlik sözü (Leistbarkeitsversprechen) vardır: Gelir ve alan sınırlarına uyuluyorsa, başvuru üzerine net kira en fazla hane gelirinin %27'si olur. İşbirliği anlaşması, berlinovo için de „Klassisches Wohnen“ (klasik konut) alanında geçerlidir."
     },
     "pay_from": {
       "title": "Onay verirseniz ne zamandan itibaren ödersiniz",
@@ -748,7 +748,7 @@
     },
     "scope": {
       "title": "Bu sizin için geçerli mi?",
-      "text": "Bu yardım yalnızca ev sahibiniz sizden daha yüksek bir kirayı onaylamanızı istiyorsa geçerlidir (§ 558 BGB). Şu durumlarda geçerli değildir: modernizasyondan sonra artış (§ 559 BGB), yan giderler için yeni avans ödemeleri (§ 560 BGB), endeksli veya kademeli kira, sabit kiralı bir sosyal konut veya başka bir destekli konut (§ 558 Abs. 2 Satz 2 BGB), ev sahibinin dairesinde bir oda, yalnızca kısa süreliğine kiralanan bir daire veya bir yurt (§ 549 BGB). O zaman yüksek kirayı çoğu zaman onay vermeden de ödemek zorundasınız. Ödemeyi öylece durdurmayın. Danışmanlık alın."
+      "text": "Bu yardım yalnızca ev sahibiniz sizden daha yüksek bir kirayı onaylamanızı istiyorsa geçerlidir (§ 558 BGB).\n\nŞu durumlarda geçerli değildir: modernizasyon (§ 559 BGB), yan giderler için yeni avans ödemeleri (§ 560 BGB), endeksli veya kademeli kira ve „Kostenmiete“ (maliyet kirası) olan eski bir sosyal konut (§ 10 Wohnungsbindungsgesetz). O zaman yüksek kirayı çoğu zaman onay vermeden de ödemek zorundasınız.\n\nEv sahibinin dairesinde eşyalı bir oda, yalnızca geçici kullanım için kiralanan bir daire ve öğrenci ya da gençlik yurdu için de geçerli değildir (§ 549 BGB). Orada kira artışıyla ilgili kurallar geçerli değildir. Neyin geçerli olduğu sözleşmenize bağlıdır.\n\nÖdemeyi öylece durdurmayın. Danışmanlık alın."
     },
     "mietpreisbremse_after_consent": {
       "title": "Onaydan önce kira frenini kontrol edin",

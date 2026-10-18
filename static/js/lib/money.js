@@ -9,11 +9,18 @@ export function round(x, digits = 2) {
   return (Math.sign(x) * Math.round(v + 1e-7)) / f;
 }
 
-/** Parse user input: accepts "1.234,56", "1234,56", "1234.56", "1 234,56". */
+/** Parse user input: accepts "1.234,56", "1234,56", "1234.56", "1 234,56", "900,-", "1,234,567",
+ *  Arabic-Indic digits ("٦٥٠", "۶۵۰٫۵"). Returns null for anything it cannot read safely –
+ *  including "1,050", which is 1,05 in German but 1050 in English. */
 export function parseNumber(s) {
   if (typeof s === "number") return Number.isFinite(s) ? s : null;
   if (typeof s !== "string") return null;
-  let t = s.replace(/[\s\u00a0\u202f€]/g, "").replace(/m²|m2/gi, "");
+  let t = s
+    .replace(/[\u0660-\u0669]/g, (ch) => String(ch.charCodeAt(0) - 0x0660))
+    .replace(/[\u06f0-\u06f9]/g, (ch) => String(ch.charCodeAt(0) - 0x06f0))
+    .replace(/\u066b/g, ",")
+    .replace(/[\s\u00a0\u202f\u066c€]/g, "").replace(/m²|m2/gi, "")
+    .replace(/[.,][-–—]+$/, ""); // "900,-" / "1.050,–"
   if (!t) return null;
   const lastComma = t.lastIndexOf(","), lastDot = t.lastIndexOf(".");
   if (lastComma > -1 && lastDot > -1) {
@@ -21,7 +28,9 @@ export function parseNumber(s) {
     if (lastComma > lastDot) t = t.replace(/\./g, "").replace(",", ".");
     else t = t.replace(/,/g, "");
   } else if (lastComma > -1) {
-    t = t.replace(",", ".");
+    if (/^\d{1,3},\d{3}$/.test(t)) return null; // ambiguous: refuse instead of guessing
+    if (/^\d{1,3}(,\d{3}){2,}$/.test(t)) t = t.replace(/,/g, ""); // "1,234,567" thousands
+    else t = t.replace(",", ".");
   } else if (lastDot > -1 && /^\d{1,3}(\.\d{3})+$/.test(t)) {
     t = t.replace(/\./g, ""); // "1.234" thousands
   }
