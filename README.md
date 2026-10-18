@@ -80,3 +80,11 @@ Seven languages are registered: `de` (default, at the site root), `en`, `tr`, `a
 ## Limits
 
 No legal advice. Translations are unofficial. The Orientierungshilfe and the Abschlag for Minderausstattung are not part of the qualified Mietspiegel (Mietspiegel Nr. 9.4, 10).
+
+## License
+
+Copyright (C) 2026 the Mietspiegel-Hilfe Berlin contributors.
+
+- **Code** (`static/js/`, `static/css/`, `templates/`, `tests/`, `tools/*.py`, `config.toml`): GNU Affero General Public License v3.0 or later (`SPDX-License-Identifier: AGPL-3.0-or-later`), full text in [`LICENSE`](LICENSE). If you run a modified version as a public website, you must offer its source code to its users.
+- **Text** (`content/`, `static/i18n/`, `static/data/letters.json`, `static/data/rules.json` texts, `docs/`): Creative Commons Attribution-ShareAlike 4.0 International (`CC-BY-SA-4.0`), full text in [`LICENSES/CC-BY-SA-4.0.txt`](LICENSES/CC-BY-SA-4.0.txt).
+- **Not covered:** the Mietspiegel tables and the verbatim feature wording in `static/data/ms2026.json` and `ms2024.json` (fields `text_de`, `conditions_de`, `note_de`, `rules_de`, `notes_de`) come from the Berliner Mietspiegel 2026 and 2024 published by the Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen ([2026](https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf), [2024](https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf)). Statutes and court decisions quoted in the text belong to their sources.
