@@ -8,9 +8,9 @@ year = 2026
 nav = true
 +++
 
-Burada Berlin Mietspiegel 2026'ya (kira tablosu) ait Orientierungshilfe'nin (değerlendirme yardımı) tüm özelliklerini (Merkmale) bulabilirsiniz. Her özellikte önce resmî metin yer alır. Altında sade bir dille, metnin ne anlama geldiğini, bunu dairenizde nasıl kontrol edeceğinizi ve bir anlaşmazlıkta neyi kanıtlamanız gerekeceğini açıklıyoruz.
+Bu sayfa, Berlin Mietspiegel 2026'ya (kira tablosu) ait Orientierungshilfe'nin (değerlendirme yardımı) tüm özelliklerini (Merkmale) gösterir. Her özellikte önce resmî metin yer alır. Altında sade bir dille, metnin ne anlama geldiğini, bunu dairenizde nasıl kontrol edeceğinizi ve bir anlaşmazlıkta neyi kanıtlamanız gerekeceğini açıklıyoruz.
 
-**Tüm özellikler için iki kural geçerlidir:**
+Tüm özellikler için iki kural geçerlidir:
 
 - Yalnızca ev sahibinin sağladığı donanım sayılır. Bir şeyi kendiniz taktıysanız ve ev sahibi masrafları ödemediyse, bu sayılmaz. Mietspiegel'de böyle yazar (Nr. 6.3).
 - Açıklamalarımız resmî bir çeviri değildir. Yalnızca resmî Almanca metin bağlayıcıdır.

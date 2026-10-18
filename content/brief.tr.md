@@ -1,17 +1,19 @@
 +++
 title = "Cevap mektubu oluşturun"
-description = "Ev sahibinize Almanca bir cevap mektubu oluşturun – açıklamalar sizin dilinizde."
+description = "Ev sahibinize Almanca bir cevap mektubu oluşturun. Açıklamalar sizin dilinizde."
 template = "brief.html"
 weight = 40
 [extra]
 nav = true
 +++
 
-**Bu sizin için geçerli mi?** Bu sayfa yalnızca ev sahibiniz sizden daha yüksek bir kirayı **onaylamanızı** (Zustimmung) istiyorsa geçerlidir (§ 558 BGB'ye göre kira artışı). Şu durumlarda **geçerli değildir:** modernizasyondan sonraki bir artış, yan giderler (Betriebskosten) için yeni avans ödemeleri, endeksli kira (Indexmiete) veya kademeli kira (Staffelmiete) ve „Kostenmiete“ (maliyet kirası) olan eski bir sosyal konut. O zaman yüksek kirayı çoğu zaman onay vermeden de ödemek zorundasınız. Ev sahibinin dairesindeki eşyalı bir oda, yalnızca geçici kullanım için kiralanan bir daire veya bir öğrenci ya da gençlik yurdu için de geçerli değildir. Orada kira artışıyla ilgili kurallar geçerli değildir. Bu durumlarda ödemeyi öylece **durdurmayın**. Danışmanlık alın: [Yardım ve danışmanlık](@/hilfe.tr.md). Daha fazlası: [Bu sayfa mektubunuz için geçerli mi?](@/mieterhoehung.tr.md)
+**Bu sizin için geçerli mi?** Bu sayfa yalnızca ev sahibiniz sizden daha yüksek bir kirayı onaylamanızı (Zustimmung) istiyorsa geçerlidir (§ 558 BGB'ye göre kira artışı). Şu durumlarda geçerli değildir: modernizasyondan sonraki bir artış, yan giderler (Betriebskosten) için yeni avans ödemeleri, endeksli kira (Indexmiete) veya kademeli kira (Staffelmiete) ve „Kostenmiete“ (maliyet kirası) olan eski bir sosyal konut. O zaman yüksek kirayı çoğu zaman onay vermeden de ödemek zorundasınız. Ev sahibinin dairesindeki eşyalı bir oda, yalnızca geçici kullanım için kiralanan bir daire veya bir öğrenci ya da gençlik yurdu için de geçerli değildir. Orada kira artışıyla ilgili kurallar geçerli değildir.
 
-Burada ev sahibinize bir mektup oluşturursunuz. Mektup her zaman Almancadır. Açıklamaları kendi dilinizde görürsünüz.
+Bu durumlarda ödemeyi öylece **durdurmayın**. Danışmanlık alın: [Yardım ve danışmanlık](@/hilfe.tr.md). Daha fazlası: [Bu sayfa mektubunuz için geçerli mi?](@/mieterhoehung.tr.md)
 
-**Lütfen dikkat edin:**
+Bu sayfayla ev sahibinize bir mektup oluşturursunuz. Mektup her zaman Almancadır. Açıklamaları kendi dilinizde görürsünüz.
+
+Lütfen dikkat edin:
 
 - Mektuplar örnektir. Onları kendi bilgilerinizle doldurursunuz. Durumunuzu biz kontrol etmiyoruz.
 - Göndermeden önce mektubu dikkatle okuyun. Doğru olmayan hiçbir şey yazmayın.

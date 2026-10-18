@@ -19,7 +19,7 @@
     },
     "gebaeude": {
       "title": "Budynek",
-      "intro": "W tej grupie chodzi o dom: klatkę schodową, piwnicę, wejście, windę, stan i energię. Przy zużyciu energii obowiązuje zasada szczególna: zaznaczasz albo cechę dotyczącą izolacji cieplnej lub instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego (Energiekennwert) ze świadectwa energetycznego (Energieausweis), nie jedno i drugie. Przy wskaźniku mogą się liczyć maksymalnie trzy kratki.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każda grupa, która liczy się jako plus, przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każda grupa, która liczy się jako minus, przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
+      "intro": "W tej grupie chodzi o dom: klatkę schodową, piwnicę, wejście, windę, stan i energię. Przy zużyciu energii obowiązuje zasada szczególna: zaznaczasz albo cechę „Izolacja lub instalacja grzewcza”, albo cechy dotyczące wskaźnika energetycznego (Energiekennwert) ze świadectwa energetycznego (Energieausweis), nie jedno i drugie. Przy wskaźniku mogą się liczyć maksymalnie trzy kratki.\n\nJeśli jest więcej cech plus, grupa liczy się jako plus. Jeśli jest więcej cech minus, liczy się jako minus. Jeśli cech plus i cech minus jest tyle samo, grupa się nie liczy. Każda grupa, która liczy się jako plus, przesuwa wartość w górę o jedną piątą odstępu od wartości średniej do wartości górnej. Każda grupa, która liczy się jako minus, przesuwa ją w dół o jedną piątą odstępu do wartości dolnej. To nie jest 20% wyższy czynsz."
     },
     "umfeld": {
       "title": "Otoczenie mieszkania",
@@ -197,25 +197,25 @@
     },
     "gebaeude-m08": {
       "title": "Słaba izolacja cieplna albo stara instalacja grzewcza",
-      "explain": "Minus przy niewystarczającej izolacji cieplnej albo przy instalacji grzewczej o niekorzystnej sprawności, zamontowanej przed 1995 rokiem. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego (Energiekennwert), nie jedno i drugie.",
+      "explain": "Minus przy niewystarczającej izolacji cieplnej albo przy instalacji grzewczej o niekorzystnej sprawności, zamontowanej przed 1995 rokiem. Wybierasz albo cechę „Izolacja lub instalacja grzewcza”, albo cechy dotyczące wskaźnika energetycznego (Energiekennwert), nie jedno i drugie.",
       "check": "Zapytaj o rok produkcji instalacji grzewczej, często jest podany na tabliczce znamionowej. Zwierciadło czynszów (Mietspiegel) nie mówi dokładnie, kiedy izolacja jest „unzureichend” (niewystarczająca). Jeśli istnieje świadectwo energetyczne (Energieausweis), wskaźnik daje zwykle jaśniejszą odpowiedź.",
       "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcie tabliczki znamionowej ogrzewania, świadectwo energetyczne."
     },
     "gebaeude-m09": {
       "title": "Wysokie zużycie energii: powyżej 145 kWh",
-      "explain": "Cecha minus (Minus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest większy niż 145 kWh na m² rocznie (kWh/(m²a)). Przy bardzo wysokim zużyciu można zaznaczyć do trzech takich kratek: powyżej 145, powyżej 195, powyżej 235. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz. W budynkach objętych ochroną zabytków (Denkmalschutz) te cechy minus się nie liczą, jeśli renowacja energetyczna naruszałaby ochronę zabytków albo byłaby przez to nieproporcjonalnie droga.",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest większy niż 145 kWh na m² rocznie (kWh/(m²a)). Przy bardzo wysokim zużyciu można zaznaczyć do trzech takich kratek: powyżej 145, powyżej 195, powyżej 235. Wybierasz albo cechę „Izolacja lub instalacja grzewcza”, albo cechy dotyczące wskaźnika energetycznego, nie jedno i drugie. W budynkach objętych ochroną zabytków (Denkmalschutz) te cechy minus się nie liczą, jeśli renowacja energetyczna naruszałaby ochronę zabytków albo byłaby przez to nieproporcjonalnie droga.",
       "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
       "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: kopia świadectwa energetycznego."
     },
     "gebaeude-m10": {
       "title": "Wysokie zużycie energii: powyżej 195 kWh",
-      "explain": "Cecha minus (Minus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest większy niż 195 kWh na m² rocznie (kWh/(m²a)). Przy bardzo wysokim zużyciu można zaznaczyć do trzech takich kratek: powyżej 145, powyżej 195, powyżej 235. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz. W budynkach objętych ochroną zabytków (Denkmalschutz) te cechy minus się nie liczą, jeśli renowacja energetyczna naruszałaby ochronę zabytków albo byłaby przez to nieproporcjonalnie droga.",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest większy niż 195 kWh na m² rocznie (kWh/(m²a)). Przy bardzo wysokim zużyciu można zaznaczyć do trzech takich kratek: powyżej 145, powyżej 195, powyżej 235. Wybierasz albo cechę „Izolacja lub instalacja grzewcza”, albo cechy dotyczące wskaźnika energetycznego, nie jedno i drugie. W budynkach objętych ochroną zabytków (Denkmalschutz) te cechy minus się nie liczą, jeśli renowacja energetyczna naruszałaby ochronę zabytków albo byłaby przez to nieproporcjonalnie droga.",
       "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
       "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: kopia świadectwa energetycznego."
     },
     "gebaeude-m11": {
       "title": "Wysokie zużycie energii: powyżej 235 kWh",
-      "explain": "Cecha minus (Minus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest większy niż 235 kWh na m² rocznie (kWh/(m²a)). Przy bardzo wysokim zużyciu można zaznaczyć do trzech takich kratek: powyżej 145, powyżej 195, powyżej 235. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz. W budynkach objętych ochroną zabytków (Denkmalschutz) te cechy minus się nie liczą, jeśli renowacja energetyczna naruszałaby ochronę zabytków albo byłaby przez to nieproporcjonalnie droga.",
+      "explain": "Cecha minus (Minus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest większy niż 235 kWh na m² rocznie (kWh/(m²a)). Przy bardzo wysokim zużyciu można zaznaczyć do trzech takich kratek: powyżej 145, powyżej 195, powyżej 235. Wybierasz albo cechę „Izolacja lub instalacja grzewcza”, albo cechy dotyczące wskaźnika energetycznego, nie jedno i drugie. W budynkach objętych ochroną zabytków (Denkmalschutz) te cechy minus się nie liczą, jeśli renowacja energetyczna naruszałaby ochronę zabytków albo byłaby przez to nieproporcjonalnie droga.",
       "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
       "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: kopia świadectwa energetycznego."
     },
@@ -263,25 +263,25 @@
     },
     "gebaeude-p08": {
       "title": "Dodatkowa izolacja lub nowa instalacja grzewcza",
-      "explain": "Cecha plus (Plus-Merkmal) przy izolacji cieplnej dodanej do pierwotnej substancji budynku albo przy nowoczesnej instalacji grzewczej zamontowanej od 2009 roku. Budynek lub mieszkanie musiały być gotowe „vor diesem Zeitpunkt” (przed tym momentem). Czy chodzi o „przed 2009”, czy o „przed montażem”, tego zwierciadło czynszów (Mietspiegel) nie mówi jednoznacznie. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz.",
+      "explain": "Cecha plus (Plus-Merkmal) przy izolacji cieplnej dodanej do pierwotnej substancji budynku albo przy nowoczesnej instalacji grzewczej zamontowanej od 2009 roku. Budynek lub mieszkanie musiały być gotowe „vor diesem Zeitpunkt” (przed tym momentem). Czy chodzi o „przed 2009”, czy o „przed montażem”, tego zwierciadło czynszów (Mietspiegel) nie mówi jednoznacznie. Wybierasz albo cechę „Izolacja lub instalacja grzewcza”, albo cechy dotyczące wskaźnika energetycznego, nie jedno i drugie.",
       "check": "Czy budynek został później docieplony, na przykład fasada? Kiedy zamontowano instalację grzewczą? Często jest to napisane na tabliczce znamionowej.",
       "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: świadectwo energetyczne (Energieausweis), zdjęcie tabliczki znamionowej ogrzewania."
     },
     "gebaeude-p09": {
       "title": "Niskie zużycie energii: poniżej 120 kWh",
-      "explain": "Cecha plus (Plus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest mniejszy niż 120 kWh na m² rocznie (kWh/(m²a)). Przy bardzo niskim zużyciu można zaznaczyć do trzech takich kratek: poniżej 120, poniżej 100, poniżej 80. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz.",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest mniejszy niż 120 kWh na m² rocznie (kWh/(m²a)). Przy bardzo niskim zużyciu można zaznaczyć do trzech takich kratek: poniżej 120, poniżej 100, poniżej 80. Wybierasz albo cechę „Izolacja lub instalacja grzewcza”, albo cechy dotyczące wskaźnika energetycznego, nie jedno i drugie.",
       "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
       "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: kopia świadectwa energetycznego."
     },
     "gebaeude-p10": {
       "title": "Niskie zużycie energii: poniżej 100 kWh",
-      "explain": "Cecha plus (Plus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest mniejszy niż 100 kWh na m² rocznie (kWh/(m²a)). Przy bardzo niskim zużyciu można zaznaczyć do trzech takich kratek: poniżej 120, poniżej 100, poniżej 80. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz.",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest mniejszy niż 100 kWh na m² rocznie (kWh/(m²a)). Przy bardzo niskim zużyciu można zaznaczyć do trzech takich kratek: poniżej 120, poniżej 100, poniżej 80. Wybierasz albo cechę „Izolacja lub instalacja grzewcza”, albo cechy dotyczące wskaźnika energetycznego, nie jedno i drugie.",
       "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
       "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: kopia świadectwa energetycznego."
     },
     "gebaeude-p11": {
       "title": "Niskie zużycie energii: poniżej 80 kWh",
-      "explain": "Cecha plus (Plus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest mniejszy niż 80 kWh na m² rocznie (kWh/(m²a)). Przy bardzo niskim zużyciu można zaznaczyć do trzech takich kratek: poniżej 120, poniżej 100, poniżej 80. Ważne: wybierasz albo cechę dotyczącą izolacji cieplnej/instalacji grzewczej, albo cechy dotyczące wskaźnika energetycznego, nie obie naraz.",
+      "explain": "Cecha plus (Plus-Merkmal), jeśli wskaźnik energetyczny (Energiekennwert) budynku dla ogrzewania i ciepłej wody jest mniejszy niż 80 kWh na m² rocznie (kWh/(m²a)). Przy bardzo niskim zużyciu można zaznaczyć do trzech takich kratek: poniżej 120, poniżej 100, poniżej 80. Wybierasz albo cechę „Izolacja lub instalacja grzewcza”, albo cechy dotyczące wskaźnika energetycznego, nie jedno i drugie.",
       "check": "Wskaźnik znajdziesz w świadectwie energetycznym (Energieausweis) budynku; jeśli go nie masz, zapytaj o to wynajmującego. Zwróć uwagę: czy to świadectwo wg zużycia (Verbrauchsausweis), czy wg zapotrzebowania (Bedarfsausweis)? Przy świadectwie wg zapotrzebowania granice są o 20% wyższe. Jeśli ciepła woda nie jest uwzględniona w wartości (na przykład przy przepływowych podgrzewaczach wody w mieszkaniu), najpierw dolicza się do wartości 20 kWh/(m²a).",
       "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Liczy się tylko to, co zapewnił wynajmujący, a nie elementy zamontowane przez ciebie bez zwrotu kosztów. Pomocne dla ciebie: kopia świadectwa energetycznego."
     },
@@ -408,7 +408,7 @@
     "umfeld-p03": {
       "title": "Parking od wynajmującego w pobliżu",
       "explain": "Cecha plus (Plus-Merkmal), jeśli wynajmujący udostępnia w pobliżu miejsca parkingowe dla samochodów, w wystarczającej liczbie.",
-      "check": "Czy twój wynajmujący oferuje miejsca parkingowe, na przykład na podwórzu lub w garażu? Sąd Landgericht Berlin orzekł w sprawie Mietspiegel 2017: liczyć się mogą także miejsca, za które płaci się dodatkowo. Ale tylko wtedy, gdy w chwili doręczenia (Zugang) żądania podwyżki czynszu (Mieterhöhungsverlangen) naprawdę masz wynajęte miejsce od wynajmującego albo wynajmujący wcześniej ci je zaproponował (wyrok z 16.10.2018 – 67 S 150/18). Inne sądy mogą to oceniać inaczej.",
+      "check": "Czy twój wynajmujący oferuje miejsca parkingowe, na przykład na podwórzu lub w garażu? Sąd Landgericht Berlin orzekł w sprawie Mietspiegel 2017: liczyć się mogą także miejsca, za które płaci się dodatkowo. Ale tylko wtedy, gdy w chwili doręczenia (Zugang) żądania podwyżki czynszu (Mieterhöhungsverlangen) naprawdę masz wynajęte miejsce od wynajmującego albo wynajmujący wcześniej ci je zaproponował (wyrok z 16.10.2018, 67 S 150/18). Inne sądy mogą to oceniać inaczej.",
       "proof": "Jeśli wynajmujący wniesie pozew do sądu, z reguły to on musi udowodnić cechy plus. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne dla ciebie: pisma lub oferty wynajmującego dotyczące miejsc parkingowych."
     },
     "umfeld-p04": {
@@ -431,7 +431,7 @@
     },
     "wohnung-m02": {
       "title": "Instalacja elektryczna niewystarczająca lub przestarzała",
-      "explain": "Cecha minus (Minus-Merkmal) przy niewystarczającej instalacji elektrycznej. Przykłady w zwierciadle czynszów (Mietspiegel): brak wystarczającego pionu elektrycznego (Elektrosteigleitung – główny przewód w budynku prowadzący do mieszkania) i/lub instalacja niezgodna z przepisami VDE, na przykład brak wyłącznika różnicowoprądowego (FI-Schalter) lub brak połączeń wyrównawczych (Potentialausgleich – połączenie metalowych części, takich jak rury, z uziemieniem).",
+      "explain": "Cecha minus (Minus-Merkmal) przy niewystarczającej instalacji elektrycznej. Przykłady w zwierciadle czynszów (Mietspiegel): brak wystarczającego pionu elektrycznego (Elektrosteigleitung, czyli główny przewód w budynku prowadzący do mieszkania) i/lub instalacja niezgodna z przepisami VDE, na przykład brak wyłącznika różnicowoprądowego (FI-Schalter) lub brak połączeń wyrównawczych (Potentialausgleich, czyli połączenie metalowych części, takich jak rury, z uziemieniem).",
       "check": "Zajrzyj do skrzynki z bezpiecznikami w mieszkaniu: czy jest wyłącznik różnicowoprądowy (FI-Schalter)? Zwykle ma przycisk testowy z literą „T”. Czy bezpieczniki wyskakują, gdy kilka urządzeń działa jednocześnie, na przykład czajnik i pralka? Czy instalacja jest zgodna z przepisami VDE, na pewno może ocenić tylko wykwalifikowany elektryk.",
       "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: zdjęcie skrzynki z bezpiecznikami, notatki z datą o wyskakujących bezpiecznikach, pisma do wynajmującego o problemach."
     },
@@ -455,7 +455,7 @@
     },
     "wohnung-m06": {
       "title": "Zły rozkład mieszkania",
-      "explain": "Cecha minus (Minus-Merkmal) przy złym rozkładzie pomieszczeń (Grundriss, Schnitt). Przykłady w zwierciadle czynszów (Mietspiegel): pokój „uwięziony” (gefangenes Zimmer – można do niego wejść tylko przez inny pokój) i/lub pokój przechodni (Durchgangszimmer – trzeba przez niego przejść, żeby dostać się do innego pokoju).",
+      "explain": "Cecha minus (Minus-Merkmal) przy złym rozkładzie pomieszczeń (Grundriss, Schnitt). Przykłady w zwierciadle czynszów (Mietspiegel): pokój „uwięziony” (gefangenes Zimmer: można do niego wejść tylko przez inny pokój) i/lub pokój przechodni (Durchgangszimmer: trzeba przez niego przejść, żeby dostać się do innego pokoju).",
       "check": "Narysuj prosty plan mieszkania. Czy musisz przejść przez jeden pokój, żeby dostać się do innego? Zwierciadło czynszów podaje tylko przykłady; czy inne rozkłady też są „schlecht” (złe), w razie sporu rozstrzyga sąd.",
       "proof": "Jeśli powołujesz się na tę cechę minus (Minus-Merkmal), z reguły to ty musisz ją udowodnić. Tak orzekł sąd Landgericht Berlin; inne sądy mogą to oceniać inaczej. Pomocne: rzut mieszkania (na przykład z dokumentów najmu) albo własny szkic z zaznaczonymi drzwiami."
     },
@@ -543,7 +543,7 @@
     "received": "Dzień, w którym pismo do ciebie dotarło",
     "received_help": "Nie data na liście, tylko dzień, w którym list był w twojej skrzynce pocztowej lub skrytce pocztowej (Postfach).",
     "last_change": "Od kiedy obowiązuje twój czynsz, nie licząc podwyżek z powodu modernizacji albo kosztów eksploatacyjnych?",
-    "last_change_help": "Dzień, w którym ostatnia podwyżka weszła w życie, czyli od którego trzeba było płacić wyższy czynsz. Jeśli nie było jeszcze żadnej podwyżki – początek umowy najmu. Podwyżki z powodu modernizacji lub kosztów eksploatacyjnych (Betriebskosten) się nie liczą.",
+    "last_change_help": "Dzień, w którym ostatnia podwyżka weszła w życie, czyli od którego trzeba było płacić wyższy czynsz. Jeśli nie było jeszcze żadnej podwyżki, jest to dzień początku umowy najmu. Podwyżki z powodu modernizacji lub kosztów eksploatacyjnych (Betriebskosten) się nie liczą.",
     "current_rent": "Twój obecny czynsz netto bez kosztów dodatkowych (Nettokaltmiete) miesięcznie",
     "current_rent_help": "Czynsz bez kosztów eksploatacyjnych (Betriebskosten) i bez kosztów ogrzewania.",
     "rent_3y_ago": "Czynsz netto bez kosztów dodatkowych (Nettokaltmiete) trzy lata przed dniem, od którego ma obowiązywać nowy czynsz",
@@ -626,7 +626,7 @@
       "explain": "Tym listem pytasz, jak wynajmujący zaklasyfikował twoje mieszkanie. Nie wyrażasz przez to ani zgody, ani odmowy. W polu „Dalsze pytania” możesz dodać własne pytania, na przykład o kopię świadectwa energetycznego (Energieausweis)."
     },
     "fields": {
-      "tenant_name": "Twoje imię i nazwisko (przy kilku najemcach – imiona i nazwiska wszystkich)",
+      "tenant_name": "Twoje imię i nazwisko (przy kilku najemcach: imiona i nazwiska wszystkich)",
       "tenant_address": "Twój adres",
       "landlord_name": "Nazwa wynajmującego lub zarządcy budynku (Hausverwaltung)",
       "landlord_address": "Adres wynajmującego",
@@ -649,7 +649,7 @@
       "effective_help": "Wpisz termin z pisma wynajmującego. Nowy czynsz obowiązuje najwcześniej od początku trzeciego miesiąca kalendarzowego po doręczeniu (Zugang). Poza tym w tym dniu czynsz musi być niezmieniony od 15 miesięcy, w przeciwnym razie obowiązuje późniejszy dzień. ‚Sprawdź terminy i limity’ wpisuje w to pole najpóźniejszy z tych dni. Sprawdź to.",
       "disputed_plus_help": "Wybieraj tylko cechy sprawdzone osobiście przez ciebie.",
       "missing_minus_help": "Wybieraj tylko cechy sprawdzone przez ciebie w twoim mieszkaniu, na które masz dowody.",
-      "own_text_help": "Tego tekstu nie sprawdzamy. Trafia do listu bez zmian. Pisz tylko prawdziwe fakty. W zgodzie nie wpisuj żadnych warunków ani kontrpropozycji („nur wenn …” – „tylko jeśli …”). Wtedy zgoda może zostać uznana za odmowę.",
+      "own_text_help": "Tego tekstu nie sprawdzamy. Trafia do listu bez zmian. Pisz tylko prawdziwe fakty. W zgodzie nie wpisuj żadnych warunków ani kontrpropozycji, na przykład „nur wenn …” („tylko jeśli …”). Wtedy zgoda może zostać uznana za odmowę.",
       "current_rent_help": "Bez kosztów eksploatacyjnych (Betriebskosten) i kosztów ogrzewania."
     },
     "intro": {
@@ -708,7 +708,7 @@
     },
     "kappung": {
       "title": "Limit podwyżki (Kappungsgrenze) 15%",
-      "text": "W Berlinie czynsz może w wyniku podwyżek na podstawie § 558 BGB wzrosnąć w ciągu trzech lat najwyżej o 15% (§ 558 Abs. 3 BGB, berlińskie rozporządzenie o limicie podwyżki – Berliner Kappungsgrenzenverordnung z 14.03.2023, obowiązujące do 10.05.2028). Punktem wyjścia jest czynsz z dnia przypadającego trzy lata przed dniem, od którego ma obowiązywać nowy czynsz (BGH, VIII ZR 177/03). Podwyżki czynszu bez kosztów dodatkowych (Kaltmiete) po modernizacji (§ 559 BGB) nie liczą się do tych 15%: 15% oblicza się bez nich, a taka podwyżka może dojść dodatkowo. Zmiany zaliczek na koszty eksploatacyjne (Betriebskosten) do tego nie należą."
+      "text": "W Berlinie czynsz może w wyniku podwyżek na podstawie § 558 BGB wzrosnąć w ciągu trzech lat najwyżej o 15% (§ 558 Abs. 3 BGB; berlińskie rozporządzenie o limicie podwyżki, Berliner Kappungsgrenzenverordnung z 14.03.2023, obowiązujące do 10.05.2028). Punktem wyjścia jest czynsz z dnia przypadającego trzy lata przed dniem, od którego ma obowiązywać nowy czynsz (BGH, VIII ZR 177/03). Podwyżki czynszu bez kosztów dodatkowych (Kaltmiete) po modernizacji (§ 559 BGB) nie liczą się do tych 15%: 15% oblicza się bez nich, a taka podwyżka może dojść dodatkowo. Zmiany zaliczek na koszty eksploatacyjne (Betriebskosten) do tego nie należą."
     },
     "silence": {
       "title": "Milczenie nie jest zgodą",
@@ -724,7 +724,7 @@
     },
     "partial_consent": {
       "title": "Częściowa zgoda (Teilzustimmung)",
-      "text": "Możesz też zgodzić się tylko na część podwyżki (§ 558b Abs. 1 BGB: „soweit” – „w zakresie, w jakim”). Ta zgoda cię wiąże. O resztę wynajmujący może wnieść pozew (BGH, VIII ZR 141/09, Rn. 19). Potem płać tylko kwotę objętą twoją zgodą."
+      "text": "Możesz też zgodzić się tylko na część podwyżki (§ 558b Abs. 1 BGB: „soweit”, czyli „w zakresie, w jakim”). Ta zgoda cię wiąże. O resztę wynajmujący może wnieść pozew (BGH, VIII ZR 141/09, Rn. 19). Potem płać tylko kwotę objętą twoją zgodą."
     },
     "landlord_equipment": {
       "title": "Liczy się tylko wyposażenie od wynajmującego",
@@ -740,7 +740,7 @@
     },
     "lwu": {
       "title": "Spółki mieszkaniowe należące do Berlina (landeseigene Wohnungsunternehmen)",
-      "text": "W degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND i WBM obowiązują dodatkowe dobrowolne zobowiązania, dopóki obowiązuje umowa o współpracy (Kooperationsvereinbarung) (do 31.12.2027): najwyżej 11% więcej w ciągu trzech lat (porozumienie sojuszu – Bündnis-Vereinbarung z 15.07.2025) i najwyżej 50 € (do 65 m²), 75 € (do 100 m²) lub 100 € (do 125 m²) więcej miesięcznie (Kooperationsvereinbarung II.8). Poza tym istnieje obietnica przystępności cenowej (Leistbarkeitsversprechen): na wniosek czynsz netto bez kosztów dodatkowych (Nettokaltmiete) wynosi najwyżej 27% dochodu gospodarstwa domowego, jeśli spełnione są limity dochodu i powierzchni. Umowa o współpracy (Kooperationsvereinbarung) dotyczy także berlinovo w obszarze „Klassisches Wohnen” (klasyczne mieszkalnictwo)."
+      "text": "W degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND i WBM obowiązują dodatkowe dobrowolne zobowiązania, dopóki obowiązuje umowa o współpracy (Kooperationsvereinbarung) (do 31.12.2027): najwyżej 11% więcej w ciągu trzech lat (porozumienie sojuszu, Bündnis-Vereinbarung z 15.07.2025) i najwyżej 50 € (do 65 m²), 75 € (do 100 m²) lub 100 € (do 125 m²) więcej miesięcznie (Kooperationsvereinbarung II.8). Poza tym istnieje obietnica przystępności cenowej (Leistbarkeitsversprechen): na wniosek czynsz netto bez kosztów dodatkowych (Nettokaltmiete) wynosi najwyżej 27% dochodu gospodarstwa domowego, jeśli spełnione są limity dochodu i powierzchni. Umowa o współpracy (Kooperationsvereinbarung) dotyczy także berlinovo w obszarze „Klassisches Wohnen” (klasyczne mieszkalnictwo)."
     },
     "pay_from": {
       "title": "Od kiedy trzeba by płacić",

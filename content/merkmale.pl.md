@@ -10,7 +10,7 @@ nav = true
 
 Tutaj znajdziesz wszystkie cechy pomocy orientacyjnej (Orientierungshilfe) do berlińskiego zwierciadła czynszów (Mietspiegel) 2026. Przy każdej cesze najpierw jest tekst urzędowy. Pod nim wyjaśniamy prostym językiem, co on znaczy, jak go sprawdzić w twoim mieszkaniu i co w razie sporu trzeba by było udowodnić.
 
-**Dla wszystkich cech obowiązują dwie zasady:**
+Dla wszystkich cech obowiązują dwie zasady:
 
 - Liczy się tylko wyposażenie, które zapewnił wynajmujący. Jeśli coś zamontowano na twój koszt, a wynajmujący nie zwrócił kosztów, to się nie liczy. Tak jest napisane w zwierciadle czynszów (nr 6.3).
 - Nasze wyjaśnienia nie są urzędowym tłumaczeniem. Wiążący jest tylko urzędowy tekst niemiecki.

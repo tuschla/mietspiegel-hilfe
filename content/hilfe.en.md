@@ -7,24 +7,32 @@ weight = 70
 nav = true
 +++
 
-This website only gives general information. Before you agree to a rent increase or send a letter, it is best to get advice. Here you can find places in Berlin. Information as of: 17.10.2026. Please check times and places on the linked pages; they can change.
+This website only gives general information. Before you agree to a rent increase or send a letter, it is best to get advice. Here you can find places in Berlin. Information as of: 17.10.2026. Please check times and places on the linked pages. This information can change.
 
 ## Free of charge
 
-**Tenant advice in your district (Mieterberatung).** All Berlin districts (Bezirke) have open tenant advice services. All tenants of the district can use them free of charge, for example with questions about a rent increase. They do not represent you in court. You can find the list of districts with links at the Senate:
+### Tenant advice in your district (Mieterberatung)
+
+All Berlin districts (Bezirke) have open tenant advice services. All tenants of the district can use them free of charge, for example with questions about a rent increase. They do not represent you in court. You can find the list of districts with links at the Senate:
 <https://www.berlin.de/sen/wohnen/service/serviceadressen/mieterberatungen-in-den-bezirken/>
 
-**The Senate’s rent service telephone (Servicetelefon Miete).** Questions about the Berlin Mietspiegel and about rent: (030) 90173 3860. Questions on tenancy law are answered by the advice services in the districts.
+### The Senate’s rent service telephone (Servicetelefon Miete)
 
-**Mietpreisprüfstelle Berlin (rent check office).** Free first consultation by the State of Berlin for all tenant households in Berlin if you suspect that your rent is too high, for example because of the rent brake (Mietpreisbremse). Advice by appointment only. Information also in English.
+Questions about the Berlin Mietspiegel and about rent: (030) 90173 3860. Questions on tenancy law are answered by the advice services in the districts.
+
+### Mietpreisprüfstelle Berlin (rent check office)
+
+Free first consultation by the State of Berlin for all tenant households in Berlin if you suspect that your rent is too high, for example because of the rent brake (Mietpreisbremse). Advice by appointment only. Information also in English.
 <https://www.berlin.de/mietpreispruefstelle>
 
-**Advice in several languages.** The Welcome Centre (Willkommenszentrum) of the Senate’s Commissioner for Integration has a search for advice centres. There you can search by the topic “Housing” and by your language:
+### Advice in several languages
+
+The Welcome Centre (Willkommenszentrum) of the Senate’s Commissioner for Integration has a search for advice centres. There you can search by the topic “Housing” and by your language:
 <https://willkommenszentrum.berlin.de/en/counseling-centers>
 
 ## For tenants of the state-owned housing companies
 
-**Ombudsman office for tenants of the state-owned housing companies (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen)** (degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM and berlinovo with its “classic” rental flats). It gives advice on the cooperation agreement (Kooperationsvereinbarung) and the affordability promise (Leistbarkeitsversprechen), in German and English. It does not give advice on general questions of tenancy law.
+The ombudsman office for tenants of the state-owned housing companies (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen) is there for tenants of degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM and berlinovo with its “classic” rental flats. It gives advice on the cooperation agreement (Kooperationsvereinbarung) and the affordability promise (Leistbarkeitsversprechen), in German and English. It does not give advice on general questions of tenancy law.
 <https://www.ombud-lwu.de/>
 
 ## Tenants’ associations (with a membership fee)
@@ -35,10 +43,10 @@ Tenants’ associations (Mietervereine) give advice to their members. For this y
 - Berliner MieterGemeinschaft: <https://www.bmgev.de>
 - Mietervereinigung Berlin: <https://www.mietervereinigung-berlin.de>
 - Mieterschutzbund Berlin: <https://www.mieterschutzbund-berlin.de>
-- AMV – Alternativer Mieter- und Verbraucherschutzbund: <https://mieter-verbraucherschutz.berlin>
+- AMV (Alternativer Mieter- und Verbraucherschutzbund): <https://mieter-verbraucherschutz.berlin>
 
 ## Lawyers
 
 For a court case or a check of your individual case, you can contact a lawyer for tenancy law (Rechtsanwältin or Rechtsanwalt für Mietrecht). This costs money if you do not have legal expenses insurance (Rechtsschutzversicherung). If you have little money, you can apply to the local court (Amtsgericht) for advice assistance (Beratungshilfe) to pay for advice (Beratungshilfegesetz). For a court case there is legal aid (Prozesskostenhilfe, § 114 ZPO). If you lose the case, you still have to pay the landlord’s costs (§ 123 ZPO).
 
-According to its own information, the Verbraucherzentrale Berlin (consumer advice centre) does **not** give advice on tenancy law.
+According to its own information, the Verbraucherzentrale Berlin (consumer advice centre) does not give advice on tenancy law.

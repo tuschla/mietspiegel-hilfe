@@ -1,13 +1,13 @@
 +++
 title = "خصائص دليل التوجيه 2024"
-description = "كل خصائص دليل التوجيه (Orientierungshilfe) لجدول الإيجارات في برلين 2024، بشرح بسيط – لزيادات الإيجار الأقدم ولكابح الإيجارات (Mietpreisbremse)."
+description = "كل خصائص دليل التوجيه (Orientierungshilfe) لجدول الإيجارات في برلين 2024، بشرح بسيط، لزيادات الإيجار الأقدم ولكابح الإيجارات (Mietpreisbremse)."
 template = "merkmale.html"
 weight = 21
 [extra]
 year = 2024
 +++
 
-هنا تجد خصائص (Merkmale) دليل التوجيه (Orientierungshilfe) لجدول الإيجارات في برلين (Berliner Mietspiegel) 2024. تحتاج إليه خاصة في حالتين:
+تعرض هذه الصفحة خصائص (Merkmale) دليل التوجيه (Orientierungshilfe) لجدول الإيجارات في برلين (Berliner Mietspiegel) 2024. تحتاج إلى جدول الإيجارات هذا خاصة في حالتين:
 
 - وصلك طلب زيادة الإيجار (Mieterhöhungsverlangen) بين 30.05.2024 و27.05.2026.
 - تفحص كابح الإيجارات (Mietpreisbremse) وبدأ عقد إيجارك في هذه الفترة.

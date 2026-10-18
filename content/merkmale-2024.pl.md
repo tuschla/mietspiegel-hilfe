@@ -1,6 +1,6 @@
 +++
 title = "Cechy pomocy orientacyjnej 2024"
-description = "Wszystkie cechy pomocy orientacyjnej (Orientierungshilfe) do berlińskiego zwierciadła czynszów 2024, prosto wyjaśnione – dla starszych podwyżek czynszu i dla hamulca czynszowego."
+description = "Wszystkie cechy pomocy orientacyjnej (Orientierungshilfe) do berlińskiego zwierciadła czynszów 2024, prosto wyjaśnione, dla starszych podwyżek czynszu i dla hamulca czynszowego."
 template = "merkmale.html"
 weight = 21
 [extra]

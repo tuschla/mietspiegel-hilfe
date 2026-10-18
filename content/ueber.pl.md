@@ -1,6 +1,6 @@
 +++
 title = "O tej stronie"
-description = "Czym jest ta strona, czym nie jest i gdzie są jej granice."
+description = "Czym jest ta strona i gdzie są jej granice."
 template = "page.html"
 weight = 80
 [extra]
@@ -11,17 +11,19 @@ nav = true
 
 Ta strona pomaga najemcom w Berlinie zrozumieć berlińskie zwierciadło czynszów (Mietspiegel) i żądanie podwyżki czynszu (Mieterhöhungsverlangen). Jest bezpłatna i bez reklam. Nie jest ofertą żadnego urzędu.
 
-Wszystkie obliczenia odbywają się tylko w twojej przeglądarce. Twoje dane nie są wysyłane na serwer. Jak przy każdej stronie internetowej, serwer przy otwarciu strony otrzymuje dane techniczne, na przykład twój adres IP. Nie ma plików cookie, programów statystycznych ani treści z innych stron internetowych. Twoja przeglądarka pamięta twoje dane tylko dopóki ta karta jest otwarta, żeby można było przechodzić między kalkulatorem, sprawdzeniem i listem. Przyciskiem „Usuń moje dane” usuniesz je od razu.
+Wszystkie obliczenia odbywają się tylko w twojej przeglądarce. Twoje dane nie są wysyłane na serwer. Nie ma plików cookie, programów statystycznych ani śledzących w twojej przeglądarce ani treści z innych stron internetowych. Twoja przeglądarka pamięta twoje dane tylko dopóki ta karta jest otwarta, żeby można było przechodzić między kalkulatorem, sprawdzeniem i listem. Przyciskiem „Usuń moje dane” usuniesz je od razu.
+
+Przy każdym otwarciu strony twoja przeglądarka ze względów technicznych przesyła serwerowi twój adres IP. Serwer zwykle go nie zapisuje. Zapisuje tylko, która strona została otwarta i kiedy. Nie zapisuje przy tym adresu IP, danych przeglądarki ani informacji, z jakiej strony do nas trafiasz. Te wpisy serwer usuwa po 7 dniach. Na stałe zostaje tylko dzienna liczba otwarć każdej strony w każdym języku. Tylko przy poważnym błędzie na samym serwerze dziennik błędów może zawierać adres IP. Także ten dziennik jest usuwany po 7 dniach.
 
 ## Czym ta strona nie jest
 
-- **Nie jest poradą prawną.** Podajemy ogólne informacje. Nie sprawdzamy twojej sprawy. Kalkulator i listy działają tylko z twoimi własnymi danymi oraz ze stałymi zasadami i gotowymi fragmentami tekstu. Nie mówią, jak sąd rozstrzygnąłby twoją sprawę. Wyniki takie jak „powyżej limitu podwyżki (Kappungsgrenze)” to wyniki obliczeń według twoich danych, a nie ocena prawna.
-- **Nie jest urzędowym tłumaczeniem.** Wiążący jest tylko urzędowy niemiecki tekst berlińskiego zwierciadła czynszów, opublikowany przez Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen (Senacki Wydział Rozwoju Miasta, Budownictwa i Mieszkalnictwa) na stronie <https://mietspiegel.berlin.de>. Nasze wyjaśnienia i wszystkie tłumaczenia są nieoficjalne.
-- **Nie zastępuje porady.** Zanim zgodzisz się na podwyżkę czynszu albo wyślesz list, najlepiej skorzystaj z bezpłatnej porady: [Pomoc i porady](@/hilfe.pl.md).
+- Ta strona nie jest poradą prawną. Podajemy ogólne informacje. Nie sprawdzamy twojej sprawy. Kalkulator i listy działają tylko z twoimi własnymi danymi oraz ze stałymi zasadami i gotowymi fragmentami tekstu. Nie mówią, jak sąd rozstrzygnąłby twoją sprawę. Wyniki takie jak „powyżej limitu podwyżki (Kappungsgrenze)” to wyniki obliczeń według twoich danych, a nie ocena prawna.
+- Nasze teksty nie są urzędowym tłumaczeniem. Wiążący jest tylko urzędowy niemiecki tekst berlińskiego zwierciadła czynszów, opublikowany przez Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen (Senacki Wydział Rozwoju Miasta, Budownictwa i Mieszkalnictwa) na stronie <https://mietspiegel.berlin.de>. Nasze wyjaśnienia i wszystkie tłumaczenia są nieoficjalne.
+- Ta strona nie zastępuje porady. Zanim zgodzisz się na podwyżkę czynszu albo wyślesz list, najlepiej skorzystaj z bezpłatnej porady: [Pomoc i porady](@/hilfe.pl.md).
 
 ## Listy
 
-Listy są wzorami ze stałymi fragmentami tekstu. Wybierasz wzór i wpisujesz swoje dane: imiona i nazwiska, adresy, daty, kwoty i – jeśli chcesz – cechy ze zwierciadła czynszów. Powstaje z tego list po niemiecku. Nie sprawdzamy, czy twoje dane są prawdziwe ani czy list pasuje do twojej sprawy. To ty decydujesz, czy i jak go użyjesz. Przed wysłaniem przeczytaj list dokładnie.
+Listy są wzorami ze stałymi fragmentami tekstu. Wybierasz wzór i wpisujesz swoje dane: imiona i nazwiska, adresy, daty, kwoty oraz, jeśli chcesz, cechy ze zwierciadła czynszów. Powstaje z tego list po niemiecku. Nie sprawdzamy, czy twoje dane są prawdziwe ani czy list pasuje do twojej sprawy. To ty decydujesz, czy i jak go użyjesz. Przed wysłaniem przeczytaj list dokładnie.
 
 ## Źródła i stan
 

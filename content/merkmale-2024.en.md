@@ -1,6 +1,6 @@
 +++
 title = "Features of the Orientierungshilfe 2024"
-description = "All features of the Orientierungshilfe for the Berlin Mietspiegel 2024, explained simply – for older rent increases and for the rent brake (Mietpreisbremse)."
+description = "All features of the Orientierungshilfe for the Berlin Mietspiegel 2024, explained simply, for older rent increases and for the rent brake (Mietpreisbremse)."
 template = "merkmale.html"
 weight = 21
 [extra]

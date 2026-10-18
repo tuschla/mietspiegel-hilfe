@@ -1,17 +1,19 @@
 +++
 title = "Create a reply letter"
-description = "Create a reply letter to your landlord in German – with explanations in your language."
+description = "Create a reply letter to your landlord in German, with explanations in your language."
 template = "brief.html"
 weight = 40
 [extra]
 nav = true
 +++
 
-**Does this apply to you?** This page only applies if your landlord asks you to **agree** to a higher rent (consent, Zustimmung; rent increase under § 558 BGB, Mieterhöhung). It does **not** apply to an increase after modernisation, to new advance payments for service charges (Betriebskosten), to index rent or graduated rent (Index- oder Staffelmiete), or in old social housing with “cost rent” („Kostenmiete“). In those cases you usually have to pay the higher rent even without consent. It also does not apply to a furnished room in the landlord’s flat, a flat let only for temporary use, or a student or youth hall of residence (Studenten- oder Jugendwohnheim). There the rules on rent increases do not apply. In these cases, do **not** simply stop paying. Get advice: [Help and advice](@/hilfe.en.md). More on this: [Does this page apply to your letter?](@/mieterhoehung.en.md)
+**Does this apply to you?** This page only applies if your landlord asks you to agree to a higher rent (consent, Zustimmung; rent increase under § 558 BGB, Mieterhöhung). It does not apply to an increase after modernisation, to new advance payments for service charges (Betriebskosten), to index rent or graduated rent (Index- oder Staffelmiete), or in old social housing with “cost rent” („Kostenmiete“). In those cases you usually have to pay the higher rent even without consent. It also does not apply to a furnished room in the landlord’s flat, a flat let only for temporary use, or a student or youth hall of residence (Studenten- oder Jugendwohnheim). There the rules on rent increases do not apply.
 
-Here you create a letter to your landlord. The letter is always in German. You see the explanations in your language.
+In these cases, do **not** simply stop paying. Get advice: [Help and advice](@/hilfe.en.md). More on this: [Does this page apply to your letter?](@/mieterhoehung.en.md)
 
-**Please note:**
+With this page you create a letter to your landlord. The letter is always in German. You see the explanations for it in your language.
+
+Please note:
 
 - The letters are templates. You fill them in with your own details. We do not check your case.
 - Read the letter carefully before you send it. Do not write anything in it that is not true.

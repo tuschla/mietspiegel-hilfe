@@ -3,7 +3,7 @@
 // Uses the same ES modules as the browser (static/js/lib/*.js, static/js/app/scope.js).
 //  1. all `tests` vectors from static/data/rules.json (§ 558 check + netting)
 //  2. fixed unit tests (date rules, brochure examples on the real Mietspiegel data, letters)
-//  3. consistency: UI key parity, content keys for every feature id, letter placeholders
+//  3. consistency: UI key parity, content keys for every feature id, letter placeholders, style lint of all texts
 //  4. if public/ exists: no external resources (scripts, styles, fonts, images) in the built site
 
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
@@ -353,6 +353,56 @@ if (letters) {
   }
 } else {
   bad("letters.json present", "static/data/letters.json is missing");
+}
+
+// De-slop style lint (docs/review-log.md): no spaced en dashes, em dashes or " -- ", no Markdown "---" rules
+// in page bodies, at most 2 bold phrases per paragraph or list item; checked per language and for letters.json
+{
+  const DASHES = [[" – ", "spaced en dash"], ["—", "em dash"], [" -- ", "spaced --"]];
+  const snip = (s, i) => `"…${s.slice(Math.max(0, i - 30), i + 30).replace(/\n/g, " ")}…"`;
+  const lineOf = (s, i) => s.slice(0, i).split("\n").length;
+  // where(i) names the position of index i, e.g. "content/brief.md:12" or "ui/de.json scope_intro"
+  const lintText = (s, where, out, { body = s, bodyStart = 0 } = {}) => {
+    for (const [d, what] of DASHES) for (let i = s.indexOf(d); i >= 0; i = s.indexOf(d, i + d.length)) out.push(`${where(i)}: ${what} in ${snip(s, i)}`);
+    let at = bodyStart;
+    for (const line of body.split("\n")) {
+      if (/^ {0,3}([-*_])(?:[ \t]*\1){2,}[ \t]*$/.test(line)) out.push(`${where(at)}: Markdown rule "${line.trim()}"`);
+      at += line.length + 1;
+    }
+    at = bodyStart;
+    for (const block of body.split(/(\n[ \t]*\n|\n(?=[ \t]*(?:[-*+–]|\d+\.)[ \t]))/)) {
+      const n = (block.match(/\*\*[^*\n]+?\*\*/g) || []).length;
+      if (n > 2) out.push(`${where(at)}: ${n} bold phrases in one paragraph or list item ${snip(block, 0)}`);
+      at += block.length;
+    }
+  };
+  const strings = (o, path, acc = []) => {
+    if (typeof o === "string") acc.push([path, o]);
+    else if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) strings(v, Array.isArray(o) ? `${path}[${k}]` : path ? `${path}.${k}` : k, acc);
+    return acc;
+  };
+  const lintJson = (rel, out) => {
+    const o = load(rel);
+    if (!o) return out.push(`${rel}: missing`);
+    for (const [path, s] of strings(o, "")) lintText(s, () => `${rel.replace("static/i18n/", "")} ${path}`, out);
+  };
+  const report = (name, out) => (out.length ? bad(name, out.length > 25 ? [...out.slice(0, 25), `… ${out.length - 25} more`] : out) : ok(name));
+  const pages = readdirSync(p("content")).filter((n) => n.endsWith(".md") && statSync(p("content", n)).isFile());
+  for (const lang of readdirSync(uiDir).filter((x) => x.endsWith(".json")).map((x) => x.slice(0, -5)).sort()) {
+    const out = [];
+    for (const n of pages.filter((n) => (n.match(/\.([a-z]{2})\.md$/)?.[1] || "de") === lang)) {
+      const s = readFileSync(p("content", n), "utf8");
+      const fm = s.match(/^\+\+\+\r?\n[\s\S]*?\r?\n\+\+\+\r?\n/);
+      const bodyStart = fm ? fm[0].length : 0;
+      lintText(s, (i) => `content/${n}:${lineOf(s, i)}`, out, { body: s.slice(bodyStart), bodyStart });
+    }
+    lintJson(`static/i18n/content/${lang}.json`, out);
+    lintJson(`static/i18n/ui/${lang}.json`, out);
+    report(`style lint ${lang}: pages, content/${lang}.json, ui/${lang}.json`, out);
+  }
+  const out = [];
+  lintJson("static/data/letters.json", out);
+  report("style lint static/data/letters.json", out);
 }
 
 /* ---------- 4. built site ---------- */

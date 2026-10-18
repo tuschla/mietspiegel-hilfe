@@ -72,7 +72,7 @@
 <footer class="site-footer">
   <div class="wrap site-footer__grid">
     <div>
-      <p><strong>{{ ui.brand }}</strong> – {{ ui.footer_what }}</p>
+      <p><strong>{{ ui.brand }}</strong>: {{ ui.footer_what }}</p>
       <p>{{ ui.footer_no_advice }}</p>
       {%- set help = m::href(slug="hilfe", lang=lang) %}{% set about = m::href(slug="ueber", lang=lang) %}
       <p>{% if help %}<a href="{{ help }}">{{ ui.nav_hilfe }}</a>{% endif %}{% if help and about %} · {% endif %}{% if about %}<a href="{{ about }}">{{ ui.nav_ueber }}</a>{% endif %}</p>

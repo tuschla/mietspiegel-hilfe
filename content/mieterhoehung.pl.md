@@ -1,19 +1,19 @@
 +++
-title = "Podwyżka czynszu: co warto wiedzieć"
-description = "Czym jest żądanie podwyżki czynszu według § 558 BGB, jakie obowiązują terminy, jakie są granice i co możesz zrobić – prostym językiem."
+title = "Podwyżka czynszu: najważniejsze zasady"
+description = "Prostym językiem: czym jest żądanie podwyżki czynszu według § 558 BGB, jakie obowiązują terminy, jakie są granice i co możesz zrobić."
 template = "page.html"
 weight = 50
 [extra]
 nav = true
 +++
 
-Ta strona wyjaśnia najważniejsze zasady. Ma charakter ogólny i nie zastępuje porady w konkretnej sprawie. Pod każdą sekcją podajemy źródło. Dzięki temu ty albo poradnia możecie wszystko sprawdzić. Dwa skróty: **§** oznacza paragraf, czyli część ustawy. **Rn.** oznacza Randnummer, czyli numer akapitu w wyroku.
+Ta strona wyjaśnia najważniejsze zasady. Ma charakter ogólny i nie zastępuje porady w konkretnej sprawie. Pod każdą sekcją podajemy źródło. Dzięki temu ty albo poradnia możecie wszystko sprawdzić. Dwa skróty: „§” oznacza paragraf, czyli część ustawy. „Rn.” oznacza Randnummer, czyli numer akapitu w wyroku.
 
 ## Czy ta strona dotyczy twojego listu?
 
-Ta strona dotyczy tylko sytuacji, w której w liście jest napisane, że masz **zgodzić się** na wyższy czynsz. Często jest tam słowo „Zustimmung” (zgoda), „Mieterhöhungsverlangen” (żądanie podwyżki czynszu) albo „§ 558 BGB”.
+Ta strona dotyczy tylko sytuacji, w której w liście jest napisane, że masz zgodzić się na wyższy czynsz. Często jest tam słowo „Zustimmung” (zgoda), „Mieterhöhungsverlangen” (żądanie podwyżki czynszu) albo „§ 558 BGB”.
 
-**Uwaga – tutaj obowiązują inne zasady.** Wyższy czynsz musisz wtedy zwykle płacić, nawet bez twojej zgody:
+**W następujących przypadkach obowiązują inne zasady.** Wyższy czynsz musisz wtedy zwykle płacić, nawet bez twojej zgody:
 
 - podwyżka czynszu po modernizacji (§ 559 BGB),
 - nowe zaliczki na koszty eksploatacyjne (Betriebskosten) (§ 560 BGB),
@@ -30,7 +30,7 @@ W tych trzech przypadkach ustawowe zasady dotyczące podwyżki czynszu nie obowi
 
 Berlińskie zwierciadło czynszów (Mietspiegel) nie dotyczy poza tym mieszkań w domach jedno- lub dwurodzinnych i w domach szeregowych, mieszkań z WC poza mieszkaniem oraz nowych budynków (Mietspiegel 2026: gotowe od 2025; Mietspiegel 2024: gotowe od 2023).
 
-**Nowsze mieszkanie socjalne albo inne mieszkanie dotowane bez „Kostenmiete”:** Tutaj wynajmujący musi poprosić cię o zgodę, tak jak opisano na tej stronie. Dodatkowo czynsz nie może przekraczać czynszu maksymalnego wynikającego z dotacji (Förderung). Zwierciadła czynszów nie można wtedy zastosować bezpośrednio. Skorzystaj z porady.
+W nowszym mieszkaniu socjalnym albo innym mieszkaniu dotowanym bez „Kostenmiete” wynajmujący musi poprosić cię o zgodę, tak jak opisano na tej stronie. Dodatkowo czynsz nie może przekraczać czynszu maksymalnego wynikającego z dotacji (Förderung). Zwierciadła czynszów nie można wtedy zastosować bezpośrednio. Skorzystaj z porady.
 
 W takich przypadkach **nie** przestawaj po prostu płacić. Skorzystaj z porady: [Pomoc i porady](@/hilfe.pl.md).
 
@@ -57,7 +57,7 @@ Ważny jest dzień, w którym pismo do ciebie dotrze (doręczenie, Zugang). Dla 
 
 Zapisz, którego dnia list dotarł. Zachowaj kopertę.
 
-*Źródło: BGH, Urteil vom 28.04.2021 – VIII ZR 22/20, Rn. 29 (Tag des Zugangs); LG Berlin, Urteil vom 07.11.2014 – 65 S 527/13 (neuerer Mietspiegel); BGH, Urteil vom 15.03.2017 – VIII ZR 295/15 (Zuschlag).*
+*Źródło: BGH, Urteil vom 28.04.2021, VIII ZR 22/20, Rn. 29 (Tag des Zugangs); LG Berlin, Urteil vom 07.11.2014, 65 S 527/13 (neuerer Mietspiegel); BGH, Urteil vom 15.03.2017, VIII ZR 295/15 (Zuschlag).*
 
 ## Terminy
 
@@ -69,11 +69,11 @@ Zapisz, którego dnia list dotarł. Zachowaj kopertę.
 
 **Sobota, niedziela, święto:** Jeśli koniec terminu wypada w sobotę, niedzielę lub święto w Berlinie, zwykle zastępuje go następny dzień roboczy. Święta w Berlinie to Nowy Rok, Dzień Kobiet (8 marca), Wielki Piątek, Poniedziałek Wielkanocny, 1 maja, Wniebowstąpienie, Poniedziałek Zielonych Świątek, 3 października i oba dni Bożego Narodzenia.
 
-- **Twój czas do namysłu:** Zgodnie z brzmieniem ustawy przesuwa się on na następny dzień roboczy. Nie znaleźliśmy orzeczenia sądu dotyczącego dokładnie tej sytuacji. Dlatego zaplanuj wszystko tak, żeby twoja odpowiedź dotarła do wynajmującego do daty kalendarzowej.
-- **Termin wynajmującego:** On również się przesuwa. Wynajmujący ma wtedy więcej czasu. Przykład: termin na pozew według obliczeń kończy się w niedzielę, 28.02.2027. Wtedy wynajmujący ma czas do poniedziałku, 01.03.2027. Wystarczy, że pozew wpłynie do sądu do tego dnia i zostanie doręczony wkrótce potem.
-- **Nadzwyczajne wypowiedzenie (patrz niżej):** Nie jest wyjaśnione, czy ten termin się przesuwa. Nie licz na to.
+- Twój czas do namysłu: Zgodnie z brzmieniem ustawy przesuwa się on na następny dzień roboczy. Nie znaleźliśmy orzeczenia sądu dotyczącego dokładnie tej sytuacji. Dlatego zaplanuj wszystko tak, żeby twoja odpowiedź dotarła do wynajmującego do daty kalendarzowej.
+- Termin wynajmującego: On również się przesuwa. Wynajmujący ma wtedy więcej czasu. Przykład: termin na pozew według obliczeń kończy się w niedzielę, 28.02.2027. Wtedy wynajmujący ma czas do poniedziałku, 01.03.2027. Wystarczy, że pozew wpłynie do sądu do tego dnia i zostanie doręczony wkrótce potem.
+- Nadzwyczajne wypowiedzenie (patrz niżej): Nie jest wyjaśnione, czy ten termin się przesuwa. Nie licz na to.
 
-*Źródło: § 558b Abs. 1 und 2 BGB; § 193 BGB; § 167 ZPO; Berliner Gesetz über die Sonn- und Feiertage, § 1; BGH, Urteil vom 29.04.2020 – VIII ZR 355/18 (Klagefrist); BGH, Versäumnisurteil vom 06.12.2007 – III ZR 146/07, Rn. 13 und 14 (Klage am Montag nach Fristende am Samstag rechtzeitig).*
+*Źródło: § 558b Abs. 1 und 2 BGB; § 193 BGB; § 167 ZPO; Berliner Gesetz über die Sonn- und Feiertage, § 1; BGH, Urteil vom 29.04.2020, VIII ZR 355/18 (Klagefrist); BGH, Versäumnisurteil vom 06.12.2007, III ZR 146/07, Rn. 13 und 14 (Klage am Montag nach Fristende am Samstag rechtzeitig).*
 
 ## Błędy w piśmie
 
@@ -87,29 +87,29 @@ Jeśli nic nie zrobisz, nie jest to zgoda. Wynajmujący może jednak wtedy wnie�
 
 **Pismo z sądu:** Jeśli wynajmujący wniesie pozew, dostaniesz pismo z sądu rejonowego (Amtsgericht). Wtedy od razu idź do poradni. Często masz tylko 2 tygodnie na odpowiedź do sądu. Jeśli nie odpowiesz na czas, sąd może rozstrzygnąć bez ciebie, najczęściej na korzyść wynajmującego.
 
-**Ale uważaj przy płaceniu:** Zgoda nie wymaga żadnej określonej formy. Kto kilka razy zapłaci wyższy czynsz bez zastrzeżenia (ohne Vorbehalt), może w ten sposób wyrazić zgodę. Federalny Trybunał Sprawiedliwości (BGH) tak ocenił sytuację, w której wyższy czynsz zapłacono trzy razy bez zastrzeżenia. Dlatego nie płać po prostu wyższego czynszu, jeśli jeszcze nie chcesz się zgodzić.
+**Uważaj przy płaceniu:** Zgoda nie wymaga żadnej określonej formy. Kto kilka razy zapłaci wyższy czynsz bez zastrzeżenia (ohne Vorbehalt), może w ten sposób wyrazić zgodę. Federalny Trybunał Sprawiedliwości (BGH) tak ocenił sytuację, w której wyższy czynsz zapłacono trzy razy bez zastrzeżenia. Dlatego nie płać po prostu wyższego czynszu, jeśli jeszcze nie chcesz się zgodzić.
 
-**Polecenie zapłaty (Lastschrift):** Jeśli wynajmujący ma twoją zgodę na pobieranie czynszu z twojego konta, sprawdź konto. Jeśli wyższy czynsz jest pobierany już przed twoją zgodą, od razu napisz do wynajmującego: nie wyrażasz zgody, a płatność następuje tylko z zastrzeżeniem (unter Vorbehalt). Zapytaj w swoim banku, czy możesz cofnąć polecenie zapłaty. Skorzystaj z porady.
+Jeśli wynajmujący ma twoją zgodę na pobieranie czynszu z twojego konta (polecenie zapłaty, Lastschrift), sprawdź konto. Jeśli wyższy czynsz jest pobierany już przed twoją zgodą, od razu napisz do wynajmującego: nie wyrażasz zgody, a płatność następuje tylko z zastrzeżeniem (unter Vorbehalt). Zapytaj w swoim banku, czy możesz cofnąć polecenie zapłaty. Skorzystaj z porady.
 
-*Źródło: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 13 und 21; § 276 Abs. 1, § 331 Abs. 3 ZPO.*
+*Źródło: § 558b Abs. 2 BGB; BGH, Beschluss vom 30.01.2018, VIII ZB 74/16, Rn. 13 und 21; § 276 Abs. 1, § 331 Abs. 3 ZPO.*
 
 ## Zgoda, częściowa zgoda, odmowa
 
 **Zgoda jest ostateczna.** Twoja zgoda to wiążące oświadczenie. Gdy tylko dotrze do wynajmującego, nie możesz jej już cofnąć. Nie można jej też odwołać tak jak zakupu w internecie. Nowy czynsz uważa się wtedy za uzgodniony. Nawet jeśli później zauważysz, że czynsz jest za wysoki, z reguły zostaje tak, jak jest. Tylko w wyjątkowych przypadkach można podważyć zgodę (anfechten), na przykład jeśli wynajmujący celowo wprowadził cię w błąd. Wtedy od razu skorzystaj z porady.
 
-*Źródło: § 130 Abs. 1 BGB, § 123 Abs. 1 BGB; BGH, Urteil vom 17.10.2018 – VIII ZR 94/17; bestätigt im Urteil vom 24.04.2019 – VIII ZR 62/18, Rn. 21 und 22.*
+*Źródło: § 130 Abs. 1 BGB, § 123 Abs. 1 BGB; BGH, Urteil vom 17.10.2018, VIII ZR 94/17; bestätigt im Urteil vom 24.04.2019, VIII ZR 62/18, Rn. 21 und 22.*
 
-**Umowa najmu od czerwca 2015? Najpierw sprawdź hamulec czynszowy (Mietpreisbremse).** Czy twój czynsz był może za wysoki już na początku najmu? Sprawdź to **przed** odpowiedzią. Jeśli zgodzisz się na podwyżkę, nowy czynsz uważa się za uzgodniony. Wobec tego nowego czynszu nie możesz się wtedy co do zasady już powołać na hamulec czynszowy. Więcej na ten temat: [Hamulec czynszowy](@/mietpreisbremse.pl.md).
+**Umowa najmu od czerwca 2015? Najpierw sprawdź hamulec czynszowy (Mietpreisbremse).** Czy twój czynsz był może za wysoki już na początku najmu? Sprawdź to przed odpowiedzią. Jeśli zgodzisz się na podwyżkę, nowy czynsz uważa się za uzgodniony. Wobec tego nowego czynszu nie możesz się wtedy co do zasady już powołać na hamulec czynszowy. Więcej na ten temat: [Hamulec czynszowy](@/mietpreisbremse.pl.md).
 
-*Źródło: BGH, Urteil vom 28.09.2022 – VIII ZR 300/21, Leitsätze und Rn. 32.*
+*Źródło: BGH, Urteil vom 28.09.2022, VIII ZR 300/21, Leitsätze und Rn. 32.*
 
-**Częściowa zgoda (Teilzustimmung) jest możliwa.** Ustawa mówi: „Soweit” (w takim zakresie, w jakim) się zgodzisz, musisz płacić wyższy czynsz. Możesz więc na przykład zgodzić się na podwyżkę o 30 € zamiast 60 €. Ta zgoda cię potem wiąże. O resztę wynajmujący może mimo to pozwać cię do sądu. Dlatego zgódź się tylko na taką kwotę, którą na pewno uważasz za prawidłową. Potem płać tylko czynsz objęty twoją zgodą, a nie pełną żądaną kwotę. Sprawdź polecenie zapłaty.
+Częściowa zgoda (Teilzustimmung) jest możliwa. Ustawa mówi: „Soweit” (w takim zakresie, w jakim) się zgodzisz, musisz płacić wyższy czynsz. Możesz więc na przykład zgodzić się na podwyżkę o 30 € zamiast 60 €. Ta zgoda cię potem wiąże. O resztę wynajmujący może mimo to pozwać cię do sądu. Dlatego zgódź się tylko na taką kwotę, którą na pewno uważasz za prawidłową. Potem płać tylko czynsz objęty twoją zgodą, a nie pełną żądaną kwotę. Sprawdź polecenie zapłaty.
 
-*Źródło: § 558b Abs. 1 BGB; BGH, Urteil vom 20.01.2010 – VIII ZR 141/09, Rn. 19; BGH, Beschluss vom 30.01.2018 – VIII ZB 74/16, Rn. 21.*
+*Źródło: § 558b Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 19; BGH, Beschluss vom 30.01.2018, VIII ZB 74/16, Rn. 21.*
 
-**Odmowy nie musisz uzasadniać.** Ustawa nie wymaga od ciebie uzasadnienia. Możesz jednak wymienić cechy (Merkmale), które oceniasz inaczej. Wcześniej skorzystaj z porady.
+Odmowy nie musisz uzasadniać. Ustawa nie wymaga od ciebie uzasadnienia. Możesz jednak wymienić cechy (Merkmale), które oceniasz inaczej. Wcześniej skorzystaj z porady.
 
-**Formularze wynajmującego:** Często do pisma jest dołączony formularz do podpisania. Nie podpisuj go, jeśli nie rozumiesz wszystkiego, co w nim jest. Nasze wzory listów dotyczą tylko podwyżki czynszu i niczego innego w twojej umowie najmu.
+Często do pisma jest dołączony formularz wynajmującego do podpisania. Nie podpisuj go, jeśli nie rozumiesz wszystkiego, co w nim jest. Nasze wzory listów dotyczą tylko podwyżki czynszu i niczego innego w twojej umowie najmu.
 
 ## Granice podwyżki czynszu
 
@@ -118,9 +118,9 @@ Nowy czynsz nie może przekroczyć dwóch granic. Obowiązuje niższa z nich:
 1. **Lokalny czynsz porównawczy.** W Berlinie jest to najczęściej wartość ze zwierciadła czynszów, przyporządkowana za pomocą pomocy orientacyjnej (Orientierungshilfe). Oblicz ją naszym [kalkulatorem](@/rechner.pl.md).
 2. **Limit podwyżki (Kappungsgrenze):** W Berlinie czynsz może w ciągu trzech lat wzrosnąć najwyżej o 15%. Liczy się od czynszu, który obowiązywał trzy lata przed dniem, od którego ma obowiązywać nowy czynsz. Podwyżki po modernizacji (§ 559 BGB) nie wliczają się do tych 15%. To znaczy: 15% oblicza się bez nich, a taka podwyżka może zostać dodana ponad te 15%. Przykład: trzy lata temu czynsz netto bez kosztów dodatkowych wynosił 600 €. Od tego czasu wzrósł o 40 € z powodu modernizacji. Wtedy granica wynosi 600 € + 15% = 690 €, plus 40 € = 730 €. Zmiany twojej zaliczki na koszty dodatkowe nie mają nic wspólnego z czynszem netto bez kosztów dodatkowych (Nettokaltmiete).
 
-**Przykład:** Trzy lata temu czynsz netto bez kosztów dodatkowych (czynsz bez kosztów eksploatacyjnych i kosztów ogrzewania) wynosił 600 €. Wtedy teraz może wynosić najwyżej 690 € (600 € + 15%). Jeśli czynsz porównawczy wynosi 660 €, granicą jest 660 €.
+Przykład: Trzy lata temu czynsz netto bez kosztów dodatkowych (czynsz bez kosztów eksploatacyjnych i kosztów ogrzewania) wynosił 600 €. Wtedy teraz może wynosić najwyżej 690 € (600 € + 15%). Jeśli czynsz porównawczy wynosi 660 €, granicą jest 660 €.
 
-*Źródło: § 558 Abs. 1 bis 3 BGB; Berliner Kappungsgrenzenverordnung vom 14.03.2023, gültig bis 10.05.2028 (veröffentlicht im Gesetz- und Verordnungsblatt für Berlin 2023, S. 112); BGH, Urteil vom 28.04.2004 – VIII ZR 177/03.*
+*Źródło: § 558 Abs. 1 bis 3 BGB; Berliner Kappungsgrenzenverordnung vom 14.03.2023, gültig bis 10.05.2028 (veröffentlicht im Gesetz- und Verordnungsblatt für Berlin 2023, S. 112); BGH, Urteil vom 28.04.2004, VIII ZR 177/03.*
 
 ## Okresy oczekiwania
 
@@ -128,15 +128,15 @@ Nowy czynsz nie może przekroczyć dwóch granic. Obowiązuje niższa z nich:
 - **15 miesięcy okresu oczekiwania (Wartefrist):** Nowy czynsz może zacząć obowiązywać dopiero wtedy, gdy czynsz nie zmienia się od 15 miesięcy. Te 15 miesięcy liczy się od dnia, w którym ostatnia podwyżka była po raz pierwszy do zapłaty.
 - Podwyżki po modernizacji i zmiany kosztów eksploatacyjnych (§§ 559 do 560 BGB) nie liczą się przy żadnym z tych terminów.
 
-*Źródło: § 558 Abs. 1 BGB; BGH, Urteil vom 20.01.2010 – VIII ZR 141/09, Rn. 18; BGH, Urteil vom 28.04.2004 – VIII ZR 178/03.*
+*Źródło: § 558 Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 18; BGH, Urteil vom 28.04.2004, VIII ZR 178/03.*
 
 ## Co się liczy w twoim mieszkaniu?
 
-- **Liczy się tylko wyposażenie od wynajmującego.** Jeśli coś zostało zamontowane przez ciebie i opłacone z twoich własnych pieniędzy, to się nie liczy. Tak jest na stałe, także wtedy, gdy za zgodą wynajmującego zastąpiono w ten sposób jego stare wyposażenie. Inaczej jest, jeśli wynajmujący zwrócił ci koszty.
-- **Moment:** Zwykły czynsz ustala się dla dnia, w którym żądanie dotrze (patrz wyżej). Według naszego rozumienia dlatego liczy się także stan mieszkania w tym dniu. Zrób zdjęcia z datą, najlepiej od razu po doręczeniu.
-- **Powierzchnia:** Liczy się rzeczywista powierzchnia mieszkalna, a nie liczba w umowie najmu. Wynajmujący musi udowodnić rzeczywistą powierzchnię, jeśli ją kwestionujesz na podstawie własnych pomiarów. Jeśli uważasz, że liczba w umowie najmu jest za duża, skorzystaj z porady.
+- Liczy się tylko wyposażenie od wynajmującego. Jeśli coś zostało zamontowane przez ciebie i opłacone z twoich własnych pieniędzy, to się nie liczy. Tak jest na stałe, także wtedy, gdy za zgodą wynajmującego zastąpiono w ten sposób jego stare wyposażenie. Inaczej jest, jeśli wynajmujący zwrócił ci koszty.
+- Moment: Zwykły czynsz ustala się dla dnia, w którym żądanie dotrze (patrz wyżej). Według naszego rozumienia dlatego liczy się także stan mieszkania w tym dniu. Zrób zdjęcia z datą, najlepiej od razu po doręczeniu.
+- Powierzchnia: Liczy się rzeczywista powierzchnia mieszkalna, a nie liczba w umowie najmu. Wynajmujący musi udowodnić rzeczywistą powierzchnię, jeśli ją kwestionujesz na podstawie własnych pomiarów. Jeśli uważasz, że liczba w umowie najmu jest za duża, skorzystaj z porady.
 
-*Źródło: Berliner Mietspiegel 2026, Nr. 6.3; BGH, Urteil vom 24.10.2018 – VIII ZR 52/18; BGH, Urteil vom 18.11.2015 – VIII ZR 266/14 (Leitsatz a); BGH, Urteil vom 31.05.2017 – VIII ZR 181/16, Rn. 13.*
+*Źródło: Berliner Mietspiegel 2026, Nr. 6.3; BGH, Urteil vom 24.10.2018, VIII ZR 52/18; BGH, Urteil vom 18.11.2015, VIII ZR 266/14 (Leitsatz a); BGH, Urteil vom 31.05.2017, VIII ZR 181/16, Rn. 13.*
 
 ## Kto musi co udowodnić?
 
@@ -144,7 +144,7 @@ Jeśli dojdzie do procesu, wynajmujący musi udowodnić lokalny czynsz porównaw
 
 Dlatego zbieraj dowody wcześnie: umowa najmu, protokół zdawczo-odbiorczy (Übergabeprotokoll), zdjęcia z datą, rachunki za rzeczy zamontowane na własny koszt, pisma do wynajmującego, imiona i nazwiska świadków.
 
-*Źródło: BGH, Urteil vom 18.11.2020 – VIII ZR 123/20, Rn. 27; LG Berlin, Urteil vom 16.10.2018 – 67 S 150/18, Rn. 6 bis 9.*
+*Źródło: BGH, Urteil vom 18.11.2020, VIII ZR 123/20, Rn. 27; LG Berlin, Urteil vom 16.10.2018, 67 S 150/18, Rn. 6 bis 9.*
 
 ## Wypowiedzenie zamiast zgody (Sonderkündigungsrecht)
 
@@ -152,7 +152,7 @@ Po żądaniu podwyżki czynszu możesz wypowiedzieć umowę w trybie nadzwyczajn
 
 Tekst ustawy mówi tutaj „Monat” (miesiąc), a nie „Kalendermonat” (miesiąc kalendarzowy). Bezpiecznie jest, jeśli wypowiedzenie dotrze w ciągu dwóch miesięcy od dnia doręczenia. Wypowiedzenie musi mieć formę pisemną (Schriftform), czyli być na papierze z twoim podpisem. E-mail nie wystarczy. Jeśli umowę najmu podpisało kilka osób, co do zasady wszystkie muszą podpisać wypowiedzenie. Wcześniej skorzystaj z porady.
 
-*Źródło: § 561 BGB, § 568 Abs. 1 BGB; BGH, Urteil vom 16.03.2005 – VIII ZR 14/04.*
+*Źródło: § 561 BGB, § 568 Abs. 1 BGB; BGH, Urteil vom 16.03.2005, VIII ZR 14/04.*
 
 ## Wynajmujący należący do Berlina
 
@@ -170,9 +170,9 @@ Dla większych mieszkań umowa nie podaje kwoty. Tekst nie mówi wyraźnie, czy 
 
 **2,9% rocznie:** Spółki dbają o to, żeby czynsze „in Summe” (w sumie) rosły nie więcej niż o 2,9% rocznie. To średnia ze wszystkich mieszkań danej spółki. Dla twojego pojedynczego mieszkania nie jest to granica.
 
-**Ustawa:** Berlińska ustawa mówi: spółki należące do Berlina mają („sollen”) podnosić czynsz według § 558 BGB w ciągu czterech lat nie więcej niż o 15%. „Sollen” (powinny) oznacza: powinny się tego trzymać, ale wyjątki są możliwe. Nie daje ci to pewnego prawa.
+Berlińska ustawa mówi: spółki należące do Berlina mają („sollen”) podnosić czynsz według § 558 BGB w ciągu czterech lat nie więcej niż o 15%. „Sollen” (powinny) oznacza: powinny się tego trzymać, ale wyjątki są możliwe. Nie daje ci to pewnego prawa.
 
-**Leistbarkeitsversprechen (obietnica, że czynsz będzie do udźwignięcia):** Czynsz netto bez kosztów dodatkowych nie powinien wynosić więcej niż 27% dochodu gospodarstwa domowego. Obowiązują przy tym warunki:
+Poza tym istnieje Leistbarkeitsversprechen (obietnica, że czynsz będzie do udźwignięcia): czynsz netto bez kosztów dodatkowych nie powinien wynosić więcej niż 27% dochodu gospodarstwa domowego. Obowiązują przy tym warunki:
 
 - Twój dochód nie przekracza limitów dla zaświadczenia uprawniającego do mieszkania socjalnego (Wohnberechtigungsschein, WBS). Umowa nie podaje, o który dokładnie limit chodzi. Berlińska ustawa o spółkach mieszkaniowych należących do Berlina podaje dla przypadków szczególnie trudnych (Härtefälle) 220% limitów dochodu z federalnej ustawy o wspieraniu budownictwa mieszkaniowego (Wohnraumförderungsgesetz, § 9 Abs. 2 WoFG).
 - Mieszkanie nie jest za duże: 45 m² dla jednej osoby, 60 m² dla dwóch, 75 m² dla trzech, 85 m² dla czterech i 12 m² więcej na każdą kolejną osobę. Jeśli jest większe, czynsz zostaje obniżony tylko proporcjonalnie.
@@ -181,6 +181,6 @@ Dla większych mieszkań umowa nie podaje kwoty. Tekst nie mówi wyraźnie, czy 
 
 Spółki muszą w każdym żądaniu podwyżki czynszu poinformować o Leistbarkeitsversprechen.
 
-Na pytania na ten temat odpowiada **Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen** (rzecznik najemców spółek mieszkaniowych należących do Berlina): <https://www.ombud-lwu.de> (porady po niemiecku i po angielsku). Te zasady to dobrowolne zobowiązania i zasady typu „powinny” (Soll-Regeln). Nie jest jasne, czy i jak można je wyegzekwować w sądzie. Skorzystaj w tej sprawie z porady.
+Na pytania na ten temat odpowiada Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen (rzecznik najemców spółek mieszkaniowych należących do Berlina): <https://www.ombud-lwu.de> (porady po niemiecku i po angielsku). Te zasady to dobrowolne zobowiązania i zasady typu „powinny” (Soll-Regeln). Nie jest jasne, czy i jak można je wyegzekwować w sądzie. Skorzystaj w tej sprawie z porady.
 
 *Źródło: Kooperationsvereinbarung 2024, Präambel und Abschnitt II Nr. 4, 7 und 8; Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025; Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen, § 2 Abs. 4 und § 3; Ombudsstelle, FAQ.*
