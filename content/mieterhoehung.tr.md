@@ -11,7 +11,7 @@ Bu sayfa en önemli kuralları açıklar. Geneldir ve tek tek durumlarda danış
 
 ## Bu sayfa mektubunuz için geçerli mi?
 
-Bu sayfa yalnızca mektupta daha yüksek bir kirayı onaylamanız (zustimmen) gerektiği yazıyorsa geçerlidir. Çoğu zaman orada „Zustimmung“ (onay), „Mieterhöhungsverlangen“ (kira artışı talebi) veya „§ 558 BGB“ yazar.
+Bu sayfa yalnızca mektupta daha yüksek bir kirayı onaylamanızın (zustimmen) istendiği yazıyorsa geçerlidir. Çoğu zaman orada „Zustimmung“ (onay), „Mieterhöhungsverlangen“ (kira artışı talebi) veya „§ 558 BGB“ yazar.
 
 **Aşağıdaki durumlarda başka kurallar geçerlidir.** Yüksek kirayı o zaman çoğu zaman onayınız olmadan da ödemek zorundasınız:
 
@@ -28,19 +28,19 @@ Bu sayfadaki kurallar şunlar için de geçerli değildir:
 
 Bu üç durumda kira artışıyla ilgili yasal kurallar geçerli değildir. Neyin geçerli olduğu sözleşmenize bağlıdır. Ancak ev sahibi orada size daha kolay fesih bildirebilir.
 
-Berlin Mietspiegel'i (kira tablosu) ayrıca şunlar için geçerli değildir: tek veya iki aileli evlerdeki ve sıra evlerdeki (Reihenhaus) daireler, tuvaleti (WC) dairenin dışında olan daireler ve yeni binalar (Mietspiegel 2026: 2025'ten itibaren tamamlananlar; Mietspiegel 2024: 2023'ten itibaren tamamlananlar).
+Berlin Mietspiegel'i (kira tablosu) ayrıca şunlar için geçerli değildir: tek veya iki aileli evlerdeki ve sıra evlerdeki (Reihenhaus) daireler, tuvaleti (WC) dairenin dışında olan daireler ve ancak Mietspiegel'in kapsadığı dönemden sonra oturuma hazır hâle gelen (bezugsfertig) daireler (Mietspiegel 2026: 2025'ten itibaren; Mietspiegel 2024: 2023'ten itibaren). Bu, eski bir binadaki yeni bir daire de olabilir, örneğin çatı katı dönüşümünden, bir ek binadan veya iş yerlerinin daireye dönüştürülmesinden sonra. Tek veya iki aileli bir evdeki ya da sıra evdeki bir daire için ev sahibi artışı yine de Mietspiegel ile gerekçelendirebilir, en azından talep edilen kira çok aileli binalardaki daireler için verilen aralık (Spanne) içindeyse. Bu durumda yazı yalnızca bu nedenle geçersiz olmaz. Ancak talep edilen kiranın sizin ev tipiniz için olağan olup olmadığını Mietspiegel göstermez.
 
 „Kostenmiete“ olmayan daha yeni bir sosyal konutta veya başka bir destekli konutta ev sahibi, bu sayfada anlatıldığı gibi sizden onay istemek zorundadır. Ayrıca kira, destekten (Förderung) gelen azami kirayı (Höchstmiete) aşamaz. Mietspiegel o zaman doğrudan uygulanamaz. Danışmanlık alın.
 
 Bu durumlarda ödemeyi öylece **durdurmayın**. Danışmanlık alın: [Yardım ve danışmanlık](@/hilfe.tr.md).
 
-*Kaynak: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe“ (neue Sozialwohnungen); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
+*Kaynak: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe“ (neue Sozialwohnungen); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3 und 6.4; BGH, Urteil vom 17.09.2008, VIII ZR 58/08; BGH, Beschluss vom 26.04.2016, VIII ZR 54/15, Rn. 8 bis 12.*
 
 ## Kira artışı talebi (Mieterhöhungsverlangen) nedir?
 
 § 558 BGB'ye göre bir kira artışında ev sahibiniz kirayı kendiliğinden artıramaz. Sizden onay istemek zorundadır. Sınır, benzer daireler için olağan olan kiradır. Buna yerel emsal kira (ortsübliche Vergleichsmiete) denir. Berlin'de bu kira çoğu zaman Mietspiegel'den çıkar.
 
-Yazı en azından metin şeklinde (Textform) gelmelidir, yani örneğin mektup, faks veya e-posta olarak. Ev sahibi artışı gerekçelendirmek zorundadır, örneğin Mietspiegel ile. Başka bir gerekçe kullanırsa, yine de dairenize ait Berlin Mietspiegel değerlerini belirtmek zorundadır.
+Yazı en azından metin şeklinde (Textform) gelmelidir, yani örneğin mektup, faks veya e-posta olarak. Ev sahibi artışı gerekçelendirmek zorundadır, örneğin Mietspiegel ile. Başka bir gerekçe kullanırsa, Mietspiegel dairenize ait değerler içeriyorsa bu Berlin Mietspiegel değerlerini yine de belirtmek zorundadır.
 
 Kademeli kira (Staffelmiete) veya endeksli kira (Indexmiete) kararlaştırdıysanız, bu süre boyunca § 558 BGB'ye göre artış yapılamaz.
 
@@ -67,7 +67,7 @@ Mektubun hangi gün geldiğini not edin. Zarfı saklayın.
 
 **Ev sahibinin süresi:** Onay vermezseniz veya yalnızca kısmen onay verirseniz, ev sahibi mahkemede onay için dava açabilir. Bunun için sizin sürenizin bitiminden sonra üç ay daha zamanı vardır. Örnekte: 31 Mart'a kadar. Zamanında dava açmazsa, bu artış için artık dava açamaz.
 
-**Cumartesi, pazar, resmî tatil:** Bir sürenin sonu Berlin'de cumartesi, pazar veya resmî tatile denk gelirse, çoğu zaman onun yerine bir sonraki iş günü geçer. Berlin'deki resmî tatiller şunlardır: Yılbaşı, Dünya Kadınlar Günü (8 Mart), Kutsal Cuma (Karfreitag), Paskalya Pazartesisi (Ostermontag), 1 Mayıs, İsa'nın Göğe Yükselişi (Himmelfahrt), Pentekost Pazartesisi (Pfingstmontag), 3 Ekim ve iki Noel günü.
+**Cumartesi, pazar, resmî tatil:** Bir sürenin sonu Berlin'de cumartesi, pazar veya resmî tatile denk gelirse, çoğu zaman onun yerine bir sonraki iş günü geçer. Berlin'deki resmî tatiller örneğin şunlardır: Yılbaşı, Dünya Kadınlar Günü (8 Mart), Kutsal Cuma (Karfreitag), Paskalya Pazartesisi (Ostermontag), 1 Mayıs, İsa'nın Göğe Yükselişi (Himmelfahrt), Pentekost Pazartesisi (Pfingstmontag), 3 Ekim ve iki Noel günü.
 
 - Düşünme süreniz: Yasanın metnine göre bir sonraki iş gününe kayar. Tam olarak bu konuda bir mahkeme kararı bulamadık. Bu yüzden cevabınız takvim tarihine kadar ulaşacak şekilde plan yapın.
 - Ev sahibinin süresi: Bu süre de kayar. Ev sahibinin o zaman daha fazla zamanı olur. Örnek: Dava açma süresi hesaben 28.02.2027 Pazar günü biter. O zaman ev sahibinin 01.03.2027 Pazartesi gününe kadar zamanı vardır. Davanın o güne kadar mahkemeye ulaşması ve kısa süre sonra tebliğ edilmesi yeterlidir.
@@ -99,7 +99,7 @@ Ev sahibine kirayı hesabınızdan çekme izni (otomatik ödeme, Lastschrift) ve
 
 *Kaynak: § 130 Abs. 1 BGB, § 123 Abs. 1 BGB; BGH, Urteil vom 17.10.2018, VIII ZR 94/17; bestätigt im Urteil vom 24.04.2019, VIII ZR 62/18, Rn. 21 und 22.*
 
-**Kira sözleşmesi Haziran 2015'ten itibaren mi? Önce kira frenini kontrol edin.** Kiranız daha başlangıçta belki çok yüksek miydi? O zaman bunu cevabınızdan önce kontrol edin. Bir artışı onaylarsanız, yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı o zaman ilke olarak artık kira frenine (Mietpreisbremse) dayanamazsınız. Daha fazlası: [Kira freni](@/mietpreisbremse.tr.md).
+**Kira sözleşmesini Haziran 2015'ten itibaren mi imzaladınız? Önce kira frenini kontrol edin.** Kiranız daha başlangıçta belki çok yüksek miydi? O zaman bunu cevabınızdan önce kontrol edin. Bir artışı onaylarsanız, yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı o zaman ilke olarak artık kira frenine (Mietpreisbremse) dayanamazsınız. Daha fazlası: [Kira freni](@/mietpreisbremse.tr.md).
 
 *Kaynak: BGH, Urteil vom 28.09.2022, VIII ZR 300/21, Leitsätze und Rn. 32.*
 
@@ -124,8 +124,8 @@ Yeni kira iki sınırı aşamaz. Daha düşük olan geçerlidir:
 
 ## Bekleme süreleri
 
-- **1 yıl engelleme süresi (Sperrfrist):** Yeni bir talep size en erken son kira artışından bir yıl sonra ulaşabilir. Bu yıl, son artışın geçerli olduğu günden itibaren sayılır. Talep çok erken gelirse, geçersizdir (unwirksam).
-- **15 ay bekleme süresi (Wartefrist):** Yeni kira ancak kira 15 aydır aynıysa geçerli olabilir. 15 ay, son artışın ilk kez ödenmesi gereken günden itibaren sayılır.
+- **1 yıl engelleme süresi (Sperrfrist):** Yeni bir talep size en erken son kira artışından bir yıl sonra ulaşabilir. Bu yıl, son artışın geçerli olduğu günden itibaren sayılır. Talep çok erken gelirse, geçersizdir (unwirksam). Henüz hiç kira artışı olmadıysa, yaygın görüşe göre yıl kira ilişkisinin başlangıcından, yani sözleşmeye göre kira ödemek zorunda olduğunuz günden itibaren sayılır. Federal Yüksek Mahkeme'nin (Bundesgerichtshof) bu konuda bir kararını bulamadık. Bu durumda danışmanlık alın.
+- **15 ay bekleme süresi (Wartefrist):** Yeni kira ancak kira 15 aydır aynıysa geçerli olabilir. 15 ay, son artışın ilk kez ödenmesi gereken günden itibaren sayılır. Bu genellikle artışın geçerli olduğu günle aynı gündür. Henüz hiç artış olmadıysa, 15 ay kira ilişkisinin başlangıcından itibaren sayılır.
 - Bir modernizasyondan sonraki artışlar ve yan giderlerdeki değişiklikler (§§ 559–560 BGB) iki sürede de hesaba katılmaz.
 
 *Kaynak: § 558 Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 18; BGH, Urteil vom 28.04.2004, VIII ZR 178/03.*
@@ -156,9 +156,9 @@ Yasa metni burada „Monat“ (ay) diyor, „Kalendermonat“ (takvim ayı) demi
 
 ## Eyalete ait ev sahipleri
 
-Daireniz Berlin eyaletine ait bir konut şirketinin (landeseigenes Wohnungsunternehmen) mi? Bunlar degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND ve WBM'dir. O zaman ek taahhütler geçerlidir. Bunlar özellikle Berlin eyaleti ile bu şirketler arasındaki „Kooperationsvereinbarung“da (işbirliği anlaşması) yer alır. Anlaşma 01.01.2024'ten 31.12.2027'ye kadar geçerlidir. berlinovo için yalnızca „Klassisches Wohnen“ (klasik konut) alanında geçerlidir.
+Daireniz Berlin eyaletine ait bir konut şirketinin (landeseigenes Wohnungsunternehmen) mi? Bunlar degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND ve WBM'dir. O zaman ek taahhütler geçerlidir. Bunlar özellikle Berlin eyaleti ile bu şirketler arasındaki „Kooperationsvereinbarung“da (işbirliği anlaşması) yer alır. Anlaşma 01.01.2024'ten 31.12.2027'ye kadar geçerlidir. berlinovo için yalnızca „Klassisches Wohnen“ (klasik konut) alanındaki ve berlinovo'nun kendisine ait olan daireler için geçerlidir. Daha eski berlinovo dairelerinin çoğu fon şirketlerine (Fondsgesellschaften) aittir. Anlaşma bu daireler için geçerli değildir. Ev sahibiniz bu şirketlerden birinin yan kuruluşuysa veya emin değilseniz, Ombudsman ofisine (Ombudsstelle) sorun (aşağıya bakın).
 
-**Üç yılda %11:** Şirketler „Bündnis für Wohnungsneubau und bezahlbares Wohnen“a (yeni konut ve uygun fiyatlı konut ittifakı) dahildir. İttifakın 15.07.2025 tarihli yeni metninde şöyle yazar: Eyalete ait şirketler § 558 BGB'ye göre artışlar için artış sınırını %15'ten %11'e daha da düşürür. Bu, işbirliği anlaşmasının süresi boyunca geçerlidir. Yani bir sözleşmedeki kira üç yılda en fazla %11 yükselmelidir.
+**Üç yılda %11:** Şirketler „Bündnis für Wohnungsneubau und bezahlbares Wohnen“a (yeni konut ve uygun fiyatlı konut ittifakı) dahildir. İttifakın 15.07.2025 tarihli yeni metninde şöyle yazar: Eyalete ait şirketler § 558 BGB'ye göre artışlar için artış sınırının %15'ten %11'e düşürülmesini sürdürür. Bu, işbirliği anlaşmasının süresi boyunca geçerlidir. Yani bir sözleşmedeki kira üç yılda en fazla %11 yükselmelidir.
 
 **Daire başına euro olarak sınır:** Aylık kira toplamda en fazla şu kadar yükselebilir:
 
@@ -170,17 +170,17 @@ Daha büyük daireler için anlaşma bir tutar belirtmiyor. „Insgesamt“ (top
 
 **Yılda %2,9:** Şirketler, kiraların „in Summe“ (toplamda) yılda %2,9'dan fazla yükselmemesini sağlar. Bu, bir şirketin tüm dairelerinin ortalamasıdır. Sizin tek daireniz için bir sınır değildir.
 
-Bir Berlin yasası şöyle der: Eyalete ait şirketler kirayı § 558 BGB'ye göre dört yılda %15'ten fazla artırmamalıdır („sollen“). „Sollen“ şu demektir: Buna uymaları beklenir, istisnalar mümkündür. Sizin için kesin bir hak değildir.
+Bir Berlin yasası şöyle der: Eyalete ait şirketler kirayı § 558 BGB'ye göre dört yılda %15'ten fazla artırmamalıdır („sollen“). „Sollen“ şu demektir: Buna uymaları beklenir, istisnalar mümkündür. Sizin için kesin bir hak değildir. Aynı yasada bir zor durum (Härtefall) kuralı da vardır: Başvuru üzerine, artıştan sonraki kira hanenizin net gelirinin %30'undan fazla olmamalıdır. Binanızın enerji kimlik belgesinde (Energieausweis) metrekare ve yıl başına 170 kWh'den fazla bir nihai enerji tüketimi yazıyorsa, bu oran %27'dir. Bunun için şirketin hanenizi zor durum olarak tanıması gerekir (gelir ve alan sınırları için aşağıya bakın). Ombudsman ofisinin bilgisine göre bu yasa berlinovo için geçerli değildir.
 
-Ayrıca ödenebilirlik sözü (Leistbarkeitsversprechen) vardır: Net kira, hane gelirinin %27'sinden fazla olmamalıdır. Bunun için koşullar vardır:
+Ayrıca işbirliği anlaşmasının ödenebilirlik sözü (Leistbarkeitsversprechen) vardır: Net kira, hane gelirinin %27'sinden fazla olmamalıdır. Ombudsman ofisinin bilgisine göre burada hanenin net geliri kastedilmektedir. Bunun için koşullar vardır:
 
-- Geliriniz, konut hak belgesi (Wohnberechtigungsschein, WBS) sınırlarını aşmıyor. Tam olarak hangi sınırın geçerli olduğunu anlaşma belirtmiyor. Eyalete ait şirketlerle ilgili Berlin yasası, zor durumlar (Härtefälle) için federal Konut Teşvik Yasası'ndaki (Wohnraumförderungsgesetz) gelir sınırlarının %220'sini belirtir (§ 9 Abs. 2 WoFG).
-- Daire çok büyük değil: bir kişi için 45 m², iki kişi için 60 m², üç kişi için 75 m², dört kişi için 85 m² ve her ek kişi için 12 m² daha. Daire daha büyükse, kira yalnızca orantılı olarak düşürülür.
+- Geliriniz, konut hak belgesi (Wohnberechtigungsschein, WBS) sınırlarını aşmıyor. Tam olarak hangi sınırın geçerli olduğunu anlaşma belirtmiyor. Eyalete ait şirketlerle ilgili Berlin yasası, zor durumlar (Härtefälle) için federal Konut Teşvik Yasası'ndaki (Wohnraumförderungsgesetz) gelir sınırlarının %220'sini belirtir (§ 9 Abs. 2 WoFG). Ombudsman ofisinin bilgisine göre önce konut yardımı (Wohngeld) alıp alamayacağınız incelenmelidir.
+- Daire çok büyük değil: bir kişi için 45 m², iki kişi için 60 m², üç kişi için 75 m², dört kişi için 85 m² ve her ek kişi için 12 m² daha. Daire daha büyükse, kira yalnızca orantılı olarak düşürülür. Ombudsman ofisinin bilgisine göre özel durumlarda %20'ye kadar daha büyük bir alan kabul edilebilir.
 - İndirim yalnızca **başvuru üzerine** yapılır. Ombudsman ofisinin (Ombudsstelle) bilgisine göre konut şirketinize resmî biçimi olmayan bir mektup veya e-posta yeterlidir. Gelir ve hane büyüklüğü belgelerini ekleyin.
-- Bürgergeld veya sosyal yardım (SGB II veya XII) alıyorsanız, anlaşma kiranın sizin için ödenebilir kalacağını taahhüt eder.
+- İş arayanlar için temel güvence (Grundsicherung für Arbeitsuchende, eski adıyla Bürgergeld) veya sosyal yardım (SGB II veya XII) alıyorsanız, anlaşma kiranın sizin için ödenebilir kalacağını taahhüt eder.
 
 Şirketler her kira artışı talebinde ödenebilirlik sözünü belirtmek zorundadır.
 
 Bu konudaki soruları Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen (eyalete ait konut şirketlerinin kiracıları için Ombudsman ofisi) cevaplar: <https://www.ombud-lwu.de> (Almanca ve İngilizce danışmanlık). Bu kurallar gönüllü taahhütler ve „Soll“ (olması beklenen) kurallardır. Mahkemede uygulatılıp uygulatılamayacakları ve nasıl uygulatılacakları belirsizdir. Bu konuda danışmanlık alın.
 
-*Kaynak: Kooperationsvereinbarung 2024, Präambel und Abschnitt II Nr. 4, 7 und 8; Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025; Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen, § 2 Abs. 4 und § 3; Ombudsstelle, FAQ.*
+*Kaynak: Kooperationsvereinbarung 2024, Präambel und Abschnitt II Nr. 4, 7 und 8; Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025; Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen, § 2 Abs. 4 und § 3; Roadmap 2.0 von Land Berlin, landeseigenen Wohnungsunternehmen und berlinovo vom 05.06.2026; Ombudsstelle, Startseite und FAQ.*

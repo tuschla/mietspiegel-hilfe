@@ -123,7 +123,7 @@ Alle Quellen am **2026-10-17** live geöffnet (Status PRIMARY, wenn nicht anders
 
 - Welcher Kappungssatz bei Wechsel einer VO gilt (Zugang oder Erhöhungstermin) – für Berlin bis 10.05.2028 ohne Bedeutung (durchgehend 15 % seit 19.05.2013). rules.json: `by: received`.
 - Ausdrückliche BGH-Aussage, dass der Zustand der Wohnung bei Zugang maßgeblich ist (nur Folgerung aus VIII ZR 22/20 Rn. 29; LG Berlin 67 S 150/18 Rn. 9 für Parkplatz). Website formuliert: „Nach unserem Verständnis …“.
-- Mietbeginn als Beginn von Sperr- und Wartefrist (nur implizit BGH VIII ZR 303/06 Rn. 8). Rechner nutzt „Mietbeginn“ als Ersatz für „letzte Änderung“.
+- Mietbeginn als Beginn der **Sperrfrist**: nur verbreitete Ansicht in der Fachliteratur (Schmidt-Futterer/Börstinghaus § 558 Rn. 20; BeckOGK/Fleindl § 558 Rn. 96; BayObLG RE-Miet 4/88; alle nur zitiert nach ZAP 24/2022 und Haufe, nicht selbst gelesen); keine BGH-Entscheidung gefunden (BGH VIII ZR 303/06 Rn. 8 nur implizit). Website: „nach verbreiteter Ansicht“. Prüfung: Kästchen „Es gab noch keine Mieterhöhung“ → Befund `sperrfrist_from_start` (Warnung, kein „unwirksam“). Die **Wartefrist** ab Mietbeginn folgt aus dem Wortlaut „seit 15 Monaten unverändert“ (§ 558 Abs. 1 S. 1).
 - Folge eines zu früh genannten Erhöhungstermins (nur Sekundärquellen) – Website rät zur Beratung.
 - § 561 BGB: Ende des zweiten **Kalender**monats als Kündigungsfrist (verbreitete Lesart) – Website zeigt zusätzlich das sichere Datum (zwei Monate ab Zugang).
 - Kostenfreiheit der Ombudsstelle LWU; „nur für Mitglieder“ beim AMV; Kostenübernahme von Vereinsbeiträgen bei SGB II/XII.
@@ -198,3 +198,23 @@ Beleg für das Kästchen `scope_item_gefoerdert` (`NOT_MS` in `static/js/app/sco
 - **Berliner Mietspiegel 2026, Nr. 3** – `tools/src/mietspiegel2026.pdf` (sha256 `ff6f45de…2556`), pdftotext, PDF-Seite 9 (Druckseite 7): „Der Mietspiegel gilt nicht für: … — Wohnungen, bei denen die Miethöhe durch Gesetz oder im Zusammenhang mit einer Förderzusage festgelegt worden ist (z. B. öffentlich geförderte Wohnungen).“
 - **Berliner Mietspiegel 2024, Nr. 3** – `tools/src/mietspiegel2024.pdf` (sha256 `a6ee91b8…1577`), pdftotext, PDF-Seite 9: gleicher Wortlaut „— Wohnungen, bei denen die Miethöhe durch Gesetz oder im Zusammenhang mit einer Förderzusage festgelegt worden ist (z.B. öffentlich geförderte Wohnungen).“
 - **§ 28 Abs. 3 WoFG** – https://www.gesetze-im-internet.de/wofg/__28.html – live geöffnet 2026-10-18: „Der Vermieter kann die Miete nach Maßgabe der allgemeinen mietrechtlichen Vorschriften erhöhen, jedoch nicht höher als bis zur höchstzulässigen Miete und unter Einhaltung sonstiger Bestimmungen der Förderzusage zur Mietbindung.“ Abs. 1 S. 1: „In der Förderzusage ist eine höchstzulässige Miete zu bestimmen“. → Zustimmung nach § 558 BGB nötig, Obergrenze Höchstmiete aus der Förderung.
+
+### Content – Widersprüche und Lücken (geprüft 2026-10-19)
+
+- § 556e Abs. 1 S. 2 BGB (live): „Bei der Ermittlung der Vormiete unberücksichtigt bleiben Mietminderungen sowie solche Mieterhöhungen, die mit dem vorherigen Mieter innerhalb des letzten Jahres vor Beendigung des Mietverhältnisses vereinbart worden sind.“
+- BGH, Urteil vom 01.07.2026, VIII ZR 125/23, Rn. 25, https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2023/VIII_ZR_125-23.pdf?__blob=publicationFile&v=1: „War die ursprünglich vereinbarte Vormiete danach höher als zulässig, ist als geschuldete Vormiete daher die gemäß § 556g Abs. 1 Satz 1 und 2 BGB auf die zulässige Höhe reduzierte Miete anzusehen“.
+- Roadmap 2.0 (Land Berlin, LWU, berlinovo), datiert „Berlin, 05. Juni 2026“, https://bbu.de/sites/default/files/2026-06/Roadmap%202.0.pdf: „Aktuell befindet sich der überwiegende Altwohnungsbestand der berlinovo noch im Eigentum von Fondsgesellschaften, die nicht unter die KoopV berlinovo 2024 fallen.“
+- Ombudsstelle, Startseite und FAQ (live 19.10.2026):
+  - „„klassischen“ Mietwohnungen im Eigenbestand der berlinovo“;
+  - „ausgenommen sind neben dem sogenanntem Fondsbestand …“;
+  - „Für den Wohnungsbestand der berlinovo findet das Berliner Wohnraumversorgungsgesetz keine Anwendung.“;
+  - „… sowie deren Tochtergesellschaften“;
+  - „Vor Inanspruchnahme des Leistbarkeitsversprechens müssen eventuelle Ansprüche auf Wohngeld … geprüft werden.“;
+  - „Bei Vorliegen besonderer Umstände kann eine Überschreitung um bis zu 20% der angegebenen Wohnflächengrenze anerkannt werden.“;
+  - „auf 27% des Nettohaushaltseinkommens abzusenken“.
+- BMAS, https://www.bmas.de/DE/Arbeit/Grundsicherung-fuer-Arbeitsuchende/grundsicherung-fuer-arbeitsuchende.html: „Die neue Grundsicherung für Arbeitsuchende gilt seit dem 1. Juli 2026 und löst das Bürgergeld ab.“
+- Mietspiegel 2026 Nr. 6.4: „Ausbau und Erweiterung von bestehenden Gebäuden (z. B. Dachgeschossausbau, Anbau)“; Nr. 6.1: „Gebäude mit mindestens 3 Wohnungen“.
+- WUAusrStärkG BE (Art. 2 WoVG Bln) § 2 Abs. 4 b und c sowie § 3 Abs. 5, https://gesetze.berlin.de/perma?j=WUAusrSt%C3%A4rkG_BE_!_2 und `_!_3`, Fassung vom 20.12.2023 (Wortlaut wie in WV3 Nr. 3).
+- § 556g Abs. 1a S. 2–4 und Abs. 4 BGB; Art. 229 § 49 Abs. 2 S. 1 EGBGB: „Auf ein bis einschließlich 31. Dezember 2018 entstandenes Mietverhältnis ist § 556g Absatz 1a des Bürgerlichen Gesetzbuchs nicht anzuwenden.“
+- BGH, Beschluss vom 26.04.2016, VIII ZR 54/15, Rn. 8–12, https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2015/VIII_ZR__54-15.pdf?__blob=publicationFile&v=1 (Reihenendhaus, Berliner Mietspiegel 2011). BGH, Urteil vom 17.09.2008, VIII ZR 58/08, Leitsatz; den Volltext nur als Wiedergabe auf lexetius.com gelesen.
+- Senatsseite „Städtische Wohnungsbaugesellschaften“ im Wayback-Archiv, Stand 30.01.2025 und 22.05.2025 (vor dem Bündnis 2025): „… kann bei Mieterhöhungen nach § 558 BGB … die Miete in einzelnen Verträgen um maximal 11 % innerhalb von drei Jahren steigen.“ Das ist der Beleg für `lwu.valid_from` vor Juli 2025. Ein Beleg genau für den 01.01.2024 fehlt weiterhin.

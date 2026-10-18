@@ -185,11 +185,11 @@ function renderLetter() {
   sheet.value = text;
   printCopy.textContent = text;
   missingNote.textContent = missing.length ? t("letter_missing", { n: missing.length }) : "";
-  const problems = amountProblems(tp, values, known.demanded_rent, known.max_rent);
+  const problems = amountProblems(tp, values, known.demanded_rent, known.max_rent, chk.lwu_cap_rent);
   const key = problems.join(" ");
   if (key !== shownProblems) {
     shownProblems = key;
-    const box = () => (problems.length ? callout("danger", null, problems.map((p) => h("p", {}, t(`letter_problem_${p}`, { max: eur(known.max_rent, cfg.lang) })))) : null);
+    const box = () => (problems.length ? callout("danger", null, problems.map((p) => h("p", {}, t(`letter_problem_${p}`, { max: eur(known.max_rent, cfg.lang), lwu_cap: eur(chk.lwu_cap_rent, cfg.lang) })))) : null);
     mount(problemBox, box());
     mount(problemNote, box());
   }

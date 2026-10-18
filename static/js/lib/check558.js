@@ -69,7 +69,8 @@ export function lwuEurCap(rules, area) {
 /**
  * Main check. Input keys (all optional except `received`):
  * received, last_change, current_rent, rent_3y_ago, increases_559_560, demanded_rent, area,
- * ovm_per_sqm, requested_effective, lwu (bool: landlord is a state-owned company).
+ * ovm_per_sqm, requested_effective, lwu (bool: landlord is a state-owned company),
+ * last_change_is_start (bool: no increase yet, last_change is the start of the tenancy).
  * Returns the output keys documented in the contract plus `findings` (result ids).
  */
 export function check(input, rules) {
@@ -130,7 +131,9 @@ export function check(input, rules) {
   const requested_too_early = requested && effective ? requested < effective : null;
 
   const findings = [];
-  if (sperrfrist_ok === false) findings.push("sperrfrist_fail");
+  // § 558 Abs. 1 S. 2 counts from the last increase (BGH VIII ZR 178/03); counting from the start of the
+  // tenancy is only the prevailing view in the literature (docs/sources.md) → own finding, not "unwirksam"
+  if (sperrfrist_ok === false) findings.push(input.last_change_is_start ? "sperrfrist_from_start" : "sperrfrist_fail");
   if (wartefrist_ok === false) findings.push("wartefrist_postponed");
   if (requested_too_early) findings.push("requested_too_early");
   if (demanded !== null && cap_rent !== null && demanded > cap_rent + 0.004) findings.push("over_cap");
@@ -139,7 +142,7 @@ export function check(input, rules) {
   if (demanded !== null && lwu_cap_rent !== null && demanded > lwu_cap_rent + 0.004) findings.push("over_lwu");
   if (ovm_rent === null) findings.push("no_ovm");
   if (!lastChange) findings.push("no_last_change");
-  const blocking = ["sperrfrist_fail", "over_cap", "over_ovm", "over_lwu", "need_rent_3y", "no_ovm", "no_last_change"];
+  const blocking = ["sperrfrist_fail", "sperrfrist_from_start", "over_cap", "over_ovm", "over_lwu", "need_rent_3y", "no_ovm", "no_last_change"];
   if (demanded !== null && !findings.some((f) => blocking.includes(f))) findings.push("within_limits");
 
   // every date defined in rules.dates is part of the output (e.g. termination_safe_by),
@@ -169,6 +172,7 @@ export function check(input, rules) {
     lwu_cap_rent,
     lwu_rate: lwuActive ? lwuRate : null,
     lwu_eur_cap: lwuEur,
+    lwu_outside_term: Boolean(input.lwu) && Boolean(received) && !lwuActive,
     demanded_over_max,
     increase_pct,
     requested_too_early,

@@ -30,20 +30,20 @@ Kiranın yüksekliği, kira ilişkisinin başladığı ana göre ölçülür. G�
 - Başlangıç 30.05.2024 ile 27.05.2026 arası: [Mietspiegel 2024](@/merkmale-2024.tr.md)
 - Başlangıç 28.05.2026'dan itibaren: [Mietspiegel 2026](@/merkmale.tr.md)
 
-Mietspiegel, daha önceki bir esas tarihin (Stichtag) verilerine dayanır (Mietspiegel 2024: 01.09.2023; Mietspiegel 2026: 01.09.2025). Sonraki dönem için bir ek (Zuschlag) hesaplanıp hesaplanamayacağı somut duruma bağlıdır. Bu konuda danışmanlık alın.
+Mietspiegel, daha önceki bir esas tarihin (Stichtag) verilerine dayanır (Mietspiegel 2024: 01.09.2023; Mietspiegel 2026: 01.09.2025). **Kira ilişkiniz 01.09.2025 ile 27.05.2026 arasında başladıysa dikkat:** Mietspiegel 2026, 01.09.2025 tarihindeki kiralara dayanır. Bizim anladığımız kadarıyla bir mahkeme bu nedenle Mietspiegel 2026'yı da esas alabilir veya bir ek (Zuschlag) hesaplayabilir. Kira ilişkisi 01.09.2023 ile 29.05.2024 arasında başladıysa, aynısı Mietspiegel 2024 için de geçerlidir. Kira freni için tam olarak bu konuda verilmiş bir mahkeme kararı bulamadık. Bu durumda her iki Mietspiegel ile de hesaplayın ve danışmanlık alın.
 
 ## İstisnalar
 
 Kira freni her zaman geçerli değildir:
 
-- Daha yüksek önceki kira (Vormiete): Sizden önceki kiracının kirası zaten daha yüksekse, ev sahibi bu yüksekliğe kadar kira isteyebilir (§ 556e Abs. 1 BGB).
+- Daha yüksek önceki kira (Vormiete): Sizden önceki kiracının en son borçlu olduğu kira daha yüksekse, ev sahibi bu yüksekliğe kadar kira isteyebilir (§ 556e Abs. 1 BGB). Önceki kiracı ayıplar (Mängel) nedeniyle daha az ödediyse, yine de tam kira sayılır. Ev sahibinin eski kira ilişkisinin bitiminden önceki son yıl içinde önceki kiracıyla kararlaştırdığı bir kira artışı sayılmaz. Önceki kiracının kirası da kira frenine göre zaten çok yüksekse, yalnızca o zaman izin verilen kira sayılır (BGH, 01.07.2026 tarihli karar (Urteil), VIII ZR 125/23, Rn. 25).
 - Modernizasyon: Kiranın başlamasından önceki üç yıl içinde bir modernizasyon yapıldıysa, sınır belirli bir tutar kadar aşılabilir (§ 556e Abs. 2 BGB).
 - Yeni bina: 01.10.2014'ten sonra ilk kez kullanılan ve kiraya verilen daireler için geçerli değildir (§ 556f Satz 1 BGB).
 - Kapsamlı modernizasyon: Kapsamlı bir modernizasyondan sonraki ilk kiralama için geçerli değildir (§ 556f Satz 2 BGB).
 - Kısa süre, ev sahibinin yanında oda, yurt: Yalnızca kısa süreliğine kiralanan daireler, ev sahibinin kendisinin oturduğu dairedeki eşyalı bir oda ve öğrenci veya gençlik yurtları için geçerli değildir (§ 549 Abs. 2 und 3 BGB). Bir sözleşmenin gerçekten „nur für kurze Zeit“ (yalnızca kısa süreliğine) olup olmadığını dikkatle incelemek gerekir. Danışmanlık alın.
 - Eski sözleşmeler: 01.06.2015'ten önce yapılmış sözleşmeler için geçerli değildir (Art. 229 § 35 EGBGB).
 
-Ev sahibi önceki kiraya, bir modernizasyona, yeni binaya veya kapsamlı bir modernizasyondan sonraki ilk kiralamaya dayanmak istiyorsa, sözleşme yapılmadan **önce**, siz sormadan sizi bu konuda bilgilendirmek zorundadır. Bunu yapmazsa, buna dayanamaz veya ancak daha sonra dayanabilir (§ 556g Abs. 1a BGB).
+Ev sahibi önceki kiraya, bir modernizasyona, yeni binaya veya kapsamlı bir modernizasyondan sonraki ilk kiralamaya dayanmak istiyorsa, sözleşme yapılmadan **önce**, siz sormadan sizi bu konuda bilgilendirmek zorundadır. Bunu yapmazsa, buna dayanamaz. Bilgiyi daha sonra metin şeklinde (Textform) verirse, buna ancak bundan iki yıl sonra dayanabilir. Sizi sözleşme yapılmadan önce metin şeklinde değil de örneğin yalnızca sözlü olarak bilgilendirdiyse, buna ancak bilgiyi sonradan metin şeklinde verdiğinde dayanabilir (§ 556g Abs. 1a und 4 BGB). 31.12.2018'e kadar kurulmuş kira ilişkileri için bu yükümlülük geçerli değildir (Art. 229 § 49 Abs. 2 EGBGB).
 
 ## Ne yapabilirsiniz
 
@@ -52,6 +52,6 @@ Ev sahibi önceki kiraya, bir modernizasyona, yeni binaya veya kapsamlı bir mod
 3. 30 aya dikkat edin: Erken itiraz edin. Kira ilişkisinin başlangıcından 30 aydan fazla süre sonra itiraz ederseniz, yalnızca itirazdan sonra ödenmesi gereken kirayı geri alırsınız. Aynısı, itiraz ancak kira ilişkisi sona erdikten sonra ulaşırsa da geçerlidir. O zaman **çoğu zaman artık hiçbir şey geri alamazsınız**. Bu nedenle kira ilişkiniz devam ederken itiraz edin (§ 556g Abs. 2 BGB). Sözleşmeyi 01.04.2020'den önce yaptıysanız veya kira ilişkiniz bu tarihten önce başladıysa, bu kuralın daha eski bir hâli geçerli olabilir (Art. 229 § 51 EGBGB). O zaman danışmanlık alın.
 4. Bir kira artışını onaylamadan önce kontrol edin: Daha sonra bir kira artışını onaylarsanız (Zustimmung), yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı o zaman ilke olarak artık kira frenine dayanamazsınız (BGH, 28.09.2022 tarihli karar (Urteil), VIII ZR 300/21). Bu nedenle onay vermeden önce kira frenini kontrol edin.
 
-[Hesaplayıcımız](@/rechner.tr.md) size emsal kirayı gösterir. Kira freni için buna %10 ekleyin. Bu yalnızca ilk bir dayanak noktasıdır. Kira ilişkiniz 30.05.2024'ten önce başladıysa, hesaplayıcıyı bunun için kullanamazsınız.
+[Hesaplayıcımız](@/rechner.tr.md) size emsal kirayı gösterir. Kira freni için buna %10 ekleyin. Bu yalnızca ilk bir dayanak noktasıdır. Orada tarih olarak kira ilişkinizin başlangıcını girin. Kira ilişkiniz 30.05.2024'ten önce başladıysa, hesaplayıcı o zaman geçerli olan Mietspiegel'i bilmez. Başlangıç 01.09.2023 ile 29.05.2024 arasındaysa, hesaplayıcı yalnızca Mietspiegel 2024'ü gösterebilir (yukarıya bakın).
 
 Mietpreisprüfstelle (kira kontrol bürosu) ve kiracı danışmanlıkları (Mieterberatungen) kontrolde yardım eder. Adresleri [Yardım ve danışmanlık](@/hilfe.tr.md) sayfasında bulabilirsiniz.

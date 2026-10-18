@@ -37,6 +37,7 @@ function input() {
     if (f.type !== "date" && out[f.id] === null && String(v).trim() !== "") unreadable.add(f.id);
   }
   if (s.lwu) out.lwu = true;
+  if (s.last_change_is_start) out.last_change_is_start = true;
   return out;
 }
 
@@ -87,6 +88,12 @@ function formStep() {
     const hint = c(`checker.${f.id}_help`) || t(`chk_in_${f.id}_hint`);
     const wrap = field({ label: lbl + (f.required ? "" : ` (${t("optional")})`), hint, input: el });
     hints[f.id] = wrap.querySelector(".field__hint");
+    if (f.id === "last_change") {
+      wrap.append(h("label", { class: "choice" },
+        h("input", { type: "checkbox", checked: Boolean(s.last_change_is_start),
+          onchange: (e) => { s.last_change_is_start = e.target.checked; store.set("check", s); update(); } }),
+        h("span", {}, t("chk_in_last_change_is_start"))));
+    }
     if (f.id === "ovm_per_sqm") {
       if (typeof calc.ovm_per_sqm === "number") {
         wrap.append(h("p", { class: "field__hint" },
@@ -126,7 +133,7 @@ const status = liveStatus(); // short findings summary for screen readers
 
 const KIND = {
   sperrfrist_fail: "danger", over_cap: "danger", over_ovm: "danger", over_lwu: "danger",
-  wartefrist_postponed: "warn", requested_too_early: "warn", no_ovm: "warn", need_rent_3y: "warn", no_last_change: "warn",
+  sperrfrist_from_start: "warn", wartefrist_postponed: "warn", requested_too_early: "warn", no_ovm: "warn", need_rent_3y: "warn", no_last_change: "warn",
   within_limits: "ok",
 };
 
@@ -143,12 +150,9 @@ function renderFindings(r, inp) {
   const vars = findingVars(r, inp);
   return h("ul", { class: "findings" }, r.findings.map((fid) => {
     const title = c(`checker.result.${fid}.title`, vars) || t(`chk_find_${fid}`, vars);
-    const own = c(`checker.result.${fid}.text`, vars);
-    const fbKey = `chk_find_${fid}_text`;
-    const fb = t(fbKey, vars);
-    const text = own || (fb === fbKey ? "" : fb);
+    const text = c(`checker.result.${fid}.text`, vars);
     const extra = fid === "no_ovm" && cfg.pages.rechner ? h("p", {}, h("a", { href: cfg.pages.rechner }, t("chk_go_calc"))) : null;
-    return h("li", {}, callout(KIND[fid] || "warn", title, own ? h("div", cl, paras(text)) : paras(text), extra));
+    return h("li", {}, callout(KIND[fid] || "warn", title, text ? h("div", cl, paras(text)) : null, extra));
   }));
 }
 
@@ -206,10 +210,11 @@ function update() {
       h("p", { class: "small" }, t("chk_ovm_formula", { ovm: fmtEur(inp.ovm_per_sqm), area: num(inp.area, lang, inp.area % 1 ? 2 : 0) }))) : null,
     r.lwu_cap_rent !== null ? fact("lwu", fmtEur(r.lwu_cap_rent), (rules.lwu || {}).source) : null,
     r.max_rent !== null ? h("div", {}, h("dt", {}, t("chk_out_max_rent")), h("dd", {}, h("strong", { class: "mark" }, bdi(fmtEur(r.max_rent))),
-      r.demanded_over_max > 0 ? h("p", {}, t("chk_over_by", { over: fmtEur(r.demanded_over_max) })) : null)) : null,
+      r.demanded_over_max > 0 ? h("p", {}, t("chk_over_by", { over: fmtEur(r.demanded_over_max) })) : null,
+      r.lwu_cap_rent !== null && r.lwu_cap_rent < r.max_rent ? h("p", { class: "small" }, t("chk_max_rent_lwu_lower", { lwu_cap: fmtEur(r.lwu_cap_rent) })) : null)) : null,
   );
 
-  const answer = r.demanded_over_max > 0 || r.findings.includes("sperrfrist_fail")
+  const answer = r.demanded_over_max > 0 || ["sperrfrist_fail", "sperrfrist_from_start", "over_lwu"].some((f) => r.findings.includes(f))
     ? callout("warn", c("checker.partial_consent.title") || t("chk_partial_title"), paras(c("checker.partial_consent.text") || t("chk_partial_text")))
     : null;
 
@@ -227,6 +232,7 @@ function update() {
     renderFindings(r, inp),
     h("h3", {}, t("chk_dates_title")), dates,
     h("h3", {}, t("chk_money_title")), money,
+    r.lwu_outside_term ? callout("warn", null, h("p", {}, t("chk_lwu_outside_term", { from: d(rules.lwu.valid_from), to: d(rules.lwu.valid_to) }))) : null,
     answer,
     moreBox,
     h("p", { class: "small" }, t("chk_as_of", { date: localDate(rules.as_of, lang) })),

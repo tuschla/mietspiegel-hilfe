@@ -73,9 +73,7 @@
    "sources": [
     "bgb_558b"
    ],
-   "title_de": "Zustimmung",
-   "when_de": "Wenn Sie die Erhöhung geprüft haben und sie in voller Höhe für richtig halten. Zum Beispiel: Die neue Miete liegt nicht über der ortsüblichen Vergleichsmiete und nicht über der Kappungsgrenze, und die Wartezeiten sind eingehalten.",
-   "risks_de": "Ihre Zustimmung ist endgültig. Sie können sie nicht zurücknehmen, sobald sie beim Vermieter angekommen ist. Die neue Miete gilt dann als vereinbart, in der Regel auch wenn sie zu hoch war. Nur in Ausnahmefällen, zum Beispiel bei bewusster Täuschung, kann man eine Zustimmung anfechten. Hat Ihr Mietvertrag ab Juni 2015 begonnen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Hat die Prüfung ein Problem gezeigt, stimmen Sie nicht zu, bevor Sie sich beraten lassen haben."
+   "title_de": "Zustimmung"
   },
   {
    "id": "teilzustimmung",
@@ -160,9 +158,7 @@
     "bgh_viii_zr_141_09",
     "bgh_viii_zr_62_18"
    ],
-   "title_de": "Teilweise Zustimmung",
-   "when_de": "Wenn Sie meinen, dass ein Teil der Erhöhung berechtigt ist, aber nicht der ganze Betrag. Zum Beispiel: Die Vergleichsmiete nach Ihrer Rechnung liegt zwischen Ihrer jetzigen und der verlangten Miete.",
-   "risks_de": "Auch eine teilweise Zustimmung ist endgültig. Die Miete, der Sie zustimmen, gilt als vereinbart. Für den Rest kann der Vermieter trotzdem vor Gericht klagen. Stimmen Sie deshalb nur dem Betrag zu, den Sie sicher für richtig halten. Zahlen Sie danach nur diesen Betrag, nicht den vollen verlangten Betrag; prüfen Sie eine Lastschrift. Hat Ihr Mietvertrag ab Juni 2015 begonnen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Rechnen Sie den Betrag vorher genau aus und lassen Sie sich beraten."
+   "title_de": "Teilweise Zustimmung"
   },
   {
    "id": "ablehnung",
@@ -230,9 +226,7 @@
    "sources": [
     "bgb_558b"
    ],
-   "title_de": "Ablehnung",
-   "when_de": "Wenn Sie der Erhöhung nicht zustimmen wollen, zum Beispiel weil Sie meinen, dass sie zu hoch ist oder dass das Schreiben fehlerhaft ist.",
-   "risks_de": "Eine Ablehnung beendet die Sache nicht. Der Vermieter kann innerhalb von drei Monaten nach dem Ende Ihrer Frist auf Zustimmung klagen. Wer einen Prozess verliert, muss die Kosten tragen (§ 91 ZPO). Gibt das Gericht dem Vermieter recht, gilt Ihre Zustimmung als erteilt, sobald man gegen das Urteil nichts mehr tun kann (Rechtskraft, § 894 ZPO). Sie schulden die höhere Miete dann ab dem Erhöhungstermin, also auch für die Monate während des Prozesses (§ 558b Abs. 1 BGB). Legen Sie das Geld dafür am besten zur Seite. Bei einer Mieterhöhung nach § 558 BGB zahlen Sie bis zur Entscheidung weiter die bisherige Miete und nicht die höhere. Das gilt nicht bei Modernisierung, Betriebskosten, Index- oder Staffelmiete oder in einer Sozialwohnung. Prüfen Sie eine Lastschrift."
+   "title_de": "Ablehnung"
   },
   {
    "id": "nachfrage",
@@ -295,9 +289,7 @@
    "sources": [
     "bgb_558b"
    ],
-   "title_de": "Nachfrage zu den Merkmalen",
-   "when_de": "Wenn im Schreiben des Vermieters nicht steht, welche Merkmale er angesetzt hat, oder wenn Sie Angaben wie Wohnfläche, Wohnlage oder Baualter prüfen wollen.",
-   "risks_de": "Die Nachfrage hält Ihre Frist nicht an. Die Frist zum Zustimmen läuft weiter bis zum Ende des zweiten Kalendermonats nach dem Zugang. Der Vermieter muss nicht antworten. Warten Sie nicht zu lange auf eine Antwort."
+   "title_de": "Nachfrage zu den Merkmalen"
   }
  ]
 }

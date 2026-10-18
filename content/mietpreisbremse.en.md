@@ -30,20 +30,20 @@ What matters is the usual rent at the start of your tenancy (§ 556d Abs. 1 BGB)
 - Start from 30.05.2024 to 27.05.2026: [Mietspiegel 2024](@/merkmale-2024.en.md)
 - Start from 28.05.2026: [Mietspiegel 2026](@/merkmale.en.md)
 
-The Mietspiegel is based on data from an earlier reference date (Stichtag) (Mietspiegel 2024: 01.09.2023; Mietspiegel 2026: 01.09.2025). Whether a surcharge may be added for the time after that depends on the individual case. Get advice on this.
+The Mietspiegel is based on data from an earlier reference date (Stichtag) (Mietspiegel 2024: 01.09.2023; Mietspiegel 2026: 01.09.2025). **Caution if your tenancy started between 01.09.2025 and 27.05.2026:** The Mietspiegel 2026 is based on rents as of 01.09.2025. In our understanding, a court may therefore also use the Mietspiegel 2026 or add a surcharge (Zuschlag). The same applies to the Mietspiegel 2024 if your tenancy started between 01.09.2023 and 29.05.2024. We have not found a court decision on exactly this point for the rent brake. In that case, calculate with both Mietspiegel editions and get advice.
 
 ## Exceptions
 
 The rent brake does not always apply:
 
-- Higher previous rent (Vormiete): If the rent of the tenant before you was already higher, the landlord may ask for up to that amount (§ 556e Abs. 1 BGB).
+- Higher previous rent (Vormiete): If the tenant before you last owed a higher rent, the landlord may ask for up to that amount (§ 556e Abs. 1 BGB). If the previous tenant paid less because of defects, the full rent still counts. A rent increase that the landlord agreed with the previous tenant in the last year before the old tenancy ended does not count. If the previous tenant’s rent was itself too high under the rent brake, only the rent that was permitted at that time counts (BGH, judgment of 01.07.2026, VIII ZR 125/23, Rn. 25).
 - Modernisation: After a modernisation in the three years before the start of the tenancy, the limit may be exceeded by a certain amount (§ 556e Abs. 2 BGB).
 - New building: Not for flats that were used and let for the first time after 01.10.2014 (§ 556f Satz 1 BGB).
 - Comprehensive modernisation: Not for the first letting after a comprehensive modernisation (§ 556f Satz 2 BGB).
 - Short time, room in the landlord’s home, hall of residence: Not for flats that are only let for a short time, for a furnished room in the flat where the landlord lives himself, and for student or youth halls of residence (Studenten- oder Jugendwohnheime) (§ 549 Abs. 2 und 3 BGB). Whether an agreement is really „nur für kurze Zeit“ (only for a short time) has to be checked carefully. Get advice.
 - Old agreements: Not for agreements concluded before 01.06.2015 (Art. 229 § 35 EGBGB).
 
-If the landlord wants to rely on the previous rent, a modernisation, a new building or the first letting after a comprehensive modernisation, he must inform you about it **before** the agreement is concluded, without being asked. If he does not, he cannot rely on it, or only later (§ 556g Abs. 1a BGB).
+If the landlord wants to rely on the previous rent, a modernisation, a new building or the first letting after a comprehensive modernisation, he must inform you about it **before** the agreement is concluded, without being asked. If he does not, he cannot rely on it. If he provides the information later in text form (Textform), he can only rely on it two years after that. If he did not inform you in text form before the agreement was concluded, for example only orally, he can only rely on it once he provides the information in text form (§ 556g Abs. 1a und 4 BGB). This duty does not apply to tenancies that came into being on or before 31.12.2018 (Art. 229 § 49 Abs. 2 EGBGB).
 
 ## What you can do
 
@@ -52,6 +52,6 @@ If the landlord wants to rely on the previous rent, a modernisation, a new build
 3. Watch the 30 months: Complain early. If you only complain more than 30 months after the start of the tenancy, you only get back the rent that became due after the complaint. The same applies if the complaint only arrives after the tenancy has ended. You then **usually get nothing back**. So complain while your tenancy is still running (§ 556g Abs. 2 BGB). If you concluded the agreement before 01.04.2020 or the tenancy started before that date, an older version of this rule may apply (Art. 229 § 51 EGBGB). In that case, get advice.
 4. Check before agreeing to a rent increase: If you later agree to a rent increase, the new rent counts as agreed. As a rule, you can then no longer rely on the rent brake against this new rent (BGH, judgment of 28.09.2022, VIII ZR 300/21). So check the rent brake before you agree.
 
-Our [calculator](@/rechner.en.md) shows you the comparative rent. For the rent brake, you add 10 % to it. This is only a first guide. If your tenancy started before 30.05.2024, you cannot use the calculator for this.
+Our [calculator](@/rechner.en.md) shows you the comparative rent. For the rent brake, you add 10 % to it. This is only a first guide. Enter the start of your tenancy as the date there. If your tenancy started before 30.05.2024, the calculator does not know the Mietspiegel that applied at that time. If your tenancy started between 01.09.2023 and 29.05.2024, it can only show the Mietspiegel 2024 (see above).
 
 The Mietpreisprüfstelle (rent check office) and the tenant advice services help with checking. You can find addresses under [Help and advice](@/hilfe.en.md).

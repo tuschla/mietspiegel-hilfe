@@ -21,7 +21,7 @@ Bunun için şunlara ihtiyacınız var:
 - bu kiranın geçerli olduğu ilk gün,
 - üç yıl önceki kira.
 
-Hesaplayıcıyı daha önce kullandıysanız, emsal kirayı oradan alırız.
+Hesaplayıcıyı daha önce kullandıysanız, emsal kirayı oradan tek tıkla aktarabilirsiniz („Yerel emsal kira (ortsübliche Vergleichsmiete), m² başına €“ alanının yanındaki düğme).
 
 Sonuç, sabit kurallara ve kendi bilgilerinize göre yapılan bir hesaplama yardımıdır. Durumunuzun hukuki bir incelemesi değildir ve danışmanlığın yerini tutmaz. Kendi süreleriniz için hesaplama takvim tarihlerini gösterir. Sürenizin sonu cumartesi, pazar veya resmî tatile denk gelirse sürenin kayıp kaymadığı kesin değildir. En iyisi birkaç gün erken cevap verin. Ev sahibinin dava açma süresinde bir sonraki iş gününü gösteriyoruz, çünkü ev sahibinin o zaman bu güne kadar zamanı vardır (§ 193 BGB).
 

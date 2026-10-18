@@ -28,19 +28,19 @@ Zasady z tej strony **nie** dotyczą też:
 
 W tych trzech przypadkach ustawowe zasady dotyczące podwyżki czynszu nie obowiązują. Co obowiązuje, zależy od twojej umowy. Wynajmujący może ci tam jednak łatwiej wypowiedzieć umowę.
 
-Berlińskie zwierciadło czynszów (Mietspiegel) nie dotyczy poza tym mieszkań w domach jedno- lub dwurodzinnych i w domach szeregowych, mieszkań z WC poza mieszkaniem oraz nowych budynków (Mietspiegel 2026: gotowe od 2025; Mietspiegel 2024: gotowe od 2023).
+Berlińskie zwierciadło czynszów (Mietspiegel) nie dotyczy poza tym mieszkań w domach jedno- lub dwurodzinnych i w domach szeregowych, mieszkań z WC poza mieszkaniem oraz mieszkań, które nadawały się do zamieszkania (bezugsfertig) dopiero po okresie objętym zwierciadłem czynszów (Mietspiegel 2026: od 2025; Mietspiegel 2024: od 2023). Może to być także nowe mieszkanie w starym budynku, na przykład po adaptacji poddasza, po dobudowie albo po przebudowie lokali użytkowych. W przypadku mieszkania w domu jedno- lub dwurodzinnym albo w domu szeregowym wynajmujący może mimo to uzasadnić podwyżkę zwierciadłem czynszów, przynajmniej wtedy, gdy żądany czynsz mieści się w przedziale dla mieszkań w budynkach wielorodzinnych. Pismo nie jest wtedy nieskuteczne już z tego powodu. Zwierciadło czynszów nie pokazuje jednak, czy żądany czynsz jest zwyczajowy dla twojego rodzaju domu.
 
 W nowszym mieszkaniu socjalnym albo innym mieszkaniu dotowanym bez „Kostenmiete” wynajmujący musi poprosić cię o zgodę, tak jak opisano na tej stronie. Dodatkowo czynsz nie może przekraczać czynszu maksymalnego wynikającego z dotacji (Förderung). Zwierciadła czynszów nie można wtedy zastosować bezpośrednio. Skorzystaj z porady.
 
 W takich przypadkach **nie** przestawaj po prostu płacić. Skorzystaj z porady: [Pomoc i porady](@/hilfe.pl.md).
 
-*Źródło: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe” (neue Sozialwohnungen); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
+*Źródło: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe” (neue Sozialwohnungen); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3 und 6.4; BGH, Urteil vom 17.09.2008, VIII ZR 58/08; BGH, Beschluss vom 26.04.2016, VIII ZR 54/15, Rn. 8 bis 12.*
 
 ## Czym jest żądanie podwyżki czynszu?
 
 Przy podwyżce czynszu według § 558 BGB twój wynajmujący nie może po prostu sam podnieść czynszu. Musi poprosić cię o zgodę. Granicą jest czynsz, który jest zwykle płacony za podobne mieszkania. Nazywa się to lokalny czynsz porównawczy (ortsübliche Vergleichsmiete). W Berlinie wynika on najczęściej ze zwierciadła czynszów.
 
-Pismo musi mieć co najmniej formę tekstową (Textform), czyli przyjść na przykład jako list, faks albo e-mail. Wynajmujący musi uzasadnić podwyżkę, na przykład zwierciadłem czynszów. Jeśli użyje innego uzasadnienia, i tak musi podać wartości z berlińskiego zwierciadła czynszów dla twojego mieszkania.
+Pismo musi mieć co najmniej formę tekstową (Textform), czyli przyjść na przykład jako list, faks albo e-mail. Wynajmujący musi uzasadnić podwyżkę, na przykład zwierciadłem czynszów. Jeśli użyje innego uzasadnienia, i tak musi podać wartości z berlińskiego zwierciadła czynszów, jeśli zwierciadło zawiera wartości dla twojego mieszkania.
 
 Jeśli w umowie jest czynsz stopniowany albo czynsz indeksowany, podwyżka według § 558 BGB jest w tym czasie wykluczona.
 
@@ -67,7 +67,7 @@ Zapisz, którego dnia list dotarł. Zachowaj kopertę.
 
 **Termin wynajmującego:** Jeśli się nie zgodzisz albo zgodzisz się tylko częściowo, wynajmujący może pozwać cię do sądu o wyrażenie zgody. Ma na to jeszcze trzy miesiące po końcu twojego terminu. W przykładzie: do 31 marca. Jeśli nie wniesie pozwu na czas, nie może już dochodzić tej podwyżki w sądzie.
 
-**Sobota, niedziela, święto:** Jeśli koniec terminu wypada w sobotę, niedzielę lub święto w Berlinie, zwykle zastępuje go następny dzień roboczy. Święta w Berlinie to Nowy Rok, Dzień Kobiet (8 marca), Wielki Piątek, Poniedziałek Wielkanocny, 1 maja, Wniebowstąpienie, Poniedziałek Zielonych Świątek, 3 października i oba dni Bożego Narodzenia.
+**Sobota, niedziela, święto:** Jeśli koniec terminu wypada w sobotę, niedzielę lub święto w Berlinie, zwykle zastępuje go następny dzień roboczy. Święta w Berlinie to na przykład Nowy Rok, Dzień Kobiet (8 marca), Wielki Piątek, Poniedziałek Wielkanocny, 1 maja, Wniebowstąpienie, Poniedziałek Zielonych Świątek, 3 października i oba dni Bożego Narodzenia.
 
 - Twój czas do namysłu: Zgodnie z brzmieniem ustawy przesuwa się on na następny dzień roboczy. Nie znaleźliśmy orzeczenia sądu dotyczącego dokładnie tej sytuacji. Dlatego zaplanuj wszystko tak, żeby twoja odpowiedź dotarła do wynajmującego do daty kalendarzowej.
 - Termin wynajmującego: On również się przesuwa. Wynajmujący ma wtedy więcej czasu. Przykład: termin na pozew według obliczeń kończy się w niedzielę, 28.02.2027. Wtedy wynajmujący ma czas do poniedziałku, 01.03.2027. Wystarczy, że pozew wpłynie do sądu do tego dnia i zostanie doręczony wkrótce potem.
@@ -99,7 +99,7 @@ Jeśli wynajmujący ma twoją zgodę na pobieranie czynszu z twojego konta (pole
 
 *Źródło: § 130 Abs. 1 BGB, § 123 Abs. 1 BGB; BGH, Urteil vom 17.10.2018, VIII ZR 94/17; bestätigt im Urteil vom 24.04.2019, VIII ZR 62/18, Rn. 21 und 22.*
 
-**Umowa najmu od czerwca 2015? Najpierw sprawdź hamulec czynszowy (Mietpreisbremse).** Czy twój czynsz był może za wysoki już na początku najmu? Sprawdź to przed odpowiedzią. Jeśli zgodzisz się na podwyżkę, nowy czynsz uważa się za uzgodniony. Wobec tego nowego czynszu nie możesz się wtedy co do zasady już powołać na hamulec czynszowy. Więcej na ten temat: [Hamulec czynszowy](@/mietpreisbremse.pl.md).
+**Umowa najmu zawarta od czerwca 2015? Najpierw sprawdź hamulec czynszowy (Mietpreisbremse).** Czy twój czynsz był może za wysoki już na początku najmu? Sprawdź to przed odpowiedzią. Jeśli zgodzisz się na podwyżkę, nowy czynsz uważa się za uzgodniony. Wobec tego nowego czynszu nie możesz się wtedy co do zasady już powołać na hamulec czynszowy. Więcej na ten temat: [Hamulec czynszowy](@/mietpreisbremse.pl.md).
 
 *Źródło: BGH, Urteil vom 28.09.2022, VIII ZR 300/21, Leitsätze und Rn. 32.*
 
@@ -124,8 +124,8 @@ Przykład: Trzy lata temu czynsz netto bez kosztów dodatkowych (czynsz bez kosz
 
 ## Okresy oczekiwania
 
-- **1 rok okresu karencji (Sperrfrist):** Nowe żądanie może do ciebie dotrzeć najwcześniej rok po ostatniej podwyżce czynszu. Rok liczy się od dnia, w którym ostatnia podwyżka zaczęła obowiązywać. Jeśli żądanie dotrze za wcześnie, jest nieskuteczne.
-- **15 miesięcy okresu oczekiwania (Wartefrist):** Nowy czynsz może zacząć obowiązywać dopiero wtedy, gdy czynsz nie zmienia się od 15 miesięcy. Te 15 miesięcy liczy się od dnia, w którym ostatnia podwyżka była po raz pierwszy do zapłaty.
+- **1 rok okresu karencji (Sperrfrist):** Nowe żądanie może do ciebie dotrzeć najwcześniej rok po ostatniej podwyżce czynszu. Rok liczy się od dnia, w którym ostatnia podwyżka zaczęła obowiązywać. Jeśli żądanie dotrze za wcześnie, jest nieskuteczne. Jeśli nie było jeszcze żadnej podwyżki, według powszechnie przyjętego poglądu rok liczy się od początku stosunku najmu, czyli od dnia, od którego według umowy musiałeś płacić czynsz. Nie znaleźliśmy orzeczenia Federalnego Trybunału Sprawiedliwości (Bundesgerichtshof) w tej sprawie. W takim przypadku skorzystaj z porady.
+- **15 miesięcy okresu oczekiwania (Wartefrist):** Nowy czynsz może zacząć obowiązywać dopiero wtedy, gdy czynsz nie zmienia się od 15 miesięcy. Te 15 miesięcy liczy się od dnia, w którym ostatnia podwyżka była po raz pierwszy do zapłaty. Zwykle jest to ten sam dzień, w którym zaczęła obowiązywać. Jeśli nie było jeszcze żadnej podwyżki, liczy się je od początku stosunku najmu.
 - Podwyżki po modernizacji i zmiany kosztów eksploatacyjnych (§§ 559 do 560 BGB) nie liczą się przy żadnym z tych terminów.
 
 *Źródło: § 558 Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 18; BGH, Urteil vom 28.04.2004, VIII ZR 178/03.*
@@ -156,9 +156,9 @@ Tekst ustawy mówi tutaj „Monat” (miesiąc), a nie „Kalendermonat” (mies
 
 ## Wynajmujący należący do Berlina
 
-Czy twoje mieszkanie należy do spółki mieszkaniowej należącej do kraju związkowego Berlin (landeseigenes Wohnungsunternehmen)? Są to degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND i WBM. Wtedy obowiązują dodatkowe zobowiązania. Są zapisane przede wszystkim w „Kooperationsvereinbarung” (umowie o współpracy) między krajem związkowym Berlin a tymi spółkami. Obowiązuje ona od 01.01.2024 do 31.12.2027. W przypadku berlinovo obowiązuje tylko w obszarze „Klassisches Wohnen” (klasyczne mieszkania).
+Czy twoje mieszkanie należy do spółki mieszkaniowej należącej do kraju związkowego Berlin (landeseigenes Wohnungsunternehmen)? Są to degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND i WBM. Wtedy obowiązują dodatkowe zobowiązania. Są zapisane przede wszystkim w „Kooperationsvereinbarung” (umowie o współpracy) między krajem związkowym Berlin a tymi spółkami. Obowiązuje ona od 01.01.2024 do 31.12.2027. W przypadku berlinovo obowiązuje tylko dla mieszkań w obszarze „Klassisches Wohnen” (klasyczne mieszkania), które należą do samej berlinovo. Wiele starszych mieszkań berlinovo należy do spółek funduszowych (Fondsgesellschaften). Dla tych mieszkań umowa nie obowiązuje. Jeśli twój wynajmujący jest spółką zależną jednej z tych spółek albo nie masz pewności, zapytaj rzecznika (Ombudsstelle, patrz niżej).
 
-**11% w ciągu trzech lat:** Spółki należą do „Bündnis für Wohnungsneubau und bezahlbares Wohnen” (Sojusz na rzecz budowy nowych mieszkań i przystępnych cen mieszkań). W nowej wersji sojuszu z 15.07.2025 jest napisane: spółki należące do Berlina dalej obniżają limit podwyżki (Kappungsgrenze) dla podwyżek według § 558 BGB z 15% do 11%. Dotyczy to okresu obowiązywania Kooperationsvereinbarung. Czynsz w jednej umowie ma więc w ciągu trzech lat wzrosnąć najwyżej o 11%.
+**11% w ciągu trzech lat:** Spółki należą do „Bündnis für Wohnungsneubau und bezahlbares Wohnen” (Sojusz na rzecz budowy nowych mieszkań i przystępnych cen mieszkań). W nowej wersji sojuszu z 15.07.2025 jest napisane: spółki należące do Berlina kontynuują obniżenie limitu podwyżki (Kappungsgrenze) dla podwyżek według § 558 BGB z 15% do 11%. Dotyczy to okresu obowiązywania Kooperationsvereinbarung. Czynsz w jednej umowie ma więc w ciągu trzech lat wzrosnąć najwyżej o 11%.
 
 **Granica w euro na mieszkanie:** Czynsz miesięczny może łącznie wzrosnąć najwyżej o
 
@@ -170,17 +170,17 @@ Dla większych mieszkań umowa nie podaje kwoty. Tekst nie mówi wyraźnie, czy 
 
 **2,9% rocznie:** Spółki dbają o to, żeby czynsze „in Summe” (w sumie) rosły nie więcej niż o 2,9% rocznie. To średnia ze wszystkich mieszkań danej spółki. Dla twojego pojedynczego mieszkania nie jest to granica.
 
-Berlińska ustawa mówi: spółki należące do Berlina mają („sollen”) podnosić czynsz według § 558 BGB w ciągu czterech lat nie więcej niż o 15%. „Sollen” (powinny) oznacza: powinny się tego trzymać, ale wyjątki są możliwe. Nie daje ci to pewnego prawa.
+Berlińska ustawa mówi: spółki należące do Berlina mają („sollen”) podnosić czynsz według § 558 BGB w ciągu czterech lat nie więcej niż o 15%. „Sollen” (powinny) oznacza: powinny się tego trzymać, ale wyjątki są możliwe. Nie daje ci to pewnego prawa. Ta sama ustawa zawiera zasadę dla przypadków szczególnie trudnych (Härtefall): na wniosek czynsz po podwyżce nie powinien wynosić więcej niż 30% dochodu netto twojego gospodarstwa domowego. Jeśli w świadectwie energetycznym (Energieausweis) twojego budynku podane jest zużycie energii końcowej większe niż 170 kWh na m² i rok, jest to 27%. Spółka musi przy tym uznać twoje gospodarstwo domowe za przypadek szczególnie trudny (limity dochodu i powierzchni patrz niżej). Według informacji rzecznika ta ustawa nie dotyczy berlinovo.
 
-Poza tym istnieje Leistbarkeitsversprechen (obietnica, że czynsz będzie do udźwignięcia): czynsz netto bez kosztów dodatkowych nie powinien wynosić więcej niż 27% dochodu gospodarstwa domowego. Obowiązują przy tym warunki:
+Poza tym istnieje Leistbarkeitsversprechen (obietnica, że czynsz będzie do udźwignięcia) z Kooperationsvereinbarung: czynsz netto bez kosztów dodatkowych nie powinien wynosić więcej niż 27% dochodu gospodarstwa domowego. Według informacji rzecznika chodzi o dochód netto gospodarstwa domowego. Obowiązują przy tym warunki:
 
-- Twój dochód nie przekracza limitów dla zaświadczenia uprawniającego do mieszkania socjalnego (Wohnberechtigungsschein, WBS). Umowa nie podaje, o który dokładnie limit chodzi. Berlińska ustawa o spółkach mieszkaniowych należących do Berlina podaje dla przypadków szczególnie trudnych (Härtefälle) 220% limitów dochodu z federalnej ustawy o wspieraniu budownictwa mieszkaniowego (Wohnraumförderungsgesetz, § 9 Abs. 2 WoFG).
-- Mieszkanie nie jest za duże: 45 m² dla jednej osoby, 60 m² dla dwóch, 75 m² dla trzech, 85 m² dla czterech i 12 m² więcej na każdą kolejną osobę. Jeśli jest większe, czynsz zostaje obniżony tylko proporcjonalnie.
+- Twój dochód nie przekracza limitów dla zaświadczenia uprawniającego do mieszkania socjalnego (Wohnberechtigungsschein, WBS). Umowa nie podaje, o który dokładnie limit chodzi. Berlińska ustawa o spółkach mieszkaniowych należących do Berlina podaje dla przypadków szczególnie trudnych (Härtefälle) 220% limitów dochodu z federalnej ustawy o wspieraniu budownictwa mieszkaniowego (Wohnraumförderungsgesetz, § 9 Abs. 2 WoFG). Według informacji rzecznika najpierw trzeba sprawdzić, czy możesz dostać dodatek mieszkaniowy (Wohngeld).
+- Mieszkanie nie jest za duże: 45 m² dla jednej osoby, 60 m² dla dwóch, 75 m² dla trzech, 85 m² dla czterech i 12 m² więcej na każdą kolejną osobę. Jeśli jest większe, czynsz zostaje obniżony tylko proporcjonalnie. Według informacji rzecznika w szczególnych okolicznościach można uznać powierzchnię większą nawet o 20%.
 - Obniżka jest możliwa tylko **na wniosek**. Według informacji rzecznika (Ombudsstelle) wystarczy nieformalny list albo e-mail do twojej spółki mieszkaniowej. Dołącz dokumenty potwierdzające dochód i wielkość gospodarstwa domowego.
-- Jeśli dostajesz Bürgergeld albo pomoc społeczną (Sozialhilfe) (SGB II lub XII), umowa obiecuje, że czynsz pozostanie dla ciebie do udźwignięcia.
+- Jeśli dostajesz podstawowe zabezpieczenie dla osób poszukujących pracy (Grundsicherung für Arbeitsuchende, dawniej Bürgergeld) albo pomoc społeczną (Sozialhilfe) (SGB II lub XII), umowa obiecuje, że czynsz pozostanie dla ciebie do udźwignięcia.
 
 Spółki muszą w każdym żądaniu podwyżki czynszu poinformować o Leistbarkeitsversprechen.
 
 Na pytania na ten temat odpowiada Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen (rzecznik najemców spółek mieszkaniowych należących do Berlina): <https://www.ombud-lwu.de> (porady po niemiecku i po angielsku). Te zasady to dobrowolne zobowiązania i zasady typu „powinny” (Soll-Regeln). Nie jest jasne, czy i jak można je wyegzekwować w sądzie. Skorzystaj w tej sprawie z porady.
 
-*Źródło: Kooperationsvereinbarung 2024, Präambel und Abschnitt II Nr. 4, 7 und 8; Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025; Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen, § 2 Abs. 4 und § 3; Ombudsstelle, FAQ.*
+*Źródło: Kooperationsvereinbarung 2024, Präambel und Abschnitt II Nr. 4, 7 und 8; Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025; Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen, § 2 Abs. 4 und § 3; Roadmap 2.0 von Land Berlin, landeseigenen Wohnungsunternehmen und berlinovo vom 05.06.2026; Ombudsstelle, Startseite und FAQ.*

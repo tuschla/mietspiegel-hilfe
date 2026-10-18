@@ -32,7 +32,7 @@ Senato'nun Uyum Sorumlusu'na (Integrationsbeauftragte) bağlı Willkommenszentru
 
 ## Eyalete ait konut şirketlerinin kiracıları için
 
-Eyalete ait konut şirketlerinin kiracıları için Ombudsman ofisi (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen), degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM ve „klasik“ kiralık daireleriyle berlinovo kiracılarına hizmet verir. İşbirliği anlaşması (Kooperationsvereinbarung) ve ödenebilirlik sözü (Leistbarkeitsversprechen) hakkında Almanca ve İngilizce danışmanlık verir. Genel kira hukuku sorularında danışmanlık vermez.
+Eyalete ait konut şirketlerinin kiracıları için Ombudsman ofisi (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen), degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM ve bunların yan şirketlerinin kiracılarına hizmet verir. Ofis, berlinovo'da yalnızca berlinovo'nun kendisine ait „klasik“ kiralık dairelerden sorumludur, berlinovo'nun fon şirketlerine ait dairelerden sorumlu değildir. İşbirliği anlaşması (Kooperationsvereinbarung) ve ödenebilirlik sözü (Leistbarkeitsversprechen) hakkında Almanca ve İngilizce danışmanlık verir. Genel kira hukuku sorularında danışmanlık vermez.
 <https://www.ombud-lwu.de/>
 
 ## Kiracı dernekleri (Mietervereine, üyelik aidatıyla)

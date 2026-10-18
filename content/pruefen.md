@@ -21,7 +21,7 @@ Sie brauchen dafür:
 - den Tag, seit dem diese Miete gilt,
 - die Miete von vor drei Jahren.
 
-Wenn Sie den Rechner schon benutzt haben, nehmen wir die Vergleichsmiete von dort.
+Wenn Sie den Rechner schon benutzt haben, können Sie die Vergleichsmiete von dort mit einem Klick übernehmen (Knopf beim Feld „Ortsübliche Vergleichsmiete in € pro m²“).
 
 Das Ergebnis ist eine Rechenhilfe nach festen Regeln und Ihren eigenen Angaben. Es ist keine rechtliche Prüfung Ihres Falls und ersetzt keine Beratung. Für Ihre eigenen Fristen zeigt die Rechnung Kalenderdaten. Ob sich Ihre Frist bei einem Samstag, Sonntag oder Feiertag verschiebt, ist nicht sicher. Antworten Sie lieber einige Tage früher. Bei der Klagefrist des Vermieters zeigen wir den nächsten Werktag, weil er dann bis zu diesem Tag Zeit hat (§ 193 BGB).
 

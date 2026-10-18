@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-18",
+ "as_of": "2026-10-19",
  "note_de": "Rechenregeln für die Website. Allgemeine Information, keine Rechtsberatung. Datumsangaben ISO. Nur die Klagefrist des Vermieters wird nach § 193 BGB verschoben (dates.*.shift_193); alle anderen Fristenden sind Kalenderdaten.",
  "sources": {
   "bgb_558": {
@@ -519,7 +519,7 @@
    "HOWOGE",
    "STADT UND LAND",
    "WBM",
-   "berlinovo (nur „Klassisches Wohnen“)"
+   "berlinovo (nur „Klassisches Wohnen“ im eigenen Bestand, nicht Fondsbestand)"
   ],
   "eur_caps": [
    {
@@ -1258,6 +1258,80 @@
    "expected": {
     "consent_deadline": null,
     "sue_deadline": null
+   }
+  },
+  {
+   "id": "t38",
+   "note_de": "Noch keine Erhöhung (Kästchen gesetzt): Beginn 01.01.2025, Zugang 01.12.2025 → eigener Befund, nicht „unwirksam“.",
+   "input": {
+    "received": "2025-12-01",
+    "last_change": "2025-01-01",
+    "last_change_is_start": true,
+    "current_rent": 600,
+    "rent_3y_ago": 600,
+    "demanded_rent": 650,
+    "area": 60,
+    "ovm_per_sqm": 12
+   },
+   "expected": {
+    "sperrfrist_ok": false,
+    "effective": "2026-04-01",
+    "findings": ["sperrfrist_from_start", "wartefrist_postponed"]
+   }
+  },
+  {
+   "id": "t39",
+   "note_de": "Wie t38 ohne Kästchen: letzte Erhöhung 01.01.2025 → sperrfrist_fail.",
+   "input": {
+    "received": "2025-12-01",
+    "last_change": "2025-01-01",
+    "current_rent": 600,
+    "rent_3y_ago": 600,
+    "demanded_rent": 650,
+    "area": 60,
+    "ovm_per_sqm": 12
+   },
+   "expected": {
+    "sperrfrist_ok": false,
+    "findings": ["sperrfrist_fail", "wartefrist_postponed"]
+   }
+  },
+  {
+   "id": "t40",
+   "note_de": "LWU-Kästchen, Zugang nach dem Ende der Kooperationsvereinbarung (05.01.2028) → keine LWU-Grenze, Hinweis.",
+   "input": {
+    "received": "2028-01-05",
+    "last_change": "2024-06-01",
+    "current_rent": 600,
+    "rent_3y_ago": 600,
+    "demanded_rent": 650,
+    "area": 60,
+    "ovm_per_sqm": 12,
+    "lwu": true
+   },
+   "expected": {
+    "lwu_cap_rent": null,
+    "lwu_outside_term": true,
+    "findings": ["within_limits"]
+   }
+  },
+  {
+   "id": "t41",
+   "note_de": "LWU in der Laufzeit, 60 m²: Grenze 650 € liegt unter der Obergrenze 690 €.",
+   "input": {
+    "received": "2026-10-15",
+    "last_change": "2023-06-01",
+    "current_rent": 600,
+    "demanded_rent": 680,
+    "area": 60,
+    "ovm_per_sqm": 12,
+    "lwu": true
+   },
+   "expected": {
+    "lwu_cap_rent": 650,
+    "lwu_outside_term": false,
+    "max_rent": 690,
+    "findings": ["over_lwu"]
    }
   },
   {

@@ -28,19 +28,19 @@ The rules on this page also do not apply to:
 
 In these three cases, the statutory rules on rent increases do not apply. What applies depends on your contract. But the landlord can give you notice more easily there.
 
-In addition, the Berlin rent index (Mietspiegel) does not apply to flats in one- or two-family houses and terraced houses, to flats with the toilet outside the flat, and to new buildings (Mietspiegel 2026: completed from 2025; Mietspiegel 2024: completed from 2023).
+In addition, the Berlin rent index (Mietspiegel) does not apply to flats in one- or two-family houses and terraced houses, to flats with the toilet outside the flat, and to flats that only became ready for occupancy (bezugsfertig) after the period covered by the Mietspiegel (Mietspiegel 2026: from 2025; Mietspiegel 2024: from 2023). This can also be a new flat in an old building, for example after a loft conversion, an extension or the conversion of commercial premises. For a flat in a one- or two-family house or terraced house, the landlord may still justify an increase with the Mietspiegel, at least if the rent demanded lies within the range for flats in multi-family buildings. The letter is then not invalid for that reason alone. However, the Mietspiegel does not show whether the rent demanded is usual for your type of house.
 
 Newer social housing or another subsidised flat without “cost rent” (Kostenmiete): Here the landlord must ask you for your consent, as described on this page. In addition, the rent must not exceed the maximum rent set by the subsidy. The Mietspiegel cannot then be applied directly. Get advice.
 
 In these cases, do **not** simply stop paying. Get advice: [Help and advice](@/hilfe.en.md).
 
-*Source: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe“ (new social housing); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
+*Source: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe“ (new social housing); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3 und 6.4; BGH, Urteil vom 17.09.2008, VIII ZR 58/08; BGH, Beschluss vom 26.04.2016, VIII ZR 54/15, Rn. 8 bis 12.*
 
 ## What is a rent increase demand?
 
 With a rent increase under § 558 BGB, your landlord may not simply raise the rent himself. He must ask you to agree. The limit is the rent that is usual for similar flats. This is called the local comparative rent (ortsübliche Vergleichsmiete). In Berlin it usually comes from the Mietspiegel.
 
-The letter must at least be in text form (Textform), for example a letter, fax or email. The landlord must give reasons for the increase, for example with the Mietspiegel. If he uses other reasons, he must still state the values from the Berlin Mietspiegel for your flat.
+The letter must at least be in text form (Textform), for example a letter, fax or email. The landlord must give reasons for the increase, for example with the Mietspiegel. If he uses other reasons, he must still state the values from the Berlin Mietspiegel if the Mietspiegel contains values for your flat.
 
 If you have agreed a graduated rent or index rent, an increase under § 558 BGB is excluded during this time.
 
@@ -67,7 +67,7 @@ Write down the day the letter arrived. Keep the envelope.
 
 **The landlord’s deadline:** If you do not agree, or only agree in part, the landlord can go to court and sue for consent. For this he has three more months after the end of your deadline. In the example: until 31 March. If he does not sue in time, he can no longer sue for this increase.
 
-**Saturday, Sunday, public holiday:** If the end of a deadline falls on a Saturday, Sunday or public holiday in Berlin, the next working day usually takes its place. Public holidays in Berlin are New Year’s Day, Women’s Day (8 March), Good Friday, Easter Monday, 1 May, Ascension Day, Whit Monday, 3 October and the two Christmas holidays.
+**Saturday, Sunday, public holiday:** If the end of a deadline falls on a Saturday, Sunday or public holiday in Berlin, the next working day usually takes its place. Public holidays in Berlin include New Year’s Day, Women’s Day (8 March), Good Friday, Easter Monday, 1 May, Ascension Day, Whit Monday, 3 October and the two Christmas holidays.
 
 - Your time to think it over: According to the wording of the law, it moves to the next working day. We have not found a court decision on exactly this point. So plan for your reply to arrive by the calendar date.
 - The landlord’s deadline: It also moves. The landlord then has more time. Example: by calculation the deadline to sue ends on Sunday, 28.02.2027. Then the landlord has until Monday, 01.03.2027. It is enough if the claim reaches the court by then and is served soon afterwards.
@@ -99,7 +99,7 @@ Direct debit (Lastschrift): If you have allowed the landlord to collect the rent
 
 *Source: § 130 Abs. 1 BGB, § 123 Abs. 1 BGB; BGH, Urteil vom 17.10.2018, VIII ZR 94/17; confirmed in the Urteil vom 24.04.2019, VIII ZR 62/18, Rn. 21 und 22.*
 
-**Tenancy started in June 2015 or later? Check the rent brake (Mietpreisbremse) first.** Was your rent perhaps already too high at the start? Then check this before you reply. If you agree to an increase, the new rent counts as agreed. As a rule, you can then no longer rely on the rent brake against this new rent. More on this: [Rent brake](@/mietpreisbremse.en.md).
+**Tenancy agreement concluded in June 2015 or later? Check the rent brake (Mietpreisbremse) first.** Was your rent perhaps already too high at the start? Then check this before you reply. If you agree to an increase, the new rent counts as agreed. As a rule, you can then no longer rely on the rent brake against this new rent. More on this: [Rent brake](@/mietpreisbremse.en.md).
 
 *Source: BGH, Urteil vom 28.09.2022, VIII ZR 300/21, Leitsätze (headnotes) and Rn. 32.*
 
@@ -124,8 +124,8 @@ Example: Three years ago the net cold rent (Nettokaltmiete: rent without service
 
 ## The waiting periods
 
-- **1-year blocking period (Sperrfrist):** A new demand may reach you one year after the last rent increase at the earliest. The year counts from the day the last increase took effect. If the demand comes too early, it is invalid.
-- **15-month waiting period (Wartefrist):** The new rent may only apply once the rent has stayed the same for 15 months. The 15 months count from the day the last increase was first due.
+- **1-year blocking period (Sperrfrist):** A new demand may reach you one year after the last rent increase at the earliest. The year counts from the day the last increase took effect. If the demand comes too early, it is invalid. If there has been no rent increase yet, the widely held view is that the year counts from the start of the tenancy, that is, from the day from which you had to pay rent under the contract. We have not found a decision of the Federal Court of Justice (Bundesgerichtshof) on this. Get advice in this case.
+- **15-month waiting period (Wartefrist):** The new rent may only apply once the rent has stayed the same for 15 months. The 15 months count from the day the last increase was first due. As a rule, this is the same day on which it took effect. If there has been no increase yet, they count from the start of the tenancy.
 - Increases after a modernisation and changes to service charges (§§ 559 bis 560 BGB) do not count for either period.
 
 *Source: § 558 Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 18; BGH, Urteil vom 28.04.2004, VIII ZR 178/03.*
@@ -156,9 +156,9 @@ The text of the law says „Monat“ (month) here, not „Kalendermonat“ (cale
 
 ## State-owned landlords
 
-Does your flat belong to a state-owned housing company of the State of Berlin (landeseigenes Wohnungsunternehmen)? These are degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND and WBM. Then additional commitments apply. They are mainly in the „Kooperationsvereinbarung“ (cooperation agreement) between the State of Berlin and these companies. It applies from 01.01.2024 to 31.12.2027. For berlinovo it only applies in the area „Klassisches Wohnen“ (classic housing).
+Does your flat belong to a state-owned housing company of the State of Berlin (landeseigenes Wohnungsunternehmen)? These are degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND and WBM. Then additional commitments apply. They are mainly in the „Kooperationsvereinbarung“ (cooperation agreement) between the State of Berlin and these companies. It applies from 01.01.2024 to 31.12.2027. For berlinovo it only applies to flats in the area „Klassisches Wohnen“ (classic housing) that berlinovo itself owns. Many older berlinovo flats belong to fund companies (Fondsgesellschaften). The agreement does not apply to these flats. If your landlord is a subsidiary of one of these companies, or if you are unsure, ask the ombudsman office (Ombudsstelle, see below).
 
-**11 % in three years:** The companies belong to the „Bündnis für Wohnungsneubau und bezahlbares Wohnen“ (Alliance for New Housing Construction and Affordable Housing). The new version of the alliance of 15.07.2025 says: the state-owned companies further lower the cap (Kappungsgrenze) for increases under § 558 BGB from 15 % to 11 %. This applies for the term of the cooperation agreement. So the rent under one tenancy agreement should rise by at most 11 % in three years.
+**11 % in three years:** The companies belong to the „Bündnis für Wohnungsneubau und bezahlbares Wohnen“ (Alliance for New Housing Construction and Affordable Housing). The new version of the alliance of 15.07.2025 says: the state-owned companies continue the lowering of the cap (Kappungsgrenze) for increases under § 558 BGB from 15 % to 11 %. This applies for the term of the cooperation agreement. So the rent under one tenancy agreement should rise by at most 11 % in three years.
 
 **Limit in euros per flat:** In total, the monthly rent may rise by at most
 
@@ -170,17 +170,17 @@ For larger flats, the agreement does not name an amount. The text does not say e
 
 **2.9 % per year:** The companies make sure that rents „in Summe“ (in total) do not rise by more than 2.9 % per year. This is an average across all flats of a company. It is not a limit for your individual flat.
 
-A Berlin law says that the state-owned companies should („sollen“) not raise the rent under § 558 BGB by more than 15 % in four years. „Sollen“ means: they are supposed to keep to this, but exceptions are possible. It is not a firm right for you.
+A Berlin law says that the state-owned companies should („sollen“) not raise the rent under § 558 BGB by more than 15 % in four years. „Sollen“ means: they are supposed to keep to this, but exceptions are possible. It is not a firm right for you. The same law has a hardship rule: on application, the rent after an increase should not be more than 30 % of your household’s net income. If the energy certificate (Energieausweis) of your building shows a final energy consumption of more than 170 kWh per m² and year, the figure is 27 %. For this, the company must recognise your household as a hardship case (for the income and size limits, see below). According to the ombudsman office, this law does not apply to berlinovo.
 
-Affordability promise (Leistbarkeitsversprechen): The net cold rent should not be more than 27 % of the household income. Conditions apply:
+Affordability promise (Leistbarkeitsversprechen) of the cooperation agreement: The net cold rent should not be more than 27 % of the household income. According to the ombudsman office, this means the household’s net income. Conditions apply:
 
-- Your income does not exceed the limits for a housing entitlement certificate (Wohnberechtigungsschein, WBS). The agreement does not say exactly which limit. The Berlin law on the state-owned companies names, for hardship cases, 220 % of the income limits from the federal Housing Promotion Act (Wohnraumförderungsgesetz, § 9 Abs. 2 WoFG).
-- The flat is not too large: 45 m² for one person, 60 m² for two, 75 m² for three, 85 m² for four and 12 m² more for each additional person. If it is larger, the rent is only reduced proportionally.
+- Your income does not exceed the limits for a housing entitlement certificate (Wohnberechtigungsschein, WBS). The agreement does not say exactly which limit. The Berlin law on the state-owned companies names, for hardship cases, 220 % of the income limits from the federal Housing Promotion Act (Wohnraumförderungsgesetz, § 9 Abs. 2 WoFG). According to the ombudsman office, it must first be checked whether you can get housing benefit (Wohngeld).
+- The flat is not too large: 45 m² for one person, 60 m² for two, 75 m² for three, 85 m² for four and 12 m² more for each additional person. If it is larger, the rent is only reduced proportionally. According to the ombudsman office, in special circumstances an area up to 20 % larger can be accepted.
 - The reduction is only given **on application** (auf Antrag). According to the ombudsman office (Ombudsstelle), an informal letter or an email to your housing company is enough. Enclose proof of income and household size.
-- If you receive Bürgergeld or social assistance (Sozialhilfe; SGB II or XII), the agreement promises that the rent stays affordable for you.
+- If you receive basic income support for jobseekers (Grundsicherung für Arbeitsuchende, formerly Bürgergeld) or social assistance (Sozialhilfe; SGB II or XII), the agreement promises that the rent stays affordable for you.
 
 The companies must point out the affordability promise in every rent increase demand.
 
 Questions about this are answered by the Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen (ombudsman office for tenants of the state-owned housing companies): <https://www.ombud-lwu.de> (advice in German and English). These rules are voluntary commitments and „should“ rules (Soll-Regeln). Whether and how they can be enforced in court is unclear. Get advice on this.
 
-*Source: Kooperationsvereinbarung 2024, Präambel und Abschnitt II Nr. 4, 7 und 8; Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025; Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen, § 2 Abs. 4 und § 3; Ombudsstelle, FAQ.*
+*Source: Kooperationsvereinbarung 2024, Präambel und Abschnitt II Nr. 4, 7 und 8; Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025; Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen, § 2 Abs. 4 und § 3; Roadmap 2.0 von Land Berlin, landeseigenen Wohnungsunternehmen und berlinovo vom 05.06.2026; Ombudsstelle, Startseite und FAQ.*

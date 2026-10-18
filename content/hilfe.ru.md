@@ -32,7 +32,7 @@ nav = true
 
 ## Для арендаторов жилищных компаний земли Берлин
 
-Служба омбудсмена (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen) помогает арендаторам жилищных компаний, принадлежащих земле Берлин: degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM и berlinovo с её «классическими» арендными квартирами. Она консультирует по соглашению о сотрудничестве (Kooperationsvereinbarung) и по обещанию доступности (Leistbarkeitsversprechen), на немецком и английском языках. По общим вопросам арендного права она не консультирует.
+Служба омбудсмена (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen) помогает арендаторам жилищных компаний, принадлежащих земле Берлин: degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM и их дочерних компаний. В случае berlinovo она отвечает только за «классические» арендные квартиры, которые принадлежат самой berlinovo, а не за квартиры её фондовых компаний. Она консультирует по соглашению о сотрудничестве (Kooperationsvereinbarung) и по обещанию доступности (Leistbarkeitsversprechen), на немецком и английском языках. По общим вопросам арендного права она не консультирует.
 <https://www.ombud-lwu.de/>
 
 ## Общества арендаторов (Mietervereine, с членским взносом)

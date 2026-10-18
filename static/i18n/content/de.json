@@ -7,23 +7,23 @@
  "groups": {
   "bad": {
    "title": "Bad und WC",
-   "intro": "In dieser Gruppe geht es um Bad, WC und Gäste-WC. Bei vielen Merkmalen steht im Mietspiegel „bezieht sich nicht auf Gäste-WCs“: Dann zählt nur das Hauptbad.\n\nZählen Sie die Plus- und die Minus-Merkmale. Gibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um Bad, WC und Gäste-WC. Bei vielen Merkmalen steht im Mietspiegel „bezieht sich nicht auf Gäste-WCs“: Dann zählt nur das Hauptbad.\n\nZählen Sie die Plus- und die Minus-Merkmale. Gibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Danach werden die fünf Gruppen gegeneinander aufgerechnet: Eine Plus-Gruppe und eine Minus-Gruppe heben sich auf. Jede Plus-Gruppe, die übrig bleibt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Minus-Gruppe, die übrig bleibt, schiebt ihn um ein Fünftel des Abstands vom Mittelwert zum unteren Wert nach unten. Beispiel: 3 Plus-Gruppen und 2 Minus-Gruppen ergeben 1 Plus-Gruppe. Das sind nicht 20 % mehr Miete."
   },
   "kueche": {
    "title": "Küche",
-   "intro": "In dieser Gruppe geht es um die Küche. Es zählt nur, was der Vermieter gestellt hat. Eine Küche oder Geräte, die Sie selbst bezahlt haben, zählen nicht.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um die Küche. Es zählt nur, was der Vermieter gestellt hat. Eine Küche oder Geräte, die Sie selbst bezahlt haben, zählen nicht.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Danach werden die fünf Gruppen gegeneinander aufgerechnet: Eine Plus-Gruppe und eine Minus-Gruppe heben sich auf. Jede Plus-Gruppe, die übrig bleibt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Minus-Gruppe, die übrig bleibt, schiebt ihn um ein Fünftel des Abstands vom Mittelwert zum unteren Wert nach unten. Beispiel: 3 Plus-Gruppen und 2 Minus-Gruppen ergeben 1 Plus-Gruppe. Das sind nicht 20 % mehr Miete."
   },
   "wohnung": {
    "title": "Wohnung",
-   "intro": "In dieser Gruppe geht es um die Wohnung selbst: Fenster, Leitungen, Grundriss, Balkon, Böden und Heizung. Viele Merkmale sagen „überwiegend“. Das heißt nach dem Wortsinn: bei mehr als der Hälfte, zum Beispiel der Fenster oder Räume.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um die Wohnung selbst: Fenster, Leitungen, Grundriss, Balkon, Böden und Heizung. Viele Merkmale sagen „überwiegend“. Das heißt nach dem Wortsinn: bei mehr als der Hälfte, zum Beispiel der Fenster oder Räume.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Danach werden die fünf Gruppen gegeneinander aufgerechnet: Eine Plus-Gruppe und eine Minus-Gruppe heben sich auf. Jede Plus-Gruppe, die übrig bleibt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Minus-Gruppe, die übrig bleibt, schiebt ihn um ein Fünftel des Abstands vom Mittelwert zum unteren Wert nach unten. Beispiel: 3 Plus-Gruppen und 2 Minus-Gruppen ergeben 1 Plus-Gruppe. Das sind nicht 20 % mehr Miete."
   },
   "gebaeude": {
    "title": "Gebäude",
-   "intro": "In dieser Gruppe geht es um das Haus: Treppenhaus, Keller, Eingang, Aufzug, Zustand und Energie. Beim Energieverbrauch gilt eine Sonderregel: Sie kreuzen entweder das Merkmal „Dämmung oder Heizanlage“ an oder die Merkmale zum Energiekennwert aus dem Energieausweis, nicht beides. Beim Kennwert können bis zu drei Kästchen zählen.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um das Haus: Treppenhaus, Keller, Eingang, Aufzug, Zustand und Energie. Beim Energieverbrauch gilt eine Sonderregel: Sie kreuzen entweder das Merkmal „Dämmung oder Heizanlage“ an oder die Merkmale zum Energiekennwert aus dem Energieausweis, nicht beides. Beim Kennwert können bis zu drei Kästchen zählen.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Danach werden die fünf Gruppen gegeneinander aufgerechnet: Eine Plus-Gruppe und eine Minus-Gruppe heben sich auf. Jede Plus-Gruppe, die übrig bleibt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Minus-Gruppe, die übrig bleibt, schiebt ihn um ein Fünftel des Abstands vom Mittelwert zum unteren Wert nach unten. Beispiel: 3 Plus-Gruppen und 2 Minus-Gruppen ergeben 1 Plus-Gruppe. Das sind nicht 20 % mehr Miete."
   },
   "umfeld": {
    "title": "Wohnumfeld",
-   "intro": "In dieser Gruppe geht es um die Umgebung: Lärm, Geruch, Fahrräder, Grundstück, Parkplätze und Garten. Die Wohnlage (einfach, mittel, gut) ist schon in der Tabelle berücksichtigt. Hier geht es um Besonderheiten Ihrer Wohnung.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Gruppe, die als Minus zählt, schiebt ihn um ein Fünftel des Abstands zum unteren Wert nach unten. Das sind nicht 20 % mehr Miete."
+   "intro": "In dieser Gruppe geht es um die Umgebung: Lärm, Geruch, Fahrräder, Grundstück, Parkplätze und Garten. Die Wohnlage (einfach, mittel, gut) ist schon in der Tabelle berücksichtigt. Hier geht es um Besonderheiten Ihrer Wohnung.\n\nGibt es mehr Plus-Merkmale, zählt die Gruppe als Plus. Gibt es mehr Minus-Merkmale, zählt sie als Minus. Bei Gleichstand zählt die Gruppe nicht. Danach werden die fünf Gruppen gegeneinander aufgerechnet: Eine Plus-Gruppe und eine Minus-Gruppe heben sich auf. Jede Plus-Gruppe, die übrig bleibt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben. Jede Minus-Gruppe, die übrig bleibt, schiebt ihn um ein Fünftel des Abstands vom Mittelwert zum unteren Wert nach unten. Beispiel: 3 Plus-Gruppen und 2 Minus-Gruppen ergeben 1 Plus-Gruppe. Das sind nicht 20 % mehr Miete."
   }
  },
  "features": {
@@ -204,19 +204,19 @@
   "gebaeude-m09": {
    "title": "Hoher Energieverbrauch: über 145 kWh",
    "explain": "Minus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser größer als 145 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr hohem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: über 145, über 195, über 235. Sie wählen entweder das Merkmal „Dämmung oder Heizanlage“ oder die Merkmale zum Energiekennwert, nicht beides. Bei denkmalgeschützten Häusern zählen diese Minus-Merkmale nicht, wenn eine energetische Sanierung gegen den Denkmalschutz verstoßen würde oder dadurch unverhältnismäßig teuer wäre.",
-   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Wird das Warmwasser in der Wohnung erzeugt (zum Beispiel mit Durchlauferhitzern), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet. Nach dem Mietspiegel 2026 gilt das nur, wenn das Warmwasser im Kennwert nicht enthalten ist. Den genauen Wortlaut finden Sie im amtlichen Hinweis bei der Gruppe.",
    "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: eine Kopie des Energieausweises."
   },
   "gebaeude-m10": {
    "title": "Hoher Energieverbrauch: über 195 kWh",
    "explain": "Minus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser größer als 195 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr hohem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: über 145, über 195, über 235. Sie wählen entweder das Merkmal „Dämmung oder Heizanlage“ oder die Merkmale zum Energiekennwert, nicht beides. Bei denkmalgeschützten Häusern zählen diese Minus-Merkmale nicht, wenn eine energetische Sanierung gegen den Denkmalschutz verstoßen würde oder dadurch unverhältnismäßig teuer wäre.",
-   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Wird das Warmwasser in der Wohnung erzeugt (zum Beispiel mit Durchlauferhitzern), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet. Nach dem Mietspiegel 2026 gilt das nur, wenn das Warmwasser im Kennwert nicht enthalten ist. Den genauen Wortlaut finden Sie im amtlichen Hinweis bei der Gruppe.",
    "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: eine Kopie des Energieausweises."
   },
   "gebaeude-m11": {
    "title": "Hoher Energieverbrauch: über 235 kWh",
    "explain": "Minus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser größer als 235 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr hohem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: über 145, über 195, über 235. Sie wählen entweder das Merkmal „Dämmung oder Heizanlage“ oder die Merkmale zum Energiekennwert, nicht beides. Bei denkmalgeschützten Häusern zählen diese Minus-Merkmale nicht, wenn eine energetische Sanierung gegen den Denkmalschutz verstoßen würde oder dadurch unverhältnismäßig teuer wäre.",
-   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Wird das Warmwasser in der Wohnung erzeugt (zum Beispiel mit Durchlauferhitzern), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet. Nach dem Mietspiegel 2026 gilt das nur, wenn das Warmwasser im Kennwert nicht enthalten ist. Den genauen Wortlaut finden Sie im amtlichen Hinweis bei der Gruppe.",
    "proof": "Wenn Sie sich auf dieses Minus-Merkmal berufen, müssen in der Regel Sie es beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Hilfreich: eine Kopie des Energieausweises."
   },
   "gebaeude-p01": {
@@ -270,19 +270,19 @@
   "gebaeude-p09": {
    "title": "Niedriger Energieverbrauch: unter 120 kWh",
    "explain": "Plus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser kleiner als 120 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr niedrigem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: unter 120, unter 100, unter 80. Sie wählen entweder das Merkmal „Dämmung oder Heizanlage“ oder die Merkmale zum Energiekennwert, nicht beides.",
-   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Wird das Warmwasser in der Wohnung erzeugt (zum Beispiel mit Durchlauferhitzern), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet. Nach dem Mietspiegel 2026 gilt das nur, wenn das Warmwasser im Kennwert nicht enthalten ist. Den genauen Wortlaut finden Sie im amtlichen Hinweis bei der Gruppe.",
    "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: eine Kopie des Energieausweises."
   },
   "gebaeude-p10": {
    "title": "Niedriger Energieverbrauch: unter 100 kWh",
    "explain": "Plus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser kleiner als 100 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr niedrigem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: unter 120, unter 100, unter 80. Sie wählen entweder das Merkmal „Dämmung oder Heizanlage“ oder die Merkmale zum Energiekennwert, nicht beides.",
-   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Wird das Warmwasser in der Wohnung erzeugt (zum Beispiel mit Durchlauferhitzern), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet. Nach dem Mietspiegel 2026 gilt das nur, wenn das Warmwasser im Kennwert nicht enthalten ist. Den genauen Wortlaut finden Sie im amtlichen Hinweis bei der Gruppe.",
    "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: eine Kopie des Energieausweises."
   },
   "gebaeude-p11": {
    "title": "Niedriger Energieverbrauch: unter 80 kWh",
    "explain": "Plus, wenn der Energiekennwert des Hauses für Heizung und Warmwasser kleiner als 80 kWh pro m² und Jahr ist (kWh/(m²a)). Bei sehr niedrigem Verbrauch kann man bis zu drei dieser Kästchen ankreuzen: unter 120, unter 100, unter 80. Sie wählen entweder das Merkmal „Dämmung oder Heizanlage“ oder die Merkmale zum Energiekennwert, nicht beides.",
-   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Ist das Warmwasser nicht im Wert enthalten (zum Beispiel bei Durchlauferhitzern in der Wohnung), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet.",
+   "check": "Den Kennwert finden Sie im Energieausweis des Hauses; fragen Sie den Vermieter danach, wenn Sie ihn nicht haben. Achten Sie darauf: Ist es ein Verbrauchsausweis oder ein Bedarfsausweis? Bei einem Bedarfsausweis sind die Grenzen um 20 % höher. Wird das Warmwasser in der Wohnung erzeugt (zum Beispiel mit Durchlauferhitzern), werden vorher 20 kWh/(m²a) zum Wert dazugerechnet. Nach dem Mietspiegel 2026 gilt das nur, wenn das Warmwasser im Kennwert nicht enthalten ist. Den genauen Wortlaut finden Sie im amtlichen Hinweis bei der Gruppe.",
    "proof": "Klagt der Vermieter vor Gericht, muss er Plus-Merkmale in der Regel beweisen. So hat es das Landgericht Berlin entschieden; andere Gerichte können das anders sehen. Es zählt nur, was der Vermieter gestellt hat, nicht Ihre eigenen Einbauten ohne Kostenerstattung. Für Sie hilfreich: eine Kopie des Energieausweises."
   },
   "kueche-m01": {
@@ -543,7 +543,7 @@
   "received": "Tag, an dem das Schreiben bei Ihnen ankam",
   "received_help": "Nicht das Datum auf dem Brief, sondern der Tag, an dem er in Ihrem Briefkasten oder Postfach war.",
   "last_change": "Seit wann gilt Ihre Miete, ohne Erhöhungen wegen Modernisierung oder Betriebskosten?",
-  "last_change_help": "Der Tag, an dem die letzte Erhöhung wirksam wurde, also ab dem Sie die höhere Miete zahlen mussten. Gab es noch keine, der Beginn des Mietvertrags. Erhöhungen wegen Modernisierung oder Betriebskosten zählen nicht.",
+  "last_change_help": "Der Tag, an dem die letzte Erhöhung wirksam wurde, also ab dem Sie die höhere Miete zahlen mussten. Gab es noch keine, der Beginn des Mietverhältnisses, also der Tag, ab dem Sie laut Vertrag Miete zahlen mussten. Haken Sie dann das Kästchen darunter an. Erhöhungen wegen Modernisierung oder Betriebskosten zählen nicht.",
   "current_rent": "Ihre jetzige Nettokaltmiete pro Monat",
   "current_rent_help": "Miete ohne Betriebskosten und ohne Heizkosten.",
   "rent_3y_ago": "Nettokaltmiete drei Jahre vor dem Tag, ab dem die neue Miete gelten soll",
@@ -558,6 +558,10 @@
    "sperrfrist_fail": {
     "title": "Das Verlangen kam vielleicht zu früh",
     "text": "Nach der festen Rechenregel und Ihren Angaben kam das Schreiben weniger als ein Jahr nach der letzten Mieterhöhung an. Nach der Rechtsprechung des Bundesgerichtshofs ist ein solches Verlangen unwirksam (§ 558 Abs. 1 Satz 2 BGB; BGH, VIII ZR 178/03). Prüfen Sie die Daten genau. Stimmen Sie nicht zu, bevor Sie sich beraten lassen haben."
+   },
+   "sperrfrist_from_start": {
+    "title": "Das Verlangen kam vielleicht zu früh (erstes Jahr des Mietverhältnisses)",
+    "text": "Nach Ihren Angaben gab es noch keine Mieterhöhung, und das Schreiben kam weniger als ein Jahr nach dem Beginn des Mietverhältnisses an. Das Gesetz sagt nur: frühestens ein Jahr nach der letzten Mieterhöhung (§ 558 Abs. 1 Satz 2 BGB). Nach verbreiteter Ansicht in der Fachliteratur zählt das Jahr dann ab dem Beginn des Mietverhältnisses, und das Verlangen wäre zu früh. Eine Entscheidung des Bundesgerichtshofs dazu haben wir nicht gefunden. Prüfen Sie die Daten genau. Stimmen Sie nicht zu, bevor Sie sich beraten lassen haben."
    },
    "wartefrist_postponed": {
     "title": "Die neue Miete kann erst später gelten",
@@ -593,7 +597,7 @@
    },
    "over_lwu": {
     "title": "Über den Zusagen der landeseigenen Unternehmen",
-    "text": "Nach Ihren Angaben ist die verlangte Miete höher als die Zusagen der landeseigenen Wohnungsunternehmen: höchstens 11 % in drei Jahren und höchstens 50, 75 oder 100 € mehr, je nach Wohnfläche. Rechnerisch ergibt sich höchstens {lwu_cap}. Diese Zusagen sind freiwillig. Ob man sie vor Gericht durchsetzen kann, ist unklar. Wenden Sie sich an die Ombudsstelle (www.ombud-lwu.de) oder eine Beratungsstelle."
+    "text": "Nach Ihren Angaben ist die verlangte Miete höher als die Zusagen der landeseigenen Wohnungsunternehmen: höchstens 11 % in drei Jahren und höchstens 50, 75 oder 100 € mehr, je nach Wohnfläche. Rechnerisch ergibt sich höchstens {lwu_cap} (Euro-Grenze nur für diese Erhöhung gerechnet). Diese Zusagen sind freiwillig. Ob man sie vor Gericht durchsetzen kann, ist unklar. Wenden Sie sich an die Ombudsstelle (www.ombud-lwu.de) oder eine Beratungsstelle."
    }
   },
   "increases_559_560_help": "Nur Erhöhungen der Kaltmiete nach einer Modernisierung. Änderungen Ihrer Vorauszahlung für Betriebs- oder Heizkosten tragen Sie hier nicht ein. Nur wenn Ihre Miete eine Pauschale für Betriebskosten enthält (Bruttomiete), zählen auch Erhöhungen dieser Pauschale. Sind Sie unsicher, lassen Sie sich beraten.",
@@ -604,13 +608,13 @@
   "zustimmung": {
    "title": "Zustimmung",
    "when": "Wenn Sie die Erhöhung geprüft haben und sie in voller Höhe für richtig halten. Zum Beispiel: Die neue Miete liegt nicht über der ortsüblichen Vergleichsmiete und nicht über der Kappungsgrenze, und die Wartezeiten sind eingehalten.",
-   "risks": "Ihre Zustimmung ist endgültig. Sie können sie nicht zurücknehmen, sobald sie beim Vermieter angekommen ist. Die neue Miete gilt dann als vereinbart, in der Regel auch wenn sie zu hoch war. Nur in Ausnahmefällen, zum Beispiel bei bewusster Täuschung, kann man eine Zustimmung anfechten. Hat Ihr Mietvertrag ab Juni 2015 begonnen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Hat die Prüfung ein Problem gezeigt, stimmen Sie nicht zu, bevor Sie sich beraten lassen haben.",
+   "risks": "Ihre Zustimmung ist endgültig. Sie können sie nicht zurücknehmen, sobald sie beim Vermieter angekommen ist. Die neue Miete gilt dann als vereinbart, in der Regel auch wenn sie zu hoch war. Nur in Ausnahmefällen, zum Beispiel bei bewusster Täuschung, kann man eine Zustimmung anfechten. Haben Sie Ihren Mietvertrag ab Juni 2015 abgeschlossen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Hat die Prüfung ein Problem gezeigt, stimmen Sie nicht zu, bevor Sie sich beraten lassen haben.",
    "explain": "Mit diesem Brief stimmen Sie der Mieterhöhung zu. Tragen Sie Ihre jetzige Nettokaltmiete, die neue Miete und das Datum ein, ab dem Sie zahlen. Die Zahlen sollten genau dem Schreiben des Vermieters entsprechen. Der Brief sagt ausdrücklich, dass sonst nichts am Mietvertrag geändert wird. Unterschreiben Sie nicht stattdessen ein Formular des Vermieters, wenn Sie nicht alles darauf verstehen. Steht in Ihrem Vertrag eine Brutto- oder Inklusivmiete statt einer Nettokaltmiete, lassen Sie sich vorher beraten."
   },
   "teilzustimmung": {
    "title": "Teilweise Zustimmung",
    "when": "Wenn Sie meinen, dass ein Teil der Erhöhung berechtigt ist, aber nicht der ganze Betrag. Zum Beispiel: Die Vergleichsmiete nach Ihrer Rechnung liegt zwischen Ihrer jetzigen und der verlangten Miete.",
-   "risks": "Auch eine teilweise Zustimmung ist endgültig. Die Miete, der Sie zustimmen, gilt als vereinbart. Für den Rest kann der Vermieter trotzdem vor Gericht klagen. Stimmen Sie deshalb nur dem Betrag zu, den Sie sicher für richtig halten. Zahlen Sie danach nur diesen Betrag, nicht den vollen verlangten Betrag; prüfen Sie eine Lastschrift. Hat Ihr Mietvertrag ab Juni 2015 begonnen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Rechnen Sie den Betrag vorher genau aus und lassen Sie sich beraten.",
+   "risks": "Auch eine teilweise Zustimmung ist endgültig. Die Miete, der Sie zustimmen, gilt als vereinbart. Für den Rest kann der Vermieter trotzdem vor Gericht klagen. Stimmen Sie deshalb nur dem Betrag zu, den Sie sicher für richtig halten. Zahlen Sie danach nur diesen Betrag, nicht den vollen verlangten Betrag; prüfen Sie eine Lastschrift. Haben Sie Ihren Mietvertrag ab Juni 2015 abgeschlossen, prüfen Sie vorher die Mietpreisbremse: Nach einer Zustimmung können Sie sich gegen die neue Miete grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21). Rechnen Sie den Betrag vorher genau aus und lassen Sie sich beraten.",
    "explain": "Mit diesem Brief stimmen Sie einer kleineren Erhöhung zu, als der Vermieter verlangt. Tragen Sie Ihre jetzige Nettokaltmiete, die Miete, der Sie zustimmen, und das Datum ein. Sie können Merkmale nennen, die Sie anders sehen als der Vermieter. Das müssen Sie aber nicht. Die Aufzählung ist ausdrücklich „nicht abschließend“: Sie können später weitere Punkte nennen. Der Brief sagt ausdrücklich, dass sonst nichts am Mietvertrag geändert wird."
   },
   "ablehnung": {
@@ -672,7 +676,7 @@
   },
   "netting": {
    "title": "So wird die Spanne eingeordnet",
-   "text": "In jeder der fünf Gruppen zählen Sie Plus- und Minus-Merkmale. Mehr Plus: die Gruppe zählt als Plus. Mehr Minus: als Minus. Gleichstand: 0. Dann rechnen Sie die Gruppen gegeneinander auf. Jede Gruppe, die als Plus zählt, schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben, jede Gruppe, die als Minus zählt, um ein Fünftel des Abstands zum unteren Wert nach unten (Mietspiegel Nr. 10.3). Der Mietspiegel sagt nicht, ob dabei je Gruppe oder einmal gerundet wird. Abweichungen um einen Cent sind möglich."
+   "text": "In jeder der fünf Gruppen zählen Sie Plus- und Minus-Merkmale. Mehr Plus: die Gruppe zählt als Plus. Mehr Minus: als Minus. Gleichstand: 0. Dann rechnen Sie die Gruppen gegeneinander auf: Eine Plus-Gruppe und eine Minus-Gruppe heben sich auf. Jede übrige Plus-Gruppe schiebt den Wert um ein Fünftel des Abstands vom Mittelwert zum oberen Wert nach oben, jede übrige Minus-Gruppe um ein Fünftel des Abstands vom Mittelwert zum unteren Wert nach unten (Mietspiegel Nr. 10.3). Beispiel: 3 Plus-Gruppen und 2 Minus-Gruppen ergeben 1 Plus-Gruppe. Der Mietspiegel sagt nicht, ob dabei je Gruppe oder einmal gerundet wird. Abweichungen von bis zu 2 Cent pro m² sind möglich."
   },
   "consent_deadline": {
    "title": "Ihre Frist zum Zustimmen",
@@ -684,7 +688,7 @@
   },
   "sue_deadline": {
    "title": "Frist für eine Klage des Vermieters",
-   "text": "Stimmen Sie nicht oder nur teilweise zu, kann der Vermieter auf Zustimmung klagen. Die Klage muss innerhalb von drei Monaten nach dem Ende Ihrer Frist erhoben werden (§ 558b Abs. 2 BGB). Fällt das Ende auf einen Samstag, Sonntag oder Feiertag in Berlin, hat der Vermieter bis zum nächsten Werktag Zeit, zum Beispiel bis Montag (§ 193 BGB). Es reicht, wenn die Klage bis dahin beim Gericht eingeht und bald danach zugestellt wird (§ 167 ZPO). Wir zeigen hier deshalb das spätere Datum. Danach kann der Vermieter diese Erhöhung nicht mehr einklagen; ein neues Verlangen bleibt möglich."
+   "text": "Stimmen Sie nicht oder nur teilweise zu, kann der Vermieter auf Zustimmung klagen. Die Klage muss innerhalb von drei Monaten nach dem Ende Ihrer Frist erhoben werden (§ 558b Abs. 2 BGB). Fällt das Ende auf einen Samstag, Sonntag oder Feiertag in Berlin, hat der Vermieter bis zum nächsten Werktag Zeit, zum Beispiel bis Montag (§ 193 BGB). Es reicht, wenn die Klage bis dahin beim Gericht eingeht und bald danach zugestellt wird (§ 167 ZPO). Wir zeigen hier deshalb das spätere Datum. Fällt schon das Ende Ihrer eigenen Frist auf einen Samstag, Sonntag oder Feiertag, rechnen wir die drei Monate vorsichtshalber erst ab dem nächsten Werktag. Das gezeigte Datum kann deshalb einige Tage später liegen. Danach kann der Vermieter diese Erhöhung nicht mehr einklagen; ein neues Verlangen bleibt möglich."
   },
   "termination_declare_by": {
    "title": "Sonderkündigung: Frist nach verbreiteter Lesart",
@@ -700,14 +704,14 @@
   },
   "sperrfrist_earliest_received": {
    "title": "Sperrfrist von einem Jahr",
-   "text": "Ein Mieterhöhungsverlangen darf frühestens ein Jahr nach der letzten Mieterhöhung bei Ihnen ankommen (§ 558 Abs. 1 Satz 2 BGB). Das Jahr zählt ab dem Tag, an dem die letzte Erhöhung wirksam wurde (BGH, VIII ZR 141/09, Rn. 18). Kommt es früher an, ist es unwirksam (BGH, VIII ZR 178/03). Erhöhungen nach einer Modernisierung oder bei den Betriebskosten (§§ 559 bis 560 BGB) zählen nicht mit."
+   "text": "Ein Mieterhöhungsverlangen darf frühestens ein Jahr nach der letzten Mieterhöhung bei Ihnen ankommen (§ 558 Abs. 1 Satz 2 BGB). Das Jahr zählt ab dem Tag, an dem die letzte Erhöhung wirksam wurde (BGH, VIII ZR 141/09, Rn. 18). Kommt es früher an, ist es unwirksam (BGH, VIII ZR 178/03). Gab es noch keine Mieterhöhung, zählt das Jahr nach verbreiteter Ansicht in der Fachliteratur ab dem Beginn des Mietverhältnisses. Eine Entscheidung des Bundesgerichtshofs dazu haben wir nicht gefunden. Erhöhungen nach einer Modernisierung oder bei den Betriebskosten (§§ 559 bis 560 BGB) zählen nicht mit."
   },
   "wartefrist_earliest_effective": {
    "title": "Wartefrist von 15 Monaten",
    "text": "Die neue Miete darf erst gelten, wenn die Miete seit 15 Monaten unverändert ist (§ 558 Abs. 1 Satz 1 BGB). Die 15 Monate zählen ab der ersten Fälligkeit der letzten Erhöhung (BGH, VIII ZR 178/03). Erhöhungen wegen Modernisierung oder Betriebskosten zählen nicht mit."
   },
   "kappung": {
-   "title": "Kappungsgrenze 15 %",
+   "title": "Kappungsgrenze",
    "text": "In Berlin darf die Miete durch Erhöhungen nach § 558 BGB innerhalb von drei Jahren um höchstens 15 % steigen (§ 558 Abs. 3 BGB, Berliner Kappungsgrenzenverordnung vom 14.03.2023, gültig bis 10.05.2028). Ausgangspunkt ist die Miete drei Jahre vor dem Tag, ab dem die neue Miete gelten soll (BGH, VIII ZR 177/03). Erhöhungen der Kaltmiete nach einer Modernisierung (§ 559 BGB) zählen bei den 15 % nicht mit: Die 15 % werden ohne sie berechnet, und eine solche Erhöhung darf zusätzlich dazukommen. Änderungen der Vorauszahlungen für Betriebskosten gehören nicht dazu."
   },
   "silence": {
@@ -740,7 +744,7 @@
   },
   "lwu": {
    "title": "Landeseigene Wohnungsunternehmen",
-   "text": "Bei degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND und WBM gelten zusätzliche freiwillige Zusagen, solange die Kooperationsvereinbarung läuft (bis 31.12.2027): höchstens 11 % mehr in drei Jahren (Bündnis-Vereinbarung vom 15.07.2025) und höchstens 50 € (bis 65 m²), 75 € (bis 100 m²) oder 100 € (bis 125 m²) mehr pro Monat (Kooperationsvereinbarung II.8). Außerdem gibt es das Leistbarkeitsversprechen: auf Antrag höchstens 27 % des Haushaltseinkommens als Nettokaltmiete, wenn die Einkommens- und Flächengrenzen eingehalten sind. Die Kooperationsvereinbarung gilt auch für die berlinovo im Bereich „Klassisches Wohnen“."
+   "text": "Bei degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND und WBM gelten zusätzliche freiwillige Zusagen, solange die Kooperationsvereinbarung läuft (bis 31.12.2027): höchstens 11 % mehr in drei Jahren (Bündnis-Vereinbarung vom 15.07.2025) und höchstens 50 € (bis 65 m²), 75 € (bis 100 m²) oder 100 € (bis 125 m²) mehr pro Monat (Kooperationsvereinbarung II.8). Die Euro-Grenze rechnen wir nur für diese eine Erhöhung. Ob sie für die ganze Laufzeit der Vereinbarung gilt, sagt der Text nicht ausdrücklich. Gab es seit dem 01.01.2024 schon eine Erhöhung nach § 558 BGB, kann die Grenze dann niedriger sein. Fragen Sie im Zweifel die Ombudsstelle. Nicht mitgerechnet ist eine Soll-Regel aus einem Berliner Gesetz: höchstens 15 % mehr in vier Jahren. Sie kann im Einzelfall eine niedrigere Grenze ergeben. Außerdem gibt es das Leistbarkeitsversprechen: auf Antrag höchstens 27 % des Haushaltseinkommens als Nettokaltmiete, wenn die Einkommens- und Flächengrenzen eingehalten sind. Die Kooperationsvereinbarung gilt auch für Wohnungen der berlinovo im Bereich „Klassisches Wohnen“, die der berlinovo selbst gehören, nicht für Wohnungen ihrer Fondsgesellschaften."
   },
   "pay_from": {
    "title": "Ab wann Sie zahlen würden",
@@ -752,7 +756,7 @@
   },
   "mietpreisbremse_after_consent": {
    "title": "Mietpreisbremse vor einer Zustimmung prüfen",
-   "text": "Hat Ihr Mietvertrag ab Juni 2015 begonnen und war die Miete zu Beginn vielleicht zu hoch? Prüfen Sie das vor Ihrer Antwort. Wenn Sie einer Erhöhung zustimmen, gilt die neue Miete als vereinbart. Gegen diese neue Miete können Sie sich dann grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21)."
+   "text": "Haben Sie Ihren Mietvertrag ab Juni 2015 abgeschlossen und war die Miete zu Beginn vielleicht zu hoch? Prüfen Sie das vor Ihrer Antwort. Wenn Sie einer Erhöhung zustimmen, gilt die neue Miete als vereinbart. Gegen diese neue Miete können Sie sich dann grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, VIII ZR 300/21)."
   },
   "consent_deadline_193": {
    "title": "Zustimmungsfrist: nächster Werktag",

@@ -21,7 +21,7 @@ For this you need:
 - the day since which this rent has applied,
 - the rent from three years ago.
 
-If you have already used the calculator, we take the comparative rent from there.
+If you have already used the calculator, you can copy the comparative rent from there with one click (button next to the field “Local comparative rent (ortsübliche Vergleichsmiete) in € per m²”).
 
 The result is a calculation aid based on fixed rules and your own details. It is not a legal check of your case and does not replace advice. For your own deadlines, the calculation shows calendar dates. It is not certain whether your deadline moves if it ends on a Saturday, Sunday or public holiday. It is better to reply a few days earlier. For the landlord’s deadline to sue, we show the next working day, because he then has until that day (§ 193 BGB).
 

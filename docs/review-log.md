@@ -800,3 +800,66 @@ Server-Log-Absatz in „Was diese Seite ist“ an die endgültige Protokollierun
 | content/ueber.{en,tr,ar,uk,ru,pl}.md | wie de | beide Änderungen übersetzt, Wortwahl des bestehenden Absatzes beibehalten (en „page view“, tr „açılış“, ar „فتح الصفحة“, uk/ru „відкриття/открытие“, pl „otwarcie“); keine Gedankenstriche, kein Fettdruck. |
 
 `node tests/run.mjs`: 161 bestanden, 0 fehlgeschlagen (Stil-Lint aller Sprachen ok).
+
+## Widersprüche und Lücken (Judge 19.10.2026)
+
+Grundlage: `99 Arbeitsdateien/Website/Gaps_2026-10-18/Judge.md`, Teil 1 (Entscheidungen) und Teil 2 (Fix-Pakete A bis E). Platzhalter: `*` = alle 7 Sprachen, also `content/<seite>{,.en,.tr,.ar,.uk,.ru,.pl}.md` bzw. `static/i18n/{ui,content}/{de,en,tr,ar,uk,ru,pl}.json`.
+
+| ID | Dateien | Status |
+|---|---|---|
+| F1 Vormiete (§ 556e Abs. 1 S. 2, BGH VIII ZR 125/23 Rn. 25) | content/mietpreisbremse*.md Z. 39; docs/sources.md | FIXED |
+| F2 berlinovo nur Eigenbestand, nicht Fondsbestand (mit WV1-3, WV1-4) | static/data/rules.json `lwu.companies`; static/i18n/content/*.json `rules.lwu.text`; content/mieterhoehung*.md Z. 159, 186; content/hilfe*.md Z. 35; docs/sources.md (Roadmap 2.0 vom 05.06.2026, Ombudsstelle) | FIXED |
+| F3 Grundsicherung für Arbeitsuchende statt Bürgergeld | content/mieterhoehung*.md Z. 180 (uk zusätzlich „або“) | FIXED |
+| F4 Neubau: Wohnung bezugsfertig statt Haus fertig (mit WV3-7) | static/i18n/ui/*.json `scope_item_neubau`, `calc_baualter_new`; content/mieterhoehung*.md Z. 31, 37; content/rechner*.md Z. 10 | FIXED |
+| F5 Sammelheizung | content/rechner*.md Z. 19 | FIXED |
+| F6 § 558a Abs. 3 „Angaben für die Wohnung“ | content/mieterhoehung*.md Z. 43 | FIXED |
+| C3, W10, WV3-1 Mietspiegel bei Mietbeginn (Mietpreisbremse) | content/mietpreisbremse*.md Z. 33, 55; static/i18n/ui/*.json `calc_year_intro`, `calc_year_newer` | FIXED |
+| C9 Wortlaut „Absenkung … fort“ | content/mieterhoehung*.md Z. 161; docs/sources.md (Wayback-Beleg für `lwu.valid_from`) | FIXED |
+| C10, M2 Nettoeinkommen, Wohngeld, 20 % Fläche | content/mieterhoehung*.md Z. 175, 177, 178 | FIXED |
+| W1 Aufrechnen der Gruppen | static/i18n/content/*.json `groups.*.intro`, `rules.netting.text`; content/rechner*.md Z. 21 | FIXED |
+| W2 LWU-Euro-Grenze nur für diese Erhöhung | static/i18n/content/*.json `rules.lwu.text`, `checker.result.over_lwu.text` | FIXED |
+| W3 LWU-Grenze in Obergrenze, Teilzustimmung und Brief | static/js/app/pruefen.js (Zeile `chk_max_rent_lwu_lower`, Hinweis Teilzustimmung bei `over_lwu`); static/js/lib/letter.js `amountProblems(…, lwuCap)` → `agreed_over_lwu`; static/js/app/brief.js; static/i18n/ui/*.json `chk_out_max_rent`, `chk_max_rent_lwu_lower`, `letter_problem_agreed_over_lwu`; static/data/rules.json t41; tests/run.mjs „J W3“ | FIXED |
+| W4 Klagefrist ab verschobener eigener Frist | static/i18n/content/*.json `rules.sue_deadline.text` | FIXED |
+| W5 Formel-Etikett Kappungsgrenze | static/i18n/ui/*.json `chk_cap_formula` | FIXED |
+| W6 Rundung höchstens 2 Cent pro m² | static/i18n/ui/*.json `calc_rounding_note`; static/i18n/content/*.json `rules.netting.text` | FIXED |
+| W7 Vergleichsmiete per Klick übernehmen | content/pruefen*.md Z. 24 | FIXED |
+| W8 selbst gestellte Ausstattung bei Minus-Merkmalen | static/i18n/ui/*.json `calc_self_text` | FIXED |
+| W9 Mietvertrag „abgeschlossen“ statt „begonnen“ | static/i18n/ui/*.json `letter_binding_text`; static/i18n/content/*.json `letters.zustimmung.risks`, `letters.teilzustimmung.risks`, `rules.mietpreisbremse_after_consent.text`; content/mieterhoehung*.md Z. 102 | FIXED |
+| W11 merkmale.md Z. 18 | content/merkmale*.md Z. 18 | FIXED |
+| W12 „meist“ statt „oft“ | static/i18n/ui/*.json `scope_not558_text` | FIXED |
+| W13 Sperrfrist ab Mietbeginn (mit WV3-4, G1b-10 Wortlaut) | static/js/lib/check558.js Eingabe `last_change_is_start`, Befund `sperrfrist_from_start` (blockiert `within_limits`); static/js/app/pruefen.js Kästchen, Stufe Warnung, Hinweis Teilzustimmung; static/js/lib/letter.js `RISKY`; static/data/rules.json t38, t39; tests/run.mjs „J W13“; static/i18n/ui/*.json `chk_in_last_change_is_start`, `chk_find_sperrfrist_from_start`, `chk_in_last_change_hint`; static/i18n/content/*.json `rules.sperrfrist_earliest_received.text`, `checker.last_change_help`, `checker.result.sperrfrist_from_start`; content/mieterhoehung*.md Z. 127 bis 128; docs/sources.md Z. 126 | FIXED |
+| W14 Feiertage „zum Beispiel“ | content/mieterhoehung*.md Z. 70 | FIXED |
+| W15 Titel „Kappungsgrenze“, LWU-Kästchen außerhalb der Laufzeit | static/js/lib/check558.js Ausgabe `lwu_outside_term`; static/js/app/pruefen.js Hinweis `chk_lwu_outside_term`; static/data/rules.json t40, t41; static/i18n/ui/*.json `chk_lwu_outside_term`; static/i18n/content/*.json `rules.kappung.title` | FIXED |
+| W16 tote Doppeltexte (mit G1b-2, G1b-4) | static/js/app/pruefen.js (Ersatzlogik `chk_find_<id>_text` entfernt); static/data/letters.json `when_de`, `risks_de` in allen vier Vorlagen gelöscht; static/i18n/ui/*.json `chk_find_need_rent_3y_text`, `chk_find_over_lwu_text`, `chk_find_no_last_change_text` gelöscht; tests/run.mjs (jede content-Datei hat `checker.result` title/text für jede Befund-ID) | FIXED |
+| W17 Rechner, alte Sozialwohnung → Hinweis „Mietspiegel gilt nicht“ | static/js/app/rechner.js `calcScope` (`not558` → `notMS`) | FIXED |
+| T1, M1 „sollen“ statt Pflicht (ar, ru, tr) | static/i18n/ui/{ar,ru,tr}.json `scope_ask`; content/mieterhoehung.{ar,ru,tr}.md Z. 14 | FIXED |
+| T2, T2a Fristende inklusiv (uk, ru) | static/i18n/content/{uk,ru}.json `rules.sue_deadline.text`; content/mieterhoehung.{uk,ru}.md Z. 73 (uk auch Z. 68); content/pruefen.{uk,ru}.md Z. 26 | FIXED |
+| T3 „bis“ inklusiv (uk, ru) | static/i18n/content/{uk,ru}.json `features.gebaeude-m06.explain` (uk auch `rules.mietspiegel_choice.text`, `rules.kappung.text`, `rules.lwu.text`); content/mieterhoehung.uk.md Z. 54, 159, 165 bis 167; content/mieterhoehung.ru.md Z. 165 bis 167; content/mietpreisbremse.uk.md Z. 18 bis 21, 30 | FIXED |
+| T4 tr Scope-Satz | content/rechner.tr.md Z. 10 | FIXED |
+| T6 ar „ältere Mietspiegel ab 2017“ | content/mietpreisbremse.ar.md Z. 29 | FIXED |
+| T7 ar Reihenfolge wie de | content/mieterhoehung.ar.md Z. 86 bis 92 | FIXED |
+| T8 uk § 561 Ende des übernächsten Monats | content/mieterhoehung.uk.md Z. 151 | FIXED |
+| T9 ru «обещания» | static/i18n/ui/ru.json `chk_out_lwu`, `chk_find_over_lwu`; static/i18n/content/ru.json `rules.lwu.text`, `checker.result.over_lwu.title` | FIXED |
+| G1b-5 Warmwasser, Lesarten 2024 und 2026 | static/i18n/content/*.json `features.gebaeude-{m09,m10,m11,p09,p10,p11}.check` | FIXED |
+| G1b-13 Fundstelle „Nr. 3 und 6.1“ | static/i18n/ui/*.json `calc_scope_intro`, `scope_notms_text` | FIXED |
+| M3 (G1b-8, WV1-2) WoVG-Soll 15 % in vier Jahren nicht gerechnet | static/i18n/content/*.json `rules.lwu.text` | FIXED |
+| WV3-3, WV1-1 WoVG-Härtefall 30 %/27 %, gilt nicht für berlinovo | content/mieterhoehung*.md Z. 173 | FIXED |
+| WV3-6 § 556g Abs. 1a, zwei Jahre, Art. 229 § 49 Abs. 2 EGBGB | content/mietpreisbremse*.md Z. 46; docs/sources.md | FIXED |
+
+REJECT, je mit Grund:
+- G6 W1 Mietrecht II: nur ein Entwurf, heute kein Widerspruch (beobachten).
+- G6 W2 Sondierung 2 %: politische Absicht, kein geltendes Recht (beobachten).
+- G6 W3 Mietenaufsicht: erst 2027, dann den Link in `hilfe.md` prüfen.
+- G6 W4 LWU-Erhöhungswelle: kein Widerspruch.
+- C1, C2, C5, C6, C7, C11, C12: unsere Seite stimmt, die amtliche Seite ist veraltet oder irrt.
+- C4 LWU 2 %/30 %: unsere Seite stimmt; der Härtefall ist WV3-3.
+- C8 § 5 WiStG: die Seite sagt nichts dazu, nur eine Lücke.
+- C9, G1b-7 (als Widerspruch): das Bündnis 2025 führt die Absenkung fort; nur der Wortlaut wurde geändert.
+- G1b-9: die Zitate betreffen verschiedene Aussagen.
+- G1b-10 (als Widerspruch): bei § 558 ist es derselbe Tag; der klärende Satz steht jetzt in mieterhoehung Z. 128.
+- T5 pl „nicht preisgebunden“: vertretbare Umschreibung, kein Fehler.
+- M5 LWU-Modernisierung: § 559 liegt außerhalb dessen, was die Seite abdeckt (Lücke).
+- M6 Stichtag 01.01.2028: kein Fix heute; Erinnerung für den Eigentümer, der Code-Hinweis kam mit W15.
+- WV3-2 Schreiben vor dem 28.05.2026: nur eine auslaufende Lücke, die Prüfung zeigt den Mietspiegel schon an.
+- WV3-5 Gleichstand: kein Widerspruch (Nr. 10.3 „Überwiegen“).
+- WV3-8 Sondermerkmale: gibt es im Mietspiegel 2026 nicht.

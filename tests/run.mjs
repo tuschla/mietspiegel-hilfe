@@ -272,6 +272,15 @@ if (rules) {
     eq("V S3 K1: every template keeps the signature space and nothing else", bad1, []);
   }
 }
+// Gaps/Widersprüche 19.10.2026 (Judge.md)
+{
+  eq("J W13: sperrfrist_from_start is risky before consent", consentWarnings(["sperrfrist_from_start"]).risky, ["sperrfrist_from_start"]);
+  eq("J W3: partial consent above the LWU commitments",
+    [amountProblems({ kind: "partial" }, { current_rent: 600, agreed_rent: 660 }, 680, 690, 650),
+     amountProblems({ kind: "partial" }, { current_rent: 600, agreed_rent: 640 }, 680, 690, 650),
+     amountProblems({ kind: "partial" }, { current_rent: 600, agreed_rent: 695 }, 700, 690, 650)],
+    [["agreed_over_lwu"], [], ["agreed_over_max", "agreed_over_lwu"]]);
+}
 // O4 (S2 C2, S5 F1): newer subsidised flat – § 558 applies (consent needed), the Mietspiegel does not
 eq("O4 gefoerdert: scopeState → notMS", scopeState({ ask: "yes", items: { gefoerdert: true } }, { withAsk: true }), "notMS");
 // Language suggestion banner: first browser language this page exists in, unless it is the page's own
@@ -331,6 +340,16 @@ if (existsSync(contentDir)) {
   }
 } else {
   bad("static/i18n/content/de.json present", "missing");
+}
+// W16: findings show only content texts → every content file has title and text for every finding id
+if (existsSync(contentDir)) {
+  const FIDS = ["sperrfrist_fail", "sperrfrist_from_start", "wartefrist_postponed", "requested_too_early", "over_cap", "over_ovm",
+    "over_lwu", "need_rent_3y", "no_ovm", "no_last_change", "within_limits"];
+  for (const f of readdirSync(contentDir).filter((x) => x.endsWith(".json"))) {
+    const r = (load(`static/i18n/content/${f}`).checker || {}).result || {};
+    const miss = FIDS.filter((id) => !r[id] || !r[id].title || !r[id].text);
+    miss.length ? bad(`content/${f} has checker.result title/text for every finding`, miss.join(", ")) : ok(`content/${f} has checker.result title/text for every finding`);
+  }
 }
 // S3 C9: no doubled "(optional)" – the form adds it to optional field labels
 if (existsSync(contentDir)) {

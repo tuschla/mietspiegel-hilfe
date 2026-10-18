@@ -118,14 +118,18 @@ export function letterValues(fields, values, builtins, parseNum) {
 /**
  * Plausibility of the amounts in consent letters. Returns a list of problem ids:
  * agreed_not_between (partial: current < agreed < demanded), agreed_over_max (partial: agreed above
- * the computed upper limit `max`), new_over_demanded (consent: new ≤ demanded).
+ * the computed upper limit `max`), agreed_over_lwu (partial: agreed above the state-owned landlords'
+ * commitments `lwuCap`), new_over_demanded (consent: new ≤ demanded).
  */
-export function amountProblems(tp, v, demanded, max) {
+export function amountProblems(tp, v, demanded, max, lwuCap) {
   const out = [];
   const cur = v.current_rent, agreed = v.agreed_rent, neu = v.new_rent;
   if (tp.kind === "partial" && typeof agreed === "number") {
     if ((typeof cur === "number" && agreed <= cur) || (typeof demanded === "number" && agreed >= demanded)) out.push("agreed_not_between");
-    else if (typeof max === "number" && agreed > max + 0.004) out.push("agreed_over_max");
+    else {
+      if (typeof max === "number" && agreed > max + 0.004) out.push("agreed_over_max");
+      if (typeof lwuCap === "number" && agreed > lwuCap + 0.004) out.push("agreed_over_lwu");
+    }
   }
   if (tp.kind === "consent" && typeof neu === "number") {
     if ((typeof demanded === "number" && neu > demanded + 0.004) || (typeof cur === "number" && neu <= cur)) out.push("new_over_demanded");
@@ -134,7 +138,7 @@ export function amountProblems(tp, v, demanded, max) {
 }
 
 /** Checker findings that make consent risky. */
-export const RISKY = ["sperrfrist_fail", "requested_too_early", "wartefrist_postponed", "over_cap", "over_ovm", "over_lwu", "need_rent_3y"];
+export const RISKY = ["sperrfrist_fail", "sperrfrist_from_start", "requested_too_early", "wartefrist_postponed", "over_cap", "over_ovm", "over_lwu", "need_rent_3y"];
 /** Checker findings that mean the check is not complete. */
 export const INCOMPLETE = ["no_ovm", "no_last_change"];
 

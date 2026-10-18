@@ -15,4 +15,4 @@ Zwei Regeln gelten für alle Merkmale:
 - Es zählt nur die Ausstattung, die der Vermieter gestellt hat. Haben Sie selbst etwas eingebaut und der Vermieter hat die Kosten nicht erstattet, zählt es nicht. So steht es im Mietspiegel (Nr. 6.3).
 - Unsere Erklärungen sind keine amtliche Übersetzung. Verbindlich ist nur der amtliche deutsche Text.
 
-Für eine Mieterhöhung, die Sie vor dem 28.05.2026 bekommen haben, gilt meist noch der [Mietspiegel 2024](@/merkmale-2024.md).
+Für eine Mieterhöhung, die vom 30.05.2024 bis zum 27.05.2026 bei Ihnen ankam, gilt meist der [Mietspiegel 2024](@/merkmale-2024.md). Kam sie ab dem 01.09.2025 an, lesen Sie auch den Hinweis unter [Welcher Mietspiegel gilt?](@/mieterhoehung.md).

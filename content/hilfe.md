@@ -32,7 +32,7 @@ Das Willkommenszentrum der Integrationsbeauftragten des Senats hat eine Suche na
 
 ## Für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen
 
-Die Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen ist für die Mieterinnen und Mieter von degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM und der berlinovo mit ihren „klassischen“ Mietwohnungen da. Sie berät zur Kooperationsvereinbarung und zum Leistbarkeitsversprechen, auf Deutsch und Englisch. Allgemeine Mietrechtsfragen berät sie nicht.
+Die Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen ist für die Mieterinnen und Mieter von degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM und ihren Tochtergesellschaften da. Bei der berlinovo ist sie nur für die „klassischen“ Mietwohnungen zuständig, die der berlinovo selbst gehören, nicht für Wohnungen ihrer Fondsgesellschaften. Sie berät zur Kooperationsvereinbarung und zum Leistbarkeitsversprechen, auf Deutsch und Englisch. Allgemeine Mietrechtsfragen berät sie nicht.
 <https://www.ombud-lwu.de/>
 
 ## Mietervereine (mit Mitgliedsbeitrag)

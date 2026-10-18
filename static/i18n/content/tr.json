@@ -7,23 +7,23 @@
   "groups": {
     "bad": {
       "title": "Banyo ve tuvalet (WC)",
-      "intro": "Bu grup banyo, tuvalet ve misafir tuvaleti ile ilgilidir. Mietspiegel'de birçok özellikte „bezieht sich nicht auf Gäste-WCs“ (misafir tuvaletleri için geçerli değildir) yazar: O zaman yalnızca ana banyo sayılır.\n\nArtı ve eksi özellikleri sayın. Artı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup banyo, tuvalet ve misafir tuvaleti ile ilgilidir. Mietspiegel'de birçok özellikte „bezieht sich nicht auf Gäste-WCs“ (misafir tuvaletleri için geçerli değildir) yazar: O zaman yalnızca ana banyo sayılır.\n\nArtı ve eksi özellikleri sayın. Artı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Ardından beş grup birbirine karşı mahsup edilir: Bir artı grup ile bir eksi grup birbirini götürür. Geriye kalan her artı grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Geriye kalan her eksi grup, değeri orta değerden alt değere olan farkın beşte biri kadar aşağı iter. Örnek: 3 artı grup ve 2 eksi grup, 1 artı grup eder. Bu, kiranın %20 artması demek değildir."
     },
     "kueche": {
       "title": "Mutfak",
-      "intro": "Bu grup mutfakla ilgilidir. Yalnızca ev sahibinin sağladığı şeyler sayılır. Parasını kendiniz ödediğiniz bir mutfak ya da cihazlar sayılmaz.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup mutfakla ilgilidir. Yalnızca ev sahibinin sağladığı şeyler sayılır. Parasını kendiniz ödediğiniz bir mutfak ya da cihazlar sayılmaz.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Ardından beş grup birbirine karşı mahsup edilir: Bir artı grup ile bir eksi grup birbirini götürür. Geriye kalan her artı grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Geriye kalan her eksi grup, değeri orta değerden alt değere olan farkın beşte biri kadar aşağı iter. Örnek: 3 artı grup ve 2 eksi grup, 1 artı grup eder. Bu, kiranın %20 artması demek değildir."
     },
     "wohnung": {
       "title": "Daire",
-      "intro": "Bu grup dairenin kendisiyle ilgilidir: pencereler, tesisat hatları, oda planı, balkon, zeminler ve ısıtma. Birçok özellikte „überwiegend“ (çoğunlukla) yazar. Bu, kelime anlamına göre şu demektir: yarıdan fazlasında, örneğin pencerelerin ya da odaların yarıdan fazlasında.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup dairenin kendisiyle ilgilidir: pencereler, tesisat hatları, oda planı, balkon, zeminler ve ısıtma. Birçok özellikte „überwiegend“ (çoğunlukla) yazar. Bu, kelime anlamına göre şu demektir: yarıdan fazlasında, örneğin pencerelerin ya da odaların yarıdan fazlasında.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Ardından beş grup birbirine karşı mahsup edilir: Bir artı grup ile bir eksi grup birbirini götürür. Geriye kalan her artı grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Geriye kalan her eksi grup, değeri orta değerden alt değere olan farkın beşte biri kadar aşağı iter. Örnek: 3 artı grup ve 2 eksi grup, 1 artı grup eder. Bu, kiranın %20 artması demek değildir."
     },
     "gebaeude": {
       "title": "Bina",
-      "intro": "Bu grup binayla ilgilidir: merdiven boşluğu, bodrum, giriş, asansör, binanın durumu ve enerji. Enerji tüketiminde özel bir kural vardır: Ya „Yalıtım veya ısıtma sistemi“ özelliğini işaretlersiniz ya da enerji kimlik belgesindeki (Energieausweis) enerji değeri (Energiekennwert) ile ilgili özellikleri, ikisini birden değil. Enerji değerinde en fazla üç kutu sayılabilir.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup binayla ilgilidir: merdiven boşluğu, bodrum, giriş, asansör, binanın durumu ve enerji. Enerji tüketiminde özel bir kural vardır: Ya „Yalıtım veya ısıtma sistemi“ özelliğini işaretlersiniz ya da enerji kimlik belgesindeki (Energieausweis) enerji değeri (Energiekennwert) ile ilgili özellikleri, ikisini birden değil. Enerji değerinde en fazla üç kutu sayılabilir.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Ardından beş grup birbirine karşı mahsup edilir: Bir artı grup ile bir eksi grup birbirini götürür. Geriye kalan her artı grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Geriye kalan her eksi grup, değeri orta değerden alt değere olan farkın beşte biri kadar aşağı iter. Örnek: 3 artı grup ve 2 eksi grup, 1 artı grup eder. Bu, kiranın %20 artması demek değildir."
     },
     "umfeld": {
       "title": "Çevre (Wohnumfeld)",
-      "intro": "Bu grup çevreyle ilgilidir: gürültü, koku, bisikletler, arsa, park yerleri ve bahçe. Konum (Wohnlage: basit, orta, iyi) tabloda zaten hesaba katılmıştır. Burada dairenizin özel durumları söz konusudur.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Eksi sayılan her grup, değeri alt değere olan farkın beşte biri kadar aşağı iter. Bu, kiranın %20 artması demek değildir."
+      "intro": "Bu grup çevreyle ilgilidir: gürültü, koku, bisikletler, arsa, park yerleri ve bahçe. Konum (Wohnlage: basit, orta, iyi) tabloda zaten hesaba katılmıştır. Burada dairenizin özel durumları söz konusudur.\n\nArtı özellik daha fazlaysa grup artı sayılır. Eksi özellik daha fazlaysa grup eksi sayılır. Eşitlikte grup sayılmaz. Ardından beş grup birbirine karşı mahsup edilir: Bir artı grup ile bir eksi grup birbirini götürür. Geriye kalan her artı grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter. Geriye kalan her eksi grup, değeri orta değerden alt değere olan farkın beşte biri kadar aşağı iter. Örnek: 3 artı grup ve 2 eksi grup, 1 artı grup eder. Bu, kiranın %20 artması demek değildir."
     }
   },
   "features": {
@@ -204,19 +204,19 @@
     "gebaeude-m09": {
       "title": "Yüksek enerji tüketimi: 145 kWh üstü",
       "explain": "Eksi, eğer binanın ısıtma ve sıcak su için enerji değeri (Energiekennwert) yılda m² başına 145 kWh değerinden büyükse (kWh/(m²a)). Tüketim çok yüksekse bu kutulardan en fazla üçü işaretlenebilir: 145 üstü, 195 üstü, 235 üstü. Ya „Yalıtım veya ısıtma sistemi“ özelliğini ya da enerji değeri özelliklerini seçersiniz, ikisini birden değil. Anıt koruma (Denkmalschutz) altındaki binalarda, enerji tasarrufu için bir yenileme (energetische Sanierung) anıt korumaya aykırı olacaksa veya bu yüzden orantısız derecede pahalı olacaksa, bu eksi özellikler sayılmaz.",
-      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su değere dahil değilse (örneğin dairede şofbenler (Durchlauferhitzer) varsa), önce değere 20 kWh/(m²a) eklenir.",
+      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su dairede üretiliyorsa (örneğin şofbenlerle (Durchlauferhitzer)), önce değere 20 kWh/(m²a) eklenir. Mietspiegel 2026'ya göre bu yalnızca sıcak su enerji değerine dahil değilse geçerlidir. Tam metni gruptaki resmî açıklamada bulursunuz.",
       "proof": "Bu eksi özelliğe dayanırsanız, kural olarak onu sizin kanıtlamanız gerekir. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. İşe yarar: enerji kimlik belgesinin bir kopyası."
     },
     "gebaeude-m10": {
       "title": "Yüksek enerji tüketimi: 195 kWh üstü",
       "explain": "Eksi, eğer binanın ısıtma ve sıcak su için enerji değeri (Energiekennwert) yılda m² başına 195 kWh değerinden büyükse (kWh/(m²a)). Tüketim çok yüksekse bu kutulardan en fazla üçü işaretlenebilir: 145 üstü, 195 üstü, 235 üstü. Ya „Yalıtım veya ısıtma sistemi“ özelliğini ya da enerji değeri özelliklerini seçersiniz, ikisini birden değil. Anıt koruma (Denkmalschutz) altındaki binalarda, enerji tasarrufu için bir yenileme (energetische Sanierung) anıt korumaya aykırı olacaksa veya bu yüzden orantısız derecede pahalı olacaksa, bu eksi özellikler sayılmaz.",
-      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su değere dahil değilse (örneğin dairede şofbenler (Durchlauferhitzer) varsa), önce değere 20 kWh/(m²a) eklenir.",
+      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su dairede üretiliyorsa (örneğin şofbenlerle (Durchlauferhitzer)), önce değere 20 kWh/(m²a) eklenir. Mietspiegel 2026'ya göre bu yalnızca sıcak su enerji değerine dahil değilse geçerlidir. Tam metni gruptaki resmî açıklamada bulursunuz.",
       "proof": "Bu eksi özelliğe dayanırsanız, kural olarak onu sizin kanıtlamanız gerekir. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. İşe yarar: enerji kimlik belgesinin bir kopyası."
     },
     "gebaeude-m11": {
       "title": "Yüksek enerji tüketimi: 235 kWh üstü",
       "explain": "Eksi, eğer binanın ısıtma ve sıcak su için enerji değeri (Energiekennwert) yılda m² başına 235 kWh değerinden büyükse (kWh/(m²a)). Tüketim çok yüksekse bu kutulardan en fazla üçü işaretlenebilir: 145 üstü, 195 üstü, 235 üstü. Ya „Yalıtım veya ısıtma sistemi“ özelliğini ya da enerji değeri özelliklerini seçersiniz, ikisini birden değil. Anıt koruma (Denkmalschutz) altındaki binalarda, enerji tasarrufu için bir yenileme (energetische Sanierung) anıt korumaya aykırı olacaksa veya bu yüzden orantısız derecede pahalı olacaksa, bu eksi özellikler sayılmaz.",
-      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su değere dahil değilse (örneğin dairede şofbenler (Durchlauferhitzer) varsa), önce değere 20 kWh/(m²a) eklenir.",
+      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su dairede üretiliyorsa (örneğin şofbenlerle (Durchlauferhitzer)), önce değere 20 kWh/(m²a) eklenir. Mietspiegel 2026'ya göre bu yalnızca sıcak su enerji değerine dahil değilse geçerlidir. Tam metni gruptaki resmî açıklamada bulursunuz.",
       "proof": "Bu eksi özelliğe dayanırsanız, kural olarak onu sizin kanıtlamanız gerekir. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. İşe yarar: enerji kimlik belgesinin bir kopyası."
     },
     "gebaeude-p01": {
@@ -270,19 +270,19 @@
     "gebaeude-p09": {
       "title": "Düşük enerji tüketimi: 120 kWh altı",
       "explain": "Artı: Binanın ısıtma ve sıcak su için enerji değeri (Energiekennwert) yılda m² başına 120 kWh değerinden küçükse (kWh/(m²a)). Tüketim çok düşükse bu kutulardan en fazla üçü işaretlenebilir: 120 altı, 100 altı, 80 altı. Ya „Yalıtım veya ısıtma sistemi“ özelliğini ya da enerji değeri özelliklerini seçersiniz, ikisini birden değil.",
-      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su değere dahil değilse (örneğin dairede şofbenler (Durchlauferhitzer) varsa), önce değere 20 kWh/(m²a) eklenir.",
+      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su dairede üretiliyorsa (örneğin şofbenlerle (Durchlauferhitzer)), önce değere 20 kWh/(m²a) eklenir. Mietspiegel 2026'ya göre bu yalnızca sıcak su enerji değerine dahil değilse geçerlidir. Tam metni gruptaki resmî açıklamada bulursunuz.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: enerji kimlik belgesinin bir kopyası."
     },
     "gebaeude-p10": {
       "title": "Düşük enerji tüketimi: 100 kWh altı",
       "explain": "Artı: Binanın ısıtma ve sıcak su için enerji değeri (Energiekennwert) yılda m² başına 100 kWh değerinden küçükse (kWh/(m²a)). Tüketim çok düşükse bu kutulardan en fazla üçü işaretlenebilir: 120 altı, 100 altı, 80 altı. Ya „Yalıtım veya ısıtma sistemi“ özelliğini ya da enerji değeri özelliklerini seçersiniz, ikisini birden değil.",
-      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su değere dahil değilse (örneğin dairede şofbenler (Durchlauferhitzer) varsa), önce değere 20 kWh/(m²a) eklenir.",
+      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su dairede üretiliyorsa (örneğin şofbenlerle (Durchlauferhitzer)), önce değere 20 kWh/(m²a) eklenir. Mietspiegel 2026'ya göre bu yalnızca sıcak su enerji değerine dahil değilse geçerlidir. Tam metni gruptaki resmî açıklamada bulursunuz.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: enerji kimlik belgesinin bir kopyası."
     },
     "gebaeude-p11": {
       "title": "Düşük enerji tüketimi: 80 kWh altı",
       "explain": "Artı: Binanın ısıtma ve sıcak su için enerji değeri (Energiekennwert) yılda m² başına 80 kWh değerinden küçükse (kWh/(m²a)). Tüketim çok düşükse bu kutulardan en fazla üçü işaretlenebilir: 120 altı, 100 altı, 80 altı. Ya „Yalıtım veya ısıtma sistemi“ özelliğini ya da enerji değeri özelliklerini seçersiniz, ikisini birden değil.",
-      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su değere dahil değilse (örneğin dairede şofbenler (Durchlauferhitzer) varsa), önce değere 20 kWh/(m²a) eklenir.",
+      "check": "Enerji değerini binanın enerji kimlik belgesinde (Energieausweis) bulursunuz; belge sizde yoksa ev sahibine sorun. Şuna dikkat edin: Bu bir tüketim belgesi (Verbrauchsausweis) mi, yoksa ihtiyaç belgesi (Bedarfsausweis) mi? İhtiyaç belgesinde sınırlar %20 daha yüksektir. Sıcak su dairede üretiliyorsa (örneğin şofbenlerle (Durchlauferhitzer)), önce değere 20 kWh/(m²a) eklenir. Mietspiegel 2026'ya göre bu yalnızca sıcak su enerji değerine dahil değilse geçerlidir. Tam metni gruptaki resmî açıklamada bulursunuz.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: enerji kimlik belgesinin bir kopyası."
     },
     "kueche-m01": {
@@ -543,7 +543,7 @@
     "received": "Yazının size ulaştığı gün",
     "received_help": "Mektubun üzerindeki tarih değil; mektubun posta kutunuzda veya posta kutusu adresinizde (Postfach) olduğu gün.",
     "last_change": "Modernizasyon veya yan giderler nedeniyle yapılan artışlar hariç, kiranız ne zamandan beri geçerli?",
-    "last_change_help": "Son artışın geçerli olduğu gün, yani yüksek kirayı ödemeniz gereken ilk gün. Henüz artış olmadıysa kira sözleşmesinin başlangıcı. Modernizasyon veya yan giderler (Betriebskosten) nedeniyle yapılan artışlar sayılmaz.",
+    "last_change_help": "Son artışın geçerli olduğu gün, yani yüksek kirayı ödemeniz gereken ilk gün. Henüz artış olmadıysa kira ilişkisinin başlangıcı, yani sözleşmeye göre kira ödemeniz gereken ilk gün. O zaman aşağıdaki kutuyu işaretleyin. Modernizasyon veya yan giderler (Betriebskosten) nedeniyle yapılan artışlar sayılmaz.",
     "current_rent": "Şu anki aylık net kiranız (Nettokaltmiete)",
     "current_rent_help": "Yan giderler ve ısıtma giderleri hariç kira.",
     "rent_3y_ago": "Yeni kiranın geçerli olacağı günden üç yıl önceki net kira (Nettokaltmiete)",
@@ -558,6 +558,10 @@
       "sperrfrist_fail": {
         "title": "Talep belki çok erken geldi",
         "text": "Sabit hesap kuralına ve sizin bilgilerinize göre yazı, son kira artışından bir yıldan kısa süre sonra geldi. Federal Yüksek Mahkeme'nin (Bundesgerichtshof) içtihadına göre böyle bir talep geçersizdir (unwirksam) (§ 558 Abs. 1 Satz 2 BGB; BGH, VIII ZR 178/03). Tarihleri dikkatle kontrol edin. Danışmanlık almadan onay vermeyin."
+      },
+      "sperrfrist_from_start": {
+        "title": "Talep belki çok erken geldi (kira ilişkisinin ilk yılı)",
+        "text": "Bilgilerinize göre henüz hiç kira artışı olmadı ve yazı, kira ilişkisinin başlangıcından bir yıldan kısa süre sonra geldi. Yasa yalnızca şunu söyler: en erken son kira artışından bir yıl sonra (§ 558 Abs. 1 Satz 2 BGB). Hukuk literatüründe yaygın görüşe göre bu yıl o zaman kira ilişkisinin başlangıcından itibaren sayılır ve talep çok erken gelmiş olur. Federal Yüksek Mahkeme'nin (Bundesgerichtshof) bu konuda bir kararını bulamadık. Tarihleri dikkatle kontrol edin. Danışmanlık almadan onay vermeyin."
       },
       "wartefrist_postponed": {
         "title": "Yeni kira ancak daha sonra geçerli olabilir",
@@ -593,7 +597,7 @@
       },
       "over_lwu": {
         "title": "Eyalete ait şirketlerin taahhütlerinin üstünde",
-        "text": "Bilgilerinize göre istenen kira, Berlin eyaletine ait konut şirketlerinin (landeseigene Wohnungsunternehmen) taahhütlerinden yüksek: üç yılda en fazla %11 ve konut alanına göre en fazla 50, 75 veya 100 € daha fazla. Hesaba göre en fazla {lwu_cap} çıkar. Bu taahhütler gönüllüdür. Mahkemede uygulatılıp uygulatılamayacakları belirsizdir. Ombudsman ofisine (Ombudsstelle, www.ombud-lwu.de) veya bir danışma merkezine başvurun."
+        "text": "Bilgilerinize göre istenen kira, Berlin eyaletine ait konut şirketlerinin (landeseigene Wohnungsunternehmen) taahhütlerinden yüksek: üç yılda en fazla %11 ve konut alanına göre en fazla 50, 75 veya 100 € daha fazla. Hesaba göre en fazla {lwu_cap} çıkar (euro sınırı yalnızca bu artış için hesaplandı). Bu taahhütler gönüllüdür. Mahkemede uygulatılıp uygulatılamayacakları belirsizdir. Ombudsman ofisine (Ombudsstelle, www.ombud-lwu.de) veya bir danışma merkezine başvurun."
       }
     },
     "increases_559_560_help": "Yalnızca modernizasyondan sonra soğuk kiraya (Kaltmiete: ısıtma giderleri hariç kira) yapılan artışlar. Yan giderler veya ısıtma için avans ödemelerinizdeki değişiklikleri buraya girmeyin. Yalnızca kiranız yan giderler için götürü bir tutar (Pauschale) içeriyorsa (Bruttomiete), bu götürü tutarın artışları da sayılır. Emin değilseniz danışmanlık alın.",
@@ -604,13 +608,13 @@
     "zustimmung": {
       "title": "Onay (Zustimmung)",
       "when": "Artışı kontrol ettiyseniz ve tamamının doğru olduğunu düşünüyorsanız. Örneğin: Yeni kira yerel emsal kiranın üstünde değil, artış sınırının (Kappungsgrenze) üstünde değil ve bekleme sürelerine uyulmuş.",
-      "risks": "Onayınız kesindir. Ev sahibine ulaştığı anda onu geri alamazsınız. Yeni kira o zaman kararlaştırılmış sayılır; kural olarak çok yüksek olsa bile. Yalnızca istisnai durumlarda, örneğin bilerek aldatma varsa, bir onay iptal ettirilebilir (anfechten). Kira sözleşmeniz Haziran 2015'ten itibaren başladıysa, önce kira frenini (Mietpreisbremse) kontrol edin: Onaydan sonra yeni kiraya karşı ilke olarak artık kira frenine dayanamazsınız (BGH, VIII ZR 300/21). Kontrol bir sorun gösterdiyse, danışmanlık almadan onay vermeyin.",
+      "risks": "Onayınız kesindir. Ev sahibine ulaştığı anda onu geri alamazsınız. Yeni kira o zaman kararlaştırılmış sayılır; kural olarak çok yüksek olsa bile. Yalnızca istisnai durumlarda, örneğin bilerek aldatma varsa, bir onay iptal ettirilebilir (anfechten). Kira sözleşmenizi Haziran 2015'ten itibaren yaptıysanız, önce kira frenini (Mietpreisbremse) kontrol edin: Onaydan sonra yeni kiraya karşı ilke olarak artık kira frenine dayanamazsınız (BGH, VIII ZR 300/21). Kontrol bir sorun gösterdiyse, danışmanlık almadan onay vermeyin.",
       "explain": "Bu mektupla kira artışını onaylarsınız. Şu anki net kiranızı (Nettokaltmiete), yeni kirayı ve ödemeye başlayacağınız tarihi girin. Rakamlar, ev sahibinin yazısıyla tam olarak aynı olmalıdır. Mektup, kira sözleşmesinde başka hiçbir şeyin değişmediğini açıkça söyler. Ev sahibinin bir formunu, üzerindeki her şeyi anlamıyorsanız, bunun yerine imzalamayın. Sözleşmenizde net kira yerine brüt kira veya her şey dahil kira (Brutto- oder Inklusivmiete) yazıyorsa, önce danışmanlık alın."
     },
     "teilzustimmung": {
       "title": "Kısmi onay (teilweise Zustimmung)",
       "when": "Artışın bir kısmının haklı olduğunu, ama tamamının haklı olmadığını düşünüyorsanız. Örneğin: Sizin hesabınıza göre emsal kira, şu anki kiranız ile istenen kira arasında.",
-      "risks": "Kısmi bir onay da kesindir. Onayladığınız kira kararlaştırılmış sayılır. Geri kalan kısım için ev sahibi yine de mahkemede dava açabilir. Bu nedenle yalnızca doğru olduğundan emin olduğunuz tutarı onaylayın. Sonra istenen tutarın tamamını değil, yalnızca bu tutarı ödeyin; otomatik ödeme talimatını (Lastschrift) kontrol edin. Kira sözleşmeniz Haziran 2015'ten itibaren başladıysa, önce kira frenini (Mietpreisbremse) kontrol edin: Onaydan sonra yeni kiraya karşı ilke olarak artık kira frenine dayanamazsınız (BGH, VIII ZR 300/21). Tutarı önceden dikkatle hesaplayın ve danışmanlık alın.",
+      "risks": "Kısmi bir onay da kesindir. Onayladığınız kira kararlaştırılmış sayılır. Geri kalan kısım için ev sahibi yine de mahkemede dava açabilir. Bu nedenle yalnızca doğru olduğundan emin olduğunuz tutarı onaylayın. Sonra istenen tutarın tamamını değil, yalnızca bu tutarı ödeyin; otomatik ödeme talimatını (Lastschrift) kontrol edin. Kira sözleşmenizi Haziran 2015'ten itibaren yaptıysanız, önce kira frenini (Mietpreisbremse) kontrol edin: Onaydan sonra yeni kiraya karşı ilke olarak artık kira frenine dayanamazsınız (BGH, VIII ZR 300/21). Tutarı önceden dikkatle hesaplayın ve danışmanlık alın.",
       "explain": "Bu mektupla ev sahibinin istediğinden daha küçük bir artışı onaylarsınız. Şu anki net kiranızı, onayladığınız kirayı ve tarihi girin. Ev sahibinden farklı gördüğünüz özellikleri belirtebilirsiniz. Ama bunu yapmak zorunda değilsiniz. Mektuptaki liste açıkça „nicht abschließend“ (tam liste değildir) olarak belirtilir: Daha sonra başka noktalar da söyleyebilirsiniz. Mektup, kira sözleşmesinde başka hiçbir şeyin değişmediğini açıkça söyler."
     },
     "ablehnung": {
@@ -672,7 +676,7 @@
     },
     "netting": {
       "title": "Aralığa yerleştirme böyle yapılır",
-      "text": "Beş grubun her birinde artı ve eksi özellikleri sayın. Daha çok artı: grup artı sayılır. Daha çok eksi: eksi sayılır. Eşitlik: 0. Sonra grupları birbirine karşı hesaplayın (mahsup edin). Artı sayılan her grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter; eksi sayılan her grup, alt değere olan farkın beşte biri kadar aşağı iter (Mietspiegel Nr. 10.3). Mietspiegel, yuvarlamanın her grup için mi yoksa bir kez mi yapılacağını söylemez. Bir sentlik farklar olabilir."
+      "text": "Beş grubun her birinde artı ve eksi özellikleri sayın. Daha çok artı: grup artı sayılır. Daha çok eksi: eksi sayılır. Eşitlik: 0. Sonra grupları birbirine karşı mahsup edin: Bir artı grup ile bir eksi grup birbirini götürür. Geriye kalan her artı grup, değeri orta değerden üst değere olan farkın beşte biri kadar yukarı iter; geriye kalan her eksi grup, orta değerden alt değere olan farkın beşte biri kadar aşağı iter (Mietspiegel Nr. 10.3). Örnek: 3 artı grup ve 2 eksi grup, 1 artı grup eder. Mietspiegel, yuvarlamanın her grup için mi yoksa bir kez mi yapılacağını söylemez. m² başına 2 sente kadar farklar olabilir."
     },
     "consent_deadline": {
       "title": "Onay için süreniz",
@@ -684,7 +688,7 @@
     },
     "sue_deadline": {
       "title": "Ev sahibinin dava açma süresi",
-      "text": "Onay vermezseniz veya yalnızca kısmen onay verirseniz, ev sahibi onay için dava açabilir. Dava, sizin sürenizin bitiminden sonraki üç ay içinde açılmalıdır (§ 558b Abs. 2 BGB). Bu sürenin sonu Berlin'de cumartesi, pazar veya resmî tatile denk gelirse, ev sahibinin bir sonraki iş gününe kadar, örneğin pazartesiye kadar zamanı vardır (§ 193 BGB). Davanın o güne kadar mahkemeye ulaşması ve kısa süre sonra tebliğ edilmesi yeterlidir (§ 167 ZPO). Bu nedenle burada daha geç tarihi gösteriyoruz. Bundan sonra ev sahibi bu artış için artık dava açamaz; yeni bir talep yine mümkündür."
+      "text": "Onay vermezseniz veya yalnızca kısmen onay verirseniz, ev sahibi onay için dava açabilir. Dava, sizin sürenizin bitiminden sonraki üç ay içinde açılmalıdır (§ 558b Abs. 2 BGB). Bu sürenin sonu Berlin'de cumartesi, pazar veya resmî tatile denk gelirse, ev sahibinin bir sonraki iş gününe kadar, örneğin pazartesiye kadar zamanı vardır (§ 193 BGB). Davanın o güne kadar mahkemeye ulaşması ve kısa süre sonra tebliğ edilmesi yeterlidir (§ 167 ZPO). Bu nedenle burada daha geç tarihi gösteriyoruz. Sizin kendi sürenizin sonu zaten cumartesi, pazar veya resmî tatile denk geliyorsa, üç ayı ihtiyaten ancak bir sonraki iş gününden itibaren sayıyoruz. Gösterilen tarih bu nedenle birkaç gün daha geç olabilir. Bundan sonra ev sahibi bu artış için artık dava açamaz; yeni bir talep yine mümkündür."
     },
     "termination_declare_by": {
       "title": "Olağanüstü fesih: yaygın yoruma göre süre",
@@ -700,14 +704,14 @@
     },
     "sperrfrist_earliest_received": {
       "title": "Bir yıllık engelleme süresi (Sperrfrist)",
-      "text": "Bir kira artışı talebi size en erken son kira artışından bir yıl sonra ulaşabilir (§ 558 Abs. 1 Satz 2 BGB). Bu yıl, son artışın geçerli olduğu günden itibaren sayılır (BGH, VIII ZR 141/09, Rn. 18). Daha erken ulaşırsa, geçersizdir (BGH, VIII ZR 178/03). Modernizasyondan sonraki artışlar veya yan giderlerdeki artışlar (§§ 559–560 BGB) hesaba katılmaz."
+      "text": "Bir kira artışı talebi size en erken son kira artışından bir yıl sonra ulaşabilir (§ 558 Abs. 1 Satz 2 BGB). Bu yıl, son artışın geçerli olduğu günden itibaren sayılır (BGH, VIII ZR 141/09, Rn. 18). Daha erken ulaşırsa, geçersizdir (BGH, VIII ZR 178/03). Henüz hiç kira artışı olmadıysa, hukuk literatüründe yaygın görüşe göre bu yıl kira ilişkisinin başlangıcından itibaren sayılır. Federal Yüksek Mahkeme'nin (Bundesgerichtshof) bu konuda bir kararını bulamadık. Modernizasyondan sonraki artışlar veya yan giderlerdeki artışlar (§§ 559–560 BGB) hesaba katılmaz."
     },
     "wartefrist_earliest_effective": {
       "title": "15 aylık bekleme süresi (Wartefrist)",
       "text": "Yeni kira ancak kira 15 aydır değişmemişse geçerli olabilir (§ 558 Abs. 1 Satz 1 BGB). 15 ay, son artışın ilk kez ödenmesi gereken günden itibaren sayılır (BGH, VIII ZR 178/03). Modernizasyon veya yan giderler nedeniyle yapılan artışlar hesaba katılmaz."
     },
     "kappung": {
-      "title": "%15 artış sınırı (Kappungsgrenze)",
+      "title": "Artış sınırı (Kappungsgrenze)",
       "text": "Berlin'de kira, § 558 BGB'ye göre yapılan artışlarla üç yıl içinde en fazla %15 yükselebilir (§ 558 Abs. 3 BGB, 14.03.2023 tarihli Berliner Kappungsgrenzenverordnung, 10.05.2028'e kadar geçerli). Başlangıç noktası, yeni kiranın geçerli olacağı günden üç yıl önceki kiradır (BGH, VIII ZR 177/03). Modernizasyondan sonra soğuk kiraya (Kaltmiete: ısıtma giderleri hariç kira) yapılan artışlar (§ 559 BGB) %15'e dahil edilmez: %15 onlar olmadan hesaplanır ve böyle bir artış buna ek olarak gelebilir. Yan giderler için avans ödemelerindeki değişiklikler buna dahil değildir."
     },
     "silence": {
@@ -740,7 +744,7 @@
     },
     "lwu": {
       "title": "Eyalete ait konut şirketleri",
-      "text": "degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND ve WBM'de, işbirliği anlaşması (Kooperationsvereinbarung) devam ettiği sürece (31.12.2027'ye kadar) ek gönüllü taahhütler geçerlidir: üç yılda en fazla %11 artış (15.07.2025 tarihli ittifak anlaşması, Bündnis-Vereinbarung) ve ayda en fazla 50 € (65 m²'ye kadar), 75 € (100 m²'ye kadar) veya 100 € (125 m²'ye kadar) artış (Kooperationsvereinbarung II.8). Ayrıca ödenebilirlik sözü (Leistbarkeitsversprechen) vardır: Gelir ve alan sınırlarına uyuluyorsa, başvuru üzerine net kira en fazla hane gelirinin %27'si olur. İşbirliği anlaşması, berlinovo için de „Klassisches Wohnen“ (klasik konut) alanında geçerlidir."
+      "text": "degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND ve WBM'de, işbirliği anlaşması (Kooperationsvereinbarung) devam ettiği sürece (31.12.2027'ye kadar) ek gönüllü taahhütler geçerlidir: üç yılda en fazla %11 artış (15.07.2025 tarihli ittifak anlaşması, Bündnis-Vereinbarung) ve ayda en fazla 50 € (65 m²'ye kadar), 75 € (100 m²'ye kadar) veya 100 € (125 m²'ye kadar) artış (Kooperationsvereinbarung II.8). Euro sınırını yalnızca bu tek artış için hesaplıyoruz. Sınırın anlaşmanın tüm süresi için geçerli olup olmadığını metin açıkça söylemiyor. 01.01.2024'ten bu yana § 558 BGB'ye göre zaten bir artış olduysa, sınır o zaman daha düşük olabilir. Emin değilseniz ombudsman ofisine (Ombudsstelle) sorun. Bir Berlin yasasındaki bir hedef kural (Soll-Regel) hesaba katılmamıştır: dört yılda en fazla %15 artış. Bu kural bazı durumlarda daha düşük bir sınır verebilir. Ayrıca ödenebilirlik sözü (Leistbarkeitsversprechen) vardır: Gelir ve alan sınırlarına uyuluyorsa, başvuru üzerine net kira en fazla hane gelirinin %27'si olur. İşbirliği anlaşması, berlinovo'nun „Klassisches Wohnen“ (klasik konut) alanında berlinovo'nun kendisine ait daireler için de geçerlidir; fon şirketlerinin (Fondsgesellschaften) daireleri için geçerli değildir."
     },
     "pay_from": {
       "title": "Onay verirseniz ne zamandan itibaren ödersiniz",
@@ -752,7 +756,7 @@
     },
     "mietpreisbremse_after_consent": {
       "title": "Onaydan önce kira frenini kontrol edin",
-      "text": "Kira sözleşmeniz Haziran 2015'ten itibaren mi başladı ve kira başlangıçta belki çok yüksek miydi? Bunu cevap vermeden önce kontrol edin. Bir artışı onaylarsanız, yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı o zaman ilke olarak artık kira frenine (Mietpreisbremse) dayanamazsınız (BGH, VIII ZR 300/21)."
+      "text": "Kira sözleşmenizi Haziran 2015'ten itibaren mi yaptınız ve kira başlangıçta belki çok yüksek miydi? Bunu cevap vermeden önce kontrol edin. Bir artışı onaylarsanız, yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı o zaman ilke olarak artık kira frenine (Mietpreisbremse) dayanamazsınız (BGH, VIII ZR 300/21)."
     },
     "consent_deadline_193": {
       "title": "Onay süresi: bir sonraki iş günü",

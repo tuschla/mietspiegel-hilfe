@@ -15,4 +15,4 @@ Tüm özellikler için iki kural geçerlidir:
 - Yalnızca ev sahibinin sağladığı donanım sayılır. Bir şeyi kendiniz taktıysanız ve ev sahibi masrafları ödemediyse, bu sayılmaz. Mietspiegel'de böyle yazar (Nr. 6.3).
 - Açıklamalarımız resmî bir çeviri değildir. Yalnızca resmî Almanca metin bağlayıcıdır.
 
-28.05.2026'dan önce aldığınız bir kira artışı için çoğu zaman hâlâ [Mietspiegel 2024](@/merkmale-2024.tr.md) geçerlidir.
+30.05.2024 ile 27.05.2026 (bu gün dahil) arasında size ulaşan bir kira artışı için çoğu zaman [Mietspiegel 2024](@/merkmale-2024.tr.md) geçerlidir. Artış size 01.09.2025 veya sonrasında ulaştıysa, [Hangi Mietspiegel geçerli?](@/mieterhoehung.tr.md) bölümündeki açıklamayı da okuyun.

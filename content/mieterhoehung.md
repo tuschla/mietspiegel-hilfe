@@ -28,19 +28,19 @@ Die Regeln auf dieser Seite gelten auch nicht für:
 
 In diesen drei Fällen gelten die gesetzlichen Regeln zur Mieterhöhung nicht. Was gilt, hängt von Ihrem Vertrag ab. Der Vermieter kann Ihnen dort aber leichter kündigen.
 
-Der Berliner Mietspiegel gilt außerdem nicht für Wohnungen in Ein- oder Zweifamilienhäusern und Reihenhäusern, für Wohnungen mit WC außerhalb der Wohnung und für neue Häuser (Mietspiegel 2026: fertig ab 2025; Mietspiegel 2024: fertig ab 2023).
+Der Berliner Mietspiegel gilt außerdem nicht für Wohnungen in Ein- oder Zweifamilienhäusern und Reihenhäusern, für Wohnungen mit WC außerhalb der Wohnung und für Wohnungen, die erst nach dem Zeitraum des Mietspiegels bezugsfertig wurden (Mietspiegel 2026: ab 2025; Mietspiegel 2024: ab 2023). Das kann auch eine neue Wohnung in einem alten Haus sein, zum Beispiel nach einem Dachausbau, einem Anbau oder dem Umbau von Gewerberäumen. Bei einer Wohnung in einem Ein- oder Zweifamilienhaus oder Reihenhaus darf der Vermieter eine Erhöhung trotzdem mit dem Mietspiegel begründen, jedenfalls wenn die verlangte Miete innerhalb der Spanne für Wohnungen in Mehrfamilienhäusern liegt. Das Schreiben ist dann nicht schon deshalb unwirksam. Ob die verlangte Miete für Ihr Haus üblich ist, zeigt der Mietspiegel aber nicht.
 
 Bei einer neueren Sozialwohnung oder einer anderen geförderten Wohnung ohne „Kostenmiete“ muss der Vermieter Sie um Zustimmung bitten, wie auf dieser Seite beschrieben. Zusätzlich darf die Miete die Höchstmiete aus der Förderung nicht übersteigen. Den Mietspiegel kann man dann nicht direkt anwenden. Lassen Sie sich beraten.
 
 Hören Sie in diesen Fällen **nicht** einfach auf zu zahlen. Lassen Sie sich beraten: [Hilfe und Beratung](@/hilfe.md).
 
-*Quelle: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe“ (neue Sozialwohnungen); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3.*
+*Quelle: § 10 Wohnungsbindungsgesetz; § 28 Abs. 3 Wohnraumförderungsgesetz; Senatsverwaltung, Berliner Mietratgeber „Zulässige Miethöhe“ (neue Sozialwohnungen); § 549 Abs. 2 und 3 BGB; Berliner Mietspiegel 2026, Nr. 3 und 6.4; BGH, Urteil vom 17.09.2008, VIII ZR 58/08; BGH, Beschluss vom 26.04.2016, VIII ZR 54/15, Rn. 8 bis 12.*
 
 ## Was ist ein Mieterhöhungsverlangen?
 
 Bei einer Mieterhöhung nach § 558 BGB darf Ihr Vermieter die Miete nicht einfach selbst erhöhen. Er muss Sie bitten, zuzustimmen. Die Grenze ist die Miete, die für ähnliche Wohnungen üblich ist. Das nennt man ortsübliche Vergleichsmiete. In Berlin ergibt sie sich meistens aus dem Mietspiegel.
 
-Das Schreiben muss mindestens in Textform kommen, also zum Beispiel als Brief, Fax oder E-Mail. Der Vermieter muss die Erhöhung begründen, zum Beispiel mit dem Mietspiegel. Nutzt er eine andere Begründung, muss er trotzdem die Werte aus dem Berliner Mietspiegel für Ihre Wohnung nennen.
+Das Schreiben muss mindestens in Textform kommen, also zum Beispiel als Brief, Fax oder E-Mail. Der Vermieter muss die Erhöhung begründen, zum Beispiel mit dem Mietspiegel. Nutzt er eine andere Begründung, muss er trotzdem die Werte aus dem Berliner Mietspiegel nennen, wenn der Mietspiegel Werte für Ihre Wohnung enthält.
 
 Haben Sie eine Staffelmiete oder Indexmiete vereinbart, ist eine Erhöhung nach § 558 BGB während dieser Zeit ausgeschlossen.
 
@@ -67,7 +67,7 @@ Schreiben Sie sich auf, an welchem Tag der Brief ankam. Heben Sie den Umschlag a
 
 **Die Frist des Vermieters:** Stimmen Sie nicht oder nur teilweise zu, kann der Vermieter vor Gericht auf Zustimmung klagen. Dafür hat er nach dem Ende Ihrer Frist drei weitere Monate Zeit. Im Beispiel: bis zum 31. März. Klagt er nicht rechtzeitig, kann er diese Erhöhung nicht mehr einklagen.
 
-**Samstag, Sonntag, Feiertag:** Fällt das Ende einer Frist auf einen Samstag, Sonntag oder Feiertag in Berlin, tritt meist der nächste Werktag an seine Stelle. Feiertage in Berlin sind Neujahr, der Frauentag (8. März), Karfreitag, Ostermontag, der 1. Mai, Himmelfahrt, Pfingstmontag, der 3. Oktober und die beiden Weihnachtstage.
+**Samstag, Sonntag, Feiertag:** Fällt das Ende einer Frist auf einen Samstag, Sonntag oder Feiertag in Berlin, tritt meist der nächste Werktag an seine Stelle. Feiertage in Berlin sind zum Beispiel Neujahr, der Frauentag (8. März), Karfreitag, Ostermontag, der 1. Mai, Himmelfahrt, Pfingstmontag, der 3. Oktober und die beiden Weihnachtstage.
 
 - Ihre Frist zum Überlegen: Nach dem Wortlaut des Gesetzes verschiebt sie sich auf den nächsten Werktag. Eine Gerichtsentscheidung genau dazu haben wir nicht gefunden. Planen Sie deshalb so, dass Ihre Antwort bis zum Kalenderdatum ankommt.
 - Die Frist des Vermieters: Sie verschiebt sich ebenfalls. Der Vermieter hat dann mehr Zeit. Beispiel: Die Klagefrist endet rechnerisch am Sonntag, 28.02.2027. Dann hat der Vermieter bis Montag, 01.03.2027, Zeit. Es reicht, wenn die Klage bis dahin beim Gericht eingeht und bald danach zugestellt wird.
@@ -99,7 +99,7 @@ Haben Sie dem Vermieter erlaubt, die Miete abzubuchen (Lastschrift), prüfen Sie
 
 *Quelle: § 130 Abs. 1 BGB, § 123 Abs. 1 BGB; BGH, Urteil vom 17.10.2018, VIII ZR 94/17; bestätigt im Urteil vom 24.04.2019, VIII ZR 62/18, Rn. 21 und 22.*
 
-**Mietvertrag ab Juni 2015? Erst die Mietpreisbremse prüfen.** War schon Ihre Miete zu Beginn vielleicht zu hoch? Dann prüfen Sie das vor Ihrer Antwort. Wenn Sie einer Erhöhung zustimmen, gilt die neue Miete als vereinbart. Gegen diese neue Miete können Sie sich dann grundsätzlich nicht mehr auf die Mietpreisbremse berufen. Mehr dazu: [Mietpreisbremse](@/mietpreisbremse.md).
+**Mietvertrag ab Juni 2015 abgeschlossen? Erst die Mietpreisbremse prüfen.** War schon Ihre Miete zu Beginn vielleicht zu hoch? Dann prüfen Sie das vor Ihrer Antwort. Wenn Sie einer Erhöhung zustimmen, gilt die neue Miete als vereinbart. Gegen diese neue Miete können Sie sich dann grundsätzlich nicht mehr auf die Mietpreisbremse berufen. Mehr dazu: [Mietpreisbremse](@/mietpreisbremse.md).
 
 *Quelle: BGH, Urteil vom 28.09.2022, VIII ZR 300/21, Leitsätze und Rn. 32.*
 
@@ -124,8 +124,8 @@ Beispiel: Vor drei Jahren betrug die Nettokaltmiete (Miete ohne Betriebskosten u
 
 ## Die Wartezeiten
 
-- **1 Jahr Sperrfrist:** Ein neues Verlangen darf frühestens ein Jahr nach der letzten Mieterhöhung bei Ihnen ankommen. Das Jahr zählt ab dem Tag, an dem die letzte Erhöhung wirksam wurde. Kommt das Verlangen zu früh, ist es unwirksam.
-- **15 Monate Wartefrist:** Die neue Miete darf erst gelten, wenn die Miete seit 15 Monaten gleich ist. Die 15 Monate zählen ab dem Tag, an dem die letzte Erhöhung zum ersten Mal fällig war.
+- **1 Jahr Sperrfrist:** Ein neues Verlangen darf frühestens ein Jahr nach der letzten Mieterhöhung bei Ihnen ankommen. Das Jahr zählt ab dem Tag, an dem die letzte Erhöhung wirksam wurde. Kommt das Verlangen zu früh, ist es unwirksam. Gab es noch keine Mieterhöhung, zählt das Jahr nach verbreiteter Ansicht ab dem Beginn des Mietverhältnisses, also ab dem Tag, ab dem Sie laut Vertrag Miete zahlen mussten. Eine Entscheidung des Bundesgerichtshofs dazu haben wir nicht gefunden. Lassen Sie sich in diesem Fall beraten.
+- **15 Monate Wartefrist:** Die neue Miete darf erst gelten, wenn die Miete seit 15 Monaten gleich ist. Die 15 Monate zählen ab dem Tag, an dem die letzte Erhöhung zum ersten Mal fällig war. Das ist in der Regel derselbe Tag, an dem sie wirksam wurde. Gab es noch keine Erhöhung, zählen sie ab dem Beginn des Mietverhältnisses.
 - Erhöhungen nach einer Modernisierung und Änderungen bei den Betriebskosten (§§ 559 bis 560 BGB) zählen bei beiden Fristen nicht mit.
 
 *Quelle: § 558 Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 18; BGH, Urteil vom 28.04.2004, VIII ZR 178/03.*
@@ -156,9 +156,9 @@ Der Gesetzestext sagt hier „Monat“, nicht „Kalendermonat“. Sicher sind S
 
 ## Landeseigene Vermieter
 
-Gehört Ihre Wohnung einem landeseigenen Wohnungsunternehmen des Landes Berlin? Das sind degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND und WBM. Dann gelten zusätzliche Zusagen. Sie stehen vor allem in der „Kooperationsvereinbarung“ zwischen dem Land Berlin und diesen Unternehmen. Sie gilt vom 01.01.2024 bis zum 31.12.2027. Für die berlinovo gilt sie nur im Bereich „Klassisches Wohnen“.
+Gehört Ihre Wohnung einem landeseigenen Wohnungsunternehmen des Landes Berlin? Das sind degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND und WBM. Dann gelten zusätzliche Zusagen. Sie stehen vor allem in der „Kooperationsvereinbarung“ zwischen dem Land Berlin und diesen Unternehmen. Sie gilt vom 01.01.2024 bis zum 31.12.2027. Für die berlinovo gilt sie nur für Wohnungen im Bereich „Klassisches Wohnen“, die der berlinovo selbst gehören. Viele ältere berlinovo-Wohnungen gehören Fondsgesellschaften. Für diese Wohnungen gilt die Vereinbarung nicht. Ist Ihr Vermieter eine Tochtergesellschaft eines dieser Unternehmen oder sind Sie unsicher, fragen Sie die Ombudsstelle (siehe unten).
 
-**11 % in drei Jahren:** Die Unternehmen gehören zum „Bündnis für Wohnungsneubau und bezahlbares Wohnen“. In der Neufassung des Bündnisses vom 15.07.2025 steht: Die landeseigenen Unternehmen senken die Kappungsgrenze für Erhöhungen nach § 558 BGB weiter von 15 % auf 11 %. Das gilt für die Laufzeit der Kooperationsvereinbarung. Die Miete in einem Vertrag soll also in drei Jahren um höchstens 11 % steigen.
+**11 % in drei Jahren:** Die Unternehmen gehören zum „Bündnis für Wohnungsneubau und bezahlbares Wohnen“. In der Neufassung des Bündnisses vom 15.07.2025 steht: Die landeseigenen Unternehmen führen die Absenkung der Kappungsgrenze für Erhöhungen nach § 558 BGB von 15 % auf 11 % fort. Das gilt für die Laufzeit der Kooperationsvereinbarung. Die Miete in einem Vertrag soll also in drei Jahren um höchstens 11 % steigen.
 
 **Grenze in Euro pro Wohnung:** Die monatliche Miete darf insgesamt höchstens steigen um
 
@@ -170,17 +170,17 @@ Für größere Wohnungen nennt die Vereinbarung keinen Betrag. Ob „insgesamt�
 
 **2,9 % pro Jahr:** Die Unternehmen sorgen dafür, dass die Mieten „in Summe“ um nicht mehr als 2,9 % pro Jahr steigen. Das ist ein Durchschnitt über alle Wohnungen eines Unternehmens. Für Ihre einzelne Wohnung ist das keine Grenze.
 
-Ein Berliner Gesetz sagt: Die landeseigenen Unternehmen sollen die Miete nach § 558 BGB in vier Jahren um nicht mehr als 15 % erhöhen. „Sollen“ heißt: Sie sollen sich daran halten, Ausnahmen sind möglich. Ein festes Recht für Sie ist es nicht.
+Ein Berliner Gesetz sagt: Die landeseigenen Unternehmen sollen die Miete nach § 558 BGB in vier Jahren um nicht mehr als 15 % erhöhen. „Sollen“ heißt: Sie sollen sich daran halten, Ausnahmen sind möglich. Ein festes Recht für Sie ist es nicht. Dasselbe Gesetz hat eine Härtefallregel: Auf Antrag soll die Miete nach einer Erhöhung nicht mehr als 30 % des Nettoeinkommens Ihres Haushalts betragen. Steht im Energieausweis Ihres Hauses ein Endenergieverbrauch von mehr als 170 kWh pro m² und Jahr, sind es 27 %. Dafür muss das Unternehmen Ihren Haushalt als Härtefall anerkennen (Einkommens- und Flächengrenzen siehe unten). Nach Angaben der Ombudsstelle gilt dieses Gesetz nicht für die berlinovo.
 
-Außerdem gibt es das Leistbarkeitsversprechen: Die Nettokaltmiete soll nicht mehr als 27 % des Haushaltseinkommens betragen. Dafür gelten Bedingungen:
+Außerdem gibt es das Leistbarkeitsversprechen der Kooperationsvereinbarung: Die Nettokaltmiete soll nicht mehr als 27 % des Haushaltseinkommens betragen. Gemeint ist nach Angaben der Ombudsstelle das Nettoeinkommen des Haushalts. Dafür gelten Bedingungen:
 
-- Ihr Einkommen überschreitet nicht die Grenzen für einen Wohnberechtigungsschein (WBS). Welche Grenze genau, nennt die Vereinbarung nicht. Das Berliner Gesetz zu den landeseigenen Unternehmen nennt für Härtefälle 220 % der Einkommensgrenzen aus dem Wohnraumförderungsgesetz des Bundes (§ 9 Abs. 2 WoFG).
-- Die Wohnung ist nicht zu groß: 45 m² für eine Person, 60 m² für zwei, 75 m² für drei, 85 m² für vier und 12 m² mehr für jede weitere Person. Ist sie größer, wird die Miete nur anteilig gesenkt.
+- Ihr Einkommen überschreitet nicht die Grenzen für einen Wohnberechtigungsschein (WBS). Welche Grenze genau, nennt die Vereinbarung nicht. Das Berliner Gesetz zu den landeseigenen Unternehmen nennt für Härtefälle 220 % der Einkommensgrenzen aus dem Wohnraumförderungsgesetz des Bundes (§ 9 Abs. 2 WoFG). Nach Angaben der Ombudsstelle muss vorher geprüft werden, ob Sie Wohngeld bekommen können.
+- Die Wohnung ist nicht zu groß: 45 m² für eine Person, 60 m² für zwei, 75 m² für drei, 85 m² für vier und 12 m² mehr für jede weitere Person. Ist sie größer, wird die Miete nur anteilig gesenkt. Bei besonderen Umständen kann nach Angaben der Ombudsstelle eine bis zu 20 % größere Fläche anerkannt werden.
 - Die Senkung gibt es nur **auf Antrag**. Nach Angaben der Ombudsstelle reicht ein formloser Brief oder eine E-Mail an Ihr Wohnungsunternehmen. Legen Sie Nachweise über Einkommen und Haushaltsgröße bei.
-- Bekommen Sie Bürgergeld oder Sozialhilfe (SGB II oder XII), sagt die Vereinbarung zu, dass die Miete für Sie tragbar bleibt.
+- Bekommen Sie Grundsicherung für Arbeitsuchende (früher Bürgergeld) oder Sozialhilfe (SGB II oder XII), sagt die Vereinbarung zu, dass die Miete für Sie tragbar bleibt.
 
 Die Unternehmen müssen in jedem Mieterhöhungsverlangen auf das Leistbarkeitsversprechen hinweisen.
 
 Fragen dazu beantwortet die Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen: <https://www.ombud-lwu.de> (Beratung auf Deutsch und Englisch). Diese Regeln sind freiwillige Zusagen und Soll-Regeln. Ob und wie man sie vor Gericht durchsetzen kann, ist unklar. Lassen Sie sich dazu beraten.
 
-*Quelle: Kooperationsvereinbarung 2024, Präambel und Abschnitt II Nr. 4, 7 und 8; Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025; Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen, § 2 Abs. 4 und § 3; Ombudsstelle, FAQ.*
+*Quelle: Kooperationsvereinbarung 2024, Präambel und Abschnitt II Nr. 4, 7 und 8; Bündnis für Wohnungsneubau und bezahlbares Wohnen, Vereinbarung vom 15.07.2025; Gesetz zur sozialen Ausrichtung und Stärkung der landeseigenen Wohnungsunternehmen, § 2 Abs. 4 und § 3; Roadmap 2.0 von Land Berlin, landeseigenen Wohnungsunternehmen und berlinovo vom 05.06.2026; Ombudsstelle, Startseite und FAQ.*

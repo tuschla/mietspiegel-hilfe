@@ -363,7 +363,10 @@ function badge(sign) {
 
 /** Mietspiegel scope for the calculator: results are hidden if a case outside the Mietspiegel is ticked. */
 function calcScope() {
-  return scopeState(readScope(), { withAsk: false, items: CALC_SCOPE });
+  const st = scopeState(readScope(), { withAsk: false, items: CALC_SCOPE });
+  // the only § 558 exclusion in CALC_SCOPE is "sozial" (Kostenmiete): outside the Mietspiegel too (Nr. 3);
+  // the calculator has no letter, so it shows the Mietspiegel notice, not "passt nicht zu Ihrem Brief"
+  return st === "not558" ? "notMS" : st;
 }
 
 function calcLines(ev, cell, a) {

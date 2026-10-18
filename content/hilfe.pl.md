@@ -32,7 +32,7 @@ Centrum Powitalne (Willkommenszentrum) pełnomocniczki Senatu ds. integracji ma 
 
 ## Dla najemców spółek mieszkaniowych należących do Berlina
 
-Najemcom degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM oraz berlinovo (w jej „klasycznych” mieszkaniach na wynajem) pomaga rzecznik najemców: Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen. Doradza w sprawie umowy o współpracy (Kooperationsvereinbarung) i obietnicy przystępności czynszu (Leistbarkeitsversprechen), po niemiecku i po angielsku. Nie doradza w ogólnych sprawach prawa najmu.
+Najemcom degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM i ich spółek zależnych pomaga rzecznik najemców: Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen. W przypadku berlinovo rzecznik zajmuje się tylko „klasycznymi” mieszkaniami na wynajem, które należą do samej berlinovo, a nie mieszkaniami jej spółek funduszowych. Doradza w sprawie umowy o współpracy (Kooperationsvereinbarung) i obietnicy przystępności czynszu (Leistbarkeitsversprechen), po niemiecku i po angielsku. Nie doradza w ogólnych sprawach prawa najmu.
 <https://www.ombud-lwu.de/>
 
 ## Stowarzyszenia lokatorów (Mietervereine, ze składką członkowską)

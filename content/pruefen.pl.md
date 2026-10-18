@@ -21,7 +21,7 @@ Potrzebujesz do tego:
 - dnia, od którego ten czynsz obowiązuje,
 - czynszu sprzed trzech lat.
 
-Jeśli masz już wynik z kalkulatora, weźmiemy czynsz porównawczy stamtąd.
+Jeśli masz już wynik z kalkulatora, możesz jednym kliknięciem przenieść stamtąd czynsz porównawczy (przycisk przy polu „Lokalny czynsz porównawczy (ortsübliche Vergleichsmiete) w € za m²”).
 
 Wynik to pomoc w obliczeniach według stałych zasad i twoich własnych danych. Nie jest to prawne sprawdzenie twojej sprawy i nie zastępuje porady. Dla twoich własnych terminów obliczenie pokazuje daty kalendarzowe. Nie jest pewne, czy twój termin się przesuwa, gdy wypada w sobotę, niedzielę albo święto. Lepiej odpowiedz kilka dni wcześniej. Przy terminie na pozew wynajmującego pokazujemy następny dzień roboczy, bo wynajmujący ma wtedy czas do tego dnia (§ 193 BGB).
 
