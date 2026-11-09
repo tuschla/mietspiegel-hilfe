@@ -48,7 +48,7 @@ Jeśli w umowie jest czynsz stopniowany albo czynsz indeksowany, podwyżka wedł
 
 ## Które zwierciadło czynszów obowiązuje?
 
-Ważny jest dzień, w którym pismo do ciebie dotrze (doręczenie, Zugang). Dla tego dnia ustala się zwykły czynsz. Najczęściej bierze się do tego zwierciadło czynszów, które obowiązuje w tym dniu:
+Liczy się dzień, w którym pismo do ciebie dotrze (doręczenie, Zugang). Dla tego dnia ustala się zwykły czynsz. Najczęściej bierze się do tego zwierciadło czynszów, które obowiązuje w tym dniu:
 
 - Doręczenie od 28.05.2026: Mietspiegel 2026.
 - Doręczenie od 30.05.2024 do 27.05.2026: Mietspiegel 2024.
@@ -67,7 +67,7 @@ Zapisz, którego dnia list dotarł. Zachowaj kopertę.
 
 **Termin wynajmującego:** Jeśli się nie zgodzisz albo zgodzisz się tylko częściowo, wynajmujący może pozwać cię do sądu o wyrażenie zgody. Ma na to jeszcze trzy miesiące po końcu twojego terminu. W przykładzie: do 31 marca. Jeśli nie wniesie pozwu na czas, nie może już dochodzić tej podwyżki w sądzie.
 
-**Sobota, niedziela, święto:** Jeśli koniec terminu wypada w sobotę, niedzielę lub święto w Berlinie, zwykle zastępuje go następny dzień roboczy. Święta w Berlinie to na przykład Nowy Rok, Dzień Kobiet (8 marca), Wielki Piątek, Poniedziałek Wielkanocny, 1 maja, Wniebowstąpienie, Poniedziałek Zielonych Świątek, 3 października i oba dni Bożego Narodzenia.
+Jeśli koniec terminu wypada w sobotę, niedzielę lub święto w Berlinie, zwykle zastępuje go następny dzień roboczy. Święta w Berlinie to na przykład Nowy Rok, Dzień Kobiet (8 marca), Wielki Piątek, Poniedziałek Wielkanocny, 1 maja, Wniebowstąpienie, Poniedziałek Zielonych Świątek, 3 października i oba dni Bożego Narodzenia.
 
 - Twój czas do namysłu: Zgodnie z brzmieniem ustawy przesuwa się on na następny dzień roboczy. Nie znaleźliśmy orzeczenia sądu dotyczącego dokładnie tej sytuacji. Dlatego zaplanuj wszystko tak, żeby twoja odpowiedź dotarła do wynajmującego do daty kalendarzowej.
 - Termin wynajmującego: On również się przesuwa. Wynajmujący ma wtedy więcej czasu. Przykład: termin na pozew według obliczeń kończy się w niedzielę, 28.02.2027. Wtedy wynajmujący ma czas do poniedziałku, 01.03.2027. Wystarczy, że pozew wpłynie do sądu do tego dnia i zostanie doręczony wkrótce potem.
@@ -107,7 +107,7 @@ Częściowa zgoda (Teilzustimmung) jest możliwa. Ustawa mówi: „Soweit” (w 
 
 *Źródło: § 558b Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 19; BGH, Beschluss vom 30.01.2018, VIII ZB 74/16, Rn. 21.*
 
-Odmowy nie musisz uzasadniać. Ustawa nie wymaga od ciebie uzasadnienia. Możesz jednak wymienić cechy (Merkmale), które oceniasz inaczej. Wcześniej skorzystaj z porady.
+Odmowy nie musisz uzasadniać, ustawa tego nie wymaga. Możesz jednak wymienić cechy (Merkmale), które oceniasz inaczej. Wcześniej skorzystaj z porady.
 
 Często do pisma jest dołączony formularz wynajmującego do podpisania. Nie podpisuj go, jeśli nie rozumiesz wszystkiego, co w nim jest. Nasze wzory listów dotyczą tylko podwyżki czynszu i niczego innego w twojej umowie najmu.
 
@@ -133,7 +133,7 @@ Przykład: Trzy lata temu czynsz netto bez kosztów dodatkowych (czynsz bez kosz
 ## Co się liczy w twoim mieszkaniu?
 
 - Liczy się tylko wyposażenie od wynajmującego. Jeśli coś zostało zamontowane przez ciebie i opłacone z twoich własnych pieniędzy, to się nie liczy. Tak jest na stałe, także wtedy, gdy za zgodą wynajmującego zastąpiono w ten sposób jego stare wyposażenie. Inaczej jest, jeśli wynajmujący zwrócił ci koszty.
-- Moment: Zwykły czynsz ustala się dla dnia, w którym żądanie dotrze (patrz wyżej). Według naszego rozumienia dlatego liczy się także stan mieszkania w tym dniu. Zrób zdjęcia z datą, najlepiej od razu po doręczeniu.
+- Stan mieszkania: Zwykły czynsz ustala się dla dnia, w którym żądanie dotrze (patrz wyżej). Według naszego rozumienia dlatego liczy się także stan mieszkania w tym dniu. Zrób zdjęcia z datą, najlepiej od razu po doręczeniu.
 - Powierzchnia: Liczy się rzeczywista powierzchnia mieszkalna, a nie liczba w umowie najmu. Wynajmujący musi udowodnić rzeczywistą powierzchnię, jeśli ją kwestionujesz na podstawie własnych pomiarów. Jeśli uważasz, że liczba w umowie najmu jest za duża, skorzystaj z porady.
 
 *Źródło: Berliner Mietspiegel 2026, Nr. 6.3; BGH, Urteil vom 24.10.2018, VIII ZR 52/18; BGH, Urteil vom 18.11.2015, VIII ZR 266/14 (Leitsatz a); BGH, Urteil vom 31.05.2017, VIII ZR 181/16, Rn. 13.*
@@ -168,7 +168,7 @@ Czy twoje mieszkanie należy do spółki mieszkaniowej należącej do kraju zwi�
 
 Dla większych mieszkań umowa nie podaje kwoty. Tekst nie mówi wyraźnie, czy „insgesamt” (łącznie) dotyczy każdej pojedynczej podwyżki, czy całego okresu obowiązywania.
 
-**2,9% rocznie:** Spółki dbają o to, żeby czynsze „in Summe” (w sumie) rosły nie więcej niż o 2,9% rocznie. To średnia ze wszystkich mieszkań danej spółki. Dla twojego pojedynczego mieszkania nie jest to granica.
+Poza tym spółki dbają o to, żeby czynsze „in Summe” (w sumie) rosły nie więcej niż o 2,9% rocznie. To średnia ze wszystkich mieszkań danej spółki. Dla twojego pojedynczego mieszkania nie jest to granica.
 
 Berlińska ustawa mówi: spółki należące do Berlina mają („sollen”) podnosić czynsz według § 558 BGB w ciągu czterech lat nie więcej niż o 15%. „Sollen” (powinny) oznacza: powinny się tego trzymać, ale wyjątki są możliwe. Nie daje ci to pewnego prawa. Ta sama ustawa zawiera zasadę dla przypadków szczególnie trudnych (Härtefall): na wniosek czynsz po podwyżce nie powinien wynosić więcej niż 30% dochodu netto twojego gospodarstwa domowego. Jeśli w świadectwie energetycznym (Energieausweis) twojego budynku podane jest zużycie energii końcowej większe niż 170 kWh na m² i rok, jest to 27%. Spółka musi przy tym uznać twoje gospodarstwo domowe za przypadek szczególnie trudny (limity dochodu i powierzchni patrz niżej). Według informacji rzecznika ta ustawa nie dotyczy berlinovo.
 

@@ -4,7 +4,7 @@ description = "Berlin'deki kiracılar için ücretsiz yardım: Mietspiegel'i (ki
 template = "index.html"
 +++
 
-Bir kira artışı yazısı mı aldınız? Ya da kiranızın Mietspiegel'e (Berlin kira tablosu) uyup uymadığını mı öğrenmek istiyorsunuz? Bu site size adım adım yardım eder.
+Bir kira artışı yazısı mı aldınız? Ya da kiranızın Mietspiegel'e (Berlin kira tablosu) uyup uymadığını mı öğrenmek istiyorsunuz? Burada ikisini de kontrol edebilirsiniz.
 
 Tüm hesaplamalar yalnızca tarayıcınızda yapılır. Girdiğiniz bilgiler ne bize ne de başkalarına gönderilir.
 

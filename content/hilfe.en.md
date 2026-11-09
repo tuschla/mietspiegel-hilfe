@@ -7,7 +7,7 @@ weight = 70
 nav = true
 +++
 
-This website only gives general information. Before you agree to a rent increase or send a letter, it is best to get advice. Here you can find places in Berlin. Information as of: 17.10.2026. Please check times and places on the linked pages. This information can change.
+This website only gives general information. Before you agree to a rent increase or send a letter, get advice. Below are places in Berlin. As of 17.10.2026. Times and places can change, so check them on the linked pages.
 
 ## Free of charge
 
@@ -32,7 +32,7 @@ The Welcome Centre (Willkommenszentrum) of the Senate’s Commissioner for Integ
 
 ## For tenants of the state-owned housing companies
 
-The ombudsman office for tenants of the state-owned housing companies (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen) is there for tenants of degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM and their subsidiaries. For berlinovo, it is only responsible for the “classic” rental flats that berlinovo owns itself, not for flats belonging to its fund companies. It gives advice on the cooperation agreement (Kooperationsvereinbarung) and the affordability promise (Leistbarkeitsversprechen), in German and English. It does not give advice on general questions of tenancy law.
+The ombudsman office for tenants of the state-owned housing companies (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen) is responsible for tenants of degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM and their subsidiaries. For berlinovo, it is only responsible for the “classic” rental flats that berlinovo owns itself, not for flats belonging to its fund companies. It gives advice on the cooperation agreement (Kooperationsvereinbarung) and the affordability promise (Leistbarkeitsversprechen), in German and English. It does not give advice on general questions of tenancy law.
 <https://www.ombud-lwu.de/>
 
 ## Tenants’ associations (with a membership fee)

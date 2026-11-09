@@ -4,7 +4,7 @@ description = "Kostenlose Hilfe für Mieterinnen und Mieter in Berlin: Mietspieg
 template = "index.html"
 +++
 
-Sie haben eine Mieterhöhung bekommen? Oder Sie wollen wissen, ob Ihre Miete zum Mietspiegel passt? Diese Seite hilft Ihnen Schritt für Schritt.
+Sie haben eine Mieterhöhung bekommen? Oder Sie wollen wissen, ob Ihre Miete zum Mietspiegel passt? Hier können Sie beides prüfen.
 
 Alle Rechnungen laufen nur in Ihrem Browser. Ihre Eingaben werden nicht an uns oder andere geschickt.
 

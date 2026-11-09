@@ -1,6 +1,6 @@
 +++
 title = "Rent brake (Mietpreisbremse): the basics"
-description = "How high may the rent be in a new tenancy agreement in Berlin? The basic rules of the rent brake (Mietpreisbremse), explained simply."
+description = "How high may the rent be in a new tenancy agreement in Berlin? The basic rules of the rent brake (Mietpreisbremse) in plain language."
 template = "page.html"
 weight = 60
 [extra]
@@ -24,13 +24,13 @@ The amount is measured at the start of the tenancy. As of: 17.10.2026. Under fed
 
 ## Which Mietspiegel?
 
-What matters is the usual rent at the start of your tenancy (§ 556d Abs. 1 BGB). As a guide, in our understanding, the rent index (Mietspiegel) that applied at that time is therefore used:
+What matters is the usual rent at the start of your tenancy (§ 556d Abs. 1 BGB). In our understanding, the guide is therefore the rent index (Mietspiegel) that applied at that time:
 
 - Start before 30.05.2024: an older Mietspiegel. Our calculator does not include it. Older Mietspiegel editions from 2017: <https://mietspiegel.berlin.de/berliner-mietspiegel/archiv/>
 - Start from 30.05.2024 to 27.05.2026: [Mietspiegel 2024](@/merkmale-2024.en.md)
 - Start from 28.05.2026: [Mietspiegel 2026](@/merkmale.en.md)
 
-The Mietspiegel is based on data from an earlier reference date (Stichtag) (Mietspiegel 2024: 01.09.2023; Mietspiegel 2026: 01.09.2025). **Caution if your tenancy started between 01.09.2025 and 27.05.2026:** The Mietspiegel 2026 is based on rents as of 01.09.2025. In our understanding, a court may therefore also use the Mietspiegel 2026 or add a surcharge (Zuschlag). The same applies to the Mietspiegel 2024 if your tenancy started between 01.09.2023 and 29.05.2024. We have not found a court decision on exactly this point for the rent brake. In that case, calculate with both Mietspiegel editions and get advice.
+The Mietspiegel is based on data from an earlier reference date (Stichtag) (Mietspiegel 2024: 01.09.2023; Mietspiegel 2026: 01.09.2025). **Caution if your tenancy started between 01.09.2025 and 27.05.2026:** Because of the reference date 01.09.2025, in our understanding a court may also use the Mietspiegel 2026 or add a surcharge (Zuschlag). The same applies to the Mietspiegel 2024 if your tenancy started between 01.09.2023 and 29.05.2024. We have not found a court decision on exactly this point for the rent brake. In that case, calculate with both Mietspiegel editions and get advice.
 
 ## Exceptions
 
@@ -40,7 +40,7 @@ The rent brake does not always apply:
 - Modernisation: After a modernisation in the three years before the start of the tenancy, the limit may be exceeded by a certain amount (§ 556e Abs. 2 BGB).
 - New building: Not for flats that were used and let for the first time after 01.10.2014 (§ 556f Satz 1 BGB).
 - Comprehensive modernisation: Not for the first letting after a comprehensive modernisation (§ 556f Satz 2 BGB).
-- Short time, room in the landlord’s home, hall of residence: Not for flats that are only let for a short time, for a furnished room in the flat where the landlord lives himself, and for student or youth halls of residence (Studenten- oder Jugendwohnheime) (§ 549 Abs. 2 und 3 BGB). Whether an agreement is really „nur für kurze Zeit“ (only for a short time) has to be checked carefully. Get advice.
+- Short time, room in the landlord’s home, hall of residence: Not for flats that are only let for a short time, for a furnished room in the flat where the landlord lives himself, and for student or youth halls of residence (Studenten- oder Jugendwohnheime) (§ 549 Abs. 2 und 3 BGB). Whether an agreement is „nur für kurze Zeit“ (only for a short time) has to be checked in each case. Get advice.
 - Old agreements: Not for agreements concluded before 01.06.2015 (Art. 229 § 35 EGBGB).
 
 If the landlord wants to rely on the previous rent, a modernisation, a new building or the first letting after a comprehensive modernisation, he must inform you about it **before** the agreement is concluded, without being asked. If he does not, he cannot rely on it. If he provides the information later in text form (Textform), he can only rely on it two years after that. If he did not inform you in text form before the agreement was concluded, for example only orally, he can only rely on it once he provides the information in text form (§ 556g Abs. 1a und 4 BGB). This duty does not apply to tenancies that came into being on or before 31.12.2018 (Art. 229 § 49 Abs. 2 EGBGB).

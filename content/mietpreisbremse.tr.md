@@ -24,13 +24,13 @@ Kiranın yüksekliği, kira ilişkisinin başladığı ana göre ölçülür. G�
 
 ## Hangi Mietspiegel?
 
-Önemli olan, kira ilişkinizin başındaki olağan kiradır (§ 556d Abs. 1 BGB). Bu nedenle bizim anlayışımıza göre dayanak olarak o tarihte geçerli olan Mietspiegel (Berlin kira tablosu) kullanılır:
+Belirleyici olan, kira ilişkinizin başındaki olağan kiradır (§ 556d Abs. 1 BGB). Bu nedenle bizim anlayışımıza göre dayanak olarak o tarihte geçerli olan Mietspiegel (Berlin kira tablosu) kullanılır:
 
 - Başlangıç 30.05.2024'ten önce: daha eski bir Mietspiegel. Hesaplayıcımız onu bilmez. 2017'den itibaren eski Mietspiegel'ler: <https://mietspiegel.berlin.de/berliner-mietspiegel/archiv/>
 - Başlangıç 30.05.2024 ile 27.05.2026 arası: [Mietspiegel 2024](@/merkmale-2024.tr.md)
 - Başlangıç 28.05.2026'dan itibaren: [Mietspiegel 2026](@/merkmale.tr.md)
 
-Mietspiegel, daha önceki bir esas tarihin (Stichtag) verilerine dayanır (Mietspiegel 2024: 01.09.2023; Mietspiegel 2026: 01.09.2025). **Kira ilişkiniz 01.09.2025 ile 27.05.2026 arasında başladıysa dikkat:** Mietspiegel 2026, 01.09.2025 tarihindeki kiralara dayanır. Bizim anladığımız kadarıyla bir mahkeme bu nedenle Mietspiegel 2026'yı da esas alabilir veya bir ek (Zuschlag) hesaplayabilir. Kira ilişkisi 01.09.2023 ile 29.05.2024 arasında başladıysa, aynısı Mietspiegel 2024 için de geçerlidir. Kira freni için tam olarak bu konuda verilmiş bir mahkeme kararı bulamadık. Bu durumda her iki Mietspiegel ile de hesaplayın ve danışmanlık alın.
+Mietspiegel, daha önceki bir esas tarihin (Stichtag) verilerine dayanır (Mietspiegel 2024: 01.09.2023; Mietspiegel 2026: 01.09.2025). **Kira ilişkiniz 01.09.2025 ile 27.05.2026 arasında başladıysa dikkat:** Esas tarih 01.09.2025 olduğu için, bizim anladığımız kadarıyla bir mahkeme Mietspiegel 2026'yı da esas alabilir veya bir ek (Zuschlag) hesaplayabilir. Kira ilişkisi 01.09.2023 ile 29.05.2024 arasında başladıysa, aynısı Mietspiegel 2024 için de geçerlidir. Kira freni için tam olarak bu konuda verilmiş bir mahkeme kararı bulamadık. Bu durumda her iki Mietspiegel ile de hesaplayın ve danışmanlık alın.
 
 ## İstisnalar
 
@@ -47,10 +47,10 @@ Ev sahibi önceki kiraya, bir modernizasyona, yeni binaya veya kapsamlı bir mod
 
 ## Ne yapabilirsiniz
 
-1. Bilgi isteyin: İzin verilen kira için önemli olan olgular hakkında ev sahibinden bilgi (Auskunft) isteyebilirsiniz; bu olguları kendiniz öğrenemiyorsanız (§ 556g Abs. 3 BGB).
+1. Bilgi isteyin: İzin verilen kiranın bağlı olduğu olgular hakkında ev sahibinden bilgi (Auskunft) isteyebilirsiniz; bu olguları kendiniz öğrenemiyorsanız (§ 556g Abs. 3 BGB).
 2. İtiraz edin (rügen), yani çok yüksek kira hakkında ev sahibine şikâyette bulunun: Fazla ödediğiniz kirayı ancak ihlale itiraz ettiyseniz (Rüge) geri isteyebilirsiniz (§ 556g Abs. 2 BGB). İtiraz metin şeklinde (Textform) olmalıdır, yani örneğin mektup veya e-posta olarak (§ 556g Abs. 4 BGB). Ev sahibi size sözleşmeden önce bir bilgi verdiyse, itirazınız bu bilgiye atıfta bulunmalıdır.
 3. 30 aya dikkat edin: Erken itiraz edin. Kira ilişkisinin başlangıcından 30 aydan fazla süre sonra itiraz ederseniz, yalnızca itirazdan sonra ödenmesi gereken kirayı geri alırsınız. Aynısı, itiraz ancak kira ilişkisi sona erdikten sonra ulaşırsa da geçerlidir. O zaman **çoğu zaman artık hiçbir şey geri alamazsınız**. Bu nedenle kira ilişkiniz devam ederken itiraz edin (§ 556g Abs. 2 BGB). Sözleşmeyi 01.04.2020'den önce yaptıysanız veya kira ilişkiniz bu tarihten önce başladıysa, bu kuralın daha eski bir hâli geçerli olabilir (Art. 229 § 51 EGBGB). O zaman danışmanlık alın.
-4. Bir kira artışını onaylamadan önce kontrol edin: Daha sonra bir kira artışını onaylarsanız (Zustimmung), yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı o zaman ilke olarak artık kira frenine dayanamazsınız (BGH, 28.09.2022 tarihli karar (Urteil), VIII ZR 300/21). Bu nedenle onay vermeden önce kira frenini kontrol edin.
+4. Bir kira artışını onaylamadan önce kontrol edin: Daha sonra bir kira artışını onaylarsanız (Zustimmung), yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı ilke olarak artık kira frenine dayanamazsınız (BGH, 28.09.2022 tarihli karar (Urteil), VIII ZR 300/21). Bu nedenle onay vermeden önce kira frenini kontrol edin.
 
 [Hesaplayıcımız](@/rechner.tr.md) size emsal kirayı gösterir. Kira freni için buna %10 ekleyin. Bu yalnızca ilk bir dayanak noktasıdır. Orada tarih olarak kira ilişkinizin başlangıcını girin. Kira ilişkiniz 30.05.2024'ten önce başladıysa, hesaplayıcı o zaman geçerli olan Mietspiegel'i bilmez. Başlangıç 01.09.2023 ile 29.05.2024 arasındaysa, hesaplayıcı yalnızca Mietspiegel 2024'ü gösterebilir (yukarıya bakın).
 

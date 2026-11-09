@@ -7,7 +7,7 @@ weight = 70
 nav = true
 +++
 
-Bu site yalnızca genel bilgi verir. Bir kira artışını onaylamadan veya bir mektup göndermeden önce en iyisi danışmanlık alın. Bu sayfada Berlin'deki danışma merkezleri yer alır. Bilgilerin tarihi: 17.10.2026. Lütfen saatleri ve yerleri bağlantısı verilen sayfalarda kontrol edin. Bu bilgiler değişebilir.
+Bu site yalnızca genel bilgi verir. Bir kira artışını onaylamadan veya bir mektup göndermeden önce en iyisi danışmanlık alın. Bu sayfada Berlin'deki danışma merkezleri yer alır. Bilgilerin tarihi: 17.10.2026. Saatler ve yerler değişebilir. Bunları bağlantısı verilen sayfalarda kontrol edin.
 
 ## Ücretsiz
 

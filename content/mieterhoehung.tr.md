@@ -7,13 +7,13 @@ weight = 50
 nav = true
 +++
 
-Bu sayfa en önemli kuralları açıklar. Geneldir ve tek tek durumlarda danışmanlığın yerini tutmaz. Her bölümün altında kaynak yer alır. Böylece siz veya bir danışma merkezi her şeyi okuyup kontrol edebilir. İki kısaltma: „§“ paragraf demektir, yani bir yasanın bir bölümü. „Rn.“ (Randnummer) kenar numarası demektir, yani bir karardaki bir paragraf.
+Bu sayfa geneldir ve tek tek durumlarda danışmanlığın yerini tutmaz. Her bölümün altında kaynak yer alır. Böylece siz veya bir danışma merkezi her şeyi okuyup kontrol edebilir. İki kısaltma: „§“ paragraf demektir, yani bir yasanın bir bölümü. „Rn.“ (Randnummer) kenar numarası demektir, yani bir karardaki bir paragraf.
 
 ## Bu sayfa mektubunuz için geçerli mi?
 
 Bu sayfa yalnızca mektupta daha yüksek bir kirayı onaylamanızın (zustimmen) istendiği yazıyorsa geçerlidir. Çoğu zaman orada „Zustimmung“ (onay), „Mieterhöhungsverlangen“ (kira artışı talebi) veya „§ 558 BGB“ yazar.
 
-**Aşağıdaki durumlarda başka kurallar geçerlidir.** Yüksek kirayı o zaman çoğu zaman onayınız olmadan da ödemek zorundasınız:
+**Aşağıdaki durumlarda başka kurallar geçerlidir.** Yüksek kirayı çoğu zaman onayınız olmadan da ödemek zorundasınız:
 
 - bir modernizasyondan sonra kira artışı (§ 559 BGB),
 - yan giderler (Betriebskosten) için yeni avans ödemeleri (§ 560 BGB),
@@ -28,9 +28,9 @@ Bu sayfadaki kurallar şunlar için de geçerli değildir:
 
 Bu üç durumda kira artışıyla ilgili yasal kurallar geçerli değildir. Neyin geçerli olduğu sözleşmenize bağlıdır. Ancak ev sahibi orada size daha kolay fesih bildirebilir.
 
-Berlin Mietspiegel'i (kira tablosu) ayrıca şunlar için geçerli değildir: tek veya iki aileli evlerdeki ve sıra evlerdeki (Reihenhaus) daireler, tuvaleti (WC) dairenin dışında olan daireler ve ancak Mietspiegel'in kapsadığı dönemden sonra oturuma hazır hâle gelen (bezugsfertig) daireler (Mietspiegel 2026: 2025'ten itibaren; Mietspiegel 2024: 2023'ten itibaren). Bu, eski bir binadaki yeni bir daire de olabilir, örneğin çatı katı dönüşümünden, bir ek binadan veya iş yerlerinin daireye dönüştürülmesinden sonra. Tek veya iki aileli bir evdeki ya da sıra evdeki bir daire için ev sahibi artışı yine de Mietspiegel ile gerekçelendirebilir, en azından talep edilen kira çok aileli binalardaki daireler için verilen aralık (Spanne) içindeyse. Bu durumda yazı yalnızca bu nedenle geçersiz olmaz. Ancak talep edilen kiranın sizin ev tipiniz için olağan olup olmadığını Mietspiegel göstermez.
+Berlin Mietspiegel'i (kira tablosu) ayrıca şunlar için geçerli değildir: tek veya iki aileli evlerdeki ve sıra evlerdeki (Reihenhaus) daireler, tuvaleti (WC) dairenin dışında olan daireler ve ancak Mietspiegel'in kapsadığı dönemden sonra oturulmaya hazır hâle gelen (bezugsfertig) daireler (Mietspiegel 2026: 2025'ten itibaren; Mietspiegel 2024: 2023'ten itibaren). Bu, eski bir binadaki yeni bir daire de olabilir, örneğin çatı katı dönüşümünden, bir ek binadan veya iş yerlerinin daireye dönüştürülmesinden sonra. Tek veya iki aileli bir evdeki ya da sıra evdeki bir daire için ev sahibi artışı yine de Mietspiegel ile gerekçelendirebilir, en azından talep edilen kira çok aileli binalardaki daireler için verilen aralık (Spanne) içindeyse. Bu durumda yazı yalnızca bu nedenle geçersiz olmaz. Ancak talep edilen kiranın sizin ev tipiniz için olağan olup olmadığını Mietspiegel göstermez.
 
-„Kostenmiete“ olmayan daha yeni bir sosyal konutta veya başka bir destekli konutta ev sahibi, bu sayfada anlatıldığı gibi sizden onay istemek zorundadır. Ayrıca kira, destekten (Förderung) gelen azami kirayı (Höchstmiete) aşamaz. Mietspiegel o zaman doğrudan uygulanamaz. Danışmanlık alın.
+„Kostenmiete“ olmayan daha yeni bir sosyal konutta veya başka bir destekli konutta ev sahibi, bu sayfada anlatıldığı gibi sizden onay istemek zorundadır. Ayrıca kira, destekten (Förderung) gelen azami kirayı (Höchstmiete) aşamaz. Mietspiegel o zaman doğrudan uygulanamaz.
 
 Bu durumlarda ödemeyi öylece **durdurmayın**. Danışmanlık alın: [Yardım ve danışmanlık](@/hilfe.tr.md).
 
@@ -67,7 +67,7 @@ Mektubun hangi gün geldiğini not edin. Zarfı saklayın.
 
 **Ev sahibinin süresi:** Onay vermezseniz veya yalnızca kısmen onay verirseniz, ev sahibi mahkemede onay için dava açabilir. Bunun için sizin sürenizin bitiminden sonra üç ay daha zamanı vardır. Örnekte: 31 Mart'a kadar. Zamanında dava açmazsa, bu artış için artık dava açamaz.
 
-**Cumartesi, pazar, resmî tatil:** Bir sürenin sonu Berlin'de cumartesi, pazar veya resmî tatile denk gelirse, çoğu zaman onun yerine bir sonraki iş günü geçer. Berlin'deki resmî tatiller örneğin şunlardır: Yılbaşı, Dünya Kadınlar Günü (8 Mart), Kutsal Cuma (Karfreitag), Paskalya Pazartesisi (Ostermontag), 1 Mayıs, İsa'nın Göğe Yükselişi (Himmelfahrt), Pentekost Pazartesisi (Pfingstmontag), 3 Ekim ve iki Noel günü.
+Bir sürenin sonu Berlin'de cumartesi, pazar veya resmî tatile denk gelirse, çoğu zaman onun yerine bir sonraki iş günü geçer. Berlin'deki resmî tatiller örneğin şunlardır: Yılbaşı, Dünya Kadınlar Günü (8 Mart), Kutsal Cuma (Karfreitag), Paskalya Pazartesisi (Ostermontag), 1 Mayıs, İsa'nın Göğe Yükselişi (Himmelfahrt), Pentekost Pazartesisi (Pfingstmontag), 3 Ekim ve iki Noel günü.
 
 - Düşünme süreniz: Yasanın metnine göre bir sonraki iş gününe kayar. Tam olarak bu konuda bir mahkeme kararı bulamadık. Bu yüzden cevabınız takvim tarihine kadar ulaşacak şekilde plan yapın.
 - Ev sahibinin süresi: Bu süre de kayar. Ev sahibinin o zaman daha fazla zamanı olur. Örnek: Dava açma süresi hesaben 28.02.2027 Pazar günü biter. O zaman ev sahibinin 01.03.2027 Pazartesi gününe kadar zamanı vardır. Davanın o güne kadar mahkemeye ulaşması ve kısa süre sonra tebliğ edilmesi yeterlidir.
@@ -77,13 +77,13 @@ Mektubun hangi gün geldiğini not edin. Zarfı saklayın.
 
 ## Yazıdaki hatalar
 
-Yazı şekil bakımından hatalıysa, örneğin gerekçesizse, ev sahibi bunu dava sırasında da tamamlayabilir veya düzeltebilir. O zaman tam düşünme süresine yeniden sahip olursunuz.
+Yazı şekil bakımından hatalıysa, örneğin gerekçesizse, ev sahibi bunu dava sırasında da tamamlayabilir veya düzeltebilir. Düşünme süreniz o zaman yeniden baştan başlar.
 
 *Kaynak: § 558b Abs. 3 BGB.*
 
 ## Susmak onay değildir
 
-Hiçbir şey yapmazsanız onay vermemiş olursunuz. Ama ev sahibi o zaman dava açabilir. Mahkeme o zaman artışın haklı olup olmadığını inceler.
+Hiçbir şey yapmazsanız onay vermemiş olursunuz. Ama ev sahibi o zaman dava açabilir ve mahkeme artışın haklı olup olmadığını inceler.
 
 **Mahkemeden yazı:** Ev sahibi dava açarsa, sulh mahkemesinden (Amtsgericht) yazı alırsınız. O zaman hemen bir danışma merkezine gidin. Mahkemeye cevap vermek için çoğu zaman yalnızca 2 haftanız olur. Zamanında cevap vermezseniz mahkeme sizsiz karar verebilir; çoğu zaman ev sahibi lehine.
 
@@ -95,15 +95,15 @@ Ev sahibine kirayı hesabınızdan çekme izni (otomatik ödeme, Lastschrift) ve
 
 ## Onay vermek, kısmen onay vermek, reddetmek
 
-**Onay kesindir.** Onayınız bağlayıcı bir beyandır. Ev sahibine ulaştığı anda artık geri alamazsınız. İnternetten alışverişteki gibi cayma (Widerruf) hakkı da yoktur. Yeni kira o zaman kararlaştırılmış sayılır. Daha sonra kiranın çok yüksek olduğunu fark etseniz bile, kural olarak bu böyle kalır. Yalnızca istisnai durumlarda bir onay iptal ettirilebilir (anfechten), örneğin ev sahibi sizi bilerek aldattıysa. O zaman hemen danışmanlık alın.
+**Onay kesindir.** Onayınızı, ev sahibine ulaştığı andan itibaren artık geri alamazsınız. İnternetten alışverişteki gibi cayma (Widerruf) hakkı da yoktur. Yeni kira o zaman kararlaştırılmış sayılır. Daha sonra kiranın çok yüksek olduğunu fark etseniz bile, kural olarak bu böyle kalır. Yalnızca istisnai durumlarda bir onay iptal ettirilebilir (anfechten), örneğin ev sahibi sizi bilerek aldattıysa. O zaman hemen danışmanlık alın.
 
 *Kaynak: § 130 Abs. 1 BGB, § 123 Abs. 1 BGB; BGH, Urteil vom 17.10.2018, VIII ZR 94/17; bestätigt im Urteil vom 24.04.2019, VIII ZR 62/18, Rn. 21 und 22.*
 
-**Kira sözleşmesini Haziran 2015'ten itibaren mi imzaladınız? Önce kira frenini kontrol edin.** Kiranız daha başlangıçta belki çok yüksek miydi? O zaman bunu cevabınızdan önce kontrol edin. Bir artışı onaylarsanız, yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı o zaman ilke olarak artık kira frenine (Mietpreisbremse) dayanamazsınız. Daha fazlası: [Kira freni](@/mietpreisbremse.tr.md).
+**Kira sözleşmesini Haziran 2015'ten itibaren mi imzaladınız? Önce kira frenini kontrol edin.** Kiranız belki daha başlangıçta çok yüksek miydi? Bunu cevap vermeden önce kontrol edin. Bir artışı onaylarsanız, yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı ilke olarak artık kira frenine (Mietpreisbremse) dayanamazsınız. Daha fazlası: [Kira freni](@/mietpreisbremse.tr.md).
 
 *Kaynak: BGH, Urteil vom 28.09.2022, VIII ZR 300/21, Leitsätze und Rn. 32.*
 
-Yalnızca kısmen de onay verebilirsiniz. Yasa şöyle der: Onay verdiğiniz „soweit“ (ölçüde) yüksek kirayı borçlu olursunuz. Yani örneğin 60 € yerine 30 €'luk bir artışı onaylayabilirsiniz. O zaman buna bağlısınız. Geri kalanı için ev sahibi yine de dava açabilir. Bu nedenle yalnızca doğru olduğundan emin olduğunuz tutarı onaylayın. Sonra istenen tutarın tamamını değil, yalnızca onayladığınız kirayı ödeyin. Otomatik ödeme talimatını (Lastschrift) kontrol edin.
+Yalnızca kısmen de onay verebilirsiniz. Yasa şöyle der: Onay verdiğiniz „soweit“ (ölçüde) yüksek kirayı borçlu olursunuz. Yani örneğin 60 € yerine 30 €'luk bir artışı onaylayabilirsiniz. Bu tutara bağlı kalırsınız. Geri kalanı için ev sahibi yine de dava açabilir. Bu nedenle yalnızca doğru olduğundan emin olduğunuz tutarı onaylayın. Sonra istenen tutarın tamamını değil, yalnızca onayladığınız kirayı ödeyin. Otomatik ödeme (Lastschrift) varsa hesabınızı kontrol edin.
 
 *Kaynak: § 558b Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 19; BGH, Beschluss vom 30.01.2018, VIII ZB 74/16, Rn. 21.*
 
@@ -148,7 +148,7 @@ Bu nedenle kanıtları erken toplayın: kira sözleşmesi, teslim tutanağı (Ü
 
 ## Onay yerine fesih (olağanüstü fesih hakkı, Sonderkündigungsrecht)
 
-Bir kira artışı talebinden sonra olağanüstü fesih yapabilirsiniz. Bu şu demektir: normalden daha kısa bir süreyle. Fesih bildirimi, yazının ulaşmasından sonraki ikinci ayın bitimine kadar ev sahibinde olmalıdır. Kira ilişkisi o zaman, fesih bildiriminin ulaştığı aydan sonraki ikinci ayın sonunda sona erer. Örnek: Fesih bildirimi Aralık'ta ulaşıyor. O zaman kira ilişkisi Şubat sonunda sona erer. Kira artışı o zaman geçerli olmaz.
+Bir kira artışı talebinden sonra olağanüstü fesih yapabilirsiniz. Bu şu demektir: normalden daha kısa bir süreyle. Fesih bildirimi, yazının ulaşmasından sonraki ikinci ayın bitimine kadar ev sahibinde olmalıdır. Kira ilişkisi, fesih bildiriminin ulaştığı aydan sonraki ikinci ayın sonunda sona erer. Örnek: Fesih bildirimi Aralık'ta ulaşıyor. Kira ilişkisi Şubat sonunda sona erer. Kira artışı o zaman geçerli olmaz.
 
 Yasa metni burada „Monat“ (ay) diyor, „Kalendermonat“ (takvim ayı) demiyor. Fesih bildirimi, yazının ulaştığı günden itibaren iki ay içinde ulaşırsa güvendesiniz. Fesih yazılı olmalıdır, yani kâğıt üzerinde ve sizin imzanızla. E-posta yeterli değildir. Kira sözleşmesini birden fazla kişi imzaladıysa, fesih bildirimini kural olarak herkes imzalamak zorundadır. Önceden danışmanlık alın.
 
@@ -168,7 +168,7 @@ Daireniz Berlin eyaletine ait bir konut şirketinin (landeseigenes Wohnungsunter
 
 Daha büyük daireler için anlaşma bir tutar belirtmiyor. „Insgesamt“ (toplamda) ifadesinin her bir artış için mi yoksa sürenin tamamı için mi geçerli olduğunu metin açıkça söylemiyor.
 
-**Yılda %2,9:** Şirketler, kiraların „in Summe“ (toplamda) yılda %2,9'dan fazla yükselmemesini sağlar. Bu, bir şirketin tüm dairelerinin ortalamasıdır. Sizin tek daireniz için bir sınır değildir.
+Ayrıca şirketler, kiraların „in Summe“ (toplamda) yılda %2,9'dan fazla yükselmemesini sağlar. Bu, bir şirketin tüm dairelerinin ortalamasıdır. Sizin tek daireniz için bir sınır değildir.
 
 Bir Berlin yasası şöyle der: Eyalete ait şirketler kirayı § 558 BGB'ye göre dört yılda %15'ten fazla artırmamalıdır („sollen“). „Sollen“ şu demektir: Buna uymaları beklenir, istisnalar mümkündür. Sizin için kesin bir hak değildir. Aynı yasada bir zor durum (Härtefall) kuralı da vardır: Başvuru üzerine, artıştan sonraki kira hanenizin net gelirinin %30'undan fazla olmamalıdır. Binanızın enerji kimlik belgesinde (Energieausweis) metrekare ve yıl başına 170 kWh'den fazla bir nihai enerji tüketimi yazıyorsa, bu oran %27'dir. Bunun için şirketin hanenizi zor durum olarak tanıması gerekir (gelir ve alan sınırları için aşağıya bakın). Ombudsman ofisinin bilgisine göre bu yasa berlinovo için geçerli değildir.
 

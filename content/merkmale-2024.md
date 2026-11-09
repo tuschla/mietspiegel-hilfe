@@ -1,6 +1,6 @@
 +++
 title = "Merkmale der Orientierungshilfe 2024"
-description = "Alle Merkmale der Orientierungshilfe zum Berliner Mietspiegel 2024, einfach erklärt, für ältere Mieterhöhungen und für die Mietpreisbremse."
+description = "Alle Merkmale der Orientierungshilfe zum Berliner Mietspiegel 2024 in einfacher Sprache, für ältere Mieterhöhungen und für die Mietpreisbremse."
 template = "merkmale.html"
 weight = 21
 [extra]

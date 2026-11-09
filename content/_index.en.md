@@ -4,7 +4,7 @@ description = "Free help for tenants in Berlin: understand the rent index (Miets
 template = "index.html"
 +++
 
-Have you received a rent increase (Mieterhöhung)? Or do you want to know if your rent fits the Berlin rent index (Mietspiegel)? This site helps you, step by step.
+Have you received a rent increase (Mieterhöhung)? Or do you want to know if your rent fits the Berlin rent index (Mietspiegel)? Here you can check both.
 
 All calculations run only in your browser. What you enter is not sent to us or to anyone else.
 
@@ -16,4 +16,4 @@ How to proceed:
 
 The help with rent increases only applies if your landlord asks you to agree to a higher rent (consent, Zustimmung; § 558 BGB). Other rules apply to an increase after modernisation, to service charges (Betriebskosten), to index rent or graduated rent (Index- oder Staffelmiete) and to old social housing with “cost rent” (Kostenmiete). In those cases, **do not simply stop paying**. Get advice.
 
-This site gives general information. It does not replace legal advice in an individual case. Before you send a letter, it is best to get free advice. You can find addresses under [Help and advice](@/hilfe.en.md).
+This site gives general information. It does not replace legal advice in an individual case. Before you send a letter, get free advice. You can find addresses under [Help and advice](@/hilfe.en.md).

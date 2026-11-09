@@ -7,7 +7,7 @@ weight = 50
 nav = true
 +++
 
-This page explains the most important rules. It is general and does not replace advice in an individual case. Below each section you will find the source. With it, you or an advice centre can look everything up. Two abbreviations: § means section (Paragraf), that is, a part of a law. Rn. means Randnummer (margin number), that is, a paragraph in a judgment.
+This page is general and does not replace advice in an individual case. Below each section is the source, so that you or an advice centre can look everything up. Two abbreviations: § means section (Paragraf), that is, a part of a law. Rn. means Randnummer (margin number), that is, a paragraph in a judgment.
 
 ## Does this page apply to your letter?
 
@@ -30,7 +30,7 @@ In these three cases, the statutory rules on rent increases do not apply. What a
 
 In addition, the Berlin rent index (Mietspiegel) does not apply to flats in one- or two-family houses and terraced houses, to flats with the toilet outside the flat, and to flats that only became ready for occupancy (bezugsfertig) after the period covered by the Mietspiegel (Mietspiegel 2026: from 2025; Mietspiegel 2024: from 2023). This can also be a new flat in an old building, for example after a loft conversion, an extension or the conversion of commercial premises. For a flat in a one- or two-family house or terraced house, the landlord may still justify an increase with the Mietspiegel, at least if the rent demanded lies within the range for flats in multi-family buildings. The letter is then not invalid for that reason alone. However, the Mietspiegel does not show whether the rent demanded is usual for your type of house.
 
-Newer social housing or another subsidised flat without “cost rent” (Kostenmiete): Here the landlord must ask you for your consent, as described on this page. In addition, the rent must not exceed the maximum rent set by the subsidy. The Mietspiegel cannot then be applied directly. Get advice.
+Newer social housing or another subsidised flat without “cost rent” (Kostenmiete): Here the landlord must ask you for your consent, as described on this page. In addition, the rent must not exceed the maximum rent set by the subsidy. The Mietspiegel cannot then be applied directly.
 
 In these cases, do **not** simply stop paying. Get advice: [Help and advice](@/hilfe.en.md).
 
@@ -67,7 +67,7 @@ Write down the day the letter arrived. Keep the envelope.
 
 **The landlord’s deadline:** If you do not agree, or only agree in part, the landlord can go to court and sue for consent. For this he has three more months after the end of your deadline. In the example: until 31 March. If he does not sue in time, he can no longer sue for this increase.
 
-**Saturday, Sunday, public holiday:** If the end of a deadline falls on a Saturday, Sunday or public holiday in Berlin, the next working day usually takes its place. Public holidays in Berlin include New Year’s Day, Women’s Day (8 March), Good Friday, Easter Monday, 1 May, Ascension Day, Whit Monday, 3 October and the two Christmas holidays.
+If the end of a deadline falls on a Saturday, Sunday or public holiday in Berlin, the next working day usually takes its place. Public holidays in Berlin include New Year’s Day, Women’s Day (8 March), Good Friday, Easter Monday, 1 May, Ascension Day, Whit Monday, 3 October and the two Christmas holidays.
 
 - Your time to think it over: According to the wording of the law, it moves to the next working day. We have not found a court decision on exactly this point. So plan for your reply to arrive by the calendar date.
 - The landlord’s deadline: It also moves. The landlord then has more time. Example: by calculation the deadline to sue ends on Sunday, 28.02.2027. Then the landlord has until Monday, 01.03.2027. It is enough if the claim reaches the court by then and is served soon afterwards.
@@ -95,7 +95,7 @@ Direct debit (Lastschrift): If you have allowed the landlord to collect the rent
 
 ## Agree, agree in part, refuse
 
-**Consent is final.** Your consent is a binding declaration. As soon as it has reached the landlord, you can no longer take it back. You also cannot cancel it like an online purchase. The new rent then counts as agreed. Even if you notice later that the rent is too high, it usually stays that way. Only in exceptional cases can a consent be challenged (anfechten), for example if the landlord deliberately deceived you. In that case, get advice immediately.
+**Consent is final.** As soon as your consent has reached the landlord, you can no longer take it back. You also cannot cancel it like an online purchase. The new rent then counts as agreed. Even if you notice later that the rent is too high, it usually stays that way. Only in exceptional cases can a consent be challenged (anfechten), for example if the landlord deliberately deceived you. In that case, get advice immediately.
 
 *Source: § 130 Abs. 1 BGB, § 123 Abs. 1 BGB; BGH, Urteil vom 17.10.2018, VIII ZR 94/17; confirmed in the Urteil vom 24.04.2019, VIII ZR 62/18, Rn. 21 und 22.*
 
@@ -103,7 +103,7 @@ Direct debit (Lastschrift): If you have allowed the landlord to collect the rent
 
 *Source: BGH, Urteil vom 28.09.2022, VIII ZR 300/21, Leitsätze (headnotes) and Rn. 32.*
 
-You can agree in part. The law says: „Soweit“ (to the extent that) you agree, you owe the higher rent. So you can, for example, agree to an increase of €30 instead of €60. You are then bound by this. The landlord can still sue for the rest. So only agree to the amount you are sure is correct. Afterwards, only pay the rent you agreed to, not the full amount demanded. Check any direct debit.
+You can agree in part. The law says: „Soweit“ (to the extent that) you agree, you owe the higher rent. So you can, for example, agree to an increase of €30 instead of €60. You are then bound by this. The landlord can still sue for the rest. So only agree to the amount you are sure is correct. Afterwards, only pay the rent you agreed to, not the full amount demanded. If you pay by direct debit, check your account.
 
 *Source: § 558b Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 19; BGH, Beschluss vom 30.01.2018, VIII ZB 74/16, Rn. 21.*
 
@@ -168,7 +168,7 @@ Does your flat belong to a state-owned housing company of the State of Berlin (l
 
 For larger flats, the agreement does not name an amount. The text does not say expressly whether „insgesamt“ (in total) applies to each single increase or to the whole term.
 
-**2.9 % per year:** The companies make sure that rents „in Summe“ (in total) do not rise by more than 2.9 % per year. This is an average across all flats of a company. It is not a limit for your individual flat.
+In addition, the companies make sure that rents „in Summe“ (in total) do not rise by more than 2.9 % per year. This is an average across all flats of a company. It is not a limit for your individual flat.
 
 A Berlin law says that the state-owned companies should („sollen“) not raise the rent under § 558 BGB by more than 15 % in four years. „Sollen“ means: they are supposed to keep to this, but exceptions are possible. It is not a firm right for you. The same law has a hardship rule: on application, the rent after an increase should not be more than 30 % of your household’s net income. If the energy certificate (Energieausweis) of your building shows a final energy consumption of more than 170 kWh per m² and year, the figure is 27 %. For this, the company must recognise your household as a hardship case (for the income and size limits, see below). According to the ombudsman office, this law does not apply to berlinovo.
 

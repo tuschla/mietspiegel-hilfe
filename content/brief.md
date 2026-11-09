@@ -13,12 +13,12 @@ Hören Sie in diesen Fällen **nicht** einfach auf zu zahlen. Lassen Sie sich be
 
 Mit dieser Seite erstellen Sie einen Brief an Ihren Vermieter. Der Brief ist immer auf Deutsch. Die Erklärungen dazu sehen Sie in Ihrer Sprache.
 
-Bitte beachten Sie:
+Für alle Briefe gilt:
 
 - Die Briefe sind Muster. Sie füllen sie mit Ihren eigenen Angaben aus. Wir prüfen Ihren Fall nicht.
 - Lesen Sie den Brief genau, bevor Sie ihn abschicken. Schreiben Sie nichts hinein, was nicht stimmt.
 - Eine Zustimmung, auch eine teilweise, können Sie später nicht zurücknehmen. Die neue Miete gilt dann als vereinbart. Gegen diese neue Miete können Sie sich danach grundsätzlich nicht mehr auf die Mietpreisbremse berufen. Lassen Sie sich vor einer Zustimmung am besten kostenlos beraten: [Hilfe und Beratung](@/hilfe.md).
-- Hat die Prüfung ein Problem gezeigt, zum Beispiel eine zu frühe Erhöhung oder eine zu hohe Miete? Dann stimmen Sie nicht zu, bevor Sie sich beraten lassen haben.
+- Hat die Prüfung ein Problem gezeigt, zum Beispiel eine zu frühe Erhöhung oder eine zu hohe Miete? Dann lassen Sie sich beraten, bevor Sie zustimmen.
 - Unterschreiben Sie nicht das Formular des Vermieters, wenn Sie nicht alles darauf verstehen. Unsere Briefvorlagen betreffen nur die Mieterhöhung und nichts anderes in Ihrem Mietvertrag.
 - Im Feld „Eigener Zusatz“ prüfen wir nichts. Ihr Text kommt unverändert in den Brief. Schreiben Sie dort keine Bedingungen und kein Gegenangebot („nur wenn …“). Dann kann eine Zustimmung als Ablehnung gelten.
 - Schicken Sie den Brief so, dass Sie später zeigen können, dass er angekommen ist, zum Beispiel per Einwurf-Einschreiben oder Übergabe mit einer Zeugin oder einem Zeugen. Behalten Sie eine Kopie.

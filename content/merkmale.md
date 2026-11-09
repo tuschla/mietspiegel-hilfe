@@ -1,6 +1,6 @@
 +++
 title = "Merkmale der Orientierungshilfe 2026"
-description = "Alle Merkmale der Orientierungshilfe zum Berliner Mietspiegel 2026, einfach erklärt: Was heißt das? Wie prüfe ich es? Wer muss es beweisen?"
+description = "Alle Merkmale der Orientierungshilfe zum Berliner Mietspiegel 2026 in einfacher Sprache: Was heißt das? Wie prüfe ich es? Wer muss es beweisen?"
 template = "merkmale.html"
 weight = 20
 [extra]

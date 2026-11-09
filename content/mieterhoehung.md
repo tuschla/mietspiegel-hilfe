@@ -7,7 +7,7 @@ weight = 50
 nav = true
 +++
 
-Diese Seite erklärt die wichtigsten Regeln. Sie ist allgemein und ersetzt keine Beratung im Einzelfall. Unter den Abschnitten steht jeweils die Quelle. Damit können Sie oder eine Beratungsstelle alles nachlesen. Zwei Abkürzungen: „§“ heißt Paragraf, also ein Teil eines Gesetzes. „Rn.“ heißt Randnummer, also ein Absatz in einem Urteil.
+Diese Seite ist allgemein und ersetzt keine Beratung im Einzelfall. Unter den Abschnitten steht jeweils die Quelle. Damit können Sie oder eine Beratungsstelle alles nachlesen. Zwei Abkürzungen: „§“ heißt Paragraf, also ein Teil eines Gesetzes. „Rn.“ heißt Randnummer, also ein Absatz in einem Urteil.
 
 ## Gilt diese Seite für Ihren Brief?
 
@@ -30,7 +30,7 @@ In diesen drei Fällen gelten die gesetzlichen Regeln zur Mieterhöhung nicht. W
 
 Der Berliner Mietspiegel gilt außerdem nicht für Wohnungen in Ein- oder Zweifamilienhäusern und Reihenhäusern, für Wohnungen mit WC außerhalb der Wohnung und für Wohnungen, die erst nach dem Zeitraum des Mietspiegels bezugsfertig wurden (Mietspiegel 2026: ab 2025; Mietspiegel 2024: ab 2023). Das kann auch eine neue Wohnung in einem alten Haus sein, zum Beispiel nach einem Dachausbau, einem Anbau oder dem Umbau von Gewerberäumen. Bei einer Wohnung in einem Ein- oder Zweifamilienhaus oder Reihenhaus darf der Vermieter eine Erhöhung trotzdem mit dem Mietspiegel begründen, jedenfalls wenn die verlangte Miete innerhalb der Spanne für Wohnungen in Mehrfamilienhäusern liegt. Das Schreiben ist dann nicht schon deshalb unwirksam. Ob die verlangte Miete für Ihr Haus üblich ist, zeigt der Mietspiegel aber nicht.
 
-Bei einer neueren Sozialwohnung oder einer anderen geförderten Wohnung ohne „Kostenmiete“ muss der Vermieter Sie um Zustimmung bitten, wie auf dieser Seite beschrieben. Zusätzlich darf die Miete die Höchstmiete aus der Förderung nicht übersteigen. Den Mietspiegel kann man dann nicht direkt anwenden. Lassen Sie sich beraten.
+Bei einer neueren Sozialwohnung oder einer anderen geförderten Wohnung ohne „Kostenmiete“ muss der Vermieter Sie um Zustimmung bitten, wie auf dieser Seite beschrieben. Zusätzlich darf die Miete die Höchstmiete aus der Förderung nicht übersteigen. Den Mietspiegel kann man dann nicht direkt anwenden.
 
 Hören Sie in diesen Fällen **nicht** einfach auf zu zahlen. Lassen Sie sich beraten: [Hilfe und Beratung](@/hilfe.md).
 
@@ -67,7 +67,7 @@ Schreiben Sie sich auf, an welchem Tag der Brief ankam. Heben Sie den Umschlag a
 
 **Die Frist des Vermieters:** Stimmen Sie nicht oder nur teilweise zu, kann der Vermieter vor Gericht auf Zustimmung klagen. Dafür hat er nach dem Ende Ihrer Frist drei weitere Monate Zeit. Im Beispiel: bis zum 31. März. Klagt er nicht rechtzeitig, kann er diese Erhöhung nicht mehr einklagen.
 
-**Samstag, Sonntag, Feiertag:** Fällt das Ende einer Frist auf einen Samstag, Sonntag oder Feiertag in Berlin, tritt meist der nächste Werktag an seine Stelle. Feiertage in Berlin sind zum Beispiel Neujahr, der Frauentag (8. März), Karfreitag, Ostermontag, der 1. Mai, Himmelfahrt, Pfingstmontag, der 3. Oktober und die beiden Weihnachtstage.
+Fällt das Ende einer Frist auf einen Samstag, Sonntag oder Feiertag in Berlin, tritt meist der nächste Werktag an seine Stelle. Feiertage in Berlin sind zum Beispiel Neujahr, der Frauentag (8. März), Karfreitag, Ostermontag, der 1. Mai, Himmelfahrt, Pfingstmontag, der 3. Oktober und die beiden Weihnachtstage.
 
 - Ihre Frist zum Überlegen: Nach dem Wortlaut des Gesetzes verschiebt sie sich auf den nächsten Werktag. Eine Gerichtsentscheidung genau dazu haben wir nicht gefunden. Planen Sie deshalb so, dass Ihre Antwort bis zum Kalenderdatum ankommt.
 - Die Frist des Vermieters: Sie verschiebt sich ebenfalls. Der Vermieter hat dann mehr Zeit. Beispiel: Die Klagefrist endet rechnerisch am Sonntag, 28.02.2027. Dann hat der Vermieter bis Montag, 01.03.2027, Zeit. Es reicht, wenn die Klage bis dahin beim Gericht eingeht und bald danach zugestellt wird.
@@ -95,7 +95,7 @@ Haben Sie dem Vermieter erlaubt, die Miete abzubuchen (Lastschrift), prüfen Sie
 
 ## Zustimmen, teilweise zustimmen, ablehnen
 
-**Zustimmung ist endgültig.** Ihre Zustimmung ist eine verbindliche Erklärung. Sobald sie beim Vermieter angekommen ist, können Sie sie nicht mehr zurücknehmen. Man kann sie auch nicht wie einen Online-Kauf widerrufen. Die neue Miete gilt dann als vereinbart. Auch wenn Sie später merken, dass die Miete zu hoch ist, bleibt es in der Regel dabei. Nur in Ausnahmefällen kann man eine Zustimmung anfechten, zum Beispiel wenn der Vermieter Sie bewusst getäuscht hat. Lassen Sie sich dann sofort beraten.
+**Zustimmung ist endgültig.** Sobald Ihre Zustimmung beim Vermieter angekommen ist, können Sie sie nicht mehr zurücknehmen. Man kann sie auch nicht wie einen Online-Kauf widerrufen. Die neue Miete gilt dann als vereinbart. Auch wenn Sie später merken, dass die Miete zu hoch ist, bleibt es in der Regel dabei. Nur in Ausnahmefällen kann man eine Zustimmung anfechten, zum Beispiel wenn der Vermieter Sie bewusst getäuscht hat. Lassen Sie sich dann sofort beraten.
 
 *Quelle: § 130 Abs. 1 BGB, § 123 Abs. 1 BGB; BGH, Urteil vom 17.10.2018, VIII ZR 94/17; bestätigt im Urteil vom 24.04.2019, VIII ZR 62/18, Rn. 21 und 22.*
 
@@ -103,7 +103,7 @@ Haben Sie dem Vermieter erlaubt, die Miete abzubuchen (Lastschrift), prüfen Sie
 
 *Quelle: BGH, Urteil vom 28.09.2022, VIII ZR 300/21, Leitsätze und Rn. 32.*
 
-Sie können auch nur teilweise zustimmen. Das Gesetz sagt: „Soweit“ Sie zustimmen, schulden Sie die höhere Miete. Sie können also zum Beispiel einer Erhöhung um 30 € statt 60 € zustimmen. Daran sind Sie dann gebunden. Für den Rest kann der Vermieter trotzdem klagen. Stimmen Sie deshalb nur dem Betrag zu, den Sie sicher für richtig halten. Zahlen Sie danach nur die Miete, der Sie zugestimmt haben, nicht den vollen verlangten Betrag. Prüfen Sie eine Lastschrift.
+Sie können auch nur teilweise zustimmen. Das Gesetz sagt: „Soweit“ Sie zustimmen, schulden Sie die höhere Miete. Sie können also zum Beispiel einer Erhöhung um 30 € statt 60 € zustimmen. Daran sind Sie dann gebunden. Für den Rest kann der Vermieter trotzdem klagen. Stimmen Sie deshalb nur dem Betrag zu, den Sie sicher für richtig halten. Zahlen Sie danach nur die Miete, der Sie zugestimmt haben, nicht den vollen verlangten Betrag. Bei einer Lastschrift prüfen Sie Ihr Konto.
 
 *Quelle: § 558b Abs. 1 BGB; BGH, Urteil vom 20.01.2010, VIII ZR 141/09, Rn. 19; BGH, Beschluss vom 30.01.2018, VIII ZB 74/16, Rn. 21.*
 
@@ -116,7 +116,7 @@ Oft liegt dem Schreiben ein Formular des Vermieters zum Unterschreiben bei. Unte
 Die neue Miete darf zwei Grenzen nicht überschreiten. Es gilt die niedrigere:
 
 1. **Die ortsübliche Vergleichsmiete.** In Berlin ist das meistens der Wert aus dem Mietspiegel, eingeordnet mit der Orientierungshilfe. Rechnen Sie ihn mit unserem [Rechner](@/rechner.md) aus.
-2. **Die Kappungsgrenze:** In Berlin darf die Miete innerhalb von drei Jahren um höchstens 15 % steigen. Gerechnet wird mit der Miete, die drei Jahre vor dem Tag galt, ab dem die neue Miete gelten soll. Erhöhungen nach einer Modernisierung (§ 559 BGB) zählen bei den 15 % nicht mit. Das heißt: Die 15 % werden ohne sie berechnet, und eine solche Erhöhung darf zusätzlich zu den 15 % dazukommen. Beispiel: Vor drei Jahren betrug die Nettokaltmiete 600 €. Seitdem stieg sie wegen einer Modernisierung um 40 €. Dann liegt die Grenze bei 600 € + 15 % = 690 €, plus 40 € = 730 €. Änderungen Ihrer Vorauszahlung für Nebenkosten haben mit der Nettokaltmiete nichts zu tun.
+2. **Die Kappungsgrenze:** In Berlin darf die Miete innerhalb von drei Jahren um höchstens 15 % steigen. Gerechnet wird mit der Miete, die drei Jahre vor dem Tag galt, ab dem die neue Miete gelten soll. Erhöhungen nach einer Modernisierung (§ 559 BGB) zählen bei den 15 % nicht mit. Das heißt: Die 15 % werden ohne sie berechnet, und eine solche Erhöhung darf zu den 15 % hinzukommen. Beispiel: Vor drei Jahren betrug die Nettokaltmiete 600 €. Seitdem stieg sie wegen einer Modernisierung um 40 €. Dann liegt die Grenze bei 600 € + 15 % = 690 €, plus 40 € = 730 €. Änderungen Ihrer Vorauszahlung für Nebenkosten haben mit der Nettokaltmiete nichts zu tun.
 
 Beispiel: Vor drei Jahren betrug die Nettokaltmiete (Miete ohne Betriebskosten und Heizkosten) 600 €. Dann darf sie jetzt höchstens 690 € betragen (600 € + 15 %). Liegt die Vergleichsmiete bei 660 €, ist 660 € die Grenze.
 
@@ -168,7 +168,7 @@ Gehört Ihre Wohnung einem landeseigenen Wohnungsunternehmen des Landes Berlin? 
 
 Für größere Wohnungen nennt die Vereinbarung keinen Betrag. Ob „insgesamt“ für jede einzelne Erhöhung gilt oder für die ganze Laufzeit, sagt der Text nicht ausdrücklich.
 
-**2,9 % pro Jahr:** Die Unternehmen sorgen dafür, dass die Mieten „in Summe“ um nicht mehr als 2,9 % pro Jahr steigen. Das ist ein Durchschnitt über alle Wohnungen eines Unternehmens. Für Ihre einzelne Wohnung ist das keine Grenze.
+Außerdem sorgen die Unternehmen dafür, dass die Mieten „in Summe“ um nicht mehr als 2,9 % pro Jahr steigen. Das ist ein Durchschnitt über alle Wohnungen eines Unternehmens. Für Ihre einzelne Wohnung ist das keine Grenze.
 
 Ein Berliner Gesetz sagt: Die landeseigenen Unternehmen sollen die Miete nach § 558 BGB in vier Jahren um nicht mehr als 15 % erhöhen. „Sollen“ heißt: Sie sollen sich daran halten, Ausnahmen sind möglich. Ein festes Recht für Sie ist es nicht. Dasselbe Gesetz hat eine Härtefallregel: Auf Antrag soll die Miete nach einer Erhöhung nicht mehr als 30 % des Nettoeinkommens Ihres Haushalts betragen. Steht im Energieausweis Ihres Hauses ein Endenergieverbrauch von mehr als 170 kWh pro m² und Jahr, sind es 27 %. Dafür muss das Unternehmen Ihren Haushalt als Härtefall anerkennen (Einkommens- und Flächengrenzen siehe unten). Nach Angaben der Ombudsstelle gilt dieses Gesetz nicht für die berlinovo.
 

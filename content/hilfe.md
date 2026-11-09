@@ -7,7 +7,7 @@ weight = 70
 nav = true
 +++
 
-Diese Website gibt nur allgemeine Informationen. Bevor Sie einer Mieterhöhung zustimmen oder einen Brief abschicken, lassen Sie sich am besten beraten. Auf dieser Seite stehen Beratungsstellen in Berlin. Stand der Angaben: 17.10.2026. Bitte prüfen Sie Zeiten und Orte auf den verlinkten Seiten. Diese Angaben können sich ändern.
+Diese Website gibt nur allgemeine Informationen. Bevor Sie einer Mieterhöhung zustimmen oder einen Brief abschicken, lassen Sie sich am besten beraten. Auf dieser Seite stehen Beratungsstellen in Berlin. Stand der Angaben: 17.10.2026. Zeiten und Orte können sich ändern. Prüfen Sie sie auf den verlinkten Seiten.
 
 ## Kostenlos
 

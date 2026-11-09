@@ -389,37 +389,37 @@
     },
     "umfeld-m04": {
       "title": "Çok bakımsız çevre",
-      "explain": "Sadece Mietspiegel 2024 (Berlin kira tablosu) için geçerli. Eksi: konut çok bakımsız bir çevredeyse. Mietspiegel 2024 örnek vermiyor.",
+      "explain": "Yalnızca Mietspiegel 2024 (Berlin kira tablosu) için geçerli. Eksi: konut çok bakımsız bir çevredeyse. Mietspiegel 2024 örnek vermiyor.",
       "check": "Çevre nasıl görünüyor: terk edilmiş binalar, çok çöp, bozuk yollar? Neyin „stark vernachlässigt“ (çok bakımsız) olduğunu Mietspiegel tam olarak söylemiyor.",
       "proof": "Bu eksi özelliğe dayanırsanız, kural olarak onu sizin kanıtlamanız gerekir. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. İşe yarar: çevrenin tarihli fotoğrafları."
     },
     "umfeld-p01": {
       "title": "Özellikle sessiz konum",
-      "explain": "Şu durumda artı: konut özellikle sessiz bir yerdeyse. Mietspiegel (Berlin kira tablosu) içindeki örnekler: trafiği azaltılmış bir sokakta, park benzeri bir alanın yanında veya sokakta yapısal kısıtlamalar varsa; örneğin bariyer direkleri (Poller), daraltılmış yol veya bitkilendirme.",
+      "explain": "Artı: konut özellikle sessiz bir yerdeyse. Mietspiegel (Berlin kira tablosu) içindeki örnekler: trafiği azaltılmış bir sokakta, park benzeri bir alanın yanında veya sokakta yapısal kısıtlamalar varsa; örneğin bariyer direkleri (Poller), daraltılmış yol veya bitkilendirme.",
       "check": "Pencerelerinizde gürültü gündüz ve gece nasıl? Senato'nun stratejik gürültü haritaları (Strategische Lärmkarten) cephedeki trafik gürültüsünü gösteriyor. Neyin „besonders ruhig“ (özellikle sessiz) olduğunu Mietspiegel tam olarak söylemiyor.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Sizin için işe yarar: gürültü haritasının (Lärmkarte) çıktısı, tarih ve saat içeren bir gürültü kaydı."
     },
     "umfeld-p02": {
       "title": "Güzel düzenlenmiş arsa",
-      "explain": "Şu durumda artı: binanın arsasındaki yaşam çevresi özenle ve emek harcanarak (aufwändig) düzenlenmişse. Mietspiegel (Berlin kira tablosu) içindeki örnekler: çocuk oyun alanı (yalnızca bina 2003'ten önce bitmişse, Mietspiegel 2024'te: 2002'den önce), oturma bankları veya dinlenme alanları, yeşil alanlı ve aydınlatmalı, sağlam döşenmiş yollar.",
+      "explain": "Artı: binanın arsasındaki yaşam çevresi özenle ve emek harcanarak (aufwändig) düzenlenmişse. Mietspiegel (Berlin kira tablosu) içindeki örnekler: çocuk oyun alanı (yalnızca bina 2003'ten önce bitmişse, Mietspiegel 2024'te: 2002'den önce), oturma bankları veya dinlenme alanları, yeşil alanlı ve aydınlatmalı, sağlam döşenmiş yollar.",
       "check": "Arsada ne var (yandaki kamusal parkta değil)? Durumu nasıl? Neyin „aufwändig“ (özenli, emek isteyen) olduğunu Mietspiegel tam olarak söylemiyor.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Sizin için işe yarar: avlunun fotoğrafları."
     },
     "umfeld-p03": {
       "title": "Ev sahibinden yakında park yeri",
-      "explain": "Şu durumda artı: ev sahibi yakında yeterli sayıda araba park yeri sağlıyorsa.",
+      "explain": "Artı: ev sahibi yakında yeterli sayıda araba park yeri sağlıyorsa.",
       "check": "Ev sahibiniz park yeri sunuyor mu, örneğin avluda veya bir garajda? Landgericht Berlin, Mietspiegel 2017 (Berlin kira tablosu) için şöyle karar verdi: Ek ücretli yerler de sayılabilir. Ama yalnızca kira artışı talebi (Mieterhöhungsverlangen) size ulaştığında ev sahibinden gerçekten bir yer kiralamışsanız veya ev sahibi size daha önce bir yer teklif etmişse (16.10.2018 tarihli karar (Urteil), 67 S 150/18). Başka mahkemeler bunu farklı görebilir.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Sizin için işe yarar: ev sahibinin park yerleriyle ilgili mektupları veya teklifleri."
     },
     "umfeld-p04": {
       "title": "Kendi bahçeniz veya kiracı bahçesi",
-      "explain": "Şu durumda artı: yalnızca size ait bir bahçe veya ücretsiz bir kiracı bahçesi (Mietergarten) varsa. Konuta ait olan ve doğrudan konuttan ulaşılabilen bir bahçe de artıdır.",
+      "explain": "Artı: yalnızca size ait bir bahçe veya ücretsiz bir kiracı bahçesi (Mietergarten) varsa. Konuta ait olan ve doğrudan konuttan ulaşılabilen bir bahçe de artıdır.",
       "check": "Konuta ait bir bahçe var mı? Kira sözleşmesinde yazıyor mu? Bunun için ayrıca ödeme yapmanız gerekiyor mu? Bahçeyi başkalarıyla paylaşıyor musunuz?",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir."
     },
     "umfeld-p05": {
       "title": "Şehir merkezinde ayrıcalıklı konum",
-      "explain": "Sadece Mietspiegel 2024 (Berlin kira tablosu) için geçerli. Şu durumda artı: konut ayrıcalıklı bir şehir merkezi konumundaysa (Citylage): alışveriş, hizmetler ve oturma için bilinen, bölgenin ötesinde de önemli yerlere yakınsa.",
+      "explain": "Yalnızca Mietspiegel 2024 (Berlin kira tablosu) için geçerli. Artı: konut ayrıcalıklı bir şehir merkezi konumundaysa (Citylage): alışveriş, hizmetler ve oturma için bilinen, bölgenin ötesinde de önemli yerlere yakınsa.",
       "check": "Konut, şehrin bilinen, büyük bir alışveriş veya iş merkezinin hemen yanında mı? Tam olarak neyin sayıldığını Mietspiegel 2024 söylemiyor.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir."
     },
@@ -467,37 +467,37 @@
     },
     "wohnung-m08": {
       "title": "Hırsızlığa veya bakışlara karşı koruması olmayan zemin kat",
-      "explain": "Sadece Mietspiegel 2026 (Berlin kira tablosu) için geçerli. Eksi: konut zemin kattaysa ve pencerelerin hepsi hırsızlığa karşı ve/veya dışarıdan bakışlara karşı korumalı değilse. Mietspiegel içindeki örnekler: parmaklık, panjur (Rollladen), pencere alarmı.",
+      "explain": "Yalnızca Mietspiegel 2026 (Berlin kira tablosu) için geçerli. Eksi: konut zemin kattaysa ve pencerelerin hepsi hırsızlığa karşı ve/veya dışarıdan bakışlara karşı korumalı değilse. Mietspiegel'deki örnekler: parmaklık, panjur (Rollladen), pencere alarmı.",
       "check": "Konutunuz zemin katta mı? Her pencereye gidin: Parmaklık, panjur veya alarm var mı? Hiçbir pencere korumalı değilse bu özellik kesin geçerlidir. Koruma yalnızca pencerelerin bir kısmında eksikse, özelliğin geçerli olup olmadığı belirsizdir.",
       "proof": "Bu eksi özelliğe dayanırsanız, kural olarak onu sizin kanıtlamanız gerekir. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. İşe yarar: her pencerenin içeriden ve dışarıdan fotoğrafları."
     },
     "wohnung-p01": {
       "title": "Konutta depo odası veya gömme dolap",
-      "explain": "Şu durumda artı: konutun içinde bir depo odası (Abstellraum) veya gömme dolap varsa. Mietspiegel 2026'ya (Berlin kira tablosu) göre depo odasının taban alanı en az 1 m² olmalıdır.",
+      "explain": "Artı: konutun içinde bir depo odası (Abstellraum) veya gömme dolap varsa. Mietspiegel 2026'ya (Berlin kira tablosu) göre depo odasının taban alanı en az 1 m² olmalıdır.",
       "check": "Ev sahibinin sağladığı küçük bir oda (kiler) veya sabit takılmış bir dolap var mı? Küçük odanın alanını ölçün.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: küçük odanın ölçüleri; dolabı kendiniz taktıysanız buna ait belgeler."
     },
     "wohnung-p02": {
       "title": "Büyük balkon, teras veya loggia",
-      "explain": "Şu durumda artı: en az 4 m² büyüklüğünde büyük, geniş bir balkon, (çatı) terası, loggia (içe girintili, üstü kapalı balkon), kış bahçesi veya çatı bahçesi varsa (Mietspiegel 2026'da (Berlin kira tablosu): en az 4 m² taban alanı).",
+      "explain": "Artı: en az 4 m² büyüklüğünde büyük, geniş bir balkon, (çatı) terası, loggia (içe girintili, üstü kapalı balkon), kış bahçesi veya çatı bahçesi varsa (Mietspiegel 2026'da (Berlin kira tablosu): en az 4 m² taban alanı).",
       "check": "Balkonun alanını zeminde ölçün: uzunluk çarpı derinlik. En az 4 m² mi?",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: daha küçükse ölçüler ve katlanır metre ile çekilmiş fotoğraf."
     },
     "wohnung-p03": {
       "title": "Odaların çoğunda yerden ısıtma",
-      "explain": "Şu durumda artı: konutta çoğunlukla (yarıdan fazlası) yerden ısıtma varsa.",
+      "explain": "Artı: konutta çoğunlukla (yarıdan fazlası) yerden ısıtma varsa.",
       "check": "Kaç odada zemin, ısıtma sayesinde ısınıyor? Odaların yarısından fazlasında mı?",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz."
     },
     "wohnung-p04": {
       "title": "İyi durumda alçı süsleme veya ahşap kaplama",
-      "explain": "Şu durumda artı: tavanlarda ve/veya duvarlarda özenli, emek isteyen (aufwändig) bir kaplama varsa, örneğin alçı süsleme (Stuck) veya ahşap kaplama (Holztäfelung). Kaplama iyi durumda olmalı, hem de yaşam odalarının (Wohnräume) çoğunda (yarıdan fazlasında).",
+      "explain": "Artı: tavanlarda ve/veya duvarlarda özenli, emek isteyen (aufwändig) bir kaplama varsa, örneğin alçı süsleme (Stuck) veya ahşap kaplama (Holztäfelung). Kaplama iyi durumda olmalı, hem de yaşam odalarının (Wohnräume) çoğunda (yarıdan fazlasında).",
       "check": "Yaşam odalarınızı sayın. Kaçında alçı süsleme veya ahşap kaplama var? İyi korunmuş mu, yoksa hasarlı mı, üstü boyanmış mı ya da sadece ince bir kenar şeridi mi? Neyin „aufwändig“ (özenli, emek isteyen) sayıldığını Mietspiegel (Berlin kira tablosu) tam olarak söylemiyor.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: her odadaki tavanların fotoğrafları, hasarların da."
     },
     "wohnung-p05": {
       "title": "Kalorifer boruları çoğunlukla görünmüyor",
-      "explain": "Şu durumda artı: kalorifer boruları çoğunlukla (yarıdan fazlası) görünmüyorsa (Mietspiegel 2026'da (Berlin kira tablosu): sıva üstünde görünmüyorsa). Bu, 1990 dahil 1990'a kadar olan yapım dönemi sınıfları (Baualtersklassen) için geçerlidir.",
+      "explain": "Artı: kalorifer boruları çoğunlukla (yarıdan fazlası) görünmüyorsa (Mietspiegel 2026'da (Berlin kira tablosu): sıva üstünde görünmüyorsa). Bu, 1990 dahil 1990'a kadar olan yapım dönemi sınıfları (Baualtersklassen) için geçerlidir.",
       "check": "Kaloriferlere giden boruları görüyor musunuz? Kaç odada duvarda açıkta geçiyorlar?",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: her odadaki boruların fotoğrafları."
     },
@@ -509,19 +509,19 @@
     },
     "wohnung-p07": {
       "title": "40 m²'den büyük bir oda",
-      "explain": "Şu durumda artı: bir yaşam odası (Wohnraum) 40 m²'den büyükse.",
+      "explain": "Artı: bir yaşam odası (Wohnraum) 40 m²'den büyükse.",
       "check": "En büyük odanızı ölçün: uzunluk çarpı genişlik.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz."
     },
     "wohnung-p08": {
       "title": "Az bariyerli (kolay erişilebilir) konut",
-      "explain": "Şu durumda artı: konut az bariyerli (barrierearm), yani kolay erişilebilir düzenlenmişse: konutun içinde eşik yok, balkona veya terasa geçişte neredeyse hiç eşik yok ve konutun içinde hareket etmek için yeterli yer var. Mietspiegel 2024'te (Berlin kira tablosu) ayrıca şu yazıyor: „und/oder barrierearme Badgestaltung“ (ve/veya az bariyerli banyo düzeni). Bir eşiğin ne kadar yüksek olabileceğini Mietspiegel söylemiyor.",
+      "explain": "Artı: konut az bariyerli (barrierearm), yani kolay erişilebilir düzenlenmişse: konutun içinde eşik yok, balkona veya terasa geçişte neredeyse hiç eşik yok ve konutun içinde hareket etmek için yeterli yer var. Mietspiegel 2024'te (Berlin kira tablosu) ayrıca şu yazıyor: „und/oder barrierearme Badgestaltung“ (ve/veya az bariyerli banyo düzeni). Bir eşiğin ne kadar yüksek olabileceğini Mietspiegel söylemiyor.",
       "check": "Odalar arasında kapı eşikleri var mı? Balkona çıkan basamak ne kadar yüksek? Yürüteç (Rollator) veya tekerlekli sandalye ile kapılardan ve koridordan geçilebiliyor mu?",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: eşiklerin katlanır metre ile çekilmiş fotoğrafları."
     },
     "wohnung-p09": {
       "title": "Yaşam odalarının çoğunda kaliteli zemin",
-      "explain": "Şu durumda artı: yaşam odalarının çoğunda (yarıdan fazlasında) kaliteli parke, doğal veya yapay taş, fayans ya da bunlara eşdeğer bir zemin varsa. Mietspiegel 2026'da (Berlin kira tablosu) koridor da sayılır, mutfak ve banyo sayılmaz. Neyin „hochwertig“ (kaliteli) ve „gleichwertig“ (eşdeğer) olduğunu Mietspiegel tam olarak söylemiyor.",
+      "explain": "Artı: yaşam odalarının çoğunda (yarıdan fazlasında) kaliteli parke, doğal veya yapay taş, fayans ya da bunlara eşdeğer bir zemin varsa. Mietspiegel 2026'da (Berlin kira tablosu) koridor da sayılır, mutfak ve banyo sayılmaz. Neyin „hochwertig“ (kaliteli) ve „gleichwertig“ (eşdeğer) olduğunu Mietspiegel tam olarak söylemiyor.",
       "check": "Hangi odada hangi zemin var? Zemini kim döşedi: ev sahibi mi, siz mi? Zemin iyi durumda mı?",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: zeminlerin fotoğrafları, teslim tutanağı (Übergabeprotokoll), kendiniz döşettiğiniz zeminlerin belgeleri."
     },
@@ -533,7 +533,7 @@
     },
     "wohnung-p11": {
       "title": "Ek hırsızlık korumalı daire kapısı",
-      "explain": "Şu durumda artı: daire kapısında ek hırsızlık koruması varsa, örneğin kaliteli kapı emniyet kolu (Sperrbügel) ve/veya birkaç noktadan kilitlenen kilitler; bu, güçlendirilmiş kapılar için geçerlidir.",
+      "explain": "Artı: daire kapısında ek hırsızlık koruması varsa, örneğin kaliteli kapı emniyet kolu (Sperrbügel) ve/veya birkaç noktadan kilitlenen kilitler; bu, güçlendirilmiş kapılar için geçerlidir.",
       "check": "Daire kapınızda emniyet kolu (Sperrbügel) veya birkaç noktadan kilitlenen bir kilit var mı? Kapının kendisi güçlendirilmiş mi? İkisi birden isteniyor.",
       "proof": "Ev sahibi mahkemeye dava açarsa, artı özellikleri kural olarak o kanıtlamak zorundadır. Landgericht Berlin böyle karar verdi; başka mahkemeler bunu farklı görebilir. Yalnızca ev sahibinin sağladığı donanım sayılır; masrafı size ödenmeden kendiniz yaptırdığınız şeyler sayılmaz. Sizin için işe yarar: kapının ve kilidin fotoğrafları."
     }
@@ -565,7 +565,7 @@
       },
       "wartefrist_postponed": {
         "title": "Yeni kira ancak daha sonra geçerli olabilir",
-        "text": "Bilgilerinize göre kiranız, artış tarihinde henüz 15 ay boyunca aynı kalmamış. Artış o zaman en erken {effective} tarihinden itibaren geçerli olabilir (§ 558 Abs. 1 Satz 1 BGB). Çok erken bir tarih belirtilmesinin talep için ne anlama geldiğini, Federal Yüksek Mahkeme'nin hiçbir kararında açıklığa kavuşturulmuş olarak bulamadık. Danışmanlık alın."
+        "text": "Bilgilerinize göre kiranız, artış tarihinde henüz 15 ay boyunca aynı kalmamış. Artış o zaman en erken {effective} tarihinden itibaren geçerli olabilir (§ 558 Abs. 1 Satz 1 BGB). Çok erken bir tarih belirtilmesinin talep için ne anlama geldiğine dair bir Federal Yüksek Mahkeme kararı bulamadık. Danışmanlık alın."
       },
       "over_cap": {
         "title": "Artış sınırının (Kappungsgrenze) üstünde",
@@ -609,12 +609,12 @@
       "title": "Onay (Zustimmung)",
       "when": "Artışı kontrol ettiyseniz ve tamamının doğru olduğunu düşünüyorsanız. Örneğin: Yeni kira yerel emsal kiranın üstünde değil, artış sınırının (Kappungsgrenze) üstünde değil ve bekleme sürelerine uyulmuş.",
       "risks": "Onayınız kesindir. Ev sahibine ulaştığı anda onu geri alamazsınız. Yeni kira o zaman kararlaştırılmış sayılır; kural olarak çok yüksek olsa bile. Yalnızca istisnai durumlarda, örneğin bilerek aldatma varsa, bir onay iptal ettirilebilir (anfechten). Kira sözleşmenizi Haziran 2015'ten itibaren yaptıysanız, önce kira frenini (Mietpreisbremse) kontrol edin: Onaydan sonra yeni kiraya karşı ilke olarak artık kira frenine dayanamazsınız (BGH, VIII ZR 300/21). Kontrol bir sorun gösterdiyse, danışmanlık almadan onay vermeyin.",
-      "explain": "Bu mektupla kira artışını onaylarsınız. Şu anki net kiranızı (Nettokaltmiete), yeni kirayı ve ödemeye başlayacağınız tarihi girin. Rakamlar, ev sahibinin yazısıyla tam olarak aynı olmalıdır. Mektup, kira sözleşmesinde başka hiçbir şeyin değişmediğini açıkça söyler. Ev sahibinin bir formunu, üzerindeki her şeyi anlamıyorsanız, bunun yerine imzalamayın. Sözleşmenizde net kira yerine brüt kira veya her şey dahil kira (Brutto- oder Inklusivmiete) yazıyorsa, önce danışmanlık alın."
+      "explain": "Bu mektupla kira artışını onaylarsınız. Şu anki net kiranızı (Nettokaltmiete), yeni kirayı ve ödemeye başlayacağınız tarihi girin. Rakamlar, ev sahibinin yazısıyla tam olarak aynı olmalıdır. Mektup, kira sözleşmesinde başka hiçbir şeyin değişmediğini açıkça söyler. Üzerindeki her şeyi anlamıyorsanız, bunun yerine ev sahibinin bir formunu imzalamayın. Sözleşmenizde net kira yerine brüt kira veya her şey dahil kira (Brutto- oder Inklusivmiete) yazıyorsa, önce danışmanlık alın."
     },
     "teilzustimmung": {
       "title": "Kısmi onay (teilweise Zustimmung)",
       "when": "Artışın bir kısmının haklı olduğunu, ama tamamının haklı olmadığını düşünüyorsanız. Örneğin: Sizin hesabınıza göre emsal kira, şu anki kiranız ile istenen kira arasında.",
-      "risks": "Kısmi bir onay da kesindir. Onayladığınız kira kararlaştırılmış sayılır. Geri kalan kısım için ev sahibi yine de mahkemede dava açabilir. Bu nedenle yalnızca doğru olduğundan emin olduğunuz tutarı onaylayın. Sonra istenen tutarın tamamını değil, yalnızca bu tutarı ödeyin; otomatik ödeme talimatını (Lastschrift) kontrol edin. Kira sözleşmenizi Haziran 2015'ten itibaren yaptıysanız, önce kira frenini (Mietpreisbremse) kontrol edin: Onaydan sonra yeni kiraya karşı ilke olarak artık kira frenine dayanamazsınız (BGH, VIII ZR 300/21). Tutarı önceden dikkatle hesaplayın ve danışmanlık alın.",
+      "risks": "Kısmi bir onay da kesindir. Onayladığınız kira kararlaştırılmış sayılır. Geri kalan kısım için ev sahibi yine de mahkemede dava açabilir. Bu nedenle yalnızca doğru olduğundan emin olduğunuz tutarı onaylayın. Sonra istenen tutarın tamamını değil, yalnızca bu tutarı ödeyin. Otomatik ödeme (Lastschrift) varsa hesabınızı kontrol edin. Kira sözleşmenizi Haziran 2015'ten itibaren yaptıysanız, önce kira frenini (Mietpreisbremse) kontrol edin: Onaydan sonra yeni kiraya karşı ilke olarak artık kira frenine dayanamazsınız (BGH, VIII ZR 300/21). Tutarı önceden dikkatle hesaplayın ve danışmanlık alın.",
       "explain": "Bu mektupla ev sahibinin istediğinden daha küçük bir artışı onaylarsınız. Şu anki net kiranızı, onayladığınız kirayı ve tarihi girin. Ev sahibinden farklı gördüğünüz özellikleri belirtebilirsiniz. Ama bunu yapmak zorunda değilsiniz. Mektuptaki liste açıkça „nicht abschließend“ (tam liste değildir) olarak belirtilir: Daha sonra başka noktalar da söyleyebilirsiniz. Mektup, kira sözleşmesinde başka hiçbir şeyin değişmediğini açıkça söyler."
     },
     "ablehnung": {
@@ -647,7 +647,7 @@
       "questions": "Başka sorular",
       "own_text": "Kendi ekiniz",
       "tenant_name_help": "Kira sözleşmesinde yazdığı gibi. Sözleşmeyi birden fazla kişi imzaladıysa, herkes imzalamalıdır.",
-      "received_help": "Bu, tüm süreler için önemlidir. Tarihi not edin ve zarfı saklayın.",
+      "received_help": "Tüm süreler bu güne göre hesaplanır. Tarihi not edin ve zarfı saklayın.",
       "contract_number_help": "Çoğu zaman ev sahibinin yazısının üst kısmında yazar.",
       "agreed_rent_help": "Yalnızca doğru olduğundan emin olduğunuz bir tutar girin. Bu tutarla bağlısınız.",
       "effective_help": "Ev sahibinin yazısındaki tarihi girin. Yeni kira en erken, yazının size ulaşmasından sonraki üçüncü takvim ayının başından itibaren geçerlidir. Ayrıca kira o gün 15 aydır değişmemiş olmalıdır, yoksa daha geç bir gün geçerlidir. ‚Süreleri ve sınırları kontrol et‘ bu alanı bu günlerin en geç olanıyla doldurur. Kontrol edin.",
@@ -662,7 +662,7 @@
     },
     "send": {
       "title": "Mektubu böyle gönderin",
-      "text": "Mektubu imzalayın. Mektubu, daha sonra ulaştığını gösterebileceğiniz bir şekilde gönderin: örneğin Einwurf-Einschreiben (posta kutusuna teslimli taahhütlü mektup) ile ya da mektubu bir tanıkla birlikte teslim edin. Bir kopyasını saklayın. Mektup, süreniz dolmadan önce ulaşmalıdır."
+      "text": "Mektubu imzalayın ve daha sonra ulaştığını gösterebileceğiniz bir şekilde gönderin: örneğin Einwurf-Einschreiben (posta kutusuna teslimli taahhütlü mektup) ile ya da mektubu bir tanıkla birlikte teslim edin. Bir kopyasını saklayın. Mektup, süreniz dolmadan önce ulaşmalıdır."
     }
   },
   "rules": {
@@ -692,7 +692,7 @@
     },
     "termination_declare_by": {
       "title": "Olağanüstü fesih: yaygın yoruma göre süre",
-      "text": "Bir kira artışı talebinden sonra, yazının size ulaşmasından sonraki ikinci ayın bitimine kadar olağanüstü fesih (außerordentliche Kündigung) yapabilirsiniz (§ 561 BGB). Burada gösterilen tarih, ikinci takvim ayının sonudur. Bu yorumun resmî bir kaynakta doğrulandığını bulamadık. Daha iyisi güvenli tarihi kullanın. Burada da tarihi bir iş gününe kaydırmıyoruz."
+      "text": "Bir kira artışı talebinden sonra, yazının size ulaşmasından sonraki ikinci ayın bitimine kadar olağanüstü fesih (außerordentliche Kündigung) yapabilirsiniz (§ 561 BGB). Burada gösterilen tarih, ikinci takvim ayının sonudur. Bu yorumun resmî bir kaynakta doğrulandığını bulamadık. En iyisi güvenli tarihi kullanın. Burada da tarihi bir iş gününe kaydırmıyoruz."
     },
     "termination_safe_by": {
       "title": "Olağanüstü fesih: güvenli tarih",
@@ -756,7 +756,7 @@
     },
     "mietpreisbremse_after_consent": {
       "title": "Onaydan önce kira frenini kontrol edin",
-      "text": "Kira sözleşmenizi Haziran 2015'ten itibaren mi yaptınız ve kira başlangıçta belki çok yüksek miydi? Bunu cevap vermeden önce kontrol edin. Bir artışı onaylarsanız, yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı o zaman ilke olarak artık kira frenine (Mietpreisbremse) dayanamazsınız (BGH, VIII ZR 300/21)."
+      "text": "Kira sözleşmenizi Haziran 2015'ten itibaren mi yaptınız ve kira başlangıçta belki çok yüksek miydi? Bunu cevap vermeden önce kontrol edin. Bir artışı onaylarsanız, yeni kira kararlaştırılmış sayılır. Bu yeni kiraya karşı ilke olarak artık kira frenine (Mietpreisbremse) dayanamazsınız (BGH, VIII ZR 300/21)."
     },
     "consent_deadline_193": {
       "title": "Onay süresi: bir sonraki iş günü",

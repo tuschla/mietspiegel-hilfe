@@ -1,6 +1,6 @@
 +++
 title = "خصائص دليل التوجيه 2024"
-description = "كل خصائص دليل التوجيه (Orientierungshilfe) لجدول الإيجارات في برلين 2024، بشرح بسيط، لزيادات الإيجار الأقدم ولكابح الإيجارات (Mietpreisbremse)."
+description = "كل خصائص دليل التوجيه (Orientierungshilfe) لجدول الإيجارات في برلين 2024، بلغة بسيطة، لزيادات الإيجار الأقدم ولكابح الإيجارات (Mietpreisbremse)."
 template = "merkmale.html"
 weight = 21
 [extra]

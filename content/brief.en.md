@@ -11,15 +11,15 @@ nav = true
 
 In these cases, do **not** simply stop paying. Get advice: [Help and advice](@/hilfe.en.md). More on this: [Does this page apply to your letter?](@/mieterhoehung.en.md)
 
-With this page you create a letter to your landlord. The letter is always in German. You see the explanations for it in your language.
+On this page you create a letter to your landlord. The letter is always in German. The explanations are in your language.
 
-Please note:
+This applies to all letters:
 
 - The letters are templates. You fill them in with your own details. We do not check your case.
 - Read the letter carefully before you send it. Do not write anything in it that is not true.
-- You cannot take back a consent later, not even a partial one. The new rent then counts as agreed. As a rule, you can then no longer rely on the rent brake (Mietpreisbremse) against this new rent. Before you consent, it is best to get free advice: [Help and advice](@/hilfe.en.md).
-- Did the check show a problem, for example an increase that came too early or a rent that is too high? Then do not consent before you have got advice.
+- You cannot take back a consent later, not even a partial one. The new rent then counts as agreed. As a rule, you can then no longer rely on the rent brake (Mietpreisbremse) against this new rent. Get free advice before you consent: [Help and advice](@/hilfe.en.md).
+- Did the check show a problem, for example an increase that came too early or a rent that is too high? Then get advice before you consent.
 - Do not sign the landlord’s form if you do not understand everything on it. Our letter templates only concern the rent increase and nothing else in your tenancy agreement.
-- We do not check anything in the field „Eigener Zusatz“ (your own addition). Your text goes into the letter unchanged. Do not write any conditions or a counter-offer there („nur wenn …“, “only if …”). Then a consent can count as a refusal.
+- We do not check anything in the field „Eigener Zusatz“ (your own addition). Your text goes into the letter unchanged. Do not write any conditions or a counter-offer there („nur wenn …“, “only if …”). A consent with conditions can count as a refusal.
 - Send the letter in a way that lets you show later that it arrived, for example by registered mail with proof of delivery (Einwurf-Einschreiben) or by handing it over with a witness. Keep a copy.
 - If several people signed the tenancy agreement, all of them should sign the letter. Then change „ich“ (I) to „wir“ (we).

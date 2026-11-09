@@ -4,7 +4,7 @@ description = "Bezpłatna pomoc dla najemców w Berlinie: zrozum zwierciadło cz
 template = "index.html"
 +++
 
-Masz pismo o podwyżce czynszu? Albo chcesz wiedzieć, czy twój czynsz pasuje do zwierciadła czynszów (Mietspiegel)? Ta strona pomoże ci krok po kroku.
+Masz pismo o podwyżce czynszu? Albo chcesz wiedzieć, czy twój czynsz pasuje do zwierciadła czynszów (Mietspiegel)? Tutaj sprawdzisz jedno i drugie.
 
 Wszystkie obliczenia odbywają się tylko w twojej przeglądarce. Twoje dane nie są wysyłane ani do nas, ani do nikogo innego.
 
