@@ -61,7 +61,7 @@ function stepChoose() {
           tp.risk ? h("span", { class: `letter-pick__risk risk--${tp.risk}` }, t(`risk_${tp.risk}`)) : null,
           when ? h("span", { class: "field__hint", ...cl }, h("br"), when) : null));
     }));
-  return step(1, t("letter_step_choose"), paras(c("letters.intro.text") || t("letter_intro")), list);
+  return step(1, t("letter_step_choose"), list);
 }
 
 /* ---------------- step 2: explanation + warnings ---------------- */
@@ -207,8 +207,7 @@ function stepLetter() {
       h("button", { type: "button", class: "btn btn--secondary", onclick: () => { download(fname(), sheet.value); status.textContent = t("downloaded"); } }, t("download_txt")),
       h("button", { type: "button", class: "btn btn--secondary", onclick: () => window.print() }, t("print"))),
     status,
-    callout("warn", c("letters.send.title") || t("letter_send_title"), paras(c("letters.send.text") || t("letter_send_text"))),
-    h("p", { class: "store-note" }, t("store_note")));
+    callout("warn", c("letters.send.title") || t("letter_send_title"), paras(c("letters.send.text") || t("letter_send_text"))));
 }
 
 function renderChosen() {

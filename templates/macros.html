@@ -25,3 +25,15 @@
 {%- for p in text | split(pat="\n\n") -%}{%- if p | trim -%}<p{% if class %} class="{{ class }}"{% endif %}>{{ p | trim | escape | linebreaksbr | safe }}</p>{%- endif -%}{%- endfor -%}
 {%- endif -%}
 {%- endmacro paras %}
+
+{#- One numbered step of the start page path (templates/index.html). -#}
+{% macro entry(num, url, title, text) -%}
+<li>
+    <a class="entry" href="{{ url }}">
+      <span class="entry__num" aria-hidden="true">{{ num }}</span>
+      <span class="entry__title">{{ title }}</span>
+      <span class="entry__text">{{ text }}</span>
+      <span class="entry__go" aria-hidden="true">→</span>
+    </a>
+  </li>
+{%- endmacro entry %}

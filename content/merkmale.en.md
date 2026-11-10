@@ -8,11 +8,6 @@ year = 2026
 nav = true
 +++
 
-Here you can find all features of the Orientierungshilfe (orientation guide) for the Berlin rent index (Mietspiegel) 2026. For each feature, the official text comes first. Below it, we explain in plain language what it means, how you can check it in your flat and what you would have to prove in a dispute.
+Only the fittings the landlord provided count. If you installed something yourself and the landlord did not pay you back the costs, it does not count (Mietspiegel No. 6.3).
 
-Two rules apply to all features:
-
-- Only the fittings the landlord provided count. If you installed something yourself and the landlord did not pay you back the costs, it does not count. This is what the Mietspiegel says (No. 6.3).
-- Our explanations are not an official translation. Only the official German text is binding.
-
-For a rent increase that reached you from 30.05.2024 up to and including 27.05.2026, the [Mietspiegel 2024](@/merkmale-2024.en.md) usually applies. If it reached you on or after 01.09.2025, also read the note under [Which Mietspiegel applies?](@/mieterhoehung.en.md).
+For a rent increase that reached you from 30.05.2024 up to and including 27.05.2026, the [Mietspiegel 2024](@/merkmale-2024.en.md) usually applies. If it reached you on or after 01.09.2025, also read [Which Mietspiegel applies?](@/mieterhoehung.en.md).

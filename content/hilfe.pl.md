@@ -7,37 +7,37 @@ weight = 70
 nav = true
 +++
 
-Ta strona podaje tylko ogólne informacje. Zanim zgodzisz się na podwyżkę czynszu albo wyślesz list, najlepiej skorzystaj z porady. Tutaj znajdziesz miejsca w Berlinie. Stan informacji: 17.10.2026. Sprawdź godziny i adresy na podlinkowanych stronach. Te informacje mogą się zmienić.
+Stan: 17.10.2026. Godziny i adresy mogą się zmienić. Sprawdź je na podlinkowanych stronach.
 
 ## Bezpłatnie
 
 ### Porady dla najemców w twojej dzielnicy (Mieterberatung im Bezirk)
 
-Wszystkie dzielnice Berlina mają otwarte porady dla najemców. Wszyscy najemcy z danej dzielnicy mogą z nich korzystać bezpłatnie, na przykład przy pytaniach o podwyżkę czynszu. Nie reprezentują cię w sądzie. Listę dzielnic z linkami znajdziesz na stronie Senatu:
+Każda dzielnica Berlina ma otwarte porady dla najemców, bezpłatne dla wszystkich najemców z dzielnicy. Nie reprezentują cię w sądzie. Lista dzielnic z linkami na stronie Senatu:
 <https://www.berlin.de/sen/wohnen/service/serviceadressen/mieterberatungen-in-den-bezirken/>
 
 ### Telefon informacyjny Senatu w sprawie czynszu (Servicetelefon Miete)
 
-Pytania o berlińskie zwierciadło czynszów (Mietspiegel) i o czynsz: (030) 90173 3860. Na pytania z prawa najmu odpowiadają porady w dzielnicach.
+(030) 90173 3860: pytania o berlińskie zwierciadło czynszów (Mietspiegel) i o czynsz. Na pytania z prawa najmu odpowiadają porady w dzielnicach.
 
 ### Mietpreisprüfstelle Berlin (urząd sprawdzający wysokość czynszu)
 
-Bezpłatna pierwsza porada kraju związkowego Berlin dla wszystkich berlińskich gospodarstw domowych, które wynajmują mieszkanie, jeśli podejrzewasz, że twój czynsz jest za wysoki, na przykład z powodu hamulca czynszowego (Mietpreisbremse). Porada tylko po umówieniu terminu. Informacje także po angielsku.
+Bezpłatna pierwsza porada kraju związkowego Berlin dla wszystkich berlińskich gospodarstw domowych, które wynajmują mieszkanie, jeśli twój czynsz jest być może za wysoki, na przykład z powodu hamulca czynszowego (Mietpreisbremse). Tylko po umówieniu terminu. Informacje także po angielsku.
 <https://www.berlin.de/mietpreispruefstelle>
 
 ### Porady w wielu językach
 
-Centrum Powitalne (Willkommenszentrum) pełnomocniczki Senatu ds. integracji ma wyszukiwarkę poradni. Możesz tam szukać według tematu „Housing” (mieszkanie) i według swojego języka (strona po angielsku):
+W Centrum Powitalnym (Willkommenszentrum) pełnomocniczki Senatu ds. integracji możesz szukać poradni według tematu „Housing” (mieszkanie) i według swojego języka (strona po angielsku):
 <https://willkommenszentrum.berlin.de/en/counseling-centers>
 
 ## Dla najemców spółek mieszkaniowych należących do Berlina
 
-Najemcom degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM i ich spółek zależnych pomaga rzecznik najemców: Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen. W przypadku berlinovo rzecznik zajmuje się tylko „klasycznymi” mieszkaniami na wynajem, które należą do samej berlinovo, a nie mieszkaniami jej spółek funduszowych. Doradza w sprawie umowy o współpracy (Kooperationsvereinbarung) i obietnicy przystępności czynszu (Leistbarkeitsversprechen), po niemiecku i po angielsku. Nie doradza w ogólnych sprawach prawa najmu.
+Rzecznik najemców spółek mieszkaniowych należących do Berlina (Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen) zajmuje się najemcami degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM i ich spółek zależnych. W przypadku berlinovo zajmuje się tylko „klasycznymi” mieszkaniami na wynajem, które należą do samej berlinovo, a nie mieszkaniami jej spółek funduszowych. Doradza po niemiecku i po angielsku w sprawie umowy o współpracy (Kooperationsvereinbarung) i obietnicy przystępności czynszu (Leistbarkeitsversprechen), nie w ogólnych sprawach prawa najmu.
 <https://www.ombud-lwu.de/>
 
 ## Stowarzyszenia lokatorów (Mietervereine, ze składką członkowską)
 
-Stowarzyszenia lokatorów doradzają swoim członkom. Płacisz za to składkę członkowską. Wiele z nich oferuje też ubezpieczenie kosztów procesu sądowego. Składki i warunki znajdziesz na stronach internetowych stowarzyszeń. Przed wstąpieniem zapytaj o koszty, czas oczekiwania i minimalny okres członkostwa.
+Stowarzyszenia lokatorów doradzają swoim członkom. Wiele z nich oferuje też ubezpieczenie kosztów procesu sądowego. Przed wstąpieniem zapytaj o składkę, warunki, czas oczekiwania i minimalny okres członkostwa.
 
 - Berliner Mieterverein: <https://www.berliner-mieterverein.de>
 - Berliner MieterGemeinschaft: <https://www.bmgev.de>
@@ -47,6 +47,6 @@ Stowarzyszenia lokatorów doradzają swoim członkom. Płacisz za to składkę c
 
 ## Adwokatki i adwokaci (Rechtsanwältinnen und Rechtsanwälte)
 
-W sprawie procesu sądowego albo sprawdzenia twojej konkretnej sprawy możesz zwrócić się do adwokatki lub adwokata od prawa najmu. To kosztuje, jeśli nie masz ubezpieczenia ochrony prawnej (Rechtsschutzversicherung). Jeśli masz mało pieniędzy, możesz złożyć w sądzie rejonowym (Amtsgericht) wniosek o pomoc w uzyskaniu porady (Beratungshilfe, Beratungshilfegesetz). Na proces sądowy istnieje pomoc w pokryciu kosztów procesu (Prozesskostenhilfe, § 114 ZPO). Jeśli przegrasz proces, i tak musisz zapłacić koszty wynajmującego (§ 123 ZPO).
+W sprawie procesu sądowego albo sprawdzenia twojej konkretnej sprawy są adwokatki i adwokaci od prawa najmu. Bez ubezpieczenia ochrony prawnej (Rechtsschutzversicherung) to kosztuje. Jeśli masz mało pieniędzy, możesz złożyć w sądzie rejonowym (Amtsgericht) wniosek o pomoc w uzyskaniu porady (Beratungshilfe, Beratungshilfegesetz). Na proces sądowy istnieje pomoc w pokryciu kosztów procesu (Prozesskostenhilfe, § 114 ZPO). Jeśli przegrasz proces, i tak musisz zapłacić koszty wynajmującego (§ 123 ZPO).
 
 Verbraucherzentrale Berlin (centrala konsumencka) według własnych informacji nie doradza w sprawach prawa najmu.

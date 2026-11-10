@@ -1,25 +1,14 @@
 +++
 title = "Cevap mektubu oluşturun"
-description = "Ev sahibinize Almanca bir cevap mektubu oluşturun. Açıklamalar sizin dilinizde."
+description = "Ev sahibinize bir cevap mektubu: Anlaması için Almanca, açıklamalar sizin dilinizde."
 template = "brief.html"
 weight = 40
 [extra]
 nav = true
 +++
 
-**Bu sizin için geçerli mi?** Bu sayfa yalnızca ev sahibiniz sizden daha yüksek bir kirayı onaylamanızı (Zustimmung) istiyorsa geçerlidir (§ 558 BGB'ye göre kira artışı). Şu durumlarda geçerli değildir: modernizasyondan sonraki bir artış, yan giderler (Betriebskosten) için yeni avans ödemeleri, endeksli kira (Indexmiete) veya kademeli kira (Staffelmiete) ve „Kostenmiete“ (maliyet kirası) olan eski bir sosyal konut. O zaman yüksek kirayı çoğu zaman onay vermeden de ödemek zorundasınız. Ev sahibinin dairesindeki eşyalı bir oda, yalnızca geçici kullanım için kiralanan bir daire veya bir öğrenci ya da gençlik yurdu için de geçerli değildir. Orada kira artışıyla ilgili kurallar geçerli değildir.
+**Yalnızca onaylamanız (Zustimmung) istenen bir kira artışı için (§ 558 BGB).** Modernizasyonda, yan giderler (Betriebskosten) için yeni avans ödemelerinde, endeksli kira (Indexmiete) veya kademeli kirada (Staffelmiete) ve „Kostenmiete“ (maliyet kirası) durumunda daha yüksek kirayı çoğu zaman onayınız olmadan da ödemek zorundasınız; ev sahibinin dairesindeki eşyalı bir odada, yalnızca geçici kullanım için kiralanan bir dairede veya yurtta ise kira artışı kuralları geçerli değildir ([daha fazla](@/mieterhoehung.tr.md)). O zaman ödemeyi öylece durdurmayın.
 
-Bu durumlarda ödemeyi öylece **durdurmayın**. Danışmanlık alın: [Yardım ve danışmanlık](@/hilfe.tr.md). Daha fazlası: [Bu sayfa mektubunuz için geçerli mi?](@/mieterhoehung.tr.md)
-
-Bu sayfayla ev sahibinize bir mektup oluşturursunuz. Mektup her zaman Almancadır. Açıklamaları kendi dilinizde görürsünüz.
-
-Tüm mektuplar için:
-
-- Mektuplar örnektir. Onları kendi bilgilerinizle doldurursunuz. Durumunuzu biz kontrol etmiyoruz.
-- Göndermeden önce mektubu dikkatle okuyun. Doğru olmayan hiçbir şey yazmayın.
-- Bir onayı, kısmi onay da olsa, daha sonra geri alamazsınız. Yeni kira o zaman kararlaştırılmış sayılır. Bu yeni kiraya karşı ilke olarak artık kira frenine (Mietpreisbremse) dayanamazsınız. Onay vermeden önce en iyisi ücretsiz danışmanlık alın: [Yardım ve danışmanlık](@/hilfe.tr.md).
-- Kontrol bir sorun mu gösterdi, örneğin çok erken bir artış veya çok yüksek bir kira? O zaman danışmanlık almadan onay vermeyin.
-- Ev sahibinin formundaki her şeyi anlamıyorsanız, formu imzalamayın. Bizim mektup şablonlarımız yalnızca kira artışıyla ilgilidir, kira sözleşmenizdeki başka hiçbir şeyle ilgili değildir.
-- „Kendi ekiniz“ alanında hiçbir şeyi kontrol etmiyoruz. Metniniz mektuba değiştirilmeden girer. Oraya koşul ve karşı teklif yazmayın („nur wenn …“ = „yalnızca … ise“). Yoksa bir onay, ret sayılabilir.
-- Mektubu, daha sonra ulaştığını gösterebileceğiniz şekilde gönderin; örneğin Einwurf-Einschreiben (posta kutusuna teslimli taahhütlü mektup) ile veya bir tanığın yanında teslim ederek. Bir kopyasını saklayın.
-- Kira sözleşmesini birden fazla kişi imzaladıysa, mektubu herkes imzalamalıdır. Mektupta „ich“ (ben) yerine „wir“ (biz) yazın.
+- Göndermeden önce ücretsiz [danışmanlık](@/hilfe.tr.md) alın. Cevabınızın sonuçları: [Onay vermek, kısmen onay vermek, reddetmek](@/mieterhoehung.tr.md).
+- Mektubu dikkatle okuyun ve doğru olmayan hiçbir şey yazmayın.
+- Birden fazla kişi imzalıyorsa, „ich“ (ben) yerine „wir“ (biz) yazın.

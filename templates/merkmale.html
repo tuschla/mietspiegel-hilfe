@@ -45,6 +45,18 @@
   <div lang="de" dir="ltr">{{ m::paras(text=ms.rules_de, class="official") }}</div>
 </details>
 
+{#- shared notes for all features, shown once: group netting and burden of proof (content rules.*) -#}
+<div class="callout">
+{%- for k in ["netting", "burden_of_proof"] %}
+  {%- set rt = cx.rules[k].title | default(value=cde.rules[k].title | default(value="")) %}
+  {%- set rx = cx.rules[k].text | default(value=cde.rules[k].text | default(value="")) %}
+  {%- if rx %}
+  <p class="callout__title"{{ cl | safe }}>{{ rt }}</p>
+  <div{{ cl | safe }}>{{ m::paras(text=rx) }}</div>
+  {%- endif %}
+{%- endfor %}
+</div>
+
 <nav aria-label="{{ ui.merkmale_toc_label }}">
   <ul class="toc">
   {%- for g in ms.groups %}

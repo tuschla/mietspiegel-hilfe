@@ -1,25 +1,14 @@
 +++
 title = "Antwort-Brief erstellen"
-description = "Erstellen Sie einen Antwort-Brief an Ihren Vermieter auf Deutsch, mit Erklärungen in Ihrer Sprache."
+description = "Ein Antwort-Brief an Ihren Vermieter: auf Deutsch, damit er ihn versteht, mit Erklärungen in Ihrer Sprache."
 template = "brief.html"
 weight = 40
 [extra]
 nav = true
 +++
 
-**Gilt das für Sie?** Diese Seite gilt nur, wenn Ihr Vermieter Sie bittet, einer höheren Miete zuzustimmen (Mieterhöhung nach § 558 BGB). Sie gilt nicht bei einer Erhöhung nach Modernisierung, bei neuen Vorauszahlungen für Betriebskosten, bei Index- oder Staffelmiete und in einer alten Sozialwohnung mit „Kostenmiete“. Dann müssen Sie die höhere Miete meist auch ohne Zustimmung zahlen. Sie gilt auch nicht für ein möbliertes Zimmer in der Wohnung des Vermieters, eine Wohnung nur zum vorübergehenden Gebrauch oder ein Studenten- oder Jugendwohnheim. Dort gelten die Regeln zur Mieterhöhung nicht.
+**Nur für eine Mieterhöhung, der Sie zustimmen sollen (§ 558 BGB).** Bei Modernisierung, neuen Vorauszahlungen für Betriebskosten, Index- oder Staffelmiete und „Kostenmiete“ schulden Sie die höhere Miete meist auch ohne Zustimmung; bei möbliertem Zimmer beim Vermieter, Wohnung zum vorübergehenden Gebrauch oder Wohnheim gelten die Regeln zur Mieterhöhung nicht ([mehr](@/mieterhoehung.md)). Hören Sie dann nicht einfach auf zu zahlen.
 
-Hören Sie in diesen Fällen **nicht** einfach auf zu zahlen. Lassen Sie sich beraten: [Hilfe und Beratung](@/hilfe.md). Mehr dazu: [Gilt diese Seite für Ihren Brief?](@/mieterhoehung.md)
-
-Mit dieser Seite erstellen Sie einen Brief an Ihren Vermieter. Der Brief ist immer auf Deutsch. Die Erklärungen dazu sehen Sie in Ihrer Sprache.
-
-Für alle Briefe gilt:
-
-- Die Briefe sind Muster. Sie füllen sie mit Ihren eigenen Angaben aus. Wir prüfen Ihren Fall nicht.
-- Lesen Sie den Brief genau, bevor Sie ihn abschicken. Schreiben Sie nichts hinein, was nicht stimmt.
-- Eine Zustimmung, auch eine teilweise, können Sie später nicht zurücknehmen. Die neue Miete gilt dann als vereinbart. Gegen diese neue Miete können Sie sich danach grundsätzlich nicht mehr auf die Mietpreisbremse berufen. Lassen Sie sich vor einer Zustimmung am besten kostenlos beraten: [Hilfe und Beratung](@/hilfe.md).
-- Hat die Prüfung ein Problem gezeigt, zum Beispiel eine zu frühe Erhöhung oder eine zu hohe Miete? Dann lassen Sie sich beraten, bevor Sie zustimmen.
-- Unterschreiben Sie nicht das Formular des Vermieters, wenn Sie nicht alles darauf verstehen. Unsere Briefvorlagen betreffen nur die Mieterhöhung und nichts anderes in Ihrem Mietvertrag.
-- Im Feld „Eigener Zusatz“ prüfen wir nichts. Ihr Text kommt unverändert in den Brief. Schreiben Sie dort keine Bedingungen und kein Gegenangebot („nur wenn …“). Dann kann eine Zustimmung als Ablehnung gelten.
-- Schicken Sie den Brief so, dass Sie später zeigen können, dass er angekommen ist, zum Beispiel per Einwurf-Einschreiben oder Übergabe mit einer Zeugin oder einem Zeugen. Behalten Sie eine Kopie.
-- Haben mehrere Personen den Mietvertrag unterschrieben, sollten alle den Brief unterschreiben. Ändern Sie dann „ich“ in „wir“.
+- Lassen Sie sich vor dem Abschicken kostenlos [beraten](@/hilfe.md). Was Ihre Antwort bewirkt: [Zustimmen, teilweise zustimmen, ablehnen](@/mieterhoehung.md).
+- Lesen Sie den Brief genau und schreiben Sie nichts hinein, was nicht stimmt.
+- Unterschreiben mehrere Personen, ändern Sie „ich“ in „wir“.

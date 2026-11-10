@@ -7,37 +7,37 @@ weight = 70
 nav = true
 +++
 
-Diese Website gibt nur allgemeine Informationen. Bevor Sie einer Mieterhöhung zustimmen oder einen Brief abschicken, lassen Sie sich am besten beraten. Auf dieser Seite stehen Beratungsstellen in Berlin. Stand der Angaben: 17.10.2026. Zeiten und Orte können sich ändern. Prüfen Sie sie auf den verlinkten Seiten.
+Stand: 17.10.2026. Zeiten und Orte können sich ändern. Prüfen Sie sie auf den verlinkten Seiten.
 
 ## Kostenlos
 
 ### Mieterberatung in Ihrem Bezirk
 
-Alle Berliner Bezirke haben offene Mieterberatungen. Alle Mieterinnen und Mieter des Bezirks können sie kostenlos nutzen, zum Beispiel bei Fragen zur Mieterhöhung. Vor Gericht vertreten sie Sie nicht. Die Liste der Bezirke mit Links finden Sie beim Senat:
+Jeder Berliner Bezirk hat offene Mieterberatungen, kostenlos für alle Mieterinnen und Mieter des Bezirks. Vor Gericht vertreten sie Sie nicht. Liste der Bezirke mit Links beim Senat:
 <https://www.berlin.de/sen/wohnen/service/serviceadressen/mieterberatungen-in-den-bezirken/>
 
 ### Servicetelefon Miete des Senats
 
-Fragen zum Berliner Mietspiegel und zur Miete: (030) 90173 3860. Mietrechtsfragen beantworten die Beratungen in den Bezirken.
+(030) 90173 3860 für Fragen zum Berliner Mietspiegel und zur Miete. Mietrechtsfragen beantworten die Beratungen in den Bezirken.
 
 ### Mietpreisprüfstelle Berlin
 
-Kostenlose Erstberatung des Landes Berlin für alle Berliner Mieterhaushalte, wenn Sie vermuten, dass Ihre Miete zu hoch ist, zum Beispiel wegen der Mietpreisbremse. Beratung nur mit Termin. Informationen auch auf Englisch.
+Kostenlose Erstberatung des Landes Berlin für alle Berliner Mieterhaushalte, wenn Ihre Miete vielleicht zu hoch ist, zum Beispiel wegen der Mietpreisbremse. Nur mit Termin. Informationen auch auf Englisch.
 <https://www.berlin.de/mietpreispruefstelle>
 
 ### Beratung in mehreren Sprachen
 
-Das Willkommenszentrum der Integrationsbeauftragten des Senats hat eine Suche nach Beratungsstellen. Sie können dort nach dem Thema „Wohnen“ und nach Ihrer Sprache suchen:
+Beim Willkommenszentrum der Integrationsbeauftragten des Senats können Sie Beratungsstellen nach dem Thema „Wohnen“ und nach Ihrer Sprache suchen:
 <https://willkommenszentrum.berlin.de/beratungsstellen>
 
 ## Für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen
 
-Die Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen ist für die Mieterinnen und Mieter von degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM und ihren Tochtergesellschaften da. Bei der berlinovo ist sie nur für die „klassischen“ Mietwohnungen zuständig, die der berlinovo selbst gehören, nicht für Wohnungen ihrer Fondsgesellschaften. Sie berät zur Kooperationsvereinbarung und zum Leistbarkeitsversprechen, auf Deutsch und Englisch. Allgemeine Mietrechtsfragen berät sie nicht.
+Die Ombudsstelle für Mieterinnen und Mieter der landeseigenen Wohnungsunternehmen ist zuständig für Mieterinnen und Mieter von degewo, GESOBAU, Gewobag, HOWOGE, STADT UND LAND, WBM und ihren Tochtergesellschaften. Bei der berlinovo ist sie nur für die „klassischen“ Mietwohnungen zuständig, die der berlinovo selbst gehören, nicht für Wohnungen ihrer Fondsgesellschaften. Sie berät auf Deutsch und Englisch zur Kooperationsvereinbarung und zum Leistbarkeitsversprechen, nicht zu allgemeinen Mietrechtsfragen.
 <https://www.ombud-lwu.de/>
 
 ## Mietervereine (mit Mitgliedsbeitrag)
 
-Mietervereine beraten ihre Mitglieder. Dafür zahlen Sie einen Mitgliedsbeitrag. Viele bieten auch eine Versicherung für die Kosten eines Prozesses an. Die Beiträge und Bedingungen finden Sie auf den Websites der Vereine. Fragen Sie vor dem Beitritt nach Kosten, Wartezeiten und Mindestdauer.
+Mietervereine beraten ihre Mitglieder. Viele bieten auch eine Versicherung für die Kosten eines Prozesses an. Fragen Sie vor dem Beitritt nach Beitrag, Bedingungen, Wartezeiten und Mindestdauer.
 
 - Berliner Mieterverein: <https://www.berliner-mieterverein.de>
 - Berliner MieterGemeinschaft: <https://www.bmgev.de>
@@ -47,6 +47,6 @@ Mietervereine beraten ihre Mitglieder. Dafür zahlen Sie einen Mitgliedsbeitrag.
 
 ## Rechtsanwältinnen und Rechtsanwälte
 
-Für einen Prozess oder eine Prüfung Ihres Einzelfalls können Sie sich an eine Anwältin oder einen Anwalt für Mietrecht wenden. Das kostet Geld, wenn Sie keine Rechtsschutzversicherung haben. Haben Sie wenig Geld, können Sie beim Amtsgericht Beratungshilfe für eine Beratung beantragen (Beratungshilfegesetz). Für einen Prozess gibt es Prozesskostenhilfe (§ 114 ZPO). Verlieren Sie den Prozess, müssen Sie die Kosten des Vermieters trotzdem zahlen (§ 123 ZPO).
+Für einen Prozess oder die Prüfung Ihres Einzelfalls gibt es Anwältinnen und Anwälte für Mietrecht. Ohne Rechtsschutzversicherung kostet das Geld. Mit wenig Geld können Sie beim Amtsgericht Beratungshilfe für eine Beratung beantragen (Beratungshilfegesetz). Für einen Prozess gibt es Prozesskostenhilfe (§ 114 ZPO). Verlieren Sie den Prozess, müssen Sie die Kosten des Vermieters trotzdem zahlen (§ 123 ZPO).
 
 Die Verbraucherzentrale Berlin berät nach eigenen Angaben nicht zum Mietrecht.

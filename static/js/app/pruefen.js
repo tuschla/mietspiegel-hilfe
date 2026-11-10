@@ -114,7 +114,7 @@ function formStep() {
     h("input", { type: "checkbox", checked: Boolean(s.lwu), onchange: (e) => { s.lwu = e.target.checked; store.set("check", s); update(); } }),
     h("span", {}, t("chk_in_lwu"), " ", h("small", { lang: "de" }, `(${lwuNames})`))) : null;
   const disclaimer = c("checker.disclaimer");
-  return step(2, t("chk_step_input"), paras(c("checker.intro") || t("chk_intro")),
+  return step(2, t("chk_step_input"),
     disclaimer ? callout("warn", null, paras(disclaimer)) : null,
     h("form", { onsubmit: (e) => e.preventDefault(), novalidate: true }, inputs, lwuBox));
 }
@@ -236,8 +236,7 @@ function update() {
     answer,
     moreBox,
     h("p", { class: "small" }, t("chk_as_of", { date: localDate(rules.as_of, lang) })),
-    h("div", { class: "btn-row" }, next),
-    h("p", { class: "store-note" }, t("store_note")));
+    h("div", { class: "btn-row" }, next));
 }
 
 if (!rules) {
@@ -245,7 +244,7 @@ if (!rules) {
 } else {
   mount(root,
     step(1, t("scope_step"),
-      c("rules.scope.text") ? h("div", cl, paras(c("rules.scope.text"))) : paras(t("scope_intro")),
+      paras(t("scope_intro")),
       scopeForm({ t, withAsk: true, onChange: update }), scopeBox),
     formStep(),
     step(3, t("chk_step_result"), status.el, out));

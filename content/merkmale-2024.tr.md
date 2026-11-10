@@ -1,15 +1,13 @@
 +++
 title = "Orientierungshilfe 2024'ün özellikleri"
-description = "Berlin Mietspiegel 2024'e ait Orientierungshilfe'nin tüm özellikleri, sade bir dille, eski kira artışları ve kira freni için."
+description = "Berlin Mietspiegel 2024'e ait Orientierungshilfe'nin tüm özellikleri, sade bir dille."
 template = "merkmale.html"
 weight = 21
 [extra]
 year = 2024
 +++
 
-Bu sayfa, Berlin Mietspiegel 2024'e (kira tablosu) ait Orientierungshilfe'nin (değerlendirme yardımı) özelliklerini gösterir. Bu tabloya özellikle iki durumda ihtiyacınız olur:
+Bu Mietspiegel'e (kira tablosu) özellikle 30.05.2024 ile 27.05.2026 arasında size ulaşan bir kira artışı talebi (Mieterhöhungsverlangen) için ve kira sözleşmesi bu dönemde başladıysa kira freni (Mietpreisbremse) için ihtiyacınız olur. Daha fazlası: [Hangi Mietspiegel geçerli?](@/mieterhoehung.tr.md) ve [Kira freni](@/mietpreisbremse.tr.md).
 
-- 30.05.2024 ile 27.05.2026 arasında bir kira artışı talebi (Mieterhöhungsverlangen) aldınız.
-- Kira frenini (Mietpreisbremse) kontrol ediyorsunuz ve kira sözleşmeniz bu dönemde başladı.
-
-Özelliklerin çoğu Mietspiegel 2026'daki ile aynıdır. Bazı metinler biraz farklıdır. Bunu özelliklerde belirtiyoruz. Yalnızca resmî Almanca metin bağlayıcıdır.
+- Özelliklerin (Merkmale) çoğu 2026'daki ile aynıdır. Metnin farklı olduğu yerde özelliğin yanında bir not vardır.
+- Yalnızca ev sahibinin sağladığı donanım sayılır, masrafları ödenmeden kendi taktıklarınız sayılmaz.

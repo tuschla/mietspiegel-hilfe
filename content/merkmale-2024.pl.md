@@ -1,15 +1,13 @@
 +++
 title = "Cechy pomocy orientacyjnej 2024"
-description = "Wszystkie cechy pomocy orientacyjnej (Orientierungshilfe) do berlińskiego zwierciadła czynszów 2024, prosto wyjaśnione, dla starszych podwyżek czynszu i dla hamulca czynszowego."
+description = "Wszystkie cechy pomocy orientacyjnej (Orientierungshilfe) do berlińskiego zwierciadła czynszów 2024, prosto wyjaśnione."
 template = "merkmale.html"
 weight = 21
 [extra]
 year = 2024
 +++
 
-Tutaj znajdziesz cechy pomocy orientacyjnej (Orientierungshilfe) do berlińskiego zwierciadła czynszów (Mietspiegel) 2024. Potrzebujesz go przede wszystkim w dwóch sytuacjach:
+To zwierciadło czynszów (Mietspiegel) jest potrzebne przede wszystkim przy żądaniu podwyżki czynszu (Mieterhöhungsverlangen), które dotarło od 30.05.2024 do 27.05.2026, i przy hamulcu czynszowym (Mietpreisbremse), jeśli najem zaczął się w tym czasie. Więcej: [Które zwierciadło czynszów obowiązuje?](@/mieterhoehung.pl.md) i [Hamulec czynszowy](@/mietpreisbremse.pl.md).
 
-- Żądanie podwyżki czynszu (Mieterhöhungsverlangen) dotarło do ciebie między 30.05.2024 a 27.05.2026.
-- Sprawdzasz hamulec czynszowy (Mietpreisbremse), a twoja umowa najmu zaczęła się w tym czasie.
-
-Większość cech jest taka sama jak w Mietspiegel 2026. Niektóre teksty są trochę inne. Zwracamy na to uwagę przy cechach. Wiążący jest tylko urzędowy tekst niemiecki.
+- Większość cech jest taka sama jak w 2026. Tam, gdzie tekst jest inny, przy cesze jest wskazówka.
+- Liczy się tylko wyposażenie, które zapewnił wynajmujący, a nie to, co zamontowano na twój koszt bez zwrotu kosztów.

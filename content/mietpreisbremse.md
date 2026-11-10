@@ -1,57 +1,58 @@
 +++
 title = "Mietpreisbremse: die Grundlagen"
-description = "Wie hoch darf die Miete bei einem neuen Mietvertrag in Berlin sein? Die Grundregeln der Mietpreisbremse in einfacher Sprache."
+description = "Wie hoch darf die Miete zu Beginn eines Mietvertrags in Berlin sein?"
 template = "page.html"
 weight = 60
 [extra]
 nav = true
 +++
 
-Die Mietpreisbremse betrifft die Miete zu Beginn eines Mietvertrags. Sie ist etwas anderes als eine Mieterhöhung während des Mietvertrags. Diese Seite erklärt nur die Grundregeln. Ob sie für Ihre Wohnung gilt, hängt von vielen Einzelheiten ab. Lassen Sie sich beraten.
+Die Mietpreisbremse ist etwas anderes als eine Mieterhöhung während des Mietvertrags. Ob die Mietpreisbremse für Ihre Wohnung gilt, hängt von vielen Einzelheiten ab; lassen Sie sich beraten.
 
 ## Die Grundregel
 
-In Gebieten mit angespanntem Wohnungsmarkt darf die Miete zu Beginn des Mietverhältnisses höchstens 10 % über der ortsüblichen Vergleichsmiete liegen (§ 556d Abs. 1 BGB). Ganz Berlin ist so ein Gebiet. Das regelt die Berliner Mietenbegrenzungsverordnung.
+Wo der Wohnungsmarkt angespannt ist, darf die Miete zu Beginn des Mietverhältnisses höchstens 10 % über der ortsüblichen Vergleichsmiete liegen (§ 556d Abs. 1 BGB). Laut Berliner Mietenbegrenzungsverordnung gilt das in ganz Berlin:
 
-| Verordnung (Fundstelle im Gesetz- und Verordnungsblatt für Berlin = GVBl.) | gilt für Verträge, die abgeschlossen wurden … |
+| Verordnung (GVBl. = Gesetz- und Verordnungsblatt für Berlin) | gilt für Verträge, abgeschlossen … |
 |---|---|
 | vom 28.04.2015 (GVBl. S. 101) | 01.06.2015 bis 31.05.2020 |
 | vom 19.05.2020 (GVBl. S. 343) | 01.06.2020 bis 31.05.2025 |
 | vom 15.04.2025 (GVBl. S. 228) | 01.06.2025 bis 31.12.2025 |
 | vom 11.11.2025 (GVBl. S. 577) | 01.01.2026 bis 31.12.2029 |
 
-Die Höhe wird zum Beginn des Mietverhältnisses gemessen. Stand: 17.10.2026. Nach Bundesrecht muss eine solche Verordnung spätestens mit Ablauf des 31.12.2029 enden (§ 556d Abs. 2 BGB).
+Stand: 17.10.2026. Spätestens mit Ablauf des 31.12.2029 muss eine solche Verordnung enden (§ 556d Abs. 2 BGB).
 
 ## Welcher Mietspiegel?
 
-Es kommt auf die übliche Miete zu Beginn Ihres Mietverhältnisses an (§ 556d Abs. 1 BGB). Als Anhaltspunkt dient deshalb nach unserem Verständnis der Mietspiegel, der zu diesem Zeitpunkt galt:
+Anhaltspunkt für die übliche Miete zu Beginn Ihres Mietverhältnisses (§ 556d Abs. 1 BGB) ist nach unserem Verständnis der Mietspiegel, der damals galt:
 
-- Beginn vor dem 30.05.2024: ein älterer Mietspiegel. Unser Rechner kennt ihn nicht. Ältere Mietspiegel ab 2017: <https://mietspiegel.berlin.de/berliner-mietspiegel/archiv/>
+- Beginn vor dem 30.05.2024: ein älterer Mietspiegel (ab 2017: <https://mietspiegel.berlin.de/berliner-mietspiegel/archiv/>). Unser Rechner kennt ihn nicht.
 - Beginn vom 30.05.2024 bis 27.05.2026: [Mietspiegel 2024](@/merkmale-2024.md)
 - Beginn ab 28.05.2026: [Mietspiegel 2026](@/merkmale.md)
 
-Der Mietspiegel beruht auf Daten von einem früheren Stichtag (Mietspiegel 2024: 01.09.2023; Mietspiegel 2026: 01.09.2025). **Achtung bei Beginn zwischen dem 01.09.2025 und dem 27.05.2026:** Wegen des Stichtags 01.09.2025 kann ein Gericht nach unserem Verständnis auch den Mietspiegel 2026 nehmen oder einen Zuschlag rechnen. Dasselbe gilt bei Beginn zwischen dem 01.09.2023 und dem 29.05.2024 für den Mietspiegel 2024. Eine Gerichtsentscheidung genau dazu haben wir für die Mietpreisbremse nicht gefunden. Rechnen Sie dann mit beiden Mietspiegeln und lassen Sie sich beraten.
+**Achtung bei Beginn vom 01.09.2025 bis 27.05.2026:** Der Mietspiegel 2026 beruht auf Daten vom 01.09.2025. Ein Gericht kann deshalb nach unserem Verständnis auch ihn nehmen oder einen Zuschlag rechnen. Dasselbe gilt bei Beginn vom 01.09.2023 bis 29.05.2024 für den Mietspiegel 2024 (Daten vom 01.09.2023). Eine Gerichtsentscheidung genau dazu haben wir für die Mietpreisbremse nicht gefunden. Rechnen Sie mit beiden Mietspiegeln und lassen Sie sich beraten.
 
 ## Ausnahmen
 
-Die Mietpreisbremse gilt nicht immer:
+Mehr verlangen darf der Vermieter:
 
-- Höhere Vormiete: Schuldete der Mieter vor Ihnen zuletzt eine höhere Miete, darf der Vermieter bis zu dieser Höhe verlangen (§ 556e Abs. 1 BGB). Hat der Vormieter wegen Mängeln weniger gezahlt, zählt trotzdem die volle Miete. Eine Erhöhung, die der Vermieter im letzten Jahr vor dem Ende des alten Mietverhältnisses mit dem Vormieter vereinbart hat, zählt nicht. War schon die Miete des Vormieters nach der Mietpreisbremse zu hoch, zählt nur die Miete, die damals erlaubt war (BGH, Urteil vom 01.07.2026, VIII ZR 125/23, Rn. 25).
-- Modernisierung: Nach einer Modernisierung in den drei Jahren vor Mietbeginn darf die Grenze um einen bestimmten Betrag überschritten werden (§ 556e Abs. 2 BGB).
-- Neubau: Nicht für Wohnungen, die nach dem 01.10.2014 zum ersten Mal genutzt und vermietet wurden (§ 556f Satz 1 BGB).
-- Umfassende Modernisierung: Nicht für die erste Vermietung nach einer umfassenden Modernisierung (§ 556f Satz 2 BGB).
-- Kurze Zeit, Zimmer beim Vermieter, Wohnheim: Nicht für Wohnungen, die nur für kurze Zeit vermietet sind, für ein möbliertes Zimmer in der Wohnung, in der der Vermieter selbst wohnt, und für Studenten- oder Jugendwohnheime (§ 549 Abs. 2 und 3 BGB). Ob ein Vertrag nur „für kurze Zeit“ gilt, muss im Einzelfall geprüft werden. Lassen Sie sich beraten.
-- Alte Verträge: Nicht für Verträge, die vor dem 01.06.2015 geschlossen wurden (Art. 229 § 35 EGBGB).
+- bis zur Vormiete, also der Miete, die der Mieter vor Ihnen zuletzt schuldete, auch wenn er wegen Mängeln weniger zahlte (§ 556e Abs. 1 BGB). Eine Erhöhung, die im letzten Jahr vor dem Ende des alten Mietverhältnisses vereinbart wurde, zählt nicht. War schon die Vormiete nach der Mietpreisbremse zu hoch, zählt nur die damals erlaubte Miete (BGH, Urteil vom 01.07.2026, VIII ZR 125/23, Rn. 25).
+- nach einer Modernisierung in den drei Jahren vor Mietbeginn, um einen bestimmten Betrag (§ 556e Abs. 2 BGB).
 
-Will sich der Vermieter auf die Vormiete, eine Modernisierung, einen Neubau oder die erste Vermietung nach einer umfassenden Modernisierung berufen, muss er Sie **vor** dem Vertragsschluss unaufgefordert darüber informieren. Tut er das nicht, kann er sich darauf nicht berufen. Holt er die Auskunft später in Textform nach, kann er sich erst zwei Jahre danach darauf berufen. Hat er Sie vor dem Vertragsschluss nicht in Textform informiert, zum Beispiel nur mündlich, kann er sich erst darauf berufen, wenn er das in Textform nachholt (§ 556g Abs. 1a und 4 BGB). Für Mietverhältnisse, die bis zum 31.12.2018 entstanden sind, gilt diese Pflicht nicht (Art. 229 § 49 Abs. 2 EGBGB).
+Die Mietpreisbremse gilt nicht für:
+
+- Wohnungen, die nach dem 01.10.2014 zum ersten Mal genutzt und vermietet wurden (§ 556f Satz 1 BGB),
+- die erste Vermietung nach einer umfassenden Modernisierung (§ 556f Satz 2 BGB),
+- Wohnungen, die nur für kurze Zeit vermietet sind (ob das zutrifft, hängt vom Einzelfall ab, lassen Sie sich beraten), ein möbliertes Zimmer in der Wohnung, in der der Vermieter selbst wohnt, und Studenten- oder Jugendwohnheime (§ 549 Abs. 2 und 3 BGB),
+- Verträge, die vor dem 01.06.2015 geschlossen wurden (Art. 229 § 35 EGBGB).
+
+Auf Vormiete, Modernisierung, Neubau oder erste Vermietung nach umfassender Modernisierung kann sich der Vermieter grundsätzlich nur berufen, wenn er Sie **vor** dem Vertragsschluss unaufgefordert in Textform darüber informiert hat. Hat er Sie gar nicht informiert und holt die Auskunft in Textform nach, kann er sich erst zwei Jahre danach darauf berufen. Hat er Sie vorher nur ohne Textform informiert, zum Beispiel mündlich, kann er sich ab dem Nachholen in Textform darauf berufen (§ 556g Abs. 1a und 4 BGB). Für Mietverhältnisse, die bis zum 31.12.2018 entstanden sind, gilt diese Pflicht nicht (Art. 229 § 49 Abs. 2 EGBGB).
 
 ## Was Sie tun können
 
-1. Auskunft verlangen: Sie können vom Vermieter Auskunft über die Tatsachen verlangen, von denen die zulässige Miete abhängt, soweit Sie sie nicht selbst herausfinden können (§ 556g Abs. 3 BGB).
-2. Rügen, also sich beim Vermieter über die zu hohe Miete beschweren: Zu viel gezahlte Miete können Sie nur zurückverlangen, wenn Sie den Verstoß gerügt haben (§ 556g Abs. 2 BGB). Die Rüge muss in Textform sein, also zum Beispiel als Brief oder E-Mail (§ 556g Abs. 4 BGB). Hat der Vermieter Ihnen vor Vertragsschluss eine Auskunft gegeben, muss sich die Rüge darauf beziehen.
-3. Achten Sie auf die 30 Monate: Rügen Sie früh. Rügen Sie erst mehr als 30 Monate nach Beginn des Mietverhältnisses, bekommen Sie nur die Miete zurück, die nach der Rüge fällig wurde. Dasselbe gilt, wenn die Rüge erst nach dem Ende des Mietverhältnisses ankommt. Dann bekommen Sie **meist nichts mehr zurück**. Rügen Sie deshalb, solange Ihr Mietverhältnis noch läuft (§ 556g Abs. 2 BGB). Haben Sie den Vertrag vor dem 01.04.2020 geschlossen oder hat das Mietverhältnis davor begonnen, gilt vielleicht eine ältere Fassung dieser Regel (Art. 229 § 51 EGBGB). Lassen Sie sich dann beraten.
-4. Vor einer Zustimmung zu einer Mieterhöhung prüfen: Stimmen Sie später einer Mieterhöhung zu, gilt die neue Miete als vereinbart. Gegen diese neue Miete können Sie sich dann grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, Urteil vom 28.09.2022, VIII ZR 300/21). Prüfen Sie die Mietpreisbremse deshalb, bevor Sie zustimmen.
+1. Auskunft verlangen über die Tatsachen, von denen die zulässige Miete abhängt, soweit Sie sie nicht selbst herausfinden können (§ 556g Abs. 3 BGB).
+2. Rügen, also sich beim Vermieter über die zu hohe Miete beschweren, in Textform, zum Beispiel per Brief oder E-Mail. Nur dann bekommen Sie zu viel gezahlte Miete zurück (§ 556g Abs. 2 und 4 BGB). Hat der Vermieter Ihnen vor Vertragsschluss eine Auskunft gegeben, muss sich die Rüge darauf beziehen.
+3. Früh rügen, solange das Mietverhältnis läuft: Rügen Sie erst mehr als 30 Monate nach seinem Beginn oder kommt die Rüge erst nach seinem Ende an, bekommen Sie nur die Miete zurück, die nach der Rüge fällig wurde, nach dem Ende also **meist nichts mehr** (§ 556g Abs. 2 BGB). Wurde der Vertrag vor dem 01.04.2020 geschlossen oder begann das Mietverhältnis davor, gilt vielleicht eine ältere Fassung dieser Regel (Art. 229 § 51 EGBGB). Lassen Sie sich dann beraten.
+4. Vor einer Zustimmung zu einer Mieterhöhung prüfen: Danach gilt die neue Miete als vereinbart. Gegen sie können Sie sich dann grundsätzlich nicht mehr auf die Mietpreisbremse berufen (BGH, Urteil vom 28.09.2022, VIII ZR 300/21).
 
-Unser [Rechner](@/rechner.md) zeigt Ihnen die Vergleichsmiete. Für die Mietpreisbremse rechnen Sie davon plus 10 %. Das ist nur ein erster Anhaltspunkt. Geben Sie dort als Datum den Beginn Ihres Mietverhältnisses ein. Hat Ihr Mietverhältnis vor dem 30.05.2024 begonnen, kennt der Rechner den damals geltenden Mietspiegel nicht. Bei Beginn vom 01.09.2023 bis 29.05.2024 kann er nur den Mietspiegel 2024 zeigen (siehe oben).
-
-Die Mietpreisprüfstelle und die Mieterberatungen helfen bei der Prüfung. Adressen finden Sie unter [Hilfe und Beratung](@/hilfe.md).
+Einen ersten Anhaltspunkt gibt unser [Rechner](@/rechner.md): Geben Sie als Datum den Beginn Ihres Mietverhältnisses ein und rechnen Sie zur Vergleichsmiete 10 % dazu. Bei Beginn vom 01.09.2023 bis 29.05.2024 kann er nur den Mietspiegel 2024 zeigen. Bei der Prüfung helfen die Mietpreisprüfstelle und die Mieterberatungen: [Hilfe und Beratung](@/hilfe.md).

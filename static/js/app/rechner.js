@@ -313,6 +313,9 @@ function buildChecklist() {
       : null,
     paras(t("calc_features_intro")),
     callout("warn", t("calc_self_title"), h("p", {}, t("calc_self_text"))),
+    // burden of proof: one note for all features instead of one per feature (content rules.burden_of_proof)
+    c("rules.burden_of_proof.text") ? h("div", { class: "callout" }, h("p", { class: "callout__title", ...cl }, c("rules.burden_of_proof.title")),
+      h("div", cl, paras(c("rules.burden_of_proof.text")))) : null,
     h("label", { class: "choice" }, compareBox, h("span", {}, t("calc_compare_label"))),
     h("p", { class: "field__hint" }, t("calc_compare_hint")),
     ms().groups.map((g) => {
@@ -460,8 +463,7 @@ function stepNext() {
   return step(6, t("calc_step_compare"),
     field({ label: t("calc_demand_label"), hint: t("calc_demand_hint"), input: demandIn }),
     demandBox,
-    h("div", { class: "btn-row" }, links),
-    h("p", { class: "store-note" }, t("store_note")));
+    h("div", { class: "btn-row" }, links));
 }
 
 /* ---------------- wiring ---------------- */

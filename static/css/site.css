@@ -225,7 +225,7 @@ main :is(h1, h2, h3, h4) { hyphens: auto; }
   padding-block: var(--s-6); font-size: var(--fs-0); color: var(--c-ink-2);
 }
 .site-footer__grid { display: grid; gap: var(--s-5); }
-@media (min-width: 48rem) { .site-footer__grid { grid-template-columns: 2fr 1fr; } }
+@media (min-width: 48rem) { .site-footer__grid { grid-template-columns: 1fr 1fr; } }
 .site-footer p { max-inline-size: var(--measure); }
 .site-footer a { color: inherit; }
 
@@ -304,8 +304,8 @@ details > summary { cursor: pointer; color: var(--c-link); }
 details > summary:hover { color: var(--c-link-hover); }
 
 /* ---------- 5. Start page ---------- */
-.start-intro { display: grid; gap: var(--s-5); margin-block-end: var(--s-7); }
-.entry-list { list-style: none; margin: 0 0 var(--s-7); padding: 0; border-block-start: var(--bw-strong) solid var(--c-ink); }
+.start-path__title { font-size: var(--fs-3); margin-block: var(--s-7) var(--s-4); }
+.entry-list { list-style: none; margin: 0 0 var(--s-5); padding: 0; border-block-start: var(--bw-strong) solid var(--c-ink); }
 .entry-list li { margin: 0; border-block-end: var(--bw) solid var(--c-line); }
 .entry {
   display: grid; grid-template-columns: auto 1fr; gap: var(--s-1) var(--s-5);
@@ -327,10 +327,7 @@ details > summary:hover { color: var(--c-link-hover); }
   [dir="rtl"] .entry__go { transform: scaleX(-1); }
 }
 @media (max-width: 47.99rem) { .entry__go { display: none; } }
-.more-links { display: grid; gap: var(--s-4); }
-@media (min-width: 48rem) { .more-links { grid-template-columns: repeat(3, 1fr); } }
-.more-links a { font-weight: 600; }
-.more-links p { margin: var(--s-1) 0 0; color: var(--c-ink-2); font-size: var(--fs-0); }
+.start-scope { margin-block: 0 var(--s-5); }
 
 /* ---------- 6. Merkmale (feature catalogue) ---------- */
 .year-toggle { display: inline-flex; border: var(--bw-strong) solid var(--c-ink); border-radius: var(--r-2); overflow: hidden; margin-block: var(--s-2) var(--s-5); }
@@ -446,8 +443,6 @@ details > summary:hover { color: var(--c-link-hover); }
 .findings { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-3); }
 .findings > li { margin: 0; }
 .findings .callout { margin: 0; }
-
-.store-note { font-size: var(--fs-0); color: var(--c-ink-2); }
 
 .letter-pick { display: grid; gap: var(--s-2); }
 .letter-pick .choice { padding: var(--s-3); border: var(--bw) solid var(--c-line); border-radius: var(--r-2); background: var(--c-surface); }
