@@ -24,3 +24,5 @@ Each time you open a page, your browser technically sends your IP address to the
 ## Sources and date
 
 We checked the legal situation on 17 and 18 October 2026. It is based on the laws (above all the German Civil Code, Bürgerliches Gesetzbuch, BGB), the Berlin regulations, the official Mietspiegel and some court decisions that we have read in full. The sources are given in the text in each case. No lawyer has checked the texts so far. Laws and case law can change.
+
+The Wohnlage by address in the calculator comes from the open data “Wohnlagen nach Adressen zum Berliner Mietspiegel” ([2026](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2026-wfs-809faebe), [2024](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2024-wfs-eddbff85)) of the Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, licence [Datenlizenz Deutschland Zero 2.0](https://www.govdata.de/dl-de/zero-2-0), retrieved on 10 November 2026.

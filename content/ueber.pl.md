@@ -24,3 +24,5 @@ Przy każdym otwarciu strony twoja przeglądarka ze względów technicznych prze
 ## Źródła i stan
 
 Stan prawny sprawdziliśmy 17 i 18.10.2026. Podstawą są ustawy (przede wszystkim niemiecki kodeks cywilny, Bürgerliches Gesetzbuch, BGB), berlińskie rozporządzenia, urzędowe zwierciadło czynszów i kilka orzeczeń sądów, które przeczytaliśmy w pełnym brzmieniu. Źródła są podane w tekście. Adwokatka ani adwokat nie sprawdzili jeszcze tych tekstów. Ustawy i orzecznictwo mogą się zmienić.
+
+Lokalizacja (Wohnlage) według adresu w kalkulatorze pochodzi z otwartych danych „Wohnlagen nach Adressen zum Berliner Mietspiegel“ ([2026](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2026-wfs-809faebe), [2024](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2024-wfs-eddbff85)) Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, licencja [Datenlizenz Deutschland Zero 2.0](https://www.govdata.de/dl-de/zero-2-0), pobrano 10.11.2026.

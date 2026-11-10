@@ -26,6 +26,8 @@
   "urls": {
     "ms2026": {{ get_url(path="data/ms2026.json") | json_encode | safe }},
     "ms2024": {{ get_url(path="data/ms2024.json") | json_encode | safe }},
+    "wohnlage_2026": {{ get_url(path="data/wohnlage-2026.json") | json_encode | safe }},
+    "wohnlage_2024": {{ get_url(path="data/wohnlage-2024.json") | json_encode | safe }},
     "rules": {% if rules_exists %}{{ get_url(path="data/rules.json") | json_encode | safe }}{% else %}null{% endif %},
     "letters": {% if letters_exists %}{{ get_url(path="data/letters.json") | json_encode | safe }}{% else %}null{% endif %},
     "content_de": {% if cde_exists %}{{ get_url(path="i18n/content/de.json") | json_encode | safe }}{% else %}null{% endif %},

@@ -24,3 +24,5 @@ nav = true
 ## Джерела й актуальність
 
 Правову ситуацію ми перевірили 17.10.2026 і 18.10.2026. Основою є закони (насамперед Цивільний кодекс Німеччини, Bürgerliches Gesetzbuch, BGB), берлінські постанови, офіційний Mietspiegel і кілька судових рішень, які ми прочитали в повному тексті. Джерела вказано в тексті. Адвокатка чи адвокат ці тексти досі не перевіряли. Закони й судова практика можуть змінюватися.
+
+Wohnlage за адресою в калькуляторі взято з відкритих даних „Wohnlagen nach Adressen zum Berliner Mietspiegel“ ([2026](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2026-wfs-809faebe), [2024](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2024-wfs-eddbff85)) Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, ліцензія [Datenlizenz Deutschland Zero 2.0](https://www.govdata.de/dl-de/zero-2-0), завантажено 10.11.2026.

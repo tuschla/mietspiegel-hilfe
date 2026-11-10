@@ -74,10 +74,11 @@ The runner imports the same modules as the pages and checks:
 |---|---|
 | `content/` | Pages. German master `<slug>.md`, translations `<slug>.<lang>.md`. |
 | `templates/` | Zola templates. The start page, `rechner`, `pruefen`, `brief` and `merkmale` have their own; other pages use `page.html`. |
-| `static/js/lib/` | DOM-free modules (dates, money, § 558 check, Mietspiegel, letters, i18n), used by the pages and the tests. |
+| `static/js/lib/` | DOM-free modules (dates, money, § 558 check, Mietspiegel, letters, i18n, Wohnlage lookup), used by the pages and the tests. |
 | `static/js/app/` | Page scripts. |
 | `static/css/site.css` | All styles. Design tokens at the top; logical properties only, so RTL works. |
 | `static/data/ms2026.json`, `ms2024.json` | Mietspiegel tables and verbatim feature wording. |
+| `static/data/wohnlage-2026.json`, `wohnlage-2024.json` | Official Wohnlage of every Berlin address, compressed (street + PLZ, house number ranges). |
 | `static/data/rules.json` | § 558 parameters, date rules, Kappungsgrenze, validity dates, sources, test vectors. |
 | `static/data/letters.json` | German letter templates. |
 | `static/i18n/ui/<lang>.json` | UI strings. |
@@ -98,6 +99,20 @@ python3 tools/verify_data.py    # spot checks against the brochures; exit code 0
 
 The editions 2026 and 2024 are fixed in these scripts, the page scripts, the templates and `rules.json`. A new edition needs changes in all of them and a new `merkmale` page.
 
+## Wohnlage data
+
+`wohnlage-2026.json` and `wohnlage-2024.json` are built from the Senate's open data "Wohnlagen nach Adressen zum Berliner Mietspiegel 2026/2024" (WFS, Datenlizenz Deutschland – Zero 2.0, see `docs/sources.md`). The site serves them itself, so the lookup in `static/js/lib/wohnlage.js` runs in the browser and no address is sent anywhere.
+
+In the calculator, `static/js/app/wohnlage-finder.js` fetches the file of the selected edition only when the user starts typing a street (then cached for the page), suggests street names, asks for the PLZ only when the address exists under several, selects the Wohnlage and shows the Ost/West hint for the Baualter rows 1973 to 1990. The address is not stored. The page links to the Senate's lookup as the binding source.
+
+```sh
+python3 tools/build_wohnlage.py fetch    # download all addresses into tools/src/wohnlage/ (git-ignored)
+python3 tools/build_wohnlage.py build    # write static/data/wohnlage-<year>.json
+python3 tools/verify_wohnlage.py         # every downloaded address must resolve to its official Wohnlage; exit code 0 = pass
+```
+
+`--raw DIR` uses another download folder. The file format is described at the top of `tools/build_wohnlage.py`.
+
 ## Adding a language
 
 1. `config.toml`: add `[languages.<code>]` with `generate_feeds = false` and `build_search_index = false`, and an entry in `extra.languages` (`code`, `native`, `dir`).
@@ -114,3 +129,4 @@ Copyright (C) 2026 the Mietspiegel-Hilfe Berlin contributors.
 - Code (`static/js/`, `static/css/`, `templates/`, `tests/`, `tools/*.py`, `config.toml`): AGPL-3.0-or-later, see [`LICENSE`](LICENSE). If you run a modified version as a public website, you must offer its source to its users.
 - Text (`content/`, `static/i18n/`, `static/data/letters.json`, the texts in `static/data/rules.json`, `docs/`): CC BY-SA 4.0, see [`LICENSES/CC-BY-SA-4.0.txt`](LICENSES/CC-BY-SA-4.0.txt).
 - Not covered: the Mietspiegel tables and the verbatim wording in `ms2026.json` and `ms2024.json` (fields `text_de`, `conditions_de`, `note_de`, `rules_de`, `notes_de`), taken from the Berliner Mietspiegel [2026](https://mietspiegel.berlin.de/wp-content/uploads/2026/05/mietspiegel2026.pdf) and [2024](https://mietspiegel.berlin.de/wp-content/uploads/2024/11/mietspiegel2024.pdf) of the Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen. Quoted statutes and court decisions belong to their sources.
+- Address data in `wohnlage-2026.json` and `wohnlage-2024.json`: Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin, [Datenlizenz Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0).

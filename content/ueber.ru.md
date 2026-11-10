@@ -24,3 +24,5 @@ nav = true
 ## Источники и актуальность
 
 Правовое положение мы проверили 17 и 18.10.2026. Мы опираемся на законы (прежде всего Гражданский кодекс Германии, Bürgerliches Gesetzbuch, BGB), берлинские постановления, официальный Mietspiegel и некоторые судебные решения, которые мы прочитали в полном тексте. Источники указаны в тексте. Адвокат эти тексты пока не проверял. Законы и судебная практика могут меняться.
+
+Wohnlage по адресу в калькуляторе взята из открытых данных „Wohnlagen nach Adressen zum Berliner Mietspiegel“ ([2026](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2026-wfs-809faebe), [2024](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2024-wfs-eddbff85)) Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, лицензия [Datenlizenz Deutschland Zero 2.0](https://www.govdata.de/dl-de/zero-2-0), загружено 10.11.2026.

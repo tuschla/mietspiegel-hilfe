@@ -1,6 +1,7 @@
 // Calculator: Mietspiegel row + Orientierungshilfe netting, step by step.
 import { boot, store, h, paras, de, bdi, expr, field, callout, step, mount, fatal, id, liveStatus, markInvalid, reloadAfterClear } from "./common.js";
 import { scopeForm, scopeState, scopeNotice, readScope } from "./scope.js";
+import { wohnlageFinder } from "./wohnlage-finder.js";
 import {
   findRow, evaluate, featureApplies, blockedBy, exclusiveConflicts, disputes, featureIndex, energyBoxes, expandKennwert,
 } from "../lib/mietspiegel.js";
@@ -127,7 +128,11 @@ function stepYear() {
 /* ---------------- step 2: the flat ---------------- */
 const baualterSel = h("select", { dir: "ltr" }); // official German labels (each option has lang="de")
 const baualterNew = h("p", { class: "field__hint" });
+const baualterRegion = h("p", { class: "field__hint", id: id("region"), hidden: true });
 const minderBox = h("div", {});
+const wlRadios = {};
+let addrRegion = null; // "ost" | "west": Stadtteil of the address found by the Wohnlage finder
+let autoWohnlage = false; // the selected Wohnlage came from the finder, not from the user
 
 /** First year of completion that the edition no longer covers (e.g. 2025 for the Mietspiegel 2026). */
 function firstUncoveredYear() {
@@ -147,8 +152,40 @@ function fillBaualter() {
   if (!ms().dims.baualter.some((b) => b.id === s.baualter)) { s.baualter = ""; baualterSel.value = ""; }
   const y = firstUncoveredYear();
   baualterNew.textContent = y ? t("calc_baualter_new", { year: y, ms: ms().title_de }) : "";
+  renderRegion();
   return region;
 }
+
+/** Ost/West of the found address for the Baualter rows 1973 to 1990; flagged if the chosen row is
+ *  of the other side. Hidden if there is no address or the edition has no such rows. */
+function renderRegion() {
+  const rows = addrRegion ? ms().dims.baualter.filter((b) => b.region) : [];
+  baualterRegion.hidden = !rows.length;
+  if (!rows.length) { baualterRegion.replaceChildren(); return; }
+  const b = rows.find((x) => x.id === s.baualter);
+  const clash = Boolean(b && b.region !== addrRegion);
+  baualterRegion.replaceChildren(t(`calc_wl_region_${addrRegion}`), ...(clash ? [" ", h("span", { class: "field__error" }, t("calc_wl_region_clash"))] : []));
+}
+
+/** Result of the address lookup: select the Wohnlage it found; drop a selection it made earlier
+ *  once the address no longer resolves. A Wohnlage the user chose by hand stays. */
+function applyAddress({ wohnlage, stadtteil }) {
+  addrRegion = stadtteil ? stadtteil.toLowerCase() : null;
+  renderRegion();
+  if (wohnlage && wlRadios[wohnlage]) {
+    if (s.wohnlage === wohnlage && autoWohnlage) return;
+    s.wohnlage = wohnlage;
+    autoWohnlage = true;
+    wlRadios[wohnlage].checked = true;
+  } else if (!wohnlage && autoWohnlage) {
+    s.wohnlage = "";
+    autoWohnlage = false;
+    for (const r of Object.values(wlRadios)) r.checked = false;
+  } else return;
+  save(); update();
+}
+
+const finder = wohnlageFinder({ t, cfg, year: s.year, onResult: applyAddress });
 
 function renderMinder() {
   const ab = ms().abschlag;
@@ -168,20 +205,30 @@ function renderMinder() {
 function stepFlat() {
   const wl = h("fieldset", {}, h("legend", {}, t("calc_wohnlage_legend")),
     paras(t("calc_wohnlage_help"), { class: "field__hint" }),
-    h("p", { class: "field__hint" }, h("a", { href: cfg.wohnlage_lookup_url, target: "_blank", rel: "noopener noreferrer" }, t("calc_wohnlage_link")), " ", t("opens_new_tab")),
-    ms().dims.wohnlage.map((w) => h("label", { class: "choice" },
-      h("input", { type: "radio", name: "wohnlage", value: w.id, checked: s.wohnlage === w.id, onchange: () => { s.wohnlage = w.id; save(); update(); } }),
-      h("span", {}, t(`wohnlage_${w.id}`), " ", h("small", { lang: "de" }, `(${w.label_de})`)))));
+    finder.nodes,
+    ms().dims.wohnlage.map((w) => {
+      const r = h("input", { type: "radio", name: "wohnlage", value: w.id, checked: s.wohnlage === w.id,
+        onchange: () => { s.wohnlage = w.id; autoWohnlage = false; save(); update(); } });
+      wlRadios[w.id] = r;
+      // the UI term; other languages add the official German term
+      return h("label", { class: "choice" }, r,
+        h("span", {}, t(`wohnlage_${w.id}`), lang === "de" ? null : [" ", h("small", { lang: "de", dir: "ltr" }, `(${w.label_de})`)]));
+    }),
+    h("p", { class: "field__hint" }, t("calc_wl_binding"), " ",
+      h("a", { href: cfg.wohnlage_lookup_url, target: "_blank", rel: "noopener noreferrer" }, t("calc_wohnlage_link")), " ", t("opens_new_tab")));
 
-  baualterSel.addEventListener("change", () => { s.baualter = baualterSel.value; renderMinder(); refreshChecklist(); save(); update(); });
+  baualterSel.addEventListener("change", () => { s.baualter = baualterSel.value; renderMinder(); renderRegion(); refreshChecklist(); save(); update(); });
   areaIn.addEventListener("input", () => { s.area = areaIn.value; save(); update(); });
   fillBaualter();
   renderMinder();
+  const baualterField = field({ label: t("calc_baualter_label"), hint: t("calc_baualter_hint"), input: baualterSel });
+  baualterField.append(baualterRegion); // right under the select it refers to
+  baualterSel.setAttribute("aria-describedby", `${baualterSel.getAttribute("aria-describedby")} ${baualterRegion.id}`);
   return step(2, t("calc_step_flat"),
     h("div", { class: "callout" }, paras(t("calc_scope_intro")),
       scopeForm({ t, withAsk: false, items: CALC_SCOPE, onChange: () => { save(); update(); } })),
     wl,
-    field({ label: t("calc_baualter_label"), hint: t("calc_baualter_hint"), input: baualterSel }),
+    baualterField,
     baualterNew,
     field({ label: t("calc_area_label"), hint: t("calc_area_hint"), input: areaIn }),
     minderBox);
@@ -512,6 +559,7 @@ function rebuildForYear() {
   fillBaualter();
   renderMinder();
   buildChecklist();
+  finder.setYear(s.year);
 }
 
 if (!years.length) {

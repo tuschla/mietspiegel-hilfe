@@ -24,3 +24,5 @@ Bei jedem Seitenaufruf überträgt Ihr Browser technisch Ihre IP-Adresse an den 
 ## Quellen und Stand
 
 Die Rechtslage haben wir am 17. und 18.10.2026 geprüft. Grundlage sind die Gesetze (vor allem das Bürgerliche Gesetzbuch, BGB), die Berliner Verordnungen, der amtliche Mietspiegel und einige Gerichtsentscheidungen, die wir im vollen Wortlaut gelesen haben. Die Fundstellen stehen jeweils im Text. Eine Anwältin oder ein Anwalt hat die Texte bisher nicht geprüft. Gesetze und Rechtsprechung können sich ändern.
+
+Die Wohnlage nach Adresse im Rechner stammt aus den offenen Daten „Wohnlagen nach Adressen zum Berliner Mietspiegel“ ([2026](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2026-wfs-809faebe), [2024](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2024-wfs-eddbff85)) der Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen, Lizenz [Datenlizenz Deutschland Zero 2.0](https://www.govdata.de/dl-de/zero-2-0), abgerufen am 10.11.2026.

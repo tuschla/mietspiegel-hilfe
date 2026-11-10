@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 // Test runner: `node tests/run.mjs` or `bun tests/run.mjs` (from the site root or anywhere).
-// Uses the same ES modules as the browser (static/js/lib/*.js, static/js/app/scope.js, static/js/app/langsuggest.js).
+// Uses the same ES modules as the browser (static/js/lib/*.js, static/js/app/scope.js, static/js/app/langsuggest.js,
+// static/js/app/wohnlage-finder.js).
 //  1. all `tests` vectors from static/data/rules.json (§ 558 check + netting)
-//  2. fixed unit tests (date rules, brochure examples on the real Mietspiegel data, letters, language suggestion)
+//  2. fixed unit tests (date rules, brochure examples on the real Mietspiegel data, letters, language suggestion,
+//     Wohnlage lookup on the real address data and the calculator's Wohnlage finder messages)
 //  3. consistency: UI key parity, content keys for every feature id, letter placeholders, style lint of all texts
 //  4. if public/ exists: no external resources (scripts, styles, fonts, images) in the built site;
 //     every page carries the language suggestion list with links to existing translations
@@ -18,6 +20,8 @@ import { render, placeholders, prefill, letterValues, amountProblems, consentWar
 import { parseNumber, round } from "../static/js/lib/money.js";
 import { scopeState } from "../static/js/app/scope.js";
 import { pickSuggestion } from "../static/js/app/langsuggest.js";
+import { prepare as prepareWohnlage, lookup as lookupWohnlage, suggest as suggestStreet, parseHouseNumber, normalizeStreet } from "../static/js/lib/wohnlage.js";
+import { findAddress, describeLookup } from "../static/js/app/wohnlage-finder.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const p = (...xs) => join(ROOT, ...xs);
@@ -295,6 +299,81 @@ eq("O4 gefoerdert: scopeState → notMS", scopeState({ ask: "yes", items: { gefo
   eq("lang suggest: empty browser list → none", [pickSuggestion([], "de", all), pickSuggestion(undefined, "de", all), pickSuggestion([undefined], "de", all)], [null, null, null]);
   eq("lang suggest: case-insensitive, [PL] → pl", pickSuggestion(["PL"], "de", all), "pl");
   eq("lang suggest: available without the page language, [de] on de page → none", pickSuggestion(["de"], "de", ["tr"]), null);
+}
+// Wohnlage lookup (static/js/lib/wohnlage.js on static/data/wohnlage-<year>.json). Expected values are the
+// official ones from the raw WFS download of 10.11.2026; tools/verify_wohnlage.py checks all ~400 000 addresses.
+eq("wohnlage: street normalisation (Str./Straße/strasse, ß, umlauts, case, hyphens)",
+  ["Taborstr.", "taborstrasse", "TABORSTRASSE", "Taborstraße"].map(normalizeStreet).concat(normalizeStreet("Muellerstr") === normalizeStreet("Müllerstraße"), normalizeStreet("karl marx allee") === normalizeStreet("Karl-Marx-Allee")),
+  ["taborstr", "taborstr", "taborstr", "taborstr", true, true]);
+eq("wohnlage: house numbers 012a, 7 b, 12-14, abc",
+  ["012a", " 7 b ", "12-14", "abc", ""].map(parseHouseNumber),
+  [{ num: 12, suffix: "A" }, { num: 7, suffix: "B" }, { num: 12, suffix: "" }, null, null]);
+for (const [year, want] of [
+  [2024, { groll12: "mittel", dessauer38: "einfach", juni135: "mittel", kma1: "mittel" }],
+  [2026, { groll12: "einfach", dessauer38: "gut", juni135: "gut", kma1: "gut" }],
+]) {
+  const data = load(`static/data/wohnlage-${year}.json`);
+  if (!data) { bad(`wohnlage-${year}.json present`, `static/data/wohnlage-${year}.json is missing`); continue; }
+  const idx = prepareWohnlage(data);
+  const at = (street, nr, plz) => {
+    const r = lookupWohnlage(idx, street, nr, plz);
+    return r.found && !r.ambiguous ? [r.wohnlage, r.stadtteil, r.street, r.plz, r.hnr] : r.notFound || "ambiguous";
+  };
+  eq(`wohnlage ${year}: header (edition, licence dl-de/zero-2-0, > 395 000 addresses)`,
+    [data.edition, data.licence.id, data.counts.addresses > 395000], [year, "dl-de/zero-2-0", true]);
+  eq(`wohnlage ${year}: Taborstr. 6, 10997 → mittel, West`, at("Taborstr.", "6", "10997"), ["mittel", "West", "Taborstraße", "10997", "6"]);
+  eq(`wohnlage ${year}: taborstrasse 8a without PLZ → 8A mittel`, at("taborstrasse", "8a"), ["mittel", "West", "Taborstraße", "10997", "8A"]);
+  eq(`wohnlage ${year}: suffix with its own Wohnlage, Söhtstraße 7 / 7 b`, [at("Söhtstr.", "7"), at("Soehtstrasse", "7 b", "12203")],
+    [["mittel", "West", "Söhtstraße", "12203", "7"], ["gut", "West", "Söhtstraße", "12203", "7B"]]);
+  const near = lookupWohnlage(idx, "Söhtstraße", "7D");
+  eq(`wohnlage ${year}: Söhtstraße 7D not found, near 7, 7A, 7B`, [near.notFound, near.near.map((x) => `${x.hnr} ${x.wohnlage}`)], ["number", ["7 mittel", "7A mittel", "7B gut"]]);
+  eq(`wohnlage ${year}: odd/even sides, Grollstraße 11 / 12 / 12A (Ost)`, [at("Grollstraße", "11"), at("Grollstraße", "12")[0], at("Grollstraße", "12A")[0]],
+    [["mittel", "Ost", "Grollstraße", "13125", "11"], want.groll12, want.groll12]);
+  const amb = lookupWohnlage(idx, "Müllerstraße", "30");
+  eq(`wohnlage ${year}: Müllerstraße 30 without PLZ → ambiguous, 3 candidates`,
+    [amb.found, amb.ambiguous, amb.wohnlage, amb.candidates.map((c) => `${c.plz} ${c.wohnlage}`)],
+    [false, true, null, ["12207 mittel", "12623 gut", "13353 einfach"]]);
+  eq(`wohnlage ${year}: Muellerstr. 30, 13353 → einfach`, at("Muellerstr.", "30", "13353"), ["einfach", "West", "Müllerstraße", "13353", "30"]);
+  eq(`wohnlage ${year}: Hauptstr 1, 13591 (Staaken) → Ost`, at("Hauptstr", "1", "13591"), ["mittel", "Ost", "Hauptstraße", "13591", "1"]);
+  eq(`wohnlage ${year}: Dessauer Str. 38 ≠ Dessauerstr. 38`, [at("Dessauer Str.", "38")[3], at("Dessauer Str.", "38")[0], at("Dessauerstr.", "38")[3]], ["10963", want.dessauer38, "12249"]);
+  eq(`wohnlage ${year}: Str. des 17. Juni 135, karl marx allee 1`, [at("Str. des 17. Juni", "135")[0], at("karl marx allee", "1")[0]], [want.juni135, want.kma1]);
+  eq(`wohnlage ${year}: not found: street, PLZ, number, bad number`,
+    [at("Gibtsnichtstraße", "1"), at("Taborstraße", "6", "10115"), lookupWohnlage(idx, "Taborstraße", "6", "10115").plzs, at("Taborstraße", "99"), lookupWohnlage(idx, "Taborstraße", "abc").invalidNumber],
+    ["street", "plz", ["10997"], "number", true]);
+  eq(`wohnlage ${year}: suggestions for Tabor, Taborstra, marx`,
+    [suggestStreet(idx, "Tabor", 3).map((s) => `${s.street} ${s.plzs}`), suggestStreet(idx, "Taborstra", 3).map((s) => s.street), suggestStreet(idx, "marx", 3).map((s) => s.street)],
+    [["Taborstraße 10997"], ["Taborstraße"], ["Karl-Marx-Allee", "Karl-Marx-Platz", "Karl-Marx-Straße"]]);
+}
+// Wohnlage finder in the calculator (static/js/app/wohnlage-finder.js): what its status line says
+{
+  const data = load("static/data/wohnlage-2026.json");
+  const de = load("static/i18n/ui/de.json") || {};
+  if (data) {
+    const idx = prepareWohnlage(data);
+    const say = (street, nr, plz = "", hasSuggestions = false) => {
+      const f = findAddress(idx, street, nr, plz);
+      const d = describeLookup(f.res, { street: f.street, number: f.number, hasSuggestions });
+      return [d.key, d.vars.address ?? null, d.wohnlage, d.stadtteil, f.choose ? f.choose.map((c) => c.plz) : null];
+    };
+    const tabor = ["calc_wl_found", "Taborstraße 6, 10997", "mittel", "West", null];
+    eq("wohnlage finder: Taborstr 6 → found mittel, West", say("Taborstr", "6"), tabor);
+    eq("wohnlage finder: number typed into the street field, Taborstraße 6", say("Taborstraße 6", ""), tabor);
+    eq("wohnlage finder: a PLZ chosen for another address is ignored", say("Taborstraße", "6", "13353"), tabor);
+    const m30 = ["12207", "12623", "13353"];
+    eq("wohnlage finder: Müllerstraße 30 → choose the PLZ", say("Müllerstraße", "30"), ["calc_wl_ambiguous", "Müllerstraße 30", null, null, m30]);
+    eq("wohnlage finder: Müllerstraße 30, PLZ 13353 → einfach, choice stays", say("Müllerstraße", "30", "13353"), ["calc_wl_found", "Müllerstraße 30, 13353", "einfach", "West", m30]);
+    eq("wohnlage finder: Taborstraße 99 → not listed", say("Taborstraße", "99"), ["calc_wl_number_unknown", "Taborstraße 99", null, null, null]);
+    const near = describeLookup(findAddress(idx, "Söhtstraße", "7d").res, { street: "Söhtstraße", number: "7d" });
+    eq("wohnlage finder: Söhtstraße 7d → not listed, 7, 7A, 7B are", [near.key, near.vars.address, near.vars.near], ["calc_wl_number_near", "Söhtstraße 7D", "7, 7A, 7B"]);
+    eq("wohnlage finder: number missing / unreadable",
+      [say("Taborstraße", "")[0], say("Taborstraße", "abc")[0]], ["calc_wl_number_missing", "calc_wl_number_invalid"]);
+    eq("wohnlage finder: half-typed street is quiet, asks to pick once a number is typed, unknown street",
+      [say("Tabor", "", "", true)[0], say("Tabor", "6", "", true)[0], say("Gibtsnichtstraße", "1")[0]], [null, "calc_wl_street_pick", "calc_wl_street_unknown"]);
+    const keys = ["calc_wl_found", "calc_wl_ambiguous", "calc_wl_number_unknown", "calc_wl_number_near", "calc_wl_number_missing",
+      "calc_wl_number_invalid", "calc_wl_street_pick", "calc_wl_street_unknown", "calc_wl_region_ost", "calc_wl_region_west"];
+    const missing = keys.filter((k) => !(k in de));
+    missing.length ? bad("wohnlage finder: its UI keys exist in ui/de.json", missing.join(", ")) : ok("wohnlage finder: its UI keys exist in ui/de.json");
+  }
 }
 
 /* ---------- 3. consistency ---------- */

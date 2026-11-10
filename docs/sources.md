@@ -218,3 +218,17 @@ Beleg für das Kästchen `scope_item_gefoerdert` (`NOT_MS` in `static/js/app/sco
 - § 556g Abs. 1a S. 2–4 und Abs. 4 BGB; Art. 229 § 49 Abs. 2 S. 1 EGBGB: „Auf ein bis einschließlich 31. Dezember 2018 entstandenes Mietverhältnis ist § 556g Absatz 1a des Bürgerlichen Gesetzbuchs nicht anzuwenden.“
 - BGH, Beschluss vom 26.04.2016, VIII ZR 54/15, Rn. 8–12, https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2015/VIII_ZR__54-15.pdf?__blob=publicationFile&v=1 (Reihenendhaus, Berliner Mietspiegel 2011). BGH, Urteil vom 17.09.2008, VIII ZR 58/08, Leitsatz; den Volltext nur als Wiedergabe auf lexetius.com gelesen.
 - Senatsseite „Städtische Wohnungsbaugesellschaften“ im Wayback-Archiv, Stand 30.01.2025 und 22.05.2025 (vor dem Bündnis 2025): „… kann bei Mieterhöhungen nach § 558 BGB … die Miete in einzelnen Verträgen um maximal 11 % innerhalb von drei Jahren steigen.“ Das ist der Beleg für `lwu.valid_from` vor Juli 2025. Ein Beleg genau für den 01.01.2024 fehlt weiterhin.
+
+## Data – Wohnlage nach Adressen (`static/data/wohnlage-2026.json`, `static/data/wohnlage-2024.json`)
+
+Opened and downloaded on 2026-11-10 (2024 from 13:10, 2026 from 13:11 CET). The raw download lives in `tools/src/wohnlage/` (git-ignored); `tools/build_wohnlage.py` fetches and rebuilds, `tools/verify_wohnlage.py` checks every address.
+
+| Edition | Dataset page | WFS 2.0.0 (typeName) | Features | Metadata |
+|---|---|---|---|---|
+| 2026 | https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2026-wfs-809faebe (published 28.05.2026, valid 28.05.2026–28.05.2028) | https://gdi.berlin.de/services/wfs/wohnlagenadr2026 (`wohnlagenadr2026:wohnlagenadr2026`) | 400 505 | https://gdi.berlin.de/geonetwork/geonetwork/api/records/809faebe-6fa8-4cf6-a1d9-e90b6fe8c490 |
+| 2024 | https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2024-wfs-eddbff85 (published 30.05.2024, updated 10.06.2024) | https://gdi.berlin.de/services/wfs/wohnlagenadr2024 (`wohnlagenadr2024:wohnlagenadr2024`) | 401 095 | https://gdi.berlin.de/geonetwork/geonetwork/api/records/eddbff85-7d58-37a3-9578-d68425654e24 |
+
+- Publisher: Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin. Licence on both dataset pages and in the 2026 service metadata: Datenlizenz Deutschland – Zero – Version 2.0 (https://www.govdata.de/dl-de/zero-2-0): "Jede Nutzung ist ohne Einschränkungen oder Bedingungen zulässig."
+- Fields (DescribeFeatureType): `schluessel`, `bezname` (Bezirk), `plz`, `strasse`, `hnr` (zero-padded, capital letter suffix: "006", "008A"), `wol` (einfach/mittel/gut), `stadtteil` (Ost/West), `plr_name` (LOR Planungsraum), `geom` (point, EPSG:25833). No noise or other columns. Kept: `strasse`, `plz`, `hnr`, `wol`, `stadtteil` (Mietspiegel split of Baualter 1973–1990 Ost/West), `bezname` (display).
+- Both editions: no empty field, no duplicate address, no house number other than digits plus at most one capital letter.
+- The brochure names the street index in the Amtsblatt as the binding assignment (2026: Amtsblatt 28.05.2026; 2024: 30.05.2024); the WFS is the Senate's machine-readable form of that list. [INFERENCE] Differences between the two were not checked.

@@ -24,3 +24,5 @@ nav = true
 ## المصادر والوضع الحالي
 
 فحصنا الوضع القانوني في 17 و18.10.2026. الأساس هو القوانين (خاصة القانون المدني الألماني Bürgerliches Gesetzbuch، BGB)، ولوائح ولاية برلين، وجدول الإيجارات الرسمي، وبعض قرارات المحاكم التي قرأناها بنصها الكامل. المراجع مذكورة في كل نص. لم تفحص محامية أو محامٍ النصوص حتى الآن. القوانين وأحكام القضاء قد تتغير.
+
+موقع السكن حسب العنوان في الحاسبة مأخوذ من البيانات المفتوحة „Wohnlagen nach Adressen zum Berliner Mietspiegel“ ([2026](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2026-wfs-809faebe)، [2024](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2024-wfs-eddbff85)) الصادرة عن Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen، بترخيص [Datenlizenz Deutschland Zero 2.0](https://www.govdata.de/dl-de/zero-2-0)، تاريخ التنزيل 10.11.2026.

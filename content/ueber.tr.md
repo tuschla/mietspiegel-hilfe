@@ -24,3 +24,5 @@ Bir sayfayı her açtığınızda tarayıcınız teknik olarak IP adresinizi sun
 ## Kaynaklar ve güncellik
 
 Hukuki durumu 17. ve 18.10.2026 tarihlerinde kontrol ettik. Dayanaklarımız yasalar (özellikle Alman Medeni Kanunu, Bürgerliches Gesetzbuch, BGB), Berlin yönetmelikleri, resmî Mietspiegel ve tam metnini okuduğumuz bazı mahkeme kararlarıdır. Kaynaklar her zaman metnin içinde yer alır. Metinleri şimdiye kadar bir avukat kontrol etmedi. Yasalar ve içtihat değişebilir.
+
+Hesaplayıcıdaki adrese göre konum (Wohnlage), Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen'in açık verisi „Wohnlagen nach Adressen zum Berliner Mietspiegel“ ([2026](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2026-wfs-809faebe), [2024](https://daten.berlin.de/datensaetze/wohnlagen-nach-adressen-zum-berliner-mietspiegel-2024-wfs-eddbff85)) kaynaklıdır; lisans: [Datenlizenz Deutschland Zero 2.0](https://www.govdata.de/dl-de/zero-2-0), indirme tarihi 10.11.2026.
